@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Investigación | Virufy</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Virufy - evalua tu riesgo a COVID-19 con
+      nuestro app desarollado con tecnología de IA usando tu smartphone. Un
+      proyecto del Laboratorio de Innovación de Respuesta COVID-19 de Stanford."
+    />
+    <meta name="author" content="Team Virufy" />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="icon" href="../img/favicon.png" type="image/x-icon" />
+    <!-- Cookie consent banner - Cookiebot -->
+    <script
+      id="Cookiebot"
+      src="https://consent.cookiebot.com/uc.js"
+      data-cbid="fb5fec28-28e3-45e9-baa6-51f9f62f936b"
+      data-blockingmode="auto"
+      type="text/javascript"
+    ></script>
+    <!-- Hotjar Tracking Code for virufy.org -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 1878866, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script data-cookieconsent="ignore">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("consent", "default", {
+        ad_storage: "denied",
+        analytics_storage: "denied",
+        wait_for_update: 500,
+      });
+      gtag("set", "ads_data_redaction", true);
+    </script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-165690517-3"
+    ></script>
+    <script data-cookieconsent="ignore">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-165690517-3");
+    </script>
+    <script defer src="../scripts/index.js"></script>
+  </head>
+  <body class="text-gray-100 font-body overscroll-none">
+    <!-- Nav section -->
+    <section class="relative">
+      <nav class="flex items-center justify-between wrapper md:py-4">
+        <!-- Virufy logo -->
+        <div>
+          <a href="./index.html">
+            <img
+              class="logo"
+              src="../img/logos/virufy-logo.svg"
+              alt="Virufy logo"
+            />
+          </a>
+        </div>
+        <!-- Container for right side of nav -->
+        <div class="flex">
+          <!-- Mobile language button -->
+          <div class="inline-block mr-6">
+            <button
+              id="mobile-lng-btn"
+              class="px-3 py-1 text-sm border rounded lg:hidden button text-secondary-200 border-secondary-200"
+            >
+              Español
+            </button>
+          </div>
+          <!-- Mobile language menu -->
+          <div class="hidden text-center mobile-menu" id="mobile-lng-menu">
+            <section class="px-4 py-4">
+              <span class="inline-block text-base gray-200 text"
+                >Seleccione el idioma</span
+              >
+            </section>
+            <!-- TODO: Add links to translated pages -->
+            <a href="./../research.html">
+              <section
+                class="px-4 py-4 border-t border-gray-200 hover:bg-teal-100"
+              >
+                <span>English</span>
+              </section>
+            </a>
+            <a href="./../br/research.html">
+              <section
+                class="px-4 py-4 border-t border-gray-200 hover:bg-teal-100"
+              >
+                <span>Português</span>
+              </section>
+            </a>
+            <a href="./../hi/research.html">
+              <section
+                class="px-4 py-4 border-t border-gray-200 hover:bg-teal-100"
+              >
+                <span>हिन्दी</span>
+              </section>
+            </a>
+            <a href="./../jp/research.html">
+              <section
+                class="px-4 py-4 border-t border-gray-200 hover:bg-teal-100"
+              >
+                <span>日本語</span>
+              </section>
+            </a>
+
+            <!--
+              TODO: If we want to implement saving, we  need to enable
+              cookies to store the user's language preferences
+            <section
+              class="flex justify-center px-4 py-8 border-t border-gray-200"
+            >
+              <button class="w-full px-8 py-2 text-white rounded bg-primary"
+              id="mobile-save-btn">
+                Save
+              </button>
+            </section>
+            -->
+          </div>
+
+          <!-- Mobile nav menu icon -->
+          <div class="inline-block cursor-pointer lg:hidden" id="menu-icon">
+            <svg
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              class="w-6 menu"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              ></path>
+            </svg>
+          </div>
+          <!-- Mobile nav close icon -->
+          <div
+            class="hidden inline-block cursor-pointer lg:hidden"
+            id="close-icon"
+          >
+            <svg
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              class="w-6 x"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"
+              ></path>
+            </svg>
+          </div>
+        </div>
+        <!-- End of container -->
+
+        <!-- Mobile Nav -->
+        <div class="hidden px-6 mobile-menu" id="mobile-nav">
+          <section class="px-4 py-4 border-t border-gray-200">
+            <div class="flex mt-4">
+              <a href="./mission.html" class="w-1/2">
+                <span>Misión</span>
+              </a>
+              <a href="./research.html" class="w-1/2">
+                <span>Nuestra investigación</span>
+              </a>
+            </div>
+            <div class="flex mt-2">
+              <a href="./team.html" class="w-1/2">
+                <span>Nuestro equipo</span>
+              </a>
+              <a href="../join.html">
+                <span>Únete a nosotros</span>
+              </a>
+            </div>
+            <div hidden class>
+              <div class="flex mt-2">
+                <a href="./data.html">
+                  <span>Datos abiertos</span>
+                </a>
+              </div>
+            </div>
+          </section>
+          <section
+            class="flex justify-center px-4 py-8 border-t border-gray-200"
+          >
+            <a
+              target="_blank"
+              href="https://form.jotform.com/203165542475152?language=es"
+            >
+              <button class="w-full px-8 py-2 text-white rounded bg-primary">
+                Dona tu tos
+              </button>
+            </a>
+          </section>
+        </div>
+
+        <!-- Desktop Nav -->
+        <ul
+          class="items-baseline justify-between hidden w-3/4 2xl:w-1/2 lg:flex"
+        >
+          <li>
+            <a href="./mission.html"> <span>Misión</span></a>
+          </li>
+          <li>
+            <a href="./team.html">
+              <span>Nuestro equipo</span>
+            </a>
+          </li>
+          <li hidden class>
+            <a href="./data.html">
+              <span>Datos abiertos</span>
+            </a>
+          </li>
+          <li>
+            <a href="./research.html">
+              <span>Nuestra investigación</span>
+            </a>
+          </li>
+          <li>
+            <a href="../join.html">
+              <span>Únete a nosotros</span>
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://form.jotform.com/203165542475152?language=es"
+            >
+              <button
+                class="px-4 py-1 border rounded text-secondary-200 border-secondary-200"
+              >
+                Dona tu tos
+              </button>
+            </a>
+          </li>
+          <!-- Language Dropdown -->
+          <div class="relative inline-block group">
+            <button
+              class="px-4 py-1 overflow-visible border rounded text-secondary-200 border-secondary-200"
+            >
+              Español
+            </button>
+            <div class="desktop-hover-menu">
+              <a class="pb-2" href="./../research.html">English</a>
+              <a class="pb-2" href="./../br/research.html">Português</a>
+              <a class="pb-2" href="./../hi/research.html">हिन्दी</a>
+              <a class="pb-2" href="./../jp/research.html">日本語</a>
+            </div>
+          </div>
+        </ul>
+      </nav>
+    </section>
+    <!-- End of nav section -->
+
+    <main class="relative">
+      <header class="flex justify-between mb-24 md:mb-64 wrapper">
+        <div class="w-full md:mt-20">
+          <h1 class="mb-6 text-5xl font-bold text-gray-300 font-heading">
+            Investigación
+          </h1>
+          <p class="text-xl">
+            ¡Aprende más sobre cómo funciona nuestra investigación!
+          </p>
+        </div>
+      </header>
+      <img
+        src="../img/research/header-image.png"
+        alt="Illustration of computer monitor"
+        class="absolute top-0 right-0 hidden w-full mt-16 md:block -z-10"
+      />
+
+      <section class="my-10 wrapper">
+        <h2 class="mb-4 text-3xl font-bold text-gray-200">¿Cómo funcionará?</h2>
+        <p class="max-w-3xl">
+          Basándose en la investigación clínica sobre la clasificación de los
+          sonidos de la tos de prestigiosas instituciones como CMU, MIT y
+          Cambridge, Virufy está desarrollando un algoritmo de IA para predecir
+          con precisión una infección por COVID-19 en cuestión de minutos
+          basándose en los registros de los sonidos de la tos.
+        </p>
+      </section>
+
+      <section class="my-20 wrapper">
+        <div class="my-4 border border-gray-400 rounded">
+          <div class="relative flex items-center justify-end">
+            <button
+              onclick="collapse(this)"
+              type="button"
+              style="padding-right: 3rem"
+              class="w-full px-4 py-2 font-bold text-left border-b border-gray-400"
+            >
+              ¿Cómo ayudará Virufy a recoger muestras de la tos?
+            </button>
+            <img
+              class="absolute"
+              style="right: 1rem"
+              src="../img/research/expand.png"
+              alt="expand/collapse icon"
+            />
+          </div>
+
+          <div
+            class="overflow-hidden"
+            style="max-height: 0; transition: max-height 200ms ease-out"
+          >
+            <p class="mx-4 my-6">
+              El sonido de la tos y la respiración ha sido utilizado durante
+              mucho tiempo por los profesionales de la medicina para evaluar la
+              salud respiratoria y para diagnosticar diversas enfermedades.
+              Antes de la pandemia del COVID-19, el personal médico recolectaba
+              estos sonidos de un paciente y posteriormente hacía un diagnóstico
+              a través de visitas en persona al consultorio. Aunque este método
+              de diagnóstico, que antes era común, ahorra tiempo y dinero, la
+              viabilidad de un diagnóstico en persona de COVID-19 a través de la
+              tos y la respiración de un paciente es casi nula debido a la
+              esencialidad del distanciamiento social y la limitación del
+              personal médico durante esta pandemia.
+            </p>
+            <p class="mx-4 my-6">
+              Sin embargo, con la difusión de la Inteligencia Artificial (IA) en
+              la tecnología de diagnóstico, puede ser posible diagnosticar el
+              COVID-19 a través de una simple grabación de la tos en una
+              aplicación de teléfono inteligente. Debido a la capacidad de los
+              algoritmos de la IA de captar patrones diminutos -aún
+              distinguibles- en las características de audio, la IA ha podido
+              exhibir una alta sensibilidad y especificidad en la clasificación
+              de las enfermedades respiratorias [<a
+                href="#1"
+                class="text-primary"
+                >1</a
+              >, <a href="#2" class="text-primary">2</a>,
+              <a href="#3" class="text-primary">3</a>,
+              <a href="#4" class="text-primary">4</a>,
+              <a href="#5" class="text-primary">5</a>
+              ]. Entre los ejemplos anteriores de modelos de diagnóstico de la
+              IA que han tenido éxito se incluyen los que diagnostican
+              sibilancias y ronquidos [<a href="#9" class="text-primary">9</a>],
+              tos ferina [<a href="#3" class="text-primary">3</a>], asma [<a
+                href="#1"
+                class="text-primary"
+                >1</a
+              >] y neumonía [<a href="#1" class="text-primary">1</a>], todos los
+              cuales utilizaron la firma respiratoria única de cada enfermedad
+              para diferenciar los casos positivos.
+            </p>
+          </div>
+        </div>
+        <div class="my-4 border border-gray-400 rounded">
+          <div class="relative flex items-center justify-end">
+            <button
+              onclick="collapse(this)"
+              type="button"
+              style="padding-right: 3rem"
+              class="w-full px-4 py-2 font-bold text-left border-b border-gray-400"
+            >
+              ¿Cómo se podría reconocer la tos del COVID-19?
+            </button>
+            <img
+              class="absolute"
+              style="right: 1rem"
+              src="../img/research/expand.png"
+              alt="expand/collapse icon"
+            />
+          </div>
+
+          <div
+            class="overflow-hidden"
+            style="max-height: 0; transition: max-height 200ms ease-out"
+          >
+            <p class="mx-4 my-6">
+              Al igual que todas las demás enfermedades respiratorias, el
+              COVID-19 crea una señal respiratoria única en la garganta y los
+              pulmones que se distingue de otras infecciones respiratorias que
+              producen una tos húmeda. Por consiguiente, se ha sugerido que los
+              sonidos de la tos pueden ser analizados para detectar el COVID-19.
+              A nivel mundial, esta idea está siendo investigada activamente por
+              varias instituciones prestigiosas, incluyendo CMU[8], MIT[<a
+                href="#10"
+                class="text-primary"
+                >10</a
+              >] y Cambridge[<a href="#7" class="text-primary">7</a>]. Por
+              ejemplo, una investigación de crowdsource realizada por la
+              Universidad de Cambridge demostró que un simple clasificador
+              binario de aprendizaje de máquinas es capaz de clasificar a los
+              pacientes positivos para COVID-19 a través de los sonidos de la
+              respiración y la tos con gran precisión (AUC = 0,7)[<a
+                href="#7"
+                class="text-primary"
+                >7</a
+              >]. De manera similar, los investigadores de la CMU identificaron
+              18 características de la voz que distinguen a los pacientes
+              positivos para COVID-19 y entrenaron un modelo para diagnosticar
+              COVID-19 con una precisión del 89.1%[<a
+                href="#8"
+                class="text-primary"
+                >8</a
+              >].
+            </p>
+          </div>
+        </div>
+        <div class="my-4 border border-gray-400 rounded">
+          <div class="relative flex items-center justify-end">
+            <button
+              onclick="collapse(this)"
+              type="button"
+              style="padding-right: 3rem"
+              class="w-full px-4 py-2 font-bold text-left border-b border-gray-400"
+            >
+              ¿Cómo el algoritmo de la IA de Virufy predecirá un diagnóstico de
+              COVID-19?
+            </button>
+            <img
+              class="absolute"
+              style="right: 1rem"
+              src="../img/research/expand.png"
+              alt="expand/collapse icon"
+            />
+          </div>
+          <div
+            class="overflow-hidden"
+            style="max-height: 0; transition: max-height 200ms ease-out"
+          >
+            <p class="mx-4 my-6">
+              Basándose en esta investigación pasada, Virufy está desarrollando
+              un algoritmo de IA que puede ser usado para predecir con precisión
+              una infección por COVID-19 en cuestión de minutos, basándose en
+              grabaciones de sonidos de tos. Sin embargo, a diferencia de las
+              anteriores investigaciones sobre la tos de COVID-19 que se
+              centraban en la población de los Estados Unidos, Virufy tiene como
+              objetivo recopilar datos de múltiples sitios en todo el mundo.
+              Como iniciativa dirigida por estudiantes y con voluntarios que
+              abarcan varios países, Virufy está desarrollando un modelo de
+              diagnóstico de COVID-19 con una mayor inclusividad racial y
+              geográfica a través de datos que incluyen una gama de etnias y
+              diferencias fonológicas específicas de la comunidad.
+            </p>
+            <p class="mx-4 my-6">
+              Actualmente, Virufy ha desarrollado un modelo con una precisión
+              del 80% con datos clínicos derivados de varios países y que
+              abarcan múltiples etnias. Sin embargo, aunque nuestro modelo es de
+              alta precisión, reconocemos que esto no es suficiente. Necesitamos
+              tu tos para perfeccionar nuestro modelo y, en última instancia,
+              desarrollar un modelo de diagnóstico de COVID-19 gratuito que
+              pueda proporcionar fácil e instantáneamente un diagnóstico de
+              COVID-19 a través de una aplicación para smartphones.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-gray-100">
+        <div class="pt-20 pb-10 wrapper">
+          <h2 class="max-w-3xl mb-4 text-2xl font-bold text-gray-200">
+            A continuación se presentan algunos ejemplos de proyectos de
+            investigación que nos dan confianza en el objetivo de desarrollar un
+            algoritmo de IA para ser usado en la detección de COVID-19:
+          </h2>
+          <div class="flex flex-wrap">
+            <div class="w-full my-10 md:w-1/2">
+              <div class="flex">
+                <div
+                  class="flex content-center justify-center mr-2 rounded-full bg-primary"
+                  style="min-width: 35px; height: 35px"
+                >
+                  <img
+                    class="object-contain"
+                    src="../img/research/data.png"
+                    alt="data"
+                  />
+                </div>
+                <h2 class="mb-4 text-xl font-bold text-gray-200 md:w-11/12">
+                  Fuente de datos
+                </h2>
+              </div>
+              <div style="width: calc(100% - (35px + 0.5rem))" class="ml-auto">
+                <p class="md:w-11/12">
+                  Investigación masiva de la Universidad de Cambridge que
+                  utilizó muestras de tos y aliento para comprender cómo los
+                  sonidos del COVID-19 son discernibles en personas con asma o
+                  controles sanos. Sus resultados muestran que incluso un
+                  clasificador binario de aprendizaje automático simple es capaz
+                  de clasificar correctamente los sonidos COVID-19 y saludables.
+                  Nuestros modelos alcanzan un AUC Por encima del 70% en todas
+                  las tareas. Este trabajo inspira investigación adicional sobre
+                  cómo los patrones de respiración analizados automáticamente
+                  pueden usarse como sinapsis de preselección para ayudar en el
+                  no diagnóstico de COVID-19 [<a href="#7" class="text-primary"
+                    >7</a
+                  >].
+                </p>
+              </div>
+            </div>
+            <div class="w-full my-10 md:w-1/2">
+              <div class="flex">
+                <div
+                  class="flex content-center justify-center mr-2 rounded-full bg-primary"
+                  style="min-width: 35px; height: 35px"
+                >
+                  <img
+                    class="object-contain"
+                    src="../img/research/balloon.png"
+                    alt="speech balloon"
+                  />
+                </div>
+                <h2 class="mb-4 text-xl font-bold text-gray-200 md:w-11/12">
+                  Detector de voz COVID
+                </h2>
+              </div>
+              <div style="width: calc(100% - (35px + 0.5rem))" class="ml-auto">
+                <p class="md:w-11/12">
+                  Un estudio de la Universidad Carnegie Mellon tenía como
+                  objetivo recoger un gran número de muestras de voz para
+                  entrenar la IA para el diagnóstico de COVID. El fundamento del
+                  estudio es que "el sonido de nuestra voz (independientemente
+                  del idioma), y los sonidos que hacemos cuando respiramos o
+                  tosemos cambian cuando nuestro sistema respiratorio se ve
+                  afectado". Los cambios van desde cambios gruesos y claramente
+                  audibles, hasta cambios diminutos - lo que llamamos "micro"
+                  señales, que no son audibles para el oyente no entrenado, pero
+                  que sin embargo están presentes" [<a
+                    href="#8"
+                    class="text-primary"
+                    >8</a
+                  >].
+                </p>
+              </div>
+            </div>
+            <div class="w-full my-10 md:w-1/2">
+              <div class="flex">
+                <div
+                  class="flex content-center justify-center mr-2 rounded-full bg-primary"
+                  style="min-width: 35px; height: 35px"
+                >
+                  <img
+                    class="object-contain"
+                    src="../img/research/phone.png"
+                    alt="phone"
+                  />
+                </div>
+                <div>
+                  <h2 class="mb-4 text-xl font-bold text-gray-200 md:w-11/12">
+                    Hola Sigma, ¿tengo el Coronavirus? Convocatoria para un
+                    nuevo enfoque de inteligencia artificial para apoyar a los
+                    profesionales de la salud que tratan con la pandemia de
+                    COVID-19.
+                  </h2>
+                </div>
+              </div>
+              <div style="width: calc(100% - (35px + 0.5rem))" class="ml-auto">
+                <p class="md:w-11/12">
+                  El Departamento de Ingeniería Mecánica del MIT propone
+                  detectar los casos positivos de COVID recogiendo muestras de
+                  tos a través del teléfono para entrenar la inteligencia
+                  artificial y posteriormente construir un algoritmo de
+                  diagnóstico [<a href="#10" class="text-primary">10</a>].
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-10 wrapper">
+        <h2 class="max-w-3xl text-2xl font-bold text-gray-200">
+          ¡La Inteligencia Artificial ha sido usada en el pasado para el
+          diagnóstico!
+        </h2>
+        <div class="flex flex-wrap">
+          <div class="w-full my-10 md:w-1/2">
+            <h2 class="mb-4 text-xl font-bold text-gray-200 md:w-11/12">
+              Análisis del sonido de la tos para la clasificación de la neumonía
+              y el asma en la población pediátrica
+            </h2>
+
+            <p class="md:w-11/12">
+              En este estudio se utilizó la IA para distinguir entre la tos del
+              asma y la neumonía, con el objetivo de prestar asistencia médica a
+              los países en desarrollo de escasos recursos. Su método alcanzó
+              una sensibilidad del 89%, una especificidad del 100% y un Kappa
+              del 0,89. Sus resultados muestran el uso potencial de la IA en la
+              detección y diferenciación de los sonidos respiratorios [<a
+                href="#1"
+                class="text-primary"
+                >1</a
+              >].
+            </p>
+          </div>
+          <div class="w-full my-10 md:w-1/2">
+            <h2 class="mb-4 text-xl font-bold text-gray-200 md:w-11/12">
+              Un algoritmo basado en la tos para el diagnóstico automático de la
+              tos ferina
+            </h2>
+
+            <p class="md:w-11/12">
+              Este estudio utiliza la tos de la tos ferina, el crup y la
+              congestión nasal, que corresponden a otras enfermedades como la
+              bronquiolitis y el asma, para entrenar la IA con el fin de
+              detectar la tos ferina. El algoritmo es capaz de diagnosticar con
+              éxito toda la tos ferina a partir de grabaciones de audio,
+              detectando automáticamente los sonidos individuales de la tos con
+              una precisión del 92% y un VPP del 97%. Su resultado apoya el uso
+              de la IA como un candidato potencial para diferenciar y
+              diagnosticar los sonidos respiratorios [<a
+                href="#3"
+                class="text-primary"
+                >3</a
+              >].
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="flex justify-center">
+        <img src="../img/research/divider.png" alt="Divider" />
+      </div>
+
+      <section class="py-10 wrapper">
+        <h2 class="max-w-3xl text-xl font-bold text-gray-200">Citas</h2>
+        <ul>
+          <li class="my-5">
+            [1] Y. Amrulloh, U. Abeyratne, V. Swarnkar and R. Triasih, "Cough
+            Sound Analysis for Pneumonia and Asthma Classification in Pediatric
+            Population," ​2015 6th International Conference on Intelligent
+            Systems, Modelling and Simulation,​Kuala Lumpur, 2015, pp. 127-131,
+            doi: 10.1109/ISMS.2015.41.
+            <a name="1"></a>
+          </li>
+          <li class="my-5">
+            [2] “Coronavirus (COVID-19).” National Institutes of Health, U.S.
+            Department of Health and Human Services, 31 Mar. 2020,
+            <a
+              class="text-primary"
+              name="2"
+              target="_blank"
+              href="https://www.nih.gov/health-information/coronavirus"
+              >https://www.nih.gov/health-information/coronavirus</a
+            >.
+          </li>
+          <li class="my-5">
+            [3] Pramono, Renard & Imtiaz, Anas & Rodriguez-Villegas, Esther.
+            (2016). A Cough-Based Algorithm for Automatic Diagnosis of
+            Pertussis. PloS one. 11. e0162128. 10.1371/journal.pone.0162128.
+            <a name="3"></a>
+          </li>
+          <li class="my-5">
+            [4] Kvapilova, Lucia, et al. “Continuous Sound Collection Using
+            Smartphones and Machine Learning to Measure Cough.” Digital
+            Biomarkers, vol. 3, no. 3, Oct. 2019, pp. 166–175.,
+            doi:10.1159/000504666.
+            <a name="4"></a>
+          </li>
+          <li class="my-5">
+            [5] Ferrari, Sara, et al. “Cough Sound Analysis to Identify
+            Respiratory Infection in Pigs.” Computers and Electronics in
+            Agriculture, vol. 64, no. 2, 2008, pp. 318–325.,
+            doi:10.1016/j.compag.2008.07.003.
+            <a name="5"></a>
+          </li>
+          <li class="my-5">
+            [6] Maghdid et al., “A Novel AI-Enabled Framework to Diagnose
+            Coronavirus COVID 19 Using Smartphone Embedded Sensors.”
+            <a name="6"></a>​
+            <a
+              href="https://arxiv.org/abs/2003.07434"
+              class="text-primary"
+              name="6"
+              target="_blank"
+              >https://arxiv.org/abs/2003.07434</a
+            >
+          </li>
+          <li class="my-5">
+            [7] Covid-19 Sounds App—University of Cambridge. (n.d.). Retrieved
+            April 12, 2020, from
+            <a
+              class="text-primary"
+              name="7"
+              target="_blank"
+              href="http://www.covid-19-sounds.org/"
+              >http://www.covid-19-sounds.org/</a
+            >
+          </li>
+          <li class="my-5">
+            [8]​ ​COVID Voice Detector—Carnegie Mellon University. (n.d.).
+            Retrieved April 12, 2020, from
+            <a
+              class="text-primary"
+              name="8"
+              target="_blank"
+              href="https://cvd.lti.cmu.edu/"
+              >https://cvd.lti.cmu.edu/</a
+            >
+          </li>
+          <li class="my-5">
+            [9] “Breath Sounds.” ​Healthline​,​
+            <a
+              class="text-primary"
+              name="9"
+              target="_blank"
+              href="https://www.healthline.com/health/breath-sounds"
+            >
+              https://www.healthline.com/health/breath-sounds </a
+            >.
+          </li>
+          <li class="my-5">
+            [10] “Hi Sigma, do I have the Coronavirus?: Call for a New
+            Artificial Intelligence Approach to Support Health Care
+            Professionals Dealing With The COVID-19 Pandemic”- MIT Retrieved
+            July 2020, from
+            <a
+              class="break-all text-primary"
+              name="10"
+              target="_blank"
+              href="https://www.researchgate.net/publication/340644305_Hi_Sigma_do_I_have_the_Coronavirus_
+						Call_for_a_New_Artificial_Intelligence_Approach_to_Support_Health_Care_Professionals_Deal
+						ing_With_The_COVID-19_Pandemicz"
+            >
+              https://www.researchgate.net/publication/340644305_Hi_Sigma_do_I_have_the_Coronavirus_
+              Call_for_a_New_Artificial_Intelligence_Approach_to_Support_Health_Care_Professionals_Deal
+              ing_With_The_COVID-19_Pandemicz
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div
+        class="flex flex-col-reverse mx-auto max-w-screen-3xl md:flex-row md:justify-between"
+      >
+        <section>
+          <div>
+            <a target="_blank" href="cookie_policy.html"
+              >Política de cookies
+            </a>
+            |
+            <a href="javascript: Cookiebot.renew()"
+              >Configuración de las cookies</a
+            >
+            |
+            <a target="_blank" href="../privacy_policy.html"
+              >Política de privacidad</a
+            >
+            |
+            <a target="_blank" href="../ccpa.html"
+              >Do Not Sell My Personal Information</a
+            >
+          </div>
+          <div>
+            <p>© Copyright 2020 Virufy. Todos los derechos resrvados.</p>
+          </div>
+        </section>
+        <!-- Icon container -->
+        <section class="flex mb-16">
+          <a target="_blank" href="https://github.com/virufy" class="mr-3">
+            <img
+              src="../img/logos/github.svg"
+              alt="Github Icon"
+              class="footer-icons"
+            />
+          </a>
+          <a target="_blank" href="https://twitter.com/VirufyOrg" class="mr-3">
+            <img
+              src="../img/logos/twitter.svg"
+              alt="Twitter Icon"
+              class="footer-icons"
+            />
+          </a>
+          <a
+            target="_blank"
+            href="https://www.facebook.com/Virufy/"
+            class="mr-3"
+          >
+            <img
+              src="../img/logos/facebook.svg"
+              alt="Facebook Icon"
+              class="footer-icons"
+            />
+          </a>
+          <a
+            target="_blank"
+            href="https://www.instagram.com/virufyorg/"
+            class="mr-3"
+          >
+            <img
+              src="../img/logos/instagram.svg"
+              alt="Instagram Icon"
+              class="footer-icons"
+            />
+          </a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/company/virufy/"
+            class="mr-3"
+          >
+            <img
+              src="../img/logos/linkedin.svg"
+              alt="LinkedIn Icon"
+              class="footer-icons"
+            />
+          </a>
+        </section>
+      </div>
+    </footer>
+    <script>
+      function collapse(btn) {
+        const icon = btn.nextElementSibling;
+        const content = btn.parentElement.nextElementSibling;
+
+        if (content.style.maxHeight === "0px") {
+          content.style.maxHeight = content.scrollHeight + "px";
+          icon.setAttribute("src", "../img/research/collapse.png");
+        } else {
+          content.style.maxHeight = "0px";
+          icon.setAttribute("src", "../img/research/expand.png");
+        }
+      }
+    </script>
+  </body>
+</html>

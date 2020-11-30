@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="hi">
+  <head>
+    <title>हमारा लक्ष्य | Virufy</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Virufy - evalua tu riesgo a COVID-19 con
+      nuestro app desarollado con tecnología de IA usando tu smartphone. Un
+      proyecto del Laboratorio de Innovación de Respuesta COVID-19 de Stanford."
+    />
+    <meta name="author" content="Team Virufy" />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="icon" href="../img/favicon.png" type="image/x-icon" />
+    <!-- Cookie consent banner - Cookiebot -->
+    <script
+      id="Cookiebot"
+      src="https://consent.cookiebot.com/uc.js"
+      data-cbid="fb5fec28-28e3-45e9-baa6-51f9f62f936b"
+      data-blockingmode="auto"
+      type="text/javascript"
+    ></script>
+    <!-- Hotjar Tracking Code for virufy.org -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 1878866, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script data-cookieconsent="ignore">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("consent", "default", {
+        ad_storage: "denied",
+        analytics_storage: "denied",
+        wait_for_update: 500,
+      });
+      gtag("set", "ads_data_redaction", true);
+    </script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-165690517-3"
+    ></script>
+    <script data-cookieconsent="ignore">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-165690517-3");
+    </script>
+    <script defer src="../scripts/index.js"></script>
+  </head>
+  <body class="text-gray-100 font-body overscroll-none">
+    <!-- Nav section -->
+    <section class="relative">
+      <nav class="flex items-center justify-between wrapper md:py-4">
+        <!-- Virufy logo -->
+        <div>
+          <a href="./index.html">
+            <img
+              class="logo"
+              src="../img/logos/virufy-logo.svg"
+              alt="Virufy logo"
+            />
+          </a>
+        </div>
+        <!-- Container for right side of nav -->
+        <div class="flex">
+          <!-- Mobile language button -->
+          <div class="inline-block mr-6">
+            <button
+              id="mobile-lng-btn"
+              class="px-3 py-1 text-sm border rounded lg:hidden button text-secondary-200 border-secondary-200"
+            >
+              हिन्दी
+            </button>
+          </div>
+          <!-- Mobile language menu -->
+          <div class="hidden text-center mobile-menu" id="mobile-lng-menu">
+            <section class="px-4 py-4">
+              <span class="inline-block text-base gray-200 text"
+                >Seleccione el idioma</span
+              >
+            </section>
+            <!-- TODO: Add links to translated pages -->
+            <a href="./../mission.html">
+              <section
+                class="px-4 py-4 border-t border-gray-200 hover:bg-teal-100"
+              >
+                <span>English</span>
+              </section>
+            </a>
+            <a href="./../es/mission.html">
+              <section
+                class="px-4 py-4 border-t border-gray-200 hover:bg-teal-100"
+              >
+                <span>Español</span>
+              </section>
+            </a>
+            <a href="./../br/mission.html">
+              <section
+                class="px-4 py-4 border-t border-gray-200 hover:bg-teal-100"
+              >
+                <span>Português</span>
+              </section>
+            </a>
+            <a href="./../jp/mission.html">
+              <section
+                class="px-4 py-4 border-t border-gray-200 hover:bg-teal-100"
+              >
+                <span>日本語</span>
+              </section>
+            </a>
+
+            <!--
+              TODO: If we want to implement saving, we  need to enable
+              cookies to store the user's language preferences
+            <section
+              class="flex justify-center px-4 py-8 border-t border-gray-200"
+            >
+              <button class="w-full px-8 py-2 text-white rounded bg-primary"
+              id="mobile-save-btn">
+                Save
+              </button>
+            </section>
+            -->
+          </div>
+
+          <!-- Mobile nav menu icon -->
+          <div class="inline-block cursor-pointer lg:hidden" id="menu-icon">
+            <svg
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              class="w-6 menu"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              ></path>
+            </svg>
+          </div>
+          <!-- Mobile nav close icon -->
+          <div
+            class="hidden inline-block cursor-pointer lg:hidden"
+            id="close-icon"
+          >
+            <svg
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              class="w-6 x"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"
+              ></path>
+            </svg>
+          </div>
+        </div>
+        <!-- End of container -->
+
+        <!-- Mobile Nav -->
+        <div class="hidden px-6 mobile-menu" id="mobile-nav">
+          <section class="px-4 py-4 border-t border-gray-200">
+            <div class="flex mt-4">
+              <a href="./mission.html" class="w-1/2"> हमारा लक्ष्य </a>
+              <a href="./research.html" class="w-1/2">
+                <span>अनुसंधान</span>
+              </a>
+            </div>
+            <div class="flex mt-2">
+              <a href="./team.html" class="w-1/2">
+                <span>हमारी टीम</span>
+              </a>
+              <a href="../join.html"> हमसे जुड़ें </a>
+            </div>
+            <div hidden class>
+              <div class="flex mt-2">
+                <a href="./data.html">
+                  <span>मुक्त डेटा</span>
+                </a>
+              </div>
+            </div>
+          </section>
+          <section
+            class="flex justify-center px-4 py-8 border-t border-gray-200"
+          >
+            <a
+              target="_blank"
+              href="https://form.jotform.com/203165542475152?language=es"
+            >
+              <button class="w-full px-8 py-2 text-white rounded bg-primary">
+                दान करें
+              </button>
+            </a>
+          </section>
+        </div>
+
+        <!-- Desktop Nav -->
+        <ul
+          class="items-baseline justify-between hidden w-3/4 2xl:w-1/2 lg:flex"
+        >
+          <li>
+            <a href="./mission.html"> हमारा लक्ष्य</a>
+          </li>
+          <li>
+            <a href="./team.html">
+              <span>हमारी टीम</span>
+            </a>
+          </li>
+          <li class hidden>
+            <a href="./data.html">
+              <span>मुक्त डेटा</span>
+            </a>
+          </li>
+          <li>
+            <a href="./research.html">
+              <span>अनुसंधान</span>
+            </a>
+          </li>
+          <li>
+            <a href="../join.html"> हमसे जुड़ें </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://form.jotform.com/203165542475152?language=es"
+            >
+              <button
+                class="px-4 py-1 border rounded text-secondary-200 border-secondary-200"
+              >
+                दान करें
+              </button>
+            </a>
+          </li>
+          <!-- Language Dropdown -->
+          <div class="relative inline-block group">
+            <button
+              class="px-4 py-1 overflow-visible border rounded text-secondary-200 border-secondary-200"
+            >
+              हिन्दी
+            </button>
+            <div class="desktop-hover-menu">
+              <a class="pb-2" href="./../mission.html">English</a>
+              <a class="pb-2" href="./../br/mission.html">Português</a>
+              <a class="pb-2" href="./../es/mission.html">Español</a>
+              <a class="pb-2" href="./../jp/mission.html">日本語</a>
+            </div>
+          </div>
+        </ul>
+      </nav>
+    </section>
+    <!-- End of nav section -->
+
+    <main>
+      <header class="flex justify-between my-10 md:my-20 wrapper">
+        <div class="w-full md:w-7/12">
+          <h1 class="mb-6 text-5xl font-bold text-gray-300 font-heading">
+            हमारा लक्ष्य
+          </h1>
+          <p class="text-xl">
+            हमारा मानना ​​है कि तत्काल, सार्वभौमिक और शुरुआती पता लगाना, जो समाज
+            को वायरस के स्थानों को इंगित करने की अनुमति देगा, तालाबंदी के लिए
+            महामारी और आवश्यकता को समाप्त करने की कुंजी है।
+          </p>
+        </div>
+        <div class="hidden md:block md:w-4/12">
+          <img
+            class="ml-auto"
+            src="../img/mission/header-image.png"
+            alt="Mission"
+          />
+        </div>
+      </header>
+
+      <section class="flex flex-wrap mb-20 wrapper md:justify-between">
+        <div
+          class="flex flex-wrap justify-center my-5 md:w-1/2 md:my-10 md:flex-no-wrap md:justify-start"
+        >
+          <!-- icon -->
+          <div style="max-width: 70px">
+            <img
+              class="my-6 md:my-0 md:pr-2"
+              src="../img/mission/globe.png"
+              alt="Globe"
+            />
+          </div>
+
+          <!-- text -->
+          <div class="w-full md:w-10/12">
+            <h2 class="mb-2 text-2xl font-bold text-gray-200">
+              वैश्विक प्रभाव पर ध्यान
+            </h2>
+            <p>
+              डेटा एकत्र करें और दुनिया भर के विकासशील देशों में लोगों के लिए एक
+              समाधान प्रदान करें। वर्तमान में हम पाकिस्तान, अमेरिका और जापान में
+              सहयोगियों के साथ काम कर रहे हैं।
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex flex-wrap justify-center my-5 md:w-1/2 md:my-10 md:flex-no-wrap md:justify-start"
+        >
+          <!-- icon -->
+          <div style="max-width: 70px">
+            <img
+              class="my-6 md:my-0 md:pr-2"
+              src="../img/mission/heart.png"
+              alt="Heart"
+            />
+          </div>
+          <!-- text -->
+          <div class="w-full md:w-10/12">
+            <h2 class="mb-2 text-2xl font-bold text-gray-200">
+              स्वास्थ्य प्रणालियों पर बोझ कम करें
+            </h2>
+            <p>
+              अस्पताल या परीक्षण स्थल पर जाने की आवश्यकता के बिना अपनी COVID-19
+              जोखिम स्थिति जानें। अस्पतालों में क्षमता बढ़ाने के लिए अपने डॉक्टर
+              के साथ अपने रिस्क स्कोर को फोन या टेलीहेल्थ अपॉइंटमेंट के साथ साझा
+              करें।
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex flex-wrap justify-center my-5 md:w-1/2 md:my-10 md:flex-no-wrap md:justify-start"
+        >
+          <!-- icon -->
+          <div style="max-width: 70px">
+            <img
+              class="my-6 md:my-0 md:pr-2"
+              src="../img/mission/mask.png"
+              alt="Mask"
+            />
+          </div>
+          <!-- text -->
+          <div class="w-full md:w-10/12">
+            <h2 class="mb-2 text-2xl font-bold text-gray-200">
+              संदूषण के जोखिम को कम करें
+            </h2>
+            <p>
+              होम टेस्टिंग का मतलब है कि आप और स्वास्थ्य कर्मियों दोनों के लिए
+              जोखिम के जोखिम को कम करने के लिए अस्पताल की कोई यात्रा नहीं।
+              शुरुआती पहचान का मतलब है कि आप अपने आप को जल्दी से अलग कर सकते
+              हैं, जो आपके संपर्क में आने वाले अन्य लोगों के लिए संक्रमण के
+              जोखिम को कम करता है।
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex flex-wrap justify-center my-5 md:w-1/2 md:my-10 md:flex-no-wrap md:justify-start"
+        >
+          <!-- icon -->
+          <div style="max-width: 70px">
+            <img
+              class="my-6 md:my-0 md:pr-2"
+              src="../img/mission/lock.png"
+              alt="lock"
+            />
+          </div>
+          <!-- text -->
+          <div class="w-full md:w-10/12">
+            <h2 class="mb-2 text-2xl font-bold text-gray-200">
+              लॉकडाउन समाप्त करें
+            </h2>
+            <p>
+              वैश्विक पहचान और संपर्क ट्रेसिंग वर्तमान लॉकडाउन को सुरक्षित रूप
+              से समाप्त करने में मदद करते हैं जबकि भविष्य को रोकने के लिए भी काम
+              कर रहे हैं। सीओवीआईडी ​​-19 पॉजिटिव रोगियों के शुरुआती पता लगाने
+              और अलगाव का मतलब है कि नियमित दिनचर्या जल्द ही फिर से शुरू की जा
+              सकती है।
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex flex-wrap justify-center my-5 md:w-1/2 md:my-10 md:flex-no-wrap md:justify-start"
+        >
+          <!-- icon -->
+          <div style="max-width: 70px">
+            <img
+              class="my-6 md:my-0 md:pr-2"
+              src="../img/mission/cross.png"
+              alt="Cross"
+            />
+          </div>
+          <!-- text -->
+          <div class="w-full md:w-10/12">
+            <h2 class="mb-2 text-2xl font-bold text-gray-200">
+              देखभाल तक पहुंच बढ़ाएं
+            </h2>
+            <p>
+              ग्रामीण समुदायों और अन्य लोगों के लिए परीक्षण जो अस्पतालों या
+              परीक्षण स्थलों से बहुत दूर रहते हैं। COVID-19 के लिए नो-कॉस्ट
+              परीक्षण समाधान।
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex flex-wrap justify-center my-5 md:w-1/2 md:my-10 md:flex-no-wrap md:justify-start"
+        >
+          <!-- icon -->
+          <div style="max-width: 70px">
+            <img
+              class="my-6 md:my-0 md:pr-1"
+              src="../img/mission/level.png"
+              alt="Stress level"
+            />
+          </div>
+          <!-- text -->
+          <div class="w-full md:w-10/12">
+            <h2 class="mb-2 text-2xl font-bold text-gray-200">तनाव कम करें</h2>
+            <p>
+              लक्षण महसूस कर रहे हैं? परीक्षण के लिए प्रतीक्षा करने के तनाव के
+              बिना अपना जोखिम जल्दी पता करें। पहुँच के लिए परीक्षण उपलब्धता के
+              बारे में चिंता करने की आवश्यकता नहीं है।
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div
+        class="flex flex-col-reverse mx-auto max-w-screen-3xl md:flex-row md:justify-between"
+      >
+        <section>
+          <div>
+            <a target="_blank" href="../cookie_policy.html">Cookie Policy</a> |
+            <a href="javascript: Cookiebot.renew()">Cookie Settings</a> |
+            <a target="_blank" href="../privacy_policy.html">गोपनीयता नीति</a>
+          </div>
+          <div>
+            <p>
+              कॉपीराइट 2020 विरूफी। VIRUFY कोविड़ डिटेक्शन फाउंडेशन का एक
+              ट्रेडमार्क है। सभी अधिकार सुरक्षित।
+            </p>
+          </div>
+        </section>
+        <!-- Icon container -->
+        <section class="flex mb-16">
+          <a target="_blank" href="https://github.com/virufy" class="mr-3">
+            <img
+              src="../img/logos/github.svg"
+              alt="Github Icon"
+              class="footer-icons"
+            />
+          </a>
+          <a target="_blank" href="https://twitter.com/VirufyOrg" class="mr-3">
+            <img
+              src="../img/logos/twitter.svg"
+              alt="Twitter Icon"
+              class="footer-icons"
+            />
+          </a>
+          <a
+            target="_blank"
+            href="https://www.facebook.com/Virufy/"
+            class="mr-3"
+          >
+            <img
+              src="../img/logos/facebook.svg"
+              alt="Facebook Icon"
+              class="footer-icons"
+            />
+          </a>
+          <a
+            target="_blank"
+            href="https://www.instagram.com/virufyorg/"
+            class="mr-3"
+          >
+            <img
+              src="../img/logos/instagram.svg"
+              alt="Instagram Icon"
+              class="footer-icons"
+            />
+          </a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/company/virufy/"
+            class="mr-3"
+          >
+            <img
+              src="../img/logos/linkedin.svg"
+              alt="LinkedIn Icon"
+              class="footer-icons"
+            />
+          </a>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>

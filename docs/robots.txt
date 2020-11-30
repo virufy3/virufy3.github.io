@@ -1,0 +1,7 @@
+User-agent: GoogleBot
+Disallow: 
+
+User-agent: *
+Disallow: 
+
+sitemap: http://virufy.org/sitemap.xml

@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="hi">
+  <head>
+    <title>हमारी टीम | Virufy</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Virufy is a global team of passionate young computer scientists
+      mentored by authorities in AI, signal processing, & medicine."
+    />
+    <meta name="author" content="Team Virufy" />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="icon" href="../img/favicon.png" type="image/x-icon" />
+
+    <!-- Cookie consent banner - Cookiebot -->
+    <script
+      id="Cookiebot"
+      src="https://consent.cookiebot.com/uc.js"
+      data-cbid="fb5fec28-28e3-45e9-baa6-51f9f62f936b"
+      data-blockingmode="auto"
+      type="text/javascript"
+    ></script>
+    <!-- Hotjar Tracking Code for virufy.org -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 1878866, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script data-cookieconsent="ignore">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("consent", "default", {
+        ad_storage: "denied",
+        analytics_storage: "denied",
+        wait_for_update: 500,
+      });
+      gtag("set", "ads_data_redaction", true);
+    </script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-165690517-3"
+    ></script>
+    <script data-cookieconsent="ignore">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-165690517-3");
+    </script>
+    <script defer src="../scripts/index.js"></script>
+  </head>
+  <body class="text-gray-100 font-body overscroll-none">
+    <!-- Nav section -->
+    <section class="relative">
+      <nav class="flex items-center justify-between wrapper md:py-4">
+        <!-- Virufy logo -->
+        <div>
+          <a href="./index.html">
+            <img
+              class="logo"
+              src="../img/logos/virufy-logo.svg"
+              alt="Virufy logo"
+            />
+          </a>
+        </div>
+        <!-- Container for right side of nav -->
+        <div class="flex">
+          <!-- Mobile language button -->
+          <div class="inline-block mr-6">
+            <button
+              id="mobile-lng-btn"
+              class="px-3 py-1 text-sm border rounded lg:hidden button text-secondary-200 border-secondary-200"
+            >
+              हिन्दी
+            </button>
+          </div>
+          <!-- Mobile language menu -->
+          <div class="hidden text-center mobile-menu" id="mobile-lng-menu">
+            <section class="px-4 py-4">
+              <span class="inline-block text-base gray-200 text"
+                >Seleccione el idioma</span
+              >
+            </section>
+            <!-- TODO: Add links to translated pages -->
+            <a href="./../team.html">
+              <section
+                class="px-4 py-4 border-t border-gray-200 hover:bg-teal-100"
+              >
+                <span>English</span>
+              </section>
+            </a>
+            <a href="./../es/team.html">
+              <section
+                class="px-4 py-4 border-t border-gray-200 hover:bg-teal-100"
+              >
+                <span>Español</span>
+              </section>
+            </a>
+            <a href="./../br/team.html">
+              <section
+                class="px-4 py-4 border-t border-gray-200 hover:bg-teal-100"
+              >
+                <span>Português</span>
+              </section>
+            </a>
+            <a href="./../jp/team.html">
+              <section
+                class="px-4 py-4 border-t border-gray-200 hover:bg-teal-100"
+              >
+                <span>日本語</span>
+              </section>
+            </a>
+
+            <!--
+              TODO: If we want to implement saving, we  need to enable
+              cookies to store the user's language preferences
+            <section
+              class="flex justify-center px-4 py-8 border-t border-gray-200"
+            >
+              <button class="w-full px-8 py-2 text-white rounded bg-primary"
+              id="mobile-save-btn">
+                Save
+              </button>
+            </section>
+            -->
+          </div>
+
+          <!-- Mobile nav menu icon -->
+          <div class="inline-block cursor-pointer lg:hidden" id="menu-icon">
+            <svg
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              class="w-6 menu"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              ></path>
+            </svg>
+          </div>
+          <!-- Mobile nav close icon -->
+          <div
+            class="hidden inline-block cursor-pointer lg:hidden"
+            id="close-icon"
+          >
+            <svg
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              class="w-6 x"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"
+              ></path>
+            </svg>
+          </div>
+        </div>
+        <!-- End of container -->
+
+        <!-- Mobile Nav -->
+        <div class="hidden px-6 mobile-menu" id="mobile-nav">
+          <section class="px-4 py-4 border-t border-gray-200">
+            <div class="flex mt-4">
+              <a href="./mission.html" class="w-1/2"> हमारा लक्ष्य </a>
+              <a href="./research.html" class="w-1/2">
+                <span>अनुसंधान</span>
+              </a>
+            </div>
+            <div class="flex mt-2">
+              <a href="./team.html" class="w-1/2">
+                <span>हमारी टीम</span>
+              </a>
+              <a href="../join.html"> हमसे जुड़ें </a>
+            </div>
+            <div hidden class>
+              <div class="flex mt-2">
+                <a href="./data.html">
+                  <span>मुक्त डेटा</span>
+                </a>
+              </div>
+            </div>
+          </section>
+          <section
+            class="flex justify-center px-4 py-8 border-t border-gray-200"
+          >
+            <a
+              target="_blank"
+              href="https://form.jotform.com/203165542475152?language=es"
+            >
+              <button class="w-full px-8 py-2 text-white rounded bg-primary">
+                दान करें
+              </button>
+            </a>
+          </section>
+        </div>
+
+        <!-- Desktop Nav -->
+        <ul
+          class="items-baseline justify-between hidden w-3/4 2xl:w-1/2 lg:flex"
+        >
+          <li>
+            <a href="./mission.html"> हमारा लक्ष्य</a>
+          </li>
+          <li>
+            <a href="./team.html">
+              <span>हमारी टीम</span>
+            </a>
+          </li>
+          <li class hidden>
+            <a href="./data.html">
+              <span>मुक्त डेटा</span>
+            </a>
+          </li>
+          <li>
+            <a href="./research.html">
+              <span>अनुसंधान</span>
+            </a>
+          </li>
+          <li>
+            <a href="../join.html"> हमसे जुड़ें </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://form.jotform.com/203165542475152?language=es"
+            >
+              <button
+                class="px-4 py-1 border rounded text-secondary-200 border-secondary-200"
+              >
+                दान करें
+              </button>
+            </a>
+          </li>
+          <!-- Language Dropdown -->
+          <div class="relative inline-block group">
+            <button
+              class="px-4 py-1 overflow-visible border rounded text-secondary-200 border-secondary-200"
+            >
+              हिन्दी
+            </button>
+            <div class="desktop-hover-menu">
+              <a class="pb-2" href="./../team.html">English</a>
+              <a class="pb-2" href="../br/team.html">Português</a>
+              <a class="pb-2" href="./../es/team.html">Español</a>
+              <a class="pb-2" href="./../jp/team.html">日本語</a>
+            </div>
+          </div>
+        </ul>
+      </nav>
+    </section>
+    <!-- End of nav section -->
+
+    <main class="relative">
+      <header class="flex lg:pb-40 wrapper">
+        <section class="self-center mt-6 lg:mt-24 md:w-1/2 3xl:px-0">
+          <div>
+            <h1
+              class="text-4xl font-bold text-gray-300 md:text-5xl font-heading"
+            >
+              हमारी टीम
+            </h1>
+          </div>
+          <div class="my-2">
+            <p class="mr-6 text-2xl sm:mr-0">
+              हम सभी महामारी से लड़ने के लिए वैश्विक स्वास्थ्य, सामाजिक भलाई और
+              इक्विटी के साथ तकनीक के संयोजन के बारे में भावुक हैं।
+            </p>
+          </div>
+        </section>
+      </header>
+      <img
+        class="absolute top-0 right-0 hidden w-full -z-10 md:block"
+        src="../img/team/header-bg.png"
+        alt="Illustration of two women
+          showing support"
+      />
+
+      <!-- Wrapper -->
+      <div class="wrapper 2xl:mt-24">
+        <!-- Collaboration section -->
+        <section class="md:mb-32">
+          <div class="mb-6">
+            <h2 class="text-3xl font-bold text-gray-200">सहयोग</h2>
+          </div>
+          <div class="mb-6 lg:w-4/5">
+            <p>
+              हम तीस से अधिक उत्साही और महत्वाकांक्षी युवाओं और 22
+              विश्वविद्यालयों के छात्रों की एक टीम हैं: कैलिफोर्निया नॉर्थस्टेट
+              यूनिवर्सिटी स्कूल ऑफ मेडिसिन, कॉर्नेल, ड्यूक, फेडरल यूनिवर्सिटी ऑफ
+              पैराबा (ब्राजील), हार्वर्ड, हार्वे मुड, किंग्स कॉलेज लंदन, लाम्बदा
+              स्कूल, ला रियोजा इंटरनेशनल यूनिवर्सिटी (स्पेन), नॉर्थएस्टर्न,
+              मैकेंज़ी (ब्राजील) के प्रेस्बिटेरियन यूनिवर्सिटी, प्रिंसटन, सोफिया
+              यूनिवर्सिटी (जापान), स्टैनफोर्ड, यूसी इरविन, यूसीएलए, यूसीएसएफ
+              स्कूल ऑफ मेडिसिन, यूपीएन, यूनिवर्सिटी ऑफ ह्यूस्टन, वेस्टर्न
+              यूनिवर्सिटी (कनाडा) ), और विल्फ्रिड लॉयर यूनिवर्सिटी (कनाडा)। हम
+              भी दुनिया भर में हैं, मूल रूप से 12 देशों में अध्ययन करने वाले या
+              ब्राजील, कनाडा, कोलंबिया, भारत, जापान, मलेशिया, नाइजीरिया, पेरू,
+              सिंगापुर, दक्षिण कोरिया, यूके और यूएसए के सदस्यों के साथ - हमें एक
+              व्यापक वैश्विक पहुंच प्रदान करते हैं।
+            </p>
+          </div>
+          <!-- Logo Container -->
+          <div
+            class="flex flex-col items-center justify-center mt-12 lg:flex-row md:justify-between"
+          >
+            <div class="w-32 mb-8">
+              <a target="_blank" href="https://responselab.stanford.edu/">
+                <img
+                  class="mx-auto"
+                  src="../img/logos/covid-19-RIL-logo.png"
+                  alt="Covid-19 Response Innovation Lab logo"
+                />
+              </a>
+            </div>
+            <div class="w-32 mb-8">
+              <a
+                target="_blank"
+                href="https://www.oneyoungworld.com/counsellors"
+              >
+                <img
+                  class="mx-auto"
+                  src="../img/logos/one-young-world-logo.png"
+                  alt="One Young World logo"
+                />
+              </a>
+            </div>
+            <div class="w-32 mb-8">
+              <a target="_blank" href="https://xoor.io/en/">
+                <img
+                  class="mx-auto"
+                  src="../img/logos/xoor.svg"
+                  alt="Xoor Company logo"
+                />
+              </a>
+            </div>
+            <div class="w-32 mb-8">
+              <a target="_blank" href="https://jig.jp/">
+                <img
+                  class="mx-auto"
+                  src="../img/logos/jig-jp-logo.png"
+                  alt="Jig JP logo"
+                />
+              </a>
+            </div>
+            <div class="w-32 mb-8">
+              <a target="_blank" href="https://h4r.stanford.edu/">
+                <img
+                  class="mx-auto"
+                  src="../img/logos/stanford-h4r-logo.jpg"
+                  alt="Stanford Hacking 4 Recovery logo"
+                  width="150"
+                />
+              </a>
+            </div>
+            <div class="w-32 mb-8">
+              <a target="_blank" href="https://sienacompany.com/">
+                <img
+                  class="mx-auto"
+                  src="../img/logos/siena-company-logo.png"
+                  alt="Siena Company logo"
+                  width="150"
+                />
+              </a>
+            </div>
+          </div>
+
+          <!-- End of Logo container -->
+        </section>
+        <!-- End of collaboration section -->
+      </div>
+      <!-- End of wrapper -->
+
+      <!-- Wrapper for Leadership section -->
+      <div class="wrapper">
+        <div class="mb-6 md:mb-20">
+          <h2 class="text-3xl font-bold text-center text-gray-200">नेतृत्व</h2>
+        </div>
+        <section
+          class="flex flex-col flex-wrap mb-10 xl:justify-center md:justify-around md:flex-row"
+        >
+          <div class="flex flex-col items-center mx-10 mb-10 md:w-1/3 lg:w-1/4">
+            <a target="_blank" href="https://www.linkedin.com/in/amilkhanzada">
+              <img
+                class="w-64 mx-auto my-2 rounded-full team-icons"
+                src="../img/team/amil.jpg"
+                alt="Amil Khanzada"
+              />
+            </a>
+            <h5 class="mt-4 text-xl font-semibold text-gray-200">
+              अमिल खानजादा
+            </h5>
+            <h6 class="text-lg">संस्थापक और सीटीओ</h6>
+            <div class="my-2"></div>
+            <p class="w-5/6 text-center">
+              वन यंग वर्ल्ड पीस एंबेसडर <br />
+              पूर्व छात्र UC Berkeley कंप्यूटर विज्ञान
+            </p>
+          </div>
+
+          <div class="flex flex-col items-center mx-10 mb-10 md:w-1/3 lg:w-1/4">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/kimberley-tran-princeton/"
+            >
+              <img
+                class="w-64 mx-auto my-2 rounded-full team-icons"
+                src="../img/team/kim.jpg"
+                alt="Kim Tran"
+              />
+            </a>
+            <h5 class="mt-4 text-xl font-semibold text-gray-200">किम त्रान</h5>
+            <h6 class="text-lg">संचालन के वी.पी.</h6>
+            <div class="my-2"></div>
+            <p class="w-5/6 text-center">
+              महामारी फेलो for Public Health and Medicine in Feinberg School of
+              Medicine<br />
+              बी. ए। आणविक जीव विज्ञान, Princeton University
+            </p>
+          </div>
+          <div class="flex flex-col items-center mx-10 mb-10 md:w-1/3 lg:w-1/4">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/gunvantchaudhari/"
+            >
+              <img
+                class="w-64 mx-auto my-2 rounded-full team-icons"
+                src="../img/team/gunvant.jpg"
+                alt="Gunvant Chaudhari"
+              />
+            </a>
+            <h5 class="mt-4 text-xl font-semibold text-gray-200">
+              गुणवंत चौधरी
+            </h5>
+            <h6 class="text-lg text-center">कृत्रिम बुद्धि टीम का नेतृत्व</h6>
+            <div class="my-2"></div>
+            <p class="w-5/6 text-center">
+              Big Data In Radiology Researcher<br />
+              M.D. Student, UC San Francisco<br />
+            </p>
+          </div>
+
+          <div class="flex flex-col items-center mx-10 mb-10 md:w-1/3 lg:w-1/4">
+            <a target="_blank" href="https://www.linkedin.com/in/jasonpareja/">
+              <img
+                class="w-64 h-auto mx-auto my-2 rounded-full team-icons"
+                src="../img/team/jason.jpg"
+                alt="Jason Pareja Jauregui"
+              />
+            </a>
+            <h5 class="mt-4 text-xl font-semibold text-gray-200">
+              जेसन पारेजा जौरगुई
+            </h5>
+            <h6 class="text-lg">पेरू सामुदायिक आउटरीच प्रबंधक</h6>
+            <div class="my-2"></div>
+            <p class="w-5/6 text-center">
+              एक युवा विश्व लैटिन अमेरिका के समन्वयक राजदूत<br />
+              MIT Sloan School of Management
+            </p>
+          </div>
+
+          <div class="flex flex-col items-center mx-10 mb-10 md:w-1/3 lg:w-1/4">
+            <a
+              target="_blank"
+              href="https://co.linkedin.com/in/jean-sebastian-pedraza-paez-02b8aa11a"
+            >
+              <img
+                class="w-64 mx-auto my-2 rounded-full team-icons"
+                src="../img/team/sebastian.jpg"
+                alt="Sebastian Pedraza"
+              />
+            </a>
+            <h5 class="mt-4 text-xl font-semibold text-gray-200">
+              सेबस्टियन पेड्राज़ा
+            </h5>
+            <h6 class="text-lg">कोलंबिया सामुदायिक आउटरीच प्रबंधक</h6>
+            <div class="my-2"></div>
+            <p class="w-5/6 text-center">
+              YPARD संचालन समिति के सदस्य<br />
+              वन यंग वर्ल्ड कोलंबिया के राजदूत<br />
+              राजनीति विज्ञान, International University of La Rioja
+            </p>
+          </div>
+          <div class="flex flex-col items-center mx-10 mb-10 md:w-1/3 lg:w-1/4">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/matheus-galiza-20539b106/"
+            >
+              <img
+                class="w-64 mx-auto my-2 rounded-full team-icons"
+                src="../img/team/matheus.jpg"
+                alt="Matheus Galiza"
+              />
+            </a>
+            <h5 class="mt-4 text-xl font-semibold text-gray-200">
+              माथियस गलिजा
+            </h5>
+            <h6 class="text-lg text-center">
+              ब्राजील सामुदायिक आउटरीच प्रबंधक
+            </h6>
+            <div class="my-2"></div>
+            <p class="w-full text-center">
+              सार्वजनिक नीति समिति<br />
+              Jovenes Iberoamericanos <br />
+              M.A. Relaciones Internacionales
+            </p>
+          </div>
+        </section>
+      </div>
+      <!-- End of wrapper for Leadership section -->
+
+      <!-- Wrapper for Advisory section -->
+      <div class="wrapper md:mt-12">
+        <div class="mb-6 md:mb-16">
+          <h2 class="text-3xl font-bold text-center text-gray-200">सलाहकार</h2>
+        </div>
+        <section
+          class="flex flex-col flex-wrap mb-10 xl:justify-center md:justify-around md:flex-row"
+        >
+          <div class="flex flex-col items-center mx-10 mb-10 md:w-1/3 lg:w-1/4">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/kara-meister-200335110/"
+            >
+              <img
+                class="w-64 mx-auto my-2 rounded-full team-icons"
+                src="../img/team/kara-meister.jpg"
+                alt="Kara Meister, M.D."
+              />
+            </a>
+            <h5 class="mt-4 text-xl font-semibold text-gray-200">
+              कारा मिस्टर, एम.डी.
+            </h5>
+            <h6 class="text-lg">चिकित्सीय परामर्श</h6>
+            <div class="my-2"></div>
+            <p class="w-5/6 text-center">
+              चिकित्सीय परामर्श, ओटोलर्यनोलोजी<br />
+              Stanford School of Medicine
+            </p>
+          </div>
+
+          <div class="flex flex-col items-center mx-10 mb-10 md:w-1/3 lg:w-1/4">
+            <a target="_blank" href="https://www.linkedin.com/in/leskovec/">
+              <img
+                class="w-64 mx-auto my-2 rounded-full team-icons"
+                src="../img/team/jure.jpg"
+                alt="Jure Leskovec"
+              />
+            </a>
+            <h5 class="mt-4 text-xl font-semibold text-gray-200">
+              जुरे लेसकोवेक
+            </h5>
+            <h6 class="text-lg text-center">कृत्रिम बुद्धि सलाहकार</h6>
+            <div class="my-2"></div>
+            <p class="w-5/6 text-center">
+              मुख्य वैज्ञानिक - Pinterest<br />
+              एसोसिएट प्रोफेसर, ए.आई.<br />
+              Stanford School of Engineering
+            </p>
+          </div>
+
+          <div class="flex flex-col items-center mx-10 mb-10 md:w-1/3 lg:w-1/4">
+            <a href="https://dci.stanford.edu/mimi-dunne-md/">
+              <img
+                class="w-64 mx-auto my-2 rounded-full team-icons"
+                src="../img/team/mimi.jpg"
+                alt="Mary Dunne"
+              />
+            </a>
+            <h5 class="mt-4 text-xl font-semibold text-gray-200">
+              मैरी ड्यूने, एम.डी.
+            </h5>
+            <h6 class="text-lg text-center">चिकित्सीय परामर्श</h6>
+            <div class="my-2"></div>
+            <p class="w-5/6 text-center">
+              आपातकालीन चिकित्सा और प्रशामक देखभाल चिकित्सक<br />
+              Stanford Distinguished Career Institute 2019-2020
+            </p>
+          </div>
+          <div class="flex flex-col items-center mx-10 mb-10 md:w-1/3 lg:w-1/4">
+            <a
+              target="_blank"
+              href="https://www.pillsburylaw.com/en/lawyers/rafi-azim-khan.html"
+            >
+              <img
+                class="w-64 mx-auto my-2 rounded-full team-icons"
+                src="../img/team/rafi.jpg"
+                alt="v"
+              />
+            </a>
+            <h5 class="mt-4 text-xl font-semibold text-gray-200">
+              रफ़ी अज़ीम खान
+            </h5>
+            <h6 class="text-lg text-center">कार्यकारी कानूनी सलाहकार</h6>
+            <div class="my-2"></div>
+            <p class="w-5/6 text-center">
+              पार्टनर, पिल्ल्सबोरी लॉ<br />
+              सिलिकॉन वैली और यूरोप
+            </p>
+          </div>
+
+          <div class="flex flex-col items-center mx-10 mb-10 md:w-1/3 lg:w-1/4">
+            <a target="_blank" href="https://www.linkedin.com/in/malvikabawri/">
+              <img
+                class="w-64 h-auto mx-auto my-2 rounded-full team-icons"
+                src="../img/team/malvika.jpg"
+                alt="Malvika Bawri"
+              />
+            </a>
+            <h5 class="mt-4 text-xl font-semibold text-gray-200">
+              मालविका बावरी
+            </h5>
+            <h6 class="text-lg text-center">कार्यकारी सलाहकार</h6>
+            <div class="my-2"></div>
+            <p class="w-5/6 text-center">
+              फाउंडर - क्वांटा एनालिटिक्स<br />
+              फाउंडर - थिंक इंडिया फाउंडेशन
+            </p>
+          </div>
+          <div class="flex flex-col items-center mx-10 mb-10 md:w-1/3 lg:w-1/4">
+            <a target="_blank" href="https://www.linkedin.com/in/pedrosiena/">
+              <img
+                class="w-64 mx-auto my-2 rounded-full team-icons"
+                src="../img/team/pedro.jpg"
+                alt="Pedro Siena"
+              />
+            </a>
+            <h5 class="mt-4 text-xl font-semibold text-gray-200">
+              पेड्रो सिएना
+            </h5>
+            <h6 class="text-lg">ब्राजील आउटरीच सलाहकारl</h6>
+            <div class="my-2"></div>
+            <p class="w-5/6 text-center">
+              संस्थापक और कार्यकारी अधिकारी - Siena Company<br />
+              São Carlos, Brazil
+            </p>
+          </div>
+          <div class="flex flex-col items-center mx-10 mb-10 md:w-1/3 lg:w-1/4">
+            <a target="_blank" href="https://www.linkedin.com/in/namathom/">
+              <img
+                class="w-64 h-auto mx-auto my-2 rounded-full team-icons"
+                src="../img/team/nathan.jpg"
+                alt="Nathan Thomas"
+              />
+            </a>
+            <h5 class="mt-4 text-xl font-semibold text-gray-200">नाथन थॉमस</h5>
+            <h6 class="text-lg">कार्यकारी सलाहकार</h6>
+            <div class="my-2"></div>
+            <p class="w-5/6 text-center">
+              वन यंग वर्ल्ड पीस एंबेसडर<br />
+              संस्थापक और कार्यकारी अधिकारी - All We Are
+            </p>
+          </div>
+
+          <div class="flex flex-col items-center mx-10 mb-10 md:w-1/3 lg:w-1/4">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/allen-chin-b870331/"
+            >
+              <img
+                class="w-64 mx-auto my-2 rounded-full team-icons"
+                src="../img/team/allen.jpg"
+                alt="Allen Chin"
+              />
+            </a>
+            <h5 class="mt-4 text-xl font-semibold text-gray-200">एलन चिन</h5>
+            <h6 class="text-lg">कार्यकारी सलाहकार एच.आर.</h6>
+            <div class="my-2"></div>
+            <p class="w-5/6 text-center">मुख्य लोक अधिकारी</p>
+          </div>
+
+          <div class="flex flex-col items-center mx-10 mb-10 md:w-1/3 lg:w-1/4">
+            <a
+              target="_blank"
+              href="https://www.advantary.co/partner/todd-basche/"
+            >
+              <img
+                class="w-64 h-auto mx-auto my-2 rounded-full team-icons"
+                src="../img/team/todd.jpg"
+                alt="Todd Basche"
+              />
+            </a>
+            <h5 class="mt-4 text-xl font-semibold text-gray-200">टोड बाश</h5>
+            <h6 class="text-lg">कार्यकारी सलाहकार</h6>
+            <div class="my-2"></div>
+            <p class="w-5/6 text-center">
+              सी ई ओ - Transformational Products<br />
+              वीपी उपभोक्ता प्रयोग, ऐप्पल<br />
+              Stanford Lean Launchpad गुरु
+            </p>
+          </div>
+          <div class="flex flex-col items-center mx-10 mb-10 md:w-1/3 lg:w-1/4">
+            <a target="_blank" href="http://tannan.fm/contents/about-us.html">
+              <img
+                class="w-64 mx-auto my-2 rounded-full team-icons"
+                src="../img/team/ito.jpg"
+                alt="Tsutomu Ito"
+              />
+            </a>
+            <h5 class="mt-4 text-xl font-semibold text-gray-200">
+              त्सुतोमु इतो
+            </h5>
+            <h6 class="text-lg text-center">दूरदर्शी सलाहकार</h6>
+            <div class="my-2"></div>
+            <p class="w-5/6 text-center">
+              संस्थापक - तन्नन एफएम रेडियो<br />
+              आविष्कारक - दोष-सहिष्णु रेडियो<br />
+              व्यवस्था अभियंता, बुलेट ट्रेन<br />
+              Fukui, Japan
+            </p>
+          </div>
+          <div class="flex flex-col items-center mx-10 mb-10 md:w-1/3 lg:w-1/4">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/taisuke-fukuno-a3b3415"
+            >
+              <img
+                class="w-64 mx-auto my-2 rounded-full team-icons"
+                src="../img/team/taisuke.jpg"
+                alt="Taisuke Fukuno"
+              />
+            </a>
+            <h5 class="mt-4 text-xl font-semibold text-gray-200">
+              तैसुक फुकुनो
+            </h5>
+            <h6 class="text-lg">जापान आउटरीच सलाहकार</h6>
+            <div class="my-2"></div>
+            <p class="w-5/6 text-center">
+              संस्थापक और अध्यक्ष - jig.jp<br />
+              Sabae, Japan
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <!-- Wrapper for Contributors section -->
+      <!-- Remove hidden once contributor information is available -->
+      <div class="hidden wrapper md:px-16 3xl:px-0 md:mt-20">
+        <div class="mb-6 md:mb-12">
+          <h2 class="text-3xl font-bold text-center text-gray-200">
+            Colaboradores
+          </h2>
+        </div>
+        <section>
+          <!-- Team column (mobile) / row (desktop) -->
+          <div class="mb-4 grid md:grid-cols-2 xl:grid-cols-3 md:row-gap-8">
+            <div
+              class="flex items-center justify-center mb-4 md:mb-0 md:col-span-1"
+            >
+              <p class="mr-4 text-xl font-semibold text-gray-200">
+                John Woo - <span class="font-normal">UX Designer</span>
+              </p>
+              <a target="_blank" href="#">
+                <img
+                  src="../img/logos/linkedin-dark.svg"
+                  alt="LinkedIn
+                icon"
+                />
+              </a>
+            </div>
+
+            <div
+              class="flex items-center justify-center mb-4 md:mb-0 md:col-span-1"
+            >
+              <p class="mr-4 text-xl font-semibold text-gray-200">
+                John Woo - <span class="font-normal">UX Designer</span>
+              </p>
+              <a target="_blank" href="#">
+                <img
+                  src="../img/logos/linkedin-dark.svg"
+                  alt="LinkedIn
+                icon"
+                />
+              </a>
+            </div>
+
+            <div
+              class="flex items-center justify-center mb-4 md:mb-0 md:col-span-1"
+            >
+              <p class="mr-4 text-xl font-semibold text-gray-200">
+                John Woo - <span class="font-normal">UX Designer</span>
+              </p>
+              <a target="_blank" href="#">
+                <img
+                  src="../img/logos/linkedin-dark.svg"
+                  alt="LinkedIn
+                icon"
+                />
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Wrapper for CTA section -->
+      <div class="wrapper">
+        <div class="mb-6 md:mb-20">
+          <h2 class="text-2xl font-bold text-center text-gray-200 md:text-3xl">
+            मदद करने में दिलचस्पी है? हमारी टीम में शामिल हों!
+          </h2>
+          <div class="mx-auto my-10 text-center">
+            <a href="join.html">
+              <button class="px-8 py-2 text-white rounded bg-primary">
+                अब शामिल हों
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div
+        class="flex flex-col-reverse mx-auto max-w-screen-3xl md:flex-row md:justify-between"
+      >
+        <section>
+          <div>
+            <a target="_blank" href="../cookie_policy.html">Cookie Policy</a> |
+            <a href="javascript: Cookiebot.renew()">Cookie Settings</a> |
+            <a target="_blank" href="../privacy_policy.html">गोपनीयता नीति</a>
+          </div>
+          <div>
+            <p>
+              कॉपीराइट 2020 विरूफी। VIRUFY कोविड़ डिटेक्शन फाउंडेशन का एक
+              ट्रेडमार्क है। सभी अधिकार सुरक्षित।
+            </p>
+          </div>
+        </section>
+        <!-- Icon container -->
+        <section class="flex mb-16">
+          <a target="_blank" href="https://github.com/virufy" class="mr-3">
+            <img
+              src="../img/logos/github.svg"
+              alt="Github Icon"
+              class="footer-icons"
+            />
+          </a>
+          <a target="_blank" href="https://twitter.com/VirufyOrg" class="mr-3">
+            <img
+              src="../img/logos/twitter.svg"
+              alt="Twitter Icon"
+              class="footer-icons"
+            />
+          </a>
+          <a
+            target="_blank"
+            href="https://www.facebook.com/Virufy/"
+            class="mr-3"
+          >
+            <img
+              src="../img/logos/facebook.svg"
+              alt="Facebook Icon"
+              class="footer-icons"
+            />
+          </a>
+          <a
+            target="_blank"
+            href="https://www.instagram.com/virufyorg/"
+            class="mr-3"
+          >
+            <img
+              src="../img/logos/instagram.svg"
+              alt="Instagram Icon"
+              class="footer-icons"
+            />
+          </a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/company/virufy/"
+            class="mr-3"
+          >
+            <img
+              src="../img/logos/linkedin.svg"
+              alt="LinkedIn Icon"
+              class="footer-icons"
+            />
+          </a>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>

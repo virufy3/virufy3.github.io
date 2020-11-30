@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Inicio | Virufy</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Virufy - evalua tu riesgo a COVID-19 con
+      nuestro app desarollado con tecnología de IA usando tu smartphone. Un
+      proyecto del Laboratorio de Innovación de Respuesta COVID-19 de Stanford."
+    />
+    <meta name="author" content="Team Virufy" />
+    <link rel="stylesheet" href="./../styles.css" />
+    <link rel="icon" href="./../img/favicon.png" type="image/x-icon" />
+
+    <!-- Cookie consent banner - Cookiebot -->
+    <script
+      id="Cookiebot"
+      src="https://consent.cookiebot.com/uc.js"
+      data-cbid="fb5fec28-28e3-45e9-baa6-51f9f62f936b"
+      data-blockingmode="auto"
+      type="text/javascript"
+    ></script>
+
+    <!-- Hotjar Tracking Code for virufy.org -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 1878866, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script data-cookieconsent="ignore">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("consent", "default", {
+        ad_storage: "denied",
+        analytics_storage: "denied",
+        wait_for_update: 500,
+      });
+      gtag("set", "ads_data_redaction", true);
+    </script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-165690517-3"
+    ></script>
+    <script data-cookieconsent="ignore">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-165690517-3");
+    </script>
+
+    <script defer src="../scripts/index.js"></script>
+  </head>
+
+  <body class="text-gray-100 font-body overscroll-none">
+    <!-- Nav section -->
+    <section class="relative">
+      <nav class="flex items-center justify-between wrapper md:py-4">
+        <!-- Virufy logo -->
+        <div>
+          <a href="./index.html">
+            <img
+              class="logo"
+              src="../img/logos/virufy-logo.svg"
+              alt="Virufy logo"
+            />
+          </a>
+        </div>
+        <!-- Container for right side of nav -->
+        <div class="flex">
+          <!-- Mobile language button -->
+          <div class="inline-block mr-6">
+            <button
+              id="mobile-lng-btn"
+              class="px-3 py-1 text-sm border rounded lg:hidden button text-secondary-200 border-secondary-200"
+            >
+              Español
+            </button>
+          </div>
+          <!-- Mobile language menu -->
+          <div class="hidden text-center mobile-menu" id="mobile-lng-menu">
+            <section class="px-4 py-4">
+              <span class="inline-block text-base gray-200 text"
+                >Seleccione el idioma</span
+              >
+            </section>
+            <!-- TODO: Add links to translated pages -->
+            <a href="./../index.html">
+              <section
+                class="px-4 py-4 border-t border-gray-200 hover:bg-teal-100"
+              >
+                <span>English</span>
+              </section>
+            </a>
+            <a href="./../br/index.html">
+              <section
+                class="px-4 py-4 border-t border-gray-200 hover:bg-teal-100"
+              >
+                <span>Português</span>
+              </section>
+            </a>
+            <a href="./../hi/index.html">
+              <section
+                class="px-4 py-4 border-t border-gray-200 hover:bg-teal-100"
+              >
+                <span>हिन्दी</span>
+              </section>
+            </a>
+            <a href="./../jp/index.html">
+              <section
+                class="px-4 py-4 border-t border-gray-200 hover:bg-teal-100"
+              >
+                <span>日本語</span>
+              </section>
+            </a>
+            <!--
+              TODO: If we want to implement saving, we  need to enable
+              cookies to store the user's language preferences
+            <section
+              class="flex justify-center px-4 py-8 border-t border-gray-200"
+            >
+              <button class="w-full px-8 py-2 text-white rounded bg-primary"
+              id="mobile-save-btn">
+                Save
+              </button>
+            </section>
+            -->
+          </div>
+
+          <!-- Mobile nav menu icon -->
+          <div class="inline-block cursor-pointer lg:hidden" id="menu-icon">
+            <svg
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              class="w-6 menu"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              ></path>
+            </svg>
+          </div>
+          <!-- Mobile nav close icon -->
+          <div
+            class="hidden inline-block cursor-pointer lg:hidden"
+            id="close-icon"
+          >
+            <svg
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              class="w-6 x"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"
+              ></path>
+            </svg>
+          </div>
+        </div>
+        <!-- End of container -->
+
+        <!-- Mobile Nav -->
+        <div class="hidden px-6 mobile-menu" id="mobile-nav">
+          <section class="px-4 py-4 border-t border-gray-200">
+            <div class="flex mt-4">
+              <a href="./mission.html" class="w-1/2">
+                <span>Misión</span>
+              </a>
+              <a href="./research.html" class="w-1/2">
+                <span>Nuestra investigación</span>
+              </a>
+            </div>
+            <div class="flex mt-2">
+              <a href="./team.html" class="w-1/2">
+                <span>Nuestro equipo</span>
+              </a>
+              <a href="../join.html">
+                <span>Únete a nosotros</span>
+              </a>
+            </div>
+            <div hidden class>
+              <div class="flex mt-2">
+                <a href="./data.html">
+                  <span>Datos abiertos</span>
+                </a>
+              </div>
+            </div>
+          </section>
+          <section
+            class="flex justify-center px-4 py-8 border-t border-gray-200"
+          >
+            <a
+              target="_blank"
+              href="https://form.jotform.com/203165542475152?language=es"
+            >
+              <button class="w-full px-8 py-2 text-white rounded bg-primary">
+                Dona tu tos
+              </button>
+            </a>
+          </section>
+        </div>
+
+        <!-- Desktop Nav -->
+        <ul
+          class="items-baseline justify-between hidden w-3/4 2xl:w-1/2 lg:flex"
+        >
+          <li>
+            <a href="./mission.html"> <span>Misión</span></a>
+          </li>
+          <li>
+            <a href="./team.html">
+              <span>Nuestro equipo</span>
+            </a>
+          </li>
+          <li hidden class>
+            <a href="./data.html">
+              <span>Datos abiertos</span>
+            </a>
+          </li>
+          <li>
+            <a href="./research.html">
+              <span>Nuestra investigación</span>
+            </a>
+          </li>
+          <li>
+            <a href="../join.html">
+              <span>Únete a nosotros</span>
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://form.jotform.com/203165542475152?language=es"
+            >
+              <button
+                class="px-4 py-1 border rounded text-secondary-200 border-secondary-200"
+              >
+                Dona tu tos
+              </button>
+            </a>
+          </li>
+          <!-- Language Dropdown -->
+          <div class="relative inline-block group">
+            <button
+              class="px-4 py-1 overflow-visible border rounded text-secondary-200 border-secondary-200"
+            >
+              Español
+            </button>
+            <div class="desktop-hover-menu">
+              <a class="pb-2" href="./../index.html">English</a>
+              <a class="pb-2" href="./../br/index.html">Português</a>
+              <a class="pb-2" href="./../hi/index.html">हिन्दी</a>
+              <a class="pb-2" href="./../jp/index.html">日本語</a>
+            </div>
+          </div>
+        </ul>
+      </nav>
+    </section>
+    <!-- End of nav section -->
+
+    <main>
+      <header class="flex py-0 md:mt-20 wrapper items-top">
+        <section class="sm:mt-10 md:mt-0 lg:mt-10">
+          <div>
+            <h1
+              class="text-4xl font-bold text-gray-300 md:text-5xl font-heading"
+            >
+              Detección temprana de COVID-19 con tecnología de IA
+            </h1>
+          </div>
+          <div class="my-2">
+            <p class="mr-6 text-xl sm:mr-0">
+              Ayúdanos a luchar contra la pandemia donando tu tos a nuestra base
+              de datos y contribuye a que podamos construir una herramienta de
+              análisis impulsada por la IA.
+            </p>
+          </div>
+          <div class="my-10">
+            <a
+              target="_blank"
+              href="https://form.jotform.com/203165542475152?language=es"
+            >
+              <button class="px-8 py-2 text-white rounded bg-primary">
+                Dona tu tos
+              </button>
+            </a>
+          </div>
+        </section>
+        <section class="hidden sm:block sm:mt-10 xl:mt-0">
+          <img
+            src="../img/home/header-bg.png"
+            alt="Illustration of woman
+              holding smartphone"
+          />
+        </section>
+      </header>
+
+      <!-- Our mission -->
+      <div class="py-4 my-0 bg-filler wrapper">
+        <section class="lg:w-1/2">
+          <div class="mb-2">
+            <h2 class="text-3xl font-bold text-gray-200">Nuestra misión</h2>
+          </div>
+          <div class="my-2">
+            <p>
+              Nuestra visión es desarrollar una aplicación para smartphones, que
+              pueda ser utilizada por todo el mundo para averiguar en tan sólo
+              segundos si tienen COVID-19. Estamos utilizando tecnología de
+              Inteligencia Artificial de vanguardia para identificar patrones
+              indetectables por los humanos, a partir de las señales
+              respiratorias únicas de los pulmones dañados por el virus. A raíz
+              de una extensa investigación, confiamos en que podemos lograr un
+              90% (o más) de precisión y ayudar a controlar esta pandemia.
+            </p>
+          </div>
+          <div class="my-6">
+            <a href="./mission.html">
+              <button
+                class="px-6 py-2 border rounded text-primary border-primary"
+              >
+                Aprende más
+              </button>
+            </a>
+          </div>
+        </section>
+      </div>
+
+      <!-- Wrapper -->
+      <div class="wrapper">
+        <!-- How will it work section -->
+        <section class="my-16">
+          <div class="mt-4">
+            <p class="my-2">¿Cómo funcionará?</p>
+            <h2 class="text-2xl font-bold text-gray-200">
+              Graba el sonido de tu tos y salva vidas
+            </h2>
+          </div>
+          <div class="flex flex-col md:flex-row md:items-baseline">
+            <div class="md:mr-8 md:w-1/3">
+              <img
+                src="../img/home/cough-icon.png"
+                class="mx-auto my-8"
+                alt="Cough icon"
+              />
+              <h5 class="text-lg font-bold">Dona tu tos</h5>
+              <p>
+                Tu donación nos ayudará a construir una herramienta que podrá
+                reemplazar a las que se están utilizando actualmente.
+              </p>
+            </div>
+            <div class="mt-2 md:mr-8 md:w-1/3">
+              <img
+                class="mx-auto my-2"
+                src="../img/home/sound-icon.png"
+                alt="Sound icon"
+              />
+              <h5 class="text-lg font-bold">
+                Reconocimiento de los sonidos de la tos
+              </h5>
+              <p class="my-2">
+                Ayúdanos a entrenar el algoritmo de IA, contribuyendo con tu
+                donación de tos. El algoritmo funciona con mayor precisión sobre
+                una base de datos más amplia. Analizará las formas de los
+                sonidos de la tos.
+              </p>
+            </div>
+            <div class="my-4 md:w-1/3">
+              <img
+                class="mx-auto my-4"
+                src="../img/home/app-icon.png"
+                alt="App icon"
+              />
+              <h5 class="text-lg font-bold">
+                Desarrollo de una poderosa app con IA
+              </h5>
+              <p class="my-2">
+                Ayúdanos a desarrollar una poderosa app con IA, para la
+                detección temprana de COVID-19.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- About us section -->
+        <section
+          class="bg-local md:bg-filler"
+          style="background-image: url(../img/home/about-bg-mobile.png)"
+        >
+          <div>
+            <h2 class="text-2xl font-bold text-gray-200">Quiénes somos</h2>
+          </div>
+          <div>
+            <p>
+              Somos una organización liderada por jóvenes voluntarios y un
+              equipo apasionado, formado por Ingenieros de Inteligencia
+              Artificial, estudiantes de Medicina, expertos en Marketing y
+              profesionales a nivel global de Silicon Valley. Contamos con el
+              apoyo del
+              <a
+                target="_blank"
+                href="https://responselab.stanford.edu/projects.html"
+                class="text-teal"
+              >
+                Laboratorio de Innovación de Respuesta COVID-19 de Stanford
+              </a>
+              y también estamos presentes en
+              <a
+                target="_blank"
+                href="https://oywj.org/ambassadors-in-action/2020/05/oywj-ambassador-targets-covid-19-using-ai/"
+                class="text-teal"
+              >
+                One Young World.
+              </a>
+              Su apoyo puede beneficiar a cientos de millones de personas en más
+              de 190 países!
+            </p>
+          </div>
+        </section>
+
+        <!-- Collaboration section -->
+        <section class="mt-10">
+          <div>
+            <h3 class="mb-8 text-xl font-semibold text-gray-200">
+              En colaboración con
+            </h3>
+          </div>
+          <div
+            class="flex flex-col items-center justify-center lg:flex-row md:justify-between"
+          >
+            <div class="w-32 mb-8">
+              <a target="_blank" href="https://h4r.stanford.edu/">
+                <img
+                  class="mx-auto"
+                  src="../img/logos/stanford-h4r-logo.jpg"
+                  alt="Stanford Hacking 4 Recovery logo"
+                  width="150"
+                />
+              </a>
+            </div>
+            <div class="w-32 mb-8">
+              <a
+                target="_blank"
+                href="https://www.oneyoungworld.com/counsellors"
+              >
+                <img
+                  class="mx-auto"
+                  src="../img/logos/one-young-world-logo.png"
+                  alt="One Young World logo"
+                />
+              </a>
+            </div>
+            <div class="w-32 mb-8">
+              <a
+                target="_blank"
+                href="https://xoor.io/en/?utm_campaign=virufy_partner&utm_source=virufy_hp_en&utm_medium=xoor_logo"
+              >
+                <img
+                  class="mx-auto"
+                  src="../img/logos/xoor.svg"
+                  alt="XOOR Software Development logo"
+                />
+              </a>
+            </div>
+            <div class="w-32 mb-8">
+              <a target="_blank" href="https://responselab.stanford.edu/">
+                <img
+                  class="mx-auto"
+                  src="../img/logos/covid-19-RIL-logo.png"
+                  alt="Covid-19 Response Innovation Lab logo"
+                />
+              </a>
+            </div>
+            <div class="w-32 mb-8">
+              <a target="_blank" href="https://sienacompany.com/">
+                <img
+                  class="mx-auto"
+                  src="../img/logos/siena-company-logo.png"
+                  alt="Siena Company logo"
+                  width="150"
+                />
+              </a>
+            </div>
+            <div class="w-32 mb-8">
+              <a target="_blank" href="https://jig.jp/">
+                <img
+                  class="mx-auto"
+                  src="../img/logos/jig-jp-logo.png"
+                  alt="Jig JP logo"
+                />
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- End of Wrapper -->
+
+      <!-- Wrapper for Timeline and Help Us section with background image -->
+
+      <div class="relative w-full pb-20">
+        <!-- Timeline -->
+        <section class="w-full wrapper md:mb-48 lg:mb-64 md:pb-18">
+          <div class="my-4">
+            <h2 class="text-3xl font-bold text-gray-200">
+              Nuestra línea de tiempo
+            </h2>
+            <p class="text-sm text-gray-200">
+              Fechas sujetas a posibles cambios
+            </p>
+          </div>
+          <div
+            class="flex flex-row-reverse justify-end w-full md:pl-0 md:flex-col"
+          >
+            <!-- Image container -->
+            <div class="mt-8 mb-4 xl:w-3/4">
+              <img
+                class="hidden w-full md:block"
+                src="../img/home/timeline-icon2.svg"
+                alt="Image of timeline"
+              />
+              <img
+                class="mx-auto md:hidden"
+                src="../img/home/timeline-icon-mobile2.svg"
+                alt="Image of timeline"
+              />
+            </div>
+            <!-- Text container -->
+            <div
+              class="flex flex-col justify-between sm:h-2/3 sm:w-2/3 sm:h-3/4 md:ml-5 md:w-3/4 lg:w-2/3 xl:w-1/2 md:flex-row"
+            >
+              <div class="sm:w-2/3 md:w-1/3 xl:w-1/3">
+                <h4 class="mb-1 text-lg font-bold text-gray-400">
+                  Recolección de muestras de tos & construcción del prototipo de
+                  IA.
+                </h4>
+                <p>Enero-Marzo 2021</p>
+              </div>
+              <div>
+                <h4 class="mb-1 text-lg font-bold text-gray-400">
+                  Validación clínica del test
+                </h4>
+                <p>Abr-Jun 2021</p>
+              </div>
+              <div>
+                <h4 class="mb-1 text-lg font-bold text-gray-400">
+                  Lanzamiento de la App
+                </h4>
+                <p>Jul-Sept 2021</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Help us -->
+        <section class="wrapper md:mb-20">
+          <div>
+            <h2 class="text-2xl font-bold text-gray-200">
+              Ayúdanos a lograr esto
+            </h2>
+          </div>
+          <div class="my-4">
+            <p>
+              Por favor, tomate 2 minutos para grabar tu tos y responder algunas
+              preguntas.
+            </p>
+          </div>
+          <div class="z-10">
+            <a target="_blank" href="https://form.jotform.com/201988192533159">
+              <button class="px-6 py-2 text-white rounded bg-primary">
+                Dona tu tos
+              </button>
+            </a>
+          </div>
+          <img
+            class="absolute bottom-0 right-0 hidden w-full -z-10 md:block"
+            src="../img/home/help-us-bg2.png"
+            alt="Illustration of woman using
+        Virufy app"
+          />
+        </section>
+      </div>
+
+      <!-- End of wrapper for Timeline and Help Us section -->
+    </main>
+
+    <footer class="footer">
+      <div
+        class="flex flex-col-reverse mx-auto max-w-screen-3xl md:flex-row md:justify-between"
+      >
+        <section>
+          <div>
+            <a target="_blank" href="cookie_policy.html"
+              >Política de cookies
+            </a>
+            |
+            <a href="javascript: Cookiebot.renew()"
+              >Configuración de las cookies</a
+            >
+            |
+            <a target="_blank" href="../privacy_policy.html"
+              >Política de privacidad</a
+            >
+            |
+            <a target="_blank" href="../ccpa.html"
+              >Do Not Sell My Personal Information</a
+            >
+          </div>
+          <div>
+            <p>© Copyright 2020 Virufy. Todos los derechos reservados.</p>
+          </div>
+        </section>
+        <!-- Icon container -->
+        <section class="flex mb-16">
+          <a target="_blank" href="https://github.com/virufy" class="mr-3">
+            <img
+              src="../img/logos/github.svg"
+              alt="Github Icon"
+              class="footer-icons"
+            />
+          </a>
+          <a target="_blank" href="https://twitter.com/VirufyOrg" class="mr-3">
+            <img
+              src="../img/logos/twitter.svg"
+              alt="Twitter Icon"
+              class="footer-icons"
+            />
+          </a>
+          <a
+            target="_blank"
+            href="https://www.facebook.com/Virufy/"
+            class="mr-3"
+          >
+            <img
+              src="../img/logos/facebook.svg"
+              alt="Facebook Icon"
+              class="footer-icons"
+            />
+          </a>
+          <a
+            target="_blank"
+            href="https://www.instagram.com/virufyorg/"
+            class="mr-3"
+          >
+            <img
+              src="../img/logos/instagram.svg"
+              alt="Instagram Icon"
+              class="footer-icons"
+            />
+          </a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/company/virufy/"
+            class="mr-3"
+          >
+            <img
+              src="../img/logos/linkedin.svg"
+              alt="LinkedIn Icon"
+              class="footer-icons"
+            />
+          </a>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>

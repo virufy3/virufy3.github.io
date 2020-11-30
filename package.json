@@ -1,0 +1,23 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o docs/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virufy2/website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/virufy2/website/issues"
+  },
+  "homepage": "https://github.com/virufy2/website#readme",
+  "dependencies": {
+    "tailwindcss": "^1.6.2"
+  }
+}

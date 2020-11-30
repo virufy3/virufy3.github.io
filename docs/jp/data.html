@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>オープンデータ | Virufy</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Virufy - evalua tu riesgo a COVID-19 con
+      nuestro app desarollado con tecnología de IA usando tu smartphone. Un
+      proyecto del Laboratorio de Innovación de Respuesta COVID-19 de Stanford."
+    />
+    <meta name="author" content="Team Virufy" />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="icon" href="../img/favicon.png" type="image/x-icon" />
+    <!-- Cookie consent banner - Cookiebot -->
+    <script
+      id="Cookiebot"
+      src="https://consent.cookiebot.com/uc.js"
+      data-cbid="fb5fec28-28e3-45e9-baa6-51f9f62f936b"
+      data-blockingmode="auto"
+      type="text/javascript"
+    ></script>
+    <!-- Hotjar Tracking Code for virufy.org -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 1878866, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script data-cookieconsent="ignore">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("consent", "default", {
+        ad_storage: "denied",
+        analytics_storage: "denied",
+        wait_for_update: 500,
+      });
+      gtag("set", "ads_data_redaction", true);
+    </script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-165690517-3"
+    ></script>
+    <script data-cookieconsent="ignore">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-165690517-3");
+    </script>
+    <script defer src="../scripts/index.js"></script>
+  </head>
+
+  <body class="text-gray-100 font-body overscroll-none">
+    <!-- Nav section -->
+    <section class="relative">
+      <nav class="flex items-center justify-between wrapper md:py-4">
+        <!-- Virufy logo -->
+        <div>
+          <a href="./index.html">
+            <img
+              class="logo"
+              src="../img/logos/virufy-logo.svg"
+              alt="Virufy logo"
+            />
+          </a>
+        </div>
+        <!-- Container for right side of nav -->
+        <div class="flex">
+          <!-- Mobile language button -->
+          <div class="inline-block mr-6">
+            <button
+              id="mobile-lng-btn"
+              class="px-3 py-1 text-sm border rounded lg:hidden button text-secondary-200 border-secondary-200"
+            >
+              日本語
+            </button>
+          </div>
+          <!-- Mobile language menu -->
+          <div class="hidden text-center mobile-menu" id="mobile-lng-menu">
+            <section class="px-4 py-4">
+              <span class="inline-block text-base gray-200 text"
+                >言語を選択</span
+              >
+            </section>
+            <!-- TODO: Add links to translated pages -->
+            <a href="./../data.html">
+              <section
+                class="px-4 py-4 border-t border-gray-200 hover:bg-teal-100"
+              >
+                <span>English</span>
+              </section>
+            </a>
+            <a href="./../es/data.html">
+              <section
+                class="px-4 py-4 border-t border-gray-200 hover:bg-teal-100"
+              >
+                <span>Español</span>
+              </section>
+            </a>
+            <a href="./../br/data.html">
+              <section
+                class="px-4 py-4 border-t border-gray-200 hover:bg-teal-100"
+              >
+                <span>Português</span>
+              </section>
+            </a>
+            <a href="./../hi/data.html">
+              <section
+                class="px-4 py-4 border-t border-gray-200 hover:bg-teal-100"
+              >
+                <span>हिन्दी</span>
+              </section>
+            </a>
+            <!--
+                TODO: If we want to implement saving, we  need to enable
+                cookies to store the user's language preferences
+              <section
+                class="flex justify-center px-4 py-8 border-t border-gray-200"
+              >
+                <button class="w-full px-8 py-2 text-white rounded bg-primary"
+                id="mobile-save-btn">
+                  Save
+                </button>
+              </section>
+              -->
+          </div>
+
+          <!-- Mobile nav menu icon -->
+          <div class="inline-block cursor-pointer lg:hidden" id="menu-icon">
+            <svg
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              class="w-6 menu"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              ></path>
+            </svg>
+          </div>
+          <!-- Mobile nav close icon -->
+          <div
+            class="hidden inline-block cursor-pointer lg:hidden"
+            id="close-icon"
+          >
+            <svg
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              class="w-6 x"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"
+              ></path>
+            </svg>
+          </div>
+        </div>
+        <!-- End of container -->
+
+        <!-- Mobile Nav -->
+        <div class="hidden px-6 mobile-menu" id="mobile-nav">
+          <section class="px-4 py-4 border-t border-gray-200">
+            <div class="flex mt-4">
+              <a href="./mission.html" class="w-1/2">
+                <span>ミッション</span>
+              </a>
+              <a href="./research.html" class="w-1/2">
+                <span>研究</span>
+              </a>
+            </div>
+            <div class="flex mt-2">
+              <a href="./team.html" class="w-1/2">
+                <span>チーム</span>
+              </a>
+              <a href="../join.html">
+                <span>参加する</span>
+              </a>
+            </div>
+            <div hidden class>
+              <div class="flex mt-2">
+                <a href="./data.html">
+                  <span>オープンデータ</span>
+                </a>
+              </div>
+            </div>
+          </section>
+          <section
+            class="flex justify-center px-4 py-8 border-t border-gray-200"
+          >
+            <a target="_blank" href="https://www.gofundme.com/f/virufyorg">
+              <button class="w-full px-8 py-2 text-white rounded bg-primary">
+                寄付
+              </button>
+            </a>
+          </section>
+        </div>
+
+        <!-- Desktop Nav -->
+        <ul
+          class="items-baseline justify-between hidden w-3/4 2xl:w-1/2 lg:flex"
+        >
+          <li>
+            <a href="./mission.html"> <span>ミッション</span></a>
+          </li>
+          <li>
+            <a href="./team.html">
+              <span>チーム</span>
+            </a>
+          </li>
+          <li hidden class>
+            <a href="./data.html">
+              <span>オープンデータ</span>
+            </a>
+          </li>
+          <li>
+            <a href="./research.html">
+              <span>研究</span>
+            </a>
+          </li>
+          <li>
+            <a href="../join.html">
+              <span>参加する</span>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.gofundme.com/f/virufyorg">
+              <button
+                class="px-4 py-1 border rounded text-secondary-200 border-secondary-200"
+              >
+                寄付
+              </button>
+            </a>
+          </li>
+          <!-- Language Dropdown -->
+          <div class="relative inline-block group">
+            <button
+              class="px-4 py-1 overflow-visible border rounded text-secondary-200 border-secondary-200"
+            >
+              日本語
+            </button>
+            <div class="desktop-hover-menu">
+              <a class="pb-2" href="./../data.html">English</a>
+              <a class="pb-2" href="./../es/data.html">Español</a>
+              <a class="pb-2" href="./../br/data.html">Português</a>
+              <a class="pb-2" href="./../hi/data.html">हिन्दी</a>
+            </div>
+          </div>
+        </ul>
+      </nav>
+    </section>
+    <!-- End of nav section -->
+
+    <main class="relative">
+      <header class="-z-10">
+        <div class="relative flex justify-center">
+          <!-- background image -->
+          <img
+            src="../img/data/header-bg.png"
+            alt="Data background"
+            class="relative hidden w-full md:block md:mt-20"
+          />
+          <div class="w-full wrapper md:absolute">
+            <h1
+              class="mt-32 mb-6 text-5xl font-bold text-gray-300 font-heading"
+            >
+              オープンデータ
+            </h1>
+
+            <p class="text-xl md:w-7/12">
+              私たちのCOVID-19咳データをオープンソース化することにしました。
+            </p>
+          </div>
+        </div>
+      </header>
+
+      <!-- container with margin -->
+      <div class="wrapper">
+        <section class="mb-10">
+          <h2 class="max-w-3xl mb-4 text-2xl font-bold text-gray-200">
+            私たちは人類のためになる事を目指し、初の無料COVID-19咳データを作成することにより、
+            オープンソーシングの先駆者になることを目標にしています。
+          </h2>
+          <p>
+            COVID-19は世界的な危機をもたらすパンデミックです。
+            これを克服するためには私たち全員が協力する必要があります。
+            まずAIを動すにはビッグデータが必要なのですが、
+            現在一般的に公開されているCOVID-19咳データセットは世界中のどこでも認識をしていません。
+            私たちはこのギャップを埋めたいと思っています。
+            このために、Virufyは診断アルゴリズムとともに、
+            COVID-19咳データのオープンソースの無料データベースを作成しています。
+            これにより、世界中の学界や産業界からのイノベーションとコラボレーションが促進され、
+            現在の危機の緩和に役立つと考えています。
+          </p>
+        </section>
+        <section class="flex flex-wrap justify-between pb-10">
+          <div class="my-5 md:w-5/12 md:my-10">
+            <h2
+              class="max-w-xs pt-1 mb-4 text-xl font-bold text-gray-200 border-t-2 border-gray-400 border-none md:border-solid"
+            >
+              データソース
+            </h2>
+            <p>
+              Virufyでは、大量のデータだけでなく、高品質のデータ取得にも取り組んでいます。
+              私たちのデータセットは、標準操作手順（SOP）に従って医師の監督の下、病院で収集されました。
+              私たちのデータは前処理され、COVID-19ステータス（PCRテストから取得）と患者の人口統計（年齢、性別、病歴​​）でラベル付けされます。
+            </p>
+          </div>
+          <div class="my-5 md:w-5/12 md:my-10">
+            <h2
+              class="max-w-xs pt-1 mb-4 text-xl font-bold text-gray-200 border-t-2 border-gray-400 border-none md:border-solid"
+            >
+              早速始める
+            </h2>
+            <p>
+              私たちのデータの使用方法については、GitHubページと、このデータを処理するための咳とテキストモデルをご覧ください。
+            </p>
+            <a
+              href="https://github.com/virufy/covid/tree/master/data"
+              target="_blank"
+            >
+              <button
+                class="px-6 py-1 mt-5 border-2 rounded border-primary text-primary hover:bg-primary hover:text-white transition-colors duration-150"
+              >
+                私たちのGithubにアクセスする
+              </button>
+            </a>
+          </div>
+          <div class="my-5 md:w-5/12 md:my-10">
+            <h2
+              class="max-w-xs pt-1 mb-4 text-xl font-bold text-gray-200 border-t-2 border-gray-400 border-none md:border-solid"
+            >
+              コラボレーション
+            </h2>
+
+            <p>
+              私たちのデータとコードの閲覧を歓迎します。
+              私たちはこのデータを使用してパンデミックの解決策を見つける事を目的とした研究者のコミュニティを作成したいと考えています。
+              もし興味がある場合は、
+              <a
+                target="_blank"
+                href="mailto:open-data@virufy.org"
+                class="text-primary"
+                >open-data@virufy.org</a
+              >
+              にメールを送信してください。
+            </p>
+            <a target="_blank" href="mailto:open-data@virufy.org">
+              <button
+                class="px-6 py-1 mt-5 border-2 rounded border-primary text-primary hover:bg-primary hover:text-white transition-colors duration-150"
+              >
+                お問い合わせ
+              </button>
+            </a>
+          </div>
+        </section>
+      </div>
+      <img
+        src="../img/data/footer-bg.png"
+        alt="Abstract background"
+        class="absolute bottom-0 hidden w-full md:block"
+        style="z-index: -1"
+      />
+    </main>
+    <footer class="footer">
+      <div
+        class="flex flex-col-reverse mx-auto max-w-screen-3xl md:flex-row md:justify-between"
+      >
+        <section>
+          <div>
+            <a target="_blank" href="../cookie_policy.html"
+              >クッキーポリシー
+            </a>
+            | <a href="javascript: Cookiebot.renew()">クッキー設定</a> |
+            <a target="_blank" href="../privacy_policy.html"
+              >プライバシーポリシー</a
+            >
+          </div>
+          <div>
+            <p>
+              Copyright 2020 Virufy。 VIRUFYはThe Covid Detection
+              Foundationの商標です。 全著作権所有。
+            </p>
+          </div>
+        </section>
+        <!-- Icon container -->
+        <section class="flex mb-16">
+          <a target="_blank" href="https://github.com/virufy" class="mr-3">
+            <img
+              src="../img/logos/github.svg"
+              alt="Github Icon"
+              class="footer-icons"
+            />
+          </a>
+          <a target="_blank" href="https://twitter.com/VirufyOrg" class="mr-3">
+            <img
+              src="../img/logos/twitter.svg"
+              alt="Twitter Icon"
+              class="footer-icons"
+            />
+          </a>
+          <a
+            target="_blank"
+            href="https://www.facebook.com/Virufy/"
+            class="mr-3"
+          >
+            <img
+              src="../img/logos/facebook.svg"
+              alt="Facebook Icon"
+              class="footer-icons"
+            />
+          </a>
+          <a
+            target="_blank"
+            href="https://www.instagram.com/virufyorg/"
+            class="mr-3"
+          >
+            <img
+              src="../img/logos/instagram.svg"
+              alt="Instagram Icon"
+              class="footer-icons"
+            />
+          </a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/company/virufy/"
+            class="mr-3"
+          >
+            <img
+              src="../img/logos/linkedin.svg"
+              alt="LinkedIn Icon"
+              class="footer-icons"
+            />
+          </a>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>

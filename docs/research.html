@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Research | Virufy</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Virufy - assess your risk for COVID-19 with our AI-powered app using your smartphone. A project of Stanford University's
+	COVID-19 Response Innovation Lab." />
+  <meta name="author" content="Team Virufy" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="img/favicon.png" type="image/x-icon" />
+  <!-- Cookie consent banner - Cookiebot -->
+  <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="fb5fec28-28e3-45e9-baa6-51f9f62f936b"
+    data-blockingmode="auto" type="text/javascript"></script>
+  <!-- Hotjar Tracking Code for virufy.org -->
+  <script>
+    (function (h, o, t, j, a, r) {
+      h.hj =
+        h.hj ||
+        function () {
+          (h.hj.q = h.hj.q || []).push(arguments);
+        };
+      h._hjSettings = { hjid: 1878866, hjsv: 6 };
+      a = o.getElementsByTagName("head")[0];
+      r = o.createElement("script");
+      r.async = 1;
+      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+      a.appendChild(r);
+    })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+  </script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script data-cookieconsent="ignore">
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("consent", "default", {
+      ad_storage: "denied",
+      analytics_storage: "denied",
+      wait_for_update: 500,
+    });
+    gtag("set", "ads_data_redaction", true);
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165690517-3"></script>
+  <script data-cookieconsent="ignore">
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "UA-165690517-3");
+  </script>
+  <script defer src="scripts/index.js"></script>
+</head>
+
+<body class="text-gray-100 font-body overscroll-none">
+  <!-- Nav section -->
+  <section class="relative">
+    <nav class="flex items-center justify-between wrapper md:py-4">
+      <!-- Virufy logo -->
+      <div>
+        <a href="./index.html">
+          <img
+            class="logo"
+            src="img/logos/virufy-logo.svg"
+            alt="Virufy logo"
+          />
+        </a>
+      </div>
+      <!-- Container for right side of nav -->
+      <div class="flex">
+        <!-- Mobile language button -->
+        <div class="inline-block mr-6">
+          <button
+            id="mobile-lng-btn"
+            class="px-3 py-1 text-sm border rounded lg:hidden button text-secondary-200 border-secondary-200"
+          >
+            English
+          </button>
+        </div>
+        <!-- Mobile language menu -->
+        <div class="hidden text-center mobile-menu" id="mobile-lng-menu">
+          <section class="px-4 py-4">
+            <span class="inline-block text-base gray-200 text"
+              >Select language</span
+            >
+          </section>
+          <!-- TODO: Add links to translated pages -->
+          <a href="./research.html">
+            <section
+              class="px-4 py-4 border-t border-gray-200 hover:bg-teal-100"
+            >
+              <span>English</span>
+            </section>
+          </a>
+          <a href="./es/research.html">
+            <section
+              class="px-4 py-4 border-t border-gray-200 hover:bg-teal-100"
+            >
+              <span>Español</span>
+            </section>
+          </a>
+          <a href="./br/research.html">
+            <section
+              class="px-4 py-4 border-t border-gray-200 hover:bg-teal-100"
+            >
+              <span>Português</span>
+            </section>
+          </a>
+          <a href="./hi/research.html">
+            <section
+              class="px-4 py-4 border-t border-gray-200 hover:bg-teal-100"
+            >
+              <span>हिन्दी</span>
+            </section>
+          </a>
+          <a href="./jp/research.html">
+            <section
+              class="px-4 py-4 border-t border-gray-200 hover:bg-teal-100"
+            >
+              <span>日本語</span>
+            </section>
+          </a>
+          <!--
+            TODO: If we want to implement saving, we  need to enable
+            cookies to store the user's language preferences
+          <section
+            class="flex justify-center px-4 py-8 border-t border-gray-200"
+          >
+            <button class="w-full px-8 py-2 text-white rounded bg-primary"
+            id="mobile-save-btn">
+              Save
+            </button>
+          </section>
+          -->
+        </div>
+
+        <!-- Mobile nav menu icon -->
+        <div class="inline-block cursor-pointer lg:hidden" id="menu-icon">
+          <svg
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            class="w-6 menu"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            ></path>
+          </svg>
+        </div>
+        <!-- Mobile nav close icon -->
+        <div
+          class="hidden inline-block cursor-pointer lg:hidden"
+          id="close-icon"
+        >
+          <svg
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            class="w-6 x"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 18L18 6M6 6l12 12"
+            ></path>
+          </svg>
+        </div>
+      </div>
+      <!-- End of container -->
+
+      <!-- Mobile Nav -->
+      <div class="hidden px-6 mobile-menu" id="mobile-nav">
+        <section class="px-4 py-4 border-t border-gray-200">
+          <div class="flex mt-4">
+            <a href="./data.html" class="w-1/2">
+              <span>Data</span>
+            </a>
+            <a href="./research.html" class="w-1/2">
+              <span>Research</span>
+            </a>
+          </div>
+          <div class="flex mt-2">
+            <a href="./team.html" class="w-1/2">
+              <span>Team</span>
+            </a>
+            <a href="./join.html">
+              <span>Join</span>
+            </a>
+          </div>
+          <div class="flex mt-2">
+            <a href="./press.html" class="w-1/2">
+              <span>Press</span>
+            </a>
+          </div>
+          <div hidden class>
+            <div class="flex mt-2">
+              
+              <a href="faq.html" class="w-1/2">
+              <span>FAQ</span></a>
+            </div>
+          </div>
+        </section>
+        <section class="px-4 py-4 border-t border-gray-200">
+          <div class="flex justify-between">
+            <a target="_blank" href="https://github.com/virufy">
+              <img src="img/logos/github-dark.svg" alt="github Icon" />
+            </a>
+            <a target="_blank" href="https://twitter.com/VirufyOrg">
+              <img src="img/logos/twitter-dark.svg" alt="Twitter Icon" />
+            </a>
+            <a target="_blank" href="https://www.facebook.com/Virufy/">
+              <img src="img/logos/facebook-dark.svg" alt="Facebook Icon" />
+            </a>
+            <a target="_blank" href="https://www.instagram.com/virufyorg/">
+              <img src="img/logos/instagram-dark.svg" alt="instagram icon" />
+            </a>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/company/virufy/"
+            >
+              <img src="img/logos/linkedin-nav-icon.svg" alt="LinkedIn Icon"
+            /></a>
+          </div>
+        </section>
+      </div>
+
+      <!-- Desktop Nav -->
+
+      <ul
+        class="items-baseline justify-between hidden w-1/2 2xl:w-1/2 lg:flex"
+      >
+      <li>
+        <a href="./data.html">
+          <span>Data</span>
+        </a>
+      </li>
+      <li>
+        <a href="./research.html">
+          <span>Research</span>
+        </a>
+      </li>
+      <li>
+        <a href="./team.html">
+          <span>Team</span>
+        </a>
+      </li>
+      <li>
+        <a href="./join.html">
+          <span>Join</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="./press.html">
+          <span>Press</span>
+        </a>
+      </li>
+      <li hidden class>
+        <a href="faq.html"> <span>FAQ</span></a>
+      </li>
+
+
+        <!-- Language Dropdown -->
+        <div class="relative inline-block group">
+          <button
+            class="px-4 py-1 overflow-visible border rounded text-secondary-200 border-secondary-200"
+          >
+            English
+          </button>
+          <div class="desktop-hover-menu">
+            <a class="pb-2" href="./es/research.html">Español</a>
+            <a class="pb-2" href="./br/research.html">Português</a>
+            <a class="pb-2" href="./hi/research.html">हिन्दी</a>
+            <a class="pb-2" href="./jp/research.html">日本語</a>
+          </div>
+        </div>
+      </ul>
+      <div class="items-baseline lg:flex justify-between hidden mx-4">
+        <div class="mx-4">
+          <a target="_blank" href="https://github.com/virufy">
+            <img src="img/logos/github-dark.svg" alt="github Icon" />
+          </a>
+        </div>
+        <div class="mx-4">
+          <a target="_blank" href="https://twitter.com/VirufyOrg">
+            <img src="img/logos/twitter-dark.svg" alt="Twitter Icon" />
+          </a>
+        </div>
+        <div class="mx-4">
+          <a target="_blank" href="https://www.facebook.com/Virufy/">
+            <img src="img/logos/facebook-dark.svg" alt="Facebook Icon" />
+          </a>
+        </div>
+        <div class="mx-4">
+          <a target="_blank" href="https://www.instagram.com/virufyorg/">
+            <img src="img/logos/instagram-dark.svg" alt="instagram icon" />
+          </a>
+        </div>
+        <div class="mx-4">
+          <a target="_blank" href="https://www.linkedin.com/company/virufy/">
+            <img src="img/logos/linkedin-nav-icon.svg" alt="LinkedIn Icon"
+          /></a>
+        </div>
+      </div>
+    </nav>
+    </section>
+    <!-- End of nav section -->
+
+    <main class="relative">
+        <header class="flex justify-between my-10 md:my-20 wrapper">
+          <div class="w-full md:w-7/12">
+            <h1 class="mb-4 text-5xl font-bold text-gray-300 font-heading ">
+              Research
+            </h1>
+            <p class="text-xl mt-8">
+              Based on clinical research on cough sound classification from prestigious institutions including CMU, MIT, and Cambridge, Virufy is developing an AI algorithm to accurately predict a COVID-19 infection within minutes based on cough sound recordings. Our research paper can be found <a
+              target="_blank"
+              class="text-primary"
+              href="paper.html"
+            >here</a>.
+            </p>
+          </div>
+          <div class="hidden md:block md:w-4/12">
+            <img
+              class="ml-auto"
+              src="./img/research/header2.png"
+              alt="phone"
+            />
+          </div>
+          </header>
+
+      <section class="my-20 wrapper">
+        <div class="my-4 border border-gray-400 rounded">
+          <div class="relative flex items-center justify-end">
+            <button
+              onclick="collapse(this)"
+              type="button"
+              style="padding-right: 3rem"
+              class="w-full px-4 py-2 font-bold text-left border-b border-gray-400"
+            >
+            How might COVID-19 coughs be distinguishable?
+            </button>
+            <img
+              class="absolute"
+              style="right: 1rem"
+              src="img/research/expand.png"
+              alt="expand/collapse icon"
+            />
+          </div>
+
+          <div
+            class="overflow-hidden"
+            style="max-height: 0; transition: max-height 200ms ease-out"
+          >
+            <p class="mx-4 my-6">
+              Similar to all other respiratory diseases, COVID-19 creates a unique respiratory signature in the throat and lungs that is distinct from other respiratory infections that produce a wet cough. Consequently, it has been suggested that cough sounds can be analyzed to detect COVID-19​.​ Globally, this idea is being actively researched by several prestigious institutions, including CMU[<a href="#8" class="text-primary">8</a>], MIT[<a href="#11" class="text-primary">11</a>], and Cambridge[<a href="#7" class="text-primary">7</a>]. For example, a crowdsource research done by University of Cambridge showed that a simple binary machine learning classifier is able to classify COVID-19 positive patients through breathing and coughing sounds with high accuracy (AUC = 0.7)[<a href="#7" class="text-primary">7</a>]. Similarly, researchers at CMU identified 18 voice features that distinguish positive COVID-19 patients and trained a model to diagnose COVID-19 with a 89.1% accuracy[<a href="#8" class="text-primary">8</a>].
+            </p>
+          </div>
+        </div>
+        <div class="my-4 border border-gray-400 rounded">
+          <div class="relative flex items-center justify-end">
+            <button
+              onclick="collapse(this)"
+              type="button"
+              style="padding-right: 3rem"
+              class="w-full px-4 py-2 font-bold text-left border-b border-gray-400"
+            >
+            How will Virufy’s AI algorithm predict a COVID-19 diagnosis? 
+            </button>
+            <img
+              class="absolute"
+              style="right: 1rem"
+              src="img/research/expand.png"
+              alt="expand/collapse icon"
+            />
+          </div>
+
+          <div
+            class="overflow-hidden"
+            style="max-height: 0; transition: max-height 200ms ease-out"
+          >
+            <p class="mx-4 my-6">
+              Based on this past research, Virufy is developing an AI algorithm that can be used to accurately predict a COVID-19 infection within minutes based on recordings of cough sounds. However, as opposed to previous COVID-19 cough research that targeted the US population, Virufy aims to collect data from multiple sites across the globe. As a student-run initiative with volunteers spanning several countries, Virufy is developing a COVID-19 diagnostic model with greater racial and spatial inclusivity through data that includes a range of ethnicities and community-specific phonological differences.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-gray-100">
+        <div class="pt-20 pb-10 wrapper">
+          <h2 class="max-w-3xl mb-4 text-2xl font-bold text-gray-200">
+            Below are a few examples of research projects that give us confidence in the scope of developing an AI algorithm to be used for COVID-19 detection:
+          </h2>
+          <div class="flex flex-wrap">
+            <div class="w-full my-10 md:w-1/2">
+              <div class="flex">
+                <div
+                  class="flex content-center justify-center mr-2 rounded-full bg-primary"
+                  style="min-width: 35px; height: 35px"
+                >
+                  <img
+                    class="object-contain"
+                    src="img/research/data.png"
+                    alt="data"
+                  />
+                </div>
+                <h2 class="mb-4 text-xl font-bold text-gray-200 md:w-11/12">
+                  Exploring Automatic Diagnosis of COVID-19 from Crowdsourced Respiratory Sound Data
+                </h2>
+              </div>
+              <div style="width: calc(100% - (35px + 0.5rem))" class="ml-auto">
+                <p class="md:w-11/12">
+                  A crowdsource research done by University of Cambridge that used cough samples and breathing to understand how discernible COVID-19 sounds are from those in asthma or healthy controls. Their results show that even a simple binary machine learning classifier is able to classify correctly healthy and COVID-19 sounds. Our models achieve an AUC above 70% across all tasks. This work inspires further investigation of how automatically analyzed respiratory patterns could be used as pre-screening signals to aid COVID-19 diagnosis [<a
+                    href="#7"
+                    class="text-primary"
+                    >7</a
+                  >].
+                </p>
+              </div>
+            </div>
+            <div class="w-full my-10 md:w-1/2">
+              <div class="flex">
+                <div
+                  class="flex content-center justify-center mr-2 rounded-full bg-primary"
+                  style="min-width: 35px; height: 35px"
+                >
+                  <img
+                    class="object-contain"
+                    src="img/research/balloon.png"
+                    alt="speech balloon"
+                  />
+                </div>
+                <h2 class="mb-4 text-xl font-bold text-gray-200 md:w-11/12">
+                  COVID Voice Detector
+                </h2>
+              </div>
+              <div style="width: calc(100% - (35px + 0.5rem))" class="ml-auto">
+                <p class="md:w-11/12">
+                  A study by Carnegie Mellon University aimed to collect a large number of voice samples to train AI for diagnosis of COVID. The rationale behing the study is that, "the sound of our voice (regardless of language), and the sounds we make when we breathe or cough change when our respiratory system is affected. The changes range from coarse, clearly audible changes, to minute changes -- what we call "micro" signatures, that are not audible to the untrained listener, but are nevertheless present" [<a href="#8" class="text-primary">8</a
+                  >].
+                </p>
+              </div>
+            </div>
+            <div class="w-full my-10 md:w-1/2">
+              <div class="flex">
+                <div
+                  class="flex content-center justify-center mr-2 rounded-full bg-primary"
+                  style="min-width: 35px; height: 35px"
+                >
+                  <img
+                    class="object-contain"
+                    src="img/research/phone.png"
+                    alt="phone"
+                  />
+                </div>
+                <div>
+                  <h2 class="mb-4 text-xl font-bold text-gray-200 md:w-11/12">
+                    Hi Sigma, do I have the Coronavirus? Call for a New Artificial Intelligence Approach to Support Health Care Professionals Dealing with the COVID-19 Pandemic.
+                  </h2>
+                </div>
+              </div>
+              <div style="width: calc(100% - (35px + 0.5rem))" class="ml-auto">
+                <p class="md:w-11/12">
+                  MIT's Department of Mechanical Engineering proposes to detect positive cases of COVID by collecting cough samples through the phone to train artificial intelligence and subsequently build a diagnostic algorithm [<a
+                    href="#11"
+                    class="text-primary"
+                    >11</a
+                  >].
+                </p>
+              </div>
+            </div>
+            <div class="w-full my-10 md:w-1/2">
+              <div class="flex">
+                <div
+                  class="flex content-center justify-center mr-2 rounded-full bg-primary"
+                  style="min-width: 35px; height: 35px"
+                >
+                  <img
+                    class="object-contain"
+                    src="img/research/cellphone.png"
+                    alt="speech balloon"
+                  />
+                </div>
+                <h2 class="mb-4 text-xl font-bold text-gray-200 md:w-11/12">
+                  AI Enabled Preliminary Diagnosis for COVID-19 from Cough Samples via an App
+                </h2>
+              </div>
+              <div style="width: calc(100% - (35px + 0.5rem))" class="ml-auto">
+                <p class="md:w-11/12">
+                  Study designed to collect cough samples to train and use AI architecture that minimizes misdiagnosis. They predict that at the time of writing, their AI engine can distinguish between COVID-19 patient coughs and several types of non-COVID-19 coughs with over 90% accuracy [<a href="#9" class="text-primary">9</a
+                  >].
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-10 wrapper">
+        <h2 class="max-w-3xl text-2xl font-bold text-gray-200">
+          Artificial Intelligence has been used in the past for diagnosis!
+        </h2>
+        <div class="flex flex-wrap">
+          <div class="w-full my-10 md:w-1/2">
+            <h2 class="mb-4 text-xl font-bold text-gray-200 md:w-11/12">
+              Cough Sound Analysis for Pneumonia and Asthma Classification in Pediatric Population
+            </h2>
+
+            <p class="md:w-11/12">
+              In this study AI was used to distinguish between the coughs of asthma and pneumonia, with the goal of providing medical care to developing countries with poor resources. Their method achieved​ a sensitivity of 89%, specificity of 100%, and Kappa of 0.89. Their results show the potential use of AI in detection and differentiation of respiratory sounds [<a
+                href="#1"
+                class="text-primary"
+                >1</a
+              >].
+            </p>
+          </div>
+          <div class="w-full my-10 md:w-1/2">
+            <h2 class="mb-4 text-xl font-bold text-gray-200 md:w-11/12">
+              A Cough-Based Algorithm for Automatic Diagnosis of Pertussis
+            </h2>
+
+            <p class="md:w-11/12">
+              This study uses pertussis cough, croup, and cough containing wheezing sounds corresponding to other diseases such as bronchiolitis and asthma to train AI in order to detect Pertussis. The algorithm is able to diagnose all pertussis successfully from audio recordings, automatically detecting individual cough sounds with 92% accuracy and PPV of 97%. Their result supports the use of AI as a potential candidate for differentiating and diagnosing respiratory sounds [<a href="#3" class="text-primary">3</a>].
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="flex justify-center">
+        <img src="img/research/divider.png" alt="Divider" />
+      </div>
+
+      <section class="py-10 wrapper">
+        <h2 class="max-w-3xl text-xl font-bold text-gray-200">Citations</h2>
+        <ul>
+          <li class="my-5">
+            [1] Y. Amrulloh, U. Abeyratne, V. Swarnkar and R. Triasih, "Cough
+            Sound Analysis for Pneumonia and Asthma Classification in Pediatric
+            Population," ​2015 6th International Conference on Intelligent
+            Systems, Modelling and Simulation,​Kuala Lumpur, 2015, pp. 127-131,
+            doi: 10.1109/ISMS.2015.41.
+            <a name="1"></a>
+          </li>
+          <li class="my-5">
+            [2] “Coronavirus (COVID-19).” National Institutes of Health, U.S.
+            Department of Health and Human Services, 31 Mar. 2020,
+            <a
+              class="text-primary"
+              name="2"
+              target="_blank"
+              href="https://www.nih.gov/health-information/coronavirus"
+              >https://www.nih.gov/health-information/coronavirus</a
+            >.
+          </li>
+          <li class="my-5">
+            [3] Pramono, Renard & Imtiaz, Anas & Rodriguez-Villegas, Esther.
+            (2016). A Cough-Based Algorithm for Automatic Diagnosis of
+            Pertussis. PloS one. 11. e0162128. 10.1371/journal.pone.0162128.
+            <a name="3"></a>
+          </li>
+          <li class="my-5">
+            [4] Kvapilova, Lucia, et al. “Continuous Sound Collection Using
+            Smartphones and Machine Learning to Measure Cough.” Digital
+            Biomarkers, vol. 3, no. 3, Oct. 2019, pp. 166–175.,
+            doi:10.1159/000504666.
+            <a name="4"></a>
+          </li>
+          <li class="my-5">
+            [5] Ferrari, Sara, et al. “Cough Sound Analysis to Identify
+            Respiratory Infection in Pigs.” Computers and Electronics in
+            Agriculture, vol. 64, no. 2, 2008, pp. 318–325.,
+            doi:10.1016/j.compag.2008.07.003.
+            <a name="5"></a>
+          </li>
+          <li class="my-5">
+            [6] Maghdid et al., “A Novel AI-Enabled Framework to Diagnose
+            Coronavirus COVID 19 Using Smartphone Embedded Sensors.”​
+            <a
+              href="https://arxiv.org/abs/2003.07434"
+              class="text-primary"
+              name="6"
+              target="_blank"
+              >https://arxiv.org/abs/2003.07434</a
+            >
+          </li>
+          <li class="my-5">
+            [7] Covid-19 Sounds App—University of Cambridge. (n.d.). Retrieved
+            April 12, 2020, from
+            <a
+              class="text-primary"
+              name="7"
+              target="_blank"
+              href="http://www.covid-19-sounds.org/"
+              >http://www.covid-19-sounds.org/</a
+            >
+          </li>
+          <li class="my-5">
+            [8]​ ​COVID Voice Detector—Carnegie Mellon University. (n.d.).
+            Retrieved April 12, 2020, from
+            <a
+              class="text-primary"
+              name="8"
+              target="_blank"
+              href="https://cvd.lti.cmu.edu/"
+              >https://cvd.lti.cmu.edu/</a
+            >
+          </li>
+          <li class="my-5">
+            [9] A. Imran ​et al.​: AI4COVID-19: AI Enabled Preliminary Diagnosis for COVID-19 from Cough Samples via an App
+            <a name="9"></a>
+          </li>
+          <li class="my-5">
+            [10] “Breath Sounds.” ​Healthline​,​
+            <a
+              class="text-primary"
+              name="10"
+              target="_blank"
+              href="https://www.healthline.com/health/breath-sounds"
+            >
+              https://www.healthline.com/health/breath-sounds </a
+            >.
+          </li>
+          <li class="my-5">
+            [11] “Hi Sigma, do I have the Coronavirus?: Call for a New
+            Artificial Intelligence Approach to Support Health Care
+            Professionals Dealing With The COVID-19 Pandemic”- MIT Retrieved
+            July 2020, from
+            <a
+              class="break-all text-primary"
+              target="_blank"
+              name="11"
+              href="https://www.researchgate.net/publication/340644305_Hi_Sigma_do_I_have_the_Coronavirus_
+						Call_for_a_New_Artificial_Intelligence_Approach_to_Support_Health_Care_Professionals_Deal
+						ing_With_The_COVID-19_Pandemicz"
+            >
+              https://www.researchgate.net/publication/340644305_Hi_Sigma_do_I_have_the_Coronavirus_
+              Call_for_a_New_Artificial_Intelligence_Approach_to_Support_Health_Care_Professionals_Deal
+              ing_With_The_COVID-19_Pandemicz
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div
+        class="flex flex-col-reverse mx-auto max-w-screen-3xl md:flex-row md:justify-between"
+      >
+        <section>
+          <div>
+            <a target="_blank" href="cookie_policy.html">Cookie Policy</a> |
+            <a href="javascript: Cookiebot.renew()">Cookie Settings</a> |
+            <a target="_blank" href="privacy_policy.html">Privacy Policy</a> |
+            <a target="_blank" href="ccpa.html"
+              >Do Not Sell My Personal Information</a
+            >
+          </div>
+          <div>
+            <p>
+              © Copyright 2020 Virufy. VIRUFY is a trademark of The Covid
+              Detection Foundation. All rights reserved.
+            </p>
+          </div>
+        </section>
+        <!-- Icon container -->
+        <section class="flex mb-16">
+          <a target="_blank" href="https://github.com/virufy" class="mr-3">
+            <img
+              src="img/logos/github.svg"
+              alt="Github Icon"
+              class="footer-icons"
+            />
+          </a>
+          <a target="_blank" href="https://twitter.com/VirufyOrg" class="mr-3">
+            <img
+              src="img/logos/twitter.svg"
+              alt="Twitter Icon"
+              class="footer-icons"
+            />
+          </a>
+          <a
+            target="_blank"
+            href="https://www.facebook.com/Virufy/"
+            class="mr-3"
+          >
+            <img
+              src="img/logos/facebook.svg"
+              alt="Facebook Icon"
+              class="footer-icons"
+            />
+          </a>
+          <a
+            target="_blank"
+            href="https://www.instagram.com/virufyorg/"
+            class="mr-3"
+          >
+            <img
+              src="img/logos/instagram.svg"
+              alt="Instagram Icon"
+              class="footer-icons"
+            />
+          </a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/company/virufy/"
+            class="mr-3"
+          >
+            <img
+              src="img/logos/linkedin.svg"
+              alt="LinkedIn Icon"
+              class="footer-icons"
+            />
+          </a>
+        </section>
+      </div>
+    </footer>
+
+    <script>
+      function collapse(btn) {
+        const icon = btn.nextElementSibling;
+        const content = btn.parentElement.nextElementSibling;
+
+        if (content.style.maxHeight === "0px") {
+          content.style.maxHeight = content.scrollHeight + "px";
+          icon.setAttribute("src", "img/research/collapse.png");
+        } else {
+          content.style.maxHeight = "0px";
+          icon.setAttribute("src", "img/research/expand.png");
+        }
+      }
+    </script>
+  </body>
+</html>

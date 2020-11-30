@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home | Virufy</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Virufy - assess your risk for COVID-19 with our AI-powered app using your smartphone. A project of Stanford University's
+	COVID-19 Response Innovation Lab."
+    />
+    <meta name="author" content="Team Virufy" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="icon" href="img/favicon.png" type="image/x-icon" />
+
+    <!-- Cookie consent banner - Cookiebot -->
+    <script
+      id="Cookiebot"
+      src="https://consent.cookiebot.com/uc.js"
+      data-cbid="fb5fec28-28e3-45e9-baa6-51f9f62f936b"
+      data-blockingmode="auto"
+      type="text/javascript"
+    ></script>
+    <script>
+      const language = navigator.language || navigator.browserLanguage;
+      switch (language) {
+        case "pt-BR":
+          window.location.href = "https://virufy.org/br/index.html";
+          break;
+        case "ja":
+          window.location.href = "https://virufy.org/jp/index.html";
+          break;
+        case "es":
+          window.location.href = "https://virufy.org/es/index.html";
+          break;
+        case "hi":
+          window.location.href = "https://virufy.org/hi/index.html";
+          break;
+        default:
+          break;
+      }
+    </script>
+    <!-- Hotjar Tracking Code for virufy.org -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 1878866, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script data-cookieconsent="ignore">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("consent", "default", {
+        ad_storage: "denied",
+        analytics_storage: "denied",
+        wait_for_update: 500,
+      });
+      gtag("set", "ads_data_redaction", true);
+    </script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-165690517-3"
+    ></script>
+    <script data-cookieconsent="ignore">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-165690517-3");
+    </script>
+    <script defer src="scripts/index.js"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Virufy",
+        "url": "http://virufy.org/",
+        "logo": "https://virufy.org/img/logos/virufy-logo.svg",
+        "sameAs": [
+          "https://www.linkedin.com/company/virufy/",
+          "https://github.com/virufy",
+          "https://twitter.com/VirufyOrg",
+          "https://www.facebook.com/Virufy/",
+          "https://www.linkedin.com/company/virufy/"
+        ]
+      }
+    </script>
+  </head>
+  <body class="text-gray-100 font-body overscroll-none">
+    <!-- Nav section -->
+    <section class="relative">
+      <nav class="flex items-center justify-between wrapper md:py-4">
+        <!-- Virufy logo -->
+        <div>
+          <a href="./index.html">
+            <img
+              class="logo"
+              src="img/logos/virufy-logo.svg"
+              alt="Virufy logo"
+            />
+          </a>
+        </div>
+        <!-- Container for right side of nav -->
+        <div class="flex">
+          <!-- Mobile language button -->
+          <div class="inline-block mr-6">
+            <button
+              id="mobile-lng-btn"
+              class="px-3 py-1 text-sm border rounded lg:hidden button text-secondary-200 border-secondary-200"
+            >
+              English
+            </button>
+          </div>
+          <!-- Mobile language menu -->
+          <div class="hidden text-center mobile-menu" id="mobile-lng-menu">
+            <section class="px-4 py-4">
+              <span class="inline-block text-base gray-200 text"
+                >Select language</span
+              >
+            </section>
+            <!-- TODO: Add links to translated pages -->
+            <a href="./index.html">
+              <section
+                class="px-4 py-4 border-t border-gray-200 hover:bg-teal-100"
+              >
+                <span>English</span>
+              </section>
+            </a>
+            <a href="./es/index.html">
+              <section
+                class="px-4 py-4 border-t border-gray-200 hover:bg-teal-100"
+              >
+                <span>Español</span>
+              </section>
+            </a>
+            <a href="./br/index.html">
+              <section
+                class="px-4 py-4 border-t border-gray-200 hover:bg-teal-100"
+              >
+                <span>Português</span>
+              </section>
+            </a>
+            <a href="./hi/index.html">
+              <section
+                class="px-4 py-4 border-t border-gray-200 hover:bg-teal-100"
+              >
+                <span>हिन्दी</span>
+              </section>
+            </a>
+            <a href="./jp/index.html">
+              <section
+                class="px-4 py-4 border-t border-gray-200 hover:bg-teal-100"
+              >
+                <span>日本語</span>
+              </section>
+            </a>
+            <!--
+              TODO: If we want to implement saving, we  need to enable
+              cookies to store the user's language preferences
+            <section
+              class="flex justify-center px-4 py-8 border-t border-gray-200"
+            >
+              <button class="w-full px-8 py-2 text-white rounded bg-primary"
+              id="mobile-save-btn">
+                Save
+              </button>
+            </section>
+            -->
+          </div>
+
+          <!-- Mobile nav menu icon -->
+          <div class="inline-block cursor-pointer lg:hidden" id="menu-icon">
+            <svg
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              class="w-6 menu"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              ></path>
+            </svg>
+          </div>
+          <!-- Mobile nav close icon -->
+          <div
+            class="hidden inline-block cursor-pointer lg:hidden"
+            id="close-icon"
+          >
+            <svg
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              class="w-6 x"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"
+              ></path>
+            </svg>
+          </div>
+        </div>
+        <!-- End of container -->
+
+        <!-- Mobile Nav -->
+        <div class="hidden px-6 mobile-menu" id="mobile-nav">
+          <section class="px-4 py-4 border-t border-gray-200">
+            <div class="flex mt-4">
+              <a href="./data.html" class="w-1/2">
+                <span>Data</span>
+              </a>
+              <a href="./research.html" class="w-1/2">
+                <span>Research</span>
+              </a>
+            </div>
+            <div class="flex mt-2">
+              <a href="./team.html" class="w-1/2">
+                <span>Team</span>
+              </a>
+              <a href="./join.html">
+                <span>Join</span>
+              </a>
+            </div>
+            <div class="flex mt-2">
+              <a href="./press.html" class="w-1/2">
+                <span>Press</span>
+              </a>
+            </div>
+            <div hidden class>
+              <div class="flex mt-2">
+                
+                <a href="faq.html" class="w-1/2">
+                <span>FAQ</span></a>
+              </div>
+            </div>
+          </section>
+          <section class="px-4 py-4 border-t border-gray-200">
+            <div class="flex justify-between">
+              <a target="_blank" href="https://github.com/virufy">
+                <img src="img/logos/github-dark.svg" alt="github Icon" />
+              </a>
+              <a target="_blank" href="https://twitter.com/VirufyOrg">
+                <img src="img/logos/twitter-dark.svg" alt="Twitter Icon" />
+              </a>
+              <a target="_blank" href="https://www.facebook.com/Virufy/">
+                <img src="img/logos/facebook-dark.svg" alt="Facebook Icon" />
+              </a>
+              <a target="_blank" href="https://www.instagram.com/virufyorg/">
+                <img src="img/logos/instagram-dark.svg" alt="instagram icon" />
+              </a>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/company/virufy/"
+              >
+                <img src="img/logos/linkedin-nav-icon.svg" alt="LinkedIn Icon"
+              /></a>
+            </div>
+          </section>
+        </div>
+
+        <!-- Desktop Nav -->
+
+        <ul
+          class="items-baseline justify-between hidden w-1/2 2xl:w-1/2 lg:flex"
+        >
+        <li>
+          <a href="./data.html">
+            <span>Data</span>
+          </a>
+        </li>
+        <li>
+          <a href="./research.html">
+            <span>Research</span>
+          </a>
+        </li>
+        <li>
+          <a href="./team.html">
+            <span>Team</span>
+          </a>
+        </li>
+        <li>
+          <a href="./join.html">
+            <span>Join</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="./press.html">
+            <span>Press</span>
+          </a>
+        </li>
+        <li hidden class>
+          <a href="faq.html"> <span>FAQ</span></a>
+        </li>
+
+
+          <!-- Language Dropdown -->
+          <div class="relative inline-block group">
+            <button
+              class="px-4 py-1 overflow-visible border rounded text-secondary-200 border-secondary-200"
+            >
+              English
+            </button>
+            <div class="desktop-hover-menu">
+              <a class="pb-2" href="./es/index.html">Español</a>
+              <a class="pb-2" href="./br/index.html">Português</a>
+              <a class="pb-2" href="./hi/index.html">हिन्दी</a>
+              <a class="pb-2" href="./jp/index.html">日本語</a>
+            </div>
+          </div>
+        </ul>
+        <div class="items-baseline lg:flex justify-between hidden mx-4">
+          <div class="mx-4">
+            <a target="_blank" href="https://github.com/virufy">
+              <img src="img/logos/github-dark.svg" alt="github Icon" />
+            </a>
+          </div>
+          <div class="mx-4">
+            <a target="_blank" href="https://twitter.com/VirufyOrg">
+              <img src="img/logos/twitter-dark.svg" alt="Twitter Icon" />
+            </a>
+          </div>
+          <div class="mx-4">
+            <a target="_blank" href="https://www.facebook.com/Virufy/">
+              <img src="img/logos/facebook-dark.svg" alt="Facebook Icon" />
+            </a>
+          </div>
+          <div class="mx-4">
+            <a target="_blank" href="https://www.instagram.com/virufyorg/">
+              <img src="img/logos/instagram-dark.svg" alt="instagram icon" />
+            </a>
+          </div>
+          <div class="mx-4">
+            <a target="_blank" href="https://www.linkedin.com/company/virufy/">
+              <img src="img/logos/linkedin-nav-icon.svg" alt="LinkedIn Icon"
+            /></a>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- End of nav section -->
+
+    <main>
+      <header
+        class="flex items-center justify-between wrapper md:mt-20 md:mb-48"
+      >
+        <div class="w-full md:w-7/12">
+          <h1
+            class="mb-6 text-4xl font-bold text-gray-300 md:text-5xl font-heading"
+          >
+            Decoding hidden patterns in COVID-19 coughs with AI
+          </h1>
+          <p class="text-xl">
+            Virufy is a volunteer-run organization uniting the world to build a global artificial intelligence 
+            (AI) database of crowdsourced cough sounds to identify patterns that signify respiratory diseases, such as COVID-19.
+          </p>
+          <div class="my-4">
+            <a
+              target="_blank"
+              href="https://www.gofundme.com/f/virufyorg"
+            >
+              <button class="px-8 py-2 text-white rounded bg-primary">
+                Donate Now
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="hidden md:block md:w-5/12">
+          <img class="ml-auto" src="./img/home/header.png" alt="" />
+        </div>
+      </header>
+
+      
+        <!-- Collaboration section -->
+        <section class="my-10 wrapper">
+          <h2 class="mb-4 text-4xl font-bold text-gray-200">
+            Our supporters
+          </h2>
+
+          <!-- Logo Container -->
+          <div
+            class="flex flex-col items-center justify-center mt-12 lg:flex-row md:justify-between"
+          >
+            <div class="w-32 mb-8">
+              <a target="_blank" href="https://responselab.stanford.edu/">
+                <img
+                  class="mx-auto"
+                  src="img/logos/covid-19-RIL-logo.png"
+                  alt="Covid-19 Response Innovation Lab logo"
+                />
+              </a>
+            </div>
+            <div class="w-32 mb-8">
+              <a
+                target="_blank"
+                href="https://www.oneyoungworld.com/counsellors"
+              >
+                <img
+                  class="mx-auto"
+                  src="img/logos/one-young-world-logo.png"
+                  alt="One Young World logo"
+                />
+              </a>
+            </div>
+            <div class="w-32 mb-8">
+              <a target="_blank" href="https://xoor.io/en/">
+                <img
+                  class="mx-auto"
+                  src="img/logos/xoor.svg"
+                  alt="Xoor Company logo"
+                />
+              </a>
+            </div>
+            <div class="w-32 mb-8">
+              <a target="_blank" href="https://jig.jp/">
+                <img
+                  class="mx-auto"
+                  src="img/logos/jig-jp-logo.png"
+                  alt="Jig JP logo"
+                />
+              </a>
+            </div>
+            <div class="w-32 mb-8">
+              <a target="_blank" href="https://h4r.stanford.edu/">
+                <img
+                  class="mx-auto"
+                  src="img/logos/stanford-h4r-logo.jpg"
+                  alt="Stanford Hacking 4 Recovery logo"
+                  width="150"
+                />
+              </a>
+            </div>
+            <div class="w-32 mb-8">
+              <a target="_blank" href="https://sienacompany.com/">
+                <img
+                  class="mx-auto"
+                  src="img/logos/siena-company-logo.png"
+                  alt="Siena Company logo"
+                  width="150"
+                />
+              </a>
+            </div>
+          </div>
+
+          <!-- End of Logo container -->
+        </section>
+        <!-- End of collaboration section -->
+
+      <!-- Wrapper -->
+      <div class="wrapper">
+        <!-- How will it work section -->
+        <section class="my-16">
+          <div class="mt-4">
+            <h2 class="text-3xl font-bold text-gray-200 text-center">How Virufy works</h2>
+          </div>
+          <div class="flex flex-col md:flex-row md:items-baseline">
+            <div class="md:mr-8 md:w-1/3">
+              <img
+                src="img/home/cough-icon.png"
+                class="mx-auto my-8"
+                alt="Cough icon"
+              />
+              <h5 class="text-lg font-bold">
+                Record your cough and contribute to the global AI database.
+              </h5>
+              <p class="my-2">
+                Virufy is giving everyone across the world a chance to be part of the solution by sharing their unique coughs, which will be used to train the machine learning models.
+                <a
+                  target="_blank"
+                  href="https://form.jotform.com/203165542475152?language=en"
+                  class="text-primary"
+                  >Donate your cough now!</a
+                >
+                
+              </p>
+            </div>
+            <div class="md:mr-8 md:w-1/3">
+              <img
+                class="mx-auto my-8"
+                src="img/home/sound-icon2.png"
+                alt="Sound icon"
+              />
+              <h5 class="text-lg font-bold">
+                AI can recognize respiratory disease signatures in cough sounds
+              </h5>
+              <p class="my-2">
+                COVID-19 damages the throat and lungs, causing microvariations in pitch, tone, and other audio signals, which machine learning can detect. Learn more in our <a
+                target="_blank"
+                href="research.html"
+                class="text-primary"
+                >research page</a
+              >.
+              </p>
+            </div>
+            <div class="md:mr-8 md:w-1/3">
+              <img
+                class="mx-auto my-8"
+                src="img/data/github.png"
+                alt="App icon"
+              />
+              <h5 class="text-lg font-bold">
+                A consortium of AI researchers will build the solutions.
+              </h5>
+              <p class="my-2">
+                Virufy is bringing together researchers from across the globe to expedite the solution by pooling together resources and knowledge. Please see our <a
+                target="_blank"
+                href="data.html"
+                class="text-primary"
+                >open data page</a
+              >
+              </p>
+            </div>
+          </div>
+       
+        </section>
+        </div>
+
+      <!-- Testimonials section -->
+      <section class="my-10 wrapper">
+        <h2 class="mb-4 text-4xl font-bold text-gray-200 text-center">
+            Testimonials
+          </h2>
+        <div class="mb-4 text-gray-200 text-center mx-10">
+          <p>
+            We believe instant, universal, and early detection, which will allow society to pinpoint the locations of the virus, is the key to end the pandemic and necessity for lockdowns.
+          </p>
+        </div>
+
+       <!-- testimonials -->
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+          <!-- Full-width images with number and caption text -->
+
+          <div class="mySlides fade">
+            <div class="rectangle-testimonial">
+              <img
+                class="oyw-testimonial-semicolon"
+                src="img/oyw/semicolon.png"
+                alt="semicolon"
+              />
+              <h5 class="text-gray-200 testimonial-margin">
+                Virufy combines cutting-edge innovation with a passion for the needs of others. People around the world will be able to use Virufy to keep themselves and their communities healthy. Please consider contributing to this incredible mission!
+              </h5>
+
+              <div class="oyw-testimonial-name-small">
+                <div class="row">
+                  <div class="column">
+                    <img
+                      class="w-32 mx-auto my-2 rounded-full team-icons"
+                      src="img/join-page/shahid.jpg"
+                      alt="Shahid"
+                    />
+                  </div>
+                  <div class="column">
+                    <h5
+                      class="mt-4 text-xl font-semibold text-gray-200 text-center"
+                    >
+                    Shahid
+                    </h5>
+                    <h6 class="text-lg text-center text-gray-200">
+                      USA
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="rectangle-testimonial">
+              <img
+                class="oyw-testimonial-semicolon"
+                src="img/oyw/semicolon.png"
+                alt="semicolon"
+              />
+              <h5 class="text-gray-200 testimonial-margin">
+                I believe that the Virufy’s idea is a free, easy and quick way to contribute to the world. 
+                It only takes a few minutes to help a great cause. </h5>
+              <div class="oyw-testimonial-name-small">
+                <div class="row">
+                  <div class="column">
+                    <img
+                      class="w-32 mx-auto my-2 rounded-full team-icons"
+                      src="img/join-page/renato.jpg"
+                      alt="Renato"
+                    />
+                  </div>
+                  <div class="column">
+                    <h5
+                      class="mt-4 text-xl font-semibold text-gray-200 text-center"
+                    >
+                    Renato
+                    </h5>
+                    <h6 class="text-lg text-center text-gray-200">
+                      Brazil
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="rectangle-testimonial">
+              <img
+                class="oyw-testimonial-semicolon"
+                src="img/oyw/semicolon.png"
+                alt="semicolon"
+              />
+              <h5 class="text-gray-200 testimonial-margin">
+                Detect COVID-19 in a fast, safe and free way is now the every brazilian’s dream. 
+                Donate my cough to Virufy is my way of thanking them for giving us that hope.</h5>
+              <div class="oyw-testimonial-name-small">
+                <div class="row">
+                  <div class="column">
+                    <img
+                      class="w-32 mx-auto my-2 rounded-full team-icons"
+                      src="img/join-page/andrea.jpg"
+                      alt="Andrea"
+                    />
+                  </div>
+                  <div class="column">
+                    <h5
+                      class="mt-4 text-xl font-semibold text-gray-200 text-center"
+                    >
+                    Andrea
+                    </h5>
+                    <h6 class="text-lg text-center text-gray-200">
+                      Brazil
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="rectangle-testimonial">
+              <img
+                class="oyw-testimonial-semicolon"
+                src="img/oyw/semicolon.png"
+                alt="semicolon"
+              />
+              <h5 class="text-gray-200 testimonial-margin">
+                I believe that Virufy is developing an accurate, human-centric solution to a global crisis that 
+                affects all countries and industries. I encourage everyone to take a few seconds to help contribute 
+                to this noble and technically bleeding edge cause.</h5>
+              <div class="oyw-testimonial-name-small">
+                <div class="row">
+                  <div class="column">
+                    <img
+                      class="w-32 mx-auto my-2 rounded-full team-icons"
+                      src="img/join-page/akbar.jpg"
+                      alt="Akbar"
+                    />
+                  </div>
+                  <div class="column">
+                    <h5
+                      class="mt-4 text-xl font-semibold text-gray-200 text-center"
+                    >
+                    Akbar
+                    </h5>
+                    <h6 class="text-lg text-center text-gray-200">
+                      India
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="rectangle-testimonial">
+              <img
+                class="oyw-testimonial-semicolon"
+                src="img/oyw/semicolon.png"
+                alt="semicolon"
+              />
+              <h5 class="text-gray-200 testimonial-margin">
+                I was very excited to help fight COVID in some way and Virufy helped me a lot. 
+                  The app is super easy to move and always interacting with me and saying what to do, I loved it!</h5>
+              <div class="oyw-testimonial-name-small">
+                <div class="row">
+                  <div class="column">
+                    <img
+                      class="w-32 mx-auto my-2 rounded-full team-icons"
+                      src="img/join-page/roberta.jpg"
+                      alt="Roberta"
+                    />
+                  </div>
+                  <div class="column">
+                    <h5
+                      class="mt-4 text-xl font-semibold text-gray-200 text-center"
+                    >
+                    Roberta
+                    </h5>
+                    <h6 class="text-lg text-center text-gray-200">
+                      Brazil
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        <script>
+          var slideIndex = 1;
+          showSlides(slideIndex);
+          
+          function plusSlides(n) {
+            showSlides(slideIndex += n);
+          }
+          
+          function currentSlide(n) {
+            showSlides(slideIndex = n);
+          }
+          
+          function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+          }
+          </script>
+      </section>
+
+      <!-- Help us -->
+      <img
+      src="img/data/footer-bg.png"
+      alt="Abstract background"
+      class="absolute  hidden w-full md:block"
+      style="z-index: -1"
+    />
+
+      <section
+        class="flex items-center justify-between wrapper md:mt-20 md:mb-48"
+      >
+        <div class="w-full md:w-7/12">
+          <h2
+            class="mb-6 text-3xl font-bold text-gray-200"
+          >
+          Want to collaborate with us?
+          </h2>
+          <p class="lg:w-3/4">
+            We hope to create a community of researchers driven to use this data to create solutions for the pandemic. Please contact us if you are interested.
+          </p>
+          <div class="my-4">
+            <a
+            target="_blank"
+            href="mailto:info@virufy.org"            >
+              <button class="px-8 py-2 text-white rounded bg-primary">
+                Contact Us
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="hidden md:block md:w-5/12 bottom-0 right-0">
+          <img class="ml-auto" src="./img/data/data-footer-bg.png" alt="Illustration of woman using
+          Virufy app" />
+        </div>
+      </section>
+      
+      <!-- End of wrapper for Timeline and Help Us section -->
+    </main>
+
+    <footer class="footer">
+      <div
+        class="flex flex-col-reverse mx-auto max-w-screen-3xl md:flex-row md:justify-between"
+      >
+        <section>
+          <div>
+            <a target="_blank" href="cookie_policy.html">Cookie Policy</a> |
+            <a href="javascript: Cookiebot.renew()">Cookie Settings</a> |
+            <a target="_blank" href="privacy_policy.html">Privacy Policy</a> |
+            <a target="_blank" href="ccpa.html"
+              >Do Not Sell My Personal Information</a
+            >
+          </div>
+          <div>
+            <p>
+              © Copyright 2020 Virufy. VIRUFY is a trademark of The Covid
+              Detection Foundation. All rights reserved.
+            </p>
+          </div>
+        </section>
+        <!-- Icon container -->
+        <section class="flex mb-16">
+          <a target="_blank" href="https://github.com/virufy" class="mr-3">
+            <img
+              src="img/logos/github.svg"
+              alt="Github Icon"
+              class="footer-icons"
+            />
+          </a>
+          <a target="_blank" href="https://twitter.com/VirufyOrg" class="mr-3">
+            <img
+              src="img/logos/twitter.svg"
+              alt="Twitter Icon"
+              class="footer-icons"
+            />
+          </a>
+          <a
+            target="_blank"
+            href="https://www.facebook.com/Virufy/"
+            class="mr-3"
+          >
+            <img
+              src="img/logos/facebook.svg"
+              alt="Facebook Icon"
+              class="footer-icons"
+            />
+          </a>
+          <a
+            target="_blank"
+            href="https://www.instagram.com/virufyorg/"
+            class="mr-3"
+          >
+            <img
+              src="img/logos/instagram.svg"
+              alt="Instagram Icon"
+              class="footer-icons"
+            />
+          </a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/company/virufy/"
+            class="mr-3"
+          >
+            <img
+              src="img/logos/linkedin.svg"
+              alt="LinkedIn Icon"
+              class="footer-icons"
+            />
+          </a>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
