@@ -1,23 +1,23 @@
 {
-  "name": "website",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.html",
+  "private": "true",
   "scripts": {
-    "build-css": "tailwindcss build src/styles.css -o docs/styles.css"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/virufy2/website.git"
+    "url": "git+https://github.com/virufy3/virufy3.github.io.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/virufy2/website/issues"
+    "url": "https://github.com/virufy3/virufy3.github.io/issues"
   },
-  "homepage": "https://github.com/virufy2/website#readme",
+  "homepage": "https://github.com/virufy3/virufy3.github.io#readme",
   "dependencies": {
-    "tailwindcss": "^1.6.2"
+    "autoprefixer": "^10.1.0",
+    "gatsby": "^2.29.1",
+    "gatsby-plugin-postcss": "^3.4.0",
+    "postcss": "^8.2.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "tailwindcss": "^2.0.2"
   }
 }
