@@ -2,10 +2,7 @@ module.exports = {
   experimental: {
     applyComplexClasses: true,
   },
-  purge: {
-    enabled: true,
-    content: ["./docs/**/*.html", "./docs/**/*.js"],
-  },
+  purge: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
       colors: {
