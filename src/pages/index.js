@@ -1,5 +1,5 @@
 import React from "react";
 
 export default () => {
-    return <div>index page</div>;
+    return <h1 className="bg-red-500">hello</h1>
 }
