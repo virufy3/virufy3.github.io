@@ -11,6 +11,12 @@ module.exports = {
                 name: "team-images",
                 path: path.join(__dirname, "src", "images", "team")
             }
+        },
+        {
+            resolve: 'gatsby-plugin-load-script',
+            options: {
+              src: '/test-script.js', // Change to the script filename
+            },
         }
     ],
 
