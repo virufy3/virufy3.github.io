@@ -23,6 +23,9 @@ fs.readdirSync(intlFolderPath).map(folderName => {
                     const fileData = fs.readFileSync(filePath, "utf8");
                     const fileDataObj = JSON.parse(fileData);
 
+                    // remove file extension
+                    fileName = fileName.slice(0, fileName.length - 5);
+
                     // create object inside of language object for each page
                     langFiles[folderName][fileName] = {};
 
@@ -46,4 +49,3 @@ for(lang in langFiles) {
         console.log(err);
     }
 }
-console.log(langFiles);
