@@ -71,13 +71,14 @@ export const query = graphql`
 
 export default ({data}) => {
     const images = data.allFile.edges;
+    const intl = useIntl();
 
     return (
         <>
             <div className="wrapper">
                 <div class="mb-6 md:mb-20">
                     <h2 class="mb-4 text-4xl font-bold text-center">
-                        Leadership
+                        {intl.formatMessage({id: "team.headers.leadership"})}
                     </h2>
                 </div>
                 <section class="flex flex-col flex-wrap mb-10 xl:justify-center md:justify-around md:flex-row">
@@ -87,7 +88,7 @@ export default ({data}) => {
                                 return relativePath === imageName;
                             }).node.childImageSharp.fluid;
 
-                            return <TeamMember image={teamMemberPic} id={id}/>
+                            return <TeamMember image={teamMemberPic} id={`leadership.${id}`}/>
                         })
                     }
                 </section>
@@ -95,7 +96,7 @@ export default ({data}) => {
             <div class="wrapper md:mt-12">
                 <div class="mb-6 md:mb-16">
                     <h2 class="mb-4 text-4xl font-bold text-center">
-                    Advisors
+                        {intl.formatMessage({id: "team.headers.advisors"})}
                     </h2>
                 </div>
                 <section class="flex flex-col flex-wrap mb-10 xl:justify-center md:justify-around md:flex-row">
@@ -105,7 +106,7 @@ export default ({data}) => {
                                 return relativePath === imageName;
                             }).node.childImageSharp.fluid;
 
-                            return <TeamMember image={teamMemberPic} id={id}/>
+                            return <TeamMember image={teamMemberPic} id={`advisors.${id}`}/>
                         })
                     }
                 </section>
