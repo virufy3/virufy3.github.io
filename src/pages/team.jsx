@@ -20,7 +20,7 @@ const TeamMember = (member) => {
             </h5>
             <h6 className="text-lg text-center">{intl.formatMessage({id: `team.${id}.title`})}</h6>
             <div className="my-2"></div>
-            {intl.formatMessage({id: `team.${id}.description`}).split(",,").map((str,i) => <p key={i} className="w-5/6 text-center">{str}</p>)}
+            {intl.formatMessage({id: `team.${id}.description`}).split("\n").map((str,i) => <p key={i} className="w-5/6 text-center">{str}</p>)}
         </div>
     );
 }
