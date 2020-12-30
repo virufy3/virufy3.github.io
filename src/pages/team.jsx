@@ -3,6 +3,7 @@ import {graphql} from "gatsby";
 import GatsbyImage from "gatsby-background-image";
 import {useIntl} from "gatsby-plugin-intl";
 import SEO from "../components/SEO";
+import Layout from "../components/Layout";
 
 // component for displaying team-member info
 const TeamMember = (member) => {
@@ -73,7 +74,7 @@ export default ({data}) => {
     const intl = useIntl();
 
     return (
-        <>
+        <Layout>
             <SEO title="Team | Virufy"/>
             <div className="wrapper">
                 <div className="mb-6 md:mb-20">
@@ -111,6 +112,6 @@ export default ({data}) => {
                     }
                 </section>
             </div>
-        </>
+        </Layout>
     );
 }

@@ -1,6 +1,10 @@
 const path = require("path");
 
 module.exports = {
+    flags: {
+        PRESERVE_FILE_DOWNLOAD_CACHE: true,
+        PRESERVE_WEBPACK_CACHE: true
+    },
     plugins: [
         "gatsby-plugin-postcss",
         "gatsby-transformer-sharp",
