@@ -28,6 +28,7 @@ const TeamMember = (member) => {
 
 const leadership = [
   { id: 'amil', imageName: 'amil.jpg' },
+  { id: 'gunvant', imageName: 'gunvant.jpg' },
   { id: 'daria', imageName: 'daria.jpg' },
   { id: 'ravel', imageName: 'ravel.jpg' },
   { id: 'bruna', imageName: 'bruna.jpg' },
@@ -36,7 +37,8 @@ const leadership = [
   { id: 'matheus', imageName: 'matheus.jpg' },
   { id: 'sabrina', imageName: 'sabrina.jpg' },
   { id: 'sebastian', imageName: 'sebastian.jpg' },
-  { id: 'jason', imageName: 'jason.jpg' }
+  { id: 'jason', imageName: 'jason.jpg' },
+  
 ];
 
 const advisors = [
