@@ -9,14 +9,24 @@ import {leadership, advisors} from "../data/team-members";
 // component for displaying team-member info
 const TeamMember = (props) => {
     // const {id, image, defaultName} = props;
-    const {role, image, person: {id, defaultName}} = props;
+    const {
+        role, 
+        image, 
+        person: {
+            id, 
+            defaultName, 
+            mediaLink
+        }
+    } = props;
+    
     const intl = useIntl();
     const name = intl.formatMessage({id: `team.${role}.${id}.name`, defaultMessage: defaultName});
     // const name = intl.formatMessage({id: `team.${id}.name`, defaultMessage: defaultName});
 
     return (
         <div className="flex flex-col items-center mx-10 mb-10 md:w-1/3 lg:w-1/4">
-            <a target="_blank" rel="noreferrer" href={intl.formatMessage({id: `team.${id}.mediaLink`})}>
+            {/* <a target="_blank" rel="noreferrer" href={intl.formatMessage({id: `team.${id}.mediaLink`})}> */}
+            <a target="_blank" rel="noreferrer" href={mediaLink}>
                 <GatsbyImage className="w-64 h-64 mx-auto my-2 rounded-full overflow-hidden team-icons" fluid={image} alt={name} />
             </a>
             <h5 className="mt-4 text-xl font-semibold text-gray-200">

@@ -5,13 +5,11 @@
     },
     "leadership": {
         "amil": {
-            "mediaLink": "https://www.linkedin.com/in/amilkhanzada",
             "name": "Amil Khanzada",
             "description": "Embajador de paz One Young World Ex-alumno, UC Berkeley Ciencias de la computacion",
             "title": "Fundador y CTO"
         },
         "gunvant": {
-            "mediaLink": "https://www.linkedin.com/in/gunvantchaudhari/",
             "name": "Gunvant Chaudhari",
             "description": "Investigador de Big Data en Radiología\nEstudiante de Medicina, UC San Francisco",
             "title": "Líder del equipo de Inteligencia Artificial"

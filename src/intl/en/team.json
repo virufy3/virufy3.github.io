@@ -5,61 +5,51 @@
     },
     "leadership": {
         "amil": {
-            "mediaLink": "https://www.linkedin.com/in/amilkhanzada",
             "name": "Amil Khanzada",
             "description": "One Young World Japan Ambassador\nAlumni, UC Berkeley Computer Science",
             "title": "Founder & CTO"
         },
         "daria": {
-            "mediaLink": "https://www.linkedin.com/in/dariabutuc/",
             "name": "Daria Butuc",
             "description": "Head of Engineering, Project Access\nB.S., University College London",
             "title": "Vice President"
         },
         "ravel": {
-            "mediaLink": "https://www.linkedin.com/in/ravel-charles/",
             "name": "Ravel Charles",
             "description": "Cloud Solutions Engineer, Google\nM.P.S. Data Security, Northeastern University",
             "title": "Infosec Team Lead"
         },
         "bruna": {
-            "mediaLink": "https://www.linkedin.com/in/bruna-louren%C3%A7o-02180a192/",
             "name": "Bruna Lourenço",
             "description": "UX/UI Designer, ThinkBox\nGraphic Design, Federal Institute of Education, Science and Technology of Paraíba",
             "title": "UI Team Lead"
         },
         "jonatan": {
-            "mediaLink": "https://www.linkedin.com/in/jonatan-jaskilioff-77075340/",
             "name": "Jonatan Jaskilioff",
             "description": "CTO - XOOR",
             "title": "Mobile App Team Lead"
         },
         "xhoana": {
-            "mediaLink": "https://www.linkedin.com/in/xhoana-koca/",
             "name": "Xhoana Koca",
             "description": "Website and Mobile App Developer\nB.S., CUNY NYC College of Technology",
             "title": "Web Dev Team Lead"
         },
         "matheus": {
-            "mediaLink": "https://www.linkedin.com/in/matheus-galiza-20539b106/",
             "name": "Matheus Galiza",
             "description": "Public Policy Committee\nJovenes Iberoamericanos\nM.A. International Relations, Federal University of Paraíba",
             "title": "Brazil Community Outreach Manager"
         },
         "sabrina": {
-            "mediaLink": "https://www.linkedin.com/in/sabrina-shen-83bba5172/",
             "name": "Sabrina Shen",
             "description": "Harvey Mudd Aero Lab Student Researcher\nAutonomous Campus Robot Team Member\nB.E. Electrical and Electronics Engineering, Harvey Mudd College",
             "title": "AI Team Lead"
         },
         "sebastian": {
-            "mediaLink": "https://co.linkedin.com/in/jean-sebastian-pedraza-paez-02b8aa11a",
             "name": "Sebastian Pedraza",
             "description": "One Young World Colombia Ambassador\nYPARD Steering Committee Member\nPolitical Science, International University of La Rioja",
             "title": "Colombia Community Outreach Manager"
         },
         "jason": {
-            "mediaLink": "https://www.linkedin.com/in/jasonpareja/",
             "name": "Jason Pareja Jauregui",
             "description": "One Young World Latin America Coordinating Ambassador\nGraduate, MIT Sloan School of Management",
             "title": "Peru Community Outreach Manager"
@@ -67,61 +57,51 @@
     },
     "advisors": {
         "kara": {
-            "mediaLink": "https://www.linkedin.com/in/kara-meister-200335110/",
             "name": "Kara Meister, M.D.",
             "description": "Clinical Assistant Professor, Otolaryngology\nStanford School of Medicine",
             "title": "Medical Advisor"
         },
         "jure": {
-            "mediaLink": "https://www.linkedin.com/in/leskovec/",
             "name": "Jure Leskovec",
             "description": "Chief Scientist - Pinterest\nAssociate Professor, AI\nStanford School of Engineering",
             "title": "Artificial Intelligence Advisor"
         },
         "rafi": {
-            "mediaLink": "https://www.pillsburylaw.com/en/lawyers/rafi-azim-khan.html",
             "name": "Rafi Azim-Khan",
             "description": "Partner - Pillsbury Law\nSilicon Valley & Europe",
             "title": "Executive Legal Advisor"
         },
         "malvika": {
-            "mediaLink": "https://www.linkedin.com/in/malvikabawri/",
             "name": "Malvika Bawri",
             "description": "Founder - Quantta Analytics\nFounder - Think India Foundation",
             "title": "Executive Advisor"
         },
         "nathan": {
-            "mediaLink": "https://www.linkedin.com/in/namathom/",
             "name": "Nathan Thomas",
             "description": "One Young World Ambassador\nFounder and CEO - All We Are",
             "title": "Executive Nonprofit Advisor"
         },
         "madhav": {
-            "mediaLink": "https://www.linkedin.com/in/madhavdatt/",
             "name": "Madhav Datt",
             "description": "Founder - Green the Gene\nFormer Global Representative for Youth - UN EP",
             "title": "Executive Nonprofit Advisor"
         },
         "pedro": {
-            "mediaLink": "https://www.linkedin.com/in/pedrosiena/",
             "name": "Pedro Siena",
             "description": "Founder and CEO - Siena Company\nMentor - Stanford Lean Launchpad\nSão Carlos, Brazil",
             "title": "Brazil Outreach Advisor"
         },
         "tsutomu": {
-            "mediaLink": "http://tannan.fm/contents/about-us.html",
             "name": "Tsutomu Ito",
             "description": "Founder - Tannan FM Radio\nLead Architect, Bullet Train\nFukui, Japan",
             "title": "Visionary Advisor"
         },
         "taisuke": {
-            "mediaLink": "https://www.linkedin.com/in/taisuke-fukuno-a3b3415",
             "name": "Taisuke Fukuno",
             "description": "Founder - Open Data Japan\nChairman - jig.jp\nFukui, Japan",
             "title": "Executive Technology Advisor"
         },
         "richard": {
-            "mediaLink": "https://www.linkedin.com/in/richardnall/?originalSubdomain=uk",
             "name": "Richard Nall",
             "description": "The Brand Garden - CEO",
             "title": "Chief Marketing Officer"
