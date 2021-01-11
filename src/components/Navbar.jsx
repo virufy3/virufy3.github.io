@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { useIntl } from "react-intl";
-import { Link, changeLocale } from "gatsby";
+// import { useIntl } from "react-intl";
+import {changeLocale, IntlContextConsumer, useIntl} from "gatsby-plugin-intl";
+import { Link } from "gatsby";
 import virufyLogo from "../images/logos/virufy-logo.svg";
 
 
@@ -39,6 +40,31 @@ const MobileNav = ({ intl }) => {
     );
 }
 
+const LangSelect = () => {
+    const languageNames = {en: "English", es: "Spanish", pt: "Portuguese"};
+
+    return (
+        // <select onChange={(lang) =>changeLocale}>
+        //     {languages.map(lang => <option value={lang}>Language-{lang}</option>)}
+        // </select>
+        <IntlContextConsumer>
+            {
+                ({ languages, language: currentLocale }) => {
+                    return (
+                        <select onChange={(event) => changeLocale(event.target.value)}>
+                        {
+                            languages.map(lang => (
+                                <option selected={currentLocale === lang} value={lang}>Language-{languageNames[lang]}</option>
+                            ))
+                        }
+                        </select>
+                    )
+                }
+            }
+        </IntlContextConsumer>
+    )
+}
+
 const MobileNavToggle = ({ mobileNavOpen, setMobileNavOpen }) => {
     const toggleNav = () => setMobileNavOpen(!mobileNavOpen);
 
@@ -54,21 +80,35 @@ export default () => {
     const [mobileNavOpen, setMobileNavOpen] = useState(false);
 
     return (
-        <nav>
-            <div className="flex items-center justify-between wrapper md:py-4">
-                <Link to="./index.html">
-                    <img
-                        className="logo"
-                        src={virufyLogo}
-                        alt={intl.formatMessage({ id: "nav.logoAlt", defaultMessage: "home" })}
-                    />
-                </Link>
+        <nav className="flex items-center justify-between">
+            <Link to="./index.html">
+                <img
+                    className="logo"
+                    src={virufyLogo}
+                    alt={intl.formatMessage({ id: "nav.logoAlt", defaultMessage: "home" })}
+                />
+            </Link>
+            {/* nav links */}
+            <div className="flex items-center justify-between md:py-4">
+                {/* <Link to="data">Data</Link>
+                <Link to="research">Research</Link>
+                <Link to="team">Team</Link>
+                <Link to="join">Join</Link>
+                <Link to="press">Press</Link>
+            <Link to="faq">FAQ</Link> */}
+                <a className="inline-block" href="virufy.org/data">Data</a>
+                <a className="inline-block" href="virufy.org/research">Research</a>
+                <Link className="inline-block" to="team">Team</Link>
+                <a className="inline-block" href="virufy.org/join">Join</a>
+                <a className="inline-block" href="virufy.org/press">Press</a>
+                <a className="inline-block" href="virufy.org/faq">FAQ</a>
+                <LangSelect/>
+            </div>
+            <div className="lg:hidden">
                 <MobileNavToggle
                     mobileNavOpen={mobileNavOpen}
                     setMobileNavOpen={setMobileNavOpen}
                 />
-            </div>
-            <div className="lg:hidden">
                 {mobileNavOpen && <MobileNav intl={intl} />}
             </div>
         </nav>
