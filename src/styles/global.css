@@ -43,9 +43,3 @@
 .footer {
   @apply px-6 py-10 text-white md:px-8 md:py-12 bg-secondary-100 3xl:px-0;
 }
-
-.bg-primary{
-  --bg-opacity: 1;
-  background-color: #00A588;
-  background-color: rgba(0, 165, 136, var(--bg-opacity));
-}
