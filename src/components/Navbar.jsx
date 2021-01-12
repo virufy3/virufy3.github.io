@@ -20,20 +20,18 @@ const HamburgerClose = () => (
 );
 
 const navLinks = [
-    {id: "nav.data", defMsg: "Data", path: "data"},
-    {id: "nav.research", defMsg: "Research", path: "research"},
-    {id: "nav.team", defMsg: "Team", path: "team"},
-    {id: "nav.join", defMsg: "Join", path: "join"},
-    {id: "nav.press", defMsg: "Press", path: "press"},
-    {id: "nav.faq", defMsg: "FAQ", path: "faq"},
+    {id: "nav.our_approach", defMsg: "Our Approach", path: "", styles: "mr-6"},
+    {id: "nav.our_org", defMsg: "Our Org", path: "", styles: "mr-6"},
+    {id: "nav.in_the_news", defMsg: "In the News", path: "", styles: "mr-6"},
+    {id: "nav.get_involved", defMsg: "GET INVOLVED", path: "", styles: "text-white bg-primary py-2 px-6"},
 ];
 
 const MobileNav = ({ intl }) => {
     return (
         <div className="flex flex-wrap px-4 py-4 border-t border-gray-200">
-            {navLinks.map(el => (
-                <Link className="w-1/2" to={el.path}>
-                    {intl.formatMessage({id: el.id, defaultMessage: el.defMsg})}
+            {navLinks.map(link => (
+                <Link className="w-1/2" to={link.path}>
+                    {intl.formatMessage({id: link.id, defaultMessage: link.defMsg})}
                 </Link>
             ))}
         </div>
@@ -41,12 +39,7 @@ const MobileNav = ({ intl }) => {
 }
 
 const LangSelect = () => {
-    const languageNames = {en: "English", es: "Spanish", pt: "Portuguese"};
-
     return (
-        // <select onChange={(lang) =>changeLocale}>
-        //     {languages.map(lang => <option value={lang}>Language-{lang}</option>)}
-        // </select>
         <IntlContextConsumer>
             {
                 ({ languages, language: currentLocale }) => {
@@ -54,7 +47,7 @@ const LangSelect = () => {
                         <select onChange={(event) => changeLocale(event.target.value)}>
                         {
                             languages.map(lang => (
-                                <option selected={currentLocale === lang} value={lang}>Language-{languageNames[lang]}</option>
+                                <option selected={currentLocale === lang} value={lang}>Language - {lang.toUpperCase()}</option>
                             ))
                         }
                         </select>
@@ -80,37 +73,36 @@ export default () => {
     const [mobileNavOpen, setMobileNavOpen] = useState(false);
 
     return (
-        <nav className="flex items-center justify-between">
-            <Link to="./index.html">
-                <img
-                    className="logo"
-                    src={virufyLogo}
-                    alt={intl.formatMessage({ id: "nav.logoAlt", defaultMessage: "home" })}
-                />
-            </Link>
-            {/* nav links */}
-            <div className="flex items-center justify-between md:py-4">
-                {/* <Link to="data">Data</Link>
-                <Link to="research">Research</Link>
-                <Link to="team">Team</Link>
-                <Link to="join">Join</Link>
-                <Link to="press">Press</Link>
-            <Link to="faq">FAQ</Link> */}
-                <a className="inline-block" href="virufy.org/data">Data</a>
-                <a className="inline-block" href="virufy.org/research">Research</a>
-                <Link className="inline-block" to="team">Team</Link>
-                <a className="inline-block" href="virufy.org/join">Join</a>
-                <a className="inline-block" href="virufy.org/press">Press</a>
-                <a className="inline-block" href="virufy.org/faq">FAQ</a>
-                <LangSelect/>
+        <nav>
+            <div className="flex items-center justify-between py-3 px-6">
+                <Link to="./index.html">
+                    <img
+                        className="logo"
+                        src={virufyLogo}
+                        alt={intl.formatMessage({ id: "nav.logoAlt", defaultMessage: "home" })}
+                    />
+                </Link>
+                <div className="flex items-center justify-between md:py-4">
+                    <span className="mr-2 lg:mr-5">
+                        <LangSelect/>
+                    </span>
+                    {
+                        navLinks.map(link => (
+                            <Link 
+                                className={`hidden lg:inline-block ${link.styles}`} 
+                                to={link.path}
+                            >
+                                {intl.formatMessage({id: link.id, defaultMessage: link.defMsg})}
+                            </Link>
+                        ))
+                    }
+                    <MobileNavToggle
+                        mobileNavOpen={mobileNavOpen}
+                        setMobileNavOpen={setMobileNavOpen}
+                    />
+                </div>
             </div>
-            <div className="lg:hidden">
-                <MobileNavToggle
-                    mobileNavOpen={mobileNavOpen}
-                    setMobileNavOpen={setMobileNavOpen}
-                />
-                {mobileNavOpen && <MobileNav intl={intl} />}
-            </div>
+            {mobileNavOpen && <MobileNav intl={intl} />}
         </nav>
     );
 }
