@@ -6,11 +6,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#13C2C2", // Buttons, Links
+        primary: "#00A588", // Buttons
         secondary: {
-          100: "#00B696", // Footer Background
-          200: "#08979C", // Navbar Buttons
+          100: "#66B495", // Footer Background
+          200: "4F9186", // links
         },
+        green:{
+          100:"#D7E9E6", //cyan color for pg background
+          200:"#F0F9F6", // light green for pg background
+        },
+        black:"#393939",
         filler: "rgba(172, 224, 215, 0.05)",
       },
       fontFamily: {
