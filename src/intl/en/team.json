@@ -19,6 +19,11 @@
             "description": "Cloud Solutions Engineer, Google\nM.P.S. Data Security, Northeastern University",
             "title": "Infosec Team Lead"
         },
+        "matheus": {
+            "name": "Matheus Galiza",
+            "description": "Public Policy Committee\nJovenes Iberoamericanos\nM.A. International Relations, Federal University of Paraíba",
+            "title": "Brazil Community Outreach Manager"
+        },
         "bruna": {
             "name": "Bruna Lourenço",
             "description": "UX/UI Designer, ThinkBox\nGraphic Design, Federal Institute of Education, Science and Technology of Paraíba",
@@ -29,31 +34,42 @@
             "description": "CTO - XOOR",
             "title": "Mobile App Team Lead"
         },
+        "marcos": {
+            "name": "Marcos Deza",
+            "description": "One Young World Argentina Ambassador\nM.A. Public Relations, Ott Educación Superior",
+            "title": "Latin America Digital Communications Lead"
+        },
         "xhoana": {
             "name": "Xhoana Koca",
             "description": "Website and Mobile App Developer\nB.S., CUNY NYC College of Technology",
             "title": "Web Dev Team Lead"
         },
-        "matheus": {
-            "name": "Matheus Galiza",
-            "description": "Public Policy Committee\nJovenes Iberoamericanos\nM.A. International Relations, Federal University of Paraíba",
-            "title": "Brazil Community Outreach Manager"
-        },
-        "sabrina": {
-            "name": "Sabrina Shen",
-            "description": "Harvey Mudd Aero Lab Student Researcher\nAutonomous Campus Robot Team Member\nB.E. Electrical and Electronics Engineering, Harvey Mudd College",
+        "gunvant": {
+            "name": "Gunvant Chaudhari",
+            "description": "Big Data In Radiology Researcher\nM.D. Student, UC San Francisco",
             "title": "AI Team Lead"
+        },
+        "jason": {
+            "name": "Jason Pareja Jauregui",
+            "description": "One Young World Latin America Coordinating Ambassador\nGraduate, MIT Sloan School of Management",
+            "title": "Peru Community Outreach Manager"
+        },
+        "maria": {
+            "name": "Maria Eleni Pasia",
+            "description": "Qualified Lawyer, Athens Bar Association\nLL.M Media & Technology Law, UCLA",
+            "title": "Data Privacy Team Lead"
         },
         "sebastian": {
             "name": "Sebastian Pedraza",
             "description": "One Young World Colombia Ambassador\nYPARD Steering Committee Member\nPolitical Science, International University of La Rioja",
             "title": "Colombia Community Outreach Manager"
         },
-        "jason": {
-            "name": "Jason Pareja Jauregui",
-            "description": "One Young World Latin America Coordinating Ambassador\nGraduate, MIT Sloan School of Management",
-            "title": "Peru Community Outreach Manager"
+        "holly": {
+            "name": "Holly Boerner",
+            "description": "Visual & Brand Strategy\nHolly Boerner Design",
+            "title": "Web UI Team Lead"
         }
+        
     },
     "advisors": {
         "kara": {
@@ -70,11 +86,6 @@
             "name": "Rafi Azim-Khan",
             "description": "Partner - Pillsbury Law\nSilicon Valley & Europe",
             "title": "Executive Legal Advisor"
-        },
-        "malvika": {
-            "name": "Malvika Bawri",
-            "description": "Founder - Quantta Analytics\nFounder - Think India Foundation",
-            "title": "Executive Advisor"
         },
         "nathan": {
             "name": "Nathan Thomas",
