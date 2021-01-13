@@ -18,6 +18,12 @@ export const leadership = [
     imageName: "ravel.jpg"
   },
   {
+    mediaLink: "https://www.linkedin.com/in/matheus-galiza-20539b106/",
+    id: "matheus",
+    defaultName: "Matheus Galiza",
+    imageName: "matheus.jpg"
+  },
+  {
     mediaLink: "https://www.linkedin.com/in/bruna-louren%C3%A7o-02180a192/",
     id: "bruna",
     defaultName: "Bruna Lourenço",
@@ -30,22 +36,34 @@ export const leadership = [
     imageName: "jonatan.jpg"
   },
   {
+    mediaLink: "https://www.linkedin.com/in/marcos-deza/",
+    id: "marcos",
+    defaultName: "Marcos Deza",
+    imageName: "marcos.jpg"
+  },
+  {
     mediaLink: "https://www.linkedin.com/in/xhoana-koca/",
     id: "xhoana",
     defaultName: "Xhoana Koca",
     imageName: "xhoana.jpg"
   },
   {
-    mediaLink: "https://www.linkedin.com/in/matheus-galiza-20539b106/",
-    id: "matheus",
-    defaultName: "Matheus Galiza",
-    imageName: "matheus.jpg"
+    mediaLink: "https://www.linkedin.com/in/gunvantchaudhari/",
+    id: "gunvant",
+    defaultName: "Gunvant Chaudhari",
+    imageName: "gunvant.jpg"
   },
   {
-    mediaLink: "https://www.linkedin.com/in/sabrina-shen-83bba5172/",
-    id: "sabrina",
-    defaultName: "Sabrina Shen",
-    imageName: "sabrina.jpg"
+    mediaLink: "https://www.linkedin.com/in/jasonpareja/",
+    id: "jason",
+    defaultName: "Jason Pareja Jauregui",
+    imageName: "jason.jpg"
+  }, 
+  {
+    mediaLink: "https://www.linkedin.com/in/maria-eleni-pasia-a5068a147/",
+    id: "maria",
+    defaultName: "Maria Eleni Pasia",
+    imageName: "maria.jpg"
   },
   {
     mediaLink: "https://co.linkedin.com/in/jean-sebastian-pedraza-paez-02b8aa11a",
@@ -54,16 +72,10 @@ export const leadership = [
     imageName: "sebastian.jpg"
   },
   {
-    mediaLink: "https://www.linkedin.com/in/jasonpareja/",
-    id: "jason",
-    defaultName: "Jason Pareja Jauregui",
-    imageName: "jason.jpg"
-  }, 
-  { 
-    id: "gunvant", 
-    defaultName: "Gunvant Chaudhari", 
-    imageName: "gunvant.jpg",
-    mediaLink: "",
+    mediaLink: "https://www.linkedin.com/in/hjboerner/",
+    id: "holly",
+    defaultName: "Holly Boerner",
+    imageName: "holly.jpg"
   }
 ];
   
@@ -85,12 +97,6 @@ export const leadership = [
       id: "rafi",
       defaultName: "Rafi Azim-Khan",
       imageName: "rafi.jpg"
-    },
-    {
-      mediaLink: "https://www.linkedin.com/in/malvikabawri/",
-      id: "malvika",
-      defaultName: "Malvika Bawri",
-      imageName: "malvika.jpg"
     },
     {
       mediaLink: "https://www.linkedin.com/in/namathom/",
