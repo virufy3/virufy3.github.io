@@ -1,6 +1,7 @@
 import React from "react";
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 import {useIntl} from "gatsby-plugin-intl";
+import {Link} from "gatsby";
 
 export default () => {
     const intl = useIntl();
@@ -9,9 +10,10 @@ export default () => {
         <Layout>
             <section>
                 <h1>{intl.formatMessage({id: "index.section1.header"})}</h1>
-                <div className="flex items-center">
-                    <p dangerouslySetInnerHTML={{__html: intl.formatHTMLMessage({id: "index.section1.description"})}}/>
-                    {/* <p>{intl.formatMessage({id: "index.section1.description"})}</p> */}
+                <div className="flex flex-evenly">
+                    <p dangerouslySetInnerHTML={{__html: intl.formatMessage({id: "index.section1.description"})}}/>
+                    <Link to="">{intl.formatMessage({id: "coughLink"})}</Link>
+                    <Link className="bg-color-primary" to="">{intl.formatMessage({id: "donateLink"})}</Link>
                 </div>
             </section>
         </Layout>
