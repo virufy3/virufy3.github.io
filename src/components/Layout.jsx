@@ -1,6 +1,7 @@
 import React from "react";
 import SEO from "./SEO";
 import Navbar from "./Navbar";
+import Footer from './Footer'
 
 export default ({children}) => {
     return (
@@ -12,8 +13,8 @@ export default ({children}) => {
             <main>
                 {children}
             </main>
-            <footer>
-                <p>footer</p>
+            <footer className="bg-secondary-100 py-16">
+                <Footer />
             </footer>
         </>
     );

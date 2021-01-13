@@ -9,7 +9,7 @@ module.exports = {
         primary: "#00A588", // Buttons
         secondary: {
           100: "#66B495", // Footer Background
-          200: "4F9186", // links
+          200: "4F9186", // Links
         },
         green:{
           100:"#D7E9E6", //cyan color for pg background
@@ -22,6 +22,7 @@ module.exports = {
         heading: ["'Open Sans'"],
         subHeading: ["'Source Sans Pro'"],
         body: ["'Source Sans Pro'"],
+        sans: ["'Source Sans Pro'", 'ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', "Segoe UI", 'Roboto', "Helvetica Neue", 'Arial', "Noto Sans", 'sans-serif', "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"]
       },
       inset: {
         "-12": "-3rem",

@@ -1,6 +1,7 @@
 {
   "private": "true",
   "scripts": {
+    "dev": "gatsby develop",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-intl": "gatsby clean && node ./build-intl-resources.js"
   },

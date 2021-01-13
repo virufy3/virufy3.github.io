@@ -44,7 +44,7 @@ fs.readdirSync(intlFolderPath).map(folderName => {
 
 for(lang in langFiles) {
     try {
-        fs.writeFileSync(path.join(intlFolderPath, lang) + ".json", JSON.stringify(langFiles[lang]));
+        fs.writeFileSync(path.join(intlFolderPath, lang) + ".json", JSON.stringify(langFiles[lang], undefined, 2));
     } catch(err) {
         console.log(err);
     }
