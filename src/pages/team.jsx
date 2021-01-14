@@ -48,23 +48,6 @@ const TeamMember = (props) => {
     );
 }
 
-export const query = graphql`
-    {
-        allFile(filter: { sourceInstanceName: { eq: "team-images" } }) {
-            edges {
-                node {
-                    relativePath
-                    childImageSharp {
-                        fluid(maxWidth: 1000, maxHeight: 1000) {
-                            ...GatsbyImageSharpFluid
-                        }
-                    }
-                }
-            }
-        }
-    }
-`;
-
 export default ({data}) => {
     const images = data.allFile.edges;
     const intl = useIntl();
@@ -81,19 +64,18 @@ export default ({data}) => {
                 <section className="flex flex-col flex-wrap mb-10 xl:justify-center md:justify-around md:flex-row">
                     {
                         leadership.map(item => {
-                            const teamMemberPic = images.find(({node: {relativePath}}) => {
-                                return relativePath === item.imageName;
-                            }).node.childImageSharp.fluid;
+                            const imageEdge = images.find(({node: {relativePath}}) => {
+                                return relativePath.includes(item.imageName);
+                            });
 
                             return (
                                 <TeamMember 
                                     key={`${leadership}${item.id}`}
                                     role="leadership"
-                                    image={teamMemberPic}
+                                    image={imageEdge && imageEdge.node.childImageSharp.fluid}
                                     person={item}
                                 />
                             )
-                            // return <TeamMember key={`${leadership}${id}`} image={teamMemberPic} id={`leadership.${id}`}/>
                         })
                     }
                 </section>
@@ -107,15 +89,15 @@ export default ({data}) => {
                 <section className="flex flex-col flex-wrap mb-10 xl:justify-center md:justify-around md:flex-row">
                     {
                         advisors.map(item => {
-                            const teamMemberPic = images.find(({node: {relativePath}}) => {
-                                return relativePath === item.imageName;
-                            }).node.childImageSharp.fluid;
+                            const imageEdge = images.find(({node: {relativePath}}) => {
+                                return relativePath.includes(item.imageName);
+                            });
                                                         
                             return (
                                 <TeamMember 
                                     key={`${advisors}${item.id}`}
                                     role="advisors"
-                                    image={teamMemberPic}
+                                    image={imageEdge && imageEdge.node.childImageSharp.fluid}
                                     person={item}
                                 />
                             )
@@ -126,3 +108,20 @@ export default ({data}) => {
         </Layout>
     );
 }
+
+export const query = graphql`
+{
+    allFile(filter: {relativeDirectory: {eq: "images/team"}}) {
+        edges {
+            node {
+                relativePath
+                childImageSharp {
+                    fluid(maxHeight: 500, maxWidth: 500) {
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+        }
+    }
+}  
+`;

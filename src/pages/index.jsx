@@ -1,11 +1,11 @@
 import React from "react";
 import Layout from "../components/Layout";
 import {useIntl} from "gatsby-plugin-intl";
-import {Link} from "gatsby";
+import {Link, graphql} from "gatsby";
 
-export default () => {
+export default ({data}) => {
     const intl = useIntl();
-
+    
     return (
         <Layout>
             <section className="px-24">
@@ -19,5 +19,21 @@ export default () => {
                 </div>
             </section>
         </Layout>
-    )
+    );
 }
+
+export const query = graphql`
+{
+    allFile(filter: {relativeDirectory: {eq: "images/home"}}) {
+        edges {
+            node {
+                childImageSharp {
+                    fluid(maxHeight: 10, maxWidth: 10) {
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+        }
+    }
+}  
+`;
