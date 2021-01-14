@@ -35,3 +35,17 @@ $ yarn start # or npm start
 ```bash
 $ yarn dev # or npm run dev
 ```
+
+### Formatting and linting
+
+[Prettier](https://prettier.io/) and [eslint](https://eslint.org/) are run automatically before every commit. You can run them across the entire project manually using the following commands:
+
+```bash
+$ yarn format # or npm run format
+```
+
+Or
+
+```bash
+$ yarn lint # or npm run lint
+```
