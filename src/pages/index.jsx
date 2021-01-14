@@ -8,12 +8,14 @@ export default () => {
 
     return (
         <Layout>
-            <section>
-                <h1>{intl.formatMessage({id: "index.section1.header"})}</h1>
-                <div className="flex flex-evenly">
-                    <p dangerouslySetInnerHTML={{__html: intl.formatMessage({id: "index.section1.description"})}}/>
-                    <Link to="">{intl.formatMessage({id: "coughLink"})}</Link>
-                    <Link className="bg-color-primary" to="">{intl.formatMessage({id: "donateLink"})}</Link>
+            <section className="px-24">
+                <h1 className="text-5xl font-bold w-4/5">{intl.formatMessage({id: "index.section1.header"})}</h1>
+                <div className="flex">
+                    <div className="flex flex-col items-start">
+                        <p className= "mb-5" dangerouslySetInnerHTML={{__html: intl.formatMessage({id: "index.section1.pg"})}}/>
+                        <Link className="bg-green text-white px-4 py-2 mb-2" to="">{intl.formatMessage({id: "index.section1.coughLink"})}</Link>
+                        <Link className="bg-green text-white px-4 py-2" to="">{intl.formatMessage({id: "index.section1.donateLink"})}</Link>
+                    </div>
                 </div>
             </section>
         </Layout>

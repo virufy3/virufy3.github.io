@@ -11,6 +11,9 @@ module.exports = {
           100: "#00B696", // Footer Background
           200: "#08979C", // Navbar Buttons
         },
+        green: {
+          DEFAULT: "#00A588"
+        },
         filler: "rgba(172, 224, 215, 0.05)",
       },
       fontFamily: {

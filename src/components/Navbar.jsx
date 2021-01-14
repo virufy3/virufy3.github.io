@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import { useIntl } from "react-intl";
 import {changeLocale, IntlContextConsumer, useIntl} from "gatsby-plugin-intl";
 import { Link } from "gatsby";
 import virufyLogo from "../images/logos/virufy-logo.svg";
@@ -23,7 +22,7 @@ const navLinks = [
     {id: "nav.our_approach", defMsg: "Our Approach", path: "", styles: "mr-6"},
     {id: "nav.our_org", defMsg: "Our Org", path: "", styles: "mr-6"},
     {id: "nav.in_the_news", defMsg: "In the News", path: "", styles: "mr-6"},
-    {id: "nav.get_involved", defMsg: "GET INVOLVED", path: "", styles: "text-white bg-green-900 py-2 px-6"},
+    {id: "nav.get_involved", defMsg: "GET INVOLVED", path: "", styles: "text-white bg-green py-2 px-6"},
 ];
 
 const MobileNav = ({ intl }) => {
