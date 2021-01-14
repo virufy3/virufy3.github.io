@@ -32,6 +32,7 @@
     "tailwindcss": "^2.0.2"
   },
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
     "eslint": "^7.17.0",
     "eslint-config-prettier": "^7.1.0",
     "eslint-plugin-import": "^2.22.1",
@@ -44,6 +45,13 @@
     "prettier": "^2.2.1"
   },
   "eslintConfig": {
+    "parser": "babel-eslint",
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "env": {
+      "es6": true
+    },
     "plugins": [
       "react",
       "react-hooks",
@@ -63,22 +71,22 @@
       "plugin:react-hooks/recommended"
     ],
     "rules": {
-      "@typescript-eslint/no-redeclare": "off",
-      "@typescript-eslint/explicit-function-return-type": "off",
-      "@typescript-eslint/no-extraneous-class": "off",
-      "react/react-in-jsx-scope": "off",
-      "@typescript-eslint/strict-boolean-expressions": "off",
-      "react/prop-types": "off",
-      "@typescript-eslint/triple-slash-reference": "off"
+      "node/no-unsupported-features/es-syntax": "off"
     }
   },
+  "eslintIgnore": [
+    "public/"
+  ],
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
-    "*.{ts,tsx}": "eslint --cache --fix",
-    "*.{ts,tsx,css,md,json}": "prettier --write"
+    "*.{js,jsx}": "eslint --cache --fix",
+    "*.{js,jsx,css,md,json}": "prettier --write"
+  },
+  "engines": {
+    "node": ">=12.0.0"
   }
 }
