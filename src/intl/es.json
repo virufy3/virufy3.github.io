@@ -1,1 +1,28 @@
-{"index":{},"nav":{"data":"Datos","research":"Ivestigación","team":"Equipo","join":"nete a nosotros","press":"Prensa","faq":"FAQ","language":"Español","donateCough":"Dona tu tos"},"team":{"headers":{"leadership":"Liderazgo","advisors":"Asesoría"},"leadership":{"amil":{"name":"Amil Khanzada","description":"Embajador de paz One Young World Ex-alumno, UC Berkeley Ciencias de la computacion","title":"Fundador y CTO"},"gunvant":{"name":"Gunvant Chaudhari","description":"Investigador de Big Data en Radiología\nEstudiante de Medicina, UC San Francisco","title":"Líder del equipo de Inteligencia Artificial"}}}}
+{
+  "index": {},
+  "nav": {
+    "data": "Datos",
+    "research": "Ivestigación",
+    "team": "Equipo",
+    "join": "nete a nosotros",
+    "press": "Prensa",
+    "faq": "FAQ",
+    "language": "Español",
+    "donateCough": "Dona tu tos"
+  },
+  "team": {
+    "headers": { "leadership": "Liderazgo", "advisors": "Asesoría" },
+    "leadership": {
+      "amil": {
+        "name": "Amil Khanzada",
+        "description": "Embajador de paz One Young World Ex-alumno, UC Berkeley Ciencias de la computacion",
+        "title": "Fundador y CTO"
+      },
+      "gunvant": {
+        "name": "Gunvant Chaudhari",
+        "description": "Investigador de Big Data en Radiología\nEstudiante de Medicina, UC San Francisco",
+        "title": "Líder del equipo de Inteligencia Artificial"
+      }
+    }
+  }
+}
