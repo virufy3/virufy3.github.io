@@ -2,7 +2,9 @@
   "private": "true",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-intl": "gatsby clean && node ./build-intl-resources.js"
+    "build-intl": "gatsby clean && node ./build-intl-resources.js",
+    "format": "prettier --write .",
+    "lint": "eslint --ext .js,.jsx ."
   },
   "repository": {
     "type": "git",
@@ -28,5 +30,55 @@
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "tailwindcss": "^2.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^4.3.7",
+    "lint-staged": "^10.5.3",
+    "prettier": "^2.2.1"
+  },
+  "eslintConfig": {
+    "plugins": [
+      "react",
+      "react-hooks",
+      "import",
+      "node",
+      "promise"
+    ],
+    "extends": [
+      "prettier",
+      "prettier/@typescript-eslint",
+      "prettier/react",
+      "prettier/standard",
+      "plugin:import/errors",
+      "plugin:import/warnings",
+      "plugin:node/recommended",
+      "plugin:promise/recommended",
+      "plugin:react-hooks/recommended"
+    ],
+    "rules": {
+      "@typescript-eslint/no-redeclare": "off",
+      "@typescript-eslint/explicit-function-return-type": "off",
+      "@typescript-eslint/no-extraneous-class": "off",
+      "react/react-in-jsx-scope": "off",
+      "@typescript-eslint/strict-boolean-expressions": "off",
+      "react/prop-types": "off",
+      "@typescript-eslint/triple-slash-reference": "off"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": "eslint --cache --fix",
+    "*.{ts,tsx,css,md,json}": "prettier --write"
   }
 }
