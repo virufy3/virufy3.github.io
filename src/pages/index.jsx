@@ -13,7 +13,7 @@ export default ({data}) => {
 
     return (
         <Layout>
-            <section className="px-24">
+            <section className="px-4 lg:px-0 lg:w-4/5 lg:mx-auto">
                 <h1 className="text-5xl font-bold w-4/5">{intl.formatMessage({id: "index.section1.header"})}</h1>
                 <div className="flex">
                     <div className="flex flex-col items-start justify-center">
@@ -21,7 +21,7 @@ export default ({data}) => {
                         <Link className="bg-green text-white px-4 py-2 mb-2" to="">{intl.formatMessage({id: "index.section1.coughLink"})}</Link>
                         <Link className="bg-green text-white px-4 py-2" to="">{intl.formatMessage({id: "index.section1.donateLink"})}</Link>
                     </div>
-                    <div className="w-2/5">
+                    <div className="w-60 hidden lg:block">
                         <GatsbyImage fluid={images["hero-illustration"].childImageSharp.fluid}/>
                     </div>
                 </div>
