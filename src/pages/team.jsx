@@ -1,6 +1,6 @@
 import React from "react";
 import {graphql} from "gatsby";
-import GatsbyImage from "gatsby-background-image";
+import GatsbyBgImage from "gatsby-background-image";
 import {useIntl} from "gatsby-plugin-intl";
 import SEO from "../components/SEO";
 import Layout from "../components/Layout";
@@ -27,7 +27,7 @@ const TeamMember = (props) => {
         <div className="flex flex-col items-center mx-10 mb-10 md:w-1/3 lg:w-1/4">
             {/* <a target="_blank" rel="noreferrer" href={intl.formatMessage({id: `team.${id}.mediaLink`})}> */}
             <a target="_blank" rel="noreferrer" href={mediaLink}>
-                <GatsbyImage className="w-64 h-64 mx-auto my-2 rounded-full overflow-hidden team-icons" fluid={image} alt={name} />
+                <GatsbyBgImage className="w-64 h-64 mx-auto my-2 rounded-full overflow-hidden team-icons" fluid={image} alt={name} />
             </a>
             <h5 className="mt-4 text-xl font-semibold text-gray-200">
                 {name}

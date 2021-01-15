@@ -74,7 +74,7 @@ export default () => {
     return (
         <nav>
             <div className="flex items-center justify-between py-3 px-6">
-                <Link to="./index.html">
+                <Link to="/">
                     <img
                         className="logo"
                         src={virufyLogo}
