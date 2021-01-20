@@ -1,4 +1,4 @@
-name: Node.js CI
+name: Consistent Localization CI
 
 on: [push]
 
@@ -26,24 +26,11 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
 
-      - name: Cache Gatsby directories
-        uses: actions/cache@v2
-        with:
-          path: |
-            .cache
-            public
-          key: gatsby-build-folders
-
       - name: Install dependencies
         if: steps.yarn-cache.outputs.cache-hit != 'true'
         run: yarn
 
-      - name: Run linters
-        run: |
-          yarn lint
-          yarn prettier --check .
-
-      - name: Test building
+      - name: Test for consistent localizations
         run: |
           node ./scripts/build-intl-resources.js
-          yarn build
+          node ./scripts/confirm-consistent-localizations.js
