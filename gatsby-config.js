@@ -11,26 +11,27 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-plugin-react-helmet",
     {
-        resolve: "gatsby-source-filesystem",
-        options: {
-            path: path.join(__dirname, "src")
-        }
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: path.join(__dirname, "src"),
+      },
     },
     {
-        resolve: `gatsby-plugin-intl`,
-        options: {
-            path: path.join(__dirname, "src", "intl"),
-            languages: ["en", "es"],
-            defaultLanguage: `en`,
-            redirect: true,
-        },
-    }
-    ],
-    siteMetadata: {
-        title: "Virufy",
-        description: "Virufy is a global team of passionate young computer scientists mentored by authorities in AI, signal processing, & medicine.",
-        author: "Team Virufy",
-        image: "images/join-page/virufighters.png",
-        url: "https://virufy.org/"
-    }
-}
+      resolve: `gatsby-plugin-intl`,
+      options: {
+        path: path.join(__dirname, "src", "intl"),
+        languages: ["en", "es"],
+        defaultLanguage: `en`,
+        redirect: true,
+      },
+    },
+  ],
+  siteMetadata: {
+    title: "Virufy",
+    description:
+      "Virufy is a global team of passionate young computer scientists mentored by authorities in AI, signal processing, & medicine.",
+    author: "Team Virufy",
+    image: "images/join-page/virufighters.png",
+    url: "https://virufy.org/",
+  },
+};

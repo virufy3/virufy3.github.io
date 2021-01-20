@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {changeLocale, IntlContextConsumer, useIntl} from "gatsby-plugin-intl";
+import { changeLocale, IntlContextConsumer, useIntl } from "gatsby-plugin-intl";
 import { Link } from "gatsby";
 import virufyLogo from "../images/logos/virufy-logo.svg";
 
