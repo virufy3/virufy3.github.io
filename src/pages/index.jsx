@@ -15,7 +15,7 @@ export default ({ data }) => {
   return (
     <Layout>
       <section className="px-4 lg:px-0 lg:w-4/5 lg:mx-auto">
-        <h1 className="text-5xl font-bold">
+        <h1 className="text-5xl font-bold mb-4">
           {intl.formatMessage({ id: "index.section1.header" })}
         </h1>
         <div className="flex">
@@ -33,7 +33,7 @@ export default ({ data }) => {
               {intl.formatMessage({ id: "index.section1.donateLink" })}
             </Link>
           </div>
-          <div className="w-3/5 lg:flex items-end hidden w-full">
+          <div className="w-2/5 lg:flex items-end hidden">
             <GatsbyImage
               className="w-full"
               fluid={images["hero-illustration"].childImageSharp.fluid}
