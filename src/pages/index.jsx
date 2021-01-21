@@ -89,7 +89,8 @@ export default ({ data }) => {
             height: "22vw",
             marginBottom: "-22vw",
             display: "flex",
-            justifyContent: "space-between",
+            flexWrap: "wrap",
+            alignContent: "space-between",
           }}
         >
           <div className="flex justify-between w-full">
@@ -118,11 +119,6 @@ export default ({ data }) => {
                   })}
                 </h2>
               </div>
-              <div className="w-2/3">
-                <GatsbyImage
-                  fluid={images["cough-to-app"].childImageSharp.fluid}
-                />
-              </div>
             </span>
             <span
               style={{
@@ -148,11 +144,6 @@ export default ({ data }) => {
                     id: "index.section3.header2",
                   })}
                 </h2>
-              </div>
-              <div className="w-2/3">
-                <GatsbyImage
-                  fluid={images["cough-waves"].childImageSharp.fluid}
-                />
               </div>
             </span>
             <span
@@ -180,12 +171,42 @@ export default ({ data }) => {
                   })}
                 </h2>
               </div>
-              <div className="w-2/3">
-                <GatsbyImage
-                  fluid={images["clipboard"].childImageSharp.fluid}
-                />
-              </div>
             </span>
+          </div>
+          <div className="flex justify-between w-full h-1/2">
+            <div
+              className="flex justify-center items-center h-full"
+              style={{ width: "18vw" }}
+            >
+              {/* <div className="w-1/2"> */}
+              <GatsbyImage
+                // className="w-1/2"
+                style={{ width: "9rem", height: "7rem" }}
+                fluid={images["cough-to-app"].childImageSharp.fluid}
+                imgStyle={{ objectFit: "fill" }}
+              />
+              {/* </div> */}
+            </div>
+            <div
+              className="flex justify-center items-center"
+              style={{ width: "18vw" }}
+            >
+              <GatsbyImage
+                style={{ width: "9rem", height: "4rem" }}
+                fluid={images["cough-waves"].childImageSharp.fluid}
+                imgStyle={{ objectFit: "fill" }}
+              />
+            </div>
+            <div
+              className="flex justify-center items-center"
+              style={{ width: "18vw" }}
+            >
+              <GatsbyImage
+                style={{ width: "5rem", height: "7rem" }}
+                fluid={images["clipboard"].childImageSharp.fluid}
+                imgStyle={{ objectFit: "fill" }}
+              />
+            </div>
           </div>
         </div>
       </section>
