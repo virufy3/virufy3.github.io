@@ -22,10 +22,7 @@
     "logoAlt": "Home"
   },
   "team": {
-    "headers": {
-      "leadership": "Leadership",
-      "advisors": "Advisors"
-    },
+    "headers": { "leadership": "Leadership", "advisors": "Advisors" },
     "leadership": {
       "amil": {
         "name": "Amil Khanzada",
