@@ -103,16 +103,16 @@ export default ({ data }) => {
                 justifyContent: "center",
               }}
             >
-              <div className="w-full flex justify-between">
+              <div className="w-full flex">
                 <div
                   style={{ backgroundColor: "#393939" }}
-                  className="text-white test-white text-lg rounded-full w-8 h-8 flex justify-center items-center"
+                  className="mr-4 text-white test-white text-lg rounded-full w-8 h-8 flex justify-center items-center"
                 >
                   1
                 </div>
                 <h2
                   className="text-md text-sm font-bold"
-                  style={{ maxWidth: "80%" }}
+                  style={{ maxWidth: "calc(100% - 3rem)" }}
                 >
                   {intl.formatMessage({
                     id: "index.section3.header1",
@@ -129,16 +129,16 @@ export default ({ data }) => {
                 justifyContent: "center",
               }}
             >
-              <div className="w-full flex justify-between">
+              <div className="w-full flex">
                 <div
                   style={{ backgroundColor: "#393939" }}
-                  className="text-white test-white text-lg rounded-full w-8 h-8 flex justify-center items-center"
+                  className="mr-4 text-white test-white text-lg rounded-full w-8 h-8 flex justify-center items-center"
                 >
                   1
                 </div>
                 <h2
                   className="text-md text-sm font-bold"
-                  style={{ maxWidth: "80%" }}
+                  style={{ maxWidth: "calc(100% - 3rem)" }}
                 >
                   {intl.formatMessage({
                     id: "index.section3.header2",
@@ -155,16 +155,16 @@ export default ({ data }) => {
                 justifyContent: "center",
               }}
             >
-              <div className="w-full flex justify-between ">
+              <div className="w-full flex ">
                 <div
                   style={{ backgroundColor: "#393939" }}
-                  className="text-white test-white text-lg rounded-full w-8 h-8 flex justify-center items-center"
+                  className="mr-4 text-white test-white text-lg rounded-full w-8 h-8 flex justify-center items-center"
                 >
                   1
                 </div>
                 <h2
                   className="text-md text-sm font-bold"
-                  style={{ maxWidth: "80%" }}
+                  style={{ maxWidth: "calc(100% - 3rem)" }}
                 >
                   {intl.formatMessage({
                     id: "index.section3.header3",
@@ -178,14 +178,11 @@ export default ({ data }) => {
               className="flex justify-center items-center h-full"
               style={{ width: "18vw" }}
             >
-              {/* <div className="w-1/2"> */}
               <GatsbyImage
-                // className="w-1/2"
                 style={{ width: "9rem", height: "7rem" }}
                 fluid={images["cough-to-app"].childImageSharp.fluid}
                 imgStyle={{ objectFit: "fill" }}
               />
-              {/* </div> */}
             </div>
             <div
               className="flex justify-center items-center"
