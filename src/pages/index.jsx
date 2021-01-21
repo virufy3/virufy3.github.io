@@ -70,52 +70,123 @@ export default ({ data }) => {
           <div
             style={{ width: "30vw", height: "30vw" }}
             className="rounded-full inline-block bg-gray-100 justify-center items-center"
-          >
-            <div
-              style={{
-                width: "70%",
-                height: "70%",
-              }}
-              className="flex flex-col items-center"
-            >
-              <h2
-                style={{
-                  marginBottom: "-1.5rem",
-                  bottom: "25%",
-                  right: "34%",
-                  position: "relative",
-                }}
-              >
-                {intl.formatMessage({
-                  id: "index.section3.howItWorks",
-                  defaultMessage: "HOW IT WORKS",
-                })}
-              </h2>
-              <div className="flex w-full justify-between items-center mb-4">
-                <div className="text-white text-lg rounded-full bg-green-600 w-8 h-8 flex justify-center items-center">
-                  1
-                </div>
-                <h2 className="text-md text-sm font-bold">
-                  {intl.formatMessage({
-                    id: "header1",
-                    defaultMessage: "Record your cough",
-                  })}
-                </h2>
-              </div>
-              <GatsbyImage
-                className="w-3/5"
-                fluid={images["cough-to-app"].childImageSharp.fluid}
-              />
-            </div>
-          </div>
+          />
           <div
             style={{ width: "30vw", height: "30vw", margin: "0 -5vw" }}
             className="rounded-full inline-block bg-gray-100"
-          ></div>
+          />
           <div
             style={{ width: "30vw", height: "30vw" }}
             className="rounded-full inline-block bg-gray-100"
-          ></div>
+          />
+        </div>
+        <div
+          style={{
+            position: "relative",
+            bottom: "26vw",
+            width: "69vw",
+            left: "10vw",
+            height: "22vw",
+            marginBottom: "-22vw",
+            display: "flex",
+            justifyContent: "space-between",
+          }}
+        >
+          <div className="flex justify-between w-full">
+            <span
+              style={{
+                width: "18vw",
+                display: "flex",
+                alignContent: "space-between",
+                flexWrap: "wrap",
+                justifyContent: "center",
+              }}
+            >
+              <div className="w-full flex justify-between">
+                <div
+                  style={{ backgroundColor: "#393939" }}
+                  className="text-white test-white text-lg rounded-full w-8 h-8 flex justify-center items-center"
+                >
+                  1
+                </div>
+                <h2
+                  className="text-md text-sm font-bold"
+                  style={{ maxWidth: "80%" }}
+                >
+                  {intl.formatMessage({
+                    id: "index.section3.header1",
+                  })}
+                </h2>
+              </div>
+              <div className="w-2/3">
+                <GatsbyImage
+                  fluid={images["cough-to-app"].childImageSharp.fluid}
+                />
+              </div>
+            </span>
+            <span
+              style={{
+                width: "18vw",
+                display: "flex",
+                alignContent: "space-between",
+                flexWrap: "wrap",
+                justifyContent: "center",
+              }}
+            >
+              <div className="w-full flex justify-between">
+                <div
+                  style={{ backgroundColor: "#393939" }}
+                  className="text-white test-white text-lg rounded-full w-8 h-8 flex justify-center items-center"
+                >
+                  1
+                </div>
+                <h2
+                  className="text-md text-sm font-bold"
+                  style={{ maxWidth: "80%" }}
+                >
+                  {intl.formatMessage({
+                    id: "index.section3.header2",
+                  })}
+                </h2>
+              </div>
+              <div className="w-2/3">
+                <GatsbyImage
+                  fluid={images["cough-waves"].childImageSharp.fluid}
+                />
+              </div>
+            </span>
+            <span
+              style={{
+                width: "18vw",
+                display: "flex",
+                alignContent: "space-between",
+                flexWrap: "wrap",
+                justifyContent: "center",
+              }}
+            >
+              <div className="w-full flex justify-between ">
+                <div
+                  style={{ backgroundColor: "#393939" }}
+                  className="text-white test-white text-lg rounded-full w-8 h-8 flex justify-center items-center"
+                >
+                  1
+                </div>
+                <h2
+                  className="text-md text-sm font-bold"
+                  style={{ maxWidth: "80%" }}
+                >
+                  {intl.formatMessage({
+                    id: "index.section3.header3",
+                  })}
+                </h2>
+              </div>
+              <div className="w-2/3">
+                <GatsbyImage
+                  fluid={images["clipboard"].childImageSharp.fluid}
+                />
+              </div>
+            </span>
+          </div>
         </div>
       </section>
     </Layout>
