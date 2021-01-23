@@ -57,14 +57,24 @@ const MobileNav = ({ intl }) => {
 };
 
 const LangSelect = () => {
+  const langText = {
+    en: "Language - EN",
+    es: "Español - ES",
+    pt: "Português - PT",
+    hi: "हिन्दी - HI",
+    ja: "日本語 - JA",
+  };
   return (
     <IntlContextConsumer>
       {({ languages, language: currentLocale }) => {
         return (
-          <select onChange={(event) => changeLocale(event.target.value)}>
+          <select
+            value={currentLocale}
+            onChange={(event) => changeLocale(event.target.value)}
+          >
             {languages.map((lang) => (
-              <option selected={currentLocale === lang} value={lang}>
-                Language - {lang.toUpperCase()}
+              <option key={lang} value={lang}>
+                {langText[lang]}
               </option>
             ))}
           </select>
