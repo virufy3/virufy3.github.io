@@ -3,7 +3,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const intlFolderPath = path.join(__dirname, "src", "intl");
+const intlFolderPath = path.join(__dirname, "../", "src", "intl");
 
 // objects to be written to language json files
 const langFiles = {};
