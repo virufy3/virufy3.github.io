@@ -1,5 +1,16 @@
 {
-  "headers": {
+  "section1": {
+    "header": "Virufy’s vision",
+    "pg1": "We aspire to be the leading not-for-profit organization for technology-enabled disease identification.",
+    "pg2": "Our innovations aim to offer superior detection for patients, clinicians and governments.",
+    "pg3": "We will be force for transforming global healthcare and inspiring support and investment in this mission."
+  },
+  "section2": {
+    "header": "Our people",
+    "pg1": "Meet the dozens of people volunteering across five continents to bring Virufy to the world."
+  },
+
+  "section3": {
     "leadership": "Leadership",
     "advisors": "Advisors"
   },
@@ -116,5 +127,9 @@
       "description": "The Brand Garden - CEO",
       "title": "Chief Marketing Officer"
     }
+  },
+  "section4": {
+    "header": "Our supporters",
+    "pg1": "Virufy is a Stanford COVID-19 Response Innovation Lab project and is also featured in One Young World"
   }
 }
