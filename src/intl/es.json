@@ -11,7 +11,10 @@
     "donateCough": "Dona tu tos"
   },
   "team": {
-    "headers": { "leadership": "Liderazgo", "advisors": "Asesoría" },
+    "headers": {
+      "leadership": "Liderazgo",
+      "advisors": "Asesoría"
+    },
     "leadership": {
       "amil": {
         "name": "Amil Khanzada",
