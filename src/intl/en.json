@@ -1,4 +1,14 @@
 {
+  "footer": {
+    "getInTouch": "Get in touch!",
+    "cookiePolicy": "Cookie Policy",
+    "cookieSettings": "Cookie Settings",
+    "privacyPolicy": "Privacy Policy",
+    "dontSellPersonalInfo": "Do Not Sell My Personal Information",
+    "copyrightInformation": "©2021 Virufy  |  VIRUFY is a trademark of The Covid Detection Foundation   |  All rights reserved",
+    "email": "info@virufy.org",
+    "address": "4546 El Camino Real B10 #614, Los Altos, California 94022, USA"
+  },
   "index": {},
   "nav": {
     "data": "Data",
@@ -12,7 +22,10 @@
     "logoAlt": "Home"
   },
   "team": {
-    "headers": { "leadership": "Leadership", "advisors": "Advisors" },
+    "headers": {
+      "leadership": "Leadership",
+      "advisors": "Advisors"
+    },
     "leadership": {
       "amil": {
         "name": "Amil Khanzada",
