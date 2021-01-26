@@ -14,7 +14,12 @@ export default ({ data }) => {
   // add the images to an object to use in gatsby image
   data.allFile.edges.forEach((edge) => (images[edge.node.name] = edge.node));
 
-  return <ValuesSection images={images} />;
+  return (
+    <Layout>
+      <SEO title="Team | Virufy" />
+      <ValuesSection images={images} />
+    </Layout>
+  );
 };
 
 // // component for displaying team-member info
@@ -155,7 +160,7 @@ export const query = graphql`
         node {
           name
           childImageSharp {
-            fluid(maxHeight: 500, maxWidth: 500) {
+            fluid {
               ...GatsbyImageSharpFluid
             }
           }
