@@ -1,7 +1,11 @@
 import React, { useState } from "react";
 // import { useIntl } from "react-intl";
-import { changeLocale, IntlContextConsumer, useIntl } from "gatsby-plugin-intl";
-import { Link } from "gatsby";
+import {
+  changeLocale,
+  IntlContextConsumer,
+  useIntl,
+  Link,
+} from "gatsby-plugin-intl";
 import virufyLogo from "../images/logos/virufy-logo.svg";
 
 // svg for opening nav

@@ -21,6 +21,47 @@
     "donateCough": "Donate your cough",
     "logoAlt": "Home"
   },
+  "ourApproach": {
+    "topFold": {
+      "diagnoseDisease": "AI to freely and quickly diagnose disease",
+      "acrossNations": "All people across all nations should have fast, affordable access to healthcare.",
+      "usingTechnology": "So we're using technology to do this.",
+      "algorithmInfo": "With the help of cutting edge research from the world’s most prestigious institutions — Stanford, Princeton, Cambridge — we’re developing an AI algorithm that accurately diagnoses COVID-19 just by analyzing the sounds of a person’s cough.",
+      "readWhitePaper": "Read our white paper"
+    },
+    "research": {
+      "universityOfCambridge": {
+        "title": "Exploring Automatic Diagnosis of COVID-19 from Crowdsourced Respiratory Sound Data",
+        "description": "A crowdsource research done by University of Cambridge that used cough samples and breathing to understand how discernible COVID-19 sounds are from those in asthma or healthy controls. Their results show that even a simple binary machine learning classifier is able to classify correctly healthy and COVID-19 sounds. Our models achieve an AUC above 70% across all tasks. This work inspires further investigation of how automatically analyzed respiratory patterns could be used as pre-screening signals to aid COVID-19 diagnosis [1].",
+        "source": "University of Cambridge"
+      },
+      "carnegieMellonUniversity": {
+        "title": "COVID Voice Detector",
+        "description": "A study by Carnegie Mellon University aimed to collect a large number of voice samples to train AI for diagnosis of COVID. The rationale behing the study is that, \"the sound of our voice (regardless of language), and the sounds we make when we breathe or cough change when our respiratory system is affected. The changes range from coarse, clearly audible changes, to minute changes -- what we call \"micro\" signatures, that are not audible to the untrained listener, but are nevertheless present [2].",
+        "source": "Carnegie Mellon University"
+      },
+      "MIT": {
+        "title": "Call for a New Artificial Intelligence Approach to Support Health Care Professionals Dealing with the COVID-19 Pandemic",
+        "description": "MIT's Department of Mechanical Engineering proposes to detect positive cases of COVID by collecting cough samples through the phone to train artificial intelligence and subsequently build a diagnostic algorithm [3].",
+        "source": "Massachusetts Institute of Technology (MIT)"
+      },
+      "various": {
+        "title": "AI Enabled Preliminary Diagnosis for COVID-19 from Cough Samples via an App",
+        "description": "Study designed to collect cough samples to train and use AI architecture that minimizes misdiagnosis. They predict that at the time of writing, their AI engine can distinguish between COVID-19 patient coughs and several types of non-COVID-19 coughs with over 90% accuracy [4].",
+        "source": "(Various)"
+      },
+      "universityOfEngineeringPakistan": {
+        "title": "Cough Sound Analysis for Pneumonia and Asthma Classification in Pediatric Population",
+        "description": "In this study AI was used to distinguish between the coughs of asthma and pneumonia, with the goal of providing medical care to developing countries with poor resources. Their method achieved​ a sensitivity of 89%, specificity of 100%, and Kappa of 0.89. Their results show the potential use of AI in detection and differentiation of respiratory sounds [5].",
+        "source": "University of Engineering & Technology, Pakistan"
+      },
+      "imperialCollegeLondon": {
+        "title": "A Cough-Based Algorithm for Automatic Diagnosis of Pertussis",
+        "description": "This study uses pertussis cough, croup, and cough containing wheezing sounds corresponding to other diseases such as bronchiolitis and asthma to train AI in order to detect Pertussis. The algorithm is able to diagnose all pertussis successfully from audio recordings, automatically detecting individual cough sounds with 92% accuracy and PPV of 97%. Their result supports the use of AI as a potential candidate for differentiating and diagnosing respiratory sounds [6].",
+        "source": "Department of Electrical and Electronic Engineering, Imperial College London"
+      }
+    }
+  },
   "team": {
     "headers": {
       "leadership": "Leadership",
