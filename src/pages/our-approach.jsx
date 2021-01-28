@@ -1,12 +1,15 @@
 import React, { useCallback } from "react";
 import { graphql } from "gatsby";
 import { useIntl } from "gatsby-plugin-intl";
+import Img from "gatsby-image";
 import Layout from "../components/Layout";
 import { ButtonLink } from "../components/Button";
 import InfoCard from "../components/ourApproach/InfoCard";
 import Principle from "../components/ourApproach/Principle";
+import QuestionCollapse from "../components/ourApproach/QuestionCollapse";
 import learnMoreCards from "../data/our-approach/learn-more-cards";
 import collaborationLinks from "../data/our-approach/collaboration-links";
+import faqCategories from "../data/our-approach/faq";
 
 export const query = graphql`
   {
@@ -40,69 +43,68 @@ export default ({ data }) => {
 
   return (
     <Layout className="bg-green-100 text-black">
-      <div className="max-w-screen-xl mx-auto">
-        {/* Top fold */}
-        <div className="px-6 py-16 mx-auto md:flex">
-          <h1 className="flex-1 text-3xl pb-10 md:pb-0 font-heading font-bold pr-6">
-            {intl.formatMessage({ id: `ourApproach.topFold.diagnoseDisease` })}
-          </h1>
-          <div className="flex-1">
-            <h2 className="text-xl font-heading font-bold pb-3">
-              {intl.formatMessage({
-                id: `ourApproach.topFold.acrossNations`,
-              })}
-            </h2>
-            <p className="pb-3">
-              {intl.formatMessage({
-                id: `ourApproach.topFold.usingTechnology`,
-              })}
-            </p>
-            <p className="pb-8">
-              {intl.formatMessage({
-                id: `ourApproach.topFold.algorithmInfo`,
-              })}
-            </p>
-            <ButtonLink to="/paper">
-              {intl.formatMessage({
-                id: `ourApproach.topFold.readWhitePaper`,
-              })}
-            </ButtonLink>
-          </div>
-        </div>
-
-        {/* Research  */}
-        <div className="px-6 py-12 mx-auto">
-          <h4 className="uppercase font-heading font-bold mb-6 lg:mb-4">
-            Want to learn more?
-          </h4>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {learnMoreCards.map((info, index) => {
-              const cardIcon = findImage(info.imageName);
-
-              return (
-                <InfoCard
-                  key={info.id}
-                  sourceNum={index + 1}
-                  title={intl.formatMessage({
-                    id: `ourApproach.research.${info.id}.title`,
-                  })}
-                  description={intl.formatMessage({
-                    id: `ourApproach.research.${info.id}.description`,
-                  })}
-                  icon={cardIcon}
-                  source={intl.formatMessage({
-                    id: `ourApproach.research.${info.id}.source`,
-                  })}
-                />
-              );
+      {/* Top fold */}
+      <div className="container md:flex">
+        <h1 className="flex-1 pb-10 md:pb-0 pr-6">
+          {intl.formatMessage({ id: `ourApproach.topFold.diagnoseDisease` })}
+        </h1>
+        <div className="flex-1">
+          <h2 className="text-xl font-heading font-bold pb-3">
+            {intl.formatMessage({
+              id: `ourApproach.topFold.acrossNations`,
             })}
-          </div>
+          </h2>
+          <p className="pb-3">
+            {intl.formatMessage({
+              id: `ourApproach.topFold.usingTechnology`,
+            })}
+          </p>
+          <p className="pb-8">
+            {intl.formatMessage({
+              id: `ourApproach.topFold.algorithmInfo`,
+            })}
+          </p>
+          <ButtonLink to="/paper">
+            {intl.formatMessage({
+              id: `ourApproach.topFold.readWhitePaper`,
+            })}
+          </ButtonLink>
         </div>
       </div>
+
+      {/* Research  */}
+      <div className="container mx-auto">
+        <h4 className="uppercase font-heading font-bold mb-6 lg:mb-4">
+          Want to learn more?
+        </h4>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {learnMoreCards.map((info, index) => {
+            const cardIcon = findImage(info.imageName);
+
+            return (
+              <InfoCard
+                key={info.id}
+                sourceNum={index + 1}
+                title={intl.formatMessage({
+                  id: `ourApproach.research.${info.id}.title`,
+                })}
+                description={intl.formatMessage({
+                  id: `ourApproach.research.${info.id}.description`,
+                })}
+                icon={cardIcon}
+                source={intl.formatMessage({
+                  id: `ourApproach.research.${info.id}.source`,
+                })}
+              />
+            );
+          })}
+        </div>
+      </div>
+
       {/* Open data  */}
       <div className="bg-white">
-        <div className="px-6 py-12 mx-auto text-center">
-          <h1 className="text-3xl font-bold pb-2">
+        <div className="container text-center">
+          <h1 className="pb-2">
             {intl.formatMessage({
               id: "ourApproach.collaboration.title",
             })}
@@ -133,7 +135,7 @@ export default ({ data }) => {
             </a>
           </p>
 
-          <div className="block my-20 mx-auto divide-y md:divide-y-0 md:flex md:max-w-screen-lg">
+          <div className="block my-8 mx-auto divide-y md:divide-y-0 md:flex md:my-20 md:max-w-screen-lg">
             <Principle
               title={intl.formatMessage({
                 id: "ourApproach.collaboration.accuracy.title",
@@ -172,6 +174,34 @@ export default ({ data }) => {
                 id: "ourApproach.collaboration.collaboration.labelled",
               })}
             </Principle>
+          </div>
+        </div>
+      </div>
+
+      {/* FAQ */}
+      <div className="bg-green-200">
+        <div className="container flex">
+          <div className="flex-grow">
+            <h1 className="mb-8">
+              {intl.formatMessage({ id: "ourApproach.faq.title" })}
+            </h1>
+            <div className="divide-y-1/2 divide-divider-100 border-solid border-t-1/2 border-b-1/2 border-divider-100">
+              {faqCategories.map(({ categoryId, questionIds }) => (
+                <QuestionCollapse
+                  categoryId={categoryId}
+                  questionIds={questionIds}
+                  key={categoryId}
+                />
+              ))}
+            </div>
+          </div>
+          <div className="w-1/4 flex-shrink-0 hidden md:block md:mx-16 lg:mx-24">
+            <Img
+              className="mx-auto"
+              fluid={findImage("faq-illustration")}
+              imgStyle={{ objectFit: "contain" }}
+              aria-hidden
+            />
           </div>
         </div>
       </div>

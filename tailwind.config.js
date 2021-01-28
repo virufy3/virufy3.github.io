@@ -17,6 +17,10 @@ module.exports = {
         },
         black: "#393939",
         filler: "rgba(172, 224, 215, 0.05)",
+        divider: {
+          100: "#8C8CA1",
+          200: "#C5C5E2",
+        },
       },
       fontFamily: {
         heading: ["'Open Sans'"],
@@ -44,6 +48,9 @@ module.exports = {
         "-12": "-3rem",
         "-16": "-4rem",
         "-20": "-5rem",
+      },
+      borderWidth: {
+        "1/2": "0.5px",
       },
       margin: {
         36: "9rem",

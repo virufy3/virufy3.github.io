@@ -11,6 +11,10 @@
   @apply px-6 mx-auto mt-8 max-w-screen-3xl md:pb-4 md:px-8 3xl:px-6 4xl:px-0;
 }
 
+.container {
+  @apply px-6 py-20 mx-auto max-w-screen-xl;
+}
+
 .logo {
   @apply w-16 md:w-24;
 }
@@ -46,4 +50,25 @@
 
 a {
   @apply underline text-secondary-200;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-bold;
+}
+
+h1 {
+  @apply text-3xl;
+}
+
+h2 {
+  @apply text-2xl;
+}
+
+h3 {
+  @apply text-xl;
 }
