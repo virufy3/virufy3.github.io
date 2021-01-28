@@ -29,6 +29,7 @@ function InfoCard({ sourceNum, title, description, source, icon }) {
               className="mx-auto h-32 w-auto"
               fluid={icon}
               imgStyle={{ objectFit: "contain" }}
+              aria-hidden
             />
           </div>
         </div>
@@ -47,6 +48,7 @@ function InfoCard({ sourceNum, title, description, source, icon }) {
           className="h-32 w-auto"
           fluid={icon}
           imgStyle={{ objectFit: "contain" }}
+          aria-hidden
         />
       </Modal>
     </>

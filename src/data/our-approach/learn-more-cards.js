@@ -1,4 +1,4 @@
-export const learnMoreCards = [
+export default [
   { id: "universityOfCambridge", imageName: "sound" },
   { id: "carnegieMellonUniversity", imageName: "cough" },
   { id: "MIT", imageName: "pandemic" },

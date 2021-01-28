@@ -9,7 +9,7 @@ module.exports = {
         primary: "#00A588", // Buttons
         secondary: {
           100: "#66B495", // Footer Background
-          200: "4F9186", // Links
+          200: "#4F9186", // links
         },
         green: {
           100: "#D7E9E6", //cyan color for pg background
