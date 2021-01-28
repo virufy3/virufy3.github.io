@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import PropTypes from "prop-types";
 import Overlay from "./Overlay";
-import { usePx, useScrollLock } from "../hooks";
+import { usePx, useScrollLock, useEscape } from "../hooks";
 
 const HORIZONTAL_PIXEL_PADDING = 32; // each side
 const VERTICAL_PIXEL_PADDING = 48; // each direction
@@ -114,6 +114,9 @@ function Modal({ triggerRef, scale, children, show, onClose }) {
 
   // Lock scroll when the modal is shown
   useScrollLock(show);
+
+  // Handle escape-to-close when the modal is visible
+  useEscape(show, onClose);
 
   const modalRef = useRef(null);
   function closeIfModalWasNotTarget(event) {
