@@ -7,6 +7,7 @@ import SEO from "../components/SEO";
 import Layout from "../components/Layout";
 import { leadership, advisors } from "../data/team-members";
 import ValuesSection from "../components/team/ValuesSection";
+import TeamSection from "../components/team/TeamSection";
 
 export default ({ data }) => {
   const images = {};
@@ -18,6 +19,7 @@ export default ({ data }) => {
     <Layout>
       <SEO title="Team | Virufy" />
       <ValuesSection images={images} />
+      <TeamSection images={images}/>
     </Layout>
   );
 };
