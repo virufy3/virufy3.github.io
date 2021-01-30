@@ -4,8 +4,6 @@ import { useIntl } from "gatsby-plugin-intl";
 import { Link, graphql } from "gatsby";
 import SEO from "../components/SEO";
 import Img from "gatsby-image";
-import GatsbyBgImage from "gatsby-background-image";
-import { newsLink } from "../data/news";
 
 export const query = graphql`
   {
@@ -66,9 +64,15 @@ export default ({ data }) => {
               {intl.formatMessage({ id: "news.section2.location" })}
             </p>
 
-            <Link className="">
-              {intl.formatMessage({ id: "news.section2.readMoreLink" })}
-            </Link>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href={
+                "https://www.expreso.com.pe/actualidad/virufy-plataforma-que-permite-detectar-si-estamos-contagiados-con-covid-19/"
+              }
+            >
+              <u>{intl.formatMessage({ id: "news.section2.readMoreLink" })}</u>
+            </a>
           </div>
         </section>
 
@@ -93,9 +97,15 @@ export default ({ data }) => {
               {intl.formatMessage({ id: "news.section3.location" })}
             </p>
 
-            <Link className="">
-              {intl.formatMessage({ id: "news.section3.readMoreLink" })}
-            </Link>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href={
+                "https://oywj.org/ambassadors-in-action/2020/05/oywj-ambassador-targets-covid-19-using-ai/"
+              }
+            >
+              <u>{intl.formatMessage({ id: "news.section3.readMoreLink" })}</u>
+            </a>
           </div>
         </section>
 
@@ -119,9 +129,15 @@ export default ({ data }) => {
               {intl.formatMessage({ id: "news.section4.name" })}
             </p>
 
-            <Link className="">
-              {intl.formatMessage({ id: "news.section4.readMoreLink" })}
-            </Link>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href={
+                "https://www.oneyoungworld.com/north-american-ambassadors-frontlines-covid-19-response"
+              }
+            >
+              <u>{intl.formatMessage({ id: "news.section4.readMoreLink" })}</u>
+            </a>
           </div>
         </section>
 
@@ -145,9 +161,15 @@ export default ({ data }) => {
               {intl.formatMessage({ id: "news.section5.name" })}
             </p>
 
-            <Link className="">
-              {intl.formatMessage({ id: "news.section5.readMoreLink" })}
-            </Link>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href={
+                "https://www.oneyoungworld.com/news-item/july-2020-ambassadors-month"
+              }
+            >
+              <u>{intl.formatMessage({ id: "news.section5.readMoreLink" })}</u>
+            </a>
           </div>
         </section>
 
@@ -171,9 +193,15 @@ export default ({ data }) => {
               {intl.formatMessage({ id: "news.section6.name" })}
             </p>
 
-            <Link className="">
-              {intl.formatMessage({ id: "news.section6.readMoreLink" })}
-            </Link>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href={
+                "https://www.oneyoungworld.com/news-item/thousands-attend-oyws-global-digital-events-july-recap-what-youve-missed"
+              }
+            >
+              <u>{intl.formatMessage({ id: "news.section6.readMoreLink" })}</u>
+            </a>
           </div>
         </section>
 
@@ -197,9 +225,13 @@ export default ({ data }) => {
               {intl.formatMessage({ id: "news.section7.name" })}
             </p>
 
-            <Link className="">
-              {intl.formatMessage({ id: "news.section7.readMoreLink" })}
-            </Link>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href={"https://www.sdgscaucus.com/speakers.html"}
+            >
+              <u>{intl.formatMessage({ id: "news.section7.readMoreLink" })}</u>
+            </a>
           </div>
         </section>
 
@@ -224,9 +256,13 @@ export default ({ data }) => {
               {intl.formatMessage({ id: "news.section8.location" })}
             </p>
 
-            <Link className="">
-              {intl.formatMessage({ id: "news.section8.readMoreLink" })}
-            </Link>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href={"https://youtu.be/UZU3rPTEPfU"}
+            >
+              <u>{intl.formatMessage({ id: "news.section8.readMoreLink" })}</u>
+            </a>
           </div>
         </section>
 
@@ -250,9 +286,15 @@ export default ({ data }) => {
               {intl.formatMessage({ id: "news.section9.name" })}
             </p>
 
-            <Link className="">
-              {intl.formatMessage({ id: "news.section9.readMoreLink" })}
-            </Link>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href={
+                "https://health-sounds.cl.cam.ac.uk/workshop20/short-talks.html"
+              }
+            >
+              <u>{intl.formatMessage({ id: "news.section9.readMoreLink" })}</u>
+            </a>
           </div>
         </section>
       </div>
