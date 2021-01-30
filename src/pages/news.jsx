@@ -39,7 +39,7 @@ export default ({ data }) => {
     <Layout>
       <SEO title="News | Virufy" />
       <div className="wrapper">
-        <h2 className="mb-2 font-bold text-3xl">
+        <h2 className="mb-8 font-bold text-3xl">
           {intl.formatMessage({ id: "news.section1.header" })}
         </h2>
 
