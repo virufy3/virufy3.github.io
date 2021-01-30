@@ -12,6 +12,8 @@ export default ({ data }) => {
   // add the images to an object to use in gatsby image
   data.allFile.edges.forEach((edge) => (images[edge.node.name] = edge.node));
 
+  console.log(data);
+
   return (
     <Layout>
       <section className="px-4 lg:px-0 lg:w-4/5 lg:mx-auto">
@@ -238,9 +240,12 @@ export default ({ data }) => {
   );
 };
 
+// prettier-ignore
 export const query = graphql`
   {
-    allFile(filter: { relativeDirectory: { eq: "images/home" } }) {
+    allFile(
+      filter: { relativePath: { regex: "/images\\/home\\/.*\\.((png)|(jpg)|(jpeg))/" } }
+    ) {
       edges {
         node {
           name
@@ -254,3 +259,19 @@ export const query = graphql`
     }
   }
 `;
+// export const query = graphql`
+//   {
+//     allFile(filter: { relativeDirectory: { eq: "images/home" } }) {
+//       edges {
+//         node {
+//           name
+//           childImageSharp {
+//             fluid {
+//               ...GatsbyImageSharpFluid
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// `;
