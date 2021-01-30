@@ -18,6 +18,13 @@ module.exports = {
       },
     },
     {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "news-images",
+        path: path.join(__dirname, "src", "images", "news"),
+      },
+    },
+    {
       resolve: `gatsby-plugin-intl`,
       options: {
         path: path.join(__dirname, "src", "intl"),

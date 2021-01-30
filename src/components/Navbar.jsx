@@ -36,7 +36,12 @@ const HamburgerClose = () => (
 const navLinks = [
   { id: "nav.our_approach", defMsg: "Our Approach", path: "", styles: "mr-6" },
   { id: "nav.our_org", defMsg: "Our Org", path: "", styles: "mr-6" },
-  { id: "nav.in_the_news", defMsg: "In the News", path: "", styles: "mr-6" },
+  {
+    id: "nav.in_the_news",
+    defMsg: "In the News",
+    path: "/news",
+    styles: "mr-6",
+  },
   {
     id: "nav.get_involved",
     defMsg: "GET INVOLVED",
