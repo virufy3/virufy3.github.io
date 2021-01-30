@@ -259,19 +259,3 @@ export const query = graphql`
     }
   }
 `;
-// export const query = graphql`
-//   {
-//     allFile(filter: { relativeDirectory: { eq: "images/home" } }) {
-//       edges {
-//         node {
-//           name
-//           childImageSharp {
-//             fluid {
-//               ...GatsbyImageSharpFluid
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-// `;
