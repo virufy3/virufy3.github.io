@@ -66,10 +66,13 @@ export default () => {
   return (
     <div className="container mx-auto text-white px-6">
       <h2 className="font-heading font-bold text-xl mb-6">Get in touch!</h2>
-      <a className="block underline mb-6" href={`mailto:${informationEmail}`}>
+      <a
+        className="block underline mb-6 text-white"
+        href={`mailto:${informationEmail}`}
+      >
         {informationEmail}
       </a>
-      <a className="block underline mb-6" href="#">
+      <a className="block underline mb-6 text-white" href="#">
         {intl.formatMessage({ id: "footer.address", defaultMessage: "" })}
       </a>
       <div className="md:flex flex-initial flex-row">
@@ -91,7 +94,7 @@ export default () => {
           {footerLinks.map((footerLink, index) => (
             <>
               <a
-                className="underline text-sm"
+                className="underline text-sm text-white"
                 href={footerLink.address}
                 key={footerLink.intlId}
               >
