@@ -72,7 +72,7 @@ export default ({ data }) => {
         </h2>
       </div>
 
-      <section className="flex wrapper flex-col flex-wrap mb-10 xl:justify-center md:justify-around">
+      <section className="flex wrapper flex-col mb-10 xl:justify-center md:justify-around mb-24">
         {news.map((item) => {
           const NewsPic = images.find(({ node: { relativePath } }) => {
             return relativePath === item.imageName;
