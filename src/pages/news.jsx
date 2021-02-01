@@ -24,6 +24,12 @@ export const query = graphql`
 `;
 
 const NewsList = (props) => {
+  const {
+    section,
+    image,
+    person: { id, mediaLink },
+  } = props;
+
   const intl = useIntl();
 
   return (
@@ -33,18 +39,20 @@ const NewsList = (props) => {
       </div>
       <div className="w-1/2">
         <p className="mb-8">
-          {intl.formatMessage({ id: `news.${role}.${id}.date` })}
+          {intl.formatMessage({ id: `news.${section}.${id}.date` })}
         </p>
         <h3 className="mb-8 font-bold text-3xl">
-          {intl.formatMessage({ id: `news.${role}.${id}.title` })}
+          {intl.formatMessage({ id: `news.${section}.${id}.title` })}
         </h3>
-        <p>{intl.formatMessage({ id: `news.${role}.${id}.name` })}</p>
+        <p>{intl.formatMessage({ id: `news.${section}.${id}.name` })}</p>
         <p className="mb-8">
-          {intl.formatMessage({ id: `news.${role}.${id}.location` })}
+          {intl.formatMessage({ id: `news.${section}.${id}.location` })}
         </p>
 
         <a target="_blank" rel="noreferrer" href={mediaLink}>
-          <u>{intl.formatMessage({ id: `news.${role}.${id}.readMoreLink` })}</u>
+          <u>
+            {intl.formatMessage({ id: `news.${section}.${id}.readMoreLink` })}
+          </u>
         </a>
       </div>
     </section>
@@ -59,26 +67,27 @@ export default ({ data }) => {
     <Layout>
       <SEO title="News | Virufy" />
       <div className="wrapper my-10 md:my-20">
-        <h2 className="mb-8 font-bold text-3xl">
+        <h2 className="font-bold text-3xl">
           {intl.formatMessage({ id: "news.headers.header" })}
         </h2>
       </div>
 
-      {news.map((item) => {
-        const NewsPic = images.find(({ node: { relativePath } }) => {
-          return relativePath === item.imageName;
-        }).node.childImageSharp.fluid;
+      <section className="flex flex-col flex-wrap mb-10 xl:justify-center md:justify-around md:flex-row mb-24">
+        {news.map((item) => {
+          const NewsPic = images.find(({ node: { relativePath } }) => {
+            return relativePath === item.imageName;
+          }).node.childImageSharp.fluid;
 
-        return (
-          <NewsList
-            key={`${news}${item.id}`}
-            role="news"
-            image={NewsPic}
-            person={item}
-          />
-        );
-        // return <TeamMember key={`${leadership}${id}`} image={teamMemberPic} id={`leadership.${id}`}/>
-      })}
+          return (
+            <NewsList
+              key={`${news}${item.id}`}
+              section="news"
+              image={NewsPic}
+              person={item}
+            />
+          );
+        })}
+      </section>
     </Layout>
   );
 };
