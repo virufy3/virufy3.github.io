@@ -1,11 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby";
-import GatsbyImage from "gatsby-image";
-import GatsbyBgImage from "gatsby-background-image";
-import { useIntl } from "gatsby-plugin-intl";
 import SEO from "../components/SEO";
 import Layout from "../components/Layout";
-import { leadership, advisors } from "../data/team-members";
 import ValuesSection from "../components/team/ValuesSection";
 import TeamSection from "../components/team/TeamSection";
 import Supporters from "../components/team/Supporters";
