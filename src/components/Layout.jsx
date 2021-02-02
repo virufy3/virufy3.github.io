@@ -1,17 +1,18 @@
 import React from "react";
 import SEO from "./SEO";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
-export default ({ children }) => {
+export default ({ children, className }) => {
   return (
     <>
       <SEO />
       <header>
         <Navbar />
       </header>
-      <main>{children}</main>
-      <footer>
-        <p>footer</p>
+      <main className={className}>{children}</main>
+      <footer className="bg-secondary-100 py-16">
+        <Footer />
       </footer>
     </>
   );
