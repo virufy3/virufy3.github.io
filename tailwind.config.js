@@ -12,6 +12,7 @@ module.exports = {
           200: "#4F9186", // links
         },
         green: {
+          DEFAULT: "#00A588",
           100: "#D7E9E6", //cyan color for pg background
           200: "#F0F9F6", // light green for pg background
         },

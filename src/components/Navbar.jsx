@@ -1,11 +1,6 @@
 import React, { useState } from "react";
-// import { useIntl } from "react-intl";
-import {
-  changeLocale,
-  IntlContextConsumer,
-  useIntl,
-  Link,
-} from "gatsby-plugin-intl";
+import { changeLocale, IntlContextConsumer, useIntl } from "gatsby-plugin-intl";
+import { Link } from "gatsby";
 import virufyLogo from "../images/logos/virufy-logo.svg";
 
 // svg for opening nav
@@ -67,16 +62,25 @@ const MobileNav = ({ intl }) => {
 };
 
 const LangSelect = () => {
+  const langText = {
+    en: "Language - EN",
+    es: "Español - ES",
+    pt: "Português - PT",
+    hi: "हिन्दी - HI",
+    ja: "日本語 - JA",
+  };
   return (
     <IntlContextConsumer>
       {({ languages, language: currentLocale }) => {
         return (
           <select
-            defaultValue={currentLocale}
+            value={currentLocale}
             onChange={(event) => changeLocale(event.target.value)}
           >
             {languages.map((lang) => (
-              <option value={lang}>Language - {lang.toUpperCase()}</option>
+              <option key={lang} value={lang}>
+                {langText[lang]}
+              </option>
             ))}
           </select>
         );
