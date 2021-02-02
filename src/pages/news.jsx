@@ -1,7 +1,7 @@
 import React, { useCallback } from "react";
 import Layout from "../components/Layout";
 import { useIntl } from "gatsby-plugin-intl";
-import { Link, graphql } from "gatsby";
+import { graphql } from "gatsby";
 import SEO from "../components/SEO";
 import Img from "gatsby-image";
 import { news } from "../data/news";
@@ -41,7 +41,7 @@ const NewsList = (props) => {
         <p className="mb-8">
           {intl.formatMessage({ id: `news.${section}.${id}.date` })}
         </p>
-        <h3 className="mb-8 font-bold text-3xl">
+        <h3 className="mb-8 font-bold text-2xl">
           {intl.formatMessage({ id: `news.${section}.${id}.title` })}
         </h3>
         <p>{intl.formatMessage({ id: `news.${section}.${id}.name` })}</p>
@@ -67,12 +67,12 @@ export default ({ data }) => {
     <Layout>
       <SEO title="News | Virufy" />
       <div className="wrapper my-10 md:my-20">
-        <h2 className="font-bold text-3xl">
+        <h1 className="font-bold text-3xl">
           {intl.formatMessage({ id: "news.headers.header" })}
-        </h2>
+        </h1>
       </div>
 
-      <section className="flex wrapper flex-col mb-10 xl:justify-center md:justify-around mb-24">
+      <section className="container flex wrapper flex-col md:block">
         {news.map((item) => {
           const NewsPic = images.find(({ node: { relativePath } }) => {
             return relativePath === item.imageName;
