@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import { useIntl } from "react-intl";
 import { changeLocale, IntlContextConsumer, useIntl } from "gatsby-plugin-intl";
 import { Link } from "gatsby";
 import virufyLogo from "../images/logos/virufy-logo.svg";
@@ -34,7 +33,12 @@ const HamburgerClose = () => (
 );
 
 const navLinks = [
-  { id: "nav.our_approach", defMsg: "Our Approach", path: "", styles: "mr-6" },
+  {
+    id: "nav.our_approach",
+    defMsg: "Our Approach",
+    path: "/our-approach",
+    styles: "mr-6",
+  },
   { id: "nav.our_org", defMsg: "Our Org", path: "", styles: "mr-6" },
   {
     id: "nav.in_the_news",
@@ -54,7 +58,7 @@ const MobileNav = ({ intl }) => {
   return (
     <div className="flex flex-wrap px-4 py-4 border-t border-gray-200">
       {navLinks.map((link) => (
-        <Link className="w-1/2" to={link.path}>
+        <Link className="w-1/2 no-underline text-black" to={link.path}>
           {intl.formatMessage({ id: link.id, defaultMessage: link.defMsg })}
         </Link>
       ))}
@@ -63,14 +67,24 @@ const MobileNav = ({ intl }) => {
 };
 
 const LangSelect = () => {
+  const langText = {
+    en: "Language - EN",
+    es: "Español - ES",
+    pt: "Português - PT",
+    hi: "हिन्दी - HI",
+    ja: "日本語 - JA",
+  };
   return (
     <IntlContextConsumer>
       {({ languages, language: currentLocale }) => {
         return (
-          <select onChange={(event) => changeLocale(event.target.value)}>
+          <select
+            value={currentLocale}
+            onChange={(event) => changeLocale(event.target.value)}
+          >
             {languages.map((lang) => (
-              <option selected={currentLocale === lang} value={lang}>
-                Language - {lang.toUpperCase()}
+              <option key={lang} value={lang}>
+                {langText[lang]}
               </option>
             ))}
           </select>
@@ -100,7 +114,7 @@ export default () => {
   return (
     <nav>
       <div className="flex items-center justify-between py-3 px-6">
-        <Link to="./index.html">
+        <Link to="/">
           <img
             className="logo"
             src={virufyLogo}
@@ -116,7 +130,7 @@ export default () => {
           </span>
           {navLinks.map((link) => (
             <Link
-              className={`hidden lg:inline-block ${link.styles}`}
+              className={`hidden no-underline text-black lg:inline-block ${link.styles}`}
               to={link.path}
             >
               {intl.formatMessage({ id: link.id, defaultMessage: link.defMsg })}
