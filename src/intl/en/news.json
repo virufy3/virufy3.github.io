@@ -61,5 +61,17 @@
       "name": "One Young World",
       "readMoreLink": "Read more..."
     }
+  },
+
+  "filters": {
+    "language": {
+      "header": "Filter News by Country",
+      "l1": "Argentina",
+      "l2": "Brazil",
+      "l3": "Columbia",
+      "l4": "Japan",
+      "l5": "Mexico",
+      "l6": "Peru"
+    }
   }
 }

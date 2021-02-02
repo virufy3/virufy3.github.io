@@ -1,9 +1,9 @@
-import React, { useCallback } from "react";
+import React from "react";
 import Layout from "../components/Layout";
 import { useIntl } from "gatsby-plugin-intl";
 import { graphql } from "gatsby";
 import SEO from "../components/SEO";
-import Img from "gatsby-image";
+import GatsbyImage from "gatsby-image";
 import { news } from "../data/news";
 
 export const query = graphql`
@@ -35,7 +35,7 @@ const NewsList = (props) => {
   return (
     <section className="flex flex-col flex-wrap mb-10 xl:justify-center md:justify-around md:flex-row mb-24">
       <div className="w-1/2">
-        <Img className="w-3/5" fluid={image} />
+        <GatsbyImage className="mx-auto w-3/5" fluid={image} />
       </div>
       <div className="w-1/2">
         <p className="mb-8">
