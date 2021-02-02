@@ -33,7 +33,12 @@ const HamburgerClose = () => (
 );
 
 const navLinks = [
-  { id: "nav.our_approach", defMsg: "Our Approach", path: "", styles: "mr-6" },
+  {
+    id: "nav.our_approach",
+    defMsg: "Our Approach",
+    path: "/our-approach",
+    styles: "mr-6",
+  },
   { id: "nav.our_org", defMsg: "Our Org", path: "", styles: "mr-6" },
   { id: "nav.in_the_news", defMsg: "In the News", path: "", styles: "mr-6" },
   {
@@ -48,7 +53,7 @@ const MobileNav = ({ intl }) => {
   return (
     <div className="flex flex-wrap px-4 py-4 border-t border-gray-200">
       {navLinks.map((link) => (
-        <Link className="w-1/2" to={link.path}>
+        <Link className="w-1/2 no-underline text-black" to={link.path}>
           {intl.formatMessage({ id: link.id, defaultMessage: link.defMsg })}
         </Link>
       ))}
@@ -120,7 +125,7 @@ export default () => {
           </span>
           {navLinks.map((link) => (
             <Link
-              className={`hidden lg:inline-block ${link.styles}`}
+              className={`hidden no-underline text-black lg:inline-block ${link.styles}`}
               to={link.path}
             >
               {intl.formatMessage({ id: link.id, defaultMessage: link.defMsg })}

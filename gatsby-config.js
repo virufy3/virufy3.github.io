@@ -17,6 +17,13 @@ module.exports = {
       },
     },
     {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "our-approach-images",
+        path: path.join(__dirname, "src", "images", "our-approach"),
+      },
+    },
+    {
       resolve: `gatsby-plugin-intl`,
       options: {
         path: path.join(__dirname, "src", "intl"),

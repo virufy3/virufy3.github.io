@@ -45,7 +45,7 @@ for (lang in langFiles) {
   try {
     fs.writeFileSync(
       path.join(intlFolderPath, lang) + ".json",
-      JSON.stringify(langFiles[lang])
+      JSON.stringify(langFiles[lang], undefined, 2) + "\n"
     );
   } catch (err) {
     console.log(err);

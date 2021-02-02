@@ -9,7 +9,7 @@ module.exports = {
         primary: "#00A588", // Buttons
         secondary: {
           100: "#66B495", // Footer Background
-          200: "4F9186", // links
+          200: "#4F9186", // links
         },
         green: {
           DEFAULT: "#00A588",
@@ -18,16 +18,40 @@ module.exports = {
         },
         black: "#393939",
         filler: "rgba(172, 224, 215, 0.05)",
+        divider: {
+          100: "#8C8CA1",
+          200: "#C5C5E2",
+        },
       },
       fontFamily: {
         heading: ["'Open Sans'"],
         subHeading: ["'Source Sans Pro'"],
         body: ["'Source Sans Pro'"],
+        sans: [
+          "'Source Sans Pro'",
+          "ui-sans-serif",
+          "system-ui",
+          "-apple-system",
+          "BlinkMacSystemFont",
+          "Segoe UI",
+          "Roboto",
+          "Helvetica Neue",
+          "Arial",
+          "Noto Sans",
+          "sans-serif",
+          "Apple Color Emoji",
+          "Segoe UI Emoji",
+          "Segoe UI Symbol",
+          "Noto Color Emoji",
+        ],
       },
       inset: {
         "-12": "-3rem",
         "-16": "-4rem",
         "-20": "-5rem",
+      },
+      borderWidth: {
+        "1/2": "0.5px",
       },
       margin: {
         36: "9rem",
