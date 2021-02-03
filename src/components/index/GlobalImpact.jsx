@@ -22,7 +22,7 @@ export default ({ images }) => {
             {intl.formatMessage({ id: "index.section2.pg2" })}
           </p>
           <button className="bg-white mx-auto my-8 px-8 py-4 font-bold">
-            LEARN MORE
+            {intl.formatMessage({ id: "index.section2.learnMoreLink" })}
           </button>
         </div>
       </GatsbyBgImage>

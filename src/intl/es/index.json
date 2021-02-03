@@ -1,1 +1,28 @@
-{}
+{
+  "section1": {
+    "header": "Transformando la salud del mundo un clic a la vez",
+    "pg": "Virufy es una organización dirigida por voluntarios que utiliza la inteligencia artificial (IA) para <span class=\"font-bold\">diagnosticar COVID-19</span>  a partir de patrones de tos, <span class=\"font-bold\"> rápidamente</span> y <span className=\"bold\">sin costo</span> alguno mediante el uso de un smartphone",
+    "coughLink": "CONTRIBUYE CON TU TOS",
+    "donateLink": "DONA"
+  },
+  "section2": {
+    "header": "Nuestro impacto global",
+    "pg1": "Virufy está cambiando la forma en que se experimenta la atención médica,empoderando a las personas mediante la detección de enfermedades rápida y gratuita.",
+    "pg2": "No importa en qué parte del mundo te encuentres, todo lo que necesitas es un dispositivo móvil y la aplicación Virufy.",
+    "learnMoreLink": "APRENDE MAS"
+  },
+  "section3": {
+    "howItWorks": "COMO FUNCIONA",
+    "header1": "Graba tu tos",
+    "header2": "La IA analiza tu firma respiratoria",
+    "header3": "Se detectan los rastros de COVID 19",
+    "tryItOutLink": "PRUÉBALO"
+  },
+  "section4": {
+    "header": "Nuestra historia",
+    "pg1": "En marzo de 2020, fuimos pioneros en una aplicación móvil impulsada por IA para detectar COVID-19.",
+    "pg2": "Ahora, los Virufighters de los cinco continentes están comprometidos a hacer que la detección de enfermedades sea instantánea y gratuita mediante la innovación tecnológica.",
+    "knowUsLink": "CONÓZCANOS",
+    "header2": "Estamos apoyados por"
+  }
+}
