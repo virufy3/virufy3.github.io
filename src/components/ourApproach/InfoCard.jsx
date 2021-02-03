@@ -18,11 +18,11 @@ function InfoCard({ sourceNum, title, description, source, icon }) {
   return (
     <>
       <button
-        className="bg-white p-3 flex flex-col rounded text-black text-left cursor-pointer transition-shadow hover:shadow-xl"
+        className="bg-white p-3 flex flex-col rounded text-left cursor-pointer transition-shadow hover:shadow-xl"
         onClick={handleClick}
         ref={triggerRef}
       >
-        <h5 className="font-heading">{`${title} [${sourceNum}]`}</h5>
+        <h5>{`${title} [${sourceNum}]`}</h5>
         <div className="flex-grow flex flex-col justify-center w-full">
           <div className="py-4 xl:py-8">
             <Img

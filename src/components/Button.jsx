@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby-plugin-intl";
 
 const tailwindClasses =
-  "text-white bg-primary text-xs font-bold py-3 px-7 uppercase no-underline";
+  "inline-block text-white bg-primary text-xs font-bold py-3 px-7 uppercase no-underline";
 
 export function ButtonLink({ children, ...props }) {
   return (

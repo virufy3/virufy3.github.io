@@ -10,6 +10,8 @@ module.exports = {
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
     "gatsby-plugin-react-helmet",
+    "gatsby-plugin-breakpoints",
+    "gatsby-background-image",
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -21,7 +23,14 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "our-approach-images",
-        path: path.join(__dirname, "src", "images", "our-approach"),
+        path: path.join(__dirname, "src", "images", "our-approach-page"),
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "get-involved-images",
+        path: path.join(__dirname, "src", "images", "get-involved-page"),
       },
     },
     {

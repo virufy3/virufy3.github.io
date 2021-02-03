@@ -49,7 +49,7 @@ const navLinks = [
   {
     id: "nav.get_involved",
     defMsg: "GET INVOLVED",
-    path: "",
+    path: "/get-involved",
     styles: "text-white bg-primary py-2 px-6",
   },
 ];
