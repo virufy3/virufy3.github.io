@@ -1,4 +1,14 @@
 {
+  "footer": {
+    "getInTouch": "Ponte tn contacto",
+    "cookiePolicy": "Política de cookies",
+    "cookieSettings": "Configuración de las cookies",
+    "privacyPolicy": "Política de privacidad",
+    "dontSellPersonalInfo": "Do Not Sell My Personal Information",
+    "copyrightInformation": "© Derechos de autor 2021 Virufy  |  Todos los derechos resrvados.",
+    "email": "info@virufy.org",
+    "address": "4546 El Camino Real B10 #614, Los Altos, California 94022, USA"
+  },
   "index": {
     "section1": {
       "header": "Transformando la salud del mundo un clic a la vez",
