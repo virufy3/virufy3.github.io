@@ -40,7 +40,12 @@ const navLinks = [
     styles: "mr-6",
   },
   { id: "nav.our_org", defMsg: "Our Org", path: "", styles: "mr-6" },
-  { id: "nav.in_the_news", defMsg: "In the News", path: "", styles: "mr-6" },
+  {
+    id: "nav.in_the_news",
+    defMsg: "In the News",
+    path: "",
+    styles: "mr-6",
+  },
   {
     id: "nav.get_involved",
     defMsg: "GET INVOLVED",
@@ -125,7 +130,13 @@ export default () => {
           </span>
           {navLinks.map((link) => (
             <Link
-              className={`hidden no-underline text-black lg:inline-block ${link.styles}`}
+              className={`hidden no-underline text-black lg:inline-block ${
+                link.styles
+              } ${
+                link.path &&
+                window.location.href.includes(link.path) &&
+                "font-bold border-b-4 border-green"
+              }`}
               to={link.path}
             >
               {intl.formatMessage({ id: link.id, defaultMessage: link.defMsg })}
