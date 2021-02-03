@@ -1,6 +1,5 @@
 import React from "react";
 import Layout from "../components/Layout";
-import { useIntl } from "gatsby-plugin-intl";
 import { graphql } from "gatsby";
 import CoughSection from "../components/index/ContributeCough";
 import GlobalImpact from "../components/index/GlobalImpact";
