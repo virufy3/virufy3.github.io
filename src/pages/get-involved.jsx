@@ -25,6 +25,45 @@ export const query = graphql`
   }
 `;
 
+function NextStep({ id, findImage, className }) {
+  const intl = useIntl();
+
+  const idMap = {
+    contribute: "getInTouchLink",
+    join: "viewAvailableRolesLink",
+  };
+  const href = idMap[id];
+
+  return (
+    <div className={`flex-1 ${className}`}>
+      <div className="flex mb-9">
+        <Img className="w-20 mr-7" fluid={findImage(`${id}-person-1`)} />
+        <Img className="w-20" fluid={findImage(`${id}-person-2`)} />
+      </div>
+      <h2 className="mb-4">
+        {intl.formatMessage({
+          id: `getInvolved.nextSteps.${id}.title`,
+        })}
+      </h2>
+      <p className="max-w-md mb-6">
+        {intl.formatMessage({
+          id: `getInvolved.nextSteps.${id}.details`,
+        })}
+      </p>
+      <p>
+        {intl.formatMessage({
+          id: `getInvolved.nextSteps.${id}.question`,
+        })}
+      </p>
+      <a href={href} className="text-white">
+        {intl.formatMessage({
+          id: `getInvolved.nextSteps.${id}.linkText`,
+        })}
+      </a>
+    </div>
+  );
+}
+
 export default ({ data }) => {
   const images = data.allFile.edges;
   const intl = useIntl();
@@ -137,6 +176,14 @@ export default ({ data }) => {
               })}
             </a>
           </sub>
+        </div>
+      </div>
+
+      {/* Join Team */}
+      <div className="bg-black text-white">
+        <div className="container lg:flex">
+          <NextStep id="contribute" findImage={findImage} />
+          <NextStep className="mt-20 lg:mt-0" id="join" findImage={findImage} />
         </div>
       </div>
     </Layout>

@@ -1,7 +1,7 @@
 export default {
   donateLink: "#",
   getTheAppLink: "#",
-  getInTouchLink: "#",
   learnMoreDisclaimerLink: "#",
+  getInTouchLink: "#",
   viewAvailableRolesLink: "#",
 };
