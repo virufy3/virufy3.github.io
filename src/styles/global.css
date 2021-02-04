@@ -46,7 +46,11 @@ h3 {
 }
 
 .container {
-  @apply px-6 py-20 mx-auto max-w-screen-xl;
+  @apply px-6 py-20 lg:py-24 mx-auto max-w-screen-xl;
+}
+
+.container-short {
+  @apply px-6 mx-auto max-w-screen-xl;
 }
 
 .logo {

@@ -46,12 +46,12 @@ export default ({ data }) => {
         <div className="flex-1">
           <h1 className="text-3xl md:text-5xl tracking-tight pb-9">
             {intl.formatMessage({
-              id: `getInvolved.topFold.joinTitle`,
+              id: "getInvolved.topFold.joinTitle",
             })}
           </h1>
           <p className="whitespace-pre-line md:text-xl">
             {intl.formatMessage({
-              id: `getInvolved.topFold.details`,
+              id: "getInvolved.topFold.details",
             })}
           </p>
         </div>
@@ -80,24 +80,65 @@ export default ({ data }) => {
           <div className="lg:w-1/3 flex-shrink-0 lg:mr-12">
             <h1 className="tracking-tight pb-9">
               {intl.formatMessage({
-                id: `getInvolved.donate.title`,
+                id: "getInvolved.donate.title",
               })}
             </h1>
           </div>
           <div className="flex-1">
             <p className="whitespace-pre-line md:text-xl">
               {intl.formatMessage({
-                id: `getInvolved.donate.details`,
+                id: "getInvolved.donate.details",
               })}
             </p>
-            <ButtonLink className="mt-24 mb-16" to={links.donateLink}>
+            <ButtonLink className="mt-24 lg:mb-16" to={links.donateLink}>
               {intl.formatMessage({
-                id: `getInvolved.donate.donateButton`,
+                id: "getInvolved.donate.donateButton",
               })}
             </ButtonLink>
           </div>
         </div>
       </BackgroundImage>
+
+      {/* Share Cough */}
+      <div className="bg-green-100">
+        <div className="container-short py-12 md:py-20 text-center">
+          <h1>
+            {intl.formatMessage({
+              id: "getInvolved.shareCough.title",
+            })}
+          </h1>
+          <p className="whitespace-pre-line mt-4">
+            {intl.formatMessage({
+              id: "getInvolved.shareCough.details",
+            })}
+          </p>
+        </div>
+        <BackgroundImage
+          className="md:mx-8 py-12 md:py-16 text-center"
+          fluid={findImage("cough-artwork")}
+          style={{
+            backgroundSize: breakpoints.sm ? "cover" : "contain",
+          }}
+        >
+          <ButtonLink to={links.getTheAppLink} style="secondary">
+            {intl.formatMessage({
+              id: "getInvolved.shareCough.getTheApp",
+            })}
+          </ButtonLink>
+        </BackgroundImage>
+        <div className="container-short py-8">
+          <sub>
+            {intl.formatMessage({
+              id: "getInvolved.shareCough.irbDisclaimer",
+            }) + " "}
+            <a href={links.learnMoreDisclaimerLink} className="text-black">
+              {intl.formatMessage({
+                id: "getInvolved.shareCough.learnMoreLink",
+              })}
+            </a>
+          </sub>
+        </div>
+      </div>
     </Layout>
   );
 };

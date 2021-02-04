@@ -2,19 +2,28 @@ import React from "react";
 import { Link } from "gatsby-plugin-intl";
 
 const tailwindClasses =
-  "inline-block text-white bg-primary text-xs font-bold py-3 px-7 uppercase no-underline";
+  "inline-block text-xs font-bold py-3 px-7 uppercase no-underline";
 
-export function ButtonLink({ children, ...props }) {
+const styles = {
+  primary: "text-white bg-primary",
+  secondary: "text-black bg-white",
+};
+
+function generateClassName(classNameProp, style = "primary") {
+  return `${tailwindClasses} ${styles[style]} ${classNameProp}`;
+}
+
+export function ButtonLink({ children, style, ...props }) {
   return (
-    <Link {...props} className={`${tailwindClasses} ${props.className}`}>
+    <Link {...props} className={generateClassName(props.className, style)}>
       {children}
     </Link>
   );
 }
 
-export default ({ children, ...props }) => {
+export default ({ children, style, ...props }) => {
   return (
-    <button {...props} className={`${tailwindClasses} ${props.className}`}>
+    <button {...props} className={generateClassName(props.className, style)}>
       {children}
     </button>
   );
