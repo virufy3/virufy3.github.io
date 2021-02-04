@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Layout from "../components/Layout";
 import { useIntl } from "gatsby-plugin-intl";
 import { graphql } from "gatsby";
@@ -8,10 +8,11 @@ import { news } from "../data/news";
 
 export const query = graphql`
   {
-    allFile(filter: { sourceInstanceName: { eq: "news-images" } }) {
+    allFile(filter: { relativeDirectory: { eq: "images/news" } }) {
       edges {
         node {
           relativePath
+          name
           childImageSharp {
             fluid {
               ...GatsbyImageSharpFluid
@@ -33,7 +34,7 @@ const NewsList = (props) => {
   const intl = useIntl();
 
   return (
-    <section className="flex flex-col flex-wrap mb-10 xl:justify-center md:justify-around md:flex-row mb-24">
+    <section className="flex flex-col flex-wrap mb-10 xl:justify-center md:justify-around md:flex-row">
       <div className="w-1/2">
         <GatsbyImage className="mx-auto w-3/5" fluid={image} />
       </div>
@@ -59,9 +60,35 @@ const NewsList = (props) => {
   );
 };
 
+const CountrySelect = (props) => {
+  const countryText = [
+    "Argentina ",
+    "Brazil",
+    "Columbia",
+    "Japan",
+    "Mexico",
+    "Peru",
+  ];
+
+  return (
+    <select
+      value={props.country}
+      onChange={(event) => props.setCountry(event.target.value)}
+    >
+      {countryText.map((country) => (
+        <option key={country} value={country}>
+          {country}
+        </option>
+      ))}
+    </select>
+  );
+};
+
 export default ({ data }) => {
   const images = data.allFile.edges;
   const intl = useIntl();
+
+  const [country, setCountry] = useState("");
 
   return (
     <Layout>
@@ -72,10 +99,16 @@ export default ({ data }) => {
         </h1>
       </div>
 
+      <div className="flex items-center justify-between md:py-4">
+        <span className="mr-2 lg:mr-5">
+          <CountrySelect setCountry={setCountry} country={country} />
+        </span>
+      </div>
+
       <section className="container flex wrapper flex-col md:block">
         {news.map((item) => {
-          const NewsPic = images.find(({ node: { relativePath } }) => {
-            return relativePath === item.imageName;
+          const NewsPic = images.find(({ node: { name } }) => {
+            return name === item.imageName;
           }).node.childImageSharp.fluid;
 
           return (
