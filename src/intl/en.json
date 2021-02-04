@@ -57,67 +57,65 @@
         "date": "October 2020",
         "title": "VIRUFY: plataforma que permite detectar si estamos contagiados con COVID-19",
         "name": "Expreso",
-        "location": "Lima, Peru",
+        "city": "Lima, ",
+        "country": "Peru",
         "readMoreLink": "Read more..."
       },
       "section3": {
         "date": "May 2020",
         "title": "One Young World Japan Ambassador Targets COVID-19 Using A.I.",
         "name": "One Young World",
-        "location": "Tokyo Japan",
+        "city": "Tokyo, ",
+        "country": "Japan",
         "readMoreLink": "Read more..."
       },
       "section4": {
         "date": "2020",
         "title": "North American Ambassadors on the Frontlines of the COVID-19 Response",
         "name": "One Young World",
-        "location": " ",
+        "city": " ",
+        "country": " ",
         "readMoreLink": "Read more..."
       },
       "section5": {
         "date": "July 2020",
         "title": "Ambassadors of the Month July",
         "name": "One Young World",
-        "location": " ",
+        "city": " ",
+        "country": " ",
         "readMoreLink": "Read more..."
       },
       "section6": {
         "date": "July 2020",
         "title": "Thousands attend OYW's global digital events in July: A recap of what you've missed",
         "name": "One Young World",
-        "location": " ",
+        "city": " ",
+        "country": " ",
         "readMoreLink": "Read more..."
       },
       "section7": {
         "date": "2020",
         "title": "One Young World Tokyo 2020 Caucus",
         "name": "One Young World",
-        "location": " ",
+        "city": " ",
+        "country": " ",
         "readMoreLink": "Read more..."
       },
       "section8": {
         "date": "2020",
         "title": "Virufy Presentation to One Young World Tokyo 2020 Cacus",
         "name": "One Young World",
-        "location": "Tokyo, Japan",
+        "city": "Tokyo, ",
+        "country": "Japan",
         "readMoreLink": "Read more..."
       },
       "section9": {
         "date": "2020",
         "title": "Sounds of COVID-19 Workshop",
         "name": "One Young World",
+        "city": " ",
+        "country": " ",
         "readMoreLink": "Read more..."
-      }
-    },
-    "filters": {
-      "language": {
-        "header": "Filter News by Country",
-        "l1": "Argentina",
-        "l2": "Brazil",
-        "l3": "Columbia",
-        "l4": "Japan",
-        "l5": "Mexico",
-        "l6": "Peru"
       }
     }
   },

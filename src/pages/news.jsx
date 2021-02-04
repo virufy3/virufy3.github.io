@@ -34,11 +34,11 @@ const NewsList = (props) => {
   const intl = useIntl();
 
   return (
-    <section className="flex flex-col flex-wrap mb-10 xl:justify-center md:justify-around md:flex-row">
-      <div className="w-1/2">
-        <GatsbyImage className="mx-auto w-3/5" fluid={image} />
+    <section className="container lg:flex">
+      <div className="lg:w-2/5">
+        <GatsbyImage className="mx-auto w-1\/2" fluid={image} />
       </div>
-      <div className="w-1/2">
+      <div className="wrapper lg:w-2/3">
         <p className="mb-8">
           {intl.formatMessage({ id: `news.${section}.${id}.date` })}
         </p>
@@ -47,10 +47,16 @@ const NewsList = (props) => {
         </h3>
         <p>{intl.formatMessage({ id: `news.${section}.${id}.name` })}</p>
         <p className="mb-8">
-          {intl.formatMessage({ id: `news.${section}.${id}.location` })}
+          {intl.formatMessage({ id: `news.${section}.${id}.city` })}
+          {intl.formatMessage({ id: `news.${section}.${id}.country` })}
         </p>
 
-        <a target="_blank" rel="noreferrer" href={mediaLink}>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href={mediaLink}
+          className="text-black"
+        >
           <u>
             {intl.formatMessage({ id: `news.${section}.${id}.readMoreLink` })}
           </u>
@@ -70,17 +76,27 @@ const CountrySelect = (props) => {
     "Peru",
   ];
 
+  const onSelectChange = (event) => {
+    event.preventDefault();
+    props.setCountry(event.target.value);
+  };
   return (
-    <select
-      value={props.country}
-      onChange={(event) => props.setCountry(event.target.value)}
-    >
-      {countryText.map((country) => (
-        <option key={country} value={country}>
-          {country}
+    <>
+      <select onChange={onSelectChange}>
+        <option selected disabled className="hidden">
+          Filter News by Country
         </option>
-      ))}
-    </select>
+
+        {countryText.map((country) => (
+          <option key={country} value={country}>
+            {country}
+          </option>
+        ))}
+      </select>
+      {props.country && (
+        <button onClick={() => props.setCountry("")}>{props.country}</button>
+      )}
+    </>
   );
 };
 
@@ -93,19 +109,16 @@ export default ({ data }) => {
   return (
     <Layout>
       <SEO title="News | Virufy" />
-      <div className="wrapper my-10 md:my-20">
-        <h1 className="font-bold text-3xl">
+      <div className="wrapper lg:flex items-center justify-between md:py-4">
+        <h1 classNmae="font-bold text-4xl">
           {intl.formatMessage({ id: "news.headers.header" })}
         </h1>
-      </div>
-
-      <div className="flex items-center justify-between md:py-4">
-        <span className="mr-2 lg:mr-5">
+        <span>
           <CountrySelect setCountry={setCountry} country={country} />
         </span>
       </div>
 
-      <section className="container flex wrapper flex-col md:block">
+      <section>
         {news.map((item) => {
           const NewsPic = images.find(({ node: { name } }) => {
             return name === item.imageName;
