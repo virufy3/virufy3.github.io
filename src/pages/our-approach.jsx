@@ -13,7 +13,7 @@ import faqCategories from "../data/our-approach/faq";
 
 export const query = graphql`
   {
-    allFile(filter: { relativeDirectory: { eq: "images/our-approach" } }) {
+    allFile(filter: { relativeDirectory: { eq: "images/our-approach-page" } }) {
       edges {
         node {
           relativePath
@@ -34,7 +34,7 @@ export default ({ data }) => {
   const intl = useIntl();
 
   const findImage = useCallback(
-    (imageName, ext = ".png") => {
+    (imageName) => {
       return images.find(({ node: { name } }) => {
         return name === imageName;
       }).node.childImageSharp.fluid;

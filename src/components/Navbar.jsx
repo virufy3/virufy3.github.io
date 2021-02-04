@@ -119,7 +119,7 @@ export default () => {
             })}
           />
         </Link>
-        <div className="flex items-center justify-between md:py-4">
+        <div className="flex items-center justify-between md:py-4 text-base">
           <span className="mr-2 lg:mr-5">
             <LangSelect />
           </span>

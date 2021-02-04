@@ -10,10 +10,11 @@ import links from "../data/get-involved/links";
 
 export const query = graphql`
   {
-    allFile(filter: { sourceInstanceName: { eq: "get-involved-images" } }) {
+    allFile(filter: { relativeDirectory: { eq: "images/get-involved-page" } }) {
       edges {
         node {
           relativePath
+          name
           childImageSharp {
             fluid(quality: 90, maxWidth: 2000) {
               ...GatsbyImageSharpFluid
@@ -70,10 +71,14 @@ export default ({ data }) => {
   const breakpoints = useBreakpoint();
 
   const findImage = useCallback(
-    (imageName, ext = ".png") => {
-      return images.find(({ node: { relativePath } }) => {
-        return relativePath === `${imageName}${ext}`;
-      }).node.childImageSharp.fluid;
+    (imageName) => {
+      const result = images.find(({ node: { name } }) => {
+        return name === imageName;
+      });
+
+      if (!result) throw new Error(`Could not find image named: ${imageName}`);
+
+      return result.node.childImageSharp.fluid;
     },
     [images]
   );
@@ -146,7 +151,7 @@ export default ({ data }) => {
               id: "getInvolved.shareCough.title",
             })}
           </h1>
-          <p className="whitespace-pre-line mt-4">
+          <p className="whitespace-pre-line mt-4 md:text-xl">
             {intl.formatMessage({
               id: "getInvolved.shareCough.details",
             })}
