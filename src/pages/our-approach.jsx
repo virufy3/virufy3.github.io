@@ -13,7 +13,7 @@ import faqCategories from "../data/our-approach/faq";
 
 export const query = graphql`
   {
-    allFile(filter: { relativeDirectory: { eq: "images/our-approach" } }) {
+    allFile(filter: { relativeDirectory: { eq: "images/our-approach-page" } }) {
       edges {
         node {
           relativePath
@@ -34,7 +34,7 @@ export default ({ data }) => {
   const intl = useIntl();
 
   const findImage = useCallback(
-    (imageName, ext = ".png") => {
+    (imageName) => {
       return images.find(({ node: { name } }) => {
         return name === imageName;
       }).node.childImageSharp.fluid;
@@ -43,14 +43,14 @@ export default ({ data }) => {
   );
 
   return (
-    <Layout className="bg-green-100 text-black">
+    <Layout className="bg-green-100">
       {/* Top fold */}
       <div className="container md:flex">
         <h1 className="flex-1 pb-10 md:pb-0 pr-6">
           {intl.formatMessage({ id: `ourApproach.topFold.diagnoseDisease` })}
         </h1>
         <div className="flex-1">
-          <h2 className="text-xl font-heading font-bold pb-3">
+          <h2 className="text-xl pb-3">
             {intl.formatMessage({
               id: `ourApproach.topFold.acrossNations`,
             })}

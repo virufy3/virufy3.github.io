@@ -5,6 +5,40 @@
 @tailwind utilities;
 
 /******
+ Global
+ ******/
+
+html,
+body {
+  @apply text-black md:text-lg;
+}
+
+a {
+  @apply underline text-secondary-200;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-bold font-heading;
+}
+
+h1 {
+  @apply text-3xl;
+}
+
+h2 {
+  @apply text-2xl;
+}
+
+h3 {
+  @apply text-xl;
+}
+
+/******
  Generics
  ******/
 .wrapper {
@@ -12,7 +46,11 @@
 }
 
 .container {
-  @apply px-6 py-20 mx-auto max-w-screen-xl;
+  @apply px-6 py-20 lg:py-24 mx-auto max-w-screen-xl;
+}
+
+.container-short {
+  @apply px-6 mx-auto max-w-screen-xl;
 }
 
 .logo {
@@ -46,29 +84,4 @@
 
 .footer {
   @apply px-6 py-10 text-white md:px-8 md:py-12 bg-secondary-100 3xl:px-0;
-}
-
-a {
-  @apply underline text-secondary-200;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  @apply font-bold;
-}
-
-h1 {
-  @apply text-3xl;
-}
-
-h2 {
-  @apply text-2xl;
-}
-
-h3 {
-  @apply text-xl;
 }
