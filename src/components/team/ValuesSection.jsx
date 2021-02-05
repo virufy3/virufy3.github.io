@@ -13,7 +13,7 @@ export default ({ images }) => {
   return (
     <section className="bg-black text-white px-20 py-12">
       <div className="flex justify-between">
-        <div className="flex flex-col items-baseline">
+        <div className="flex flex-col items-baseline w-1/2">
           <h2 className="mb-8 text-2xl font-bold">
             {intl.formatMessage({ id: "team.valuesSection.vision.header" })}
           </h2>
