@@ -48,20 +48,169 @@
     "donateCough": "Dona tu tos"
   },
   "team": {
-    "headers": {
-      "leadership": "Liderazgo",
-      "advisors": "Asesoría"
+    "supportersSection": {
+      "header": "Nuestros patrocinadores",
+      "supporterText": "Virufy es un proyecto del<a target=\"_blank\" rel=\"noreferrer\" href=\"\" class=\"underline\"/>SLaboratorio de Innovación de Respuesta COVID-19 de Stanford</a> y también aparece en a target=\"_blank\" rel=\"noreferrer\" href=\"\" class=\"underline\"/>One Young World</a>"
     },
-    "leadership": {
-      "amil": {
-        "name": "Amil Khanzada",
-        "description": "Embajador de paz One Young World Ex-alumno, UC Berkeley Ciencias de la computacion",
-        "title": "Fundador y CTO"
+    "teamSection": {
+      "header": "Nuestra Organización",
+      "pg1": "Conoce a las docenas de personas que se ofrecen como voluntarias en los cinco continentes para llevar Virufy al mundo.",
+      "teamLeadText": "Lider del equipo de Virufighters",
+      "advisorText": "Asesoría",
+      "leadership": {
+        "amil": {
+          "name": "Amil Khanzada",
+          "description": "Embajador de paz One Young World\nEx-alumno, UC Berkeley Computer Science",
+          "title": "Founder & CTO"
+        },
+        "daria": {
+          "name": "Daria Butuc",
+          "description": "Jefe de Ingeniería, Acceso al Proyecto\nB.S., University College London",
+          "title": "Vice Presidente"
+        },
+        "ravel": {
+          "name": "Ravel Charles",
+          "description": "Ingeniero de solucciones en la nube, Google\nM.P.S. Seguridad de datos, Northeastern University",
+          "title": "Lider del Equipo Infosec"
+        },
+        "matheus": {
+          "name": "Matheus Galiza",
+          "description": "Public Policy Committee\nJovenes Iberoamericanos\nM.A. International Relations, Federal University of Paraíba",
+          "title": "Lider de Alcance Comunitario Brasil"
+        },
+        "bruna": {
+          "name": "Bruna Lourenço",
+          "description": "UX/UI Designer, ThinkBox\nDiseño Gráfico, Instituto Federal de Educación, Ciencia y Tecnología de Paraíba",
+          "title": "Lider del Equipo de la interfaz"
+        },
+        "jonatan": {
+          "name": "Jonatan Jaskilioff",
+          "description": "CTO - XOOR",
+          "title": "Líder del Equipo de Aplicaciones Móviles"
+        },
+        "marcos": {
+          "name": "Marcos Deza",
+          "description": "One Young World Embajador de Argentina\nM.A. Public Relations, Ott Educación Superior",
+          "title": "Lider del Equipo de Comunicaciones Digitales de Lation América"
+        },
+        "xhoana": {
+          "name": "Xhoana Koca",
+          "description": "Desarrollo del al APP y sitio web\nB.S., CUNY NYC College of Technology",
+          "title": "Equipo lider del desarrolo web"
+        },
+        "gunvant": {
+          "name": "Gunvant Chaudhari",
+          "description": "Investigador de big data en radiología\nEstudiante de doctorado, UC San Francisco",
+          "title": "Lider del equipo de la IA"
+        },
+        "jason": {
+          "name": "Jason Pareja Jauregui",
+          "description": "Coordinador de embajadores One Young World Latinoamerica\nGraduate, MIT Sloan School of Management",
+          "title": "Lider de Alcance Comunitario Peru"
+        },
+        "maria": {
+          "name": "Maria Eleni Pasia",
+          "description": "Abogado calificado, Colegio de Abogados de Atenas\nLL.M Media & Technology Law, UCLA",
+          "title": "Líder del equipo de Privacidad de Datos"
+        },
+        "sebastian": {
+          "name": "Sebastian Pedraza",
+          "description": "One Young World Colombia Ambassador\nYPARD Steering Committee Member\nPolitical Science, International University of La Rioja",
+          "title": "Lider de Alcance Comunitario Colombia"
+        },
+        "holly": {
+          "name": "Holly Boerner",
+          "description": "Visual & Brand Strategy\nHolly Boerner Design",
+          "title": "Lider del Equipo de Interfaz Web"
+        }
       },
-      "gunvant": {
-        "name": "Gunvant Chaudhari",
-        "description": "Investigador de Big Data en Radiología\nEstudiante de Medicina, UC San Francisco",
-        "title": "Líder del equipo de Inteligencia Artificial"
+      "advisors": {
+        "kara": {
+          "name": "Kara Meister, M.D.",
+          "description": "Profesor asistente clínico, Otolaryngology\nStanford School of Medicine",
+          "title": "Asesora Medica"
+        },
+        "jure": {
+          "name": "Jure Leskovec",
+          "description": "Jefe Científico - Pinterest\nProfesor Asociado de IA,\nStanford School of Engineering",
+          "title": "Asesor de Inteligencia Artificial"
+        },
+        "rafi": {
+          "name": "Rafi Azim-Khan",
+          "description": "Socio - Pillsbury Law\nSilicon Valley & Europe",
+          "title": "Asesor Jurídico Ejecutivo"
+        },
+        "nathan": {
+          "name": "Nathan Thomas",
+          "description": "One Young World Ambassador\nFounder and CEO - All We Are",
+          "title": "Asesor Ejecutivo"
+        },
+        "madhav": {
+          "name": "Madhav Datt",
+          "description": "Fundador - Green the Gene\nFAntiguo Representante global por la juventud - UN EP",
+          "title": "Asesor Ejecutivo"
+        },
+        "pedro": {
+          "name": "Pedro Siena",
+          "description": "Fundador y CEO - Siena Company\nMentor - Stanford Lean Launchpad\nSão Carlos, Brazil",
+          "title": "Asesor de Divulgación de Brasil"
+        },
+        "tsutomu": {
+          "name": "Tsutomu Ito",
+          "description": "Fundador - Tannan FM Radio\nLead Architect, Bullet Train\nFukui, Japan",
+          "title": "Asesor Visionario"
+        },
+        "taisuke": {
+          "name": "Taisuke Fukuno",
+          "description": "Fundador - Open Data Japan\nChairman - jig.jp\nFukui, Japan",
+          "title": "Asesor Ejecutivo Tecnológico"
+        },
+        "richard": {
+          "name": "Richard Nall",
+          "description": "The Brand Garden - CEO",
+          "title": "Director de Marketing"
+        }
+      }
+    },
+    "valuesSection": {
+      "less": "Menos",
+      "more": "Mas",
+      "vision": {
+        "header": "Virufy's vision",
+        "pg1": "Aspiramos a ser la organización sin fines de lucro líder en la identificación de enfermedades con tecnología.",
+        "pg2": "Nuestras innovaciones tienen como objetivo ofrecer una detección superior para pacientes, médicos y gobiernos.",
+        "pg3": "Seremos la fuerza para transformar la atención médica global e inspirar apoyo e inversión en esta misión."
+      },
+      "values": {
+        "transform": {
+          "header": "Transformación",
+          "pg": "Los sistemas sanitarios son caros y resistentes al cambio, pero con la tecnología podemos impulsar la transformación a nivel mundial"
+        },
+        "world": {
+          "header": "El mundo",
+          "pg": "Existimos para todos sin importar el transfondo social. Reconocemos que la necesidad más urgente se encuentra en los mercados emergentes, pero que la atención médica puede ser inaccesible para las poblaciones vulnerables incluso en los mercados desarrollados"
+        },
+        "free": {
+          "header": "Gratis",
+          "pg": "Para muchos, la atención médica no es asequible. No vemos ninguna razón por la que la gente deba pagar por una prevención y detección costosas cuando puede ser gratis con la ayuda de la tecnología"
+        },
+        "health": {
+          "header": "La salud",
+          "pg": "La salud de las personas es lo más preciado del mundo. De la salud viene la felicidad, junto con el éxito social y económico"
+        },
+        "oneTap": {
+          "header": "Un toque",
+          "pg": "Nuestro único objetivo es utilizar la tecnología para mejorar la salud de las personas, eso es todo lo que hacemos. Nuestras aplicaciones son sofisticadas pero intuitivas y brindan una detección rápida para prevenir la propagación de virus y salvar vidas"
+        },
+        "mobile": {
+          "header": "Móvil",
+          "pg": "Los dispositivos móviles se han vuelto omnipresentes en los mercados en desarrollo. Aprovecharemos esta presencia para expandir el acceso a la atención médica"
+        },
+        "header": "Nuestros valores"
+      },
+      "section4": {
+        "header": "Nuestros patrocinadores",
+        "pg1": "Virufy es un proyecto del Laboratorio de Innovación de Respuesta COVID-19 de Stanford y también aparece en One Young World"
       }
     }
   }
