@@ -1,0 +1,140 @@
+{
+  "footer": {
+    "getInTouch": "Entre em contato!",
+    "cookiePolicy": "Política de Cookies",
+    "cookieSettings": "Definições de cookies",
+    "privacyPolicy": "Política de Privacidade",
+    "dontSellPersonalInfo": "Do Not Sell My Personal Information",
+    "copyrightInformation": "©2021 Virufy  |  VIRUFY is a trademark of The Covid Detection Foundation   |  Todos os direitos reservados.",
+    "email": "info@virufy.org",
+    "address": "4546 El Camino Real B10 #614, Los Altos, California 94022, USA"
+  },
+  "index": {
+    "section1": {
+      "header": "Transformando a saúde global um clique de cada vez",
+      "pg": "O Virufy é uma organização guiada por voluntários que utiliza Inteligência Artificial (IA) para <span class=\"font-bold\">diagnosticar COVID-19</span> através de padrões de tosse, <span class=\"font-bold\"> rapidamente</span> e <span className=\"bold\">sem custos</span> através de um smartphone.",
+      "coughLink": "CONTRIBUA COM SUA TOSSE",
+      "donateLink": "DOE"
+    },
+    "section2": {
+      "header": "Nosso impacto global",
+      "pg1": "Virufy está mudando a forma como a saúde é experimentada, capacitando as pessoas por meio da detecção rápida e gratuita de doenças.",
+      "pg2": "Não importa onde você esteja no mundo, tudo o que você precisa é de um dispositivo móvel e do aplicativo Virufy.",
+      "learnMoreLink": "APRENDA MAIS"
+    },
+    "section3": {
+      "howItWorks": "COMO FUNCIONA",
+      "header1": "Você grava a sua tosse",
+      "header2": "A IA analisa a assinatura respiratória",
+      "header3": "A assinatura de COVID-19 é detectada",
+      "tryItOutLink": "EXPERIMENTE"
+    },
+    "section4": {
+      "header": "Nossa história",
+      "pg1": "Em março de 2020, fomos pioneiros em um aplicativo móvel com tecnologia de IA para detectar COVID-19.",
+      "pg2": "Agora, Virufighters de cinco continentes estão empenhados em tornar a detecção de doenças instantânea e gratuita por meio da inovação tecnológica",
+      "knowUsLink": "CONHEÇA O VIRUFY",
+      "header2": "Somos apoiados por"
+    }
+  },
+  "ourApproach": {
+    "topFold": {
+      "diagnoseDisease": "A Inteligência Artificial é uma facilitadora no diagnóstico de doenças",
+      "acrossNations": "Acreditamos que todos devem ter acesso rápido e acessível aos cuidados de saúde.",
+      "usingTechnology": "Estamos aproveitando a inteligência artificial para atingir esse objetivo",
+      "algorithmInfo": "Com a ajuda da pesquisa de ponta de algumas das instituições mais prestigiadas do mundo - Stanford, Princeton, Cambridge - estamos desenvolvendo um algoritmo de IA que diagnostica COVID-19 com precisão apenas analisando os sons da tosse de uma pessoa",
+      "readWhitePaper": "Leia nosso white paper",
+      "wantToLearnMore": "QUER SABER MAIS?"
+    },
+    "research": {
+      "universityOfCambridge": {
+        "title": "Explorando o diagnóstico automático de COVID-19 a partir de dados de sons respiratórios coletivos",
+        "description": "Pesquisa com milhares de pessoas coletada pela Universidade de Cambridge que usou amostras de tosse e respiração para mostrar como os sons do COVID-19 são discerníveis daqueles em saudáveis ou asmáticos. Seus resultados mostram que mesmo um classificador de aprendizado de máquina binário simples é capaz de classificar sons saudáveis e COVID-19 corretamente. Este trabalho fornece uma base para uma investigação mais aprofundada de como os padrões respiratórios analisados automaticamente podem ser usados como sinais de pré-triagem para auxiliar no diagnóstico de COVID-19.",
+        "source": "University of Cambridge"
+      },
+      "carnegieMellonUniversity": {
+        "title": "Detector de voz COVID",
+        "description": "Um estudo da Carnegie Mellon University teve como objetivo coletar um grande número de amostras de voz para treinar IA para o diagnóstico de COVID. A justificativa por trás do estudo é que \"o som da nossa voz (independentemente do idioma) e os sons que fazemos quando respiramos ou tossimos mudam quando nosso sistema respiratório é afetado. As mudanças variam de mudanças grosseiras e claramente audíveis a minutos mudanças - o que chamamos de \"micro\" assinaturas, que não são audíveis para o ouvinte não treinado, mas estão presentes",
+        "source": "Carnegie Mellon University"
+      },
+      "MIT": {
+        "title": "Olá Sigma, estou com o Coronavirus? Solicitação de uma nova abordagem de inteligência artificial para apoiar profissionais de saúde que lidam com a pandemia COVID-19.",
+        "description": "O Departamento de Engenharia Mecânica do MIT propõe a detecção de casos positivos de COVID por meio da coleta de amostras de tosse por telefone para treinar a inteligência artificial e, posteriormente, construir um algoritmo de diagnóstico. Isso ressalta o interesse de especialistas em nossa ideia.",
+        "source": "Massachusetts Institute of Technology (MIT)"
+      },
+      "various": {
+        "title": "O diagnóstico preliminar ativado por IA para COVID-19 a partir de amostras de tosse por meio de um aplicativo",
+        "description": "O estudo projetado para coletar amostras de tosse para treinar e usar arquitetura de IA que minimiza diagnósticos incorretos. Eles preveem que, no momento em que este artigo foi escrito, seu mecanismo de IA pode distinguir entre tosses de pacientes com COVID-19 e vários tipos de tosses não-COVID-19 com mais de 90% de precisão.",
+        "source": "(Vários)"
+      },
+      "universityOfEngineeringPakistan": {
+        "title": "A análise de som de tosse para classificação de pneumonia e asma na população pediátrica",
+        "description": "A IA foi usada para distinguir entre tosses de asma e pneumonia, com o objetivo de fornecer atendimento médico a países em desenvolvimento com poucos recursos. Seu método alcançou uma sensibilidade de 89%, especificidade de 100% e Kappa de 0,89. Seus resultados mostram o uso potencial de IA na detecção e diferenciação de sons respiratórios.",
+        "source": "University of Engineering & Technology, Pakistan"
+      },
+      "imperialCollegeLondon": {
+        "title": "Um algoritmo baseado em tosse para diagnóstico automático de coqueluche",
+        "description": "Pesquisadores do Imperial College de Lodres coletaram sons de tosse e chiado relacionados à coqueluche, crupe e outras doenças, como bronquite e asma, para treinar IA a fim de detectar coqueluche. Seu algoritmo foi capaz de diagnosticar toda coqueluche com sucesso a partir de gravações de áudio, detectando automaticamente sons de tosse individuais com 92% de precisão e VPP de 97%. Seu resultado apóia o uso de IA como um candidato potencial para diferenciar e diagnosticar sons respiratórios.",
+        "source": "Department of Electrical and Electronic Engineering, Imperial College London"
+      }
+    },
+    "collaboration": {
+      "title": "Construindo a solução através de dados abertos",
+      "description": "Acreditamos que a colaboração é a chave para superar o COVID-19 e estamos comprometidos em usar dados abertos para estimular a inovação.",
+      "sharedData": {
+        "we": "Compartilhamos ",
+        "activelyShareLink": "ativamente nossos dados de tosse COVID-19 ",
+        "withTheAim": "com o objetivo de criar uma ",
+        "communityOfResearchersLink": "comunidade de pesquisadores e criadores de soluções."
+      },
+      "accuracy": {
+        "title": "Precisão",
+        "description": "Os dados são coletados em hospitais sob supervisão de médicos de acordo com os Procedimentos Operacionais Padrão (SOP)."
+      },
+      "privacy": {
+        "title": "Privacidade",
+        "description": "Todos os dados foram coletados com consentimento informado do paciente sob o protocolo IRB."
+      },
+      "collaboration": {
+        "title": "Colaboração",
+        "segmentedSamples": "Disponibilizamos 121 amostras de tosse clínica segmentada no ",
+        "githubLink": "GitHub",
+        "labelled": ". Cada um está identificado com o status do teste de PCR COVID-19 e a idade, sexo e histórico médico do paciente."
+      }
+    },
+    "faq": {
+      "title": "Perguntas Frequentemente Feitas (FAQ)",
+      "missionCategory": "Missão e Visão de Virufy",
+      "nonprofitQ": "O Virufy é uma organização sem fins lucrativos?",
+      "nonprofitA": "O Virufy é uma corporação sem fins lucrativos que visa o benefício público registrada na Califórnia. No entanto, a aprovação do nosso status oficial segundo a legislação americana, relacionada a seção 501(c)(3), pode demorar até a metade de 2021 enquanto a Internal Revenue Servise (IRS) (Agência federal americana que funciona como serviço de receita do governo) está sobrecarregada em decorrência do COVID-19.",
+      "postVaccineQ": "Quais os seus planos para o Virufy após a vacina de COVID-19?",
+      "postVaccineA": "Nós antecipamos que países de baixa renda não possuirão os recursos financeiros e a infraestrutura médica para vacinar a sua população e que a testagem ágil e equitativa para COVID-19 continuará importante para controlar a pandemia, especialmente naqueles países.",
+      "postControlQ": "Quais os seus planos para o Virufy depois que a COVID-19 estiver sobre controle?",
+      "postControlA": "O Virufy visa trazer ao fim o disseminar de várias doenças contagiosas por meio da testagem de forma abrangente baseada em dispositivos smartphones que podem ser usada sempre que a comunidade esteja em perigo da disseminação de um vírus. Nós antecipamos que a mesma tecnologia de inteligência artificial pode ser adaptada para detectar outras coronaviroses, incluindo o resfriado comum e a influenza.",
+      "detectionCategory": "Detecção ",
+      "distinguishableQ": "Como as tosses de COVID-19 podem ser distinguidas?",
+      "distinguishableA": "Semelhante a todas as outras doenças respiratórias, o COVID-19 cria uma assinatura respiratória única na garganta e nos pulmões que é distinta de outras infecções respiratórias que produzem tosse úmida. Consequentemente, foi sugerido que os sons da tosse podem ser analisados para detectar COVID-19. Globalmente, essa ideia está sendo ativamente pesquisada por várias instituições de prestígio, incluindo CMU, MIT e Cambridge. Por exemplo, uma pesquisa crowdsource feita pela University of Cambridge mostrou que um classificador de aprendizado de máquina binário simples é capaz de classificar pacientes positivos para COVID-19 por meio de sons de respiração e tosse com alta precisão (AUC = 0,7). Da mesma forma, os pesquisadores da CMU identificaram 18 características de voz que distinguem pacientes COVID-19 positivos e treinaram um modelo para diagnosticar COVID-19 com uma precisão de 89,1%.",
+      "diagnosisQ": "Como o Algoritmo AI de Virufy prevê um diagnóstico COVID-19?",
+      "diagnosisA": "Com base nesta pesquisa anterior, Virufy está desenvolvendo um algoritmo de IA que pode ser usado para prever com precisão uma infecção por COVID-19 em minutos com base em gravações de sons de tosse. No entanto, ao contrário da pesquisa anterior de tosse COVID-19 que teve como alvo a população dos EUA, Virufy visa coletar dados de vários locais em todo o mundo. Como uma iniciativa dirigida por estudantes com voluntários em vários países, Virufy está desenvolvendo um modelo de diagnóstico COVID-19 com maior inclusão racial e espacial por meio de dados que incluem uma variedade de etnias e diferenças fonológicas específicas da comunidade.",
+      "privacyCategory": "Tecnologia e Dados privados",
+      "dataStorageQ": "Como o Virufy vai guardar os meus dados de forma segura?",
+      "dataStorageA": "Usamos JotForm e Amazon Web Services (AWS) para coleta de dados de estudo de pesquisa. JotForm e AWS armazenam os dados em um aplicativo seguro com acesso e controles restritos. Seus dados serão armazenados com JotForm ou AWS até que sejam baixados por nós. Nós iremos armazenar os dados em um banco de dados com acesso restrito. Se você quiser mais informações sobre como a Jotform e a AWS armazenam seus dados, visite suas respectivas políticas de privacidade em https://www.jotform.com/privacy/ e https://aws.amazon.com/en/privacy/. Se desejar saber mais, consulte a política de privacidade da Virufy.",
+      "privacyThreatsQ": "A minha privacidade corre o risco de ser exposta quando doo a minha tosse para o Virufy?",
+      "privacyThreatsA": "Nossos fortes times legais e de segurança da informação desenvolveram um Relatório de Impacto à proteção de Dados Pessoais (do inglês, DPIA), para endereçar potenciais riscos e ameaças a sua privacidade. Nós armazenaremos seus dados pessoais em uma forma que nos permita te identificar por um período máximo de 4 (quatro) meses em uma base de dados segura com acesso restrito. Após os 4 (quatro) meses, nós separaremos todas aquelas informações dos seus dados pessoais (a exemplo do seu nome e informações de contato) e agregaremos isto com os dados de outras pessoas, de forma que você não possa de forma razoavel ser identificado enquanto indivíduo. Para evitar dúvidas, o que nós reteremos no longo prazo serão dados biométricos e de saúde de forma anonimizada, como gravações de tosse, para a finalidade de pesquisa futura sobre viroses e outras condições médicas. Se você desejar saber mais por favor visite a Política de Privacidade da Virufy.",
+      "privacyPolicyQ": "O Virufy possui uma Política de Privacidade e uma Política de Cookies?",
+      "privacyPolicyA": "O Virufy leva a sério a sua privacidade, e o nosso time legal preparou uma Política de Privacidade detalhada e uma Política de Cookies para proteger os dados pessoais que você compartilhe conosco por meio do uso do site da web, da participação em nosso estudo com a doação de tosse, nos contatando e aplicando para o voluntariado.",
+      "thirdPartiesQ": "Os meus dados pessoais serão compartilhados por terceiros?",
+      "thirdPartiesA": "Se você optar por compartilhar suas informações de contato (e.g., email e número de telefone celular) conosco, nós não iremos distribuir essas informações identificáveis para nenhum terceiro, mesmo que para propósitos de pesquisa, sem o seu consentimento explícito. No entanto, nós compartilharemos seus dados pessoais anonimizados, como os sons da sua tosse, com terceiros de forma a acelerar os esforços de pesquisa globais de parar a pandemia do COVID-19 e outras futuras disseminações de doenças. Mais detalhes podem ser encontrados em nossa Política de Privacidade e no Formulário de Consentimento Explícito para Coleta de Dados Pessoais e para Participar na Pesquisa.",
+      "validTechnologyQ": "A tecnologia já foi validada?",
+      "validTechnologyA": "Sim, vários grupos ao redor do mundo tem validado que tosses contém padrões detectáveis que significam a presença de COVID-19. Nós acreditamos que a implantação dessa tecnologia é só uma questão de tempo e colaboração. Mais detalhes podem ser encontrados na nossa página de pesquisa. Você também pode ler acerca dos nossos achados mais recentes em nosso artigo de pesquisa.",
+      "financeCategory": "Financeiro",
+      "financialContributionQ": " Preciso fazer uma contribuição financeira se estiver doando minha tosse?",
+      "financialContributionA": "Não.",
+      "appCostQ": "Os usuários precisarão pagar para usar o App?",
+      "appCostA": "Enquanto organização sem fins lucrativos a nossa intenção é a de fazer um App gratuito para todos, especialmente em países de baixa renda. No entanto, nós talvez precisemos cobrar uma taxa nominal para o suporte de nossas operações no caso em que não consigamos arrecadar fundos suficientes.",
+      "generalCategory": "Geral",
+      "moreQuestionsQ": "E se eu tiver mais perguntas?",
+      "moreQuestionsA": "Mais detalhes podem ser encontrados em nossas Política de Privacidade, Política de Cookies, e Formulário de Consentimento que estão incutidos no nosso App de coleta de dados. Para questões relacionadas ao estudo de coleta de dados, por favor nos contate por meio do email study@virufy.org . Para consultas relacionadas a dados, nós podemos ser contatados através do email open-data@virufy.org . Para quaisquer outras dúvidas, você pode entrar em contato por meio do email info@virufy.org"
+    }
+  }
+}

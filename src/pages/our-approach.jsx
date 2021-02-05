@@ -75,7 +75,11 @@ export default ({ data }) => {
 
       {/* Research  */}
       <div className="container mx-auto">
-        <h4 className="uppercase mb-6 lg:mb-4">Want to learn more?</h4>
+        <h4 className="uppercase font-heading font-bold mb-6 lg:mb-4">
+          {intl.formatMessage({
+            id: "ourApproach.topFold.wantToLearnMore",
+          })}
+        </h4>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {learnMoreCards.map((info, index) => {
             const cardIcon = findImage(info.imageName);
