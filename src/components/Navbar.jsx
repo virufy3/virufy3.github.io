@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { changeLocale, IntlContextConsumer, useIntl } from "gatsby-plugin-intl";
 import { Link } from "gatsby";
-import virufyLogo from "../images/logos/virufy-logo.svg";
+import virufyLogoLight from "../images/logos/virufy-logo.svg";
+import virufyLogoDark from "../images/logos/virufy-logo-dark.png";
 
 // svg for opening nav
 const HamburgerOpen = () => (
@@ -117,9 +118,14 @@ export default () => {
   const intl = useIntl();
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
 
-  const [bgColor, textColor] = window.location.href.includes("/team")
-    ? ["bg-black", "text-white"]
-    : ["bg-white", "text-black"];
+  //prettier-ignore
+  const [
+    bgColor, 
+    textColor, 
+    virufyLogo
+  ] = window.location.href.includes("/team")
+    ? ["bg-black", "text-white", virufyLogoDark]
+    : ["bg-white", "text-black", virufyLogoLight];
 
   console.log(bgColor, textColor);
 
