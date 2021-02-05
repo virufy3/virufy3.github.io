@@ -10,7 +10,7 @@ export default ({ images }) => {
       <h1 className="text-5xl font-bold mb-4">
         {intl.formatMessage({ id: "index.section1.header" })}
       </h1>
-      <div className="flex">
+      <div className="flex justify-between">
         <div className="py-8 flex flex-col items-start justify-center">
           <p
             className="mb-5"

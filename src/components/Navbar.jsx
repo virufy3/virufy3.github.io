@@ -39,8 +39,18 @@ const navLinks = [
     path: "/our-approach",
     styles: "mr-6",
   },
-  { id: "nav.our_org", defMsg: "Our Org", path: "", styles: "mr-6" },
-  { id: "nav.in_the_news", defMsg: "In the News", path: "", styles: "mr-6" },
+  {
+    id: "nav.our_org",
+    defMsg: "Our Org",
+    path: "/team",
+    styles: "mr-6",
+  },
+  {
+    id: "nav.in_the_news",
+    defMsg: "In the News",
+    path: "",
+    styles: "mr-6",
+  },
   {
     id: "nav.get_involved",
     defMsg: "GET INVOLVED",
@@ -61,7 +71,7 @@ const MobileNav = ({ intl }) => {
   );
 };
 
-const LangSelect = () => {
+const LangSelect = ({ bgColor, textColor }) => {
   const langText = {
     en: "Language - EN",
     es: "Español - ES",
@@ -76,6 +86,7 @@ const LangSelect = () => {
           <select
             value={currentLocale}
             onChange={(event) => changeLocale(event.target.value)}
+            className={`${bgColor} ${textColor}`}
           >
             {languages.map((lang) => (
               <option key={lang} value={lang}>
@@ -106,8 +117,23 @@ export default () => {
   const intl = useIntl();
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
 
+  const [bgColor, textColor] = window.location.href.includes("/team")
+    ? ["bg-black", "text-white"]
+    : ["bg-white", "text-black"];
+
+  console.log(bgColor, textColor);
+
+  const getLinkClasses = (link) => {
+    return `hidden no-underline ${textColor} lg:inline-block ${link.styles}\
+    ${
+      link.path &&
+      window.location.href.includes(link.path) &&
+      "font-bold border-b-4 border-green"
+    }`;
+  };
+
   return (
-    <nav>
+    <nav className={bgColor}>
       <div className="flex items-center justify-between py-3 px-6">
         <Link to="/">
           <img
@@ -121,13 +147,10 @@ export default () => {
         </Link>
         <div className="flex items-center justify-between md:py-4">
           <span className="mr-2 lg:mr-5">
-            <LangSelect />
+            <LangSelect bgColor={bgColor} textColor={textColor} />
           </span>
           {navLinks.map((link) => (
-            <Link
-              className={`hidden no-underline text-black lg:inline-block ${link.styles}`}
-              to={link.path}
-            >
+            <Link className={getLinkClasses(link)} to={link.path}>
               {intl.formatMessage({ id: link.id, defaultMessage: link.defMsg })}
             </Link>
           ))}
