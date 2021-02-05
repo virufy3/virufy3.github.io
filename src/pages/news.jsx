@@ -35,8 +35,8 @@ const NewsList = (props) => {
   const intl = useIntl();
 
   return (
-    <section className="container lg:flex">
-      <div className="lg:w-2/5">
+    <section className="wrapper container lg:flex">
+      <div className="wrapper lg:w-2/5">
         <GatsbyImage className="mx-auto w-1\/2" fluid={image} />
       </div>
       <div className="wrapper lg:w-2/3">
