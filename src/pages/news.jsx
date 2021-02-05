@@ -35,11 +35,11 @@ const NewsList = (props) => {
   const intl = useIntl();
 
   return (
-    <section className="wrapper flex lg:flex">
-      <div className="wrapper lg:w-2/5">
+    <section className="wrapper flex">
+      <div className="lg:w-2/5">
         <GatsbyImage className="mx-auto w-1\/2" fluid={image} />
       </div>
-      <div className="wrapper lg:w-2/3">
+      <div className="lg:w-2/3 mx-20">
         <p className="mb-8">
           {intl.formatMessage({ id: `news.${section}.${id}.date` })}
         </p>
