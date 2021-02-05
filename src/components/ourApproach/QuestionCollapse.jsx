@@ -13,7 +13,7 @@ function QuestionCollapse({ categoryId, questionIds }) {
   return (
     <div>
       <button className="flex w-full text-left py-3" onClick={toggleOpen}>
-        <h2 className="flex-grow">
+        <h2 className="text-xl flex-grow">
           {intl.formatMessage({
             id: `ourApproach.faq.${categoryId}`,
           })}

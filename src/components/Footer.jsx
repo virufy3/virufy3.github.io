@@ -65,7 +65,7 @@ export default () => {
 
   return (
     <div className="container mx-auto text-white px-6">
-      <h2 className="font-heading font-bold text-xl mb-6">Get in touch!</h2>
+      <h2 className="text-xl mb-6">Get in touch!</h2>
       <a
         className="block underline mb-6 text-white"
         href={`mailto:${informationEmail}`}

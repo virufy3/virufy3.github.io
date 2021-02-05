@@ -43,7 +43,7 @@ export default ({ images }) => {
       <GatsbyImage
         className="w-2/5"
         fluid={images["Virufighters"].childImageSharp.fluid}
-        imgStyle={{ objectFit: "fill" }}
+        imgStyle={{ objectFit: "contain" }}
       />
     </section>
   );

@@ -25,13 +25,13 @@ export default ({ images }) => {
         style={{
           position: "relative",
           bottom: "26vw",
-          width: "69vw",
+          width: "70vw",
           left: "10vw",
           height: "22vw",
           marginBottom: "-22vw",
           display: "flex",
           flexWrap: "wrap",
-          alignContent: "space-between",
+          alignContent: "space-around",
         }}
       >
         <div className="flex justify-between w-full">
@@ -45,13 +45,10 @@ export default ({ images }) => {
             }}
           >
             <div className="w-full flex">
-              <div className="bg-black mr-4 text-white test-white text-lg rounded-full w-8 h-8 flex justify-center items-center">
+              <div className="bg-black mr-4 text-white test-white text-lg rounded-full font-header w-8 h-8 flex justify-center items-center flex-shrink-0">
                 1
               </div>
-              <h2
-                className="text-black text-md text-sm font-bold"
-                style={{ maxWidth: "calc(100% - 3rem)" }}
-              >
+              <h2 className="text-black text-md text-sm font-bold">
                 {intl.formatMessage({
                   id: "index.section3.header1",
                 })}
@@ -68,13 +65,10 @@ export default ({ images }) => {
             }}
           >
             <div className="w-full flex">
-              <div className="bg-black mr-4 text-white test-white text-lg rounded-full w-8 h-8 flex justify-center items-center">
+              <div className="bg-black mr-4 text-white test-white text-lg rounded-full font-header w-8 h-8 flex justify-center items-center flex-shrink-0">
                 1
               </div>
-              <h2
-                className="text-black text-md text-sm font-bold"
-                style={{ maxWidth: "calc(100% - 3rem)" }}
-              >
+              <h2 className="text-black text-md text-sm font-bold">
                 {intl.formatMessage({
                   id: "index.section3.header2",
                 })}
@@ -91,13 +85,10 @@ export default ({ images }) => {
             }}
           >
             <div className="w-full flex ">
-              <div className="bg-black mr-4 text-white test-white text-lg rounded-full w-8 h-8 flex justify-center items-center">
+              <div className="bg-black mr-4 text-white test-white text-lg rounded-full font-header w-8 h-8 flex justify-center items-center flex-shrink-0">
                 1
               </div>
-              <h2
-                className="text-black text-md text-sm font-bold"
-                style={{ maxWidth: "calc(100% - 3rem)" }}
-              >
+              <h2 className="text-black text-md text-sm font-bold">
                 {intl.formatMessage({
                   id: "index.section3.header3",
                 })}
@@ -111,7 +102,8 @@ export default ({ images }) => {
             style={{ width: "18vw" }}
           >
             <GatsbyImage
-              style={{ width: "9rem", height: "7rem" }}
+              // style={{ width: "9rem", height: "7rem" }}
+              className="w-4/5"
               fluid={images["cough-to-app"].childImageSharp.fluid}
               imgStyle={{ objectFit: "fill" }}
             />
@@ -121,7 +113,8 @@ export default ({ images }) => {
             style={{ width: "18vw" }}
           >
             <GatsbyImage
-              style={{ width: "9rem", height: "4rem" }}
+              // style={{ width: "9rem", height: "4rem" }}
+              className="w-4/5"
               fluid={images["cough-waves"].childImageSharp.fluid}
               imgStyle={{ objectFit: "fill" }}
             />
@@ -131,7 +124,8 @@ export default ({ images }) => {
             style={{ width: "18vw" }}
           >
             <GatsbyImage
-              style={{ width: "5rem", height: "7rem" }}
+              // style={{ width: "5rem", height: "7rem" }}
+              className="w-2/5"
               fluid={images["clipboard"].childImageSharp.fluid}
               imgStyle={{ objectFit: "fill" }}
             />

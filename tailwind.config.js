@@ -45,6 +45,14 @@ module.exports = {
           "Noto Color Emoji",
         ],
       },
+      fontSize: {
+        "5xl": [
+          "3rem",
+          {
+            lineHeight: "4.2rem",
+          },
+        ],
+      },
       inset: {
         "-12": "-3rem",
         "-16": "-4rem",
