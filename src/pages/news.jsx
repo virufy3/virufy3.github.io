@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from "react";
+import React, { useState } from "react";
 import Layout from "../components/Layout";
 import { useIntl } from "gatsby-plugin-intl";
 import { graphql } from "gatsby";
