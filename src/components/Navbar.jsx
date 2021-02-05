@@ -48,7 +48,7 @@ const navLinks = [
   {
     id: "nav.in_the_news",
     defMsg: "In the News",
-    path: "",
+    path: "/news",
     styles: "mr-6",
   },
   {
