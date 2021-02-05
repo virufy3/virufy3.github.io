@@ -1,0 +1,32 @@
+{
+  "topFold": {
+    "joinTitle": "Join the fight to stop COVID",
+    "details": "We welcome passionate individuals of all backgrounds and experience to help us in ending COVID-19.\n\nWhether you’re a humanitarian, expert or simply eager to make an impact, there’s a multitude of ways to get involved with Virufy’s mission."
+  },
+  "donate": {
+    "title": "Make a donation",
+    "details": "Donate now to help Virufy perform its vital work of bringing fast and free disease diagnosis to all.\n\nEvery bit helps — we couldn’t do it without the financial support of contributors like you.",
+    "donateButton": "Donate to support our org"
+  },
+  "shareCough": {
+    "title": "Share your cough",
+    "details": "We welcome cough “donations” to help expand our database and refine our AI’s predictive ability to recognize COVID-19.\n\nAll that’s needed is a mobile device, the Virufy app and your cough.",
+    "getTheApp": "Get the app",
+    "irbDisclaimer": "All data is collected in compliance with IRB protocol.",
+    "learnMoreLink": "Learn more"
+  },
+  "nextSteps": {
+    "contribute": {
+      "title": "Contribute your expertise",
+      "details": "We work with science, medical, technology and other expert professionals across the globe to shape and accomplish Virufy’s mission.",
+      "question": "Looking to get involved?",
+      "linkText": "Please get in touch"
+    },
+    "join": {
+      "title": "Join the Virufighter team",
+      "details": "We’re a youth-led organization that fosters a positive learning environment with a worldwide impact. Our volunteers span more than 15 countries, each contributing their unique perspectives.",
+      "question": "Excited to help out?",
+      "linkText": "View our available roles"
+    }
+  }
+}

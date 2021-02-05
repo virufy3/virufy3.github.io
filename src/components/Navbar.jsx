@@ -54,7 +54,7 @@ const navLinks = [
   {
     id: "nav.get_involved",
     defMsg: "GET INVOLVED",
-    path: "",
+    path: "/get-involved",
     styles: "text-white bg-primary py-2 px-6",
   },
 ];
@@ -145,7 +145,7 @@ export default () => {
             })}
           />
         </Link>
-        <div className="flex items-center justify-between md:py-4">
+        <div className="flex items-center justify-between md:py-4 text-base">
           <span className="mr-2 lg:mr-5">
             <LangSelect bgColor={bgColor} textColor={textColor} />
           </span>
