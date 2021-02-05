@@ -18,10 +18,13 @@ export default ({ images }) => {
               __html: intl.formatMessage({ id: "index.section1.pg" }),
             }}
           />
-          <Link className="bg-green text-white px-4 py-2 mb-2" to="">
+          <Link
+            className="no-underline bg-green text-white px-4 py-2 mb-2"
+            to=""
+          >
             {intl.formatMessage({ id: "index.section1.coughLink" })}
           </Link>
-          <Link className="bg-green text-white px-4 py-2" to="">
+          <Link className="no-underline bg-green text-white px-4 py-2" to="">
             {intl.formatMessage({ id: "index.section1.donateLink" })}
           </Link>
         </div>
