@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useCallback } from "react";
 import Layout from "../components/Layout";
 import { useIntl } from "gatsby-plugin-intl";
 import { graphql } from "gatsby";
 import SEO from "../components/SEO";
 import GatsbyImage from "gatsby-image";
 import { news } from "../data/news";
+import countryshape from "../images/news/countryshape.png";
 
 export const query = graphql`
   {
@@ -76,26 +77,32 @@ const CountrySelect = (props) => {
     "Peru",
   ];
 
-  const onSelectChange = (event) => {
-    event.preventDefault();
-    props.setCountry(event.target.value);
+  const [divHidden, setDivHidden] = useState(true);
+  const onCountrySelect = (country) => {
+    setDivHidden(true);
+    props.setCountry(country);
   };
+
   return (
     <>
-      <select onChange={onSelectChange}>
-        <option selected disabled className="hidden">
-          Filter News by Country
-        </option>
-
+      <button onClick={() => setDivHidden(!divHidden)}>
+        Filter News by Country
+      </button>
+      <div className={`flex flex-col ${divHidden ? "hidden" : ""}`}>
         {countryText.map((country) => (
-          <option key={country} value={country}>
+          <button onClick={() => onCountrySelect(country)} key={country}>
             {country}
-          </option>
+          </button>
         ))}
-      </select>
-      {props.country && (
-        <button onClick={() => props.setCountry("")}>{props.country}</button>
-      )}
+      </div>
+      <p>
+        {props.country && (
+          <button className="font-bold" onClick={() => props.setCountry("")}>
+            {props.country}
+            <img className="inline-block" src={countryshape}></img>
+          </button>
+        )}
+      </p>
     </>
   );
 };
@@ -119,20 +126,25 @@ export default ({ data }) => {
       </div>
 
       <section>
-        {news.map((item) => {
-          const NewsPic = images.find(({ node: { name } }) => {
-            return name === item.imageName;
-          }).node.childImageSharp.fluid;
+        {news
+          .filter((item) => {
+            if (country === "") return true;
+            return item.country === country;
+          })
+          .map((item) => {
+            const NewsPic = images.find(({ node: { name } }) => {
+              return name === item.imageName;
+            }).node.childImageSharp.fluid;
 
-          return (
-            <NewsList
-              key={`${news}${item.id}`}
-              section="news"
-              image={NewsPic}
-              person={item}
-            />
-          );
-        })}
+            return (
+              <NewsList
+                key={`${news}${item.id}`}
+                section="news"
+                image={NewsPic}
+                person={item}
+              />
+            );
+          })}
       </section>
     </Layout>
   );
