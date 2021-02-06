@@ -1,6 +1,7 @@
 import React from "react";
 import { useIntl } from "gatsby-plugin-intl";
 import GatsbyImage from "gatsby-image";
+import { Link } from "gatsby";
 
 export default ({ images }) => {
   const intl = useIntl();
@@ -10,8 +11,12 @@ export default ({ images }) => {
       <div className="flex w-full justify-center mx-auto">
         <div
           style={{ width: "30vw", height: "30vw" }}
-          className="rounded-full inline-block bg-gray-100 justify-center items-center"
-        />
+          className="rounded-full inline-block bg-gray-100"
+        >
+          <h2 className="font-normal text-base">
+            {intl.formatMessage({ id: "index.section3.howItWorks" })}
+          </h2>
+        </div>
         <div
           style={{ width: "30vw", height: "30vw", margin: "0 -5vw" }}
           className="rounded-full inline-block bg-gray-100"
@@ -102,7 +107,6 @@ export default ({ images }) => {
             style={{ width: "18vw" }}
           >
             <GatsbyImage
-              // style={{ width: "9rem", height: "7rem" }}
               className="w-4/5"
               fluid={images["cough-to-app"].childImageSharp.fluid}
               imgStyle={{ objectFit: "fill" }}
@@ -113,7 +117,6 @@ export default ({ images }) => {
             style={{ width: "18vw" }}
           >
             <GatsbyImage
-              // style={{ width: "9rem", height: "4rem" }}
               className="w-4/5"
               fluid={images["cough-waves"].childImageSharp.fluid}
               imgStyle={{ objectFit: "fill" }}
@@ -124,13 +127,20 @@ export default ({ images }) => {
             style={{ width: "18vw" }}
           >
             <GatsbyImage
-              // style={{ width: "5rem", height: "7rem" }}
               className="w-2/5"
               fluid={images["clipboard"].childImageSharp.fluid}
               imgStyle={{ objectFit: "fill" }}
             />
           </div>
         </div>
+      </div>
+      <div className="w-full flex justify-center">
+        <Link
+          to="/"
+          className="inline-block text-sm px-4 py-2 relative bottom-4 no-underline text-white bg-green"
+        >
+          {intl.formatMessage({ id: "index.section3.tryItOutLink" })}
+        </Link>
       </div>
     </section>
   );
