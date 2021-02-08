@@ -30,13 +30,14 @@
       "contribute": {
         "title": "Contribua com sua experiência",
         "details": "Trabalhamos com ciência, medicina, tecnologia e outros profissionais especializados em todo o mundo para moldar e cumprir a missão de Virufy.",
-        "linkText": "Buscando se envolver?"
+        "question": "Buscando se envolver?",
+        "linkText": "Por favor entre em contato"
       },
       "join": {
         "title": "Junte-se ao time Virufighter",
         "details": "Somos uma organização liderada por jovens que promove um ambiente de aprendizagem positivo com impacto mundial. Nossos voluntários abrangem mais de 15 países, cada um contribuindo com suas perspectivas únicas.",
-        "question": "Excited to help out?",
-        "linkText": "View our available roles"
+        "question": "Animado em ajudar?",
+        "linkText": "Veja nossos cargos disponíveis"
       }
     }
   },
