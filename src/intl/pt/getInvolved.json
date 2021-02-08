@@ -1,0 +1,31 @@
+{
+  "topFold": {
+    "joinTitle": "Junte-se a luta para acabar com o COVID",
+    "details": "Damos as boas-vindas a pessoas apaixonadas de todas as origens e experiências para nos ajudar a encerrar o COVID-19.\n\nWSeja você um humanitário, especialista ou simplesmente ansioso para causar um impacto, há uma infinidade de maneiras de se envolver com a missão de Virufy."
+  },
+  "donate": {
+    "title": "Faça uma doação",
+    "details": "Doe agora para ajudar o Virufy a realizar seu trabalho vital de levar o diagnóstico de doenças rápido e gratuito a todos.\n\nTudo ajuda - não poderíamos fazer isso sem o apoio financeiro de contribuintes como você. ",
+    "donateButton": "Doe para ajudar a nossa organização"
+  },
+  "shareCough": {
+    "title": "Compartilhe a sua tosse",
+    "details": "Aceitamos “doações” de tosse para ajudar a expandir nosso banco de dados e refinar a capacidade de previsão de nossa IA para reconhecer COVID-19.\n\nATudo o que é necessário é um dispositivo móvel, o aplicativo Virufy e sua tosse.",
+    "getTheApp": "Obtenha o app",
+    "irbDisclaimer": "Todos os dados são coletados em conformidade com o protocolo IRB.",
+    "learnMoreLink": "Saber mais"
+  },
+  "nextSteps": {
+    "contribute": {
+      "title": "Contribua com sua experiência",
+      "details": "Trabalhamos com ciência, medicina, tecnologia e outros profissionais especializados em todo o mundo para moldar e cumprir a missão de Virufy.",
+      "linkText": "Buscando se envolver?"
+    },
+    "join": {
+      "title": "Junte-se ao time Virufighter",
+      "details": "Somos uma organização liderada por jovens que promove um ambiente de aprendizagem positivo com impacto mundial. Nossos voluntários abrangem mais de 15 países, cada um contribuindo com suas perspectivas únicas.",
+      "question": "Excited to help out?",
+      "linkText": "View our available roles"
+    }
+  }
+}

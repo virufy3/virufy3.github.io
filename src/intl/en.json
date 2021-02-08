@@ -168,7 +168,7 @@
       },
       "carnegieMellonUniversity": {
         "title": "COVID Voice Detector",
-        "description": "A study by Carnegie Mellon University aimed to collect a large number of voice samples to train AI for diagnosis of COVID. The rationale behing the study is that, \"the sound of our voice (regardless of language), and the sounds we make when we breathe or cough change when our respiratory system is affected. The changes range from coarse, clearly audible changes, to minute changes -- what we call \"micro\" signatures, that are not audible to the untrained listener, but are nevertheless present.",
+        "description": "A study by Carnegie Mellon University aimed to collect a large number of voice samples to train AI for diagnosis of COVID. The rationale behing the study is that, \"the sound of our voice (regardless of language), and the sounds we make when we breathe or cough change when our respiratory system is affected. The changes range from coarse, clearly audible changes, to minute changes -- what we call \"micro\" signatures, that are not audible to the untrained listener, but are nevertheless present.\"",
         "source": "Carnegie Mellon University"
       },
       "MIT": {

@@ -15,7 +15,7 @@
     },
     "carnegieMellonUniversity": {
       "title": "Detector de voz COVID",
-      "description": "Um estudo da Carnegie Mellon University teve como objetivo coletar um grande número de amostras de voz para treinar IA para o diagnóstico de COVID. A justificativa por trás do estudo é que \"o som da nossa voz (independentemente do idioma) e os sons que fazemos quando respiramos ou tossimos mudam quando nosso sistema respiratório é afetado. As mudanças variam de mudanças grosseiras e claramente audíveis a minutos mudanças - o que chamamos de \"micro\" assinaturas, que não são audíveis para o ouvinte não treinado, mas estão presentes",
+      "description": "Um estudo da Carnegie Mellon University teve como objetivo coletar um grande número de amostras de voz para treinar IA para o diagnóstico de COVID. A justificativa por trás do estudo é que \"o som da nossa voz (independentemente do idioma) e os sons que fazemos quando respiramos ou tossimos mudam quando nosso sistema respiratório é afetado. As mudanças variam de mudanças grosseiras e claramente audíveis a minutos mudanças - o que chamamos de \"micro\" assinaturas, que não são audíveis para o ouvinte não treinado, mas estão presentes\"",
       "source": "Carnegie Mellon University"
     },
     "MIT": {
@@ -65,7 +65,7 @@
   },
   "faq": {
     "title": "Perguntas Frequentemente Feitas (FAQ)",
-    "missionCategory": "Missão e Visão de Virufy",
+    "missionCategory": "Visão e Missão de Virufy",
     "nonprofitQ": "O Virufy é uma organização sem fins lucrativos?",
     "nonprofitA": "O Virufy é uma corporação sem fins lucrativos que visa o benefício público registrada na Califórnia. No entanto, a aprovação do nosso status oficial segundo a legislação americana, relacionada a seção 501(c)(3), pode demorar até a metade de 2021 enquanto a Internal Revenue Servise (IRS) (Agência federal americana que funciona como serviço de receita do governo) está sobrecarregada em decorrência do COVID-19.",
     "postVaccineQ": "Quais os seus planos para o Virufy após a vacina de COVID-19?",
