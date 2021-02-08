@@ -117,9 +117,12 @@ export default () => {
   const intl = useIntl();
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
 
-  const [bgColor, textColor] = window.location.href.includes("/team")
-    ? ["bg-black", "text-white"]
-    : ["bg-white", "text-black"];
+  const isRuntime = typeof window !== "undefined"; // as opposed to build time
+
+  const [bgColor, textColor] =
+    isRuntime && window.location.href.includes("/team")
+      ? ["bg-black", "text-white"]
+      : ["bg-white", "text-black"];
 
   console.log(bgColor, textColor);
 
@@ -127,6 +130,7 @@ export default () => {
     return `hidden no-underline ${textColor} lg:inline-block ${link.styles}\
     ${
       link.path &&
+      isRuntime &&
       window.location.href.includes(link.path) &&
       "font-bold border-b-4 border-green"
     }`;
