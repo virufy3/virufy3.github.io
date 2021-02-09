@@ -44,7 +44,7 @@
   "index": {
     "section1": {
       "header": "Transformando la salud del mundo un clic a la vez",
-      "pg": "Virufy es una organización dirigida por voluntarios que utiliza la inteligencia artificial (IA) para <span class=\"font-bold\">diagnosticar COVID-19</span> a partir de patrones de tos, <span class=\"font-bold\"> rápidamente</span> y <span className=\"bold\">sin costo</span> alguno mediante el uso de un smartphone",
+      "pg": "Virufy es una organización dirigida por voluntarios que utiliza la inteligencia artificial (IA) para <span class=\"font-bold\">diagnosticar COVID-19</span> a partir de patrones de tos, <span class=\"font-bold\"> rápidamente</span> y <span className=\"font-bold\">sin costo</span> alguno mediante el uso de un smartphone",
       "coughLink": "CONTRIBUYE CON TU TOS",
       "donateLink": "DONA"
     },
