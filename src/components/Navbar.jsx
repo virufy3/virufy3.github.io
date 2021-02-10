@@ -118,12 +118,14 @@ export default () => {
   const intl = useIntl();
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
 
+  const isRuntime = typeof window !== "undefined"; // as opposed to build time
+
   //prettier-ignore
   const [
     bgColor, 
     textColor, 
     virufyLogo
-  ] = window.location.href.includes("/team")
+  ] = isRuntime && window.location.href.includes("/team")
     ? ["bg-black", "text-white", virufyLogoDark]
     : ["bg-white", "text-black", virufyLogoLight];
 
@@ -133,6 +135,7 @@ export default () => {
     return `hidden no-underline ${textColor} lg:inline-block ${link.styles}\
     ${
       link.path &&
+      isRuntime &&
       window.location.href.includes(link.path) &&
       "font-bold border-b-4 border-green"
     }`;
