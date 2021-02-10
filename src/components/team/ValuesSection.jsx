@@ -56,7 +56,7 @@ export default ({ images }) => {
             <h2 className="font-bold mt-8 mb-4 text-lg">
               {intl.formatMessage({ id: "team.valuesSection.values.header" })}
             </h2>
-            <div className="flex mb-4">
+            <div className="md:flex mb-4">
               <h3 className="font-bold w-40 flex-shrink-0 mb-4">
                 {intl.formatMessage({
                   id: "team.valuesSection.values.transform.header",
@@ -68,7 +68,7 @@ export default ({ images }) => {
                 })}
               </p>
             </div>
-            <div className="flex mb-4">
+            <div className="md:flex mb-4">
               <h3 className="font-bold w-40 flex-shrink-0 mb-4">
                 {intl.formatMessage({
                   id: "team.valuesSection.values.world.header",
@@ -80,7 +80,7 @@ export default ({ images }) => {
                 })}
               </p>
             </div>
-            <div className="flex mb-4">
+            <div className="md:flex mb-4">
               <h3 className="font-bold w-40 flex-shrink-0 mb-4">
                 {intl.formatMessage({
                   id: "team.valuesSection.values.free.header",
@@ -92,7 +92,7 @@ export default ({ images }) => {
                 })}
               </p>
             </div>
-            <div className="flex mb-4">
+            <div className="md:flex mb-4">
               <h3 className="font-bold w-40 flex-shrink-0 mb-4">
                 {intl.formatMessage({
                   id: "team.valuesSection.values.health.header",
@@ -104,7 +104,7 @@ export default ({ images }) => {
                 })}
               </p>
             </div>
-            <div className="flex mb-4">
+            <div className="md:flex mb-4">
               <h3 className="font-bold w-40 flex-shrink-0 mb-4">
                 {intl.formatMessage({
                   id: "team.valuesSection.values.oneTap.header",
@@ -116,7 +116,7 @@ export default ({ images }) => {
                 })}
               </p>
             </div>
-            <div className="flex">
+            <div className="md:flex">
               <h3 className="font-bold w-40 flex-shrink-0">
                 {intl.formatMessage({
                   id: "team.valuesSection.values.mobile.header",
