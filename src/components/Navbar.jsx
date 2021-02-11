@@ -3,6 +3,7 @@ import { changeLocale, IntlContextConsumer, useIntl } from "gatsby-plugin-intl";
 import { Link } from "gatsby";
 import virufyLogoLight from "../images/logos/virufy-logo.svg";
 import virufyLogoDark from "../images/logos/virufy-logo-dark.png";
+import { useLocation } from "@reach/router";
 
 // svg for opening nav
 const HamburgerOpen = () => (
@@ -117,26 +118,22 @@ const MobileNavToggle = ({ mobileNavOpen, setMobileNavOpen }) => {
 export default () => {
   const intl = useIntl();
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
-
-  const isRuntime = typeof window !== "undefined"; // as opposed to build time
+  const location = useLocation();
 
   //prettier-ignore
   const [
     bgColor, 
     textColor, 
     virufyLogo
-  ] = isRuntime && window.location.href.includes("/team")
+  ] = location.pathname.includes("/team")
     ? ["bg-black", "text-white", virufyLogoDark]
     : ["bg-white", "text-black", virufyLogoLight];
-
-  console.log(bgColor, textColor);
 
   const getLinkClasses = (link) => {
     return `hidden no-underline ${textColor} lg:inline-block ${link.styles}\
     ${
       link.path &&
-      isRuntime &&
-      window.location.href.includes(link.path) &&
+      location.pathname.includes(link.path) &&
       "font-bold border-b-4 border-green"
     }`;
   };
