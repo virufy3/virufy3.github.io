@@ -7,7 +7,7 @@ export default ({ images }) => {
   const intl = useIntl();
   return (
     <section className="px-4 lg:px-0 lg:w-4/5 lg:mx-auto">
-      <h1 className="text-5xl font-bold mb-4">
+      <h1 className="text-3xl font-bold mb-4">
         {intl.formatMessage({ id: "index.section1.header" })}
       </h1>
       <div className="flex justify-between">
