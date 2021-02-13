@@ -4,7 +4,7 @@ import GatsbyImage from "gatsby-image";
 import CaretDown from "../svg/CaretDown";
 import CaretUp from "../svg/CaretUp";
 
-const panelMobile = () => {
+const PanelMobile = ({ intl }) => {
   return (
     <div className="flex justify-between lg:pb-32">
       <div className="flex flex-col items-baseline">
@@ -88,7 +88,7 @@ const panelMobile = () => {
   );
 };
 
-const panelDesktop = ({ images }) => {
+const PanelDesktop = ({ images, intl }) => {
   return (
     <>
       <h2 className="font-bold mt-8 mb-4 text-lg">
@@ -132,9 +132,9 @@ export default ({ images }) => {
   const moreBtnClick = () => setPanelOpen(!panelOpen);
 
   return (
-    <section className="bg-black text-white px-20 py-12">
+    <section className="bg-black text-white px-4 lg:px-20 py-12">
       <div className="flex justify-between">
-        <div className="flex flex-col items-baseline w-1/2">
+        <div className="flex flex-col items-baseline lg:w-1/2">
           <h2 className="mb-8 text-2xl font-bold">
             {intl.formatMessage({ id: "team.valuesSection.vision.header" })}
           </h2>
@@ -167,17 +167,17 @@ export default ({ images }) => {
         </div>
         <GatsbyImage
           fluid={images["women-with-world"].childImageSharp.fluid}
-          imgStyle={{ objectFit: "fill" }}
+          imgStyle={{ objectFit: "contain" }}
           className="w-60 lg:flex items-end hidden"
         />
       </div>
       {panelOpen && (
         <>
-          <div className="hidden md:visible">
-            <panelDesktop images={images} />
+          <div className="hidden md:block">
+            <PanelDesktop images={images} intl={intl} />
           </div>
           <div className="md:hidden">
-            <panelMobile images={images} />
+            <PanelMobile images={images} intl={intl} />
           </div>
         </>
       )}
