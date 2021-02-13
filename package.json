@@ -4,7 +4,7 @@
     "dev": "gatsby develop",
     "start": "gatsby serve",
     "build": "gatsby build",
-    "deploy": "gatsby build && gh-pages -d public -b master",
+    "deploy": "gatsby build && gh-pages -d public -b gh-pages",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-intl": "gatsby clean && node ./scripts/build-intl-resources.js",
     "format": "prettier --write .",
@@ -48,7 +48,6 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "gh-pages": "^3.1.0",
     "husky": "^4.3.7",
     "lint-staged": "^10.5.3",
     "prettier": "^2.2.1"

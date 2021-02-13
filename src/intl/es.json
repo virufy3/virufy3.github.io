@@ -9,10 +9,42 @@
     "email": "info@virufy.org",
     "address": "4546 El Camino Real B10 #614, Los Altos, California 94022, USA"
   },
+  "getInvolved": {
+    "topFold": {
+      "joinTitle": "Unete a la lucha para parar el COVID",
+      "details": "Damos la bienvenida a personas apasionadas de todos los orígenes y experiencia para ayudarnos a terminar con el COVID-19.\n\nYa seas un experto en ayuda humanitaria o simplemente estés ansioso por marcar la diferencia, hay muchas formas de involucrarse en la misión de Virufy."
+    },
+    "donate": {
+      "title": "Realiza una donación",
+      "details": "Done ahora para ayudar a Virufy a realizar su trabajo vital de brindar un diagnóstico rápido y gratuito de enfermedades a todos.\n\nTodo ayuda; no podríamos hacerlo sin el apoyo financiero de colaboradores como usted.",
+      "donateButton": "Dona para apoyar nuestra organización"
+    },
+    "shareCough": {
+      "title": "Comparte tu tos",
+      "details": "Damos la bienvenida a las “donaciones“ de tos para ayudar a expandir nuestra base de datos y refinar la capacidad predictiva de nuestra IA para reconocer COVID-19.\n\nTodo lo que se necesita es un dispositivo móvil, la aplicación Virufy y su tos.",
+      "getTheApp": "Descarga la Aplicación",
+      "irbDisclaimer": "Todos los datos se recopilan de acuerdo con el protocolo IRB.",
+      "learnMoreLink": "Saber más"
+    },
+    "nextSteps": {
+      "contribute": {
+        "title": "Contribuya con su experiencia",
+        "details": "Trabajamos con la ciencia, la medicina, la tecnología y otros profesionales y expertos en todo el mundo para dar forma y cumplir la misión de Virufy.",
+        "question": "¿Quiere participar?",
+        "linkText": "Pongase en contacto"
+      },
+      "join": {
+        "title": "Unete al equipo de Virufighters",
+        "details": "Somos una organización dirigida por jóvenes que fomenta un entorno de aprendizaje positivo con impacto mundial. Nuestros voluntarios abarcan más de 15 países y cada uno aporta sus perspectivas únicas.",
+        "question": "¿Emocionado por ayudar?",
+        "linkText": "Mira nuestros roles disponibles"
+      }
+    }
+  },
   "index": {
     "section1": {
       "header": "Transformando la salud del mundo un clic a la vez",
-      "pg": "Virufy es una organización dirigida por voluntarios que utiliza la inteligencia artificial (IA) para <span class=\"font-bold\">diagnosticar COVID-19</span> a partir de patrones de tos, <span class=\"font-bold\"> rápidamente</span> y <span className=\"bold\">sin costo</span> alguno mediante el uso de un smartphone",
+      "pg": "Virufy es una organización dirigida por voluntarios que utiliza la inteligencia artificial (IA) para <span class=\"font-bold\">diagnosticar COVID-19</span> a partir de patrones de tos, <span class=\"font-bold\"> rápidamente</span> y <span className=\"font-bold\">sin costo</span> alguno mediante el uso de un smartphone",
       "coughLink": "CONTRIBUYE CON TU TOS",
       "donateLink": "DONA"
     },
@@ -47,10 +79,181 @@
     "language": "Español",
     "donateCough": "Dona tu tos"
   },
+  "news": {
+    "headers": {
+      "header": "Virufy en las noticias"
+    },
+    "news": {
+      "section2": {
+        "date": "Octubre 2020",
+        "title": "VIRUFY: plataforma que permite detectar si estamos contagiados con COVID-19",
+        "name": "Expreso",
+        "city": "Lima, ",
+        "country": "Perú",
+        "readMoreLink": "Leer más..."
+      },
+      "section3": {
+        "date": "Mayo 2020",
+        "title": "One Young World Japan Ambassador Targets COVID-19 Using A.I.",
+        "name": "One Young World",
+        "city": "Tokyo, ",
+        "country": "Japón",
+        "readMoreLink": "Leer más..."
+      },
+      "section4": {
+        "date": "2020",
+        "title": "North American Ambassadors on the Frontlines of the COVID-19 Response",
+        "name": "One Young World",
+        "city": " ",
+        "country": " ",
+        "readMoreLink": "Leer más..."
+      },
+      "section5": {
+        "date": "Julio 2020",
+        "title": "Ambassadors of the Month Julio",
+        "name": "One Young World",
+        "city": " ",
+        "country": " ",
+        "readMoreLink": "Leer más..."
+      },
+      "section6": {
+        "date": "Julio 2020",
+        "title": "Thousands attend OYW's global digital events in Julio: A recap of what you've missed",
+        "name": "One Young World",
+        "city": " ",
+        "country": " ",
+        "readMoreLink": "Leer más..."
+      },
+      "section7": {
+        "date": "2020",
+        "title": "One Young World Tokyo 2020 Caucus",
+        "name": "One Young World",
+        "city": " ",
+        "country": " ",
+        "readMoreLink": "Leer más..."
+      },
+      "section8": {
+        "date": "2020",
+        "title": "Virufy Presentation to One Young World Tokyo 2020 Cacus",
+        "name": "One Young World",
+        "city": "Tokyo, ",
+        "country": "Japón",
+        "readMoreLink": "Leer más..."
+      },
+      "section9": {
+        "date": "2020",
+        "title": "Sounds of COVID-19 Workshop",
+        "name": "One Young World",
+        "city": " ",
+        "country": " ",
+        "readMoreLink": "Leer más..."
+      }
+    }
+  },
+  "ourApproach": {
+    "topFold": {
+      "diagnoseDisease": "La IA como facilitadora para diagnosticar la enfermedad",
+      "acrossNations": "Creemos que todos deberían tener un acceso rápido y asequible a la atención médica.",
+      "usingTechnology": "Aprovechamos la inteligencia artificial para lograr este objetivo.",
+      "algorithmInfo": "Con la ayuda de investigaciones de vanguardia de algunas de las instituciones más prestigiosas del mundo, Stanford, Princeton, Cambridge, estamos desarrollando un algoritmo de inteligencia artificial que diagnostica con precisión el COVID-19 con solo analizar los sonidos de la tos de una persona.",
+      "readWhitePaper": "Lee nuestro white paper",
+      "wantToLearnMore": "DESEA SABER MÁS?"
+    },
+    "research": {
+      "universityOfCambridge": {
+        "title": "Explorando el diagnóstico automático de COVID-19 a partir de datos de sonido respiratorio de fuentes colectivas",
+        "description": "Investigación de colaboración colectiva recopilada por la Universidad de Cambridge que utilizó muestras de tos y respiración para mostrar cómo los sonidos de COVID-19 son discernibles de aquellos en controles sanos o asmáticos. Sus resultados muestran que incluso un clasificador de aprendizaje automático binario simple es capaz de clasificar correctamente los sonidos sanos y sonidos de COVID-19. Este trabajo proporciona una base para una mayor investigación de cómo los patrones respiratorios analizados automáticamente podrían usarse como señales de preselección para ayudar al diagnóstico de COVID-19.",
+        "source": "University of Cambridge"
+      },
+      "carnegieMellonUniversity": {
+        "title": "Detector de voz COVID",
+        "description": "Un estudio de la Universidad Carnegie Mellon tenía como objetivo recoger un gran número de muestras de voz para entrenar la IA para el diagnóstico de COVID. El fundamento del estudio es que \"el sonido de nuestra voz (independientemente del idioma), y los sonidos que hacemos cuando respiramos o tosemos cambian cuando nuestro sistema respiratorio se ve afectado. Los cambios van desde cambios gruesos y claramente audibles, hasta cambios diminutos - lo que llamamos \"micro\" señales, que no son audibles para el oyente no entrenado, pero que sin embargo están presentes\"",
+        "source": "Carnegie Mellon University"
+      },
+      "MIT": {
+        "title": "Hola Sigma, ¿tengo el Coronavirus? Convocatoria para un nuevo enfoque de inteligencia artificial para apoyar a los profesionales de la salud que tratan con la pandemia de COVID-19.",
+        "description": "El Departamento de Ingeniería Mecánica del MIT propone la detección de casos positivos de COVID mediante la recolección de muestras de tos a través del teléfono para entrenar la inteligencia artificial y posteriormente construir un algoritmo de diagnóstico. Esto acentua el interés de los expertos en nuestra idea.",
+        "source": "Massachusetts Institute of Technology (MIT)"
+      },
+      "various": {
+        "title": "La IA permitió el diagnóstico anticipado de COVID-19 a partir de muestras de tos a partir de una aplicación",
+        "description": "SUn estudio diseñado para recoger muestras de tos para entrenar y utilizar la arquitectura de la IA que minimiza los diagnósticos erróneos. Predice que en el momento de escribir este artículo, su motor de IA puede distinguir entre la tos de los pacientes con COVID-19 y varios tipos de tos sin COVID-19 con más de un 90% de precisión.",
+        "source": "(Multiples)"
+      },
+      "universityOfEngineeringPakistan": {
+        "title": "Análisis del sonido de la tos para la clasificación de la neumonía y el asma en la población pediátrica",
+        "description": "Se utilizó la IA para distinguir entre la tos del asma y la neumonía, con el objetivo de prestar asistencia médica a los países en desarrollo de escasos recursos. Su método alcanzó una sensibilidad del 89%, una especificidad del 100% y un Kappa del 0,89. Sus resultados muestran el uso potencial de la IA en la detección y diferenciación de los sonidos respiratorios.",
+        "source": "University of Engineering & Technology, Pakistan"
+      },
+      "imperialCollegeLondon": {
+        "title": "Un algoritmo basado en la tos para el diagnóstico automático de la tos ferina",
+        "description": "Los investigadores del Imperial College de Londres recolectaron sonidos de tos y jadeos relacionados con la tosferina, Laringotraqueobronquitis y otras enfermedades como la bronquiolitis y el asma para entrenar a la IA a fin de detectar la tosferina. Su algoritmo pudo diagnosticar con éxito toda la tosferina a partir de grabaciones de audio, detectando automáticamente los sonidos de tos individuales con una precisión del 92% y un PPV del 97%. Su resultado respalda el uso de la IA como un candidato potencial para diferenciar y diagnosticar los sonidos respiratorios.",
+        "source": "Department of Electrical and Electronic Engineering, Imperial College London"
+      }
+    },
+    "collaboration": {
+      "title": "Building the solution through open data",
+      "description": "Creemos que la colaboración es clave para superar el COVID-19 y estamos comprometidos con el uso de datos abiertos para estimular la innovación.",
+      "sharedData": {
+        "we": "Compartimos ",
+        "activelyShareLink": "activamente nuestros datos de tos producidos por el COVID-19",
+        "withTheAim": " con el objetivo de crear una ",
+        "communityOfResearchersLink": "comunidad de investigadores y creadores de soluciones."
+      },
+      "accuracy": {
+        "title": "Precisión",
+        "description": "Los datos se recopilan en hospitales bajo la supervisión de médicos que siguen los procedimientos operativos estándar."
+      },
+      "privacy": {
+        "title": "Privacidad",
+        "description": "Todos los datos se recopilaron con el consentimiento informado del paciente según el protocolo IRB."
+      },
+      "collaboration": {
+        "title": "Colaboración",
+        "segmentedSamples": "Hemos puesto a disposición 121 muestras clínicas segmentadas de tos en ",
+        "githubLink": "GitHub",
+        "labelled": ". Cada uno está etiquetado con el estado de la prueba de PCR COVID-19 y la edad, el sexo y el historial médico del paciente."
+      }
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes (FAQ)",
+      "missionCategory": "Visión y Misión de Virufy",
+      "nonprofitQ": "¿Virufy es una organización sin fines de lucro?",
+      "nonprofitA": "Virufy es una corporación de beneficio público sin fines de lucro registrada en California. Sin embargo, nuestra aprobación oficial del estado 501 (c) (3) podría demorar hasta mediados de 2021, ya que el IRS está retrasado debido a COVID-19.",
+      "postVaccineQ": "¿Cuáles son sus planes para Virufy después de la vacuna COVID-19?",
+      "postVaccineA": "Anticipamos que los países de bajos ingresos no tendrán los recursos financieros y la infraestructura médica para vacunar a su población y que las pruebas rápidas y equitativas de COVID-19 seguirán siendo importantes para controlar la pandemia, especialmente en esos países.",
+      "postControlQ": "¿Cuáles son sus planes para Virufy después de que COVID-19 esté bajo control?",
+      "postControlA": "Virufy tiene como objetivo poner fin a la propagación de diversas enfermedades transmisibles, mediante pruebas generalizadas basadas en teléfonos inteligentes que se pueden utilizar siempre que una comunidad se sienta en riesgo de propagación del virus. Anticipamos que la misma tecnología de inteligencia artificial se puede adaptar para detectar otros coronavirus, incluidos el resfriado común y la influenza.",
+      "detectionCategory": "Detección",
+      "distinguishableQ": "¿Cómo se pueden distinguir las toses de COVID-19?",
+      "distinguishableA": "Al igual que todas las demás enfermedades respiratorias, el COVID-19 crea una firma respiratoria única en la garganta y los pulmones que es distinta de otras infecciones respiratorias que producen tos húmeda. En consecuencia, se ha sugerido que los sonidos de la tos pueden analizarse para detectar el COVID-19. A nivel mundial, esta idea está siendo investigada activamente por varias instituciones prestigiosas, incluidas CMU8, MIT11 y Cambridge7. Por ejemplo, una investigación de crowdsource realizada por la Universidad de Cambridge mostró que un clasificador binario de aprendizaje automático simple es capaz de clasificar a los pacientes con el COVID-19 positivos a través de sonidos de respiración y tos con alta precisión (AUC = 0,7). De manera similar, los investigadores de CMU identificaron 18 características de la voz que distinguen a los pacientes con el COVID-19 positivos y entrenaron un modelo para diagnosticar el COVID-19 con una precisión del 89,1%.",
+      "diagnosisQ": " ¿Cómo predecirá el algoritmo de inteligencia artificial de Virufy un diagnóstico de COVID-19?",
+      "diagnosisA": "Sobre la base de esta investigación anterior, Virufy está desarrollando un algoritmo de inteligencia artificial que se puede utilizar para predecir con precisión una infección por COVID-19 en cuestión de minutos basándose en grabaciones de sonidos de tos. Sin embargo, a diferencia de las investigaciones anteriores sobre la tos de COVID-19 que se dirigieron a la población de EE. UU., Virufy tiene como objetivo recopilar datos de múltiples sitios en todo el mundo. Como una iniciativa dirigida por estudiantes con voluntarios que abarcan varios países, Virufy está desarrollando un modelo de diagnóstico COVID-19 con mayor inclusión racial y espacial a través de datos que incluyen una variedad de etnias y diferencias fonológicas específicas de cada comunidad.",
+      "privacyCategory": "Tech & Data Privacy",
+      "dataStorageQ": "¿Cómo almacenará Virufy mis datos de forma segura?",
+      "dataStorageA": "Usamos JotForm y Amazon Web Services (AWS) para la recopilación de datos de estudios de investigación. JotForm y AWS almacenan los datos en una aplicación segura con acceso y controles restringidos. Sus datos se almacenarán con JotForm o AWS hasta que los descarguemos. Almacenaremos los datos en una base de datos con acceso restringido. Si desea obtener más información sobre cómo Jotform y AWS almacenan sus datos, visite sus respectivas políticas de privacidad en https://www.jotform.com/privacy/ y https://aws.amazon.com/en/privacy/. Si desea obtener más información, consulte la política de privacidad de Virufy.",
+      "privacyThreatsQ": "¿Mi privacidad corre riesgo de quedar expuesta cuando dono mi tos a Virufy?",
+      "privacyThreatsA": "Nuestros sólidos equipos legales y de seguridad de la información han desarrollado una DPIA para abordar los posibles riesgos y amenazas para su privacidad. Almacenaremos sus datos personales en una forma que nos permita identificarlo por un máximo de 4 (cuatro) meses en una base de datos segura con acceso restringido. Después de 4 (cuatro) meses, eliminaremos toda la información de sus datos personales (por ejemplo, su nombre e información de contacto) y la agregaremos con la información de otros, de modo que no pueda ser identificado razonablemente como un individuo. Para evitar dudas, lo que conservaremos a largo plazo son datos biométricos y de salud anonimizados, como registros de tos, con el fin de futuras investigaciones sobre virus y otras afecciones médicas. Si desea obtener más información, consulte la política de privacidad de Virufy.",
+      "privacyPolicyQ": "¿Virufy tiene una política de privacidad y una política de cookies?",
+      "privacyPolicyA": "Virufy se toma en serio su privacidad y nuestro equipo legal ha preparado una política de privacidad detallada y una política de cookies para proteger la información personal que comparte con nosotros mediante el uso de nuestro sitio web, la participación en nuestro estudio de donación de tos, el contacto con nosotros y las solicitudes de voluntariado.",
+      "thirdPartiesQ": "¿Se compartirán mis datos con terceros?",
+      "thirdPartiesA": "Si opta por compartir su información de contacto (por ejemplo, correo electrónico y número de teléfono) con nosotros, no distribuiremos ninguna de esta información identificable a ningún tercero, incluso con fines de investigación, sin su consentimiento explícito. Sin embargo, podemos compartir su información anónima, como los sonidos de su tos, con terceros a fin de acelerar los esfuerzos de investigación global para detener la pandemia de COVID-19 y otras propagaciones futuras de enfermedades. Puede encontrar más detalles en nuestra política de privacidad y en el formulario de consentimiento del estudio de recopilación de datos.",
+      "validTechnologyQ": "¿Ya se ha validado la tecnología?",
+      "validTechnologyA": "Sí, varios grupos en todo el mundo han validado que la tos contiene patrones detectables que indican la presencia de COVID-19. Creemos que el despliegue de la tecnología es solo una cuestión de tiempo y colaboración. Se pueden encontrar más detalles en nuestra página de investigación. También puede leer acerca de nuestros nuevos hallazgos en nuestro artículo de investigación.",
+      "financeCategory": "Financiero",
+      "financialContributionQ": "¿Necesito hacer una contribución monetaria si estoy donando mi tos?",
+      "financialContributionA": "No.",
+      "appCostQ": "¿Tendrán que pagar los usuarios para utilizar la aplicación?",
+      "appCostA": "Como organización sin fines de lucro, nuestra intención es hacer que la aplicación sea gratuita para todos, especialmente en países de bajos ingresos. Sin embargo, es posible que debamos cobrar una tarifa nominal para respaldar nuestras operaciones en caso de que no podamos recaudar suficientes fondos.",
+      "generalCategory": "General",
+      "moreQuestionsQ": "¿Y si tengo más preguntas?",
+      "moreQuestionsA": "Se pueden encontrar más detalles en nuestra política de privacidad completa, política de cookies y formulario de consentimiento que está integrado en la aplicación de recopilación de datos. Si tiene preguntas relacionadas con el estudio de recopilación de datos, envíenos un correo electrónico a study@virufy.org. Para consultas relacionadas con datos, puede ser contactado en open-data@virufy.org. Para todas las demás consultas, puede comunicarse con nosotros en info@virufy.org"
+    }
+  },
   "team": {
     "supportersSection": {
-      "header": "Nuestros patrocinadores",
-      "supporterText": "Virufy es un proyecto del<a target=\"_blank\" rel=\"noreferrer\" href=\"\" class=\"underline\"/>SLaboratorio de Innovación de Respuesta COVID-19 de Stanford</a> y también aparece en a target=\"_blank\" rel=\"noreferrer\" href=\"\" class=\"underline\"/>One Young World</a>"
+      "header": "Nuestros Patrocinadores",
+      "supporterText": "Virufy es un proyecto del<a target=\"_blank\" rel=\"noreferrer\" href=\"\" class=\"underline\"/>SLaboratorio de Innovación de Respuesta COVID-19 de Stanford</a> y también aparece en <a target=\"_blank\" rel=\"noreferrer\" href=\"\" class=\"underline\"/>One Young World</a>"
     },
     "teamSection": {
       "header": "Nuestra Organización",

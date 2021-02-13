@@ -9,10 +9,42 @@
     "email": "info@virufy.org",
     "address": "4546 El Camino Real B10 #614, Los Altos, California 94022, USA"
   },
+  "getInvolved": {
+    "topFold": {
+      "joinTitle": "Junte-se a luta para acabar com o COVID",
+      "details": "Damos as boas-vindas a pessoas apaixonadas de todas as origens e experiências para nos ajudar a encerrar o COVID-19.\n\nSeja você um humanitário, especialista ou simplesmente ansioso para causar um impacto, há uma infinidade de maneiras de se envolver com a missão de Virufy."
+    },
+    "donate": {
+      "title": "Faça uma doação",
+      "details": "Doe agora para ajudar o Virufy a realizar seu trabalho vital de levar o diagnóstico de doenças rápido e gratuito a todos.\n\nTudo ajuda - não poderíamos fazer isso sem o apoio financeiro de contribuintes como você. ",
+      "donateButton": "Doe para ajudar a nossa organização"
+    },
+    "shareCough": {
+      "title": "Compartilhe a sua tosse",
+      "details": "Aceitamos “doações” de tosse para ajudar a expandir nosso banco de dados e refinar a capacidade de previsão de nossa IA para reconhecer COVID-19.\n\nTudo o que é necessário é um dispositivo móvel, o aplicativo Virufy e sua tosse.",
+      "getTheApp": "Obtenha o app",
+      "irbDisclaimer": "Todos os dados são coletados em conformidade com o protocolo IRB.",
+      "learnMoreLink": "Saber mais"
+    },
+    "nextSteps": {
+      "contribute": {
+        "title": "Contribua com sua experiência",
+        "details": "Trabalhamos com ciência, medicina, tecnologia e outros profissionais especializados em todo o mundo para moldar e cumprir a missão de Virufy.",
+        "question": "Buscando se envolver?",
+        "linkText": "Por favor entre em contato"
+      },
+      "join": {
+        "title": "Junte-se ao time Virufighter",
+        "details": "Somos uma organização liderada por jovens que promove um ambiente de aprendizagem positivo com impacto mundial. Nossos voluntários abrangem mais de 15 países, cada um contribuindo com suas perspectivas únicas.",
+        "question": "Animado em ajudar?",
+        "linkText": "Veja nossos cargos disponíveis"
+      }
+    }
+  },
   "index": {
     "section1": {
       "header": "Transformando a saúde global um clique de cada vez",
-      "pg": "O Virufy é uma organização guiada por voluntários que utiliza Inteligência Artificial (IA) para <span class=\"font-bold\">diagnosticar COVID-19</span> através de padrões de tosse, <span class=\"font-bold\"> rapidamente</span> e <span className=\"bold\">sem custos</span> através de um smartphone.",
+      "pg": "O Virufy é uma organização guiada por voluntários que utiliza Inteligência Artificial (IA) para <span class=\"font-bold\">diagnosticar COVID-19</span> através de padrões de tosse, <span class=\"font-bold\"> rapidamente</span> e <span className=\"font-bold\">sem custos</span> através de um smartphone.",
       "coughLink": "CONTRIBUA COM SUA TOSSE",
       "donateLink": "DOE"
     },
@@ -37,12 +69,83 @@
       "header2": "Somos apoiados por"
     }
   },
+  "news": {
+    "headers": {
+      "header": "Virufy como visto nas notícias"
+    },
+    "news": {
+      "section2": {
+        "date": "Outubro 2020",
+        "title": "VIRUFY: plataforma que permite detectar si estamos contagiados con COVID-19",
+        "name": "Expreso",
+        "city": "Lima, ",
+        "country": "Peru",
+        "readMoreLink": "Leia mais..."
+      },
+      "section3": {
+        "date": "Maio 2020",
+        "title": "One Young World Japan Ambassador Targets COVID-19 Using A.I.",
+        "name": "One Young World",
+        "city": "Tokyo, ",
+        "country": "Japão",
+        "readMoreLink": "Leia mais..."
+      },
+      "section4": {
+        "date": "2020",
+        "title": "North American Ambassadors on the Frontlines of the COVID-19 Response",
+        "name": "One Young World",
+        "city": " ",
+        "country": " ",
+        "readMoreLink": "Leia mais..."
+      },
+      "section5": {
+        "date": "Julho 2020",
+        "title": "Ambassadors of the Month Julho",
+        "name": "One Young World",
+        "city": " ",
+        "country": " ",
+        "readMoreLink": "Leia mais..."
+      },
+      "section6": {
+        "date": "Julho 2020",
+        "title": "Thousands attend OYW's global digital events in Julho: A recap of what you've missed",
+        "name": "One Young World",
+        "city": " ",
+        "country": " ",
+        "readMoreLink": "Leia mais..."
+      },
+      "section7": {
+        "date": "2020",
+        "title": "One Young World Tokyo 2020 Caucus",
+        "name": "One Young World",
+        "city": " ",
+        "country": " ",
+        "readMoreLink": "Leia mais..."
+      },
+      "section8": {
+        "date": "2020",
+        "title": "Virufy Presentation to One Young World Tokyo 2020 Cacus",
+        "name": "One Young World",
+        "city": "Tokyo, ",
+        "country": "Japão",
+        "readMoreLink": "Leia mais..."
+      },
+      "section9": {
+        "date": "2020",
+        "title": "Sounds of COVID-19 Workshop",
+        "name": "One Young World",
+        "city": " ",
+        "country": " ",
+        "readMoreLink": "Leia mais..."
+      }
+    }
+  },
   "ourApproach": {
     "topFold": {
       "diagnoseDisease": "A Inteligência Artificial é uma facilitadora no diagnóstico de doenças",
       "acrossNations": "Acreditamos que todos devem ter acesso rápido e acessível aos cuidados de saúde.",
       "usingTechnology": "Estamos aproveitando a inteligência artificial para atingir esse objetivo",
-      "algorithmInfo": "Com a ajuda da pesquisa de ponta de algumas das instituições mais prestigiadas do mundo - Stanford, Princeton, Cambridge - estamos desenvolvendo um algoritmo de IA que diagnostica COVID-19 com precisão apenas analisando os sons da tosse de uma pessoa",
+      "algorithmInfo": "Com a ajuda da pesquisa de ponta de algumas das instituições mais prestigiadas do mundo - Stanford, Princeton, Cambridge - estamos desenvolvendo um algoritmo de IA que diagnostica COVID-19 com precisão apenas analisando os sons da tosse de uma pessoa.",
       "readWhitePaper": "Leia nosso white paper",
       "wantToLearnMore": "QUER SABER MAIS?"
     },
@@ -54,7 +157,7 @@
       },
       "carnegieMellonUniversity": {
         "title": "Detector de voz COVID",
-        "description": "Um estudo da Carnegie Mellon University teve como objetivo coletar um grande número de amostras de voz para treinar IA para o diagnóstico de COVID. A justificativa por trás do estudo é que \"o som da nossa voz (independentemente do idioma) e os sons que fazemos quando respiramos ou tossimos mudam quando nosso sistema respiratório é afetado. As mudanças variam de mudanças grosseiras e claramente audíveis a minutos mudanças - o que chamamos de \"micro\" assinaturas, que não são audíveis para o ouvinte não treinado, mas estão presentes",
+        "description": "Um estudo da Carnegie Mellon University teve como objetivo coletar um grande número de amostras de voz para treinar IA para o diagnóstico de COVID. A justificativa por trás do estudo é que \"o som da nossa voz (independentemente do idioma) e os sons que fazemos quando respiramos ou tossimos mudam quando nosso sistema respiratório é afetado. As mudanças variam de mudanças grosseiras e claramente audíveis a minutos mudanças - o que chamamos de \"micro\" assinaturas, que não são audíveis para o ouvinte não treinado, mas estão presentes\"",
         "source": "Carnegie Mellon University"
       },
       "MIT": {
@@ -104,7 +207,7 @@
     },
     "faq": {
       "title": "Perguntas Frequentemente Feitas (FAQ)",
-      "missionCategory": "Missão e Visão de Virufy",
+      "missionCategory": "Visão e Missão de Virufy",
       "nonprofitQ": "O Virufy é uma organização sem fins lucrativos?",
       "nonprofitA": "O Virufy é uma corporação sem fins lucrativos que visa o benefício público registrada na Califórnia. No entanto, a aprovação do nosso status oficial segundo a legislação americana, relacionada a seção 501(c)(3), pode demorar até a metade de 2021 enquanto a Internal Revenue Servise (IRS) (Agência federal americana que funciona como serviço de receita do governo) está sobrecarregada em decorrência do COVID-19.",
       "postVaccineQ": "Quais os seus planos para o Virufy após a vacina de COVID-19?",
@@ -135,6 +238,173 @@
       "generalCategory": "Geral",
       "moreQuestionsQ": "E se eu tiver mais perguntas?",
       "moreQuestionsA": "Mais detalhes podem ser encontrados em nossas Política de Privacidade, Política de Cookies, e Formulário de Consentimento que estão incutidos no nosso App de coleta de dados. Para questões relacionadas ao estudo de coleta de dados, por favor nos contate por meio do email study@virufy.org . Para consultas relacionadas a dados, nós podemos ser contatados através do email open-data@virufy.org . Para quaisquer outras dúvidas, você pode entrar em contato por meio do email info@virufy.org"
+    }
+  },
+  "team": {
+    "supportersSection": {
+      "header": "Our supporters",
+      "supporterText": "Virufy is a <a target=\"_blank\" rel=\"noreferrer\" href=\"\" class=\"underline\"/>Stanford COVID-19 Response Innovation Lab</a> project and is also featured in <a target=\"_blank\" rel=\"noreferrer\" href=\"\" class=\"underline\"/>One Young World</a>"
+    },
+    "teamSection": {
+      "header": "Our people",
+      "pg1": "Meet the dozens of people volunteering across five continents to bring Virufy to the world.",
+      "teamLeadText": "Virufighter Team Leads",
+      "advisorText": "Advisors",
+      "leadership": {
+        "amil": {
+          "name": "Amil Khanzada",
+          "description": "One Young World Japan Ambassador\nAlumni, UC Berkeley Computer Science",
+          "title": "Founder & CTO"
+        },
+        "daria": {
+          "name": "Daria Butuc",
+          "description": "Head of Engineering, Project Access\nB.S., University College London",
+          "title": "Vice President"
+        },
+        "ravel": {
+          "name": "Ravel Charles",
+          "description": "Cloud Solutions Engineer, Google\nM.P.S. Data Security, Northeastern University",
+          "title": "Infosec Team Lead"
+        },
+        "matheus": {
+          "name": "Matheus Galiza",
+          "description": "Public Policy Committee\nJovenes Iberoamericanos\nM.A. International Relations, Federal University of Paraíba",
+          "title": "Brazil Community Outreach Manager"
+        },
+        "bruna": {
+          "name": "Bruna Lourenço",
+          "description": "UX/UI Designer, ThinkBox\nGraphic Design, Federal Institute of Education, Science and Technology of Paraíba",
+          "title": "UI Team Lead"
+        },
+        "jonatan": {
+          "name": "Jonatan Jaskilioff",
+          "description": "CTO - XOOR",
+          "title": "Mobile App Team Lead"
+        },
+        "marcos": {
+          "name": "Marcos Deza",
+          "description": "One Young World Argentina Ambassador\nM.A. Public Relations, Ott Educación Superior",
+          "title": "Latin America Digital Communications Lead"
+        },
+        "xhoana": {
+          "name": "Xhoana Koca",
+          "description": "Website and Mobile App Developer\nB.S., CUNY NYC College of Technology",
+          "title": "Web Dev Team Lead"
+        },
+        "gunvant": {
+          "name": "Gunvant Chaudhari",
+          "description": "Big Data In Radiology Researcher\nM.D. Student, UC San Francisco",
+          "title": "AI Team Lead"
+        },
+        "jason": {
+          "name": "Jason Pareja Jauregui",
+          "description": "One Young World Latin America Coordinating Ambassador\nGraduate, MIT Sloan School of Management",
+          "title": "Peru Community Outreach Manager"
+        },
+        "maria": {
+          "name": "Maria Eleni Pasia",
+          "description": "Qualified Lawyer, Athens Bar Association\nLL.M Media & Technology Law, UCLA",
+          "title": "Data Privacy Team Lead"
+        },
+        "sebastian": {
+          "name": "Sebastian Pedraza",
+          "description": "One Young World Colombia Ambassador\nYPARD Steering Committee Member\nPolitical Science, International University of La Rioja",
+          "title": "Colombia Community Outreach Manager"
+        },
+        "holly": {
+          "name": "Holly Boerner",
+          "description": "Visual & Brand Strategy\nHolly Boerner Design",
+          "title": "Web UI Team Lead"
+        }
+      },
+      "advisors": {
+        "kara": {
+          "name": "Kara Meister, M.D.",
+          "description": "Clinical Assistant Professor, Otolaryngology\nStanford School of Medicine",
+          "title": "Medical Advisor"
+        },
+        "jure": {
+          "name": "Jure Leskovec",
+          "description": "Chief Scientist - Pinterest\nAssociate Professor, AI\nStanford School of Engineering",
+          "title": "Artificial Intelligence Advisor"
+        },
+        "rafi": {
+          "name": "Rafi Azim-Khan",
+          "description": "Partner - Pillsbury Law\nSilicon Valley & Europe",
+          "title": "Executive Legal Advisor"
+        },
+        "nathan": {
+          "name": "Nathan Thomas",
+          "description": "One Young World Ambassador\nFounder and CEO - All We Are",
+          "title": "Executive Nonprofit Advisor"
+        },
+        "madhav": {
+          "name": "Madhav Datt",
+          "description": "Founder - Green the Gene\nFormer Global Representative for Youth - UN EP",
+          "title": "Executive Nonprofit Advisor"
+        },
+        "pedro": {
+          "name": "Pedro Siena",
+          "description": "Founder and CEO - Siena Company\nMentor - Stanford Lean Launchpad\nSão Carlos, Brazil",
+          "title": "Brazil Outreach Advisor"
+        },
+        "tsutomu": {
+          "name": "Tsutomu Ito",
+          "description": "Founder - Tannan FM Radio\nLead Architect, Bullet Train\nFukui, Japan",
+          "title": "Visionary Advisor"
+        },
+        "taisuke": {
+          "name": "Taisuke Fukuno",
+          "description": "Founder - Open Data Japan\nChairman - jig.jp\nFukui, Japan",
+          "title": "Executive Technology Advisor"
+        },
+        "richard": {
+          "name": "Richard Nall",
+          "description": "The Brand Garden - CEO",
+          "title": "Chief Marketing Officer"
+        }
+      }
+    },
+    "valuesSection": {
+      "less": "Less",
+      "more": "More",
+      "vision": {
+        "header": "Virufy's vision",
+        "pg1": "We aspire to be the leading not-for-profit organization for technology-enabled disease identification.",
+        "pg2": "Our innovations aim to offer superior detection for patients, clinicians and governments.",
+        "pg3": "We will be force for transforming global healthcare and inspiring support and investment in this mission."
+      },
+      "values": {
+        "transform": {
+          "header": "Transform",
+          "pg": "Healthcare systems are expensive and slow to change, but with technology we can drive transformation globally"
+        },
+        "world": {
+          "header": "World",
+          "pg": "We exist for everyone regardless of  background. We recognize the most pressing need is in emerging markets, but that healthcare can be inaccessible even in developed markets"
+        },
+        "free": {
+          "header": "Free",
+          "pg": "For many, healthcare is unaffordable. We see no reason why people should have to pay for expensive prevention and detection when it can be free with the help of technology"
+        },
+        "health": {
+          "header": "Health",
+          "pg": "People’s health is the most precious thing in the world. From health comes happiness, and from that comes social and economic success"
+        },
+        "oneTap": {
+          "header": "One tap",
+          "pg": "Our sole focus is on using technology to improve people’s health — that’s all we do. Our app(s) are sophisticated yet intuitive, delivering rapid detection to prevent virus spread and save lives"
+        },
+        "mobile": {
+          "header": "Mobile",
+          "pg": "Mobile devices have become ubiquitous in developing markets and can be utilized to deliver healthcare"
+        },
+        "header": "Our values"
+      },
+      "section4": {
+        "header": "Our supporters",
+        "pg1": "Virufy is a Stanford COVID-19 Response Innovation Lab project and is also featured in One Young World"
+      }
     }
   }
 }
