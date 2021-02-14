@@ -100,16 +100,28 @@ export const advisors = [
     imageName: "rafi",
   },
   {
-    mediaLink: "https://www.linkedin.com/in/namathom/",
-    id: "nathan",
-    defaultName: "Nathan Thomas",
-    imageName: "nathan",
+    mediaLink: "https://www.linkedin.com/in/richardnall/?originalSubdomain=uk",
+    id: "richard",
+    defaultName: "Richard Nall",
+    imageName: "richard",
   },
   {
     mediaLink: "https://www.linkedin.com/in/madhavdatt/",
     id: "madhav",
-    defaultName: "Madhav Datt",
+    defaultName: "Matt Prusak",
     imageName: "madhav",
+  },
+  {
+    mediaLink: "https://www.linkedin.com/in/matthewprusak/",
+    id: "matt",
+    defaultName: "Matt Prusak",
+    imageName: "matt",
+  },
+  {
+    mediaLink: "https://www.linkedin.com/in/namathom/",
+    id: "nathan",
+    defaultName: "Nathan Thomas",
+    imageName: "nathan",
   },
   {
     mediaLink: "https://www.linkedin.com/in/pedrosiena/",
@@ -128,11 +140,5 @@ export const advisors = [
     id: "taisuke",
     defaultName: "Taisuke Fukuno",
     imageName: "taisuke",
-  },
-  {
-    mediaLink: "https://www.linkedin.com/in/richardnall/?originalSubdomain=uk",
-    id: "richard",
-    defaultName: "Richard Nall",
-    imageName: "richard",
   },
 ];

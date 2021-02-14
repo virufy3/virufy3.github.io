@@ -4,7 +4,7 @@
     "cookiePolicy": "Política de cookies",
     "cookieSettings": "Configuración de las cookies",
     "privacyPolicy": "Política de privacidad",
-    "dontSellPersonalInfo": "Do Not Sell My Personal Information",
+    "dontSellPersonalInfo": "No Vendas Mi Información Personal",
     "copyrightInformation": "© Derechos de autor 2021 Virufy  |  Todos los derechos resrvados.",
     "email": "info@virufy.org",
     "address": "4546 El Camino Real B10 #614, Los Altos, California 94022, USA"
@@ -343,14 +343,24 @@
           "description": "Socio - Pillsbury Law\nSilicon Valley & Europe",
           "title": "Asesor Jurídico Ejecutivo"
         },
-        "nathan": {
-          "name": "Nathan Thomas",
-          "description": "One Young World Ambassador\nFounder and CEO - All We Are",
-          "title": "Asesor Ejecutivo"
+        "richard": {
+          "name": "Richard Nall",
+          "description": "The Brand Garden - CEO",
+          "title": "Director de Marketing"
         },
         "madhav": {
           "name": "Madhav Datt",
           "description": "Fundador - Green the Gene\nFAntiguo Representante global por la juventud - UN EP",
+          "title": "Asesor Ejecutivo"
+        },
+        "matt": {
+          "name": "Matt Prusak",
+          "description": "Director de Business, Curative Alumnus\nStanford Graduate School of Business",
+          "title": "Asesor Ejecutivo"
+        },
+        "nathan": {
+          "name": "Nathan Thomas",
+          "description": "One Young World Ambassador\nFounder and CEO - All We Are",
           "title": "Asesor Ejecutivo"
         },
         "pedro": {
@@ -367,11 +377,6 @@
           "name": "Taisuke Fukuno",
           "description": "Fundador - Open Data Japan\nChairman - jig.jp\nFukui, Japan",
           "title": "Asesor Ejecutivo Tecnológico"
-        },
-        "richard": {
-          "name": "Richard Nall",
-          "description": "The Brand Garden - CEO",
-          "title": "Director de Marketing"
         }
       }
     },
