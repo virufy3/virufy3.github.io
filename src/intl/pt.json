@@ -333,14 +333,24 @@
           "description": "Partner - Pillsbury Law\nSilicon Valley & Europe",
           "title": "Executive Legal Advisor"
         },
-        "nathan": {
-          "name": "Nathan Thomas",
-          "description": "One Young World Ambassador\nFounder and CEO - All We Are",
-          "title": "Executive Nonprofit Advisor"
+        "richard": {
+          "name": "Richard Nall",
+          "description": "The Brand Garden - CEO",
+          "title": "Chief Marketing Officer"
         },
         "madhav": {
           "name": "Madhav Datt",
           "description": "Founder - Green the Gene\nFormer Global Representative for Youth - UN EP",
+          "title": "Executive Nonprofit Advisor"
+        },
+        "matt": {
+          "name": "Matt Prusak",
+          "description": "Chief Business Officer, Curative Alumnus\nStanford Graduate School of Business",
+          "title": "Executive Advisor"
+        },
+        "nathan": {
+          "name": "Nathan Thomas",
+          "description": "One Young World Ambassador\nFounder and CEO - All We Are",
           "title": "Executive Nonprofit Advisor"
         },
         "pedro": {
@@ -357,11 +367,6 @@
           "name": "Taisuke Fukuno",
           "description": "Founder - Open Data Japan\nChairman - jig.jp\nFukui, Japan",
           "title": "Executive Technology Advisor"
-        },
-        "richard": {
-          "name": "Richard Nall",
-          "description": "The Brand Garden - CEO",
-          "title": "Chief Marketing Officer"
         }
       }
     },
