@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { changeLocale, IntlContextConsumer, useIntl } from "gatsby-plugin-intl";
 import { Link } from "gatsby";
 import virufyLogoLight from "../images/logos/virufy-logo.svg";
-import virufyLogoDark from "../images/logos/virufy-logo-dark.png";
+import virufyLogoDark from "../images/logos/virufy_logo_whitetext.png";
 import { useLocation } from "@reach/router";
 
 // svg for opening nav
