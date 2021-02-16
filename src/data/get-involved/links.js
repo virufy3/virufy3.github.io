@@ -3,5 +3,5 @@ export default {
   getTheAppLink: "https://virufy.org/app",
   learnMoreDisclaimerLink: "#",
   getInTouchLink: "mailto:info@virufy.org",
-  viewAvailableRolesLink: "#",
+  viewAvailableRolesLink: "https://virufy.org/join",
 };
