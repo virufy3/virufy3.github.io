@@ -1,7 +1,7 @@
 export default {
-  donateLink: "#",
-  getTheAppLink: "#",
+  donateLink: "https://virufy.org/app",
+  getTheAppLink: "https://virufy.org/app",
   learnMoreDisclaimerLink: "#",
-  getInTouchLink: "#",
+  getInTouchLink: "mailto:info@virufy.org",
   viewAvailableRolesLink: "#",
 };
