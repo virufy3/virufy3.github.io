@@ -29,7 +29,7 @@ export default ({ images }) => {
           <Link
             className="no-underline bg-green text-white px-4 py-2"
             target="_blank"
-            to={links.donateLink}
+            to="https://www.gofundme.com/f/virufy-nonprofit"
           >
             {intl.formatMessage({ id: "index.section1.donateLink" })}
           </Link>
