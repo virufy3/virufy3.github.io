@@ -21,7 +21,7 @@ export default ({ images }) => {
         <p className="mb-12">
           {intl.formatMessage({ id: "index.section4.pg2" })}
         </p>
-        <Link className="text-black bg-white px-8 py-4 mb-16 inline-block font-bold">
+        <Link className="no-underline text-black bg-white px-8 py-4 mb-16 inline-block font-bold">
           {intl.formatMessage({ id: "index.section4.knowUsLink" })}
         </Link>
         <GatsbyImage

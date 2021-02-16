@@ -7,7 +7,7 @@ export default ({ images }) => {
   const intl = useIntl();
   return (
     <section className="px-4 lg:px-0 lg:w-4/5 lg:mx-auto">
-      <h1 className="text-5xl font-bold mb-4">
+      <h1 className="text-3xl font-bold mb-4">
         {intl.formatMessage({ id: "index.section1.header" })}
       </h1>
       <div className="flex justify-between">
@@ -18,10 +18,13 @@ export default ({ images }) => {
               __html: intl.formatMessage({ id: "index.section1.pg" }),
             }}
           />
-          <Link className="bg-green text-white px-4 py-2 mb-2" to="">
+          <Link
+            className="no-underline bg-green text-white px-4 py-2 mb-2"
+            to=""
+          >
             {intl.formatMessage({ id: "index.section1.coughLink" })}
           </Link>
-          <Link className="bg-green text-white px-4 py-2" to="">
+          <Link className="no-underline bg-green text-white px-4 py-2" to="">
             {intl.formatMessage({ id: "index.section1.donateLink" })}
           </Link>
         </div>

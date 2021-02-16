@@ -1,15 +1,17 @@
 import React, { useState } from "react";
 import { changeLocale, IntlContextConsumer, useIntl } from "gatsby-plugin-intl";
 import { Link } from "gatsby";
-import virufyLogo from "../images/logos/virufy-logo.svg";
+import virufyLogoLight from "../images/logos/virufy-logo.svg";
+import virufyLogoDark from "../images/logos/virufy_logo_whitetext.png";
+import { useLocation } from "@reach/router";
 
 // svg for opening nav
-const HamburgerOpen = () => (
+const HamburgerOpen = ({ textColor }) => (
   <svg
     fill="none"
     viewBox="0 0 24 24"
     stroke="currentColor"
-    className="w-6 menu"
+    className={`w-6 ${textColor}`}
   >
     <path
       strokeLinecap="round"
@@ -21,8 +23,13 @@ const HamburgerOpen = () => (
 );
 
 // svg for closing nav
-const HamburgerClose = () => (
-  <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 x">
+const HamburgerClose = ({ textColor }) => (
+  <svg
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+    className={`w-6 ${textColor}`}
+  >
     <path
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -59,11 +66,11 @@ const navLinks = [
   },
 ];
 
-const MobileNav = ({ intl }) => {
+const MobileNav = ({ intl, textColor }) => {
   return (
     <div className="flex flex-wrap px-4 py-4 border-t border-gray-200">
       {navLinks.map((link) => (
-        <Link className="w-1/2 no-underline text-black" to={link.path}>
+        <Link className={`w-1/2 no-underline ${textColor}`} to={link.path}>
           {intl.formatMessage({ id: link.id, defaultMessage: link.defMsg })}
         </Link>
       ))}
@@ -100,7 +107,7 @@ const LangSelect = ({ bgColor, textColor }) => {
   );
 };
 
-const MobileNavToggle = ({ mobileNavOpen, setMobileNavOpen }) => {
+const MobileNavToggle = ({ mobileNavOpen, setMobileNavOpen, textColor }) => {
   const toggleNav = () => setMobileNavOpen(!mobileNavOpen);
 
   return (
@@ -108,7 +115,11 @@ const MobileNavToggle = ({ mobileNavOpen, setMobileNavOpen }) => {
       className="inline-block cursor-pointer lg:hidden"
       onClick={toggleNav}
     >
-      {mobileNavOpen ? <HamburgerClose /> : <HamburgerOpen />}
+      {mobileNavOpen ? (
+        <HamburgerClose textColor={textColor} />
+      ) : (
+        <HamburgerOpen textColor={textColor} />
+      )}
     </button>
   );
 };
@@ -116,22 +127,22 @@ const MobileNavToggle = ({ mobileNavOpen, setMobileNavOpen }) => {
 export default () => {
   const intl = useIntl();
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
+  const location = useLocation();
 
-  const isRuntime = typeof window !== "undefined"; // as opposed to build time
-
-  const [bgColor, textColor] =
-    isRuntime && window.location.href.includes("/team")
-      ? ["bg-black", "text-white"]
-      : ["bg-white", "text-black"];
-
-  console.log(bgColor, textColor);
+  //prettier-ignore
+  const [
+    bgColor, 
+    textColor, 
+    virufyLogo
+  ] = location.pathname.includes("/team")
+    ? ["bg-black", "text-white", virufyLogoDark]
+    : ["bg-white", "text-black", virufyLogoLight];
 
   const getLinkClasses = (link) => {
     return `hidden no-underline ${textColor} lg:inline-block ${link.styles}\
     ${
       link.path &&
-      isRuntime &&
-      window.location.href.includes(link.path) &&
+      location.pathname.includes(link.path) &&
       "font-bold border-b-4 border-green"
     }`;
   };
@@ -161,10 +172,11 @@ export default () => {
           <MobileNavToggle
             mobileNavOpen={mobileNavOpen}
             setMobileNavOpen={setMobileNavOpen}
+            textColor={textColor}
           />
         </div>
       </div>
-      {mobileNavOpen && <MobileNav intl={intl} />}
+      {mobileNavOpen && <MobileNav textColor={textColor} intl={intl} />}
     </nav>
   );
 };
