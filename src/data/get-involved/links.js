@@ -1,5 +1,5 @@
 export default {
-  donateLink: "https://virufy.org/app",
+  donateLink: "https://www.gofundme.com/f/virufy-nonprofit",
   getTheAppLink: "https://virufy.org/app",
   learnMoreDisclaimerLink: "#",
   getInTouchLink: "mailto:info@virufy.org",
