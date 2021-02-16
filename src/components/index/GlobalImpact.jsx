@@ -2,7 +2,6 @@ import React from "react";
 import GatsbyBgImage from "gatsby-background-image";
 import { Link } from "gatsby";
 import { useIntl } from "gatsby-plugin-intl";
-import links from "../../data/get-involved/links";
 
 export default ({ images }) => {
   const intl = useIntl();
@@ -26,7 +25,7 @@ export default ({ images }) => {
           <Link
             className="no-underline bg-white text-black mx-auto my-8 px-8 py-4 font-bold"
             target="_blank"
-            to={links.getTheAppLink}
+            to={"/app"}
           >
             {intl.formatMessage({ id: "index.section2.learnMoreLink" })}
           </Link>

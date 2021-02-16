@@ -22,7 +22,7 @@ export default ({ images }) => {
           <Link
             className="no-underline bg-green text-white px-4 py-2 mb-2"
             target="_blank"
-            to={links.donateLink}
+            to={"/app"}
           >
             {intl.formatMessage({ id: "index.section1.coughLink" })}
           </Link>

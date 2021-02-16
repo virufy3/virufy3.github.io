@@ -2,7 +2,7 @@ import React from "react";
 import { useIntl } from "gatsby-plugin-intl";
 import GatsbyImage from "gatsby-image";
 import { Link } from "gatsby";
-
+import supporter_links from "../../data/supporters_links";
 export default ({ images }) => {
   const intl = useIntl();
 
@@ -21,7 +21,11 @@ export default ({ images }) => {
         <p className="mb-12">
           {intl.formatMessage({ id: "index.section4.pg2" })}
         </p>
-        <Link className="no-underline text-black bg-white px-8 py-4 mb-16 inline-block font-bold">
+        <Link
+          className="no-underline text-black bg-white px-8 py-4 mb-16 inline-block font-bold"
+          target="_blank"
+          to={"/team"}
+        >
           {intl.formatMessage({ id: "index.section4.knowUsLink" })}
         </Link>
         <GatsbyImage
@@ -33,16 +37,20 @@ export default ({ images }) => {
           {intl.formatMessage({ id: "index.section4.header2" })}
         </h2>
         <div className="flex items-center">
-          <GatsbyImage
-            className="w-16 mr-4"
-            fluid={
-              images["stanford-h4r-logo transparent"].childImageSharp.fluid
-            }
-          />
-          <GatsbyImage
-            className="w-20"
-            fluid={images["OYW_blue_rgb"].childImageSharp.fluid}
-          />
+          <a href={supporter_links.stanford} target="_blank">
+            <GatsbyImage
+              className="w-16 mr-4"
+              fluid={
+                images["stanford-h4r-logo transparent"].childImageSharp.fluid
+              }
+            />
+          </a>
+          <a href={supporter_links.oneYoungWorld} target="_blank">
+            <GatsbyImage
+              className="w-20"
+              fluid={images["OYW_blue_rgb"].childImageSharp.fluid}
+            />
+          </a>
         </div>
       </div>
       <GatsbyImage
