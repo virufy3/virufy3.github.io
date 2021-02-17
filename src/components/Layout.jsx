@@ -1,6 +1,6 @@
 import React from "react";
 import SEO from "./SEO";
-import Navbar from "./Navbar";
+import Navbar from "./navbar/Navbar";
 import Footer from "./Footer";
 
 export default ({ children, className }) => {
