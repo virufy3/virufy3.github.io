@@ -1,3 +1,4 @@
+// btnStyle style to look like a button
 export default [
   {
     id: "nav.our_approach",
@@ -18,6 +19,7 @@ export default [
     id: "nav.get_involved",
     defMsg: "GET INVOLVED",
     path: "/get-involved",
+    btnStyle: true,
     classes: "text-white bg-primary py-2 px-6",
   },
 ];
