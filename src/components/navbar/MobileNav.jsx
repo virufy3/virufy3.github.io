@@ -10,6 +10,18 @@ export default ({ textColor, bgColor, virufyLogo }) => {
   const [navOpen, setNavOpen] = useState(false);
   const intl = useIntl();
 
+  const getLinkClasses = (link) => {
+    const isActiveLink = location.pathname.includes(link.path);
+
+    return link.btnStyle
+      ? `no-underline text-white py-2 px-6 ${
+          isActiveLink ? "bg-black" : "bg-primary"
+        }`
+      : `no-underline ${
+          isActiveLink ? "font-bold border-b-4 border-green" : ""
+        }`;
+  };
+
   return (
     <>
       <div className="flex items-baseline justify-between lg:hidden p-4">
@@ -35,7 +47,8 @@ export default ({ textColor, bgColor, virufyLogo }) => {
           >
             {navLinks.map((link) => (
               <Link
-                className={`no-underline ${link.classes ? link.classes : ""}`}
+                // className={`no-underline ${link.classes ? link.classes : ""}`}
+                className={getLinkClasses(link)}
                 to={link.path}
               >
                 {intl.formatMessage({
