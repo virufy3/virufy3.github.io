@@ -2,6 +2,7 @@ import React from "react";
 import { useIntl } from "gatsby-plugin-intl";
 import { Link } from "gatsby";
 import GatsbyImage from "gatsby-image";
+import links from "../../data/get-involved/links";
 
 export default ({ images }) => {
   const intl = useIntl();
@@ -18,15 +19,20 @@ export default ({ images }) => {
               __html: intl.formatMessage({ id: "index.section1.pg" }),
             }}
           />
-          <Link
+          <a
             className="no-underline bg-green text-white px-4 py-2 mb-2"
-            to=""
+            target="_blank"
+            href={"/app"}
           >
             {intl.formatMessage({ id: "index.section1.coughLink" })}
-          </Link>
-          <Link className="no-underline bg-green text-white px-4 py-2" to="">
+          </a>
+          <a
+            className="no-underline bg-green text-white px-4 py-2"
+            target="_blank"
+            href={links.donateLink}
+          >
             {intl.formatMessage({ id: "index.section1.donateLink" })}
-          </Link>
+          </a>
         </div>
         <div className="w-2/5 lg:flex items-end hidden">
           <GatsbyImage
