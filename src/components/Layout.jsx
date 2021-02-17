@@ -7,7 +7,7 @@ export default ({ children, className }) => {
   return (
     <>
       <SEO />
-      <header>
+      <header className="sticky top-0 z-10">
         <Navbar />
       </header>
       <main className={className}>{children}</main>

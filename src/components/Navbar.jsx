@@ -148,7 +148,7 @@ export default () => {
   };
 
   return (
-    <nav className={bgColor}>
+    <nav className={`${bgColor}`}>
       <div className="flex items-center justify-between py-3 px-6">
         <Link to="/">
           <img
