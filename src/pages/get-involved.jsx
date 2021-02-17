@@ -1,5 +1,5 @@
 import React, { useCallback } from "react";
-import { graphql , Link } from "gatsby";
+import { graphql, Link } from "gatsby";
 import { useIntl } from "gatsby-plugin-intl";
 import Img from "gatsby-image";
 import BackgroundImage from "gatsby-background-image";
@@ -27,14 +27,14 @@ export const query = graphql`
   }
 `;
 
-function NextStep({ id, findImage, className }) {
+function NextStep({ id, href, findImage, className }) {
   const intl = useIntl();
 
   const idMap = {
     contribute: "getInTouchLink",
     join: "viewAvailableRolesLink",
   };
-  const href = idMap[id];
+  // const href = idMap[id];
 
   return (
     <div className={`flex-1 ${className}`}>
@@ -57,7 +57,7 @@ function NextStep({ id, findImage, className }) {
           id: `getInvolved.nextSteps.${id}.question`,
         })}
       </p>
-      <a href={href} className="text-white">
+      <a href={href} target="_blank" className="text-white">
         {intl.formatMessage({
           id: `getInvolved.nextSteps.${id}.linkText`,
         })}
@@ -192,8 +192,17 @@ export default ({ data }) => {
       {/* Join Team */}
       <div className="bg-black text-white">
         <div className="container lg:flex">
-          <NextStep id="contribute" findImage={findImage} />
-          <NextStep className="mt-20 lg:mt-0" id="join" findImage={findImage} />
+          <NextStep
+            id="contribute"
+            href={links.getInTouchLink}
+            findImage={findImage}
+          />
+          <NextStep
+            className="mt-20 lg:mt-0"
+            id="join"
+            href={links.viewAvailableRolesLink}
+            findImage={findImage}
+          />
         </div>
       </div>
     </Layout>

@@ -111,13 +111,13 @@ export default ({ images }) => {
           </div>
         </div>
         <div className="w-full flex justify-center">
-          <Link
+          <a
             target="_blank"
-            to={links.donateLink}
+            href={"/app"}
             className="inline-block text-sm px-4 py-2 relative bottom-4 no-underline text-white bg-green"
           >
             {intl.formatMessage({ id: "index.section3.tryItOutLink" })}
-          </Link>
+          </a>
         </div>
       </section>
 
