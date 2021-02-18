@@ -13,6 +13,8 @@
   },
   "section3": {
     "howItWorks": "HOW IT WORKS",
+    "header": "Our vision",
+    "sub-header": "Virufy’s three-step detection process will provide a quick and easy COVID-19 diagnosis for all. Support our vision by donating a cough today.",
     "header1": "Record your cough",
     "header2": "AI analyzes the respiratory signature",
     "header3": "COVID-19 signature is detected",

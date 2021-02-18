@@ -40,6 +40,27 @@ export default ({ images }) => {
 
   return (
     <>
+      {/* Header */}
+      <div className="mt-8 w-4/5 flex flex-col mx-auto items-start">
+        <div className="w-full mb-6">
+          <h2 className="bold text-3xl mb-6">
+            {intl.formatMessage({ id: "index.section3.header" })}
+          </h2>
+          <div className="w-8/12 flex-shrink-0 mb-6">
+            {intl.formatMessage({
+              id: "index.section3.sub-header",
+            })}
+          </div>
+          <a
+            className="no-underline bg-green text-white px-4 py-2 mb-6"
+            target="_blank"
+            href={"/app"}
+          >
+            {intl.formatMessage({ id: "index.section1.coughLink" })}
+          </a>
+        </div>
+      </div>
+
       {/* Desktop */}
       <section className="hidden md:block" style={{ padding: "5vw" }}>
         <div className="flex w-full justify-center mx-auto">
@@ -104,20 +125,12 @@ export default ({ images }) => {
               {constructHeader(3)}
             </span>
           </div>
+
           <div className="flex justify-between w-full h-1/2">
             {constructImage("cough-to-app", "w-4/5")}
             {constructImage("cough-waves", "w-4/5")}
             {constructImage("clipboard", "w-2/5")}
           </div>
-        </div>
-        <div className="w-full flex justify-center">
-          <a
-            target="_blank"
-            href={"/app"}
-            className="inline-block text-sm px-4 py-2 relative bottom-4 no-underline text-white bg-green"
-          >
-            {intl.formatMessage({ id: "index.section3.tryItOutLink" })}
-          </a>
         </div>
       </section>
 
