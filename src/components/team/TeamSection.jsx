@@ -13,21 +13,21 @@ const TeamMember = (props) => {
   } = props;
 
   return (
-    <div className="flex flex-col items-center mx-auto mb-10 w-full">
+    <div className="flex flex-col text-left	 mx-auto mb-10 w-full">
       <a className="w-full" target="_blank" rel="noreferrer" href={mediaLink}>
         <GatsbyImage
-          className="mx-auto my-2  rounded-md overflow-hidden team-icons"
+          className="mx-auto my-2 rounded-md overflow-hidden team-icons"
           imgStyle={{ objectFit: "fill" }}
           fluid={image}
         />
       </a>
-      <h5 className="mt-4 text-xl font-semibold text-gray-200">
+      <h5 className="mt-4 text-xl font-semibold	">
         {intl.formatMessage({
           id: `team.teamSection.${role}.${id}.name`,
           defaultMessage: defaultName,
         })}
       </h5>
-      <h6 className="text-lg text-center">
+      <h6 className="text-lg font-light ">
         {intl.formatMessage({
           id: `team.teamSection.${role}.${id}.title`,
         })}
@@ -39,7 +39,7 @@ const TeamMember = (props) => {
         })
         .split("\n")
         .map((str, i) => (
-          <p key={i} className="w-5/6 text-center">
+          <p key={i} className="w-5/6 font-semibold ">
             {str}
           </p>
         ))}
@@ -56,7 +56,7 @@ export default ({ images }) => {
   };
   const selectedTabClasses =
     "font-bold bg-white border-b-2 border-solid border-green focus:outline-none active:outline-none";
-  const unselectedTabClasses = "bg-white";
+  const unselectedTabClasses = "bg-white text-gray-500";
 
   return (
     <section className="p-8">

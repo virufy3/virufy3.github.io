@@ -79,6 +79,7 @@ module.exports = {
           200: "#434343", // Sub-headings
           300: "#2D2D2D", // Main heading
           400: "#21242C", // Mobile nav text
+          500: "#a6a6a6",
         },
         teal: "#13C2C2",
       },
