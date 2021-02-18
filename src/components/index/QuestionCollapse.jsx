@@ -15,26 +15,23 @@ function QuestionCollapse({ categoryId, questionIds }) {
       <button className="flex w-full text-left py-3" onClick={toggleOpen}>
         <h2 className="text-xl flex-grow">
           {intl.formatMessage({
-            id: `ourApproach.faq.${categoryId}`,
+            id: `index.faq.${categoryId}`,
           })}
         </h2>
         <h3 className="float-right mt-1">{open ? "\u2716" : "\u2795"}</h3>
       </button>
       {open && (
-        <ol className="list-decimal pl-5 py-5">
+        <ul className=" pl-5 py-5 ">
           {questionIds.map((questionId) => (
             <li className="text-secondary-200 font-bold mb-7" key={questionId}>
-              {intl.formatMessage({
-                id: `ourApproach.faq.${questionId}Q`,
-              })}
               <p className="text-black font-normal mt-2">
                 {intl.formatMessage({
-                  id: `ourApproach.faq.${questionId}A`,
+                  id: `index.faq.${questionId}A`,
                 })}
               </p>
             </li>
           ))}
-        </ol>
+        </ul>
       )}
     </div>
   );

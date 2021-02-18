@@ -188,7 +188,7 @@ export default ({ data }) => {
             <h1 className="mb-8">
               {intl.formatMessage({ id: "ourApproach.faq.title" })}
             </h1>
-            <div className="divide-y-1/2 divide-divider-100 border-solid border-t-1/2 border-b-1/2 border-divider-100">
+            <div className="divide-y-1/2 divide-divider-100 border-t-1/2 border-b-1/2 border-divider-100">
               {faqCategories.map(({ categoryId, questionIds }) => (
                 <QuestionCollapse
                   categoryId={categoryId}
