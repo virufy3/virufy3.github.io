@@ -41,7 +41,7 @@ export default ({ images }) => {
       {/* Header */}
       <div className="mt-8 w-4/5 flex flex-col mx-auto items-start">
         <div className="w-full mb-6">
-          <h2 className="bold text-3xl mb-6">
+          <h2 className="bold text-3xl my-6">
             {intl.formatMessage({ id: "index.section3.header" })}
           </h2>
           <div className="w-8/12 flex-shrink-0 mb-6">
