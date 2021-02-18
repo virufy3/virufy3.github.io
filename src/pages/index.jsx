@@ -18,7 +18,7 @@ export default ({ data }) => {
       <CoughSection images={images} />
       <GlobalImpact images={images} />
       <RecordCough images={images} />
-      <IndexQuestion images={images} />
+      <IndexQuestion />
       <OurStory images={images} />
     </Layout>
   );
