@@ -24,18 +24,21 @@ export default ({ textColor, bgColor, virufyLogo }) => {
 
   return (
     <>
-      <div className="flex items-baseline justify-between lg:hidden p-4">
+      <div className="flex items-end justify-between lg:hidden p-4">
         <MobileNavToggle
           mobileNavOpen={navOpen}
           setMobileNavOpen={setNavOpen}
           textColor={textColor}
         />
         <span className="flex items-end">
-          <img
-            src={virufyLogo}
-            alt="virufy"
-            className="mr-8 inline-block h-12"
-          />
+          <Link to="/">
+            <img
+              src={virufyLogo}
+              alt="virufy"
+              className="mr-8 inline-block w-20"
+              style={{ transform: "translate(0, 25%)" }}
+            />
+          </Link>
           <LangSelect bgColor={bgColor} textColor={textColor} />
         </span>
       </div>
@@ -58,19 +61,6 @@ export default ({ textColor, bgColor, virufyLogo }) => {
               </Link>
             ))}
           </div>
-          {/* <div className="flex px-4 py-4">
-            {navLinks.map((link) => (
-              <Link
-                className={`w-1/2 no-underline ${textColor}`}
-                to={link.path}
-              >
-                {intl.formatMessage({
-                  id: link.id,
-                  defaultMessage: link.defMsg,
-                })}
-              </Link>
-            ))}
-          </div> */}
         </Overlay>
       }
     </>
