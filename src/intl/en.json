@@ -70,15 +70,16 @@
     }
   },
   "nav": {
-    "data": "Data",
-    "research": "Research",
-    "team": "Team",
-    "join": "Join",
-    "press": "Press",
-    "faq": "Faq",
-    "language": "Language",
-    "donateCough": "Donate your cough",
-    "logoAlt": "Home"
+    "ourApproach": "Our Approach",
+    "ourOrg": "Our Org",
+    "inTheNews": "In the News",
+    "getInvolved": "GET INVOLVED",
+    "techBehind": "The Technology Behind",
+    "openData": "Open Data",
+    "faqs": "FAQs",
+    "ourVision": "Our Vision",
+    "ourSupporters": "Our Supporters",
+    "ourTeam": "ourTeam"
   },
   "news": {
     "headers": {

@@ -1,5 +1,5 @@
-import React from "React";
-import { IntlContextConsumer } from "gatsby-plugin-intl";
+import React from "react";
+import { IntlContextConsumer, changeLocale } from "gatsby-plugin-intl";
 
 export default ({ bgColor, textColor }) => {
   const langText = {

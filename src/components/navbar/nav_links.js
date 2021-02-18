@@ -1,22 +1,32 @@
 // btnStyle style to look like a button
 export default [
   {
-    id: "nav.our_approach",
+    id: "nav.ourApproach",
     defMsg: "Our Approach",
     path: "/our-approach",
+    dropDownLinks: [
+      { id: "nav.techBehind", path: "/our-approach#techBehind" },
+      { id: "nav.openData", path: "/our-approach#openData" },
+      { id: "nav.faqs", path: "/our-approach#faqs" },
+    ],
   },
   {
-    id: "nav.our_org",
+    id: "nav.ourOrg",
     defMsg: "Our Org",
     path: "/team",
+    dropDownLinks: [
+      { id: "nav.ourVision", path: "/our-approach#ourVision" },
+      { id: "nav.ourTeam", path: "/our-approach#ourTeam" },
+      { id: "nav.ourSupporters", path: "/our-approach#faqs" },
+    ],
   },
   {
-    id: "nav.in_the_news",
+    id: "nav.inTheNews",
     defMsg: "In the News",
     path: "/news",
   },
   {
-    id: "nav.get_involved",
+    id: "nav.getInvolved",
     defMsg: "GET INVOLVED",
     path: "/get-involved",
     btnStyle: true,
