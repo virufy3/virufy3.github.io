@@ -1,8 +1,6 @@
 import React from "react";
 import { useIntl } from "gatsby-plugin-intl";
 import GatsbyImage from "gatsby-image";
-import { Link } from "gatsby";
-import links from "../../data/get-involved/links";
 
 export default ({ images }) => {
   const intl = useIntl();

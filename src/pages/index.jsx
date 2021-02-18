@@ -5,6 +5,7 @@ import CoughSection from "../components/index/ContributeCough";
 import GlobalImpact from "../components/index/GlobalImpact";
 import RecordCough from "../components/index/RecordCough";
 import OurStory from "../components/index/OurStory";
+import IndexQuestion from "../components/index/IndexQuestion";
 
 export default ({ data }) => {
   const images = {};
@@ -17,6 +18,7 @@ export default ({ data }) => {
       <CoughSection images={images} />
       <GlobalImpact images={images} />
       <RecordCough images={images} />
+      <IndexQuestion images={images} />
       <OurStory images={images} />
     </Layout>
   );
