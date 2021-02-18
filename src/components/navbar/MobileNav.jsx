@@ -36,7 +36,6 @@ export default ({ textColor, bgColor, virufyLogo }) => {
               src={virufyLogo}
               alt="virufy"
               className="mr-8 inline-block w-20"
-              style={{ transform: "translate(0, 25%)" }}
             />
           </Link>
           <LangSelect bgColor={bgColor} textColor={textColor} />
