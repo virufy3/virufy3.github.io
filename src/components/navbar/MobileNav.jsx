@@ -6,10 +6,12 @@ import navLinks from "./nav_links";
 import { useIntl } from "gatsby-plugin-intl";
 import { Link } from "gatsby";
 import useEscape from "../../hooks/useEscape";
+import { useLocation } from "@reach/router";
 
 export default ({ textColor, bgColor, virufyLogo }) => {
   const [navOpen, setNavOpen] = useState(false);
   const intl = useIntl();
+  const location = useLocation();
 
   useEscape(true, () => setNavOpen(false));
 
@@ -20,9 +22,7 @@ export default ({ textColor, bgColor, virufyLogo }) => {
       ? `no-underline text-white py-2 px-6 ${
           isActiveLink ? "bg-black" : "bg-primary"
         }`
-      : `no-underline ${
-          isActiveLink ? "font-bold border-b-4 border-green" : ""
-        }`;
+      : `no-underline ${isActiveLink ? "font-bold" : ""}`;
   };
 
   return (
