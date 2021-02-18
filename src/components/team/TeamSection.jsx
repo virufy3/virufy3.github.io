@@ -56,7 +56,7 @@ export default ({ images }) => {
   };
   const selectedTabClasses =
     "font-bold bg-white border-b-2 border-solid border-green focus:outline-none active:outline-none";
-  const unselectedTabClasses = "bg-white text-gray-500";
+  const unselectedTabClasses = "bg-white text-gray-500 font-semibold";
 
   return (
     <section className="p-8">
