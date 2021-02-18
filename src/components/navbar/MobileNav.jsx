@@ -5,10 +5,13 @@ import Overlay from "../Overlay";
 import navLinks from "./nav_links";
 import { useIntl } from "gatsby-plugin-intl";
 import { Link } from "gatsby";
+import useEscape from "../../hooks/useEscape";
 
 export default ({ textColor, bgColor, virufyLogo }) => {
   const [navOpen, setNavOpen] = useState(false);
   const intl = useIntl();
+
+  useEscape(true, () => setNavOpen(false));
 
   const getLinkClasses = (link) => {
     const isActiveLink = location.pathname.includes(link.path);
@@ -46,6 +49,7 @@ export default ({ textColor, bgColor, virufyLogo }) => {
           <div
             className="inline-flex flex-col p-4 bg-white"
             style={{ transform: "translate(1.5rem, 50%)" }}
+            onClick={(e) => e.stopPropagation()}
           >
             {navLinks.map((link) => (
               <Link
