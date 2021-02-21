@@ -50,10 +50,10 @@ export default ({ bgColor, textColor, virufyLogo }) => {
               {intl.formatMessage({ id: link.id, defaultMessage: link.defMsg })}
             </Link>
             {link.dropDownLinks && mouseOverLinkIdx === idx && (
-              <div className="absolute ml-4 bg-gray-100 px-4 pt-4">
+              <div className="absolute ml-4 bg-gray-100">
                 {link.dropDownLinks.map(({ id, path }, idx) => (
                   <Link
-                    className="pb-4 block text-black no-underline"
+                    className="p-4 block text-black hover:bg-gray-200 no-underline"
                     to={path}
                     key={idx}
                   >
