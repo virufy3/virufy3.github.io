@@ -1,8 +1,8 @@
 {
   "topFold": {
     "diagnoseDisease": "AI to freely and quickly diagnose disease",
-    "acrossNations": "We believe everyone should have fast, affordable access to healthcare.",
-    "usingTechnology": "We’re leveraging artifical intelligence to achieve this goal.",
+    "acrossNations": "All people across all nations should have fast, affordable access to healthcare.",
+    "usingTechnology": "So we’re using technology to do this. ",
     "algorithmInfo": "With the help of cutting edge research from the world’s most prestigious institutions — Stanford, Princeton, Cambridge — we’re developing an AI algorithm that accurately diagnoses COVID-19 just by analyzing the sounds of a person’s cough.",
     "readWhitePaper": "Read our white paper",
     "wantToLearnMore": "WANT TO LEARN MORE?"
@@ -19,7 +19,7 @@
       "source": "Carnegie Mellon University"
     },
     "MIT": {
-      "title": "Hi Sigma, do I have the Coronavirus? Call for a New Artificial Intelligence Approach to Support Health Care Professionals Dealing with the COVID-19 Pandemic.",
+      "title": "Call for a New Artificial Intelligence Approach to Support Health Care Professionals Dealing with the COVID-19 Pandemic",
       "description": "MIT's Department of Mechanical Engineering proposes detection of positive cases of COVID by collecting cough samples through the phone to train artificial intelligence and subsequently build a diagnostic algorithm. This underscores the expert interest in our idea. ",
       "source": "Massachusetts Institute of Technology (MIT)"
     },
