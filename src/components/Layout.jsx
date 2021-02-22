@@ -1,13 +1,13 @@
 import React from "react";
 import SEO from "./SEO";
-import Navbar from "./Navbar";
+import Navbar from "./navbar/Navbar";
 import Footer from "./Footer";
 
 export default ({ children, className }) => {
   return (
     <>
       <SEO />
-      <header>
+      <header className="sticky top-0 z-10">
         <Navbar />
       </header>
       <main className={className}>{children}</main>
