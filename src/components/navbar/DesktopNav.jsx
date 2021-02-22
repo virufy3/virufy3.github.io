@@ -52,6 +52,7 @@ export default ({ bgColor, textColor, virufyLogo }) => {
               })}
             </Link>
             {link.dropDownLinks && mouseOverLinkIdx === idx && (
+              // have to include locale in url or intl plugin will redirect without the id...
               <IntlContextConsumer>
                 {({ language: currentLocale }) => (
                   <div className="absolute ml-4 bg-gray-100">
