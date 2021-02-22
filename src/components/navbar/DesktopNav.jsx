@@ -4,6 +4,7 @@ import navLinks from "./nav_links";
 import { Link } from "gatsby";
 import LangSelect from "./LangSelect";
 import { useLocation } from "@reach/router";
+import { IntlContextConsumer } from "gatsby-plugin-intl";
 
 export default ({ bgColor, textColor, virufyLogo }) => {
   const intl = useIntl();
@@ -11,8 +12,6 @@ export default ({ bgColor, textColor, virufyLogo }) => {
 
   // index in array of nav links that mouse is hovering over empty -1 = none
   const [mouseOverLinkIdx, setMouseOverLinkIdx] = useState(-1);
-
-  console.log(mouseOverLinkIdx);
 
   const getLinkClasses = (link) => {
     const isActiveLink = location.pathname.includes(link.path);
@@ -47,20 +46,28 @@ export default ({ bgColor, textColor, virufyLogo }) => {
             key={idx}
           >
             <Link className={getLinkClasses(link)} to={link.path}>
-              {intl.formatMessage({ id: link.id, defaultMessage: link.defMsg })}
+              {intl.formatMessage({
+                id: link.intlId,
+                defaultMessage: link.defMsg,
+              })}
             </Link>
             {link.dropDownLinks && mouseOverLinkIdx === idx && (
-              <div className="absolute ml-4 bg-gray-100">
-                {link.dropDownLinks.map(({ id, path }, idx) => (
-                  <Link
-                    className="p-4 block text-black hover:bg-gray-200 no-underline"
-                    to={path}
-                    key={idx}
-                  >
-                    {intl.formatMessage({ id })}
-                  </Link>
-                ))}
-              </div>
+              <IntlContextConsumer>
+                {({ language: currentLocale }) => (
+                  <div className="absolute ml-4 bg-gray-100">
+                    {link.dropDownLinks.map(({ intlId, sectionId }, idx) => (
+                      <Link
+                        className="p-4 block text-black hover:bg-gray-200 no-underline"
+                        // to={path}
+                        to={`/${currentLocale}${link.path}#${sectionId}`}
+                        key={idx}
+                      >
+                        {intl.formatMessage({ id: intlId })}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </IntlContextConsumer>
             )}
           </span>
         ))}

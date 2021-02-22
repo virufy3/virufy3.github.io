@@ -52,13 +52,9 @@ export default ({ textColor, bgColor, virufyLogo }) => {
             onClick={(e) => e.stopPropagation()}
           >
             {navLinks.map((link) => (
-              <Link
-                // className={`no-underline ${link.classes ? link.classes : ""}`}
-                className={getLinkClasses(link)}
-                to={link.path}
-              >
+              <Link className={getLinkClasses(link)} to={link.path}>
                 {intl.formatMessage({
-                  id: link.id,
+                  id: link.intlId,
                   defaultMessage: link.defMsg,
                 })}
               </Link>

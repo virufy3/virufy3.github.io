@@ -1,32 +1,32 @@
 // btnStyle style to look like a button
 export default [
   {
-    id: "nav.ourApproach",
+    intlId: "nav.ourApproach",
     defMsg: "Our Approach",
     path: "/our-approach",
     dropDownLinks: [
-      { id: "nav.techBehind", path: "/our-approach#techBehind" },
-      { id: "nav.openData", path: "/our-approach#openData" },
-      { id: "nav.faqs", path: "/our-approach#faqs" },
+      { intlId: "nav.techBehind", sectionId: "tech-behind" },
+      { intlId: "nav.openData", sectionId: "open-data" },
+      { intlId: "nav.faqs", sectionId: "faq" },
     ],
   },
   {
-    id: "nav.ourOrg",
+    intlId: "nav.ourOrg",
     defMsg: "Our Org",
     path: "/team",
-    dropDownLinks: [
-      { id: "nav.ourVision", path: "/our-approach#ourVision" },
-      { id: "nav.ourTeam", path: "/our-approach#ourTeam" },
-      { id: "nav.ourSupporters", path: "/our-approach#faqs" },
-    ],
+    // dropDownLinks: [
+    //   { intlId: "nav.ourVision", sectionId: "our-vision" },
+    //   { intlId: "nav.ourTeam", sectionId: "our-team" },
+    //   { intlId: "nav.ourSupporters", sectionId: "faqs" },
+    // ],
   },
   {
-    id: "nav.inTheNews",
+    intlId: "nav.inTheNews",
     defMsg: "In the News",
     path: "/news",
   },
   {
-    id: "nav.getInvolved",
+    intlId: "nav.getInvolved",
     defMsg: "GET INVOLVED",
     path: "/get-involved",
     btnStyle: true,

@@ -105,7 +105,7 @@ export default ({ data }) => {
       </div>
 
       {/* Open data  */}
-      <div className="bg-white">
+      <div id="open-data" className="bg-white">
         <div className="container text-center">
           <h1 className="pb-2">
             {intl.formatMessage({
@@ -182,7 +182,7 @@ export default ({ data }) => {
       </div>
 
       {/* FAQ */}
-      <div className="bg-green-200">
+      <div id="faq" className="bg-green-200">
         <div className="container flex">
           <div className="flex-grow">
             <h1 className="mb-8">
