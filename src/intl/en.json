@@ -1,4 +1,10 @@
 {
+  "404": {
+    "header": "Oops!",
+    "error": "We can’t seem to find the page you’re looking for.",
+    "code": "Error code: 404",
+    "back": "Back to Homepage"
+  },
   "footer": {
     "getInTouch": "Get in touch!",
     "cookiePolicy": "Cookie Policy",
@@ -151,7 +157,7 @@
         "name": "One Young World",
         "city": "Tokyo, ",
         "country": "Japan",
-        "readMoreLink": "Read more..."
+        "readMoreLink": "Watch Now"
       },
       "section9": {
         "date": "2020",
