@@ -14,25 +14,31 @@ export default ({ images }) => {
       <div className="flex justify-between">
         <div className="py-8 flex flex-col items-start justify-center">
           <p
-            className="mb-5"
+            className="mb-7"
             dangerouslySetInnerHTML={{
               __html: intl.formatMessage({ id: "index.section1.pg" }),
             }}
           />
-          <a
-            className="no-underline bg-green text-white px-4 py-2 mb-2"
-            target="_blank"
-            href={"/app"}
-          >
-            {intl.formatMessage({ id: "index.section1.coughLink" })}
-          </a>
-          <a
-            className="no-underline bg-green text-white px-4 py-2"
-            target="_blank"
-            href={links.donateLink}
-          >
-            {intl.formatMessage({ id: "index.section1.donateLink" })}
-          </a>
+          <ul className="list-none">
+            <li className="inline">
+              <a
+                className="no-underline bg-green text-white px-4 py-2 mb-2"
+                target="_blank"
+                href={"/app"}
+              >
+                {intl.formatMessage({ id: "index.section1.coughLink" })}
+              </a>
+            </li>
+            <li className="inline ml-4">
+              <a
+                className="no-underline border-solid border-2  border-primary text-primary px-4 py-1.5"
+                target="_blank"
+                href={links.donateLink}
+              >
+                {intl.formatMessage({ id: "index.section1.donateLink" })}
+              </a>
+            </li>
+          </ul>
         </div>
         <div className="w-2/5 lg:flex items-end hidden">
           <GatsbyImage
