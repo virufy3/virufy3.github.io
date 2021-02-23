@@ -47,7 +47,7 @@ const footerLinks = [
   },
   {
     intlId: "footer.privacyPolicy",
-    address: "/policies/privacy_policy.pdf",
+    address: "/policies/us/privacy_policy.pdf",
   },
   {
     intlId: "footer.dontSellPersonalInfo",
