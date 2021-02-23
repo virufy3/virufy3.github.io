@@ -152,7 +152,7 @@
         "name": "One Young World",
         "city": "Tokyo, ",
         "country": "Japan",
-        "readMoreLink": "Read more..."
+        "readMoreLink": "Watch Now"
       },
       "section9": {
         "date": "2020",
@@ -262,6 +262,30 @@
       "generalCategory": "General",
       "moreQuestionsQ": "What if I have more questions?",
       "moreQuestionsA": "More details can be found in our full privacy policy, cookie policy and consent form which is embedded in the data collection app. For questions related to the data collection study, please email us at study@virufy.org. For data related queries, we can be contacted at open-data@virufy.org. For all other inquiries, you may reach us at info@virufy.org."
+    }
+  },
+  "privacy_policy": {
+    "headers": {
+      "header": "Privacy Policy",
+      "sub-header": "Please view the privacy policy below which corresponds to the territory you are currently in."
+    },
+    "countries": {
+      "argentina": "Argentina",
+      "arg_policy": "Política de Privacidad",
+      "bolivia": "Boliva",
+      "bol_policy": "Política de Privacidad",
+      "brazil": "Brazil",
+      "brazil_policy": "Política de Privacidade",
+      "columbia": "Columbia",
+      "col_policy": "Política de Privacidad",
+      "mexico": "Mexico",
+      "mex_policy": "Aviso De Privacidad",
+      "peru": "Peru",
+      "peru_policy": "Política de Privacidad",
+      "us": "United States",
+      "us_policy": "Privacy Policy",
+      "eu": "Europe",
+      "eu_policy": "Privacy Policy"
     }
   },
   "team": {
