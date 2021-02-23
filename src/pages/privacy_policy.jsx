@@ -24,88 +24,120 @@ export default ({ data }) => {
           </p>
 
           <div className="my-16">
-            <h3 class="text-2xl font-bold mt-6">
+            <h4 className="font-bold mt-6">
               {intl.formatMessage({ id: "privacy_policy.countries.argentina" })}
-            </h3>
+            </h4>
             <p>
-              <a target="_blank" href="/policies/ar/privacy_policy.pdf">
+              <a
+                className="text-black underline"
+                target="_blank"
+                href="/policies/ar/privacy_policy.pdf"
+              >
                 {intl.formatMessage({
                   id: "privacy_policy.countries.arg_policy",
                 })}
               </a>
             </p>
 
-            <h3 class="text-2xl font-bold mt-6">
+            <h4 className="font-bold mt-6">
               {intl.formatMessage({ id: "privacy_policy.countries.bolivia" })}
-            </h3>
+            </h4>
             <p>
-              <a target="_blank" href="/policies/bo/privacy_policy.pdf">
+              <a
+                className="text-black underline"
+                target="_blank"
+                href="/policies/bo/privacy_policy.pdf"
+              >
                 {intl.formatMessage({
                   id: "privacy_policy.countries.bol_policy",
                 })}
               </a>
             </p>
 
-            <h3 class="text-2xl font-bold mt-6">
+            <h4 className="font-bold mt-6">
               {intl.formatMessage({ id: "privacy_policy.countries.brazil" })}
-            </h3>
+            </h4>
             <p>
-              <a target="_blank" href="/policies/br/privacy_policy.pdf">
+              <a
+                className="text-black underline"
+                target="_blank"
+                href="/policies/br/privacy_policy.pdf"
+              >
                 {intl.formatMessage({
                   id: "privacy_policy.countries.brazil_policy",
                 })}
               </a>
             </p>
 
-            <h3 class="text-2xl font-bold mt-6">
+            <h4 className="font-bold mt-6">
               {intl.formatMessage({ id: "privacy_policy.countries.columbia" })}
-            </h3>
+            </h4>
             <p>
-              <a target="_blank" href="/policies/br/privacy_policy.pdf">
+              <a
+                className="text-black underline"
+                target="_blank"
+                href="/policies/br/privacy_policy.pdf"
+              >
                 {intl.formatMessage({
                   id: "privacy_policy.countries.col_policy",
                 })}
               </a>
             </p>
 
-            <h3 class="text-2xl font-bold mt-6">
+            <h4 className="font-bold mt-6">
               {intl.formatMessage({ id: "privacy_policy.countries.mexico" })}
-            </h3>
+            </h4>
             <p>
-              <a target="_blank" href="/policies/mx/privacy_policy.pdf">
+              <a
+                className="text-black underline"
+                target="_blank"
+                href="/policies/mx/privacy_policy.pdf"
+              >
                 {intl.formatMessage({
                   id: "privacy_policy.countries.mex_policy",
                 })}
               </a>
             </p>
 
-            <h3 class="text-2xl font-bold mt-6">
+            <h4 className="font-bold mt-6">
               {intl.formatMessage({ id: "privacy_policy.countries.peru" })}
-            </h3>
+            </h4>
             <p>
-              <a target="_blank" href="/policies/pe/privacy_policy.pdf">
+              <a
+                className="text-black underline"
+                target="_blank"
+                href="/policies/pe/privacy_policy.pdf"
+              >
                 {intl.formatMessage({
                   id: "privacy_policy.countries.peru_policy",
                 })}
               </a>
             </p>
 
-            <h3 class="text-2xl font-bold mt-6">
+            <h4 className="font-bold mt-6">
               {intl.formatMessage({ id: "privacy_policy.countries.us" })}
-            </h3>
+            </h4>
             <p>
-              <a target="_blank" href="/policies/us/privacy_policy.pdf">
+              <a
+                className="text-black underline"
+                target="_blank"
+                href="/policies/us/privacy_policy.pdf"
+              >
                 {intl.formatMessage({
                   id: "privacy_policy.countries.us_policy",
                 })}
               </a>
             </p>
 
-            <h3 class="text-2xl font-bold mt-6">
+            <h4 className="font-bold mt-6">
               {intl.formatMessage({ id: "privacy_policy.countries.eu" })}
-            </h3>
+            </h4>
             <p>
-              <a target="_blank" href="/policies/eu/privacy_policy.pdf">
+              <a
+                className="text-black underline"
+                target="_blank"
+                href="/policies/eu/privacy_policy.pdf"
+              >
                 {intl.formatMessage({
                   id: "privacy_policy.countries.eu_policy",
                 })}
