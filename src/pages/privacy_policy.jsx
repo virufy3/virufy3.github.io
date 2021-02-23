@@ -13,7 +13,7 @@ export default ({ data }) => {
   return (
     <Layout>
       <SEO title="Privacy Policy | Virufy" />
-      <GatsbyBgImage fluid={images["footer-bg"].childImageSharp.fluid}>
+      <GatsbyBgImage fluid={images["background"].childImageSharp.fluid}>
         <div className="wrapper items-center justify-between md:py-4">
           <h1 classNmae="font-bold text-4xl">
             {intl.formatMessage({ id: "privacy_policy.headers.header" })}
