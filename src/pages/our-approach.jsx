@@ -10,6 +10,7 @@ import QuestionCollapse from "../components/ourApproach/QuestionCollapse";
 import learnMoreCards from "../data/our-approach/learn-more-cards";
 import collaborationLinks from "../data/our-approach/collaboration-links";
 import faqCategories from "../data/our-approach/faq";
+import SEO from "../components/SEO";
 
 export const query = graphql`
   {
@@ -44,6 +45,7 @@ export default ({ data }) => {
 
   return (
     <Layout className="bg-green-100">
+      <SEO title="Our Approach | Virufy" />
       {/* Top fold */}
       <div className="container md:flex">
         <h1 className="flex-1 pb-10 md:pb-0 pr-6">
@@ -80,7 +82,7 @@ export default ({ data }) => {
             id: "ourApproach.topFold.wantToLearnMore",
           })}
         </h4>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-sm">
           {learnMoreCards.map((info, index) => {
             const cardIcon = findImage(info.imageName);
 
@@ -113,7 +115,7 @@ export default ({ data }) => {
             })}
           </h1>
 
-          <p className="text-lg mb-6">
+          <p className="text-lg mb-6 ">
             {intl.formatMessage({
               id: "ourApproach.collaboration.description",
             })}
@@ -138,8 +140,9 @@ export default ({ data }) => {
             </a>
           </p>
 
-          <div className="block my-8 mx-auto divide-y md:divide-y-0 md:flex md:my-20 md:max-w-screen-lg">
+          <div className="wrapper my-8 mx-auto md:flex ">
             <Principle
+              className="wrapper"
               title={intl.formatMessage({
                 id: "ourApproach.collaboration.accuracy.title",
               })}
@@ -150,6 +153,7 @@ export default ({ data }) => {
               })}
             </Principle>
             <Principle
+              className="wrapper"
               title={intl.formatMessage({
                 id: "ourApproach.collaboration.privacy.title",
               })}
@@ -160,6 +164,7 @@ export default ({ data }) => {
               })}
             </Principle>
             <Principle
+              className="wrapper"
               title={intl.formatMessage({
                 id: "ourApproach.collaboration.collaboration.title",
               })}

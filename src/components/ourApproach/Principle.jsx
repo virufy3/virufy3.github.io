@@ -4,7 +4,9 @@ import Img from "gatsby-image";
 
 function Principle({ title, className, icon, children }) {
   return (
-    <div className={`flex-grow mx-auto max-w-xs py-12 md:py-0 ${className}`}>
+    <div
+      className={`flex-grow mx-auto w-full max-w-none py-12 md:py-0 ${className}`}
+    >
       <Img
         className="h-24 w-auto mb-8"
         fluid={icon}
