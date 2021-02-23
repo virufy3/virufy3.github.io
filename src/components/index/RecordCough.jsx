@@ -44,7 +44,7 @@ export default ({ images }) => {
           <h2 className="bold text-3xl my-6">
             {intl.formatMessage({ id: "index.section3.header" })}
           </h2>
-          <div className="w-8/12 flex-shrink-0 mb-6">
+          <div className="lg:w-8/12 md:w-1/2 flex-shrink-0 mb-6">
             {intl.formatMessage({
               id: "index.section3.sub-header",
             })}

@@ -1,6 +1,5 @@
 import React from "react";
 import { useIntl } from "gatsby-plugin-intl";
-import { Link } from "gatsby";
 import GatsbyImage from "gatsby-image";
 import links from "../../data/get-involved/links";
 
@@ -22,7 +21,7 @@ export default ({ images }) => {
           <ul className="list-none">
             <li className="inline">
               <a
-                className="no-underline bg-green text-white px-4 py-2 mb-2"
+                className="no-underline bg-green text-white px-4 py-2 mb-2 xs:text-xs"
                 target="_blank"
                 href={"/app"}
               >
@@ -31,7 +30,7 @@ export default ({ images }) => {
             </li>
             <li className="inline ml-4">
               <a
-                className="no-underline border-solid border-2  border-primary text-primary px-4 py-1.5"
+                className="no-underline border-solid border-2 border-primary text-primary px-4 py-1.5 xs:text-xs"
                 target="_blank"
                 href={links.donateLink}
               >

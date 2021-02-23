@@ -69,6 +69,7 @@ module.exports = {
         128: "32rem",
       },
       screens: {
+        xs: { max: "639px" },
         "2xl": "1440px",
         "3xl": "1680px",
         "4xl": "1920px",

@@ -6,6 +6,7 @@ import GlobalImpact from "../components/index/GlobalImpact";
 import RecordCough from "../components/index/RecordCough";
 import OurStory from "../components/index/OurStory";
 import IndexQuestion from "../components/index/IndexQuestion";
+import SEO from "../components/SEO";
 
 export default ({ data }) => {
   const images = {};
@@ -15,6 +16,7 @@ export default ({ data }) => {
 
   return (
     <Layout>
+      <SEO title="Home | Virufy" />
       <CoughSection images={images} />
       <GlobalImpact images={images} />
       <RecordCough images={images} />
