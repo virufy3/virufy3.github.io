@@ -6,7 +6,7 @@ import ValuesSection from "../components/team/ValuesSection";
 import TeamSection from "../components/team/TeamSection";
 import Supporters from "../components/team/Supporters";
 
-export default ({ data }) => {
+export default function Team({ data }) {
   const images = {};
 
   // add the images to an object to use in gatsby image
@@ -20,7 +20,7 @@ export default ({ data }) => {
       <Supporters />
     </Layout>
   );
-};
+}
 
 export const query = graphql`
   {

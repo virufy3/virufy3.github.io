@@ -8,7 +8,7 @@ import OurStory from "../components/index/OurStory";
 import IndexQuestion from "../components/index/IndexQuestion";
 import SEO from "../components/SEO";
 
-export default ({ data }) => {
+export default function Home({ data }) {
   const images = {};
 
   // add the images to an object to use in gatsby image
@@ -24,7 +24,7 @@ export default ({ data }) => {
       <OurStory images={images} />
     </Layout>
   );
-};
+}
 
 // prettier-ignore
 export const query = graphql`
