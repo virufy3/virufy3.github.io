@@ -4,7 +4,7 @@ import SEO from "../components/SEO";
 import question from "../images/404/rafiki.png";
 import virufyLogo from "../images/logos/virufy-logo.svg";
 
-export default ({}) => {
+export default function NotFound() {
   const intl = useIntl();
   return (
     <>
@@ -21,16 +21,16 @@ export default ({}) => {
       </a>
       <div className="wrapper md:flex">
         <div className="wrapper items-center justify-between md:py-4">
-          <h1 classNmae="font-bold text-4xl">
+          <h1 className="font-bold text-6xl mb-4">
             {intl.formatMessage({ id: "404.header" })}
           </h1>
-          <h2 classNmae="font-bold text-3xl">
+          <h2 className="font-bold text-3xl mb-5">
             {intl.formatMessage({ id: "404.error" })}
           </h2>
-          <div classNmae="text-2xl">
+          <div className="text-xl mb-8">
             {intl.formatMessage({ id: "404.code" })}
           </div>
-          <div className="my-16">
+          <div>
             <a
               className="no-underline bg-green text-white px-4 py-2 mb-2 rounded-full"
               href={"/"}
@@ -46,4 +46,4 @@ export default ({}) => {
       </div>
     </>
   );
-};
+}
