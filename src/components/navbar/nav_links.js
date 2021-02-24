@@ -26,6 +26,11 @@ export default [
     path: "/news",
   },
   {
+    intlId: "nav.faq",
+    defMsg: "FAQs",
+    path: "/our-approach#faq",
+  },
+  {
     intlId: "nav.getInvolved",
     defMsg: "GET INVOLVED",
     path: "/get-involved",
