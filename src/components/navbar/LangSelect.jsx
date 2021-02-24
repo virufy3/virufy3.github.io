@@ -9,6 +9,7 @@ export default ({ bgColor, textColor }) => {
     hi: "हिन्दी - HI",
     ja: "日本語 - JA",
   };
+
   return (
     <IntlContextConsumer>
       {({ languages, language: currentLocale }) => {
@@ -16,7 +17,7 @@ export default ({ bgColor, textColor }) => {
           <select
             value={currentLocale}
             onChange={(event) => changeLocale(event.target.value)}
-            className={`${bgColor} ${textColor}`}
+            className={`cursor-pointer ${bgColor} ${textColor}`}
           >
             {languages.map((lang) => (
               <option key={lang} value={lang}>
