@@ -30,7 +30,7 @@ export const query = graphql`
   }
 `;
 
-export default ({ data }) => {
+export default function OurApproach({ data }) {
   const images = data.allFile.edges;
   const intl = useIntl();
 
@@ -215,4 +215,4 @@ export default ({ data }) => {
       </div>
     </Layout>
   );
-};
+}

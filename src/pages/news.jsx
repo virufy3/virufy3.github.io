@@ -107,7 +107,7 @@ const CountrySelect = (props) => {
   );
 };
 
-export default ({ data }) => {
+export default function News({ data }) {
   const images = data.allFile.edges;
   const intl = useIntl();
 
@@ -148,4 +148,4 @@ export default ({ data }) => {
       </section>
     </Layout>
   );
-};
+}

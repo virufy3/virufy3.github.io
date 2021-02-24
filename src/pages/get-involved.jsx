@@ -66,7 +66,7 @@ function NextStep({ id, href, findImage, className }) {
   );
 }
 
-export default ({ data }) => {
+export default function GetInvolved({ data }) {
   const images = data.allFile.edges;
   const intl = useIntl();
   const breakpoints = useBreakpoint();
@@ -207,4 +207,4 @@ export default ({ data }) => {
       </div>
     </Layout>
   );
-};
+}

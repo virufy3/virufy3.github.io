@@ -1,10 +1,11 @@
 import React from "react";
+import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import { useIntl } from "gatsby-plugin-intl";
 import GatsbyBgImage from "gatsby-background-image";
 import SEO from "../components/SEO";
 
-export default ({ data }) => {
+export default function PrivacyPolicy({ data }) {
   const intl = useIntl();
   const images = {};
 
@@ -148,7 +149,7 @@ export default ({ data }) => {
       </GatsbyBgImage>
     </Layout>
   );
-};
+}
 
 export const query = graphql`
   {
