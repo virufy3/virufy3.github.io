@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import { useIntl } from "gatsby-plugin-intl";
 import navLinks from "./nav_links";
 import { Link } from "gatsby";
 import LangSelect from "./LangSelect";
 import { useLocation } from "@reach/router";
-import { IntlContextConsumer } from "gatsby-plugin-intl";
+import { IntlContextConsumer, useIntl } from "gatsby-plugin-intl";
 
 export default ({ bgColor, textColor, virufyLogo }) => {
   const intl = useIntl();
