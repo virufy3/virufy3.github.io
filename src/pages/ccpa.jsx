@@ -13,17 +13,21 @@ export default ({ data }) => {
     <Layout>
       <SEO title={"CCPA | Virufy"} />
       <IntlContextConsumer>
-        {({ language: currentLocale }) => (
-          <div>
-            <img className="absolute" src={bgWave} alt="waves" />
-            <div
-              className="p-8"
-              dangerouslySetInnerHTML={{
-                __html: langMarkdown[currentLocale].html,
-              }}
-            />
-          </div>
-        )}
+        {({ language: currentLocale }) =>
+          langMarkdown[currentLocale] ? (
+            <div>
+              <img className="absolute" src={bgWave} alt="waves" />
+              <div
+                className="p-8"
+                dangerouslySetInnerHTML={{
+                  __html: langMarkdown[currentLocale].html,
+                }}
+              />
+            </div>
+          ) : (
+            <></>
+          )
+        }
       </IntlContextConsumer>
     </Layout>
   );
