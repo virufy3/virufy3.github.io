@@ -19,27 +19,6 @@ module.exports = {
         path: path.join(__dirname, "src"),
       },
     },
-    // {
-    //   resolve: "gatsby-source-filesystem",
-    //   options: {
-    //     name: "our-approach-images",
-    //     path: path.join(__dirname, "src", "images", "our-approach-page"),
-    //   },
-    // },
-    // {
-    //   resolve: "gatsby-source-filesystem",
-    //   options: {
-    //     name: "get-involved-images",
-    //     path: path.join(__dirname, "src", "images", "get-involved-page"),
-    //   },
-    // },
-    // {
-    //   resolve: "gatsby-source-filesystem",
-    //   options: {
-    //     name: "news-images",
-    //     path: path.join(__dirname, "src", "images", "news"),
-    //   },
-    // },
     {
       resolve: `gatsby-plugin-intl`,
       options: {
