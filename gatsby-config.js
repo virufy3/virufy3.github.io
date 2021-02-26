@@ -12,31 +12,11 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-breakpoints",
     "gatsby-background-image",
+    "gatsby-transformer-remark",
     {
       resolve: "gatsby-source-filesystem",
       options: {
         path: path.join(__dirname, "src"),
-      },
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "our-approach-images",
-        path: path.join(__dirname, "src", "images", "our-approach-page"),
-      },
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "get-involved-images",
-        path: path.join(__dirname, "src", "images", "get-involved-page"),
-      },
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "news-images",
-        path: path.join(__dirname, "src", "images", "news"),
       },
     },
     {

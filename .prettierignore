@@ -1,3 +1,4 @@
 .cache
 public
 src/intl/*.json
+*.md

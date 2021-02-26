@@ -1,0 +1,4 @@
+---
+lang: "es"
+page: "ccpa"
+---
