@@ -5,7 +5,7 @@ export default [
   },
   {
     categoryId: "detectionCategory",
-    questionIds: ["distinguishable", "diagnosis"],
+    questionIds: ["distinguishable", "diagnosis", "performance"],
   },
   {
     categoryId: "privacyCategory",
