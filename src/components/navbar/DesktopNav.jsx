@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import { useIntl } from "gatsby-plugin-intl";
 import navLinks from "./nav_links";
 import { Link } from "gatsby";
 import LangSelect from "./LangSelect";
 import { useLocation } from "@reach/router";
-import { IntlContextConsumer } from "gatsby-plugin-intl";
+import { IntlContextConsumer, useIntl } from "gatsby-plugin-intl";
 
 export default ({ bgColor, textColor, virufyLogo }) => {
   const intl = useIntl();
@@ -26,35 +25,39 @@ export default ({ bgColor, textColor, virufyLogo }) => {
   };
 
   return (
-    <div className="lg:flex justify-between py-3 px-6 hidden">
-      <Link to="/" className="inline-block">
-        <img
-          className="logo"
-          src={virufyLogo}
-          alt={intl.formatMessage({
-            id: "nav.logoAlt",
-            defaultMessage: "home",
-          })}
-        />
-      </Link>
-      <div className="flex items-center text-base">
-        <LangSelect bgColor={bgColor} textColor={textColor} />
-        {navLinks.map((link, idx) => (
-          <span
-            onMouseEnter={() => setMouseOverLinkIdx(idx)}
-            onMouseLeave={() => setMouseOverLinkIdx(-1)}
-            key={idx}
-          >
-            <Link className={getLinkClasses(link)} to={link.path}>
-              {intl.formatMessage({
-                id: link.intlId,
-                defaultMessage: link.defMsg,
+    <IntlContextConsumer>
+      {({ language: currentLocale }) => (
+        <div className="lg:flex justify-between py-3 px-6 hidden">
+          <Link to="/" className="inline-block">
+            <img
+              className="logo"
+              src={virufyLogo}
+              alt={intl.formatMessage({
+                id: "nav.logoAlt",
+                defaultMessage: "home",
               })}
-            </Link>
-            {link.dropDownLinks && mouseOverLinkIdx === idx && (
-              // have to include locale in url or intl plugin will redirect without the id...
-              <IntlContextConsumer>
-                {({ language: currentLocale }) => (
+            />
+          </Link>
+          <div className="flex items-center text-base">
+            <LangSelect bgColor={bgColor} textColor={textColor} />
+            {navLinks.map((link, idx) => (
+              <span
+                onMouseEnter={() => setMouseOverLinkIdx(idx)}
+                onMouseLeave={() => setMouseOverLinkIdx(-1)}
+                key={idx}
+              >
+                <Link
+                  className={getLinkClasses(link)}
+                  to={`/${currentLocale}${link.path}`}
+                >
+                  {intl.formatMessage({
+                    id: link.intlId,
+                    defaultMessage: link.defMsg,
+                  })}
+                </Link>
+                {link.dropDownLinks && mouseOverLinkIdx === idx && (
+                  // have to include locale in url or intl plugin will redirect without the id...
+
                   <div className="absolute ml-4 bg-gray-100">
                     {link.dropDownLinks.map(({ intlId, sectionId }, idx) => (
                       <Link
@@ -68,11 +71,11 @@ export default ({ bgColor, textColor, virufyLogo }) => {
                     ))}
                   </div>
                 )}
-              </IntlContextConsumer>
-            )}
-          </span>
-        ))}
-      </div>
-    </div>
+              </span>
+            ))}
+          </div>
+        </div>
+      )}
+    </IntlContextConsumer>
   );
 };
