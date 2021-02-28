@@ -1,10 +1,12 @@
 {
-  "data": "Datos",
-  "research": "Ivestigación",
-  "team": "Equipo",
-  "join": "nete a nosotros",
-  "press": "Prensa",
-  "faq": "FAQ",
-  "language": "Español",
-  "donateCough": "Dona tu tos"
+  "ourApproach": "Nuestro enfoque",
+  "ourOrg": "Nuestra organización",
+  "inTheNews": "Noticias ",
+  "getInvolved": "FORMAR PARTE",
+  "techBehind": "La tecnología detras de Virufy",
+  "openData": "Open Data",
+  "faqs": "Preguntas frecuentes",
+  "ourVision": "Nuestra vision",
+  "ourSupporters": "Nuestros seguidores",
+  "ourTeam": "Nuestro equipo"
 }
