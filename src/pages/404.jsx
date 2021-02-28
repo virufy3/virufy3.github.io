@@ -9,7 +9,10 @@ export default function NotFound() {
   return (
     <>
       <SEO title="404: Not found | Virufy" />
-      <a className="flex items-center justify-between py-3 px-6" href="/">
+      <a
+        className="my-8 mx-8 flex items-center justify-between py-3 px-6"
+        href="/"
+      >
         <img
           className="logo"
           src={virufyLogo}
@@ -19,7 +22,7 @@ export default function NotFound() {
           })}
         ></img>
       </a>
-      <div className="wrapper md:flex">
+      <div className="md:flex mx-auto w-4/5 mt-10">
         <div className="wrapper items-center justify-between md:py-4">
           <h1 className="font-bold text-6xl mb-4">
             {intl.formatMessage({ id: "404.header" })}
@@ -30,7 +33,7 @@ export default function NotFound() {
           <div className="text-xl mb-8">
             {intl.formatMessage({ id: "404.code" })}
           </div>
-          <div>
+          <div className="mb-10">
             <a
               className="no-underline bg-green text-white px-4 py-2 mb-2 rounded-full"
               href={"/"}
@@ -40,7 +43,7 @@ export default function NotFound() {
           </div>
         </div>
 
-        <div classNam="wrapper md:flex">
+        <div classNam="md:flex">
           <img className="inline-block" src={question}></img>
         </div>
       </div>
