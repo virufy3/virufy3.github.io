@@ -283,6 +283,11 @@
           "description": "Chefe de Engenharia, Project Access\nB.S., University College London",
           "title": "Vice-presidente"
         },
+        "alex": {
+          "name": "Alex Kalanda",
+          "description": "Co-Founder at WeResQ\nTechnology Entrepreneurship, Stanford University",
+          "title": "Africa Continent Lead"
+        },
         "ravel": {
           "name": "Ravel Charles",
           "description": "Cloud Solutions Engineer, Google\nMestrado em Estudos Profissionais em Segurança de Dados,Universidade Northeastern",
@@ -308,9 +313,9 @@
           "description": "One Young World Argentina Ambassador\nM.A. Public Relations, Ott Educación Superior",
           "title": "Latin America Digital Communications Lead"
         },
-        "xhoana": {
-          "name": "Xhoana Koca",
-          "description": "Desenvolvedor de site e app móvel\nB.S., CUNY NYC College of Technology",
+        "yoonju": {
+          "name": "Yoonju Hwang",
+          "description": "Desenvolvedor de site e app móvel\nB.Tech., CUNY NYC College of Technology",
           "title": "Líder de Equipe de desenvolvimento web"
         },
         "gunvant": {
@@ -333,10 +338,15 @@
           "description": "Embaixador do One Young World Colômbia\nMembro do Comitê Diretivo YPARD\nCiência Política e Gestão Pública, International University of La Rioja",
           "title": "Líder de divulgação comunitária da Colômbia"
         },
-        "holly": {
-          "name": "Holly Boerner",
-          "description": "Visual & Brand Strategy\nHolly Boerner Design",
-          "title": "Web UI Team Lead"
+        "amelie": {
+          "name": "Amelie Azim-Khan",
+          "description": "Youth Ambassador, Europe & UK",
+          "title": "Wycombe Abbey"
+        },
+        "maisie": {
+          "name": "Maisie Mora",
+          "description": " ",
+          "title": "UX team lead"
         }
       },
       "advisors": {
@@ -349,6 +359,16 @@
           "name": "Jure Leskovec",
           "description": "Cientista-Chefe - Pinterest\nProfessor Associado de IA, AI\nStanford School of Engineering",
           "title": "Conselheiro de Inteligencia Artificial"
+        },
+        "matt": {
+          "name": "Matt Prusak",
+          "description": "Chief Business Officer, Curative Alumnus\nStanford Graduate School of Business",
+          "title": "Conselheiro Executivo"
+        },
+        "rok": {
+          "name": "Rok Sosic",
+          "description": "Senior Research Engineer\nStanford School of Engineering",
+          "title": "Artificial Intelligence Advisor"
         },
         "rafi": {
           "name": "Rafi Azim-Khan",
@@ -363,11 +383,6 @@
         "madhav": {
           "name": "Madhav Datt",
           "description": "Fundado - Green the Gene\nEx-Representante Global para Jovens - UN EP",
-          "title": "Conselheiro Executivo"
-        },
-        "matt": {
-          "name": "Matt Prusak",
-          "description": "Chief Business Officer, Curative Alumnus\nStanford Graduate School of Business",
           "title": "Conselheiro Executivo"
         },
         "nathan": {

@@ -344,6 +344,11 @@
           "description": "Head of Engineering, Project Access\nB.S., University College London",
           "title": "Vice President"
         },
+        "alex": {
+          "name": "Alex Kalanda",
+          "description": "Co-Founder at WeResQ\nTechnology Entrepreneurship, Stanford University",
+          "title": "Africa Continent Lead"
+        },
         "ravel": {
           "name": "Ravel Charles",
           "description": "Cloud Solutions Engineer, Google\nM.P.S. Data Security, Northeastern University",
@@ -369,9 +374,9 @@
           "description": "One Young World Argentina Ambassador\nM.A. Public Relations, Ott Educación Superior",
           "title": "Latin America Digital Communications Lead"
         },
-        "xhoana": {
-          "name": "Xhoana Koca",
-          "description": "Website and Mobile App Developer\nB.S., CUNY NYC College of Technology",
+        "yoonju": {
+          "name": "Yoonju Hwawng",
+          "description": "Website and Mobile App Developer\nB.Tech., CUNY NYC College of Technology",
           "title": "Web Dev Team Lead"
         },
         "gunvant": {
@@ -384,20 +389,20 @@
           "description": "One Young World Latin America Coordinating Ambassador\nGraduate, MIT Sloan School of Management",
           "title": "Peru Community Outreach Manager"
         },
-        "maria": {
-          "name": "Maria Eleni Pasia",
-          "description": "Qualified Lawyer, Athens Bar Association\nLL.M Media & Technology Law, UCLA",
-          "title": "Data Privacy Team Lead"
-        },
         "sebastian": {
           "name": "Sebastian Pedraza",
           "description": "One Young World Colombia Ambassador\nYPARD Steering Committee Member\nPolitical Science, International University of La Rioja",
           "title": "Colombia Community Outreach Manager"
         },
-        "holly": {
-          "name": "Holly Boerner",
-          "description": "Visual & Brand Strategy\nHolly Boerner Design",
-          "title": "Web UI Team Lead"
+        "amelie": {
+          "name": "Amelie Azim-Khan",
+          "description": "Wycombe Abbey",
+          "title": "Youth Ambassador, Europe & UK"
+        },
+        "maisie": {
+          "name": "Maisie Mora",
+          "description": " ",
+          "title": "UX team lead"
         }
       },
       "advisors": {
@@ -409,6 +414,16 @@
         "jure": {
           "name": "Jure Leskovec",
           "description": "Chief Scientist - Pinterest\nAssociate Professor, AI\nStanford School of Engineering",
+          "title": "Artificial Intelligence Advisor"
+        },
+        "matt": {
+          "name": "Matt Prusak",
+          "description": "Chief Business Officer, Curative Alumnus\nStanford Graduate School of Business",
+          "title": "Executive Advisor"
+        },
+        "rok": {
+          "name": "Rok Sosic",
+          "description": "Senior Research Engineer\nStanford School of Engineering",
           "title": "Artificial Intelligence Advisor"
         },
         "rafi": {
@@ -426,11 +441,6 @@
           "description": "Founder - Green the Gene\nFormer Global Representative for Youth - UN EP",
           "title": "Executive Nonprofit Advisor"
         },
-        "matt": {
-          "name": "Matt Prusak",
-          "description": "Chief Business Officer, Curative Alumnus\nStanford Graduate School of Business",
-          "title": "Executive Advisor"
-        },
         "nathan": {
           "name": "Nathan Thomas",
           "description": "One Young World Ambassador\nFounder and CEO - All We Are",
@@ -441,15 +451,15 @@
           "description": "Founder and CEO - Siena Company\nMentor - Stanford Lean Launchpad\nSão Carlos, Brazil",
           "title": "Brazil Outreach Advisor"
         },
-        "tsutomu": {
-          "name": "Tsutomu Ito",
-          "description": "Founder - Tannan FM Radio\nLead Architect, Bullet Train\nFukui, Japan",
-          "title": "Visionary Advisor"
-        },
         "taisuke": {
           "name": "Taisuke Fukuno",
           "description": "Founder - Open Data Japan\nChairman - jig.jp\nFukui, Japan",
           "title": "Executive Technology Advisor"
+        },
+        "tsutomu": {
+          "name": "Tsutomu Ito",
+          "description": "Founder - Tannan FM Radio\nLead Architect, Bullet Train\nFukui, Japan",
+          "title": "Visionary Advisor"
         }
       }
     },

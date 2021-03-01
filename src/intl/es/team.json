@@ -19,6 +19,11 @@
         "description": "Jefe de Ingeniería, Acceso al Proyecto\nB.S., University College London",
         "title": "Vice Presidente"
       },
+      "alex": {
+        "name": "Amil Khanzada",
+        "description": "One Young World Japan Ambassador\nAlumni, UC Berkeley Computer Science",
+        "title": "Founder & CEO"
+      },
       "ravel": {
         "name": "Ravel Charles",
         "description": "Ingeniero de solucciones en la nube, Google\nM.P.S. Seguridad de datos, Northeastern University",
@@ -44,9 +49,9 @@
         "description": "One Young World Embajador de Argentina\nM.A. Public Relations, Ott Educación Superior",
         "title": "Lider del Equipo de Comunicaciones Digitales de Lation América"
       },
-      "xhoana": {
-        "name": "Xhoana Koca",
-        "description": "Desarrollo del al APP y sitio web\nB.S., CUNY NYC College of Technology",
+      "yoonju": {
+        "name": "Yoonju Hwang",
+        "description": "Desarrollo del al APP y sitio web\nB.Tech., CUNY NYC College of Technology",
         "title": "Equipo lider del desarrolo web"
       },
       "gunvant": {
@@ -59,20 +64,20 @@
         "description": "Coordinador de embajadores One Young World Latinoamerica\nGraduate, MIT Sloan School of Management",
         "title": "Lider de Alcance Comunitario Peru"
       },
-      "maria": {
-        "name": "Maria Eleni Pasia",
-        "description": "Abogado calificado, Colegio de Abogados de Atenas\nLL.M Media & Technology Law, UCLA",
-        "title": "Líder del equipo de Privacidad de Datos"
-      },
       "sebastian": {
         "name": "Sebastian Pedraza",
         "description": "One Young World Colombia Ambassador\nYPARD Steering Committee Member\nPolitical Science, International University of La Rioja",
         "title": "Lider de Alcance Comunitario Colombia"
       },
-      "holly": {
-        "name": "Holly Boerner",
-        "description": "Visual & Brand Strategy\nHolly Boerner Design",
-        "title": "Lider del Equipo de Interfaz Web"
+      "amelie": {
+        "name": "Amelie Azim-Khan",
+        "description": "Wycombe Abbey",
+        "title": "Youth Ambassador, Europe & UK"
+      },
+      "maisie": {
+        "name": "Maisie Mora",
+        "description": "San Diego State University",
+        "title": "UX team lead"
       }
     },
     "advisors": {
@@ -85,6 +90,16 @@
         "name": "Jure Leskovec",
         "description": "Jefe Científico - Pinterest\nProfesor Asociado de IA,\nStanford School of Engineering",
         "title": "Asesor de Inteligencia Artificial"
+      },
+      "matt": {
+        "name": "Matt Prusak",
+        "description": "Director de Business, Curative Alumnus\nStanford Graduate School of Business",
+        "title": "Asesor Ejecutivo"
+      },
+      "rok": {
+        "name": "Rok Sosic",
+        "description": "Senior Research Engineer\nStanford School of Engineering",
+        "title": "Artificial Intelligence Advisor"
       },
       "rafi": {
         "name": "Rafi Azim-Khan",
@@ -99,11 +114,6 @@
       "madhav": {
         "name": "Madhav Datt",
         "description": "Fundador - Green the Gene\nFAntiguo Representante global por la juventud - UN EP",
-        "title": "Asesor Ejecutivo"
-      },
-      "matt": {
-        "name": "Matt Prusak",
-        "description": "Director de Business, Curative Alumnus\nStanford Graduate School of Business",
         "title": "Asesor Ejecutivo"
       },
       "nathan": {

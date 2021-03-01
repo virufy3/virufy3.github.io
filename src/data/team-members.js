@@ -12,6 +12,12 @@ export const leadership = [
     imageName: "daria",
   },
   {
+    mediaLink: "https://www.linkedin.com/in/alexkalanda/",
+    id: "alex",
+    defaultName: "Alex Kalanda",
+    imageName: "alex",
+  },
+  {
     mediaLink: "https://www.linkedin.com/in/ravel-charles/",
     id: "ravel",
     defaultName: "Ravel Charles",
@@ -42,10 +48,10 @@ export const leadership = [
     imageName: "marcos",
   },
   {
-    mediaLink: "https://www.linkedin.com/in/xhoana-koca/",
-    id: "xhoana",
-    defaultName: "Xhoana Koca",
-    imageName: "xhoana",
+    mediaLink: "https://www.linkedin.com/in/yhwang95/",
+    id: "yoonju",
+    defaultName: "Yoonju Hwang",
+    imageName: "yoonju",
   },
   {
     mediaLink: "https://www.linkedin.com/in/gunvantchaudhari/",
@@ -60,12 +66,6 @@ export const leadership = [
     imageName: "jason",
   },
   {
-    mediaLink: "https://www.linkedin.com/in/maria-eleni-pasia-a5068a147/",
-    id: "maria",
-    defaultName: "Maria Eleni Pasia",
-    imageName: "maria",
-  },
-  {
     mediaLink:
       "https://co.linkedin.com/in/jean-sebastian-pedraza-paez-02b8aa11a",
     id: "sebastian",
@@ -73,10 +73,16 @@ export const leadership = [
     imageName: "sebastian",
   },
   {
-    mediaLink: "https://www.linkedin.com/in/hjboerner/",
-    id: "holly",
-    defaultName: "Holly Boerner",
-    imageName: "holly",
+    mediaLink: " ",
+    id: "amelie",
+    defaultName: "Amelie Azim-Khan",
+    imageName: "amelie",
+  },
+  {
+    mediaLink: "https://www.linkedin.com/in/maisiemora/",
+    id: "maisie",
+    defaultName: "Maisie Mora",
+    imageName: "maisie",
   },
 ];
 
@@ -94,6 +100,19 @@ export const advisors = [
     imageName: "jure",
   },
   {
+    mediaLink: "https://www.linkedin.com/in/matthewprusak/",
+    id: "matt",
+    defaultName: "Matt Prusak",
+    imageName: "matt",
+  },
+  {
+    mediaLink:
+      "https://scholar.google.com/citations?user=xlZ4YJcAAAAJ&hl=en&oi=ao",
+    id: "rok",
+    defaultName: "Rok Sosic",
+    imageName: "rok",
+  },
+  {
     mediaLink: "https://www.pillsburylaw.com/en/lawyers/rafi-azim-khan.html",
     id: "rafi",
     defaultName: "Rafi Azim-Khan",
@@ -108,14 +127,8 @@ export const advisors = [
   {
     mediaLink: "https://www.linkedin.com/in/madhavdatt/",
     id: "madhav",
-    defaultName: "Matt Prusak",
+    defaultName: "Madhav Datt",
     imageName: "madhav",
-  },
-  {
-    mediaLink: "https://www.linkedin.com/in/matthewprusak/",
-    id: "matt",
-    defaultName: "Matt Prusak",
-    imageName: "matt",
   },
   {
     mediaLink: "https://www.linkedin.com/in/namathom/",
