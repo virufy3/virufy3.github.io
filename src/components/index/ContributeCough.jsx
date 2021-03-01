@@ -6,19 +6,19 @@ import links from "../../data/get-involved/links";
 export default ({ images }) => {
   const intl = useIntl();
   return (
-    <section className="px-4 lg:px-0 lg:w-4/5 lg:mx-auto">
-      <h1 className="text-3xl font-bold mb-4">
+    <section className="px-4 lg:px-0 lg:mx-auto lg:w-10/12 mt-10">
+      <h1 className="md:text-5xl font-bold md:mr-20">
         {intl.formatMessage({ id: "index.section1.header" })}
       </h1>
       <div className="flex justify-between">
-        <div className="py-8 flex flex-col items-start justify-center">
+        <div className="flex flex-col items-start justify-center">
           <p
-            className="mb-7"
+            className="md:text-xl"
             dangerouslySetInnerHTML={{
               __html: intl.formatMessage({ id: "index.section1.pg" }),
             }}
           />
-          <ul className="list-none">
+          <ul className="list-none my-12">
             <li className="inline">
               <a
                 className="no-underline bg-green text-white px-4 py-2 mb-2 xs:text-xs"
@@ -28,9 +28,9 @@ export default ({ images }) => {
                 {intl.formatMessage({ id: "index.section1.coughLink" })}
               </a>
             </li>
-            <li className="inline ml-4">
+            <li className="inline ml-8">
               <a
-                className="no-underline border-solid border-2 border-primary text-primary px-4 py-1.5 xs:text-xs"
+                className="no-underline border-solid border border-primary text-primary px-4 py-2 xs:text-xs"
                 target="_blank"
                 href={links.donateLink}
               >
@@ -39,7 +39,7 @@ export default ({ images }) => {
             </li>
           </ul>
         </div>
-        <div className="w-2/5 lg:flex items-end hidden">
+        <div className="w-4/5 lg:flex items-end hidden">
           <GatsbyImage
             className="w-full"
             fluid={images["hero-illustration"].childImageSharp.fluid}
