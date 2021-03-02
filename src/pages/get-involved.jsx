@@ -30,12 +30,6 @@ export const query = graphql`
 function NextStep({ id, href, findImage, className }) {
   const intl = useIntl();
 
-  const idMap = {
-    contribute: "getInTouchLink",
-    join: "viewAvailableRolesLink",
-  };
-  // const href = idMap[id];
-
   return (
     <div className={`flex-1 ${className}`}>
       <div className="flex mb-9">
@@ -57,11 +51,19 @@ function NextStep({ id, href, findImage, className }) {
           id: `getInvolved.nextSteps.${id}.question`,
         })}
       </p>
-      <a href={href} target="_blank" className="text-white">
-        {intl.formatMessage({
-          id: `getInvolved.nextSteps.${id}.linkText`,
-        })}
-      </a>
+      {id === "join" ? (
+        <Link to="/available-roles" className="text-white">
+          {intl.formatMessage({
+            id: `getInvolved.nextSteps.${id}.linkText`,
+          })}
+        </Link>
+      ) : (
+        <a href={href} target="_blank" className="text-white">
+          {intl.formatMessage({
+            id: `getInvolved.nextSteps.${id}.linkText`,
+          })}
+        </a>
+      )}
     </div>
   );
 }
