@@ -13,7 +13,11 @@ export default ({ data }) => {
         {({ language: currentLocale }) =>
           data[currentLocale] ? (
             <div>
-              <img className="absolute" src={bgWave} alt="waves" />
+              <img
+                className="absolute w-screen left-0"
+                src={bgWave}
+                alt="waves"
+              />
               <div
                 className="p-8"
                 dangerouslySetInnerHTML={{
