@@ -4,8 +4,9 @@ import { IntlContextConsumer } from "gatsby-plugin-intl";
 import Layout from "../components/Layout";
 import SEO from "../components/SEO";
 import bgWave from "../images/logos/background-wave.png";
+import Accordion from "../components/Accordion";
 
-export default function CookiePolicy({ data }) {
+export default ({ data }) => {
   return (
     <Layout>
       <SEO title="Virufy | Cookie Policy" />
@@ -30,13 +31,29 @@ export default function CookiePolicy({ data }) {
                 alt="waves"
               />
               <div dangerouslySetInnerHTML={{ __html: top }} />
+              <Accordion
+                items={[
+                  {
+                    title: "item1",
+                    contents: <div>lollollollollolloolllsjfeijf</div>,
+                  },
+                  {
+                    title: "item2",
+                    contents: <div>lollollollollolloolllsjfeijf</div>,
+                  },
+                  {
+                    title: "item3",
+                    contents: <div>lollollollollolloolllsjfeijf</div>,
+                  },
+                ]}
+              />
             </div>
           );
         }}
       </IntlContextConsumer>
     </Layout>
   );
-}
+};
 
 //prettier-ignore
 export const query = graphql`
