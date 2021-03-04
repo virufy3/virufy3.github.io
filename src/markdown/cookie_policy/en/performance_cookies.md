@@ -1,8 +1,24 @@
 ---
-lang: "en"
-page: "cookie-policy"
-name: "performance cookies"
-title: "Performance Cookies"
+lang: en
+page: cookie-policy
+name: performance cookies
+title: Performance Cookies
 ---
 
 Also known as analytics cookies, these cookies may be used to collect information about your use of the Website and make the Website more user-friendly. Usage of analytic cookies includes but is not limited to distinguishing users and understanding overall patterns of usage of the Website. We use this information in aggregate form to improve the way our Website works.
+
+Cookie                       | Provider         | Purpose                                                                                                                                                                                                                                                                                   | Duration  | Type
+---------------------------- | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | -----
+collect                      | Google Analytics | Used to send data to Google Analytics about the visitor's device and behavior. Tracks the visitor across devices and marketing channels.                                                                                                                                                  | Session   | Pixel
+_ga                          | Google Analytics | Registers a unique ID that is used to generate statistical data on how the visitor uses the website.                                                                                                                                                                                      | 2 years   | HTTP
+_gat                         | Google Analytics | Used by Google Analytics to limit request rate.                                                                                                                                                                                                                                           | 1 day     | HTTP
+_gid                         | Google Analytics | Registers a unique ID that is used to generate statistical data on how the visitor uses the website.                                                                                                                                                                                      | 1 day     | HTTP
+_hjid                        | Hotjar           | This cookie is set when the customer first lands on a page with the Hotjar script. It is used to persist the random user ID, unique to that site on the browser. This ensures that behavior in subsequent visits to the same site will be attributed to the same user ID.                 | 1 year    | HTTP
+_hjid                        | Hotjar           | This cookie is set when the customer first lands on a page with the Hotjar script. It is used to persist the random user ID, unique to that site on the browser. This ensures that behavior in subsequent visits to the same site will be attributed to the same user ID. Persistent HTML
+_hjIncludedInPageviewSample  | Hotjar           | This cookie is set to let Hotjar know whether that visitor is included in the data sampling defined by your site's pageview limit.                                                                                                                                                        | 30 minuts | HTML
+_hjIncludedInPageviewSample  | Hotjar           | This cookie is set to let Hotjar know whether that visitor is included in the data sampling defined by your site's pageview limit.                                                                                                                                                        | 1 day     | HTTP
+_hjAbsoluteSessionInProgress | Hotjar           | This cookie is used to detect the first pageview session of a user. This is a True/False flag set by the cookie.                                                                                                                                                                          | 1 day     | HTTP
+_hjIncludedInSessionSample   | Hotjar           | This cookie is set to let Hotjar know whether that visitor is included in the data sampling defined by your site's daily session limit.                                                                                                                                                   | 30 minuts | HTML
+_hjIncludedInSessionSample   | Hotjar           | This cookie is set to let Hotjar know whether that visitor is included in the data sampling defined by your site's daily session limit. Persistent HTTP
+_hjRecordingLastActivity     | Hotjar           | Used in context with the website's user feedback functionality. Determines whether the user has been shown feedback messages.                                                                                                                                                             | Session   | HTML
+hjViewportId                 | Hotjar           | Sets a unique ID for the session, This allows the website to obtain data on visitor behaviour for statistical purposes.                                                                                                                                                                   | Session   | HTML

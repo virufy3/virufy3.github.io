@@ -37,6 +37,7 @@ export default ({ data }) => {
                     title: markdown["essential cookies"].title,
                     contents: (
                       <div
+                        className="text-left"
                         dangerouslySetInnerHTML={{
                           __html: markdown["essential cookies"].html,
                         }}
@@ -47,6 +48,7 @@ export default ({ data }) => {
                     title: markdown["preference cookies"].title,
                     contents: (
                       <div
+                        className="text-left"
                         dangerouslySetInnerHTML={{
                           __html: markdown["preference cookies"].html,
                         }}
@@ -57,6 +59,7 @@ export default ({ data }) => {
                     title: markdown["performance cookies"].title,
                     contents: (
                       <div
+                        className="text-left"
                         dangerouslySetInnerHTML={{
                           __html: markdown["performance cookies"].html,
                         }}
@@ -67,6 +70,7 @@ export default ({ data }) => {
                     title: markdown["marketing cookies"].title,
                     contents: (
                       <div
+                        className="text-left"
                         dangerouslySetInnerHTML={{
                           __html: markdown["marketing cookies"].html,
                         }}

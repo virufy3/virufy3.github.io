@@ -3,5 +3,8 @@
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "eslint.enable": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[markdown]": {
+    "editor.defaultFormatter": "tehnix.vscode-tidymarkdown"
+  }
 }
