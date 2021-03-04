@@ -1,6 +1,6 @@
 ---
 lang: "en"
-page: "cookie_policy"
+page: "cookie-policy"
 name: "top"
 ---
 # Cookie Policy

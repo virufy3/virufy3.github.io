@@ -9,8 +9,6 @@ export default ({ items }) => {
     setActiveItemIndex(index === activeItemIndex ? -1 : index);
   };
 
-  console.log(activeItemIndex);
-
   return (
     <>
       <hr className="w-full mb-2" />

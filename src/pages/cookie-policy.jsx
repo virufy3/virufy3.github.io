@@ -15,9 +15,9 @@ export default ({ data }) => {
           if (data[currentLocale] === undefined) return <></>;
 
           //prettier-ignore
-          const { top, bot } = data[currentLocale].edges.reduce(
-            (accu, {node: { html, frontmatter: { name } }}) => {
-              return { ...accu, [name]: html };
+          const markdown = data[currentLocale].edges.reduce(
+            (accu, {node: { html, frontmatter: { name, title } }}) => {
+              return { ...accu, [name]: {html, name, title} };
             },
             {}
           );
@@ -30,20 +30,48 @@ export default ({ data }) => {
                 src={bgWave}
                 alt="waves"
               />
-              <div dangerouslySetInnerHTML={{ __html: top }} />
+              <div dangerouslySetInnerHTML={{ __html: markdown["top"].html }} />
               <Accordion
                 items={[
                   {
-                    title: "item1",
-                    contents: <div>lollollollollolloolllsjfeijf</div>,
+                    title: markdown["essential cookies"].title,
+                    contents: (
+                      <div
+                        dangerouslySetInnerHTML={{
+                          __html: markdown["essential cookies"].html,
+                        }}
+                      />
+                    ),
                   },
                   {
-                    title: "item2",
-                    contents: <div>lollollollollolloolllsjfeijf</div>,
+                    title: markdown["preference cookies"].title,
+                    contents: (
+                      <div
+                        dangerouslySetInnerHTML={{
+                          __html: markdown["preference cookies"].html,
+                        }}
+                      />
+                    ),
                   },
                   {
-                    title: "item3",
-                    contents: <div>lollollollollolloolllsjfeijf</div>,
+                    title: markdown["performance cookies"].title,
+                    contents: (
+                      <div
+                        dangerouslySetInnerHTML={{
+                          __html: markdown["performance cookies"].html,
+                        }}
+                      />
+                    ),
+                  },
+                  {
+                    title: markdown["marketing cookies"].title,
+                    contents: (
+                      <div
+                        dangerouslySetInnerHTML={{
+                          __html: markdown["marketing cookies"].html,
+                        }}
+                      />
+                    ),
                   },
                 ]}
               />
@@ -58,12 +86,13 @@ export default ({ data }) => {
 //prettier-ignore
 export const query = graphql`
 {
-  en: allMarkdownRemark(filter: {frontmatter: {page: {eq: "cookie_policy"} lang: {eq:"en"}}}) {
+  en: allMarkdownRemark(filter: {frontmatter: {page: {eq: "cookie-policy"} lang: {eq:"en"}}}) {
     edges {
       node {
         html
         frontmatter {
           name
+          title
         }        
       }
     }
