@@ -36,7 +36,7 @@ const Role = ({ description, location, title, url }) => (
 
 export default function AvailableRoles() {
   return (
-    <Layout className="bg-green-200">
+    <Layout className="bg-green-200 pb-1">
       <SEO title="Available Roles | Virufy" />
 
       <div className="relative mb-28">
