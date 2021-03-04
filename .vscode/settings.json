@@ -5,6 +5,6 @@
   "eslint.enable": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[markdown]": {
-    "editor.defaultFormatter": "tehnix.vscode-tidymarkdown"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }

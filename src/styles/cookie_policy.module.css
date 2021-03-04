@@ -1,0 +1,14 @@
+.tableContainer table {
+  text-align: left;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.tablecontainer th,
+.tableContainer td {
+  padding: 1rem 0rem;
+}
+
+.tableContainer tbody tr:not(:last-of-type) {
+  border-bottom: 1px solid #e5e7eb;
+}
