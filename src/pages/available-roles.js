@@ -42,7 +42,7 @@ export default function AvailableRoles() {
       <SEO title="Available Roles | Virufy" />
 
       <div className="relative mb-11 md:mb-28">
-        <div className="px-8 pt-10 md:pt-20 md:pl-20">
+        <div className="px-8 pt-10 xl:pt-20 xl:pl-20">
           <h1 className="text-2xl md:text-6xl max-w-2xl mb-5 md:mb-8">
             Join the Virufighter team
           </h1>
