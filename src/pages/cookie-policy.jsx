@@ -5,7 +5,7 @@ import Layout from "../components/Layout";
 import SEO from "../components/SEO";
 import bgWave from "../images/logos/background-wave.png";
 import Accordion from "../components/Accordion";
-import { tableContainer } from "../styles/cookie_policy.module.css";
+import { container } from "../styles/cookie_policy.module.css";
 
 export default ({ data }) => {
   return (
@@ -25,7 +25,7 @@ export default ({ data }) => {
 
           // console.log(top);
           return (
-            <div className="px-6 py-8">
+            <div className={`px-6 py-8 ${container}`}>
               <img
                 className="absolute w-screen left-0"
                 src={bgWave}
@@ -38,7 +38,7 @@ export default ({ data }) => {
                     title: markdown["essential cookies"].title,
                     contents: (
                       <div
-                        className={tableContainer}
+                        
                         dangerouslySetInnerHTML={{
                           __html: markdown["essential cookies"].html,
                         }}
@@ -49,7 +49,7 @@ export default ({ data }) => {
                     title: markdown["preference cookies"].title,
                     contents: (
                       <div
-                        className={tableContainer}
+                        
                         dangerouslySetInnerHTML={{
                           __html: markdown["preference cookies"].html,
                         }}
@@ -60,7 +60,7 @@ export default ({ data }) => {
                     title: markdown["performance cookies"].title,
                     contents: (
                       <div
-                        className={tableContainer}
+                        
                         dangerouslySetInnerHTML={{
                           __html: markdown["performance cookies"].html,
                         }}
@@ -71,7 +71,7 @@ export default ({ data }) => {
                     title: markdown["marketing cookies"].title,
                     contents: (
                       <div
-                        className={tableContainer}
+                        
                         dangerouslySetInnerHTML={{
                           __html: markdown["marketing cookies"].html,
                         }}

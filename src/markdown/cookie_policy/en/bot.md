@@ -4,9 +4,9 @@ page: cookie-policy
 name: bot
 ---
 
-<p class="my-4">These cookies can be deleted or blocked by adjusting your browser settings (see Section [How can you control Cookies](#control-cookies), below). Alternatively, please follow the links below to opt-out: <a class="no-underline" href="https://tools.google.com/dlpage/gaoptout">Google Analytics</a>.</p>
+<p class="my-4">These cookies can be deleted or blocked by adjusting your browser settings (see Section <a href="#control-cookies">How can you control Cookies </a>), below). Alternatively, please follow the links below to opt-out: <a class="no-underline" href="https://tools.google.com/dlpage/gaoptout">Google Analytics</a>.</p>
 
-<h2 class="mb-4">How can you control Cookies?</h2>
+<h2 class="mb-4" id="control-cookies">How can you control Cookies?</h2>
 
 <p class="mb-4">You do not have to accept cookies and consent can be withdrawn at any time. You have the right to decide whether to accept or reject cookies. Please note that essential cookies cannot be rejected as they are strictly necessary to provide you with services of our Website. When you first access our Website from certain jurisdictions, you will receive a message advising you that cookies and similar technologies are in use. By clicking "Got it!", you signify that you understand and agree to the use of these technologies, as described in this Cookie Policy.</p>
 
