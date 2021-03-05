@@ -20,6 +20,14 @@ module.exports = {
       },
     },
     {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /\.svg$/,
+        },
+      },
+    },
+    {
       resolve: `gatsby-plugin-intl`,
       options: {
         path: path.join(__dirname, "src", "intl"),

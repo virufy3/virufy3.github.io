@@ -47,11 +47,11 @@ const footerLinks = [
   },
   {
     intlId: "footer.privacyPolicy",
-    address: "/privacy_policy",
+    address: "/privacy-policy",
   },
   {
     intlId: "footer.dontSellPersonalInfo",
-    address: "/policies/ccpa.pdf",
+    address: "/ccpa",
   },
 ];
 
