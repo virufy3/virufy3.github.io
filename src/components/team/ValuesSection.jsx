@@ -94,7 +94,7 @@ const PanelDesktop = ({ images, intl }) => {
       <h2 className="font-bold mt-8 mb-4 text-lg">
         {intl.formatMessage({ id: "team.valuesSection.values.header" })}
       </h2>
-      <div className="flex lg:pb-32">
+      <div className="flex lg:pb-6">
         <table>
           {["transform", "world", "free", "health", "oneTap", "mobile"].map(
             (rowName) => (
@@ -113,13 +113,6 @@ const PanelDesktop = ({ images, intl }) => {
             )
           )}
         </table>
-        <div className="lg:flex items-end hidden">
-          <GatsbyImage
-            fluid={images["people_looking_at_phone"].childImageSharp.fluid}
-            imgStyle={{ objectFit: "fill" }}
-            className="w-60 h-60  flex self-end transform translate-y-32  "
-          />
-        </div>
       </div>
     </>
   );
