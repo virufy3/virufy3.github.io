@@ -1,4 +1,35 @@
 {
+  "cookiePolicy": {
+    "cookiePolicyHeader": "Política de cookies",
+    "lastUpdated": "Última actualización: 9 de noviembre de 2020",
+    "section1": {
+      "header": "General",
+      "pg1": "The Covid Detection Foundation (“Virufy”, “nosotros”, “nos” o “nuestro”), una corporación sin fines de lucro, con Número de Identificación Fiscal C4609035 ubicada en El Camino Real, número 4546, B10 #614, Los Altos, código postal 94022, Estados Unidos de América respeta su privacidad y se compromete a procesar su información personal de acuerdo con la ley. Esta Política de cookies (“Política”) explica cómo Virufy utiliza cookies y tecnologías similares para procesar la información personal que nos proporciona cuando visita nuestro sitio web.",
+      "countrySpecificsHtml": "<div> class=\"font-bold\">Para usuarios ubicados en Europa o Peru:</div><div>- Esta política de cookies se tratará bajo el artículo 22 de la Ley 34/2002, de 11 de julio, de servicios de la sociedad de la información y de comercio electrónico (LSSICE), y / o el Reglamento General Europeo de Protección de Datos 2016/679 (el “RGPD”)..</div><div class=\"font-bold\">Para usuarios ubicados en Argentina:</div><div>- Esta política de cookies se tratará bajo la ley 25.326 de Protección de Datos Personales de Argentina.</div><div class=\"font-bold\">Para usuarios ubicados en Colombia:</div><div>- Esta política de cookies se tratará bajo la ley 1581 de 2012 de Colombia.</div>",
+      "pg2": "Virufy es el “controlador de datos” y responsable de la información personal recopilada de acuerdo con esta Política de cookies. Para obtener más información sobre cómo usamos, almacenamos, divulgamos y procesamos los datos personales que obtenemos a través del uso de nuestro sitio web o en relación con él, visite nuestra Política de privacidad.",
+      "pg3": "Cuando acceda por primera vez a nuestro sitio web desde determinadas jurisdicciones (por ejemplo, Europa o territorio nacional español), recibirá un mensaje informándole que se están utilizando cookies y tecnologías similares. Al hacer clic en “Usar solo las cookies necesarias” o “Permitir todas las cookies”, significa que comprende y acepta el uso de estas tecnologías, como se describe en esta Política de cookies."
+    },
+    "section2": {
+      "header": "¿Qué son las cookies?",
+      "pg1": "Las cookies son archivos de texto que contienen pequeños datos que se almacenan en su ordenador o dispositivo móvil cada vez que accede a un sitio web. Se utilizan para hacer que los sitios web funcionen de manera más eficiente, así como para proporcionar información a los propietarios del sitio web. Las cookies mejoran la experiencia del usuario al permitir que los sitios web las lean y escriban, lo que les permite reconocer a los visitantes y recordar información importante que hace que el uso del sitio web por parte del visitante sea más conveniente. Las cookies establecidas por el propietario de un sitio web (en este caso, Virufy) se denominan “cookies de origen”. Las cookies establecidas por terceros que no sean el propietario del sitio web se denominan “cookies de terceros”. Las cookies de terceros permiten que se proporcionen funciones o características de terceros en el sitio web o a través de él (por ejemplo, análisis)."
+    },
+    "section3": {
+      "header": "¿Qué cookies utilizamos?",
+      "pg1": "Podemos utilizar los siguientes tipos de cookies para que el sitio web sea fácil de usar:",
+      "col1Title": "Cookie",
+      "col2Title": "Provider",
+      "col3Title": "Duration",
+      "col4Title": "Type",
+      "col5Title": "Purpose",
+      "cookie1": {
+        "cookieName": "Cookies Esenciales",
+        "description": "El Sitio Web puede utilizar cookies técnicas para llevar a cabo actividades estrictamente necesarias para el funcionamiento o prestación de servicios. Incluyen, por ejemplo, cookies que le permiten acceder a áreas seguras del sitio web. Usamos estas cookies para obtener el consentimiento requerido para procesar datos.",
+        "row1": {
+          "cookie": "CookieConsent"
+        }
+      }
+    }
+  },
   "footer": {
     "getInTouch": "Ponte tn contacto",
     "cookiePolicy": "Política de cookies",
@@ -281,6 +312,11 @@
           "description": "Jefe de Ingeniería, Acceso al Proyecto\nB.S., University College London",
           "title": "Vice Presidente"
         },
+        "alex": {
+          "name": "Amil Khanzada",
+          "description": "One Young World Japan Ambassador\nAlumni, UC Berkeley Computer Science",
+          "title": "Founder & CEO"
+        },
         "ravel": {
           "name": "Ravel Charles",
           "description": "Ingeniero de solucciones en la nube, Google\nM.P.S. Seguridad de datos, Northeastern University",
@@ -333,7 +369,7 @@
         },
         "maisie": {
           "name": "Maisie Mora",
-          "description": " ",
+          "description": "San Diego State University",
           "title": "UX team lead"
         }
       },
