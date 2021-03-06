@@ -7,14 +7,17 @@ import { roles } from "../data/available-roles";
 const Role = ({ description, location, title, url }) => (
   <div
     className="flex flex-col md:grid items-center gap-6 md:gap-14 bg-white rounded-xl px-6 md:px-11 py-6 mb-8 md:mb-14"
-    style={{ gridTemplateColumns: "4fr max-content max-content" }}
+    style={{
+      gridTemplateColumns: "4fr max-content max-content",
+      filter: "drop-shadow(0px 15px 47px rgba(0, 165, 136, 0.15))",
+    }}
   >
     <div className="min-w-0">
-      <p className="font-bold font-heading mb-3 md:mb-0 text-sm md:text-md">
+      <p className="font-bold font-heading mb-3 md:mb-0 text-sm md:text-lg">
         {title}
       </p>
 
-      <p className="font-heading md:whitespace-nowrap overflow-hidden overflow-ellipsis text-sm md:text-md">
+      <p className="font-heading md:whitespace-nowrap overflow-hidden overflow-ellipsis text-sm md:text-lg">
         {description}
       </p>
     </div>

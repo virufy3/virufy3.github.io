@@ -64,6 +64,12 @@ module.exports = {
             lineHeight: "4.2rem",
           },
         ],
+        "6xl": [
+          "3.55rem",
+          {
+            lineHeight: "4.25rem",
+          },
+        ],
       },
       inset: {
         "-12": "-3rem",
