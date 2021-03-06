@@ -260,6 +260,30 @@
       "moreQuestionsA": "Se pueden encontrar más detalles en nuestra política de privacidad completa, política de cookies y formulario de consentimiento que está integrado en la aplicación de recopilación de datos. Si tiene preguntas relacionadas con el estudio de recopilación de datos, envíenos un correo electrónico a study@virufy.org. Para consultas relacionadas con datos, puede ser contactado en open-data@virufy.org. Para todas las demás consultas, puede comunicarse con nosotros en info@virufy.org"
     }
   },
+  "privacy_policy": {
+    "headers": {
+      "header": "Privacy Policy",
+      "sub-header": "Please view the privacy policy below which corresponds to the territory you are currently in."
+    },
+    "countries": {
+      "argentina": "Argentina",
+      "arg_policy": "Política de Privacidad",
+      "bolivia": "Boliva",
+      "bol_policy": "Política de Privacidad",
+      "brazil": "Brazil",
+      "brazil_policy": "Política de Privacidade",
+      "columbia": "Columbia",
+      "col_policy": "Política de Privacidad",
+      "mexico": "Mexico",
+      "mex_policy": "Aviso De Privacidad",
+      "peru": "Peru",
+      "peru_policy": "Política de Privacidad",
+      "us": "United States",
+      "us_policy": "Privacy Policy",
+      "eu": "Europe",
+      "eu_policy": "Privacy Policy"
+    }
+  },
   "team": {
     "supportersSection": {
       "header": "Nuestros Patrocinadores",
@@ -280,6 +304,11 @@
           "name": "Daria Butuc",
           "description": "Jefe de Ingeniería, Acceso al Proyecto\nB.S., University College London",
           "title": "Vice Presidente"
+        },
+        "alex": {
+          "name": "Amil Khanzada",
+          "description": "One Young World Japan Ambassador\nAlumni, UC Berkeley Computer Science",
+          "title": "Founder & CEO"
         },
         "ravel": {
           "name": "Ravel Charles",
@@ -333,7 +362,7 @@
         },
         "maisie": {
           "name": "Maisie Mora",
-          "description": " ",
+          "description": "San Diego State University",
           "title": "UX team lead"
         }
       },
