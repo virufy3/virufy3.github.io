@@ -48,6 +48,16 @@ function NextStep({ id, href, findImage, className }) {
       </p>
       <p>
         {intl.formatMessage({
+          id: `getInvolved.nextSteps.${id}.learnmore`,
+        })}
+      </p>
+      <a href="our-approach#faq" className="text-white">
+        {intl.formatMessage({
+          id: `getInvolved.nextSteps.${id}.faq`,
+        })}
+      </a>
+      <p className="mt-4">
+        {intl.formatMessage({
           id: `getInvolved.nextSteps.${id}.question`,
         })}
       </p>

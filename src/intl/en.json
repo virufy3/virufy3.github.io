@@ -58,17 +58,19 @@
     },
     "shareCough": {
       "title": "Share your cough",
-      "details": "We welcome cough “donations” to help expand our database and refine our AI’s predictive ability to recognize COVID-19.\n\nAll that’s needed is a mobile device, the Virufy app and your cough.",
-      "getTheApp": "Get the app",
+      "details": "Donate your cough in our study help refine our AI’s predictive ability to recognize COVID-19.\n\nAll that’s needed is a mobile device and your cough.",
+      "getTheApp": "CONTRIBUTE",
       "irbDisclaimer": "All data is collected in compliance with IRB protocol.",
       "learnMoreLink": "Learn more"
     },
     "nextSteps": {
       "contribute": {
-        "title": "Contribute your expertise",
-        "details": "We work with science, medical, technology and other expert professionals across the globe to shape and accomplish Virufy’s mission.",
-        "question": "Looking to get involved?",
-        "linkText": "Please get in touch"
+        "title": "Partner with us",
+        "details": "We work with medical, technology, government, and other established organizations across the globe to shape and accomplish Virufy’s mission.",
+        "learnmore": "Want to learn more?",
+        "faq": "See our FAQ page",
+        "question": "Looking to partner?",
+        "linkText": "Connect with us"
       },
       "join": {
         "title": "Join the Virufighter team",
@@ -88,7 +90,7 @@
     "section2": {
       "header": "Our global impact",
       "pg1": "Virufy aims to change how healthcare is experienced,<br>empowering people globally with fast and free disease detection.",
-      "pg2": "No matter where you are in the world, all you will need is a mobile device and the Virufy app.",
+      "pg2": "No matter where you are in the world, all you will need is a mobile device<br>and the Virufy app.",
       "learnMoreLink": "LEARN MORE"
     },
     "section3": {
@@ -201,9 +203,9 @@
     "topFold": {
       "diagnoseDisease": "AI to freely and quickly diagnose disease",
       "acrossNations": "All people across all nations should have fast, affordable access to healthcare.",
-      "usingTechnology": "So we’re using technology to do this. ",
-      "algorithmInfo": "With the help of cutting edge research from the world’s most prestigious institutions — Stanford, Princeton, Cambridge — we’re developing an AI algorithm that accurately diagnoses COVID-19 just by analyzing the sounds of a person’s cough.",
-      "readWhitePaper": "Read our white paper",
+      "usingTechnology": "We believe technology can make this a reality.",
+      "algorithmInfo": "With the support of experts from Silicon Valley’s most prestigious institutions, our team has developed a cutting-edge AI algorithm that detects COVID-19 positive patients with 98.4% accuracy by analyzing cough sounds.",
+      "readWhitePaper": "READ OUR RESEARCH PAPER",
       "wantToLearnMore": "WANT TO LEARN MORE?"
     },
     "research": {
@@ -469,7 +471,7 @@
       "vision": {
         "header": "Virufy's vision",
         "pg1": "We aspire to be the leading not-for-profit organization for technology-enabled disease identification.",
-        "pg2": "Our innovations aim to offer superior detection for patients, clinicians and governments.",
+        "pg2": "Our innovations aim to offer superior detection for patients, clinicians and governments in low-income countries.",
         "pg3": "We will be force for transforming global healthcare and inspiring support and investment in this mission."
       },
       "values": {
