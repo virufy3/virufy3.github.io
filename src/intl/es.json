@@ -239,6 +239,8 @@
       "distinguishableA": "Al igual que todas las demás enfermedades respiratorias, el COVID-19 crea una firma respiratoria única en la garganta y los pulmones que es distinta de otras infecciones respiratorias que producen tos húmeda. En consecuencia, se ha sugerido que los sonidos de la tos pueden analizarse para detectar el COVID-19. A nivel mundial, esta idea está siendo investigada activamente por varias instituciones prestigiosas, incluidas CMU8, MIT11 y Cambridge7. Por ejemplo, una investigación de crowdsource realizada por la Universidad de Cambridge mostró que un clasificador binario de aprendizaje automático simple es capaz de clasificar a los pacientes con el COVID-19 positivos a través de sonidos de respiración y tos con alta precisión (AUC = 0,7). De manera similar, los investigadores de CMU identificaron 18 características de la voz que distinguen a los pacientes con el COVID-19 positivos y entrenaron un modelo para diagnosticar el COVID-19 con una precisión del 89,1%.",
       "diagnosisQ": " ¿Cómo predecirá el algoritmo de inteligencia artificial de Virufy un diagnóstico de COVID-19?",
       "diagnosisA": "Sobre la base de esta investigación anterior, Virufy está desarrollando un algoritmo de inteligencia artificial que se puede utilizar para predecir con precisión una infección por COVID-19 en cuestión de minutos basándose en grabaciones de sonidos de tos. Sin embargo, a diferencia de las investigaciones anteriores sobre la tos de COVID-19 que se dirigieron a la población de EE. UU., Virufy tiene como objetivo recopilar datos de múltiples sitios en todo el mundo. Como una iniciativa dirigida por estudiantes con voluntarios que abarcan varios países, Virufy está desarrollando un modelo de diagnóstico COVID-19 con mayor inclusión racial y espacial a través de datos que incluyen una variedad de etnias y diferencias fonológicas específicas de cada comunidad.",
+      "performanceQ": "¿El rendimiento del modelo de IA en diferentes teléfonos inteligentes no se verá afectado?",
+      "performanceA": "Idealmente, quisiéramos que los usuarios siguieran las instrucciones de la aplicación que explican cómo registrar su tos. Sin embargo, podemos usar una técnica llamada aumento de datos para hacer que el algoritmo funcione en todo tipo de escenarios si es necesario.",
       "privacyCategory": "Tech & Data Privacy",
       "dataStorageQ": "¿Cómo almacenará Virufy mis datos de forma segura?",
       "dataStorageA": "Usamos JotForm y Amazon Web Services (AWS) para la recopilación de datos de estudios de investigación. JotForm y AWS almacenan los datos en una aplicación segura con acceso y controles restringidos. Sus datos se almacenarán con JotForm o AWS hasta que los descarguemos. Almacenaremos los datos en una base de datos con acceso restringido. Si desea obtener más información sobre cómo Jotform y AWS almacenan sus datos, visite sus respectivas políticas de privacidad en https://www.jotform.com/privacy/ y https://aws.amazon.com/en/privacy/. Si desea obtener más información, consulte la política de privacidad de Virufy.",
@@ -258,6 +260,30 @@
       "generalCategory": "General",
       "moreQuestionsQ": "¿Y si tengo más preguntas?",
       "moreQuestionsA": "Se pueden encontrar más detalles en nuestra política de privacidad completa, política de cookies y formulario de consentimiento que está integrado en la aplicación de recopilación de datos. Si tiene preguntas relacionadas con el estudio de recopilación de datos, envíenos un correo electrónico a study@virufy.org. Para consultas relacionadas con datos, puede ser contactado en open-data@virufy.org. Para todas las demás consultas, puede comunicarse con nosotros en info@virufy.org"
+    }
+  },
+  "privacy_policy": {
+    "headers": {
+      "header": "Privacy Policy",
+      "sub-header": "Please view the privacy policy below which corresponds to the territory you are currently in."
+    },
+    "countries": {
+      "argentina": "Argentina",
+      "arg_policy": "Política de Privacidad",
+      "bolivia": "Boliva",
+      "bol_policy": "Política de Privacidad",
+      "brazil": "Brazil",
+      "brazil_policy": "Política de Privacidade",
+      "columbia": "Columbia",
+      "col_policy": "Política de Privacidad",
+      "mexico": "Mexico",
+      "mex_policy": "Aviso De Privacidad",
+      "peru": "Peru",
+      "peru_policy": "Política de Privacidad",
+      "us": "United States",
+      "us_policy": "Privacy Policy",
+      "eu": "Europe",
+      "eu_policy": "Privacy Policy"
     }
   },
   "team": {

@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 
-const paperURL = "https://arxiv.org/abs/2011.13320";
+const paperURL =
+  "https://ui.adsabs.harvard.edu/abs/2021arXiv210301806F/abstract";
 
 export default function Paper() {
   useEffect(() => {
