@@ -262,6 +262,30 @@
       "moreQuestionsA": "Mais detalhes podem ser encontrados em nossas Política de Privacidade, Política de Cookies, e Formulário de Consentimento que estão incutidos no nosso App de coleta de dados. Para questões relacionadas ao estudo de coleta de dados, por favor nos contate por meio do email study@virufy.org . Para consultas relacionadas a dados, nós podemos ser contatados através do email open-data@virufy.org . Para quaisquer outras dúvidas, você pode entrar em contato por meio do email info@virufy.org"
     }
   },
+  "privacy_policy": {
+    "headers": {
+      "header": "Privacy Policy",
+      "sub-header": "Please view the privacy policy below which corresponds to the territory you are currently in."
+    },
+    "countries": {
+      "argentina": "Argentina",
+      "arg_policy": "Política de Privacidad",
+      "bolivia": "Boliva",
+      "bol_policy": "Política de Privacidad",
+      "brazil": "Brazil",
+      "brazil_policy": "Política de Privacidade",
+      "columbia": "Columbia",
+      "col_policy": "Política de Privacidad",
+      "mexico": "Mexico",
+      "mex_policy": "Aviso De Privacidad",
+      "peru": "Peru",
+      "peru_policy": "Política de Privacidad",
+      "us": "United States",
+      "us_policy": "Privacy Policy",
+      "eu": "Europe",
+      "eu_policy": "Privacy Policy"
+    }
+  },
   "team": {
     "supportersSection": {
       "header": "Our supporters",
