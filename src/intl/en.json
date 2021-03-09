@@ -58,17 +58,19 @@
     },
     "shareCough": {
       "title": "Share your cough",
-      "details": "We welcome cough “donations” to help expand our database and refine our AI’s predictive ability to recognize COVID-19.\n\nAll that’s needed is a mobile device, the Virufy app and your cough.",
-      "getTheApp": "Get the app",
+      "details": "Donate your cough in our study help refine our AI’s predictive ability to recognize COVID-19.\n\nAll that’s needed is a mobile device and your cough.",
+      "getTheApp": "CONTRIBUTE",
       "irbDisclaimer": "All data is collected in compliance with IRB protocol.",
       "learnMoreLink": "Learn more"
     },
     "nextSteps": {
       "contribute": {
-        "title": "Contribute your expertise",
-        "details": "We work with science, medical, technology and other expert professionals across the globe to shape and accomplish Virufy’s mission.",
-        "question": "Looking to get involved?",
-        "linkText": "Please get in touch"
+        "title": "Partner with us",
+        "details": "We work with medical, technology, government, and other established organizations across the globe to shape and accomplish Virufy’s mission.",
+        "learnmore": "Want to learn more?",
+        "faq": "See our FAQ page",
+        "question": "Looking to partner?",
+        "linkText": "Connect with us"
       },
       "join": {
         "title": "Join the Virufighter team",
@@ -81,29 +83,29 @@
   "index": {
     "section1": {
       "header": "Transforming the world's health one click at a time",
-      "pg": "Virufy is a volunteer-run, not-for-profit organization that uses artificial intelligence (AI) to <span class=\"font-bold\">diagnose COVID-19</span> from cough patterns, <span class=\"font-bold\">rapidly</span> and at <span class=\"font-bold\">no cost</span> through use of a smartphone",
+      "pg": "Virufy is a nonprofit organization that is developing artificial intelligence (AI) technology to <span class=\"font-bold\">screen for COVID-19</span> from cough patterns, <span class=\"font-bold\">rapidly</span> and at no cost through use of a smartphone.",
       "coughLink": "CONTRIBUTE YOUR COUGH",
       "donateLink": "DONATE"
     },
     "section2": {
       "header": "Our global impact",
-      "pg1": "Virufy is changing how healthcare is experienced,<br/>putting power in people's hands through fast, free disease detection.",
-      "pg2": "No matter where you are in the world, all you need is a mobile device and the Virufy app.",
+      "pg1": "Virufy aims to change how healthcare is experienced,<br>empowering people globally with fast and free disease detection.",
+      "pg2": "No matter where you are in the world, all you will need is a mobile device<br>and the Virufy app.",
       "learnMoreLink": "LEARN MORE"
     },
     "section3": {
       "howItWorks": "HOW IT WORKS",
       "header": "Our vision",
-      "sub-header": "Virufy’s three-step detection process will provide a quick and easy COVID-19 diagnosis for all. Support our vision by donating a cough today.",
-      "header1": "You record your cough",
+      "sub-header": "Once we have collected enough coughs to develop our AI algorithm, our goal is to implement a three-step detection process that will help contribute to a quick and easy COVID-19 diagnosis for the benefit of low-income countries. Help support our vision by donating a cough today. ",
+      "header1": "Record your cough",
       "header2": "AI analyzes the respiratory signature",
       "header3": "COVID-19 signature is detected",
       "tryItOutLink": "TRY IT OUT"
     },
     "section4": {
       "header": "Our story",
-      "pg1": "In March 2020, we began pioneering an AI-powered mobile app to detect COVID-19.",
-      "pg2": "Now, Virufighters from five continents are involved, all committed to making disease identification instant, universal and free through with the help of technology innovation",
+      "pg1": "In March 2020, we pioneered an AI-powered mobile app to detect COVID-19.",
+      "pg2": "Now, Virufighters across five continents are commited to making disease detection instant and free of charge through technological innovation.",
       "knowUsLink": "GET TO KNOW US",
       "header2": "We're supported by"
     },
@@ -201,9 +203,9 @@
     "topFold": {
       "diagnoseDisease": "AI to freely and quickly diagnose disease",
       "acrossNations": "All people across all nations should have fast, affordable access to healthcare.",
-      "usingTechnology": "So we’re using technology to do this. ",
-      "algorithmInfo": "With the help of cutting edge research from the world’s most prestigious institutions — Stanford, Princeton, Cambridge — we’re developing an AI algorithm that accurately diagnoses COVID-19 just by analyzing the sounds of a person’s cough.",
-      "readWhitePaper": "Read our white paper",
+      "usingTechnology": "We believe technology can make this a reality.",
+      "algorithmInfo": "With the support of experts from Silicon Valley’s most prestigious institutions, our team has developed a cutting-edge AI algorithm that detects COVID-19 positive patients with 98.4% accuracy by analyzing cough sounds.",
+      "readWhitePaper": "READ OUR RESEARCH PAPER",
       "wantToLearnMore": "WANT TO LEARN MORE?"
     },
     "research": {
@@ -469,7 +471,7 @@
       "vision": {
         "header": "Virufy's vision",
         "pg1": "We aspire to be the leading not-for-profit organization for technology-enabled disease identification.",
-        "pg2": "Our innovations aim to offer superior detection for patients, clinicians and governments.",
+        "pg2": "Our innovations aim to offer superior detection for patients, clinicians and governments in low-income countries.",
         "pg3": "We will be force for transforming global healthcare and inspiring support and investment in this mission."
       },
       "values": {
