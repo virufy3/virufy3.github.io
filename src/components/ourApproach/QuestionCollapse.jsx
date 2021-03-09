@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 import { useIntl } from "gatsby-plugin-intl";
+import CloseIcon from "../../images/our-approach-page/close-icon.svg";
+import PlusIcon from "../../images/our-approach-page/plus-icon.svg";
 
 function QuestionCollapse({ categoryId, questionIds }) {
   const intl = useIntl();
@@ -12,22 +14,26 @@ function QuestionCollapse({ categoryId, questionIds }) {
 
   return (
     <div>
-      <button className="flex w-full text-left py-3" onClick={toggleOpen}>
+      <button
+        className="flex items-center w-full text-left py-4 focus:outline-none"
+        onClick={toggleOpen}
+      >
         <h2 className="text-xl flex-grow">
           {intl.formatMessage({
             id: `ourApproach.faq.${categoryId}`,
           })}
         </h2>
-        <h3 className="float-right mt-1">{open ? "\u2716" : "\u2795"}</h3>
+
+        {open ? <CloseIcon /> : <PlusIcon />}
       </button>
       {open && (
-        <ol className="list-decimal pl-5 py-5">
+        <ol className="list-decimal pl-5 pb-4 text-sm">
           {questionIds.map((questionId) => (
-            <li className="text-secondary-200 font-bold mb-7" key={questionId}>
+            <li className="text-secondary-200 font-bold mb-4" key={questionId}>
               {intl.formatMessage({
                 id: `ourApproach.faq.${questionId}Q`,
               })}
-              <p className="text-black font-normal mt-2">
+              <p className="text-black font-normal mt-1">
                 {intl.formatMessage({
                   id: `ourApproach.faq.${questionId}A`,
                 })}

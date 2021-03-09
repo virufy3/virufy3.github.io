@@ -188,9 +188,9 @@ export default function OurApproach({ data }) {
 
       {/* FAQ */}
       <div id="faq" className="bg-green-200">
-        <div className="container flex">
+        <div className="container flex items-center">
           <div className="flex-grow">
-            <h1 className="mb-8">
+            <h1 className="mb-9">
               {intl.formatMessage({ id: "ourApproach.faq.title" })}
             </h1>
             <div className="divide-y-1/2 divide-divider-100 border-t-1/2 border-b-1/2 border-divider-100">
@@ -203,7 +203,7 @@ export default function OurApproach({ data }) {
               ))}
             </div>
           </div>
-          <div className="w-1/4 flex-shrink-0 hidden md:block md:mx-16 lg:mx-24">
+          <div className="w-1/4 flex-shrink-0 hidden md:block md:mx-16 lg:mx-24 pt-32 self-start">
             <Img
               className="mx-auto"
               fluid={findImage("faq-illustration")}
