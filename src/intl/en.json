@@ -74,7 +74,7 @@
       },
       "join": {
         "title": "Join the Virufighter team",
-        "details": "We’re a youth-led organization that fosters a positive learning environment with a worldwide impact. Our volunteers span more than 15 countries, each contributing their unique perspectives.",
+        "details": "We’re a fast-paced, mission-driven team combining our unique skills to curb the spread of the pandemic globally. Our volunteers span more than 25 countries, and our work has potential to impact millions of lives.",
         "question": "Excited to help out?",
         "linkText": "View our available roles"
       }
@@ -340,11 +340,6 @@
           "name": "Amil Khanzada",
           "description": "One Young World Japan Ambassador\nAlumni, UC Berkeley Computer Science",
           "title": "Founder & CTO"
-        },
-        "daria": {
-          "name": "Daria Butuc",
-          "description": "Head of Engineering, Project Access\nB.S., University College London",
-          "title": "Vice President"
         },
         "alex": {
           "name": "Alex Kalanda",

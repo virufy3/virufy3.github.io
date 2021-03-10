@@ -36,31 +36,31 @@ export default () => {
       <h1 className="font-bold text-2xl text-black">
         {intl.formatMessage({ id: "team.supportersSection.header" })}
       </h1>
-      <div className="flex flex-wrap justify-between pt-8 pb-12">
+      <div className="md:flex flex-col lg:flex-row flex-wrap md:justify-between items-center pt-8 pb-12">
         <a href={supporter_links.responseLab} target="_blank">
-          <GatsbyImage className="w-20" fluid={images["covid-19-RIL-logo"]} />
+          <GatsbyImage className="w-24" fluid={images["covid-19-RIL-logo"]} />
         </a>
         <a href={supporter_links.oneYoungWorld} target="_blank">
           <GatsbyImage
             imgStyle={{ objectFit: "fill" }}
-            className="w-20 h-8"
+            className="w-40 mt-4"
             fluid={images["OYW_blue_rgb"]}
           />
         </a>
         <a href={supporter_links.xoor} target="_blank">
-          <GatsbyImage className="w-20" fluid={images["xoor"]} />
+          <GatsbyImage className="w-24" fluid={images["xoor"]} />
         </a>
-        <a href={supporter_links.jig} target="_blank">
-          <GatsbyImage className="w-20" fluid={images["jig-jp-logo"]} />
+        <a href={supporter_links.sherlock} target="_blank">
+          <GatsbyImage className="w-40 mt-2" fluid={images["sherlock"]} />
         </a>
         <a href={supporter_links.stanford} target="_blank">
           <GatsbyImage
-            className="w-20"
+            className="w-24"
             fluid={images["stanford-h4r-logo transparent"]}
           />
         </a>
         <a href={supporter_links.siena} target="_blank">
-          <GatsbyImage className="w-20" fluid={images["siena-company-logo"]} />
+          <GatsbyImage className="w-24" fluid={images["siena-company-logo"]} />
         </a>
       </div>
       <p

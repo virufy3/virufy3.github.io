@@ -30,6 +30,8 @@
       "contribute": {
         "title": "Contribuya con su experiencia",
         "details": "Trabajamos con la ciencia, la medicina, la tecnología y otros profesionales y expertos en todo el mundo para dar forma y cumplir la misión de Virufy.",
+        "learnmore": "Want to learn more?",
+        "faq": "See our FAQ page",
         "question": "¿Quiere participar?",
         "linkText": "Pongase en contacto"
       },
@@ -301,11 +303,6 @@
           "name": "Amil Khanzada",
           "description": "Embajador de paz One Young World\nEx-alumno, UC Berkeley Computer Science",
           "title": "Founder & CTO"
-        },
-        "daria": {
-          "name": "Daria Butuc",
-          "description": "Jefe de Ingeniería, Acceso al Proyecto\nB.S., University College London",
-          "title": "Vice Presidente"
         },
         "alex": {
           "name": "Alex Kalanda",
