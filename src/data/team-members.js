@@ -6,12 +6,6 @@ export const leadership = [
     imageName: "amil",
   },
   {
-    mediaLink: "https://www.linkedin.com/in/dariabutuc/",
-    id: "daria",
-    defaultName: "Daria Butuc",
-    imageName: "daria",
-  },
-  {
     mediaLink: "https://www.linkedin.com/in/alexkalanda/",
     id: "alex",
     defaultName: "Alex Kalanda",

@@ -14,13 +14,8 @@
         "description": "Embajador de paz One Young World\nEx-alumno, UC Berkeley Computer Science",
         "title": "Founder & CTO"
       },
-      "daria": {
-        "name": "Daria Butuc",
-        "description": "Jefe de Ingeniería, Acceso al Proyecto\nB.S., University College London",
-        "title": "Vice Presidente"
-      },
       "alex": {
-        "name": "Amil Khanzada",
+        "name": "Alex Kalanda",
         "description": "One Young World Japan Ambassador\nAlumni, UC Berkeley Computer Science",
         "title": "Founder & CEO"
       },
@@ -150,27 +145,27 @@
     "values": {
       "transform": {
         "header": "Transformación",
-        "pg": "Los sistemas sanitarios son caros y resistentes al cambio, pero con la tecnología podemos impulsar la transformación a nivel mundial"
+        "pg": "Los sistemas sanitarios son caros y resistentes al cambio, pero con la tecnología podemos impulsar la transformación a nivel mundial."
       },
       "world": {
         "header": "El mundo",
-        "pg": "Existimos para todos sin importar el transfondo social. Reconocemos que la necesidad más urgente se encuentra en los mercados emergentes, pero que la atención médica puede ser inaccesible para las poblaciones vulnerables incluso en los mercados desarrollados"
+        "pg": "Existimos para todos sin importar el transfondo social. Reconocemos que la necesidad más urgente se encuentra en los mercados emergentes, pero que la atención médica puede ser inaccesible para las poblaciones vulnerables incluso en los mercados desarrollados."
       },
       "free": {
         "header": "Gratis",
-        "pg": "Para muchos, la atención médica no es asequible. No vemos ninguna razón por la que la gente deba pagar por una prevención y detección costosas cuando puede ser gratis con la ayuda de la tecnología"
+        "pg": "Para muchos, la atención médica no es asequible. No vemos ninguna razón por la que la gente deba pagar por una prevención y detección costosas cuando puede ser gratis con la ayuda de la tecnología."
       },
       "health": {
         "header": "La salud",
-        "pg": "La salud de las personas es lo más preciado del mundo. De la salud viene la felicidad, junto con el éxito social y económico"
+        "pg": "La salud de las personas es lo más preciado del mundo. De la salud viene la felicidad, junto con el éxito social y económico."
       },
       "oneTap": {
         "header": "Un toque",
-        "pg": "Nuestro único objetivo es utilizar la tecnología para mejorar la salud de las personas, eso es todo lo que hacemos. Nuestras aplicaciones son sofisticadas pero intuitivas y brindan una detección rápida para prevenir la propagación de virus y salvar vidas"
+        "pg": "Nuestro único objetivo es utilizar la tecnología para mejorar la salud de las personas, eso es todo lo que hacemos. Nuestras aplicaciones son sofisticadas pero intuitivas y brindan una detección rápida para prevenir la propagación de virus y salvar vidas."
       },
       "mobile": {
         "header": "Móvil",
-        "pg": "Los dispositivos móviles se han vuelto omnipresentes en los mercados en desarrollo. Aprovecharemos esta presencia para expandir el acceso a la atención médica"
+        "pg": "Los dispositivos móviles se han vuelto omnipresentes en los mercados en desarrollo. Aprovecharemos esta presencia para expandir el acceso a la atención médica."
       },
       "header": "Nuestros valores"
     },

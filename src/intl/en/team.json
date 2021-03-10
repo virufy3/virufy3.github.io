@@ -14,11 +14,6 @@
         "description": "One Young World Japan Ambassador\nAlumni, UC Berkeley Computer Science",
         "title": "Founder & CTO"
       },
-      "daria": {
-        "name": "Daria Butuc",
-        "description": "Head of Engineering, Project Access\nB.S., University College London",
-        "title": "Vice President"
-      },
       "alex": {
         "name": "Alex Kalanda",
         "description": "Co-Founder at WeResQ\nTechnology Entrepreneurship, Stanford University",
@@ -144,33 +139,33 @@
     "vision": {
       "header": "Virufy's vision",
       "pg1": "We aspire to be the leading not-for-profit organization for technology-enabled disease identification.",
-      "pg2": "Our innovations aim to offer superior detection for patients, clinicians and governments.",
+      "pg2": "Our innovations aim to offer superior detection for patients, clinicians and governments in low-income countries.",
       "pg3": "We will be force for transforming global healthcare and inspiring support and investment in this mission."
     },
     "values": {
       "transform": {
         "header": "Transform",
-        "pg": "Healthcare systems are expensive and slow to change, but with technology we can drive transformation globally"
+        "pg": "Healthcare systems are expensive and slow to change, but with technology we can drive transformation globally."
       },
       "world": {
         "header": "World",
-        "pg": "We exist for everyone regardless of  background. We recognize the most pressing need is in emerging markets, but that healthcare can be inaccessible even in developed markets"
+        "pg": "We exist for everyone regardless of  background. We recognize the most pressing need is in emerging markets, but that healthcare can be inaccessible even in developed markets."
       },
       "free": {
         "header": "Free",
-        "pg": "For many, healthcare is unaffordable. We see no reason why people should have to pay for expensive prevention and detection when it can be free with the help of technology"
+        "pg": "For many, healthcare is unaffordable. We see no reason why people should have to pay for expensive prevention and detection when it can be free with the help of technology."
       },
       "health": {
         "header": "Health",
-        "pg": "People’s health is the most precious thing in the world. From health comes happiness, and from that comes social and economic success"
+        "pg": "People’s health is the most precious thing in the world. From health comes happiness, and from that comes social and economic success."
       },
       "oneTap": {
         "header": "One tap",
-        "pg": "Our sole focus is on using technology to improve people’s health — that’s all we do. Our app(s) are sophisticated yet intuitive, delivering rapid detection to prevent virus spread and save lives"
+        "pg": "Our sole focus is on using technology to improve people’s health — that’s all we do. Our app(s) are sophisticated yet intuitive, delivering rapid detection to prevent virus spread and save lives."
       },
       "mobile": {
         "header": "Mobile",
-        "pg": "Mobile devices have become ubiquitous in developing markets and can be utilized to deliver healthcare"
+        "pg": "Mobile devices have become ubiquitous in developing markets and can be utilized to deliver healthcare."
       },
       "header": "Our values"
     },
