@@ -1,26 +1,27 @@
 import React from "react";
 import { graphql } from "gatsby";
 import { IntlContextConsumer } from "gatsby-plugin-intl";
-import useGetMarkdownByLanguage from "../hooks/useGetMarkdownByLanguage";
 import Layout from "../components/Layout";
 import SEO from "../components/SEO";
 import bgWave from "../images/logos/background-wave.png";
 
 export default ({ data }) => {
-  const langMarkdown = useGetMarkdownByLanguage(data);
-
   return (
     <Layout>
       <SEO title={"CCPA | Virufy"} />
       <IntlContextConsumer>
         {({ language: currentLocale }) =>
-          langMarkdown[currentLocale] ? (
+          data[currentLocale] ? (
             <div>
-              <img className="absolute w-full" src={bgWave} alt="waves" />
+              <img
+                className="absolute w-screen left-0"
+                src={bgWave}
+                alt="waves"
+              />
               <div
                 className="p-8"
                 dangerouslySetInnerHTML={{
-                  __html: langMarkdown[currentLocale].html,
+                  __html: data[currentLocale].html,
                 }}
               />
             </div>
@@ -33,17 +34,28 @@ export default ({ data }) => {
   );
 };
 
+//prettier-ignore
 export const query = graphql`
   {
-    allMarkdownRemark(filter: { frontmatter: { page: { eq: "ccpa" } } }) {
-      edges {
-        node {
-          html
-          frontmatter {
-            lang
-          }
-        }
-      }
+    en: markdownRemark(frontmatter: { page: { eq: "ccpa" }, lang: { eq: "en" } }) {
+      html
+    }
+    es: markdownRemark(frontmatter: { page: { eq: "ccpa" }, lang: { eq: "es" } }) {
+      html
     }
   }
 `;
+// export const query = graphql`
+//   {
+//     allMarkdownRemark(filter: { frontmatter: { page: { eq: "ccpa" } } }) {
+//       edges {
+//         node {
+//           html
+//           frontmatter {
+//             lang
+//           }
+//         }
+//       }
+//     }
+//   }
+// `;
