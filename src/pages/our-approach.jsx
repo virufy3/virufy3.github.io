@@ -109,13 +109,13 @@ export default function OurApproach({ data }) {
       {/* Open data  */}
       <div id="open-data" className="bg-white">
         <div className="container text-center">
-          <h1 className="pb-2">
+          <h1 className="pb-2 mb-4">
             {intl.formatMessage({
               id: "ourApproach.collaboration.title",
             })}
           </h1>
 
-          <p className="text-lg mb-6 ">
+          <p className="text-lg ">
             {intl.formatMessage({
               id: "ourApproach.collaboration.description",
             })}
