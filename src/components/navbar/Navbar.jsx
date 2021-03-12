@@ -1,5 +1,5 @@
 import React from "react";
-import virufyLogoLight from "../../images/logos/virufy-logo.svg";
+import virufyLogoLight from "../../images/logos/virufy-logo.png";
 import virufyLogoDark from "../../images/logos/virufy_logo_whitetext.png";
 import { useLocation } from "@reach/router";
 import MobileNav from "./MobileNav";

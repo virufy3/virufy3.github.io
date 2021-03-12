@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { useIntl } from "gatsby-plugin-intl";
 import { Link } from "gatsby";
-import githubLogo from "../images/logos/github.svg";
-import instagramLogo from "../images/logos/instagram.svg";
-import twitterLogo from "../images/logos/twitter.svg";
-import facebookLogo from "../images/logos/facebook.svg";
-import linkedinLogo from "../images/logos/linkedin.svg";
+import githubLogo from "../images/logos/github.png";
+import instagramLogo from "../images/logos/instagram.png";
+import twitterLogo from "../images/logos/twitter.png";
+import facebookLogo from "../images/logos/facebook.png";
+import linkedinLogo from "../images/logos/linkedin.png";
 
 const socialLinks = [
   {
@@ -64,7 +64,7 @@ export default () => {
   });
 
   return (
-    <div className="container mx-auto text-white px-6">
+    <div className="md:mx-16 mx-auto text-white px-6 ">
       <h2 className="font-heading font-bold text-xl mb-6">
         {intl.formatMessage({ id: "footer.getInTouch", defaultMessage: "" })}
       </h2>
@@ -77,7 +77,7 @@ export default () => {
       <a className="block underline mb-6 text-white" href="#">
         {intl.formatMessage({ id: "footer.address", defaultMessage: "" })}
       </a>
-      <div className="md:flex flex-initial flex-row">
+      <div className="md:flex flex-initial md:flex-row">
         <div className="flex flex-grow">
           {socialLinks.map((socialLinkInformation) => (
             <a
