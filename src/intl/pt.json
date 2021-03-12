@@ -4,8 +4,8 @@
     "cookiePolicy": "Política de Cookies",
     "cookieSettings": "Definições de cookies",
     "privacyPolicy": "Política de Privacidade",
-    "dontSellPersonalInfo": "Do Not Sell My Personal Information",
-    "copyrightInformation": "©2021 Virufy  |  VIRUFY is a trademark of The Covid Detection Foundation   |  Todos os direitos reservados.",
+    "dontSellPersonalInfo": "Não venda minhas informações pessoais",
+    "copyrightInformation": "©2021 Virufy  |  Virufy. Direitos Reservados.   |  Todos os direitos reservados.",
     "email": "info@virufy.org",
     "address": "4546 El Camino Real B10 #614, Los Altos, California 94022, USA"
   },
@@ -21,7 +21,7 @@
     },
     "shareCough": {
       "title": "Compartilhe a sua tosse",
-      "details": "Aceitamos “doações” de tosse para ajudar a expandir nosso banco de dados e refinar a capacidade de previsão de nossa IA para reconhecer COVID-19.\n\nTudo o que é necessário é um dispositivo móvel, o aplicativo Virufy e sua tosse.",
+      "details": "Doe sua tosse em nosso estudo para ajudar a refinar a capacidade preditiva de nossa IA de reconhecer COVID-19.\n\nTudo o que é necessário é um dispositivo móvel e sua tosse.",
       "getTheApp": "Obtenha o app",
       "irbDisclaimer": "Todos os dados são coletados em conformidade com o protocolo IRB.",
       "learnMoreLink": "Saber mais"
@@ -29,37 +29,39 @@
     "nextSteps": {
       "contribute": {
         "title": "Contribua com sua experiência",
-        "details": "Trabalhamos com ciência, medicina, tecnologia e outros profissionais especializados em todo o mundo para moldar e cumprir a missão de Virufy.",
-        "learnmore": "Want to learn more?",
-        "faq": "See our FAQ page",
-        "question": "Buscando se envolver?",
-        "linkText": "Por favor entre em contato"
+        "details": "Trabalhamos com organizações médicas, de tecnologia, governamentais e outras organizações estabelecidas em todo o mundo para moldar e cumprir a missão de Virufy.",
+        "learnmore": "Quer saber mais?",
+        "faq": "Veja nossa página de FAQ",
+        "question": "Procurando um parceiro?",
+        "linkText": "conecte-se conosco"
       },
       "join": {
         "title": "Junte-se ao time Virufighter",
-        "details": "Somos uma organização liderada por jovens que promove um ambiente de aprendizagem positivo com impacto mundial. Nossos voluntários abrangem mais de 15 países, cada um contribuindo com suas perspectivas únicas.",
+        "details": "Somos uma equipe rápida e voltada para uma missão que combina nossas habilidades exclusivas para conter a propagação da pandemia globalmente. Nossos voluntários abrangem mais de 25 países e nosso trabalho tem potencial para impactar milhões de vidas.",
         "question": "Animado em ajudar?",
-        "linkText": "Veja nossos cargos disponíveis"
+        "linkText": "Veja nossas vagas disponíveis",
+        "learnmore": "",
+        "faq": ""
       }
     }
   },
   "index": {
     "section1": {
       "header": "Transformando a saúde global um clique de cada vez",
-      "pg": "O Virufy é uma organização guiada por voluntários que utiliza Inteligência Artificial (IA) para <span class=\"font-bold\">diagnosticar COVID-19</span> através de padrões de tosse, <span class=\"font-bold\"> rapidamente</span> e <span className=\"font-bold\">sem custos</span> através de um smartphone.",
+      "pg": "Virufy é uma organização sem fins lucrativos que está desenvolvendo uma tecnologia de inteligência artificial (IA) para <span class=\"font-bold\">detectar COVID-19</span> a partir de padrões de tosse, de forma <span className=\"font-bold\">rápida</span> e sem custos por meio do uso de um smartphone.",
       "coughLink": "CONTRIBUA COM SUA TOSSE",
       "donateLink": "DOE"
     },
     "section2": {
       "header": "Nosso impacto global",
-      "pg1": "Virufy está mudando a forma como a saúde é experimentada, capacitando as pessoas por meio da detecção rápida e gratuita de doenças.",
+      "pg1": "Virufy tem como objetivo mudar a forma como os cuidados com a saúde são experimentados, capacitando as pessoas em todo o mundo com a detecção rápida e gratuita de doenças. Não importa onde você esteja no mundo, tudo o que você precisa é de um dispositivo móvel e do aplicativo Virufy.",
       "pg2": "Não importa onde você esteja no mundo, tudo o que você precisa é de um dispositivo móvel e do aplicativo Virufy.",
       "learnMoreLink": "APRENDA MAIS"
     },
     "section3": {
       "howItWorks": "COMO FUNCIONA",
-      "header": "Our vision",
-      "sub-header": "Virufy’s three-step detection process will provide a quick and easy COVID-19 diagnosis for all. Support our vision by donating a cough today.",
+      "header": "Nossa visão",
+      "sub-header": "Depois de coletar tosses suficientes para desenvolver nosso algoritmo de IA, nosso objetivo é implementar um processo de detecção de três etapas que ajudará a contribuir para um diagnóstico de COVID-19 rápido e fácil para o benefício dos países de baixa renda. Ajude a apoiar nossa visão doando uma tosse hoje.",
       "header1": "Você grava a sua tosse",
       "header2": "A IA analisa a assinatura respiratória",
       "header3": "A assinatura de COVID-19 é detectada",
@@ -164,10 +166,10 @@
   },
   "ourApproach": {
     "topFold": {
-      "diagnoseDisease": "A Inteligência Artificial é uma facilitadora no diagnóstico de doenças",
-      "acrossNations": "Acreditamos que todos devem ter acesso rápido e acessível aos cuidados de saúde.",
-      "usingTechnology": "Estamos aproveitando a inteligência artificial para atingir esse objetivo",
-      "algorithmInfo": "Com a ajuda da pesquisa de ponta de algumas das instituições mais prestigiadas do mundo - Stanford, Princeton, Cambridge - estamos desenvolvendo um algoritmo de IA que diagnostica COVID-19 com precisão apenas analisando os sons da tosse de uma pessoa.",
+      "diagnoseDisease": "IA para diagnosticar doenças de forma rápida e livre",
+      "acrossNations": "Todas as pessoas em todas as nações devem ter acesso rápido e acessível aos cuidados de saúde. Então, estamos usando tecnologia para fazer isso",
+      "usingTechnology": "Acreditamos que a tecnologia pode tornar isso uma realidade.",
+      "algorithmInfo": "Com o apoio de especialistas das instituições mais prestigiadas do Vale do Silício, nossa equipe desenvolveu um algoritmo de IA de ponta que detecta pacientes positivos para COVID-19 com 98,4% de precisão por meio da análise de sons de tosse.",
       "readWhitePaper": "LEIA NOSSO RESEARCH PAPER",
       "wantToLearnMore": "QUER SABER MAIS?"
     },
@@ -195,7 +197,7 @@
       "universityOfEngineeringPakistan": {
         "title": "A análise de som de tosse para classificação de pneumonia e asma na população pediátrica",
         "description": "A IA foi usada para distinguir entre tosses de asma e pneumonia, com o objetivo de fornecer atendimento médico a países em desenvolvimento com poucos recursos. Seu método alcançou uma sensibilidade de 89%, especificidade de 100% e Kappa de 0,89. Seus resultados mostram o uso potencial de IA na detecção e diferenciação de sons respiratórios.",
-        "source": "University of Engineering & Technology, Pakistan"
+        "source": "Universidade de Engenharia e Tecnologia do Paquistão"
       },
       "imperialCollegeLondon": {
         "title": "Um algoritmo baseado em tosse para diagnóstico automático de coqueluche",
@@ -266,8 +268,8 @@
   },
   "privacy_policy": {
     "headers": {
-      "header": "Privacy Policy",
-      "sub-header": "Please view the privacy policy below which corresponds to the territory you are currently in."
+      "header": "Política de privacidade",
+      "sub-header": "Por favor veja a política de privacidade abaixo que corresponde ao território que você está agora."
     },
     "countries": {
       "argentina": "Argentina",

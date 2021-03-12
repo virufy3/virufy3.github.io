@@ -10,7 +10,7 @@
   },
   "shareCough": {
     "title": "Compartilhe a sua tosse",
-    "details": "Aceitamos “doações” de tosse para ajudar a expandir nosso banco de dados e refinar a capacidade de previsão de nossa IA para reconhecer COVID-19.\n\nTudo o que é necessário é um dispositivo móvel, o aplicativo Virufy e sua tosse.",
+    "details": "Doe sua tosse em nosso estudo para ajudar a refinar a capacidade preditiva de nossa IA de reconhecer COVID-19.\n\nTudo o que é necessário é um dispositivo móvel e sua tosse.",
     "getTheApp": "Obtenha o app",
     "irbDisclaimer": "Todos os dados são coletados em conformidade com o protocolo IRB.",
     "learnMoreLink": "Saber mais"
@@ -18,17 +18,19 @@
   "nextSteps": {
     "contribute": {
       "title": "Contribua com sua experiência",
-      "details": "Trabalhamos com ciência, medicina, tecnologia e outros profissionais especializados em todo o mundo para moldar e cumprir a missão de Virufy.",
-      "learnmore": "Want to learn more?",
-      "faq": "See our FAQ page",
-      "question": "Buscando se envolver?",
-      "linkText": "Por favor entre em contato"
+      "details": "Trabalhamos com organizações médicas, de tecnologia, governamentais e outras organizações estabelecidas em todo o mundo para moldar e cumprir a missão de Virufy.",
+      "learnmore": "Quer saber mais?",
+      "faq": "Veja nossa página de FAQ",
+      "question": "Procurando um parceiro?",
+      "linkText": "conecte-se conosco"
     },
     "join": {
       "title": "Junte-se ao time Virufighter",
-      "details": "Somos uma organização liderada por jovens que promove um ambiente de aprendizagem positivo com impacto mundial. Nossos voluntários abrangem mais de 15 países, cada um contribuindo com suas perspectivas únicas.",
+      "details": "Somos uma equipe rápida e voltada para uma missão que combina nossas habilidades exclusivas para conter a propagação da pandemia globalmente. Nossos voluntários abrangem mais de 25 países e nosso trabalho tem potencial para impactar milhões de vidas.",
       "question": "Animado em ajudar?",
-      "linkText": "Veja nossos cargos disponíveis"
+      "linkText": "Veja nossas vagas disponíveis",
+      "learnmore": "",
+      "faq": ""
     }
   }
 }

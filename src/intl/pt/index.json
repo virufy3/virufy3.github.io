@@ -1,20 +1,20 @@
 {
   "section1": {
     "header": "Transformando a saúde global um clique de cada vez",
-    "pg": "O Virufy é uma organização guiada por voluntários que utiliza Inteligência Artificial (IA) para <span class=\"font-bold\">diagnosticar COVID-19</span> através de padrões de tosse, <span class=\"font-bold\"> rapidamente</span> e <span className=\"font-bold\">sem custos</span> através de um smartphone.",
+    "pg": "Virufy é uma organização sem fins lucrativos que está desenvolvendo uma tecnologia de inteligência artificial (IA) para <span class=\"font-bold\">detectar COVID-19</span> a partir de padrões de tosse, de forma <span className=\"font-bold\">rápida</span> e sem custos por meio do uso de um smartphone.",
     "coughLink": "CONTRIBUA COM SUA TOSSE",
     "donateLink": "DOE"
   },
   "section2": {
     "header": "Nosso impacto global",
-    "pg1": "Virufy está mudando a forma como a saúde é experimentada, capacitando as pessoas por meio da detecção rápida e gratuita de doenças.",
+    "pg1": "Virufy tem como objetivo mudar a forma como os cuidados com a saúde são experimentados, capacitando as pessoas em todo o mundo com a detecção rápida e gratuita de doenças. Não importa onde você esteja no mundo, tudo o que você precisa é de um dispositivo móvel e do aplicativo Virufy.",
     "pg2": "Não importa onde você esteja no mundo, tudo o que você precisa é de um dispositivo móvel e do aplicativo Virufy.",
     "learnMoreLink": "APRENDA MAIS"
   },
   "section3": {
     "howItWorks": "COMO FUNCIONA",
-    "header": "Our vision",
-    "sub-header": "Virufy’s three-step detection process will provide a quick and easy COVID-19 diagnosis for all. Support our vision by donating a cough today.",
+    "header": "Nossa visão",
+    "sub-header": "Depois de coletar tosses suficientes para desenvolver nosso algoritmo de IA, nosso objetivo é implementar um processo de detecção de três etapas que ajudará a contribuir para um diagnóstico de COVID-19 rápido e fácil para o benefício dos países de baixa renda. Ajude a apoiar nossa visão doando uma tosse hoje.",
     "header1": "Você grava a sua tosse",
     "header2": "A IA analisa a assinatura respiratória",
     "header3": "A assinatura de COVID-19 é detectada",

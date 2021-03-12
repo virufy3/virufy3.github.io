@@ -1,9 +1,9 @@
 {
   "topFold": {
-    "diagnoseDisease": "A Inteligência Artificial é uma facilitadora no diagnóstico de doenças",
-    "acrossNations": "Acreditamos que todos devem ter acesso rápido e acessível aos cuidados de saúde.",
-    "usingTechnology": "Estamos aproveitando a inteligência artificial para atingir esse objetivo",
-    "algorithmInfo": "Com a ajuda da pesquisa de ponta de algumas das instituições mais prestigiadas do mundo - Stanford, Princeton, Cambridge - estamos desenvolvendo um algoritmo de IA que diagnostica COVID-19 com precisão apenas analisando os sons da tosse de uma pessoa.",
+    "diagnoseDisease": "IA para diagnosticar doenças de forma rápida e livre",
+    "acrossNations": "Todas as pessoas em todas as nações devem ter acesso rápido e acessível aos cuidados de saúde. Então, estamos usando tecnologia para fazer isso",
+    "usingTechnology": "Acreditamos que a tecnologia pode tornar isso uma realidade.",
+    "algorithmInfo": "Com o apoio de especialistas das instituições mais prestigiadas do Vale do Silício, nossa equipe desenvolveu um algoritmo de IA de ponta que detecta pacientes positivos para COVID-19 com 98,4% de precisão por meio da análise de sons de tosse.",
     "readWhitePaper": "LEIA NOSSO RESEARCH PAPER",
     "wantToLearnMore": "QUER SABER MAIS?"
   },
@@ -31,7 +31,7 @@
     "universityOfEngineeringPakistan": {
       "title": "A análise de som de tosse para classificação de pneumonia e asma na população pediátrica",
       "description": "A IA foi usada para distinguir entre tosses de asma e pneumonia, com o objetivo de fornecer atendimento médico a países em desenvolvimento com poucos recursos. Seu método alcançou uma sensibilidade de 89%, especificidade de 100% e Kappa de 0,89. Seus resultados mostram o uso potencial de IA na detecção e diferenciação de sons respiratórios.",
-      "source": "University of Engineering & Technology, Pakistan"
+      "source": "Universidade de Engenharia e Tecnologia do Paquistão"
     },
     "imperialCollegeLondon": {
       "title": "Um algoritmo baseado em tosse para diagnóstico automático de coqueluche",
