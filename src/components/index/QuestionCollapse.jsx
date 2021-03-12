@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 import { useIntl } from "gatsby-plugin-intl";
+import CloseIcon from "../../images/our-approach-page/close-icon.svg";
+import PlusIcon from "../../images/our-approach-page/plus-icon.svg";
 
 function QuestionCollapse({ categoryId, questionIds }) {
   const intl = useIntl();
@@ -18,7 +20,7 @@ function QuestionCollapse({ categoryId, questionIds }) {
             id: `index.faq.${categoryId}`,
           })}
         </h2>
-        <h3 className="float-right mt-1">{open ? "\u2716" : "\u2795"}</h3>
+        {open ? <CloseIcon /> : <PlusIcon />}
       </button>
       {open && (
         <ul className=" pl-5 py-5 ">
