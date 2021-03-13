@@ -2,7 +2,7 @@ import React from "react";
 import { useIntl } from "gatsby-plugin-intl";
 import SEO from "../components/SEO";
 import question from "../images/404/rafiki.png";
-import virufyLogo from "../images/logos/virufy-logo.svg";
+import virufyLogo from "../images/logos/virufy-logo.png";
 
 export default function NotFound() {
   const intl = useIntl();
