@@ -20,13 +20,14 @@ const TeamMember = (props) => {
           imgStyle={{ objectFit: "fill" }}
           fluid={image}
         />
+
+        <h5 className="mt-4 text-xl font-semibold text-black no-underline	">
+          {intl.formatMessage({
+            id: `team.teamSection.${role}.${id}.name`,
+            defaultMessage: defaultName,
+          })}
+        </h5>
       </a>
-      <h5 className="mt-4 text-xl font-semibold	">
-        {intl.formatMessage({
-          id: `team.teamSection.${role}.${id}.name`,
-          defaultMessage: defaultName,
-        })}
-      </h5>
       <h6 className="text-lg font-light ">
         {intl.formatMessage({
           id: `team.teamSection.${role}.${id}.title`,
