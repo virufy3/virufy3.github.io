@@ -14,11 +14,11 @@ export default [
     intlId: "nav.ourOrg",
     defMsg: "Our Org",
     path: "/team",
-    // dropDownLinks: [
-    //   { intlId: "nav.ourVision", sectionId: "our-vision" },
-    //   { intlId: "nav.ourTeam", sectionId: "our-team" },
-    //   { intlId: "nav.ourSupporters", sectionId: "faqs" },
-    // ],
+    dropDownLinks: [
+      { intlId: "nav.ourVision", sectionId: "our-vision" },
+      { intlId: "nav.ourTeam", sectionId: "our-team" },
+      { intlId: "nav.ourSupporters", sectionId: "our-supporters" },
+    ],
   },
   {
     intlId: "nav.inTheNews",

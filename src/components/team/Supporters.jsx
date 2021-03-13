@@ -32,7 +32,7 @@ export default () => {
   );
 
   return (
-    <section className="py-8 px-12 bg-gray-200">
+    <section id="our-supporters" className="py-8 px-12 bg-gray-200">
       <h1 className="font-bold text-2xl text-black">
         {intl.formatMessage({ id: "team.supportersSection.header" })}
       </h1>

@@ -9,12 +9,8 @@ export default () => {
   const location = useLocation();
 
   //prettier-ignore
-  const [
-    bgColor, 
-    textColor, 
-    virufyLogo
-  ] = location.pathname.includes("/team")
-    ? ["bg-black", "text-white", virufyLogoDark]
+  const [bgColor, textColor, virufyLogo] = location.pathname.includes("/team")
+    ? ["bg-white", "text-black", virufyLogoLight]
     : ["bg-white", "text-black", virufyLogoLight];
 
   return (

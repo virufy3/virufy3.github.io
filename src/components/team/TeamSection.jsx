@@ -13,7 +13,7 @@ const TeamMember = (props) => {
   } = props;
 
   return (
-    <div className="flex flex-col text-left	 mx-auto mb-10 w-full">
+    <div id="our-team" className="flex flex-col text-left	 mx-auto mb-10 w-full">
       <a className="w-full" target="_blank" rel="noreferrer" href={mediaLink}>
         <GatsbyImage
           className="mx-auto my-2 rounded-md overflow-hidden team-icons"

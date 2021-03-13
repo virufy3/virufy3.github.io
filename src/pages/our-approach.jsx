@@ -48,7 +48,7 @@ export default function OurApproach({ data }) {
       <SEO title="Our Approach | Virufy" />
       {/* Top fold */}
       <div className="container md:flex">
-        <div className="flex-1 pb-10 md:pb-0 pr-6 md:text-5xl font-bold">
+        <div className="flex-1 pb-10 md:pb-0 pr-6 text-5xl font-bold">
           {intl.formatMessage({ id: `ourApproach.topFold.diagnoseDisease` })}
         </div>
         <div className="flex-1">
