@@ -296,7 +296,7 @@
       "supporterText": "Virufy is a <a target=\"_blank\" rel=\"noreferrer\" href=\"\" class=\"underline\"/>Stanford COVID-19 Response Innovation Lab</a> project and is also featured in <a target=\"_blank\" rel=\"noreferrer\" href=\"\" class=\"underline\"/>One Young World</a>"
     },
     "teamSection": {
-      "header": "Our people",
+      "header": "Our team",
       "pg1": "Meet the dozens of people volunteering across five continents to bring Virufy to the world.",
       "teamLeadText": "Virufighter Team Leads",
       "advisorText": "Consultivo",
@@ -435,7 +435,7 @@
       "more": "Mais",
       "vision": {
         "header": "Virufy's vision",
-        "pg1": "We aspire to be the leading not-for-profit organization for technology-enabled disease identification.",
+        "pg1": "We aspire to be the leading nonprofit organization for technology-enabled disease identification.",
         "pg2": "Our innovations aim to offer superior detection for patients, clinicians and governments.",
         "pg3": "We will be force for transforming global healthcare and inspiring support and investment in this mission."
       },
@@ -458,7 +458,7 @@
         },
         "oneTap": {
           "header": "One tap",
-          "pg": "Our sole focus is on using technology to improve people’s health — that’s all we do. Our app(s) are sophisticated yet intuitive, delivering rapid detection to prevent virus spread and save lives."
+          "pg": "Our sole focus is on using technology to improve people’s health — that’s all we do. Our apps are sophisticated yet intuitive, delivering rapid detection to prevent virus spread and save lives."
         },
         "mobile": {
           "header": "Mobile",

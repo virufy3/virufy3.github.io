@@ -8,7 +8,7 @@
   "section2": {
     "header": "Our global impact",
     "pg1": "Virufy aims to change how healthcare is experienced,<br>empowering people globally with fast and free disease detection.",
-    "pg2": "No matter where you are in the world, all you will need is a mobile device<br>and the Virufy app.",
+    "pg2": "No matter where you are in the world, all you will need is a mobile device and the Virufy app.",
     "learnMoreLink": "LEARN MORE"
   },
   "section3": {
@@ -29,7 +29,7 @@
   },
   "faq": {
     "distinguishableQ": "How might COVID-19 coughs be distinguishable?",
-    "distinguishableA": "Similar to all other respiratory diseases, COVID-19 creates a unique respiratory signature in the throat and lungs that is distinct from other respiratory infections that produce a wet cough. Consequently, it has been suggested that cough sounds can be analyzed to detect COVID-19​.​ Globally, this idea is being actively researched by several prestigious institutions, including CMU[8], MIT[11], and Cambridge[7]. For example, a crowdsource research done by University of Cambridge showed that a simple binary machine learning classifier is able to classify COVID-19 positive patients through breathing and coughing sounds with high accuracy (AUC = 0.7)[7]. Similarly, researchers at CMU identified 18 voice features that distinguish positive COVID-19 patients and trained a model to diagnose COVID-19 with a 89.1% accuracy[8].",
+    "distinguishableA": "Similar to other respiratory diseases, COVID-19 creates a unique respiratory signature in the throat and lungs that is distinct from other respiratory infections that produce a wet cough. Consequently, it has been suggested that cough sounds can be analyzed to detect COVID-19​.​ Globally, this idea is being actively researched by several prestigious institutions, including CMU[8], MIT, and Cambridge. For example, a crowdsource research done by University of Cambridge showed that a simple binary machine learning classifier is able to classify COVID-19 positive patients through breathing and coughing sounds with high accuracy (AUC = 0.7)[7]. Similarly, researchers at CMU identified 18 voice features that distinguish positive COVID-19 patients and trained a model to diagnose COVID-19 with a 89.1% accuracy.",
     "aiQ": "How will Virufy’s AI algorithm predict a COVID-19 diagnosis? ",
     "aiA": "Based on this past research, Virufy is developing an AI algorithm that can be used to accurately predict a COVID-19 infection within minutes based on recordings of cough sounds. However, as opposed to previous COVID-19 cough research that targeted the US population, Virufy aims to collect data from multiple sites across the globe. As a student-run initiative with volunteers spanning several countries, Virufy is developing a COVID-19 diagnostic model with greater racial and spatial inclusivity through data that includes a range of ethnicities and community-specific phonological differences."
   }

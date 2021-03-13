@@ -37,7 +37,7 @@
     }
   },
   "footer": {
-    "getInTouch": "Get in touch!",
+    "getInTouch": "",
     "cookiePolicy": "Cookie Policy",
     "cookieSettings": "Cookie Settings",
     "privacyPolicy": "Privacy Policy",
@@ -53,14 +53,14 @@
     },
     "donate": {
       "title": "Make a donation",
-      "details": "Donate now to help Virufy perform its vital work of bringing fast and free disease diagnosis to people in low-income countries.\n\nEvery bit helps — we couldn’t do it without the financial support of contributors like you.",
+      "details": "Donate now to help Virufy perform its vital work of bringing fast and free disease detection to people in low-income countries.\n\nEvery bit helps — we couldn’t do it without the financial support of contributors like you.",
       "donateButton": "Donate to support our org"
     },
     "shareCough": {
       "title": "Share your cough",
       "details": "Donate your cough in our study help refine our AI’s predictive ability to recognize COVID-19.\n\nAll that’s needed is a mobile device and your cough.",
       "getTheApp": "CONTRIBUTE",
-      "irbDisclaimer": "All data is collected in compliance with IRB protocol.",
+      "irbDisclaimer": "",
       "learnMoreLink": "Learn more"
     },
     "nextSteps": {
@@ -106,16 +106,16 @@
     },
     "section4": {
       "header": "Our story",
-      "pg1": "In March 2020, we pioneered an AI-powered mobile app to detect COVID-19.",
+      "pg1": "In March 2020, Virufy was born with the hypothesis that an AI-powered mobile app could detect COVID-19.",
       "pg2": "Now, Virufighters across five continents are commited to making disease detection instant and free of charge through technological innovation.",
       "knowUsLink": "GET TO KNOW US",
-      "header2": "We're supported by"
+      "header2": "Our supporters"
     },
     "faq": {
       "distinguishableQ": "How might COVID-19 coughs be distinguishable?",
-      "distinguishableA": "Similar to all other respiratory diseases, COVID-19 creates a unique respiratory signature in the throat and lungs that is distinct from other respiratory infections that produce a wet cough. Consequently, it has been suggested that cough sounds can be analyzed to detect COVID-19​.​ Globally, this idea is being actively researched by several prestigious institutions, including CMU[8], MIT[11], and Cambridge[7]. For example, a crowdsource research done by University of Cambridge showed that a simple binary machine learning classifier is able to classify COVID-19 positive patients through breathing and coughing sounds with high accuracy (AUC = 0.7)[7]. Similarly, researchers at CMU identified 18 voice features that distinguish positive COVID-19 patients and trained a model to diagnose COVID-19 with a 89.1% accuracy[8].",
+      "distinguishableA": "Similar to all other respiratory diseases, COVID-19 creates a unique respiratory signature in the throat and lungs that is distinct from other respiratory infections that produce a wet cough. Consequently, it has been suggested that cough sounds can be analyzed to detect COVID-19​.​ Globally, this idea is being actively researched by several prestigious institutions, including CMU, MIT, and Cambridge. For example, a crowdsourced research study done by the University of Cambridge showed that a simple binary machine learning classifier is able to classify COVID-19 positive patients through breathing and coughing sounds with high accuracy (AUC = 0.7). Similarly, researchers at CMU identified 18 voice features that distinguish positive COVID-19 patients and trained a model to diagnose COVID-19 with a 89.1% accuracy.",
       "aiQ": "How will Virufy’s AI algorithm predict a COVID-19 diagnosis? ",
-      "aiA": "Based on this past research, Virufy is developing an AI algorithm that can be used to accurately predict a COVID-19 infection within minutes based on recordings of cough sounds. However, as opposed to previous COVID-19 cough research that targeted the US population, Virufy aims to collect data from multiple sites across the globe. As a student-run initiative with volunteers spanning several countries, Virufy is developing a COVID-19 diagnostic model with greater racial and spatial inclusivity through data that includes a range of ethnicities and community-specific phonological differences."
+      "aiA": "Grouded in existing research, Virufy is developing an AI algorithm that can be used to accurately predict a COVID-19 infection within minutes based on recordings of cough sounds. Virufy aims to collect data from multiple sites across the globe. As an initiative driven by young professionals and expert advisors spanning many countries, Virufy is developing a COVID-19 diagnostic model with greater racial and spatial inclusivity through data that includes a range of ethnicities and community-specific phonological differences."
     }
   },
   "nav": {
@@ -128,7 +128,7 @@
     "faqs": "FAQs",
     "ourVision": "Our Vision",
     "ourSupporters": "Our Supporters",
-    "ourTeam": "ourTeam"
+    "ourTeam": "Our Team"
   },
   "news": {
     "headers": {
@@ -261,23 +261,23 @@
       },
       "collaboration": {
         "title": "Collaboration",
-        "segmentedSamples": "We’ve made 121 segmented clinical cough samples available on ",
+        "segmentedSamples": "We’ve made clinical cough samples available on ",
         "githubLink": "GitHub",
-        "labelled": ". Each are labeled with COVID-19 PCR test status and patient age, gender and medical history."
+        "labelled": ", which are labeled with patients' COVID-19 PCR test results, age, gender, and current symptoms."
       }
     },
     "faq": {
       "title": "Frequently Asked Questions (FAQs)",
       "missionCategory": "Virufy Mission & Vision",
       "nonprofitQ": "Is Virufy a nonprofit?",
-      "nonprofitA": "Virufy is a registered California nonprofit public benefit corporation. However, our official 501(c)(3) status approval could take until mid 2021 as the IRS is backlogged due to COVID-19.",
+      "nonprofitA": "Virufy is a California nonprofit corporation operating through a fiscal sponsorship with Players Philanthropy Fund, a Maryland charitable trust recognized by IRS as a tax-exempt public charity under Section 501(c)(3) of the Internal Revenue Code (Federal Tax ID: 27-6601178). Contributions to Virufy are tax-deductible to the fullest extent of the law.",
       "postVaccineQ": "What are the plans for Virufy after the COVID-19 vaccine?",
       "postVaccineA": "We anticipate that low-income countries will not have the financial resources and medical infrastructure to vaccinate their population and that rapid, equitable COVID-19 testing will still be important to control the pandemic, especially in those countries.",
       "postControlQ": "What are the plans for Virufy after COVID-19 is under control?",
       "postControlA": "Virufy aims to bring an end to the spread of various communicable diseases through widespread, smartphone-based testing which can be used whenever a community feels at risk of virus spread. We anticipate that the same artificial intelligence technology can be adapted to detect other coronaviruses, including the common cold and influenza.",
       "detectionCategory": "Detection",
       "distinguishableQ": "How might COVID-19 coughs be distinguishable?",
-      "distinguishableA": "Similar to all other respiratory diseases, COVID-19 creates a unique respiratory signature in the throat and lungs that is distinct from other respiratory infections that produce a wet cough. Consequently, it has been suggested that cough sounds can be analyzed to detect COVID-19​.​ Globally, this idea is being actively researched by several prestigious institutions, including CMU[8], MIT[11], and Cambridge[7]. For example, a crowdsource research done by University of Cambridge showed that a simple binary machine learning classifier is able to classify COVID-19 positive patients through breathing and coughing sounds with high accuracy (AUC = 0.7)[7]. Similarly, researchers at CMU identified 18 voice features that distinguish positive COVID-19 patients and trained a model to diagnose COVID-19 with a 89.1% accuracy[8].",
+      "distinguishableA": "Similar to all other respiratory diseases, COVID-19 creates a unique respiratory signature in the throat and lungs that is distinct from other respiratory infections that produce a wet cough. Consequently, it has been suggested that cough sounds can be analyzed to detect COVID-19​.​ Globally, this idea is being actively researched by several prestigious institutions, including CMU[8], MIT, and Cambridge. For example, a crowdsource research done by University of Cambridge showed that a simple binary machine learning classifier is able to classify COVID-19 positive patients through breathing and coughing sounds with high accuracy (AUC = 0.7)[7]. Similarly, researchers at CMU identified 18 voice features that distinguish positive COVID-19 patients and trained a model to diagnose COVID-19 with a 89.1% accuracy.",
       "diagnosisQ": "How will Virufy's AI Algorithm predict a COVID-19 diagnosis?",
       "diagnosisA": "Based on this past research, Virufy is developing an AI algorithm that can be used to accurately predict a COVID-19 infection within minutes based on recordings of cough sounds. However, as opposed to previous COVID-19 cough research that targeted the US population, Virufy aims to collect data from multiple sites across the globe. As a student-run initiative with volunteers spanning several countries, Virufy is developing a COVID-19 diagnostic model with greater racial and spatial inclusivity through data that includes a range of ethnicities and community-specific phonological differences.",
       "performanceQ": "Will the performance of the AI model in different smartphones remain unaffected?",
@@ -297,7 +297,7 @@
       "financialContributionQ": "Do I need to make a financial contribution if I'm donating my cough?",
       "financialContributionA": "No.",
       "appCostQ": "Will users have to pay to use the app?",
-      "appCostA": "As a not-for-profit organization our intention is to make the app free for everyone, especially in low-income countries. However, we may need to charge a nominal fee to support our operations in case we are not able to raise enough funds.",
+      "appCostA": "As a nonprofit organization our intention is to make the app free for everyone, especially in low-income countries. However, we may need to charge a nominal fee to support our operations in case we are not able to raise enough funds.",
       "generalCategory": "General",
       "moreQuestionsQ": "What if I have more questions?",
       "moreQuestionsA": "More details can be found in our full privacy policy, cookie policy and consent form which is embedded in the data collection app. For questions related to the data collection study, please email us at study@virufy.org. For data related queries, we can be contacted at open-data@virufy.org. For all other inquiries, you may reach us at info@virufy.org."
@@ -333,7 +333,7 @@
       "supporterText": "Virufy is a <a target=\"_blank\" rel=\"noreferrer\" href=\"\" class=\"underline\"/>Stanford COVID-19 Response Innovation Lab</a> project and is also featured in <a target=\"_blank\" rel=\"noreferrer\" href=\"\" class=\"underline\"/>One Young World</a>"
     },
     "teamSection": {
-      "header": "Our people",
+      "header": "Our team",
       "pg1": "Meet the dozens of people volunteering across five continents to bring Virufy to the world.",
       "teamLeadText": "Virufighter Team Leads",
       "advisorText": "Advisors",
@@ -467,7 +467,7 @@
       "more": "More",
       "vision": {
         "header": "Virufy's vision",
-        "pg1": "We aspire to be the leading not-for-profit organization for technology-enabled disease identification.",
+        "pg1": "We aspire to be the leading nonprofit organization for technology-enabled disease identification.",
         "pg2": "Our innovations aim to offer superior detection for patients, clinicians and governments in low-income countries.",
         "pg3": "We will be force for transforming global healthcare and inspiring support and investment in this mission."
       },
@@ -490,7 +490,7 @@
         },
         "oneTap": {
           "header": "One tap",
-          "pg": "Our sole focus is on using technology to improve people’s health — that’s all we do. Our app(s) are sophisticated yet intuitive, delivering rapid detection to prevent virus spread and save lives."
+          "pg": "Our sole focus is on using technology to improve people’s health — that’s all we do. Our apps are sophisticated yet intuitive, delivering rapid detection to prevent virus spread and save lives."
         },
         "mobile": {
           "header": "Mobile",

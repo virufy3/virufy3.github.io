@@ -34,7 +34,7 @@ const Role = ({ description, location, title, url }) => (
       rel="noopener noreferrer"
       className="block w-full text-center font-heading text-sm no-underline bg-primary text-white uppercase font-bold px-8 py-4 inline-block rounded-full text-sm md:text-md"
     >
-      Read More
+      Apply now
     </a>
   </div>
 );
@@ -51,10 +51,7 @@ export default function AvailableRoles() {
           </h1>
 
           <p className="mb-8 font-heading max-w-2xl text-sm md:text-md">
-            Our youth-led team fosters a positive learning environment with a
-            focus on mentorship to allow volunteers to hone their skills to make
-            worldwide impact. Our volunteers span more than 15 countries,
-            contributing their unique perspectives.
+          Virufy is entirely run with volunteers and pro bono partner companies. Join our fast-paced, mission-driven team to put your skills to use in curbing the spread of the pandemic globally.
           </p>
 
           <p className="font-bold font-heading text-sm md:text-md">

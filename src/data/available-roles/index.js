@@ -81,9 +81,9 @@ export const roles = [
   },
   {
     description:
-      "Seeking a part-time, volunteer filmmaker who is passionate about editing digital content and creating graphics/illustrations for outreach and marketing purposes.",
+      "Seeking a part-time, volunteer film maker who is passionate about editing digital content and creating graphics/illustrations for outreach and marketing purposes.",
     location: "Remote",
-    title: "Filmmaker",
+    title: "Film Maker",
     url:
       "https://docs.google.com/document/d/1bgIGXD_LUUrbtszgHlOhdUnbojWfmMlSXNwnI1naDTc",
   },
