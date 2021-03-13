@@ -125,7 +125,10 @@ export default ({ images }) => {
   const moreBtnClick = () => setPanelOpen(!panelOpen);
 
   return (
-    <section className="bg-black text-white px-4 lg:px-20 py-12">
+    <section
+      id="our-vision"
+      className="bg-black text-white px-4 lg:px-20 py-12"
+    >
       <div className="flex justify-between">
         <div className="flex flex-col items-baseline lg:w-1/2">
           <h2 className="mb-8 text-2xl font-bold">
