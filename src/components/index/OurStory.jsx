@@ -1,7 +1,7 @@
 import React from "react";
+import { useStaticQuery, graphql, Link } from "gatsby";
 import { useIntl } from "gatsby-plugin-intl";
 import GatsbyImage from "gatsby-image";
-import { Link } from "gatsby";
 import supporter_links from "../../data/supporters_links";
 export default ({ images }) => {
   const intl = useIntl();
@@ -36,19 +36,44 @@ export default ({ images }) => {
         <h2 className="text-black font-bold mb-4">
           {intl.formatMessage({ id: "index.section4.header2" })}
         </h2>
-        <div className="flex items-center">
+        <div className="md:flex flex-col lg:flex-row flex-wrap md:justify-between items-center pt-8 pb-12">
+          <a href={supporter_links.responseLab} target="_blank">
+            <GatsbyImage
+              className="w-16"
+              fluid={images["covid-19-RIL-logo"].childImageSharp.fluid}
+            />
+          </a>
+          <a href={supporter_links.oneYoungWorld} target="_blank">
+            <GatsbyImage
+              imgStyle={{ objectFit: "fill" }}
+              className="w-20 sm:space-x-8"
+              fluid={images["OYW_blue_rgb"].childImageSharp.fluid}
+            />
+          </a>
+          <a href={supporter_links.xoor} target="_blank">
+            <GatsbyImage
+              className="w-16 sm:space-x-8"
+              fluid={images["xoor"].childImageSharp.fluid}
+            />
+          </a>
+          <a href={supporter_links.sherlock} target="_blank">
+            <GatsbyImage
+              className="w-20"
+              fluid={images["sherlock"].childImageSharp.fluid}
+            />
+          </a>
           <a href={supporter_links.stanford} target="_blank">
             <GatsbyImage
-              className="w-16 mr-4"
+              className="w-16"
               fluid={
                 images["stanford-h4r-logo transparent"].childImageSharp.fluid
               }
             />
           </a>
-          <a href={supporter_links.oneYoungWorld} target="_blank">
+          <a href={supporter_links.siena} target="_blank">
             <GatsbyImage
-              className="w-20"
-              fluid={images["OYW_blue_rgb"].childImageSharp.fluid}
+              className="w-16"
+              fluid={images["siena-company-logo"].childImageSharp.fluid}
             />
           </a>
         </div>
