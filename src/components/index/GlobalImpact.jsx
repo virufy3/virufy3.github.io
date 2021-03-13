@@ -27,7 +27,7 @@ export default ({ images }) => {
           <Link
             className="no-underline bg-white text-black mx-auto my-10 px-8 py-4 font-bold"
             target="_blank"
-            to={"/app"}
+            to={"/our-approach"}
           >
             {intl.formatMessage({ id: "index.section2.learnMoreLink" })}
           </Link>
