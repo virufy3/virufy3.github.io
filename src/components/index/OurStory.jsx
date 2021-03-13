@@ -36,35 +36,35 @@ export default ({ images }) => {
         <h2 className="text-black font-bold mb-4">
           {intl.formatMessage({ id: "index.section4.header2" })}
         </h2>
-        <div className="md:flex flex-col lg:flex-row flex-wrap md:justify-between items-center pt-8 pb-12">
+        <div className="flex flex-col items-center md:flex flex-col lg:flex-row flex-wrap md:justify-between items-center pt-8 pb-12">
           <a href={supporter_links.responseLab} target="_blank">
             <GatsbyImage
-              className="w-16"
+              className="w-32 lg:w-20 my-3 mx-1"
               fluid={images["covid-19-RIL-logo"].childImageSharp.fluid}
             />
           </a>
           <a href={supporter_links.oneYoungWorld} target="_blank">
             <GatsbyImage
               imgStyle={{ objectFit: "fill" }}
-              className="w-20 sm:space-x-8"
+              className="w-32 lg:w-24 my-3 mx-1"
               fluid={images["OYW_blue_rgb"].childImageSharp.fluid}
             />
           </a>
           <a href={supporter_links.xoor} target="_blank">
             <GatsbyImage
-              className="w-16 sm:space-x-8"
+              className="w-32 lg:w-20 my-3 mx-1"
               fluid={images["xoor"].childImageSharp.fluid}
             />
           </a>
           <a href={supporter_links.sherlock} target="_blank">
             <GatsbyImage
-              className="w-20"
+              className="w-40 lg:w-24 my-3 mx-1"
               fluid={images["sherlock"].childImageSharp.fluid}
             />
           </a>
           <a href={supporter_links.stanford} target="_blank">
             <GatsbyImage
-              className="w-16"
+              className="w-32 lg:w-20 my-3 mx-1"
               fluid={
                 images["stanford-h4r-logo transparent"].childImageSharp.fluid
               }
@@ -72,7 +72,7 @@ export default ({ images }) => {
           </a>
           <a href={supporter_links.siena} target="_blank">
             <GatsbyImage
-              className="w-16"
+              className="w-32 lg:w-20 my-3"
               fluid={images["siena-company-logo"].childImageSharp.fluid}
             />
           </a>
