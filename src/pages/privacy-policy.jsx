@@ -65,7 +65,7 @@ export default function PrivacyPolicy({ data }) {
           </p>
 
           <h4 className="font-bold mt-6">
-            {intl.formatMessage({ id: "privacy_policy.countries.columbia" })}
+            {intl.formatMessage({ id: "privacy_policy.countries.colombia" })}
           </h4>
           <p>
             <a
