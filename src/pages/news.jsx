@@ -71,7 +71,7 @@ const CountrySelect = (props) => {
   const countryText = [
     "Argentina ",
     "Brazil",
-    "Columbia",
+    "Colombia",
     "Japan",
     "Mexico",
     "Peru",
