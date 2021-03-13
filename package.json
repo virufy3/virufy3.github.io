@@ -96,7 +96,8 @@
     }
   },
   "eslintIgnore": [
-    "public/"
+    "public/",
+    "static/"
   ],
   "husky": {
     "hooks": {
