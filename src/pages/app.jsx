@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-const paperURL = "https://virufy.org/app/welcome";
+const paperURL = "https://virufy.org/study/welcome";
 
 export default function Paper() {
   useEffect(() => {
