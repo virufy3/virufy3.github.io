@@ -65,9 +65,6 @@ export default () => {
 
   return (
     <div className="md:mx-16 mx-auto text-white px-6 ">
-      <h2 className="font-heading font-bold text-xl mb-6">
-        {intl.formatMessage({ id: "footer.getInTouch", defaultMessage: "" })}
-      </h2>
       <a
         className="block underline mb-6 text-white"
         href={`mailto:${informationEmail}`}
