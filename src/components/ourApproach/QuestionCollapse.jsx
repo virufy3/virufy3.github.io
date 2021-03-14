@@ -33,11 +33,14 @@ function QuestionCollapse({ categoryId, questionIds }) {
               {intl.formatMessage({
                 id: `ourApproach.faq.${questionId}Q`,
               })}
-              <p className="text-black font-normal mt-1">
-                {intl.formatMessage({
-                  id: `ourApproach.faq.${questionId}A`,
-                })}
-              </p>
+              <p
+                className="text-black font-normal mt-1"
+                dangerouslySetInnerHTML={{
+                  __html: intl.formatMessage({
+                    id: `ourApproach.faq.${questionId}A`,
+                  }),
+                }}
+              />
             </li>
           ))}
         </ol>

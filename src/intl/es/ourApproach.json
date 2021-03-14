@@ -97,6 +97,6 @@
     "appCostA": "Como organización sin fines de lucro, nuestra intención es hacer que la aplicación sea gratuita para todos, especialmente en países de bajos ingresos. Sin embargo, es posible que debamos cobrar una tarifa nominal para respaldar nuestras operaciones en caso de que no podamos recaudar suficientes fondos.",
     "generalCategory": "General",
     "moreQuestionsQ": "¿Y si tengo más preguntas?",
-    "moreQuestionsA": "Se pueden encontrar más detalles en nuestra política de privacidad completa, política de cookies y formulario de consentimiento que está integrado en la aplicación de recopilación de datos. Si tiene preguntas relacionadas con el estudio de recopilación de datos, envíenos un correo electrónico a study@virufy.org. Para consultas relacionadas con datos, puede ser contactado en open-data@virufy.org. Para todas las demás consultas, puede comunicarse con nosotros en info@virufy.org"
+    "moreQuestionsA": "Se pueden encontrar más detalles en nuestra política de privacidad completa, política de cookies y formulario de consentimiento que está integrado en la aplicación de recopilación de datos. Si tiene preguntas relacionadas con el estudio de recopilación de datos, envíenos un correo electrónico a <a href='mailto:study@virufy.org'>study@virufy.org</a>. Para consultas relacionadas con datos, puede ser contactado en open-data@virufy.org. Para todas las demás consultas, puede comunicarse con nosotros en <a href='mailto:info@virufy.org'>info@virufy.org.</a>"
   }
 }

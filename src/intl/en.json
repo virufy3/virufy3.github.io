@@ -299,7 +299,7 @@
       "appCostA": "As a nonprofit organization our intention is to make the app free for everyone, especially in low-income countries. However, we may need to charge a nominal fee to support our operations in case we are not able to raise enough funds.",
       "generalCategory": "General",
       "moreQuestionsQ": "What if I have more questions?",
-      "moreQuestionsA": "More details can be found in our full privacy policy, cookie policy and consent form which is embedded in the data collection app. For questions related to the data collection study, please email us at study@virufy.org. For data related queries, we can be contacted at open-data@virufy.org. For all other inquiries, you may reach us at info@virufy.org."
+      "moreQuestionsA": "More details can be found in our full privacy policy, cookie policy and consent form which is embedded in the data collection app. For questions related to the data collection study, please email us at <a href='mailto:study@virufy.org'>study@virufy.org</a>. For data related queries, we can be contacted at <a href='mailto:open-data@virufy.org'>open-data@virufy.org</a>. For all other inquiries, you may reach us at info@virufy.org."
     }
   },
   "privacy_policy": {

@@ -132,12 +132,11 @@ export default function OurApproach({ data }) {
             {intl.formatMessage({
               id: "ourApproach.collaboration.sharedData.withTheAim",
             })}
-            <a href={collaborationLinks.communityOfResearchersLink}>
-              {intl.formatMessage({
-                id:
-                  "ourApproach.collaboration.sharedData.communityOfResearchersLink",
-              })}
-            </a>
+
+            {intl.formatMessage({
+              id:
+                "ourApproach.collaboration.sharedData.communityOfResearchersLink",
+            })}
           </p>
 
           <div className="wrapper my-8 mx-auto md:flex ">
