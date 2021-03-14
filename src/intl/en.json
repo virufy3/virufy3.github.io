@@ -36,6 +36,11 @@
       }
     }
   },
+  "dashboard": {
+    "header": "Collected Data Dashboard",
+    "sub-header": "Your cough helps us improve our predictive model, thus being <b>crucial</b> in the fight against <b>Covid-19</b>. See the progress that we have made and donate your cough!",
+    "button": "Contribute Your Cough"
+  },
   "footer": {
     "cookiePolicy": "Cookie Policy",
     "cookieSettings": "Cookie Settings",
@@ -84,7 +89,7 @@
   "index": {
     "section1": {
       "header": "Transforming the world's<br>health one click at a time",
-      "pg": "Virufy is a nonprofit organization that is developing artificial intelligence (AI) technology to <span class=\"font-bold\">screen for COVID-19</span> from cough patterns, <span class=\"font-bold\">rapidly</span> and at no cost through use of a smartphone.",
+      "pg": "Virufy is a nonprofit research organization developing artificial intelligence (AI) technology to <span class=\"font-bold\">screen for COVID-19</span> from cough patterns, <span class=\"font-bold\">rapidly</span> and at no cost through use of a smartphone.",
       "coughLink": "CONTRIBUTE YOUR COUGH",
       "donateLink": "DONATE"
     },
