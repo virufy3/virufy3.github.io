@@ -5,7 +5,6 @@ import { useIntl } from "gatsby-plugin-intl";
 import supporter_links from "../../data/supporters_links";
 export default () => {
   const intl = useIntl();
-
   const data = useStaticQuery(graphql`
       {
         allFile(
@@ -24,7 +23,6 @@ export default () => {
         }
       }
     `);
-
   const images = {};
 
   data.allFile.edges.forEach(
