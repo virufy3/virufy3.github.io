@@ -14,7 +14,7 @@ export default ({ data }) => {
           data[currentLocale] ? (
             <div>
               <img
-                className="absolute w-screen left-0"
+                className="absolute -z-10 w-screen left-0"
                 src={bgWave}
                 alt="waves"
               />
