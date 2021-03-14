@@ -10,7 +10,7 @@ export default function PrivacyPolicy({ data }) {
   return (
     <Layout>
       <SEO title="Privacy Policy | Virufy" />
-      <img className="absolute w-full" src={bgWave} alt="waves" />
+      <img className="absolute -z-10 w-full" src={bgWave} alt="waves" />
       <div className="wrapper items-center justify-between md:py-4">
         <h1 classNmae="font-bold text-4xl">
           {intl.formatMessage({ id: "privacy_policy.headers.header" })}
