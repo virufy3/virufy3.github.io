@@ -71,9 +71,9 @@ export default () => {
       >
         {informationEmail}
       </a>
-      <a className="block underline mb-6 text-white" href="#">
+      <p className="block no-underline mb-6 text-white">
         {intl.formatMessage({ id: "footer.address", defaultMessage: "" })}
-      </a>
+      </p>
       <div className="md:flex flex-initial md:flex-row">
         <div className="flex flex-grow">
           {socialLinks.map((socialLinkInformation) => (
