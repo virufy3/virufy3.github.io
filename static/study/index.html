@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#13C2C2" />
+    <meta name="msapplication-TileColor" content="#53b27e" />
+    <meta
+      name="description"
+      content="Virufy - assess your risk for COVID-19 with our AI-powered app using your smartphone. A project of Stanford University's COVID-19 Response Innovation Lab"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Virufy" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/study/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/study/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="64x64" href="/study/favicon-64x64.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/study/apple-touch-icon.png" />
+    <link rel="mask-icon" href="/study/safari-pinned-tab.svg" color="#53b27e" />
+    <link rel="manifest" href="/study/manifest.json" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@700&family=Source+Sans+Pro:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Virufy</title>
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/light/apple-splash-2048-2732.jpg"
+      media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/light/apple-splash-2732-2048.jpg"
+      media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/light/apple-splash-1668-2388.jpg"
+      media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/light/apple-splash-2388-1668.jpg"
+      media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/light/apple-splash-1536-2048.jpg"
+      media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/light/apple-splash-2048-1536.jpg"
+      media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/light/apple-splash-1668-2224.jpg"
+      media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/light/apple-splash-2224-1668.jpg"
+      media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/light/apple-splash-1620-2160.jpg"
+      media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/light/apple-splash-2160-1620.jpg"
+      media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/light/apple-splash-1242-2688.jpg"
+      media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/light/apple-splash-2688-1242.jpg"
+      media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/light/apple-splash-1125-2436.jpg"
+      media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/light/apple-splash-2436-1125.jpg"
+      media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/light/apple-splash-828-1792.jpg"
+      media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/light/apple-splash-1792-828.jpg"
+      media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/light/apple-splash-1080-1920.jpg"
+      media="(device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/light/apple-splash-1920-1080.jpg"
+      media="(device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/light/apple-splash-750-1334.jpg"
+      media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/light/apple-splash-1334-750.jpg"
+      media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/light/apple-splash-640-1136.jpg"
+      media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/light/apple-splash-1136-640.jpg"
+      media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/dark/apple-splash-dark-2048-2732.jpg"
+      media="(prefers-color-scheme: dark) and (device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/dark/apple-splash-dark-2732-2048.jpg"
+      media="(prefers-color-scheme: dark) and (device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/dark/apple-splash-dark-1668-2388.jpg"
+      media="(prefers-color-scheme: dark) and (device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/dark/apple-splash-dark-2388-1668.jpg"
+      media="(prefers-color-scheme: dark) and (device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/dark/apple-splash-dark-1536-2048.jpg"
+      media="(prefers-color-scheme: dark) and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/dark/apple-splash-dark-2048-1536.jpg"
+      media="(prefers-color-scheme: dark) and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/dark/apple-splash-dark-1668-2224.jpg"
+      media="(prefers-color-scheme: dark) and (device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/dark/apple-splash-dark-2224-1668.jpg"
+      media="(prefers-color-scheme: dark) and (device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/dark/apple-splash-dark-1620-2160.jpg"
+      media="(prefers-color-scheme: dark) and (device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/dark/apple-splash-dark-2160-1620.jpg"
+      media="(prefers-color-scheme: dark) and (device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/dark/apple-splash-dark-1242-2688.jpg"
+      media="(prefers-color-scheme: dark) and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/dark/apple-splash-dark-2688-1242.jpg"
+      media="(prefers-color-scheme: dark) and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/dark/apple-splash-dark-1125-2436.jpg"
+      media="(prefers-color-scheme: dark) and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/dark/apple-splash-dark-2436-1125.jpg"
+      media="(prefers-color-scheme: dark) and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/dark/apple-splash-dark-828-1792.jpg"
+      media="(prefers-color-scheme: dark) and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/dark/apple-splash-dark-1792-828.jpg"
+      media="(prefers-color-scheme: dark) and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/dark/apple-splash-dark-1080-1920.jpg"
+      media="(prefers-color-scheme: dark) and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/dark/apple-splash-dark-1920-1080.jpg"
+      media="(prefers-color-scheme: dark) and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/dark/apple-splash-dark-750-1334.jpg"
+      media="(prefers-color-scheme: dark) and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/dark/apple-splash-dark-1334-750.jpg"
+      media="(prefers-color-scheme: dark) and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/dark/apple-splash-dark-640-1136.jpg"
+      media="(prefers-color-scheme: dark) and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/study/splash/dark/apple-splash-dark-1136-640.jpg"
+      media="(prefers-color-scheme: dark) and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    />
+    <link href="/study/static/css/57.8d4cdce2.chunk.css" rel="stylesheet" />
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script>
+      !(function (t, h, e, j, s, n) {
+        (t.hj =
+          t.hj ||
+          function () {
+            (t.hj.q = t.hj.q || []).push(arguments);
+          }),
+          (t._hjSettings = { hjid: 1878866, hjsv: 6 }),
+          (s = h.getElementsByTagName('head')[0]),
+          ((n = h.createElement('script')).async = 1),
+          (n.src = 'https://static.hotjar.com/c/hotjar-' + t._hjSettings.hjid + '.js?sv=' + t._hjSettings.hjsv),
+          s.appendChild(n);
+      })(window, document);
+    </script>
+    <script>
+      !(function (e) {
+        function r(r) {
+          for (var n, c, f = r[0], u = r[1], i = r[2], l = 0, b = []; l < f.length; l++)
+            (c = f[l]), Object.prototype.hasOwnProperty.call(a, c) && a[c] && b.push(a[c][0]), (a[c] = 0);
+          for (n in u) Object.prototype.hasOwnProperty.call(u, n) && (e[n] = u[n]);
+          for (d && d(r); b.length; ) b.shift()();
+          return o.push.apply(o, i || []), t();
+        }
+        function t() {
+          for (var e, r = 0; r < o.length; r++) {
+            for (var t = o[r], n = !0, f = 1; f < t.length; f++) {
+              var u = t[f];
+              0 !== a[u] && (n = !1);
+            }
+            n && (o.splice(r--, 1), (e = c((c.s = t[0]))));
+          }
+          return e;
+        }
+        var n = {},
+          a = { 56: 0 },
+          o = [];
+        function c(r) {
+          if (n[r]) return n[r].exports;
+          var t = (n[r] = { i: r, l: !1, exports: {} });
+          return e[r].call(t.exports, t, t.exports, c), (t.l = !0), t.exports;
+        }
+        (c.e = function (e) {
+          var r = [],
+            t = a[e];
+          if (0 !== t)
+            if (t) r.push(t[2]);
+            else {
+              var n = new Promise(function (r, n) {
+                t = a[e] = [r, n];
+              });
+              r.push((t[2] = n));
+              var o,
+                f = document.createElement('script');
+              (f.charset = 'utf-8'),
+                (f.timeout = 120),
+                c.nc && f.setAttribute('nonce', c.nc),
+                (f.src = (function (e) {
+                  return (
+                    c.p +
+                    'static/js/' +
+                    ({}[e] || e) +
+                    '.' +
+                    {
+                      0: '59d5f6c8',
+                      1: 'ef6b6f60',
+                      2: 'd6c2a451',
+                      3: '41cb2048',
+                      4: 'fef4e809',
+                      5: '5512222a',
+                      6: '78e44b73',
+                      7: '1a990418',
+                      8: '86372c1f',
+                      9: 'e7c99ede',
+                      10: '8a794a8d',
+                      11: '2409efd9',
+                      12: '74853222',
+                      13: '7fc62f1b',
+                      14: '2667419f',
+                      15: '8c5f87f8',
+                      16: '2eed6721',
+                      17: 'e6635038',
+                      18: 'ca7d255a',
+                      19: 'd0bba898',
+                      20: '0677026f',
+                      21: '9f711249',
+                      22: '94d1ed1c',
+                      23: '980b1844',
+                      24: '4dd02a35',
+                      25: 'd0c26c9a',
+                      26: 'b748855a',
+                      27: '7c8e4e71',
+                      28: '8a9d41e7',
+                      29: '0645da7d',
+                      30: 'f199303c',
+                      31: 'fe2ddc9f',
+                      32: '672061c5',
+                      33: 'b7485e7a',
+                      34: '70c591a9',
+                      35: 'f1da7f83',
+                      36: 'aa396450',
+                      37: 'a7b3ea3f',
+                      38: '9e8aa1b3',
+                      39: '74105b30',
+                      40: 'c1b14303',
+                      41: 'b7b7c344',
+                      42: 'aeb98712',
+                      43: 'cede7104',
+                      44: 'e9cfaefa',
+                      45: '62d745d1',
+                      46: '202fb0b9',
+                      47: 'c582b3ed',
+                      48: 'f4e02b21',
+                      49: '7a499b86',
+                      50: 'a297dab3',
+                      51: '098b1594',
+                      52: '1a7fd577',
+                      53: '33e28d1c',
+                      54: '00b3b8ab',
+                      58: '4cd885f8',
+                      59: '3c1a7de7',
+                    }[e] +
+                    '.chunk.js'
+                  );
+                })(e));
+              var u = new Error();
+              o = function (r) {
+                (f.onerror = f.onload = null), clearTimeout(i);
+                var t = a[e];
+                if (0 !== t) {
+                  if (t) {
+                    var n = r && ('load' === r.type ? 'missing' : r.type),
+                      o = r && r.target && r.target.src;
+                    (u.message = 'Loading chunk ' + e + ' failed.\n(' + n + ': ' + o + ')'),
+                      (u.name = 'ChunkLoadError'),
+                      (u.type = n),
+                      (u.request = o),
+                      t[1](u);
+                  }
+                  a[e] = void 0;
+                }
+              };
+              var i = setTimeout(function () {
+                o({ type: 'timeout', target: f });
+              }, 12e4);
+              (f.onerror = f.onload = o), document.head.appendChild(f);
+            }
+          return Promise.all(r);
+        }),
+          (c.m = e),
+          (c.c = n),
+          (c.d = function (e, r, t) {
+            c.o(e, r) || Object.defineProperty(e, r, { enumerable: !0, get: t });
+          }),
+          (c.r = function (e) {
+            'undefined' != typeof Symbol &&
+              Symbol.toStringTag &&
+              Object.defineProperty(e, Symbol.toStringTag, { value: 'Module' }),
+              Object.defineProperty(e, '__esModule', { value: !0 });
+          }),
+          (c.t = function (e, r) {
+            if ((1 & r && (e = c(e)), 8 & r)) return e;
+            if (4 & r && 'object' == typeof e && e && e.__esModule) return e;
+            var t = Object.create(null);
+            if (
+              (c.r(t), Object.defineProperty(t, 'default', { enumerable: !0, value: e }), 2 & r && 'string' != typeof e)
+            )
+              for (var n in e)
+                c.d(
+                  t,
+                  n,
+                  function (r) {
+                    return e[r];
+                  }.bind(null, n)
+                );
+            return t;
+          }),
+          (c.n = function (e) {
+            var r =
+              e && e.__esModule
+                ? function () {
+                    return e.default;
+                  }
+                : function () {
+                    return e;
+                  };
+            return c.d(r, 'a', r), r;
+          }),
+          (c.o = function (e, r) {
+            return Object.prototype.hasOwnProperty.call(e, r);
+          }),
+          (c.p = '/study/'),
+          (c.oe = function (e) {
+            throw (console.error(e), e);
+          });
+        var f = (this.webpackJsonppwa = this.webpackJsonppwa || []),
+          u = f.push.bind(f);
+        (f.push = r), (f = f.slice());
+        for (var i = 0; i < f.length; i++) r(f[i]);
+        var d = u;
+        t();
+      })([]);
+    </script>
+    <script src="/study/static/js/57.7136721a.chunk.js"></script>
+    <script src="/study/static/js/main.a4553ac6.chunk.js"></script>
+  </body>
+</html>
