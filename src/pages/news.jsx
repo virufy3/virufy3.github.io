@@ -88,7 +88,6 @@ const CountrySelect = (props) => {
     <>
       <button onClick={() => setDivHidden(!divHidden)}>
         {intl.formatMessage({ id: "news.headers.filter" })}
-        <span className="ml-2">{open ? "\u02C5" : "\u005E"}</span>
       </button>
       <div className={`flex flex-col ${divHidden ? "hidden" : ""}`}>
         {countryText.map((country) => (
