@@ -22,7 +22,7 @@ function InfoCard({ sourceNum, title, description, source, icon }) {
         onClick={handleClick}
         ref={triggerRef}
       >
-        <h5>{`${title} [${sourceNum}]`}</h5>
+        <h5>{`${title}`}</h5>
         <div className="flex-grow flex flex-col justify-center w-full">
           <div className="py-4 xl:py-8">
             <Img

@@ -11,6 +11,7 @@
     "privacyPolicy": "Política de privacidad",
     "dontSellPersonalInfo": "No Vendas Mi Información Personal",
     "copyrightInformation": "© Derechos de autor 2021 Virufy  |  Todos los derechos resrvados.",
+    "nonprofit": "Basándose en esta investigación anterior, Virufy está desarrollando un algoritmo de IA que puede utilizarse para predecir con exactitud una infección por COVID-19 en cuestión de minutos basándose en las grabaciones de los sonidos de la tos. Sin embargo, a diferencia de las anteriores investigaciones sobre la tos por COVID-19, que se centraban en la población estadounidense, Virufy pretende recopilar datos de múltiples lugares de todo el mundo. Como iniciativa dirigida por voluntarios que abarca los cinco continentes, Virufy está desarrollando un modelo de detección de COVID-19 con mayor inclusión racial y espacial mediante datos que incluyen una gama de etnias y diferencias fonológicas específicas de la comunidad.",
     "email": "info@virufy.org",
     "address": "4546 El Camino Real B10 #614, Los Altos, California 94022, USA"
   },
@@ -62,7 +63,7 @@
     "section3": {
       "howItWorks": "COMO FUNCIONA",
       "header": "Nuestra visión",
-      "sub-header": "El proceso de detección en tres pasos de Virufy proporcionará un diagnóstico de COVID-19 rápido y fácil para todos. Apoya nuestra visión donando una tos hoy mismo.",
+      "sub-header": "Estamos recopilando toses para perfeccionar nuestro algoritmo de IA, y pondremos en marcha un proceso de detección en tres pasos que ayudará a contribuir a un diagnóstico rápido y fácil de COVID-19 en beneficio de países de todo el mundo, especialmente los de bajos ingresos.<br>Ayude a apoyar nuestra visión donando una tos hoy mismo.",
       "header1": "Graba tu tos",
       "header2": "La IA analiza tu firma respiratoria",
       "header3": "Se detectan los rastros de COVID 19",
@@ -92,7 +93,7 @@
     "faqs": "Preguntas frecuentes",
     "ourVision": "Nuestra vision",
     "ourSupporters": "Nuestros seguidores",
-    "ourTeam": "Nuestro equipo"
+    "ourTeam": "Nuestra gente"
   },
   "news": {
     "headers": {
@@ -170,8 +171,8 @@
     "topFold": {
       "diagnoseDisease": "La IA como facilitadora para diagnosticar la enfermedad",
       "acrossNations": "Creemos que todos deberían tener un acceso rápido y asequible a la atención médica.",
-      "usingTechnology": "Aprovechamos la inteligencia artificial para lograr este objetivo.",
-      "algorithmInfo": "Con la ayuda de investigaciones de vanguardia de algunas de las instituciones más prestigiosas del mundo, Stanford, Princeton, Cambridge, estamos desarrollando un algoritmo de inteligencia artificial que diagnostica con precisión el COVID-19 con solo analizar los sonidos de la tos de una persona.",
+      "usingTechnology": "Así que estamos usando la tecnología para hacer esto. ",
+      "algorithmInfo": "Con la ayuda de la investigación de vanguardia de las instituciones más prestigiosas del mundo -Stanford, Princeton, Cambridge- estamos desarrollando un algoritmo de IA que diagnostica con precisión el COVID-19 sólo con analizar los sonidos de la tos de una persona.",
       "readWhitePaper": "LEE NUESTRO RESEARCH PAPER",
       "wantToLearnMore": "DESEA SABER MÁS?"
     },
@@ -233,21 +234,21 @@
     },
     "faq": {
       "title": "Preguntas Frecuentes (FAQ)",
-      "missionCategory": "Visión y Misión de Virufy",
+      "missionCategory": "Misión",
       "nonprofitQ": "¿Virufy es una organización sin fines de lucro?",
       "nonprofitA": "Virufy es una corporación de beneficio público sin fines de lucro registrada en California. Sin embargo, nuestra aprobación oficial del estado 501 (c) (3) podría demorar hasta mediados de 2021, ya que el IRS está retrasado debido a COVID-19.",
       "postVaccineQ": "¿Cuáles son sus planes para Virufy después de la vacuna COVID-19?",
       "postVaccineA": "Anticipamos que los países de bajos ingresos no tendrán los recursos financieros y la infraestructura médica para vacunar a su población y que las pruebas rápidas y equitativas de COVID-19 seguirán siendo importantes para controlar la pandemia, especialmente en esos países.",
       "postControlQ": "¿Cuáles son sus planes para Virufy después de que COVID-19 esté bajo control?",
       "postControlA": "Virufy tiene como objetivo poner fin a la propagación de diversas enfermedades transmisibles, mediante pruebas generalizadas basadas en teléfonos inteligentes que se pueden utilizar siempre que una comunidad se sienta en riesgo de propagación del virus. Anticipamos que la misma tecnología de inteligencia artificial se puede adaptar para detectar otros coronavirus, incluidos el resfriado común y la influenza.",
-      "detectionCategory": "Detección",
+      "detectionCategory": "Tecnología",
       "distinguishableQ": "¿Cómo se pueden distinguir las toses de COVID-19?",
       "distinguishableA": "Al igual que todas las demás enfermedades respiratorias, el COVID-19 crea una firma respiratoria única en la garganta y los pulmones que es distinta de otras infecciones respiratorias que producen tos húmeda. En consecuencia, se ha sugerido que los sonidos de la tos pueden analizarse para detectar el COVID-19. A nivel mundial, esta idea está siendo investigada activamente por varias instituciones prestigiosas, incluidas CMU8, MIT11 y Cambridge7. Por ejemplo, una investigación de crowdsource realizada por la Universidad de Cambridge mostró que un clasificador binario de aprendizaje automático simple es capaz de clasificar a los pacientes con el COVID-19 positivos a través de sonidos de respiración y tos con alta precisión (AUC = 0,7). De manera similar, los investigadores de CMU identificaron 18 características de la voz que distinguen a los pacientes con el COVID-19 positivos y entrenaron un modelo para diagnosticar el COVID-19 con una precisión del 89,1%.",
       "diagnosisQ": " ¿Cómo predecirá el algoritmo de inteligencia artificial de Virufy un diagnóstico de COVID-19?",
       "diagnosisA": "Sobre la base de esta investigación anterior, Virufy está desarrollando un algoritmo de inteligencia artificial que se puede utilizar para predecir con precisión una infección por COVID-19 en cuestión de minutos basándose en grabaciones de sonidos de tos. Sin embargo, a diferencia de las investigaciones anteriores sobre la tos de COVID-19 que se dirigieron a la población de EE. UU., Virufy tiene como objetivo recopilar datos de múltiples sitios en todo el mundo. Como una iniciativa dirigida por estudiantes con voluntarios que abarcan varios países, Virufy está desarrollando un modelo de diagnóstico COVID-19 con mayor inclusión racial y espacial a través de datos que incluyen una variedad de etnias y diferencias fonológicas específicas de cada comunidad.",
       "performanceQ": "¿El rendimiento del modelo de IA en diferentes teléfonos inteligentes no se verá afectado?",
       "performanceA": "Idealmente, quisiéramos que los usuarios siguieran las instrucciones de la aplicación que explican cómo registrar su tos. Sin embargo, podemos usar una técnica llamada aumento de datos para hacer que el algoritmo funcione en todo tipo de escenarios si es necesario.",
-      "privacyCategory": "Tech & Data Privacy",
+      "privacyCategory": "Privacidad de los datos",
       "dataStorageQ": "¿Cómo almacenará Virufy mis datos de forma segura?",
       "dataStorageA": "Usamos JotForm y Amazon Web Services (AWS) para la recopilación de datos de estudios de investigación. JotForm y AWS almacenan los datos en una aplicación segura con acceso y controles restringidos. Sus datos se almacenarán con JotForm o AWS hasta que los descarguemos. Almacenaremos los datos en una base de datos con acceso restringido. Si desea obtener más información sobre cómo Jotform y AWS almacenan sus datos, visite sus respectivas políticas de privacidad en <a target='_blank' href='https://www.jotform.com/privacy/'>https://www.jotform.com/privacy/</a> y <a target='_blank' href='https://aws.amazon.com/en/privacy'>https://aws.amazon.com/en/privacy/</a>. Si desea obtener más información, consulte la política de privacidad de Virufy.",
       "privacyThreatsQ": "¿Mi privacidad corre riesgo de quedar expuesta cuando dono mi tos a Virufy?",
