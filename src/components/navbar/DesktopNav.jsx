@@ -50,10 +50,12 @@ export default ({ bgColor, textColor, virufyLogo }) => {
                   className={getLinkClasses(link)}
                   to={`/${currentLocale}${link.path}`}
                 >
-                  {intl.formatMessage({
-                    id: link.intlId,
-                    defaultMessage: link.defMsg,
-                  })}
+                  <span className="px-2">
+                    {intl.formatMessage({
+                      id: link.intlId,
+                      defaultMessage: link.defMsg,
+                    })}
+                  </span>
                 </Link>
                 {link.dropDownLinks && mouseOverLinkIdx === idx && (
                   // have to include locale in url or intl plugin will redirect without the id...
