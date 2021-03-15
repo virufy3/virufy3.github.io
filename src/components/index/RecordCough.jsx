@@ -45,9 +45,11 @@ export default ({ images }) => {
             {intl.formatMessage({ id: "index.section3.header" })}
           </h2>
           <div className="flex-shrink-0 mb-8">
-            {intl.formatMessage({
-              id: "index.section3.sub-header",
-            })}
+            <span
+              dangerouslySetInnerHTML={{
+                __html: intl.formatMessage({ id: "index.section3.sub-header" }),
+              }}
+            />
           </div>
           <a
             className="no-underline bg-green text-white px-4 py-2 mb-6"

@@ -178,18 +178,6 @@ export default function GetInvolved({ data }) {
             })}
           </ButtonLink>
         </BackgroundImage>
-        <div className="container-short py-8">
-          <sub>
-            {intl.formatMessage({
-              id: "getInvolved.shareCough.irbDisclaimer",
-            }) + " "}
-            <a href={links.learnMoreDisclaimerLink} className="text-black">
-              {intl.formatMessage({
-                id: "getInvolved.shareCough.learnMoreLink",
-              })}
-            </a>
-          </sub>
-        </div>
       </div>
 
       {/* Join Team */}

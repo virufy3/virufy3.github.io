@@ -63,9 +63,7 @@
     "shareCough": {
       "title": "Share your cough",
       "details": "Donate your cough in our study help refine our AI’s predictive ability to recognize COVID-19.",
-      "getTheApp": "CONTRIBUTE",
-      "irbDisclaimer": "",
-      "learnMoreLink": "Learn more"
+      "getTheApp": "CONTRIBUTE YOUR COUGH"
     },
     "nextSteps": {
       "contribute": {
@@ -102,7 +100,7 @@
     "section3": {
       "howItWorks": "HOW IT WORKS",
       "header": "Our vision",
-      "sub-header": "We are collecting coughs to refine our AI algorithm, and will implement a three-step detection process that will help contribute to a quick and easy COVID-19 diagnosis for the benefit of countries across the world, especially low-income countries.",
+      "sub-header": "We are collecting coughs to refine our AI algorithm, and will implement a three-step detection process that will help contribute to a quick and easy COVID-19 diagnosis for the benefit of countries across the world, especially low-income countries.<br>Help support our vision by donating a cough today. ",
       "header1": "Record your cough",
       "header2": "AI analyzes the respiratory signature",
       "header3": "COVID-19 signature is detected",
@@ -338,8 +336,7 @@
       "supporterText": "Virufy is a <a target=\"_blank\" rel=\"noreferrer\" href=\"\" class=\"underline\"/>Stanford COVID-19 Response Innovation Lab</a> project and is also featured in <a target=\"_blank\" rel=\"noreferrer\" href=\"\" class=\"underline\"/>One Young World</a>"
     },
     "teamSection": {
-      "header": "Our team",
-      "pg1": "Meet the dozens of people volunteering across five continents to bring Virufy to the world.",
+      "header": "Our people",
       "teamLeadText": "Virufighter Team Leads",
       "advisorText": "Advisors",
       "leadership": {

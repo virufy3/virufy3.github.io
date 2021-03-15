@@ -27,9 +27,7 @@
     "shareCough": {
       "title": "Comparte tu tos",
       "details": "Damos la bienvenida a las “donaciones“ de tos para ayudar a expandir nuestra base de datos y refinar la capacidad predictiva de nuestra IA para reconocer COVID-19.\n\nTodo lo que se necesita es un dispositivo móvil, la aplicación Virufy y su tos.",
-      "getTheApp": "Descarga la Aplicación",
-      "irbDisclaimer": "Todos los datos se recopilan de acuerdo con el protocolo IRB.",
-      "learnMoreLink": "Saber más"
+      "getTheApp": "CONTRIBUYA CON SU TOS"
     },
     "nextSteps": {
       "contribute": {
