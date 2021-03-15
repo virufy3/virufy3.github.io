@@ -6,6 +6,7 @@ export default [
     path: "/our-approach",
     dropDownLinks: [
       { intlId: "nav.techBehind", sectionId: "tech-behind" },
+      { intlId: "nav.openData", sectionId: "open-data" },
       { intlId: "nav.faqs", sectionId: "faq" },
     ],
   },
