@@ -1,7 +1,7 @@
 {
   "headers": {
-    "header": "Privacy Policy",
-    "sub-header": "Please view the privacy policy below which corresponds to the territory you are currently in."
+    "header": "Política de privacidad",
+    "sub-header": "Por favor, consulte la política de privacidad que corresponde al territorio en el que se encuentra ahora."
   },
   "countries": {
     "argentina": "Argentina",
@@ -16,9 +16,9 @@
     "mex_policy": "Aviso De Privacidad",
     "peru": "Peru",
     "peru_policy": "Política de Privacidad",
-    "us": "United States",
-    "us_policy": "Privacy Policy",
-    "eu": "Europe",
-    "eu_policy": "Privacy Policy"
+    "us": "Estados Unidos",
+    "us_policy": "Política de privacidad",
+    "eu": "Europa",
+    "eu_policy": "Política de privacidad"
   }
 }
