@@ -64,57 +64,64 @@ export default () => {
   });
 
   return (
-    <div className="md:mx-16 mx-auto text-white px-6 ">
-      <a
-        className="block underline mb-6 text-white"
-        href={`mailto:${informationEmail}`}
-      >
-        {informationEmail}
-      </a>
-      <p className="block no-underline mb-6 text-white">
-        {intl.formatMessage({ id: "footer.address", defaultMessage: "" })}
-      </p>
-      <div className="md:flex flex-initial md:flex-row">
-        <div className="flex flex-grow">
-          {socialLinks.map((socialLinkInformation) => (
-            <a
-              href={socialLinkInformation.address}
-              key={socialLinkInformation.name}
-              className="mr-6"
-            >
-              <img
-                src={socialLinkInformation.logo}
-                alt={socialLinkInformation.name}
-              />
-            </a>
-          ))}
-        </div>
-        <div className="pt-6 md:pt-0 md:ml-6">
-          {footerLinks.map((footerLink, index) => (
-            <>
+    <div class="md:grid md:grid-cols-2 md:gap-4 text-white px-6">
+      <div>
+        <a
+          className="md:flex flex-initial md:flex-row block underline mb-6 text-white"
+          href={`mailto:${informationEmail}`}
+        >
+          {informationEmail}
+        </a>
+        <p className="block no-underline mb-6 text-white">
+          {intl.formatMessage({ id: "footer.address", defaultMessage: "" })}
+        </p>
+        <div className="md:flex flex-initial md:flex-row">
+          <div className="flex flex-grow">
+            {socialLinks.map((socialLinkInformation) => (
               <a
-                className="underline text-sm text-white"
-                href={footerLink.address}
-                key={footerLink.intlId}
+                href={socialLinkInformation.address}
+                key={socialLinkInformation.name}
+                className="mr-6"
               >
-                {intl.formatMessage({ id: footerLink.intlId })}
+                <img
+                  src={socialLinkInformation.logo}
+                  alt={socialLinkInformation.name}
+                />
               </a>
-              {index + 1 !== footerLinks.length && (
-                <>
-                  {
-                    "  |  " // Only show vertical line after when not the last element
-                  }
-                </>
-              )}
-            </>
-          ))}
-          <p className="text-sm">
-            {intl.formatMessage({
-              id: "footer.copyrightInformation",
-              defaultMessage: "©2021 Virufy  |  All rights reserved",
-            })}
-          </p>
+            ))}
+          </div>
         </div>
+      </div>
+      <div className="pt-6 md:pt-0 md:ml-6 mt-12">
+        {footerLinks.map((footerLink, index) => (
+          <>
+            <a
+              className="underline text-sm text-white"
+              href={footerLink.address}
+              key={footerLink.intlId}
+            >
+              {intl.formatMessage({ id: footerLink.intlId })}
+            </a>
+            {index + 1 !== footerLinks.length && (
+              <>
+                {
+                  "  |  " // Only show vertical line after when not the last element
+                }
+              </>
+            )}
+          </>
+        ))}
+        <p className="text-sm">
+          {intl.formatMessage({
+            id: "footer.copyrightInformation",
+            defaultMessage: "©2021 Virufy  |  All rights reserved",
+          })}
+        </p>
+        <p className="mt-4 text-sm">
+          {intl.formatMessage({
+            id: "footer.nonprofit",
+          })}
+        </p>
       </div>
     </div>
   );
