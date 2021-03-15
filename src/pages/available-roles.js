@@ -51,7 +51,9 @@ export default function AvailableRoles() {
           </h1>
 
           <p className="mb-8 font-heading max-w-2xl text-sm md:text-md">
-          Virufy is entirely run with volunteers and pro bono partner companies. Join our fast-paced, mission-driven team to put your skills to use in curbing the spread of the pandemic globally.
+            Virufy is entirely run by volunteers and pro bono partner companies.
+            Join our fast-paced, mission-driven team to put your skills to use
+            in curbing the spread of the pandemic globally.
           </p>
 
           <p className="font-bold font-heading text-sm md:text-md">
