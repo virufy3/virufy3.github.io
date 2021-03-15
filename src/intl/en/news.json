@@ -1,6 +1,7 @@
 {
   "headers": {
-    "header": "Virufy as seen in the news"
+    "header": "Virufy as seen in the news",
+    "filter": "Filter News by Country"
   },
   "news": {
     "section2": {

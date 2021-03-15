@@ -100,7 +100,8 @@
   },
   "news": {
     "headers": {
-      "header": "Virufy como visto nas notícias"
+      "header": "Virufy como visto nas notícias",
+      "filter": "Filtrar notícias por país"
     },
     "news": {
       "section2": {
@@ -297,13 +298,13 @@
   },
   "team": {
     "supportersSection": {
-      "header": "Our supporters",
+      "header": "Os nossos apoiantes",
       "supporterText": "Virufy is a <a target=\"_blank\" rel=\"noreferrer\" href=\"\" class=\"underline\"/>Stanford COVID-19 Response Innovation Lab</a> project and is also featured in <a target=\"_blank\" rel=\"noreferrer\" href=\"\" class=\"underline\"/>One Young World</a>"
     },
     "teamSection": {
-      "header": "Our team",
-      "pg1": "Meet the dozens of people volunteering across five continents to bring Virufy to the world.",
-      "teamLeadText": "Virufighter Team Leads",
+      "header": "A nossa equipa",
+      "pg1": "Conheça as dezenas de pessoas que se oferecem voluntariamente nos cinco continentes para trazer a Virufy ao mundo.",
+      "teamLeadText": "A equipa Virufighter lidera",
       "advisorText": "Consultivo",
       "leadership": {
         "amil": {
@@ -313,33 +314,33 @@
         },
         "alex": {
           "name": "Alex Kalanda",
-          "description": "Co-Founder at WeResQ\nTechnology Entrepreneurship, Stanford University",
-          "title": "Africa Continent Lead"
+          "description": "Co-Fundador na WeResQ\nEmpreendedorismo Tecnológico, Universidade de Stanford",
+          "title": "Chumbo do continente africano"
         },
         "ravel": {
           "name": "Ravel Charles",
-          "description": "Cloud Solutions Engineer, Google\nMestrado em Estudos Profissionais em Segurança de Dados,Universidade Northeastern",
+          "description": "Engenheiro de soluções de nuvem, Google\nMestrado em Estudos Profissionais em Segurança de Dados,Universidade Northeastern",
           "title": "Líder de Equipe Infosec"
         },
         "matheus": {
           "name": "Matheus Galiza",
-          "description": "Public Policy Committee\nJovenes Iberoamericanos\nM.A. International Relations, Federal University of Paraíba",
-          "title": "Brazil Community Outreach Manager"
+          "description": "Comité de Políticas Públicas\nJovenes Iberoamericanos\nM.A. Relações Internacionais, Universidade Federal da Paraíba",
+          "title": "Gestor de Divulgação Comunitária do Brasil"
         },
         "bruna": {
           "name": "Bruna Lourenço",
-          "description": "UX/UI Designer, ThinkBox\nGraphic Design, Federal Institute of Education, Science and Technology of Paraíba",
+          "description": "UX/UI Designer, ThinkBox\nDesign Gráfico, Instituto Federal de Educação, Ciência e Tecnologia da Paraíba",
           "title": "UI Team Lead"
         },
         "jonatan": {
           "name": "Jonatan Jaskilioff",
           "description": "CTO - XOOR",
-          "title": "Mobile App Team Lead"
+          "title": "Chefe de Equipa de Aplicações Móveis"
         },
         "marcos": {
           "name": "Marcos Deza",
-          "description": "One Young World Argentina Ambassador\nM.A. Public Relations, Ott Educación Superior",
-          "title": "Latin America Digital Communications Lead"
+          "description": "One Young World do Mundo Argentina\nM.A. Public Relations, Ott Educación Superior",
+          "title": "Líder em Comunicações Digitais na América Latina"
         },
         "yoonju": {
           "name": "Yoonju Hwang",
@@ -368,24 +369,24 @@
         },
         "amelie": {
           "name": "Amelie Azim-Khan",
-          "description": "Youth Ambassador, Europe & UK",
+          "description": "Embaixador da Juventude, Europa e Reino Unido",
           "title": "Wycombe Abbey"
         },
         "maisie": {
           "name": "Maisie Mora",
-          "description": "San Diego State University",
+          "description": "Universidade Estadual de San Diego",
           "title": "UX team lead"
         }
       },
       "advisors": {
         "kara": {
           "name": "Kara Meister, M.D.",
-          "description": "Professor Assistente Clínico, Otorrinolaringologia\nStanford School of Medicine",
+          "description": "Professor Assistente Clínico, Otorrinolaringologia\nEscola de Medicina de Stanford",
           "title": "Conselheiro médico"
         },
         "jure": {
           "name": "Jure Leskovec",
-          "description": "Cientista-Chefe - Pinterest\nProfessor Associado de IA, AI\nStanford School of Engineering",
+          "description": "Cientista-Chefe - Pinterest\nProfessor Associado de IA, AI\nEscola de Engenharia de Stanford",
           "title": "Conselheiro de Inteligencia Artificial"
         },
         "matt": {
@@ -395,18 +396,18 @@
         },
         "rok": {
           "name": "Rok Sosic",
-          "description": "Senior Research Engineer\nStanford School of Engineering",
-          "title": "Artificial Intelligence Advisor"
+          "description": "Engenheiro de Investigação Sénior\nEscola de Engenharia de Stanford",
+          "title": "Consultor de Inteligência Artificial"
         },
         "rafi": {
           "name": "Rafi Azim-Khan",
-          "description": "Sócio - Pillsbury Law\nSilicon Valley & Europe",
+          "description": "Sócio - Lei de Pillsbury\nVale do Silício & Europa",
           "title": "Conselheiro Jurídico Executivo"
         },
         "richard": {
           "name": "Richard Nall",
-          "description": "The Brand Garden - CEO",
-          "title": "Chief Marketing Officer"
+          "description": "O Jardim da Marca - CEO",
+          "title": "Director de Marketing"
         },
         "madhav": {
           "name": "Madhav Datt",
@@ -415,7 +416,7 @@
         },
         "nathan": {
           "name": "Nathan Thomas",
-          "description": "Embaixador do One Young World\nFounder and CEO - All We Are",
+          "description": "Embaixador do One Young World\nFounder e CEO - All We Are",
           "title": "Conselheiro Executivo"
         },
         "pedro": {
@@ -439,41 +440,41 @@
       "less": "Menos",
       "more": "Mais",
       "vision": {
-        "header": "Virufy's vision",
-        "pg1": "We aspire to be the leading nonprofit organization for technology-enabled disease identification.",
-        "pg2": "Our innovations aim to offer superior detection for patients, clinicians and governments.",
-        "pg3": "We will be force for transforming global healthcare and inspiring support and investment in this mission."
+        "header": "A visão da Virufy",
+        "pg1": "Aspiramos a ser a principal organização sem fins lucrativos para a identificação de doenças com base em tecnologia.",
+        "pg2": "As nossas inovações visam oferecer uma detecção superior para doentes, clínicos e governos.",
+        "pg3": "Seremos a força para transformar os cuidados de saúde globais e para inspirar o apoio e o investimento nesta missão."
       },
       "values": {
         "transform": {
-          "header": "Transform",
-          "pg": "Healthcare systems are expensive and slow to change, but with technology we can drive transformation globally."
+          "header": "Transformar",
+          "pg": "Os sistemas de saúde são caros e lentos a mudar, mas com a tecnologia podemos impulsionar a transformação a nível global."
         },
         "world": {
-          "header": "World",
-          "pg": "We exist for everyone regardless of  background. We recognize the most pressing need is in emerging markets, but that healthcare can be inaccessible even in developed markets."
+          "header": "Mundo",
+          "pg": "Existimos para todos, independentemente dos nossos antecedentes. Reconhecemos que a necessidade mais premente está nos mercados emergentes, mas que os cuidados de saúde podem ser inacessíveis mesmo nos mercados desenvolvidos."
         },
         "free": {
-          "header": "Free",
-          "pg": "For many, healthcare is unaffordable. We see no reason why people should have to pay for expensive prevention and detection when it can be free with the help of technology."
+          "header": "Grátis",
+          "pg": "Para muitos, os cuidados de saúde são inacessíveis. Não vemos qualquer razão para que as pessoas tenham de pagar por prevenção e detecção dispendiosas quando estas podem ser gratuitas com a ajuda da tecnologia."
         },
         "health": {
-          "header": "Health",
-          "pg": "People’s health is the most precious thing in the world. From health comes happiness, and from that comes social and economic success."
+          "header": "Saúde",
+          "pg": "A saúde das pessoas é a coisa mais preciosa do mundo. Da saúde vem a felicidade, e dela vem o sucesso social e económico."
         },
         "oneTap": {
-          "header": "One tap",
-          "pg": "Our sole focus is on using technology to improve people’s health — that’s all we do. Our apps are sophisticated yet intuitive, delivering rapid detection to prevent virus spread and save lives."
+          "header": "Uma torneira",
+          "pg": "O nosso único foco é a utilização da tecnologia para melhorar a saúde das pessoas - é tudo o que fazemos. As nossas aplicações são sofisticadas mas intuitivas, proporcionando uma detecção rápida para prevenir a propagação do vírus e salvar vidas."
         },
         "mobile": {
-          "header": "Mobile",
-          "pg": "Mobile devices have become ubiquitous in developing markets and can be utilized to deliver healthcare."
+          "header": "Móvel",
+          "pg": "Os dispositivos móveis tornaram-se omnipresentes nos mercados em desenvolvimento e podem ser utilizados para a prestação de cuidados de saúde."
         },
         "header": "Our values"
       },
       "section4": {
-        "header": "Our supporters",
-        "pg1": "Virufy is a Stanford COVID-19 Response Innovation Lab project and is also featured in One Young World"
+        "header": "Os nossos valores",
+        "pg1": "Virufy é um projecto do Laboratório de Inovação de Resposta de Stanford COVID-19 e é também apresentado no One Young World"
       }
     }
   }

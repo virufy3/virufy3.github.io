@@ -1,6 +1,7 @@
 {
   "headers": {
-    "header": "Virufy como visto nas notícias"
+    "header": "Virufy como visto nas notícias",
+    "filter": "Filtrar notícias por país"
   },
   "news": {
     "section2": {

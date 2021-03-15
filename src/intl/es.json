@@ -98,7 +98,8 @@
   },
   "news": {
     "headers": {
-      "header": "Virufy en las noticias"
+      "header": "Virufy en las noticias",
+      "filter": "Filtrar las noticias por país"
     },
     "news": {
       "section2": {
