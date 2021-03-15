@@ -5,7 +5,7 @@
     "button": "Dona tu tos"
   },
   "footer": {
-    "getInTouch": "Ponte tn contacto",
+    "getInTouch": "Ponte en contacto",
     "cookiePolicy": "Política de cookies",
     "cookieSettings": "Configuración de las cookies",
     "privacyPolicy": "Política de privacidad",
@@ -35,8 +35,8 @@
       "contribute": {
         "title": "Contribuya con su experiencia",
         "details": "Trabajamos con la ciencia, la medicina, la tecnología y otros profesionales y expertos en todo el mundo para dar forma y cumplir la misión de Virufy.",
-        "learnmore": "Want to learn more?",
-        "faq": "See our FAQ page",
+        "learnmore": "¿Quiere saber más?",
+        "faq": "Consulte nuestra página de preguntas frecuentes",
         "question": "¿Quiere participar?",
         "linkText": "Pongase en contacto"
       },
@@ -63,8 +63,8 @@
     },
     "section3": {
       "howItWorks": "COMO FUNCIONA",
-      "header": "Our vision",
-      "sub-header": "Virufy’s three-step detection process will provide a quick and easy COVID-19 diagnosis for all. Support our vision by donating a cough today.",
+      "header": "Nuestra visión",
+      "sub-header": "El proceso de detección en tres pasos de Virufy proporcionará un diagnóstico de COVID-19 rápido y fácil para todos. Apoya nuestra visión donando una tos hoy mismo.",
       "header1": "Graba tu tos",
       "header2": "La IA analiza tu firma respiratoria",
       "header3": "Se detectan los rastros de COVID 19",
@@ -90,7 +90,7 @@
     "inTheNews": "Noticias ",
     "getInvolved": "FORMAR PARTE",
     "techBehind": "La tecnología detras de Virufy",
-    "openData": "Open Data",
+    "openData": "Datos abiertos",
     "faqs": "Preguntas frecuentes",
     "ourVision": "Nuestra vision",
     "ourSupporters": "Nuestros seguidores",
@@ -127,7 +127,7 @@
       },
       "section5": {
         "date": "Julio 2020",
-        "title": "Ambassadors of the Month Julio",
+        "title": "Embajadores del mes Julio",
         "name": "One Young World",
         "city": " ",
         "country": " ",
@@ -271,8 +271,8 @@
   },
   "privacy_policy": {
     "headers": {
-      "header": "Privacy Policy",
-      "sub-header": "Please view the privacy policy below which corresponds to the territory you are currently in."
+      "header": "Política de privacidad",
+      "sub-header": "Por favor, consulte la política de privacidad que corresponde al territorio en el que se encuentra ahora."
     },
     "countries": {
       "argentina": "Argentina",
@@ -287,10 +287,10 @@
       "mex_policy": "Aviso De Privacidad",
       "peru": "Peru",
       "peru_policy": "Política de Privacidad",
-      "us": "United States",
-      "us_policy": "Privacy Policy",
-      "eu": "Europe",
-      "eu_policy": "Privacy Policy"
+      "us": "Estados Unidos",
+      "us_policy": "Política de privacidad",
+      "eu": "Europa",
+      "eu_policy": "Política de privacidad"
     }
   },
   "team": {
@@ -362,12 +362,12 @@
         "amelie": {
           "name": "Amelie Azim-Khan",
           "description": "Wycombe Abbey",
-          "title": "Youth Ambassador, Europe & UK"
+          "title": "Embajador de la Juventud, Europa y Reino Unido"
         },
         "maisie": {
           "name": "Maisie Mora",
           "description": "San Diego State University",
-          "title": "UX team lead"
+          "title": "Jefe de equipo de UX"
         }
       },
       "advisors": {
