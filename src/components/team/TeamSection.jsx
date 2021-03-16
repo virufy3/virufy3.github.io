@@ -65,9 +65,6 @@ export default ({ images }) => {
         <h2 className="text-3xl text-center font-bold mb-2 text-black">
           {intl.formatMessage({ id: "team.teamSection.header" })}
         </h2>
-        <p className="text-center">
-          {intl.formatMessage({ id: "team.teamSection.pg1" })}
-        </p>
       </div>
       <button
         onClick={() => setSelectedTab(tabs.advisors)}

@@ -92,7 +92,7 @@ export default () => {
           </div>
         </div>
       </div>
-      <div className="pt-6 md:pt-0 md:ml-6 mt-12">
+      <div className="pt-6 md:pt-0 md:ml-6">
         {footerLinks.map((footerLink, index) => (
           <>
             <a
