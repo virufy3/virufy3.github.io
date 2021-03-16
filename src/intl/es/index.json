@@ -1,20 +1,20 @@
 {
   "section1": {
-    "header": "Transformando la salud del mundo un clic a la vez",
-    "pg": "Virufy es una organización dirigida por voluntarios que utiliza la inteligencia artificial (IA) para <span class=\"font-bold\">diagnosticar COVID-19</span> a partir de patrones de tos, <span class=\"font-bold\"> rápidamente</span> y <span className=\"font-bold\">sin costo</span> alguno mediante el uso de un smartphone",
+    "header": "Transformando la salud del mundo de a un clic a la vez",
+    "pg": "Virufy es una organización dirigida por voluntarios que utiliza la inteligencia artificial (IA) para <span class=\"font-bold\">diagnosticar COVID-19</span> a partir de patrones de tos, <span class=\"font-bold\"> rápidamente</span> y <span className=\"font-bold\">sin costo</span> alguno mediante el uso de un smartphone.",
     "coughLink": "CONTRIBUYE CON TU TOS",
     "donateLink": "DONA"
   },
   "section2": {
     "header": "Nuestro impacto global",
-    "pg1": "Virufy está cambiando la forma en que se experimenta la atención médica,empoderando a las personas mediante la detección de enfermedades rápida y gratuita.",
+    "pg1": "Virufy está cambiando la forma en que se experimenta la atención médica, empoderando a las personas mediante la detección de enfermedades rápida y gratuita.",
     "pg2": "No importa en qué parte del mundo te encuentres, todo lo que necesitas es un dispositivo móvil y la aplicación Virufy.",
-    "learnMoreLink": "APRENDE MAS"
+    "learnMoreLink": "APRENDE MÁS"
   },
   "section3": {
     "howItWorks": "COMO FUNCIONA",
     "header": "Nuestra visión",
-    "sub-header": "Estamos recopilando toses para perfeccionar nuestro algoritmo de IA, y pondremos en marcha un proceso de detección en tres pasos que ayudará a contribuir a un diagnóstico rápido y fácil de COVID-19 en beneficio de países de todo el mundo, especialmente los de bajos ingresos.<br>Ayude a apoyar nuestra visión donando una tos hoy mismo.",
+    "sub-header": "El proceso de detección de Virufy en tres pasos, proveerá un diagnóstico rápido de COVID-19 para todos. Apoya nuestra visión, donando tu tos hoy mismo.",
     "header1": "Graba tu tos",
     "header2": "La IA analiza tu firma respiratoria",
     "header3": "Se detectan los rastros de COVID 19",
@@ -29,7 +29,7 @@
   },
   "faq": {
     "distinguishableQ": "¿Cómo se pueden distinguir las toses de COVID-19?",
-    "distinguishableA": "Al igual que todas las demás enfermedades respiratorias, el COVID-19 crea una firma respiratoria única en la garganta y los pulmones que es distinta de otras infecciones respiratorias que producen tos húmeda. En consecuencia, se ha sugerido que los sonidos de la tos pueden analizarse para detectar el COVID-19. A nivel mundial, esta idea está siendo investigada activamente por varias instituciones prestigiosas, incluidas CMU8, MIT11 y Cambridge7. Por ejemplo, una investigación de crowdsource realizada por la Universidad de Cambridge mostró que un clasificador binario de aprendizaje automático simple es capaz de clasificar a los pacientes con el COVID-19 positivos a través de sonidos de respiración y tos con alta precisión (AUC = 0,7). De manera similar, los investigadores de CMU identificaron 18 características de la voz que distinguen a los pacientes con el COVID-19 positivos y entrenaron un modelo para diagnosticar el COVID-19 con una precisión del 89,1%.",
+    "distinguishableA": "Al igual que todas las demás enfermedades respiratorias, el COVID-19 crea una firma respiratoria única en la garganta y los pulmones, que es distinta de otras infecciones respiratorias. En este caso, se produce una tos húmeda. En consecuencia, se ha sugerido que los sonidos de la tos pueden analizarse para detectar el COVID-19. A nivel mundial, esta idea está siendo investigada activamente por varias instituciones prestigiosas; incluidas CMU8, MIT11 y Cambridge7. Por ejemplo, una investigación de crowdsource realizada por la Universidad de Cambridge mostró que un clasificador binario de aprendizaje automático simple, es capaz de clasificar a los pacientes con COVID-19 positivo a través de sonidos de respiración y tos con alta precisión (AUC = 0,7). De manera similar, los investigadores de CMU identificaron 18 características de la voz, que distinguen a los pacientes con COVID-19 positivo y entrenaron un modelo para diagnosticar el COVID-19 con una precisión del 89,1%.",
     "aiQ": "¿Cómo predecirá el algoritmo de inteligencia artificial de Virufy un diagnóstico de COVID-19?",
     "aiA": "Sobre la base de esta investigación anterior, Virufy está desarrollando un algoritmo de inteligencia artificial que se puede utilizar para predecir con precisión una infección por COVID-19 en cuestión de minutos basándose en grabaciones de sonidos de tos. Sin embargo, a diferencia de las investigaciones anteriores sobre la tos de COVID-19 que se dirigieron a la población de EE. UU., Virufy tiene como objetivo recopilar datos de múltiples sitios en todo el mundo. Como una iniciativa dirigida por estudiantes con voluntarios que abarcan varios países, Virufy está desarrollando un modelo de diagnóstico COVID-19 con mayor inclusión racial y espacial a través de datos que incluyen una variedad de etnias y diferencias fonológicas específicas de cada comunidad."
   }
