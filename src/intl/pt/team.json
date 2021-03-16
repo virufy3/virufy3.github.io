@@ -29,10 +29,10 @@
         "description": "Comité de Políticas Públicas\nJovenes Iberoamericanos\nM.A. Relações Internacionais, Universidade Federal da Paraíba",
         "title": "Gestor de Divulgação Comunitária do Brasil"
       },
-      "bruna": {
-        "name": "Bruna Lourenço",
-        "description": "UX/UI Designer, ThinkBox\nDesign Gráfico, Instituto Federal de Educação, Ciência e Tecnologia da Paraíba",
-        "title": "UI Team Lead"
+      "maisie": {
+        "name": "Maisie Mora",
+        "description": "Universidade Estadual de San Diego",
+        "title": "UX team lead"
       },
       "jonatan": {
         "name": "Jonatan Jaskilioff",
@@ -74,10 +74,10 @@
         "description": "Embaixador da Juventude, Europa e Reino Unido",
         "title": "Wycombe Abbey"
       },
-      "maisie": {
-        "name": "Maisie Mora",
-        "description": "Universidade Estadual de San Diego",
-        "title": "UX team lead"
+      "kitan": {
+        "name": "Kitan Fasuyi",
+        "description": "Gestor de productos/proyectos\nEpic",
+        "title": "Director de Proyectos Globales"
       }
     },
     "advisors": {

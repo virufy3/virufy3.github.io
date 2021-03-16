@@ -24,12 +24,6 @@ export const leadership = [
     imageName: "matheus",
   },
   {
-    mediaLink: "https://www.linkedin.com/in/bruna-louren%C3%A7o-02180a192/",
-    id: "bruna",
-    defaultName: "Bruna Lourenço",
-    imageName: "bruna",
-  },
-  {
     mediaLink: "https://www.linkedin.com/in/jonatan-jaskilioff-77075340/",
     id: "jonatan",
     defaultName: "Jonatan Jaskilioff",
@@ -77,6 +71,12 @@ export const leadership = [
     id: "maisie",
     defaultName: "Maisie Mora",
     imageName: "maisie",
+  },
+  {
+    mediaLink: "https://www.linkedin.com/in/kitanf/",
+    id: "kitan",
+    defaultName: "Kitan Fasuyi",
+    imageName: "kitan",
   },
 ];
 
