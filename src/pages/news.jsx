@@ -125,8 +125,15 @@ export default function News({ data }) {
           <CountrySelect setCountry={setCountry} country={country} />
         </span>
       </div>
-
       <section>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="/smartphone-detection"
+          className="text-black wrapper md:flex"
+        >
+          Smartphone Detection Article
+        </a>
         {news
           .filter((item) => {
             if (country === "") return true;
