@@ -8,7 +8,7 @@ export default ({ images }) => {
   return (
     <section className="px-4 lg:px-0 lg:mx-auto lg:w-10/12 mt-10">
       <h1
-        className="md:text-5xl font-bold"
+        className="md:text-5xl font-bold md:w-8/12"
         dangerouslySetInnerHTML={{
           __html: intl.formatMessage({ id: "index.section1.header" }),
         }}
@@ -22,18 +22,18 @@ export default ({ images }) => {
             }}
           />
           <ul className="list-none my-4">
-            <li className="inline">
+            <li className="md:inline">
               <a
-                className="no-underline bg-green text-white px-4 py-2 mb-2 xs:text-xs"
+                className="no-underline bg-green text-white px-4 py-2 mb-2 xs:text-xs font-bold"
                 target="_blank"
                 href={"/app"}
               >
                 {intl.formatMessage({ id: "index.section1.coughLink" })}
               </a>
             </li>
-            <li className="inline ml-8">
+            <li className="md:inline md:ml-8 mt-4">
               <a
-                className="no-underline border-solid border border-primary text-primary px-4 py-2 xs:text-xs"
+                className="no-underline border-solid border border-primary text-primary md:px-4 py-2 xs:text-xs px-12 font-bold"
                 target="_blank"
                 href={links.donateLink}
               >
