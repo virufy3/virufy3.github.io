@@ -36,43 +36,41 @@ export default ({ images }) => {
         <h2 className="text-black font-bold mb-4">
           {intl.formatMessage({ id: "index.section4.header2" })}
         </h2>
-        <div className="flex flex-col items-center md:flex flex-col lg:flex-row flex-wrap md:justify-between items-center pt-8 pb-12">
+        <div className="flex items-center flex-row flex-wrap md:justify-between pt-8 pb-12">
           <a href={supporter_links.responseLab} target="_blank">
             <GatsbyImage
-              className="w-32 lg:w-20 my-3 mx-1"
+              className="w-16 lg:w-20 my-3 mx-1"
               fluid={images["covid-19-RIL-logo"].childImageSharp.fluid}
             />
           </a>
           <a href={supporter_links.oneYoungWorld} target="_blank">
             <GatsbyImage
               imgStyle={{ objectFit: "fill" }}
-              className="w-32 lg:w-24 my-3 mx-1"
+              className="w-20 lg:w-24 my-3 md:mx-1"
               fluid={images["OYW_blue_rgb"].childImageSharp.fluid}
             />
           </a>
           <a href={supporter_links.xoor} target="_blank">
             <GatsbyImage
-              className="w-32 lg:w-20 my-3 mx-1"
+              className="w-16 lg:w-20 my-3 md:mx-1 mx-auto"
               fluid={images["xoor"].childImageSharp.fluid}
             />
           </a>
           <a href={supporter_links.sherlock} target="_blank">
             <GatsbyImage
-              className="w-40 lg:w-24 my-3 mx-1"
+              className="w-20 lg:w-24 my-3 md:mx-1 mx-auto"
               fluid={images["sherlock"].childImageSharp.fluid}
             />
           </a>
           <a href={supporter_links.stanford} target="_blank">
             <GatsbyImage
-              className="w-32 lg:w-20 my-3 mx-1"
-              fluid={
-                images["stanford-h4r-logo transparent"].childImageSharp.fluid
-              }
+              className="w-16 lg:w-20 my-3 md:mx-1 mx-auto"
+              fluid={images["stanford-h4r-logo"].childImageSharp.fluid}
             />
           </a>
           <a href={supporter_links.siena} target="_blank">
             <GatsbyImage
-              className="w-32 lg:w-20 my-3"
+              className="w-16 lg:w-20 my-3 mx-auto"
               fluid={images["siena-company-logo"].childImageSharp.fluid}
             />
           </a>
