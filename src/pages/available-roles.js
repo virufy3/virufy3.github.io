@@ -50,9 +50,8 @@ export default function AvailableRoles() {
         <div className="px-8 pt-10 xl:pt-20 xl:pl-20">
           <h1 className="text-2xl md:text-6xl max-w-2xl mb-5 md:mb-8">
             {intl.formatMessage({
-              id: `availableRoles.join`,
+              id: `getInvolved.availableRoles.join`,
             })}
-            ..
           </h1>
 
           <p className="mb-8 font-heading max-w-2xl text-sm md:text-md">
