@@ -29,7 +29,7 @@ export default ({ images }) => {
           {intl.formatMessage({ id: "index.section4.knowUsLink" })}
         </Link>
         <GatsbyImage
-          className="md:hidden mb-8 w-3/5"
+          className="md:hidden mb-8 md:w-3/5 items-center justify-between justify-center"
           fluid={images["Virufighters"].childImageSharp.fluid}
           imgStyle={{ objectFit: "contain" }}
         />
