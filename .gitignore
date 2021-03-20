@@ -56,6 +56,9 @@ package-lock.json
 # ignore any lock file other than main lock file
 !/yarn.lock
 
+# vscode
+.vscode
+
 # starters are special; we want to persist the lock files
 !starters/*/package-lock.json
 !themes/gatsby-starter-blog-theme/package-lock.json
