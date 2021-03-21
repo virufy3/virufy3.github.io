@@ -28,6 +28,12 @@ module.exports = {
       },
     },
     {
+      resolve: "gatsby-plugin-google-analytics",
+      options: {
+        trackingId: process.env.GOOGLE_ANALYTICS || "none",
+      },
+    },
+    {
       resolve: `gatsby-plugin-intl`,
       options: {
         path: path.join(__dirname, "src", "intl"),
