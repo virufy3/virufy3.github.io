@@ -22,6 +22,9 @@
     "address": "4546 El Camino Real B10 #614, Los Altos, California 94022, USA"
   },
   "getInvolved": {
+    "availableRoles": {
+      "join": "Unite al equipo de Virufighter"
+    },
     "topFold": {
       "joinTitle": "Unete a la lucha para parar el COVID",
       "details": "Damos la bienvenida a personas apasionadas de todos los orígenes y experiencia para ayudarnos a terminar con el COVID-19.\n\nYa seas un experto en ayuda humanitaria o simplemente estés ansioso por marcar la diferencia, hay muchas formas de involucrarse en la misión de Virufy."

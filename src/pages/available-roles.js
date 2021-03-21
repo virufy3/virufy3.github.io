@@ -3,6 +3,7 @@ import Layout from "../components/Layout";
 import SEO from "../components/SEO";
 import HeaderImage from "../images/available-roles-page/header.svg";
 import { roles } from "../data/available-roles";
+import { useIntl } from "gatsby-plugin-intl";
 
 const Role = ({ description, location, title, url }) => (
   <div
@@ -40,6 +41,7 @@ const Role = ({ description, location, title, url }) => (
 );
 
 export default function AvailableRoles() {
+  const intl = useIntl();
   return (
     <Layout className="bg-green-200 pb-1">
       <SEO title="Available Roles | Virufy" />
@@ -47,7 +49,9 @@ export default function AvailableRoles() {
       <div className="relative mb-11 md:mb-28">
         <div className="px-8 pt-10 xl:pt-20 xl:pl-20">
           <h1 className="text-2xl md:text-6xl max-w-2xl mb-5 md:mb-8">
-            Join the Virufighter team
+            {intl.formatMessage({
+              id: `getInvolved.availableRoles.join`,
+            })}
           </h1>
 
           <p className="mb-8 font-heading max-w-2xl text-sm md:text-md">
