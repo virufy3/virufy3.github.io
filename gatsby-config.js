@@ -30,7 +30,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
-        trackingId: provess.env.GOOGLE_ANALYTICS || "none",
+        trackingId: process.env.GOOGLE_ANALYTICS || "none",
       },
     },
     {
