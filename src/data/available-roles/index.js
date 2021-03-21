@@ -1,12 +1,13 @@
 export const roles = [
   {
     description:
-      "Seeking an individual to contribute on a part-time volunteer basis and collaborate closely with the Virufy development team, define the product roadmap, manage development progress and align with stakeholders.",
+      "Seeking an individual to contribute on a part-time volunteer basis to raise funds for our global marketing and data crowdsourcing campaigns to continue operating.",
     location: "Remote",
-    title: "Project / Product Manager",
+    title: "Fundraising Team Volunteer",
     url:
-      "https://docs.google.com/document/d/1x8NPeOzn6-IgCIrqxrK0zvcDY5858VJ_FRLGiewfWfY/edit",
+      "https://docs.google.com/document/d/1wR0Cn30ThlSa5iCc-bHgbx0_6dhmNsFU2ptVZQxmkRQ/edit",
   },
+
   {
     description:
       "Seeking an individual to contribute on a part-time volunteer basis and lead the North America ambassador team on the fundraising end to raise money for our global marketing and data crowdsourcing campaigns.",
@@ -14,14 +15,6 @@ export const roles = [
     title: "Fundraising Coordinator",
     url:
       "https://docs.google.com/document/d/1OG3dc5acRJjEkys8kVp-NScttaNziQ1mdBWUIm6cnlY/edit",
-  },
-  {
-    description:
-      "Seeking an individual to contribute on a part-time volunteer basis to raise funds for our global marketing and data crowdsourcing campaigns to continue operating.",
-    location: "Remote",
-    title: "Fundraising Team Volunteer",
-    url:
-      "https://docs.google.com/document/d/1wR0Cn30ThlSa5iCc-bHgbx0_6dhmNsFU2ptVZQxmkRQ/edit",
   },
   {
     description:
@@ -33,11 +26,11 @@ export const roles = [
   },
   {
     description:
-      "Seeking an individual to contribute on a part-time volunteer basis and collaborate closely with the management and development team to help manage the internal data privacy concerns, potentially under mentorship from senior licensed lawyers.",
+      "Seeking an individual to contribute on a part-time volunteer basis and collaborate closely with the Virufy development team, define the product roadmap, manage development progress and align with stakeholders.",
     location: "Remote",
-    title: "Infosec Engineer",
+    title: "Project / Product Manager",
     url:
-      "https://docs.google.com/document/d/13aFvZWmW3xBsO-IVvCdt2dhfcZvFFy1aBsMd1BZ52Ak",
+      "https://docs.google.com/document/d/1x8NPeOzn6-IgCIrqxrK0zvcDY5858VJ_FRLGiewfWfY/edit",
   },
   {
     description:
@@ -49,19 +42,45 @@ export const roles = [
   },
   {
     description:
-      "Seeking an individual to contribute on a part-time volunteer basis and collaborate closely with Virufy management and globally-dispersed legal teams to help manage data privacy concerns for their local jurisdictions.",
+      "Seeking an individual to serve as the first point of contact within Virufy for all HR-related inquiries.",
     location: "Remote",
-    title: "Data Privacy Lawyer",
+    title: "Human Resources Administrator",
     url:
-      "https://docs.google.com/document/d/1onEOkzwo7rEl2IWcDWIBGzl8_RrJYdiWbiGiUApcnrc",
+      "https://docs.google.com/document/d/191xws4_-ocyyMS9zTP0MEjsd2oXjGJqfNeVjyTaqepk",
+  },
+
+  {
+    description:
+      "Seeking an individual to contribute on a part-time volunteer basis and collaborate closely with the management and development team to help manage the internal data privacy concerns, potentially under mentorship from senior licensed lawyers.",
+    location: "Remote",
+    title: "Infosec Engineer",
+    url:
+      "https://docs.google.com/document/d/13aFvZWmW3xBsO-IVvCdt2dhfcZvFFy1aBsMd1BZ52Ak",
   },
   {
     description:
-      "Seeking an individual to lead Virufy’s operations across Indonesia.",
+      "Seeking an individual to volunteer on a part-time basis to help us develop a full-scale marketing campaign to manage our social media platforms and to engage influencers and the press.",
     location: "Remote",
-    title: "Indonesia Country Director  / Head of Mission",
+    title: "Global Marketing Manager",
     url:
-      "https://docs.google.com/document/u/3/d/10hBe2BsByjSgOGHiHZWjSex9AniwxDCis8jZeoCFOHU/edit",
+      "https://docs.google.com/document/d/1UTIg6rukg6B8pvLGfrB2t5COUFb5kug6x8YUsf-8WxY/",
+  },
+  {
+    description:
+      "Seeking an individual to contribute on a part-time volunteer basis and collaborate closely with the management and development team to help manage the overall data privacy concerns internally, potentially under mentorship from senior licensed lawyers.",
+    location: "Remote",
+    title: "Data Privacy Manager",
+    url:
+      "https://docs.google.com/document/d/1v86sEXJYMiWLoFIqC12QCnqbJu2KIOKWlbs35aC7Acc",
+  },
+
+  {
+    description:
+      "Seeking an individual to contribute on a part-time volunteer basis and collaborate closely with Virufy management and globally-dispersed legal teams to help manage data privacy concerns for their local jurisdictions.",
+    location: "Remote",
+    title: "Data Privacy Lawyer(Argentina, Mexico, Indonesia)",
+    url:
+      "https://docs.google.com/document/d/1onEOkzwo7rEl2IWcDWIBGzl8_RrJYdiWbiGiUApcnrc",
   },
   {
     description:
@@ -71,14 +90,7 @@ export const roles = [
     url:
       "https://docs.google.com/document/d/124lK1uwh7fgaMD-J974jbLXO9iQEDl7pFiIbxigCcyI",
   },
-  {
-    description:
-      "Seeking an individual to serve as the first point of contact within Virufy for all HR-related inquiries.",
-    location: "Remote",
-    title: "Human Resources Administrator",
-    url:
-      "https://docs.google.com/document/d/191xws4_-ocyyMS9zTP0MEjsd2oXjGJqfNeVjyTaqepk",
-  },
+
   {
     description:
       "Seeking a part-time, volunteer film maker who is passionate about editing digital content and creating graphics/illustrations for outreach and marketing purposes.",
@@ -94,22 +106,6 @@ export const roles = [
     title: "Talent Sourcer",
     url:
       "https://docs.google.com/document/d/1umbOcHv3ZAMHIRx9XwWyAcFrdMlpdiimwJmwzKh_Jr0/edit",
-  },
-  {
-    description:
-      "Seeking an individual to contribute on a part-time volunteer basis and collaborate closely with the management and development team to help manage the overall data privacy concerns internally, potentially under mentorship from senior licensed lawyers.",
-    location: "Remote",
-    title: "Data Privacy Manager",
-    url:
-      "https://docs.google.com/document/d/1v86sEXJYMiWLoFIqC12QCnqbJu2KIOKWlbs35aC7Acc",
-  },
-  {
-    description:
-      "Seeking a volunteer website developer to collaborate with internal teams to redesign our website applications in a fast-paced environment.",
-    location: "Remote",
-    title: "Website Developer",
-    url:
-      "https://docs.google.com/document/d/12wKjLcrlQTLAVymKiZcuIHEHVXvcZsD5OxXX4jiV6_0",
   },
   {
     description:

@@ -52,6 +52,9 @@
     "address": "4546 El Camino Real B10 #614, Los Altos, California 94022, USA"
   },
   "getInvolved": {
+    "availableRoles": {
+      "join": "Join the Virufighter team"
+    },
     "topFold": {
       "joinTitle": "Join the fight to stop COVID",
       "details": "We welcome passionate individuals of all backgrounds and experience to help us in ending COVID-19.\n\nWhether you’re a humanitarian, expert or simply eager to make an impact, there’s a multitude of ways to get involved with Virufy’s mission."
@@ -87,7 +90,7 @@
   },
   "index": {
     "section1": {
-      "header": "Transforming the world's<br>health one click at a time",
+      "header": "Transforming the world's health one click at a time",
       "pg": "Virufy is a nonprofit research organization developing artificial intelligence (AI) technology to <span class=\"font-bold\">screen for COVID-19</span> from cough patterns, <span class=\"font-bold\">rapidly</span> and at no cost through use of a smartphone.",
       "coughLink": "CONTRIBUTE YOUR COUGH",
       "donateLink": "DONATE"
@@ -210,7 +213,7 @@
       "diagnoseDisease": "AI to freely and quickly identify diseases",
       "acrossNations": "All people across all nations should have fast, affordable access to healthcare.",
       "usingTechnology": "So we’re using technology to do this. ",
-      "algorithmInfo": "With the help of cutting edge research from the world’s most prestigious institutions — Stanford, Princeton, Cambridge — we’re developing an AI algorithm that accurately diagnoses COVID-19 just by analyzing the sounds of a person’s cough.",
+      "algorithmInfo": "With the help of cutting edge research from the world’s most prestigious institutions — Stanford, Princeton, Cambridge — we’re developing an AI algorithm that pre-screens for COVID-19 simply by analyzing the sounds of a person’s cough.",
       "readWhitePaper": "Read our paper",
       "wantToLearnMore": "Want to learn more?"
     },
@@ -365,7 +368,7 @@
       "otherDetails.doesYourQ": "Does your product need regulatory approval (e.g., FDA)? If so, what is the approval process? What is your plan to get approved, and how much time and money will it take?",
       "otherDetails.doesYourA": "We are compliant with data privacy regulations in several countries across 3 continents. The Health Insurance Portability and Accountability Act (HIPAA) does not apply to us.\n\nAs we are not providing predictions to individuals in the US, FDA approval is not needed.",
       "otherDetails.WhatIfiQ": "What if I have more questions?",
-      "otherDetails.WhatIfiA": "More details can be found in our full <a target='_blank' href='https://www.jotform.com/privacy/'>Privacy Policy</a>, <a target='_blank' href='https://virufy.org/cookie_policy.html'>Cookie Policy</a>, and consent form which is embedded in the <a target='_blank' href='https://virufy.org/app'>data collection app</a>.\n\nFor questions related to the data collection study, please email us at study@virufy.org.\nFor data related queries, we can be contacted at open-data@virufy.org.\nFor all other inquiries, you may reach us at info@virufy.org.",
+      "otherDetails.WhatIfiA": "More details can be found in our full <a target='_blank' href='https://www.jotform.com/privacy/'>Privacy Policy</a>, <a target='_blank' href='https://virufy.org/cookie_policy.html'>Cookie Policy</a>, and consent form which is embedded in the <a target='_blank' href='https://virufy.org/app'>data collection app</a>.\n\nFor questions related to the data collection study, please email us at <a href='mailto:study@virufy.org'>study@virufy.org</a>.\nFor data related queries, we can be contacted at <a href='mailto:open-data@virufy.org'>open-data@virufy.org</a>.\nFor all other inquiries, you may reach us at <a href='mailto:info@virufy.org'>info@virufy.orgg</a>.",
       "missionCategory": "Mission",
       "nonprofitQ": "Is Virufy a nonprofit?",
       "nonprofitA": "Virufy is a registered California nonprofit public benefit corporation. However, our official 501(c)(3) status approval could take until mid 2021 as the IRS is backlogged due to COVID-19.",
