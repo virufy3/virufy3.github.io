@@ -1,6 +1,14 @@
 export const roles = [
   {
     description:
+      "Seeking an individual to volunteer on a part-time basis to help execute full-scale marketing campaigns to manage our social media platforms and to engage influencers and the press.",
+    location: "Remote",
+    title: "Virufy Outreach Ambassador",
+    url:
+      "https://docs.google.com/document/u/4/d/1CeqhlcFkeNHQh8NZ1UQGxvjQT-5U-j0MO6tZHLzHyr0/edit",
+  },
+  {
+    description:
       "Seeking an individual to contribute on a part-time volunteer basis to raise funds for our global marketing and data crowdsourcing campaigns to continue operating.",
     location: "Remote",
     title: "Fundraising Team Volunteer",
