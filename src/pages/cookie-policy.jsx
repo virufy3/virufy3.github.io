@@ -1,106 +1,131 @@
 import React from "react";
-import { graphql } from "gatsby";
-import { IntlContextConsumer } from "gatsby-plugin-intl";
 import Layout from "../components/Layout";
+import { useIntl } from "gatsby-plugin-intl";
 import SEO from "../components/SEO";
 import bgWave from "../images/logos/background-wave.png";
-import Accordion from "../components/Accordion";
-import { container } from "../styles/cookie_policy.module.css";
+import Cookie from "../components/CookiePolicy/Cookie";
+import IndexQuestion from "../components/index/IndexQuestion";
 
-export default ({ data }) => {
+export default function CookiePolicy({ data }) {
+  const intl = useIntl();
+
   return (
     <Layout>
-      <SEO title="Virufy | Cookie Policy" />
-      <IntlContextConsumer>
-        {({ language: currentLocale }) => {
-          if (data[currentLocale] === undefined) return <></>;
+      <SEO title="Cookie Policy | Virufy" />
+      <img className="absolute -z-10 w-full" src={bgWave} alt="waves" />
+      <div className="wrapper items-center justify-between md:py-4">
+        <h1 classNmae="font-bold">
+          {intl.formatMessage({ id: "cookie_policy.cookiePolicyHeader" })}
+        </h1>
 
-          //prettier-ignore
-          const markdown = data[currentLocale].edges.reduce(
-            (accu, {node: { html, frontmatter: { name, title } }}) => {
-              return { ...accu, [name]: {html, name, title} };
-            },
-            {}
-          );
+        <p className="mt-4">
+          {intl.formatMessage({ id: "cookie_policy.lastUpdated" })}
+        </p>
 
-          // console.log(top);
-          return (
-            <div className={`px-6 py-8 ${container}`}>
-              <img
-                className="absolute w-screen left-0"
-                src={bgWave}
-                alt="waves"
-              />
-              <div dangerouslySetInnerHTML={{ __html: markdown["top"].html }} />
-              <Accordion
-                items={[
-                  {
-                    title: markdown["essential cookies"].title,
-                    contents: (
-                      <div
-                        
-                        dangerouslySetInnerHTML={{
-                          __html: markdown["essential cookies"].html,
-                        }}
-                      />
-                    ),
-                  },
-                  {
-                    title: markdown["preference cookies"].title,
-                    contents: (
-                      <div
-                        
-                        dangerouslySetInnerHTML={{
-                          __html: markdown["preference cookies"].html,
-                        }}
-                      />
-                    ),
-                  },
-                  {
-                    title: markdown["performance cookies"].title,
-                    contents: (
-                      <div
-                        
-                        dangerouslySetInnerHTML={{
-                          __html: markdown["performance cookies"].html,
-                        }}
-                      />
-                    ),
-                  },
-                  {
-                    title: markdown["marketing cookies"].title,
-                    contents: (
-                      <div
-                        
-                        dangerouslySetInnerHTML={{
-                          __html: markdown["marketing cookies"].html,
-                        }}
-                      />
-                    ),
-                  },
-                ]}
-              />
-              <div dangerouslySetInnerHTML={{ __html: markdown["bot"].html }} />
-            </div>
-          );
-        }}
-      </IntlContextConsumer>
+        <div className="my-8">
+          {/* General */}
+          <h4 className="font-bold mt-6 text-2xl">
+            {intl.formatMessage({ id: "cookie_policy.section1.header" })}
+          </h4>
+          <p>
+            {intl.formatMessage({
+              id: "cookie_policy.section1.pg1",
+            })}
+          </p>
+          <h4 className="font-bold mt-4">
+            {intl.formatMessage({ id: "cookie_policy.section1.EuOrPeru" })}
+          </h4>
+          <p>{intl.formatMessage({ id: "cookie_policy.section1.Eu_des" })}</p>
+          <h4 className="font-bold">
+            {intl.formatMessage({ id: "cookie_policy.section1.ar" })}
+          </h4>
+          <p>{intl.formatMessage({ id: "cookie_policy.section1.ar_des" })}</p>
+          <h4 className="font-bold">
+            {intl.formatMessage({ id: "cookie_policy.section1.br" })}
+          </h4>
+          <p>{intl.formatMessage({ id: "cookie_policy.section1.br_des" })}</p>
+          <h4 className="font-bold">
+            {intl.formatMessage({ id: "cookie_policy.section1.co" })}
+          </h4>
+          <p>{intl.formatMessage({ id: "cookie_policy.section1.co_des" })}</p>
+
+          <p className="my-4">
+            {intl.formatMessage({ id: "cookie_policy.section1.pg2" })}
+          </p>
+
+          <p
+            className="mb-4"
+            dangerouslySetInnerHTML={{
+              __html: intl.formatMessage({ id: "cookie_policy.section1.pg3" }),
+            }}
+          />
+
+          {/* What are cookies? */}
+          <h4 className="font-bold mt-6 text-2xl">
+            {intl.formatMessage({ id: "cookie_policy.section2.header" })}
+          </h4>
+          <p>
+            {intl.formatMessage({
+              id: "cookie_policy.section2.pg1",
+            })}
+          </p>
+
+          {/* What cookies do we use? */}
+          <h4 className="font-bold mt-6 text-2xl">
+            {intl.formatMessage({ id: "cookie_policy.section3.header" })}
+          </h4>
+          <p>
+            {intl.formatMessage({
+              id: "cookie_policy.section3.pg1",
+            })}
+          </p>
+
+          {/* collapse  */}
+          <div className="my-4">
+            <Cookie />
+          </div>
+
+          <p
+            className="mt-4"
+            dangerouslySetInnerHTML={{
+              __html: intl.formatMessage({ id: "cookie_policy.section3.pg2" }),
+            }}
+          />
+
+          {/* How can you control cookies? */}
+          <h4 className="font-bold mt-6 text-2xl">
+            {intl.formatMessage({ id: "cookie_policy.section4.header" })}
+          </h4>
+          <p className="mt-4">
+            {intl.formatMessage({
+              id: "cookie_policy.section4.pg1",
+            })}
+          </p>
+          <p className="mt-4">
+            {intl.formatMessage({
+              id: "cookie_policy.section4.pg2",
+            })}
+          </p>
+          <p className="mt-4">
+            {intl.formatMessage({
+              id: "cookie_policy.section4.pg3",
+            })}
+          </p>
+          <p className="mt-4">
+            {intl.formatMessage({
+              id: "cookie_policy.section4.pg4",
+            })}
+          </p>
+          <p
+            className="mt-4 no-underline"
+            dangerouslySetInnerHTML={{
+              __html: intl.formatMessage({
+                id: "cookie_policy.section4.browser",
+              }),
+            }}
+          />
+        </div>
+      </div>
     </Layout>
   );
-};
-
-//prettier-ignore
-export const query = graphql`
-{
-  en: allMarkdownRemark(filter: {frontmatter: {page: {eq: "cookie-policy"} lang: {eq:"en"}}}) {
-    edges {
-      node {
-        html
-        frontmatter {
-          name
-          title
-        }        
-      }
-    }
-  }
-}`;
+}

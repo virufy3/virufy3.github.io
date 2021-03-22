@@ -5,6 +5,51 @@
     "code": "Código de error: 404",
     "back": "Volver a la página de inicio"
   },
+  "cookie_policy": {
+    "cookiePolicyHeader": "Cookie Policy",
+    "lastUpdated": "Last Updated: November 25, 2020",
+    "section1": {
+      "header": "General",
+      "pg1": "The Covid Detection Foundation (“Virufy”, “we”, “us” or “our”), a California nonprofit corporation with Tax Identification Number C4609035 located at 4546, El Camino Real, B10 #614, Los Altos, código postal 94022, United States of America respects your privacy and is committed to processing your personal information in accordance with the law. This Cookie Policy (“Policy”) explains how Virufy uses cookies and similar technologies to process your personal information that you provide to us when you visit our website or participate in our research survey for the compilation of a dataset needed for the development of artificial intelligence (AI) algorithms for device-based COVID-19 detection.",
+      "EuOrPeru": "For users located in Europe or Peru:",
+      "Eu_des": "This cookie policy will be treated under Article 22 of Law 34/2002, of July 11, on information society services and electronic commerce (LSSICE), and / or the European General Data Protection Regulation 2016/679 (the “GDPR”).",
+      "ar": "For users located in Argentina:",
+      "ar_des": "This cookie policy will be treated under Argentinian Law 25,326 on Protection of Personal Data.",
+      "br": "For users located in Brazil:",
+      "br_des": "This cookie policy will be treated under the General Personal Data Protection Law, number 13,709 / 2018 of Brazil (the “LGPD”).",
+      "co": "For users located in Colombia:",
+      "co_des": "This cookie policy will be treated under Colombian law 1581 of 2012.",
+      "pg2": "Virufy is the “data controller” of, and responsible for, your personal information collected in accordance with this Cookie Policy. For further information about how we use, store, disclose and process personal data that we obtain through or in connection with the use of our Website, please visit our Privacy Policy.",
+      "pg3": "When you first access our Website from certain jurisdictions (e.g. Europe or Brazilian national territory), you will receive a message advising you that cookies and similar technologies are in use. By clicking “Use necessary cookies only” or “Allow all cookies”, you signify that you understand and agree to the use of these technologies, as described in this Cookie Policy. If you have any inquiries or complaints regarding our Cookie Policy, please contact us by email at <a href='mailto:study@virufy.org'>study@virufy.org</a>."
+    },
+    "section2": {
+      "header": "What are cookies?",
+      "pg1": "Cookies are text files containing small pieces of data that are stored on your computer or mobile device whenever you access a website. They are used to make websites work, or work more efficiently, as well as to provide information to the owners of the website. Cookies enhance user experience by allowing websites to read and write them, enabling them to recognize visitors and remember important information that makes the visitor’s use of the website more convenient. Cookies set by a website owner (in this case, Virufy) are called “first party cookies”. Cookies set by parties other than the website owner are called “third party cookies”. Third party cookies enable third party features or functionality to be provided on or through the Website (e.g. analytics)."
+    },
+    "section3": {
+      "header": "What cookies do we use?",
+      "pg1": "We may use the following types of Cookies to make the website user-friendly:",
+      "pg2": "These cookies can be deleted or blocked by adjusting your browser settings (see Section <a href='/cookie-policy/#control-cookies'>How can you control Cookies</a> ), below). Alternatively, please follow the links below to opt-out: <a href = 'https://tools.google.com/dlpage/gaoptout'>Google Analytics</a>."
+    },
+    "cookieCollapse": {
+      "essential": "Essential Cookies",
+      "essentialD": "The Website may use technical cookies to carry out activities that are strictly necessary for the operation or delivery of services. They include, for example, cookies that allow you to access secure areas of the website. We use this cookie to obtain the required consent to process data.",
+      "preference": "Preference Cookies",
+      "preferenceD": "These cookies enable a website to remember information that changes the way the website behaves or looks, like preferred language or the region that you are in.",
+      "performance": "Performance Cookies",
+      "performanceD": "Also known as analytics cookies, these cookies may be used to collect information about your use of the Website and make the Website more user-friendly. Usage of analytic cookies includes but is not limited to distinguishing users and understanding overall patterns of usage of the Website. We use this information in aggregate form to improve the way our Website works.",
+      "marketing": "Marketing Cookies",
+      "marketingD": "These cookies are used to track visitors across websites. The intention is to display ads that are relevant and engaging for the individual user and thereby more valuable for publishers and third party advertisers."
+    },
+    "section4": {
+      "header": "How can you control Cookies?",
+      "pg1": "You do not have to accept cookies and consent can be withdrawn at any time. You have the right to decide whether to accept or reject cookies. Please note that essential cookies cannot be rejected as they are strictly necessary to provide you with services of our Website. When you first access our Website from certain jurisdictions, you will receive a message advising you that cookies and similar technologies are in use. By clicking “Got it!”, you signify that you understand and agree to the use of these technologies, as described in this Cookie Policy.",
+      "pg2": "By using our Cookie Consent Banner, you can select the categories of cookies which you choose to accept or reject. The Cookie Consent Banner can be found in the notification banner and on our Website. You can change or revoke consent for your cookie policies directly from the website by clicking “Cookie settings” at the bottom of the page.",
+      "pg3": "If you choose not to click on “Got it!”, or do not close the message, you may still use our Website. You may also refuse to accept cookies from this Website at any time by activating the setting on your browser which allows you to refuse cookies.",
+      "pg4": "Please follow the links below to helpful information for the most popular browsers:",
+      "browser": "<a href='https://support.apple.com/en-us/HT201265'>Apple Safari</a><br><a href='https://support.google.com/chrome/answer/95647?co=GENIE.Platform%3DDesktop&hl'>Google Chrome</a><br><a href='https://support.microsoft.com/en-us/help/10607/microsoft-edge-view-delete-browser-history'>Microsoft Edge</a><br><a href='https://support.microsoft.com/en-gb/help/17442/windows-internet-explorer-delete-manage-cookies'>Microsoft Internet Explorer</a><br><a href='https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences'>Mozilla Firefox</a><br><a href='https://blogs.opera.com/news/2015/08/how-to-manage-cookies-in-opera/'>Opera</a><br>"
+    }
+  },
   "dashboard": {
     "header": "Dashboard de Nuestros Datos Recolectados",
     "sub-header": "Tu tos nos ayuda a mejorar nuestro modelo predictivo, siendo <b>crucial</b> en la lucha contra <b>Covid-19</b>. ¡Mirá el progreso que hemos logrado y doná tu tos!",
