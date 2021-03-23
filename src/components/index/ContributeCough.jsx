@@ -6,7 +6,7 @@ import links from "../../data/get-involved/links";
 export default ({ images }) => {
   const intl = useIntl();
   return (
-    <section className="px-4 lg:px-0 lg:mx-auto lg:w-10/12 mt-10">
+    <section className="px-4 lg:px-0 md:mx-auto md:w-10/12 mt-10">
       <h1
         className="md:text-5xl font-bold md:w-8/12"
         dangerouslySetInnerHTML={{
