@@ -7,9 +7,9 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: "gatsby-plugin-google-analytics",
+      resolve: "gatsby-plugin-google-gtag",
       options: {
-        trackingId: process.env.GOOGLE_ANALYTICS || "none",
+        trackingId: [process.env.GOOGLE_ANALYTICS || "none"],
       },
     },
     "gatsby-plugin-postcss",
