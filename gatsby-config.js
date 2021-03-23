@@ -6,6 +6,7 @@ module.exports = {
     PRESERVE_WEBPACK_CACHE: true,
   },
   plugins: [
+    "gatsby-plugin-google-analytics",
     "gatsby-plugin-postcss",
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
@@ -13,6 +14,12 @@ module.exports = {
     "gatsby-plugin-breakpoints",
     "gatsby-background-image",
     "gatsby-transformer-remark",
+    {
+      resolve: "gatsby-plugin-google-analytics",
+      options: {
+        trackingId: process.env.GOOGLE_ANALYTICS || "none",
+      },
+    },
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -27,12 +34,7 @@ module.exports = {
         },
       },
     },
-    {
-      resolve: "gatsby-plugin-google-analytics",
-      options: {
-        trackingId: process.env.GOOGLE_ANALYTICS || "none",
-      },
-    },
+
     {
       resolve: `gatsby-plugin-intl`,
       options: {
