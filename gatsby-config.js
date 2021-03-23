@@ -9,7 +9,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-google-gtag",
       options: {
-        trackingId: [process.env.GOOGLE_ANALYTICS || "none"],
+        trackingIds: [process.env.GOOGLE_ANALYTICS || "none"],
       },
     },
     "gatsby-plugin-postcss",
