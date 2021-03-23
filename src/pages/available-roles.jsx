@@ -5,7 +5,7 @@ import HeaderImage from "../images/available-roles-page/header.svg";
 import { roles } from "../data/available-roles";
 import { useIntl } from "gatsby-plugin-intl";
 
-const Role = ({ description, location, title, url }) => (
+const Role = ({ description, location, title, url, intl }) => (
   <div
     className="flex flex-col md:grid items-center gap-6 md:gap-14 bg-white rounded-xl px-6 md:px-11 py-6 mb-8 md:mb-14"
     style={{
@@ -24,7 +24,11 @@ const Role = ({ description, location, title, url }) => (
     </div>
 
     <div className="hidden md:block mr-4">
-      <p className="font-bold font-heading">Location</p>
+      <p className="font-bold font-heading">
+        {intl.formatMessage({
+          id: `getInvolved.availableRoles.location`,
+        })}
+      </p>
 
       <p className="font-heading">{location}</p>
     </div>
@@ -35,7 +39,9 @@ const Role = ({ description, location, title, url }) => (
       rel="noopener noreferrer"
       className="block w-full text-center font-heading text-sm no-underline bg-primary text-white uppercase font-bold px-8 py-4 inline-block rounded-full text-sm md:text-md"
     >
-      Apply now
+      {intl.formatMessage({
+        id: `getInvolved.availableRoles.applyNow`,
+      })}
     </a>
   </div>
 );
@@ -55,13 +61,15 @@ export default function AvailableRoles() {
           </h1>
 
           <p className="mb-8 font-heading max-w-2xl text-sm md:text-md">
-            Virufy is entirely run by volunteers and pro bono partner companies.
-            Join our fast-paced, mission-driven team to put your skills to use
-            in curbing the spread of the pandemic globally.
+            {intl.formatMessage({
+              id: `getInvolved.availableRoles.fontHeading`,
+            })}
           </p>
 
           <p className="font-bold font-heading text-sm md:text-md">
-            Got what it takes? Check out opportunities below!
+            {intl.formatMessage({
+              id: `getInvolved.availableRoles.fontheadingBold`,
+            })}
           </p>
         </div>
 
@@ -70,11 +78,13 @@ export default function AvailableRoles() {
 
       <div className="px-8 xl:px-40">
         <h2 className="text-lg md:text-3xl mb-6 md:mb-11 font-heading">
-          Job Openings
+          {intl.formatMessage({
+            id: `getInvolved.availableRoles.fontheadingBold`,
+          })}
         </h2>
 
         {roles.map((role) => (
-          <Role key={role.title} {...role} />
+          <Role key={role.title} {...role} intl={intl} />
         ))}
       </div>
     </Layout>

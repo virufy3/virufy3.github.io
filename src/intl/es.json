@@ -23,7 +23,12 @@
   },
   "getInvolved": {
     "availableRoles": {
-      "join": "Unite al equipo de Virufighter"
+      "join": "Unete al equipo de Virufighter",
+      "fontHeading": "Virufy está dirigido íntegramente por voluntarios y empresas asociadas pro bono. Únase a nuestro equipo, de ritmo rápido y orientado a la misión, para poner en práctica sus habilidades para frenar la propagación de la pandemia a nivel mundial.",
+      "fontheadingBold": "¿Tienes lo que hay que tener? Consulta las siguientes oportunidades.",
+      "jobOpenings": " Ofertas de empleo",
+      "applyNow": "Aplica ahora",
+      "location": "Ubicación"
     },
     "topFold": {
       "joinTitle": "Unete a la lucha para parar el COVID",
@@ -197,13 +202,13 @@
         "source": "Carnegie Mellon University"
       },
       "MIT": {
-        "title": "Hola Sigma, ¿tengo el Coronavirus? Convocatoria para un nuevo enfoque de inteligencia artificial para apoyar a los profesionales de la salud que tratan con la pandemia de COVID-19.",
+        "title": "Convocatoria para un nuevo enfoque de inteligencia artificial para apoyar a los profesionales de la salud que tratan con la pandemia de COVID-19.",
         "description": "El Departamento de Ingeniería Mecánica del MIT propone la detección de casos positivos de COVID mediante la recolección de muestras de tos a través del teléfono para entrenar la inteligencia artificial y posteriormente construir un algoritmo de diagnóstico. Esto acentua el interés de los expertos en nuestra idea.",
         "source": "Massachusetts Institute of Technology (MIT)"
       },
       "various": {
         "title": "La IA permitió el diagnóstico anticipado de COVID-19 a partir de muestras de tos a partir de una aplicación",
-        "description": "SUn estudio diseñado para recoger muestras de tos para entrenar y utilizar la arquitectura de la IA que minimiza los diagnósticos erróneos. Predice que en el momento de escribir este artículo, su motor de IA puede distinguir entre la tos de los pacientes con COVID-19 y varios tipos de tos sin COVID-19 con más de un 90% de precisión.",
+        "description": "Un estudio diseñado para recoger muestras de tos para entrenar y utilizar la arquitectura de la IA que minimiza los diagnósticos erróneos. Predice que en el momento de escribir este artículo, su motor de IA puede distinguir entre la tos de los pacientes con COVID-19 y varios tipos de tos sin COVID-19 con más de un 90% de precisión.",
         "source": "(Multiples)"
       },
       "universityOfEngineeringPakistan": {
@@ -399,12 +404,12 @@
   "team": {
     "supportersSection": {
       "header": "Nuestros Patrocinadores",
-      "supporterText": "Virufy es un proyecto del<a target=\"_blank\" rel=\"noreferrer\" href=\"\" class=\"underline\"/>SLaboratorio de Innovación de Respuesta COVID-19 de Stanford</a> y también aparece en <a target=\"_blank\" rel=\"noreferrer\" href=\"\" class=\"underline\"/>One Young World</a>"
+      "supporterText": "Virufy es un proyecto del <a target=\"_blank\" rel=\"noreferrer\" href='https://responselab.stanford.edu/projects.html' class=\"underline\"/>Laboratorio de Innovación de Respuesta COVID-19 de Stanford</a> y también aparece en <a target=\"_blank\" rel=\"noreferrer\" href='https://www.oneyoungworld.com/' class=\"underline\"/>One Young World</a>"
     },
     "teamSection": {
       "header": "Nuestra Organización",
       "pg1": "Conoce a las docenas de personas que se ofrecen como voluntarias en los cinco continentes para llevar Virufy al mundo.",
-      "teamLeadText": "Lider del equipo de Virufighters",
+      "teamLeadText": "Líderes del equipo de Virufighters",
       "advisorText": "Asesoría",
       "leadership": {
         "amil": {
@@ -420,12 +425,12 @@
         "ravel": {
           "name": "Ravel Charles",
           "description": "Ingeniero de solucciones en la nube, Google\nM.P.S. Seguridad de datos, Northeastern University",
-          "title": "Lider del Equipo Infosec"
+          "title": "Líder del Equipo Infosec"
         },
         "matheus": {
           "name": "Matheus Galiza",
           "description": "Public Policy Committee\nJovenes Iberoamericanos\nM.A. International Relations, Federal University of Paraíba",
-          "title": "Lider de Alcance Comunitario Brasil"
+          "title": "Líder de Alcance Comunitario Brasil"
         },
         "maisie": {
           "name": "Maisie Mora",
@@ -440,27 +445,27 @@
         "marcos": {
           "name": "Marcos Deza",
           "description": "One Young World Embajador de Argentina\nM.A. Public Relations, Ott Educación Superior",
-          "title": "Lider del Equipo de Comunicaciones Digitales de Lation América"
+          "title": "Líder del Equipo de Comunicaciones Digitales de Lation América"
         },
         "yoonju": {
           "name": "Yoonju Hwang",
-          "description": "Desarrollo del al APP y sitio web\nB.Tech., CUNY NYC College of Technology",
-          "title": "Equipo lider del desarrolo web"
+          "description": "Desarrolladora de la APP y sitio web\nB.Tech., CUNY NYC College of Technology",
+          "title": "Líder del equipo de desarrollo web"
         },
         "gunvant": {
           "name": "Gunvant Chaudhari",
           "description": "Investigador de big data en radiología\nEstudiante de doctorado, UC San Francisco",
-          "title": "Lider del equipo de la IA"
+          "title": "Líder del equipo de la IA"
         },
         "jason": {
           "name": "Jason Pareja Jauregui",
           "description": "Coordinador de embajadores One Young World Latinoamerica\nGraduate, MIT Sloan School of Management",
-          "title": "Lider de Alcance Comunitario Peru"
+          "title": "Líder de Alcance Comunitario Peru"
         },
         "sebastian": {
           "name": "Sebastian Pedraza",
           "description": "One Young World Colombia Ambassador\nYPARD Steering Committee Member\nPolitical Science, International University of La Rioja",
-          "title": "Lider de Alcance Comunitario Colombia"
+          "title": "Líder de Alcance Comunitario Colombia"
         },
         "amelie": {
           "name": "Amelie Azim-Khan",
@@ -491,8 +496,8 @@
         },
         "rok": {
           "name": "Rok Sosic",
-          "description": "Senior Research Engineer\nStanford School of Engineering",
-          "title": "Artificial Intelligence Advisor"
+          "description": "Ingeniero de Investigación Senior\nStanford School of Engineering",
+          "title": "Asesor de Inteligencia Artificial"
         },
         "rafi": {
           "name": "Rafi Azim-Khan",

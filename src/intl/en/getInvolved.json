@@ -1,6 +1,11 @@
 {
   "availableRoles": {
-    "join": "Join the Virufighter team"
+    "join": "Join the Virufighter team",
+    "fontHeading": "Virufy is entirely run by volunteers and pro bono partner companies. Join our fast-paced, mission-driven team to put your skills to use in curbing the spread of the pandemic globally.",
+    "fontheadingBold": "Got what it takes? Check out opportunities below!",
+    "jobOpenings": " Job Openings",
+    "applyNow": "Apply Now",
+    "location": "Location"
   },
   "topFold": {
     "joinTitle": "Join the fight to stop COVID",
