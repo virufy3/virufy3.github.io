@@ -48,10 +48,16 @@ export default function CookiePolicy({ data }) {
             {intl.formatMessage({ id: "cookie_policy.section1.co" })}
           </h4>
           <p>{intl.formatMessage({ id: "cookie_policy.section1.co_des" })}</p>
-
-          <p className="my-4">
-            {intl.formatMessage({ id: "cookie_policy.section1.pg2" })}
-          </p>
+          <h4 className="font-bold">
+            {intl.formatMessage({ id: "cookie_policy.section1.me" })}
+          </h4>
+          <p>{intl.formatMessage({ id: "cookie_policy.section1.me_des" })}</p>
+          <p
+            className="my-4"
+            dangerouslySetInnerHTML={{
+              __html: intl.formatMessage({ id: "cookie_policy.section1.pg2" }),
+            }}
+          />
 
           <p
             className="mb-4"
@@ -64,11 +70,11 @@ export default function CookiePolicy({ data }) {
           <h4 className="font-bold mt-6 text-2xl">
             {intl.formatMessage({ id: "cookie_policy.section2.header" })}
           </h4>
-          <p>
-            {intl.formatMessage({
-              id: "cookie_policy.section2.pg1",
-            })}
-          </p>
+          <p
+            dangerouslySetInnerHTML={{
+              __html: intl.formatMessage({ id: "cookie_policy.section2.pg1" }),
+            }}
+          />
 
           {/* What cookies do we use? */}
           <h4 className="font-bold mt-6 text-2xl">
