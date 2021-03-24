@@ -79,7 +79,7 @@ export default function AvailableRoles() {
       <div className="px-8 xl:px-40">
         <h2 className="text-lg md:text-3xl mb-6 md:mb-11 font-heading">
           {intl.formatMessage({
-            id: `getInvolved.availableRoles.fontheadingBold`,
+            id: `getInvolved.availableRoles.jobOpenings`,
           })}
         </h2>
 
