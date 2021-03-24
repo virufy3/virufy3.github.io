@@ -6,15 +6,15 @@ import links from "../../data/get-involved/links";
 export default ({ images }) => {
   const intl = useIntl();
   return (
-    <section className="px-4 lg:px-0 md:mx-auto md:w-10/12 mt-10">
+    <section className="px-4 lg:px-0 md:mx-auto lg:w-10/12 mt-10">
       <h1
-        className="md:text-5xl font-bold md:w-8/12"
+        className="md:text-5xl font-bold lg:w-8/12"
         dangerouslySetInnerHTML={{
           __html: intl.formatMessage({ id: "index.section1.header" }),
         }}
       />
       <div className="flex justify-between">
-        <div className="flex flex-col items-start justify-center md:-mt-16 lg:w-10/12">
+        <div className="flex flex-col items-start justify-center lg:-mt-16 lg:w-10/12">
           <p
             className="md:text-2xl md:mb-8 mt-4"
             dangerouslySetInnerHTML={{
