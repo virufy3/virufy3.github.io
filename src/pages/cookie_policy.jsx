@@ -27,7 +27,7 @@ export default ({ data }) => {
           return (
             <div className={`px-6 py-8 ${container}`}>
               <img
-                className="absolute w-screen left-0"
+                className="-z-10 absolute w-screen left-0"
                 src={bgWave}
                 alt="waves"
               />
@@ -38,7 +38,6 @@ export default ({ data }) => {
                     title: markdown["essential cookies"].title,
                     contents: (
                       <div
-                        
                         dangerouslySetInnerHTML={{
                           __html: markdown["essential cookies"].html,
                         }}
@@ -49,7 +48,6 @@ export default ({ data }) => {
                     title: markdown["preference cookies"].title,
                     contents: (
                       <div
-                        
                         dangerouslySetInnerHTML={{
                           __html: markdown["preference cookies"].html,
                         }}
@@ -60,7 +58,6 @@ export default ({ data }) => {
                     title: markdown["performance cookies"].title,
                     contents: (
                       <div
-                        
                         dangerouslySetInnerHTML={{
                           __html: markdown["performance cookies"].html,
                         }}
@@ -71,7 +68,6 @@ export default ({ data }) => {
                     title: markdown["marketing cookies"].title,
                     contents: (
                       <div
-                        
                         dangerouslySetInnerHTML={{
                           __html: markdown["marketing cookies"].html,
                         }}
@@ -90,9 +86,33 @@ export default ({ data }) => {
 };
 
 //prettier-ignore
+//prettier-ignore
+
 export const query = graphql`
 {
   en: allMarkdownRemark(filter: {frontmatter: {page: {eq: "cookie-policy"} lang: {eq:"en"}}}) {
+    edges {
+      node {
+        html
+        frontmatter {
+          name
+          title
+        }        
+      }
+    }
+  }
+  es: allMarkdownRemark(filter: {frontmatter: {page: {eq: "cookie-policy"} lang: {eq:"es"}}}) {
+    edges {
+      node {
+        html
+        frontmatter {
+          name
+          title
+        }        
+      }
+    }
+  }
+  pt: allMarkdownRemark(filter: {frontmatter: {page: {eq: "cookie-policy"} lang: {eq:"pt"}}}) {
     edges {
       node {
         html
