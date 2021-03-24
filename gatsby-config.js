@@ -6,6 +6,12 @@ module.exports = {
     PRESERVE_WEBPACK_CACHE: true,
   },
   plugins: [
+    {
+      resolve: "gatsby-plugin-google-gtag",
+      options: {
+        trackingIds: [process.env.GOOGLE_ANALYTICS || "none"],
+      },
+    },
     "gatsby-plugin-postcss",
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
@@ -27,12 +33,7 @@ module.exports = {
         },
       },
     },
-    // {
-    //   resolve: "gatsby-plugin-google-analytics",
-    //   options: {
-    //     trackingId: process.env.GOOGLE_ANALYTICS || "none",
-    //   },
-    // },
+
     {
       resolve: `gatsby-plugin-intl`,
       options: {
