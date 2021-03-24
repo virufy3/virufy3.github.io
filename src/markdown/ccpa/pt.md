@@ -1,5 +1,5 @@
 ---
-lang: "en"
+lang: "es"
 page: "ccpa"
 ---
 # California Consumer Privacy Act Rights
