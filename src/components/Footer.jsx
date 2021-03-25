@@ -6,6 +6,7 @@ import instagramLogo from "../images/logos/instagram.png";
 import twitterLogo from "../images/logos/twitter.png";
 import facebookLogo from "../images/logos/facebook.png";
 import linkedinLogo from "../images/logos/linkedin.png";
+import youtubeLogo from "../images/logos/youtube.png";
 
 const socialLinks = [
   {
@@ -34,12 +35,17 @@ const socialLinks = [
     logo: linkedinLogo,
     address: "https://www.linkedin.com/company/virufy/",
   },
+  {
+    name: "Youtube",
+    logo: youtubeLogo,
+    address: "https://www.youtube.com/channel/UC6m20FEpd6J-HAoyitJKfkg",
+  },
 ];
 
 const footerLinks = [
   {
     intlId: "footer.cookiePolicy",
-    address: "/cookie_policy",
+    address: "/cookie-policy",
   },
   {
     intlId: "footer.cookieSettings",
@@ -47,7 +53,7 @@ const footerLinks = [
   },
   {
     intlId: "footer.privacyPolicy",
-    address: "/privacy_policy",
+    address: "/privacy-policy",
   },
   {
     intlId: "footer.dontSellPersonalInfo",
