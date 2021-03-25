@@ -14,25 +14,30 @@
         "description": "Embajador de paz One Young World\nEx-alumno, UC Berkeley Computer Science",
         "title": "Founder & CTO"
       },
-      "alex": {
-        "name": "Alex Kalanda",
-        "description": "One Young World Japan Ambassador\nAlumni, UC Berkeley Computer Science",
-        "title": "Founder & CEO"
-      },
-      "ravel": {
-        "name": "Ravel Charles",
-        "description": "Ingeniero de solucciones en la nube, Google\nM.P.S. Seguridad de datos, Northeastern University",
-        "title": "Líder del Equipo Infosec"
+      "maisie": {
+        "name": "Maisie Mora",
+        "description": "San Diego State University",
+        "title": "Jefe de equipo de UX"
       },
       "matheus": {
         "name": "Matheus Galiza",
         "description": "Public Policy Committee\nJovenes Iberoamericanos\nM.A. International Relations, Federal University of Paraíba",
         "title": "Líder de Alcance Comunitario Brasil"
       },
-      "maisie": {
-        "name": "Maisie Mora",
-        "description": "San Diego State University",
-        "title": "Jefe de equipo de UX"
+      "yoonju": {
+        "name": "Yoonju Hwang",
+        "description": "Desarrolladora de la APP y sitio web\nB.Tech., CUNY NYC College of Technology",
+        "title": "Líder del equipo de desarrollo web"
+      },
+      "ravel": {
+        "name": "Ravel Charles",
+        "description": "Ingeniero de solucciones en la nube, Google\nM.P.S. Seguridad de datos, Northeastern University",
+        "title": "Líder del Equipo Infosec"
+      },
+      "amelie": {
+        "name": "Amelie Azim-Khan",
+        "description": "Wycombe Abbey",
+        "title": "Embajador de la Juventud, Europa y Reino Unido"
       },
       "jonatan": {
         "name": "Jonatan Jaskilioff",
@@ -43,11 +48,6 @@
         "name": "Marcos Deza",
         "description": "One Young World Embajador de Argentina\nM.A. Public Relations, Ott Educación Superior",
         "title": "Líder del Equipo de Comunicaciones Digitales de Lation América"
-      },
-      "yoonju": {
-        "name": "Yoonju Hwang",
-        "description": "Desarrolladora de la APP y sitio web\nB.Tech., CUNY NYC College of Technology",
-        "title": "Líder del equipo de desarrollo web"
       },
       "gunvant": {
         "name": "Gunvant Chaudhari",
@@ -64,15 +64,15 @@
         "description": "One Young World Colombia Ambassador\nYPARD Steering Committee Member\nPolitical Science, International University of La Rioja",
         "title": "Líder de Alcance Comunitario Colombia"
       },
-      "amelie": {
-        "name": "Amelie Azim-Khan",
-        "description": "Wycombe Abbey",
-        "title": "Embajador de la Juventud, Europa y Reino Unido"
-      },
       "kitan": {
         "name": "Kitan Fasuyi",
         "description": "Director de Producto / Proyecto\nEpic",
         "title": "Director de proyectos globales"
+      },
+      "alfonso": {
+        "name": "Alfonso Assaf",
+        "description": "B.A. Economics, Universidad del CEMA",
+        "title": "Former Senior Consultant, Deloitte"
       }
     },
     "advisors": {
@@ -116,6 +116,11 @@
         "description": "One Young World Ambassador\nFounder and CEO - All We Are",
         "title": "Asesor Ejecutivo"
       },
+      "melissa": {
+        "name": "Melissa Dyrdahl",
+        "description": "Asesor ejecutivo de marketing\nEx CMO - Adobe",
+        "title": "Miembro del Consejo de Administración - CommonSpirit"
+      },
       "pedro": {
         "name": "Pedro Siena",
         "description": "Fundador y CEO - Siena Company\nMentor - Stanford Lean Launchpad\nSão Carlos, Brazil",
@@ -130,6 +135,11 @@
         "name": "Taisuke Fukuno",
         "description": "Fundador - Open Data Japan\nChairman - jig.jp\nFukui, Japan",
         "title": "Asesor Ejecutivo Tecnológico"
+      },
+      "victor": {
+        "name": "Victor Wang",
+        "description": "Founder and Chairman at China Silicon Valley\nCEO at SinoSV LLC",
+        "title": " "
       }
     }
   },
