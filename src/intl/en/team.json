@@ -13,25 +13,30 @@
         "description": "One Young World Japan Ambassador\nAlumni, UC Berkeley Computer Science",
         "title": "Founder & CTO"
       },
-      "alex": {
-        "name": "Alex Kalanda",
-        "description": "Co-Founder at WeResQ\nTechnology Entrepreneurship, Stanford University",
-        "title": "Africa Continent Lead"
-      },
-      "ravel": {
-        "name": "Ravel Charles",
-        "description": "Cloud Solutions Engineer, Google\nM.P.S. Data Security, Northeastern University",
-        "title": "Infosec Team Lead"
+      "maisie": {
+        "name": "Maisie Mora",
+        "description": "San Diego State University",
+        "title": "UX team lead"
       },
       "matheus": {
         "name": "Matheus Galiza",
         "description": "Public Policy Committee\nJovenes Iberoamericanos\nM.A. International Relations, Federal University of Paraíba",
         "title": "Brazil Community Outreach Manager"
       },
-      "maisie": {
-        "name": "Maisie Mora",
-        "description": "San Diego State University",
-        "title": "UX team lead"
+      "yoonju": {
+        "name": "Yoonju Hwang",
+        "description": "Website and Mobile App Developer\nB.Tech., CUNY NYC College of Technology",
+        "title": "Web Dev Team Lead"
+      },
+      "ravel": {
+        "name": "Ravel Charles",
+        "description": "Cloud Solutions Engineer, Google\nM.P.S. Data Security, Northeastern University",
+        "title": "Infosec Team Lead"
+      },
+      "amelie": {
+        "name": "Amelie Azim-Khan",
+        "description": "Wycombe Abbey",
+        "title": "Youth Ambassador, Europe & UK"
       },
       "jonatan": {
         "name": "Jonatan Jaskilioff",
@@ -42,11 +47,6 @@
         "name": "Marcos Deza",
         "description": "One Young World Argentina Ambassador\nM.A. Public Relations, Ott Educación Superior",
         "title": "Latin America Digital Communications Lead"
-      },
-      "yoonju": {
-        "name": "Yoonju Hwang",
-        "description": "Website and Mobile App Developer\nB.Tech., CUNY NYC College of Technology",
-        "title": "Web Dev Team Lead"
       },
       "gunvant": {
         "name": "Gunvant Chaudhari",
@@ -63,13 +63,13 @@
         "description": "One Young World Colombia Ambassador\nYPARD Steering Committee Member\nPolitical Science, International University of La Rioja",
         "title": "Colombia Community Outreach Manager"
       },
-      "amelie": {
-        "name": "Amelie Azim-Khan",
-        "description": "Wycombe Abbey",
-        "title": "Youth Ambassador, Europe & UK"
-      },
       "kitan": {
         "name": "Kitan Fasuyi",
+        "description": "Product / Project Manager\nEpic",
+        "title": "Global Project Manager"
+      },
+      "alfonso": {
+        "name": "Alfonso Assaf",
         "description": "Product / Project Manager\nEpic",
         "title": "Global Project Manager"
       }
@@ -115,6 +115,11 @@
         "description": "One Young World Ambassador\nFounder and CEO - All We Are",
         "title": "Executive Nonprofit Advisor"
       },
+      "melissa": {
+        "name": "Melissa Dyrdahl",
+        "description": "Executive Marketing Advisor\nFormer CMO - Adobe",
+        "title": "Board Member - CommonSpirit Health"
+      },
       "pedro": {
         "name": "Pedro Siena",
         "description": "Founder and CEO - Siena Company\nMentor - Stanford Lean Launchpad\nSão Carlos, Brazil",
@@ -129,6 +134,16 @@
         "name": "Tsutomu Ito",
         "description": "Founder - Tannan FM Radio\nLead Architect, Bullet Train\nFukui, Japan",
         "title": "Visionary Advisor"
+      },
+      "victor": {
+        "name": "Victor Wang",
+        "description": "Founder and Chairman at China Silicon Valley\nCEO at SinoSV LLC",
+        "title": " "
+      },
+      "alfonso": {
+        "name": "Alfonso Assaf",
+        "description": "B.A. Economics, Universidad del CEMA",
+        "title": "Former Senior Consultant, Deloitte"
       }
     }
   },

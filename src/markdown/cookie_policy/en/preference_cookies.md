@@ -9,4 +9,4 @@ These cookies enable a website to remember information that changes the way the 
 
 Cookie        | Provider      | Duration   | Type | Purpose                                                   
 ------------- | ------------- | ---------- | ---- | ----------------------------------------------------------
-CookieConsent | BulkSetting-# | Persistent | HTML | Cookiebot Enables cookie consent across multiple websites.
+CookieConsentBulkSetting-# | <a class="no-underline" href="https://www.cookiebot.com/goto/privacy-policy/">Cookiebot</a> | Persistent | HTML | Cookiebot Enables cookie consent across multiple websites.

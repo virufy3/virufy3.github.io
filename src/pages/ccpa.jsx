@@ -43,6 +43,9 @@ export const query = graphql`
     es: markdownRemark(frontmatter: { page: { eq: "ccpa" }, lang: { eq: "es" } }) {
       html
     }
+    pt: markdownRemark(frontmatter: { page: { eq: "ccpa" }, lang: { eq: "pt" } }) {
+      html
+    }
   }
 `;
 // export const query = graphql`

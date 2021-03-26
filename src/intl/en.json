@@ -56,7 +56,7 @@
       "join": "Join the Virufighter team",
       "fontHeading": "Virufy is entirely run by volunteers and pro bono partner companies. Join our fast-paced, mission-driven team to put your skills to use in curbing the spread of the pandemic globally.",
       "fontheadingBold": "Got what it takes? Check out opportunities below!",
-      "jobOpenings": " Job Openings",
+      "jobOpenings": "Job Openings",
       "applyNow": "Apply Now",
       "location": "Location"
     },
@@ -124,9 +124,9 @@
     },
     "faq": {
       "distinguishableQ": "Why are COVID-19 coughs be distinguishable?",
-      "distinguishableA": "Similar to other respiratory diseases, COVID-19 creates a unique respiratory signature in the throat and lungs that is distinct from other respiratory infections that produce a wet cough. Consequently, it has been suggested that cough sounds can be analyzed to detect COVID-19​.​ Globally, this idea is being actively researched by several prestigious institutions, including CMU[8], MIT, and Cambridge. For example, a crowdsource research done by University of Cambridge showed that a simple binary machine learning classifier is able to classify COVID-19 positive patients through breathing and coughing sounds with high accuracy (AUC = 0.7)[7]. Similarly, researchers at CMU identified 18 voice features that distinguish positive COVID-19 patients and trained a model to diagnose COVID-19 with a 89.1% accuracy.",
+      "distinguishableA": "Similar to other respiratory diseases, COVID-19 damages the throat and lungs, creating detecable differences in cough patterns. Consequently, cough sounds can be analyzed to detect COVID-19​.​ Globally, this idea is being actively researched by several prestigious institutions, including Carnegie Mellon (CMU), MIT, and Cambridge. For example,research done by University of Cambridge showed that a simple binary machine learning classifier is able to classify COVID-19 positive patients through breathing and coughing sounds with high acurracy. Similarly, researchers at CMU identified 18 voice features that distinguish positive COVID-19 patients and trained an academic model to detect COVID-19 with high accuracy.",
       "aiQ": "How will Virufy’s AI algorithm detect COVID-19?",
-      "aiA": "Based on this past research, Virufy is developing an AI algorithm that can be used to accurately predict a COVID-19 infection within minutes based on recordings of cough sounds. However, as opposed to previous COVID-19 cough research that targeted the US population, Virufy aims to collect data from multiple sites across the globe. As a student-run initiative with volunteers spanning several countries, Virufy is developing a COVID-19 detection model with greater racial and spatial inclusivity through data that includes a range of ethnicities and community-specific phonological differences."
+      "aiA": "Based on past research, Virufy is developing an AI algorithm that can be used to accurately predict a COVID-19 infection within minutes based on recordings of cough sounds. However, as opposed to previous COVID-19 cough research that targeted the US population, Virufy aims to collect data from multiple sites across the globe. As a student-run initiative with volunteers spanning several countries, Virufy is developing a COVID-19 diagnostic model with greater racial and spatial inclusivity through data that includes a range of ethnicities and community-specific phonological differences."
     }
   },
   "nav": {
@@ -448,25 +448,30 @@
           "description": "One Young World Japan Ambassador\nAlumni, UC Berkeley Computer Science",
           "title": "Founder & CTO"
         },
-        "alex": {
-          "name": "Alex Kalanda",
-          "description": "Co-Founder at WeResQ\nTechnology Entrepreneurship, Stanford University",
-          "title": "Africa Continent Lead"
-        },
-        "ravel": {
-          "name": "Ravel Charles",
-          "description": "Cloud Solutions Engineer, Google\nM.P.S. Data Security, Northeastern University",
-          "title": "Infosec Team Lead"
+        "maisie": {
+          "name": "Maisie Mora",
+          "description": "San Diego State University",
+          "title": "UX team lead"
         },
         "matheus": {
           "name": "Matheus Galiza",
           "description": "Public Policy Committee\nJovenes Iberoamericanos\nM.A. International Relations, Federal University of Paraíba",
           "title": "Brazil Community Outreach Manager"
         },
-        "maisie": {
-          "name": "Maisie Mora",
-          "description": "San Diego State University",
-          "title": "UX team lead"
+        "yoonju": {
+          "name": "Yoonju Hwang",
+          "description": "Website and Mobile App Developer\nB.Tech., CUNY NYC College of Technology",
+          "title": "Web Dev Team Lead"
+        },
+        "ravel": {
+          "name": "Ravel Charles",
+          "description": "Cloud Solutions Engineer, Google\nM.P.S. Data Security, Northeastern University",
+          "title": "Infosec Team Lead"
+        },
+        "amelie": {
+          "name": "Amelie Azim-Khan",
+          "description": "Wycombe Abbey",
+          "title": "Youth Ambassador, Europe & UK"
         },
         "jonatan": {
           "name": "Jonatan Jaskilioff",
@@ -477,11 +482,6 @@
           "name": "Marcos Deza",
           "description": "One Young World Argentina Ambassador\nM.A. Public Relations, Ott Educación Superior",
           "title": "Latin America Digital Communications Lead"
-        },
-        "yoonju": {
-          "name": "Yoonju Hwang",
-          "description": "Website and Mobile App Developer\nB.Tech., CUNY NYC College of Technology",
-          "title": "Web Dev Team Lead"
         },
         "gunvant": {
           "name": "Gunvant Chaudhari",
@@ -498,15 +498,15 @@
           "description": "One Young World Colombia Ambassador\nYPARD Steering Committee Member\nPolitical Science, International University of La Rioja",
           "title": "Colombia Community Outreach Manager"
         },
-        "amelie": {
-          "name": "Amelie Azim-Khan",
-          "description": "Wycombe Abbey",
-          "title": "Youth Ambassador, Europe & UK"
-        },
         "kitan": {
           "name": "Kitan Fasuyi",
           "description": "Product / Project Manager\nEpic",
           "title": "Global Project Manager"
+        },
+        "alfonso": {
+          "name": "Alfonso Assaf",
+          "description": "Former Senior Consultant, Deloitte\nB.A. Economics, Universidad del CEMA",
+          "title": "Argentina Community Outreach Manager"
         }
       },
       "advisors": {
@@ -550,6 +550,11 @@
           "description": "One Young World Ambassador\nFounder and CEO - All We Are",
           "title": "Executive Nonprofit Advisor"
         },
+        "melissa": {
+          "name": "Melissa Dyrdahl",
+          "description": "Executive Marketing Advisor\nFormer CMO - Adobe",
+          "title": "Board Member - CommonSpirit Health"
+        },
         "pedro": {
           "name": "Pedro Siena",
           "description": "Founder and CEO - Siena Company\nMentor - Stanford Lean Launchpad\nSão Carlos, Brazil",
@@ -564,6 +569,16 @@
           "name": "Tsutomu Ito",
           "description": "Founder - Tannan FM Radio\nLead Architect, Bullet Train\nFukui, Japan",
           "title": "Visionary Advisor"
+        },
+        "victor": {
+          "name": "Victor Wang",
+          "description": "Founder and Chairman at China Silicon Valley\nCEO at SinoSV LLC",
+          "title": " "
+        },
+        "alfonso": {
+          "name": "Alfonso Assaf",
+          "description": "B.A. Economics, Universidad del CEMA",
+          "title": "Former Senior Consultant, Deloitte"
         }
       }
     },

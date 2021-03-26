@@ -6,10 +6,22 @@ export const leadership = [
     imageName: "amil",
   },
   {
-    mediaLink: "https://www.linkedin.com/in/alexkalanda/",
-    id: "alex",
-    defaultName: "Alex Kalanda",
-    imageName: "alex",
+    mediaLink: "https://www.linkedin.com/in/maisiemora/",
+    id: "maisie",
+    defaultName: "Maisie Mora",
+    imageName: "maisie",
+  },
+  {
+    mediaLink: "https://www.linkedin.com/in/matheus-galiza-20539b106/",
+    id: "matheus",
+    defaultName: "Matheus Galiza",
+    imageName: "matheus",
+  },
+  {
+    mediaLink: "https://www.linkedin.com/in/yhwang95/",
+    id: "yoonju",
+    defaultName: "Yoonju Hwang",
+    imageName: "yoonju",
   },
   {
     mediaLink: "https://www.linkedin.com/in/ravel-charles/",
@@ -18,10 +30,10 @@ export const leadership = [
     imageName: "ravel",
   },
   {
-    mediaLink: "https://www.linkedin.com/in/matheus-galiza-20539b106/",
-    id: "matheus",
-    defaultName: "Matheus Galiza",
-    imageName: "matheus",
+    mediaLink: " ",
+    id: "amelie",
+    defaultName: "Amelie Azim-Khan",
+    imageName: "amelie",
   },
   {
     mediaLink: "https://www.linkedin.com/in/jonatan-jaskilioff-77075340/",
@@ -34,12 +46,6 @@ export const leadership = [
     id: "marcos",
     defaultName: "Marcos Deza",
     imageName: "marcos",
-  },
-  {
-    mediaLink: "https://www.linkedin.com/in/yhwang95/",
-    id: "yoonju",
-    defaultName: "Yoonju Hwang",
-    imageName: "yoonju",
   },
   {
     mediaLink: "https://www.linkedin.com/in/gunvantchaudhari/",
@@ -60,23 +66,18 @@ export const leadership = [
     defaultName: "Sebastian Pedraza",
     imageName: "sebastian",
   },
-  {
-    mediaLink: " ",
-    id: "amelie",
-    defaultName: "Amelie Azim-Khan",
-    imageName: "amelie",
-  },
-  {
-    mediaLink: "https://www.linkedin.com/in/maisiemora/",
-    id: "maisie",
-    defaultName: "Maisie Mora",
-    imageName: "maisie",
-  },
+
   {
     mediaLink: "https://www.linkedin.com/in/kitanf/",
     id: "kitan",
     defaultName: "Kitan Fasuyi",
     imageName: "kitan",
+  },
+  {
+    mediaLink: "https://www.linkedin.com/in/alfonso-manuel-assaf-22048171/",
+    id: "alfonso",
+    defaultName: "Alfonso Assaf",
+    imageName: "alfonso",
   },
 ];
 
@@ -100,17 +101,16 @@ export const advisors = [
     imageName: "matt",
   },
   {
-    mediaLink:
-      "https://scholar.google.com/citations?user=xlZ4YJcAAAAJ&hl=en&oi=ao",
-    id: "rok",
-    defaultName: "Rok Sosic",
-    imageName: "rok",
+    mediaLink: "https://dci.stanford.edu/melissa-dyrdahl/",
+    id: "melissa",
+    defaultName: "Melissa Dyrdahl",
+    imageName: "melissa",
   },
   {
-    mediaLink: "https://www.pillsburylaw.com/en/lawyers/rafi-azim-khan.html",
-    id: "rafi",
-    defaultName: "Rafi Azim-Khan",
-    imageName: "rafi",
+    mediaLink: "https://www.linkedin.com/in/pedrosiena/",
+    id: "pedro",
+    defaultName: "Pedro Siena",
+    imageName: "pedro",
   },
   {
     mediaLink: "https://www.linkedin.com/in/richardnall/?originalSubdomain=uk",
@@ -131,10 +131,23 @@ export const advisors = [
     imageName: "nathan",
   },
   {
-    mediaLink: "https://www.linkedin.com/in/pedrosiena/",
-    id: "pedro",
-    defaultName: "Pedro Siena",
-    imageName: "pedro",
+    mediaLink: "https://www.linkedin.com/in/executivestanfordvictorwang/",
+    id: "victor",
+    defaultName: "Victor Wang",
+    imageName: "victor",
+  },
+  {
+    mediaLink:
+      "https://scholar.google.com/citations?user=xlZ4YJcAAAAJ&hl=en&oi=ao",
+    id: "rok",
+    defaultName: "Rok Sosic",
+    imageName: "rok",
+  },
+  {
+    mediaLink: "https://www.pillsburylaw.com/en/lawyers/rafi-azim-khan.html",
+    id: "rafi",
+    defaultName: "Rafi Azim-Khan",
+    imageName: "rafi",
   },
   {
     mediaLink: "http://tannan.fm/contents/about-us.html",

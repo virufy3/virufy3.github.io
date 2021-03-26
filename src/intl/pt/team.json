@@ -14,11 +14,6 @@
         "description": "Um Jovem Embaixador da Paz Mundial\nEx-alunos, UC Berkeley Ciência da Computação",
         "title": "Fundador e CEO"
       },
-      "alex": {
-        "name": "Alex Kalanda",
-        "description": "Co-Fundador na WeResQ\nEmpreendedorismo Tecnológico, Universidade de Stanford",
-        "title": "Chumbo do continente africano"
-      },
       "ravel": {
         "name": "Ravel Charles",
         "description": "Engenheiro de soluções de nuvem, Google\nMestrado em Estudos Profissionais em Segurança de Dados,Universidade Northeastern",
@@ -78,6 +73,11 @@
         "name": "Kitan Fasuyi",
         "description": "Gestor de productos/proyectos\nEpic",
         "title": "Director de Proyectos Globales"
+      },
+      "alfonso": {
+        "name": "Alfonso Assaf",
+        "description": "B.A. Economics, Universidad del CEMA",
+        "title": "Ex-consultor sénior, Deloitte"
       }
     },
     "advisors": {
@@ -121,6 +121,11 @@
         "description": "Embaixador do One Young World\nFounder e CEO - All We Are",
         "title": "Conselheiro Executivo"
       },
+      "melissa": {
+        "name": "Melissa Dyrdahl",
+        "description": "Consultor Executivo de Marketing\nAntiga OCM - Adobe",
+        "title": "Membro da Direcção - CommonSpirit Health"
+      },
       "pedro": {
         "name": "Pedro Siena",
         "description": "Fundador e Chefe Executivo - Siena Company\nMentor - Stanford Lean Launchpad\nSão Carlos, Brazil",
@@ -135,6 +140,11 @@
         "name": "Taisuke Fukuno",
         "description": "Fundador - Open Data Japan\nPresidente - jig.jp\nFukui, Japan",
         "title": "Conselheiro Executivo de Tecnologia"
+      },
+      "victor": {
+        "name": "Victor Wang",
+        "description": "Founder and Chairman at China Silicon Valley\nCEO at SinoSV LLC",
+        "title": " "
       }
     }
   },
