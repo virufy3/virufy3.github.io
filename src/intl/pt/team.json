@@ -76,8 +76,8 @@
       },
       "alfonso": {
         "name": "Alfonso Assaf",
-        "description": "B.A. Economics, Universidad del CEMA",
-        "title": "Ex-consultor sénior, Deloitte"
+        "description": "Ex-consultor sénior, Deloitte\nB.A. Economics, Universidad del CEMA",
+        "title": "Gestor de Divulgação da Comunidade Argentina"
       }
     },
     "advisors": {
@@ -143,7 +143,7 @@
       },
       "victor": {
         "name": "Victor Wang",
-        "description": "Founder and Chairman at China Silicon Valley\nCEO at SinoSV LLC",
+        "description": "Fundador e Presidente em China Silicon Valley\nCEO at SinoSV LLC",
         "title": " "
       }
     }
