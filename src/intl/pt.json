@@ -23,43 +23,41 @@
   },
   "getInvolved": {
     "availableRoles": {
-      "join": "Join the Virufighter team",
-      "fontHeading": "Virufy is entirely run by volunteers and pro bono partner companies. Join our fast-paced, mission-driven team to put your skills to use in curbing the spread of the pandemic globally.",
-      "fontheadingBold": "Got what it takes? Check out opportunities below!",
-      "jobOpenings": " Job Openings",
-      "applyNow": "Apply Now",
-      "location": "Location"
+      "join": "Junte-se à equipe Virufighter",
+      "fontHeading": "Virufy é inteiramente dirigida por voluntários e empresas associadas pro bono. Junte-se à nossa equipe de ritmo acelerado e orientada para a missão para colocar suas habilidades em prática para frear a propagação da pandemia globalmente.",
+      "fontheadingBold": "Tem o que é necessário? Confira as oportunidades abaixo!",
+      "jobOpenings": "Vagas de trabalho abertas",
+      "applyNow": "Aplicar agora",
+      "location": "Localização"
     },
     "topFold": {
-      "joinTitle": "Junte-se a luta para acabar com o COVID",
-      "details": "Damos as boas-vindas a pessoas apaixonadas de todas as origens e experiências para nos ajudar a encerrar o COVID-19.\n\nSeja você um humanitário, especialista ou simplesmente ansioso para causar um impacto, há uma infinidade de maneiras de se envolver com a missão de Virufy."
+      "joinTitle": "Junte-se à luta para deter a COVID-19",
+      "details": "Acolhemos pessoas apaixonadas de todas as origens e experiências para nos ajudar a acabar com a COVID-19. Quando você for um humanitário, especialista ou simplesmente ansioso para causar impacto, há uma infinidade de maneiras de se envolver com a missão da Virufy."
     },
     "donate": {
-      "title": "Faça uma doação",
-      "details": "Doe agora para ajudar o Virufy a realizar seu trabalho vital de levar o diagnóstico de doenças rápido e gratuito a todos.\n\nTudo ajuda - não poderíamos fazer isso sem o apoio financeiro de contribuintes como você. ",
-      "donateButton": "Doe para ajudar a nossa organização"
+      "title": "Fazer uma doação",
+      "details": "Doe agora para ajudar a Virufy a realizar seu trabalho vital de trazer a todos a detecção rápida e gratuita de doenças",
+      "donateButton": "Doe para apoiar nossa organização"
     },
     "shareCough": {
-      "title": "Compartilhe a sua tosse",
-      "details": "Doe sua tosse em nosso estudo para ajudar a refinar a capacidade preditiva de nossa IA de reconhecer COVID-19.\n\nTudo o que é necessário é um dispositivo móvel e sua tosse.",
-      "getTheApp": "CONTRIBUIR COM A SUA TOSSE"
+      "title": "Compartilhe sua tosse",
+      "details": "Doar sua tosse em nosso estudo ajuda a refinar a capacidade preditiva de nossa IA de reconhecer a COVID-19.",
+      "getTheApp": "CONTRIBUA COM SUA TOSSE"
     },
     "nextSteps": {
       "contribute": {
-        "title": "Contribua com sua experiência",
-        "details": "Trabalhamos com organizações médicas, de tecnologia, governamentais e outras organizações estabelecidas em todo o mundo para moldar e cumprir a missão de Virufy.",
-        "learnmore": "Quer saber mais?",
-        "faq": "Veja nossa página de FAQ",
-        "question": "Procurando um parceiro?",
-        "linkText": "conecte-se conosco"
+        "title": "Parceiro conosco",
+        "details": "Trabalhamos com médicos, tecnologia, governo e outras organizações estabelecidas em todo o mundo para moldar e cumprir a missão da Virufy.",
+        "learnmore": "Quer aprender mais?",
+        "faq": "Veja nossa página de Perguntas Mais Frequentes",
+        "question": "Querendo ser parceiro?",
+        "linkText": "Conectar-se a nós"
       },
       "join": {
-        "title": "Junte-se ao time Virufighter",
-        "details": "Somos uma equipe rápida e voltada para uma missão que combina nossas habilidades exclusivas para conter a propagação da pandemia globalmente. Nossos voluntários abrangem mais de 25 países e nosso trabalho tem potencial para impactar milhões de vidas.",
-        "question": "Animado em ajudar?",
-        "linkText": "Veja nossas vagas disponíveis",
-        "learnmore": "",
-        "faq": ""
+        "title": "Junte-se à equipe Virufighter",
+        "details": "Somos uma equipe de ritmo rápido e orientada para a missão, combinando nossas habilidades únicas para conter a propagação da pandemia globalmente. Nossos voluntários abrangem mais de 25 países, e nosso trabalho tem potencial para impactar milhões de vidas.",
+        "question": "Entusiasmados para ajudar?",
+        "linkText": "Veja nossos roles disponíveis"
       }
     }
   },
@@ -481,8 +479,8 @@
         },
         "alfonso": {
           "name": "Alfonso Assaf",
-          "description": "Ex-consultor sénior\nB.A. Economics, Universidad del CEMA",
-          "title": "Argentina Community Outreach Manager"
+          "description": "B.A. Economics, Universidad del CEMA",
+          "title": "Ex-consultor sénior, Deloitte"
         }
       },
       "advisors": {
