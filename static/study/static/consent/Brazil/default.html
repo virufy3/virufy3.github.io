@@ -12,6 +12,9 @@
 @font-face
 	{font-family:Georgia;
 	panose-1:2 4 5 2 5 4 5 2 3 3;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{margin:0cm;
@@ -61,6 +64,12 @@ h6
 	page-break-after:avoid;
 	font-size:10.0pt;
 	font-family:"Times New Roman",serif;}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{mso-style-link:"Texto comentario Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
 p.MsoTitle, li.MsoTitle, div.MsoTitle
 	{margin:0cm;
 	margin-bottom:.0001pt;
@@ -79,6 +88,19 @@ p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
 	font-family:Georgia;
 	color:#666666;
 	font-style:italic;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Texto de globo Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Segoe UI",sans-serif;}
+span.TextocomentarioCar
+	{mso-style-name:"Texto comentario Car";
+	mso-style-link:"Texto comentario";}
+span.TextodegloboCar
+	{mso-style-name:"Texto de globo Car";
+	mso-style-link:"Texto de globo";
+	font-family:"Segoe UI",sans-serif;}
 .MsoChpDefault
 	{font-size:12.0pt;}
 @page WordSection1
@@ -109,8 +131,8 @@ Dados Pessoais e para Participar na Pesquisa (&quot;Formulário de
 Consentimento&quot;)</span></b></p>
 
 <p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
-12.0pt;margin-left:0cm;line-height:115%'><i>Última Atualização: 9 de fevereiro
-de 2021</i></p>
+12.0pt;margin-left:0cm;line-height:115%'><i>Última Atualização:18 de Março de
+2021</i></p>
 
 <p class=MsoNormal align=center style='text-align:center;border:none'><b><span
 style='font-size:13.0pt'>&nbsp;</span></b></p>
@@ -154,7 +176,7 @@ relacionadas à pandemia COVID-19.</p>
 convidá-lo(a) a participar de nossa pesquisa para compilar uma base de dados 
 necessária para o desenvolvimento de algoritmos de inteligência artificial (IA)
 para o detecção de COVID-19 baseado em dispositivos (daqui em diante “o
-Dataset”).</p>
+Dataset”) para o benefício de países de baixa renda.</p>
 
 <p class=MsoNormal style='text-align:justify;line-height:150%'>&nbsp;</p>
 
@@ -167,10 +189,12 @@ de inteligência artificial.</p>
 <p class=MsoNormal style='text-align:justify;line-height:150%'>&nbsp;</p>
 
 <p class=MsoNormal style='text-align:justify;line-height:150%'>É imperativo que
-você leia atentamente nossa Política de Privacidade (clique aqui para ler) que
-foi fornecida a você. A Política de Privacidade define como usamos,
-armazenamos, divulgamos e tratamos as informações pessoais que você nos fornece
-quando participa desta pesquisa.</p>
+você leia atentamente nossa Política de Privacidade (<a
+href="https://virufy.org/br/privacy_policy.pdf" target="_blank"
+rel="noopener noreferrer"><span style='color:#1155CC'>clique
+aqui para ler</span></a>) que foi fornecida a você. A Política de Privacidade
+define como usamos, armazenamos, divulgamos e tratamos as informações pessoais
+que você nos fornece quando participa desta pesquisa.</p>
 
 <p class=MsoNormal style='text-align:justify;line-height:150%'>&nbsp;</p>
 
@@ -184,10 +208,10 @@ biométricos e de saúde enumeradas abaixo. </p>
 <p class=MsoNormal style='text-align:justify;line-height:150%'>&nbsp;</p>
 
 <p class=MsoNormal style='text-align:justify;line-height:150%'>Se você estiver
-localizado dentro do território nacional brasileiros, e para fins da Lei Geral
-de Proteção de Dados Pessoais (“LGPD”), o “consentimento”, em seu
-pronunciamento livre, informado e inequívoco, será a base jurídica na qual
-processamos dados pessoais sensíveis. </p>
+localizado dentro do território nacional brasileiro, ou sobre áreas nas quais a
+Lei Geral de Proteção de Dados Pessoais (“LGPD”) é aplicável, o
+“consentimento”, em seu pronunciamento livre, informado e inequívoco, será a
+base jurídica na qual processamos dados pessoais sensíveis. </p>
 
 <p class=MsoNormal style='text-align:justify;line-height:150%'> </p>
 
@@ -219,8 +243,9 @@ sua região atual (país e estado), seu histórico médico, condições
 respiratórias, sintomas de COVID-19, histórico e status de tabagismo, dados
 demográficos básicos, resultados de testes para COVID-19 e o período dos testes
 para COVID-19 realizados. Além disso, solicitamos que você envie gravações de
-áudio da sua tosse. Todas as informações que você nos fornecer através desta
-pesquisa, iremos chamar a seguir de “dados recolhidos” ou “dados solicitados”</p>
+áudio de amostras da sua tosse. Todas as informações que você nos fornecer
+através desta pesquisa, iremos chamar a seguir de “dados recolhidos” ou “dados
+solicitados”</p>
 
 <p class=MsoNormal style='text-align:justify;line-height:150%'>&nbsp;</p>
 
@@ -233,10 +258,19 @@ levar menos de cinco (5) minutos para ser concluída.</p>
 solicitadas podem ser consideradas informações sensíveis (dados pessoais
 sensíveis sob a LGPD).</p>
 
+<p class=MsoNormal style='text-align:justify;line-height:128%'><u><span
+style='color:#202124'>Registro de amostra de tosse</span></u><span
+style='color:#202124'>: A participação requer que você envie uma gravação de
+amostra de tosse. O registro da amostra de tosse pode ser considerado uma
+informação biométrica em algumas jurisdições. O envio de uma amostra de tosse
+estará sujeito a medição e análise como parte de nosso estudo. Nem seu registro
+de amostra de tosse, nem qualquer medição ou análise dele são usados ​​com o propósito
+de identificar você ou qualquer outro indivíduo.</span></p>
+
 <p class=MsoNormal style='line-height:150%'><b>&nbsp;</b></p>
 
 <p class=MsoNormal style='line-height:150%'><b><span style='font-size:14.0pt;
-line-height:150%'>Riscos/desconfortos</span></b></p>
+line-height:150%'>Riscos e desconfortos</span></b></p>
 
 <p class=MsoNormal style='line-height:150%'><b>&nbsp;</b></p>
 
@@ -249,10 +283,10 @@ aconselhamos:</p>
 
 <p class=MsoNormal style='text-align:justify;line-height:150%'>● Grave sua
 tosse sozinho em um espaço privado sem outras pessoas presentes e em qualquer
-caso, pelo menos, 2 metros de distância de outras pessoas.</p>
+caso, pelo menos, 20 pés ou 6 metros de distância de outras pessoas.</p>
 
 <p class=MsoNormal style='text-align:justify;line-height:150%'>● Desinfete seu
-smartphone e qualquer superfície afetada ou próxima após registrar sua tosse.</p>
+dispositivo e qualquer superfície afetada ou próxima após registrar sua tosse.</p>
 
 <p class=MsoNormal style='text-align:justify;line-height:150%'>● Use seu
 próprio telefone para registrar a amostra de tosse e usar uma máscara quando
@@ -268,6 +302,10 @@ violentamente ou com muita força.</p>
 
 <p class=MsoNormal style='text-align:justify;line-height:150%'>● Por favor,
 sente-se se estiver se sentindo mal.</p>
+
+<p class=MsoNormal style='text-align:justify;line-height:150%'>● Se você
+possuir quaisquer sintomas, questões ou preocupações quanto a sua condição de
+saúde, por favor contate seu médico ou provedor de saúde antes de participar.</p>
 
 <p class=MsoNormal style='text-align:justify;line-height:150%'>● Se você tiver
 uma condição subjacente que aumente o risco de tosse, verifique com seu médico
@@ -338,14 +376,17 @@ e os dados de saúde coletados incluem as seguintes categorias de informação:<
 
 <p class=MsoNormal style='margin-left:36.0pt;text-indent:-18.0pt;line-height:
 150%'>●<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>Região atual (país e estado)</p>
+</span>Região atual (país e estado).</p>
 
 <p class=MsoNormal style='line-height:150%'>&nbsp;</p>
 
+<p class=MsoNormal style='line-height:150%'><b><span style='font-size:14.0pt;
+line-height:150%'>Propósito</span></b></p>
+
 <p class=MsoNormal style='text-align:justify;line-height:150%'>Nós coletamos e
-tratamos seus dados pessoais, biométricos e de saúde (considerados dados pessoais
-sensíveis na LGPD) apenas quando você der seu consentimento explícito por meio
-deste Formulário de consentimento:</p>
+tratamos seus dados pessoais, biométricos e de saúde (considerados dados
+pessoais sensíveis na LGPD) apenas quando você der seu consentimento explícito
+por meio deste Formulário de consentimento:</p>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
 -18.0pt;line-height:150%'><span style='color:#0E101A'>●<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -356,8 +397,8 @@ em dispositivos<span style='color:#0E101A'>;</span></p>
 <p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
 -18.0pt;line-height:150%'><span style='color:#0E101A'>●<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style='color:#0E101A'>Para treinar algoritmos de
-inteligência artificial para analisar suas gravações de áudio a fim de
-determinar melhor os sinais/sintomas da COVID-19;</span></p>
+inteligência artificial para analisar suas gravações de áudio a fim de determinar
+melhor os sinais/sintomas da COVID-19;</span></p>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
 -18.0pt;line-height:150%'><span style='color:#0E101A'>●<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -382,18 +423,18 @@ de dados</b></p>
 
 <p class=MsoNormal style='text-align:justify;line-height:150%'><span
 style='color:#0E101A'>Por meio deste, você consente explicitamente que nós
-poderemos compartilhar seus dados pessoais anonimizados (por exemplo, dados biométricos
-e de saúde) com terceiros (incluindo instituições de pesquisa acadêmica e o
-setor privado) para fins lucrativos e não lucrativos com os seguintes
-propósitos, sem a necessidade de novo consentimento informado: </span></p>
-
-<p class=MsoNormal style='text-align:justify;line-height:150%'>&nbsp;</p>
+poderemos compartilhar seus dados pessoais anonimizados (por exemplo, dados
+biométricos e de saúde dos quais informações que poderiam ser utilizadas para
+identificá-lo foram retiradas) com terceiros para a pesquisa acadêmica
+subsequente e fins não lucrativos com os seguintes propósitos, sem a
+necessidade de novo consentimento informado: </span></p>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
 -18.0pt;line-height:150%'><a name="_heading=h.niougrf0l1lp"></a><span
 style='color:#0E101A'>●<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='color:#0E101A'>Como um banco de dados para o uso global
-de modo a acelerar o desenvolvimento de tecnologias para a detecção de </span>COVID-19.</p>
+</span></span><span style='color:#0E101A'>Como um banco de dados para o uso
+global de modo a acelerar o desenvolvimento de tecnologias para a detecção de </span>COVID-19
+para o benefício de países de baixa renda.</p>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
 -18.0pt;line-height:150%'>●<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -409,7 +450,8 @@ Declaração.</p>
 -18.0pt;line-height:150%'>●<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span>Quando necessário, para fazer cumprir nossos direitos, proteger nossa
 propriedade ou proteger os direitos ou a segurança da Virufy e de outros, ou
-para apoiar funções de auditoria externa, conformidade e governança corporativa.</p>
+para apoiar funções de auditoria externa, conformidade e governança
+corporativa.</p>
 
 <p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
 -18.0pt;line-height:150%'>●<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -443,7 +485,9 @@ benefícios diretos para você em participar deste estudo hoje. Não forneceremo
 quaisquer testes ou outros resultados relacionados ao seu status para COVID-19
 no tempo de submissão. As informações coletadas podem não beneficiar você
 diretamente, mas sua participação pode ajudar outras pessoas com risco da
-COVID-19 no futuro.</p>
+COVID-19 no futuro. Sua participação neste estudo não irá diagnosticar se você
+foi infectado ou não com COVID-19, ou se você tem outra doença, desordem, ou
+outras condições médicas.</p>
 
 <p class=MsoNormal style='line-height:150%'><b>&nbsp;</b></p>
 
@@ -499,8 +543,8 @@ line-height:150%'>Retirada do estudo</span></b></p>
 <p class=MsoNormal style='text-align:justify;line-height:150%'>Você pode
 retirar seu consentimento, gerenciar ou excluir seus dados não anonimizados a
 qualquer momento. Por favor consulte as Seções “Gerenciando e deletando seus
-dados” e “Direitos de Privacidade” de nossa Política de Privacidade para obter
-mais detalhes.</p>
+dados” e “Direitos de Privacidade” de nossa Política de Privacidade para obter mais
+detalhes.</p>
 
 <p class=MsoNormal style='text-align:justify;line-height:150%'>&nbsp;</p>
 
@@ -517,6 +561,8 @@ Você também pode contatar a nossa Encarregada de assuntos legais<span
 style='color:#0E101A'>, Pedro H. Guerra, diretamente via do e-mail </span><a
 href="mailto:encarregado@virufy.org"><span style='color:#1155CC'>encarregado@virufy.org</span></a><span
 style='color:#0E101A'> para exercitar seus direitos de privacidade.</span></p>
+
+<p class=MsoNormal style='text-align:justify'><b>&nbsp;</b></p>
 
 </div>
 
