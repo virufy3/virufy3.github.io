@@ -79,7 +79,7 @@
     "section3": {
       "howItWorks": "COMO FUNCIONA",
       "header": "Nossa visão",
-      "sub-header": "Estamos a recolher tosse para refinar o nosso algoritmo de IA, e implementaremos um processo de detecção em três etapas que ajudará a contribuir para um diagnóstico COVID-19 rápido e fácil em benefício de países de todo o mundo, especialmente países de baixos rendimentos.<br>Ajuda a apoiar a nossa visão doando hoje uma tosse.",
+      "sub-header": "Estamos coletando tosse para refinar o nosso algoritmo de IA, e implementaremos um processo de detecção em três etapas que ajudará a contribuir para um diagnóstico COVID-19 rápido e fácil em benefício de países de todo o mundo, especialmente países de baixa renda.<br>Ajude a apoiar a nossa visão doando hoje uma tosse.",
       "header1": "Você grava a sua tosse",
       "header2": "A IA analisa a assinatura respiratória",
       "header3": "A assinatura de COVID-19 é detectada",
@@ -94,9 +94,9 @@
     },
     "faq": {
       "distinguishableQ": "Por que as tosses COVID-19 são distinguíveis?",
-      "distinguishableA": "Semelhante a outras doenças respiratórias, a COVID-19 danifica a garganta e os pulmões, criando diferenças detectáveis nos padrões de tosse. Consequentemente, os sons da tosse podem ser analisados para detectar a COVID-19. Globalmente, esta idéia está sendo ativamente pesquisada por várias instituições de prestígio, incluindo Carnegie Mellon (CMU), MIT, e Cambridge. Por exemplo, pesquisas feitas pela Universidade de Cambridge mostraram que um simples classificador de aprendizagem de máquinas binárias é capaz de classificar os pacientes positivos do COVID-19 através da respiração e sons de tosse com alta acurácia. Da mesma forma, pesquisadores da CMU identificaram 18 características de voz que distinguem pacientes COVID-19 positivos e treinaram um modelo acadêmico para detectar a COVID-19 com alta precisão.",
+      "distinguishableA": "Semelhante a outras doenças respiratórias, a COVID-19 cria uma assinatura respiratória única na garganta e nos pulmões que é distinta de outras infecções respiratórias que produzem uma tosse úmida. Consequentemente, foi sugerido que os sons da tosse podem ser analisados para detectar a COVID-19. Globalmente, esta idéia está sendo ativamente pesquisada por várias instituições de prestígio, incluindo CMU[8], MIT, e Cambridge. Por exemplo, uma pesquisa feita pela Universidade de Cambridge mostrou que um simples classificador de aprendizagem de máquinas binárias é capaz de classificar os pacientes positivos do COVID-19 através da respiração e sons de tosse com alta precisão (AUC = 0,7)[7]. Da mesma forma, pesquisadores da CMU identificaram 18 características de voz que distinguem pacientes COVID-19 positivos e treinaram um modelo para diagnosticar a COVID-19 com uma precisão de 89,1%.",
       "aiQ": "Como o algoritmo de IA da Virufy irá detectar a COVID-19?",
-      "aiA": "Baseado em pesquisas anteriores, o Virufy está desenvolvendo um algoritmo de IA que pode ser usado para prever com precisão uma infecção por COVID-19 dentro de minutos, baseado em gravações de sons de tosse. Entretanto, ao contrário das pesquisas anteriores sobre tosse COVID-19 que visavam a população dos EUA, a Virufy pretende coletar dados de múltiplos locais em todo o mundo. Como uma iniciativa dirigida por estudantes com voluntários em vários países, a Virufy está desenvolvendo um modelo de diagnóstico da COVID-19 com maior inclusão racial e espacial através de dados que incluem uma gama de etnias e diferenças fonológicas específicas da comunidade."
+      "aiA": "Com Baseado nestas pesquisas passadas, Virufy está desenvolvendo um algoritmo de IA que pode ser usado para prever com precisão uma infecção COVID-19 em minutos, baseado em gravações de sons de tosse. Entretanto, ao contrário das pesquisas anteriores sobre tosse COVID-19 que visavam a população dos EUA, a Virufy pretende coletar dados de múltiplos locais em todo o mundo. Como uma iniciativa dirigida por estudantes e com voluntários abrangendo vários países, a Virufy está desenvolvendo um modelo de detecção da COVID-19 com maior inclusão racial e espacial através de dados que incluem uma gama de etnias e diferenças fonológicas específicas da comunidade."
     }
   },
   "nav": {
@@ -127,56 +127,56 @@
       },
       "section3": {
         "date": "Maio 2020",
-        "title": "One Young World Japan Ambassador Targets COVID-19 Using A.I.",
-        "name": "One Young World",
+        "title": "Um jovem embaixador do Japão no mundo jovem tem como objetivo COVID-19 usando a A.I.",
+        "name": "Um Mundo Jovem",
         "city": "Tokyo, ",
         "country": "Japão",
         "readMoreLink": "Leia mais..."
       },
       "section4": {
         "date": "2020",
-        "title": "North American Ambassadors on the Frontlines of the COVID-19 Response",
-        "name": "One Young World",
+        "title": "Embaixadores norte-americanos na linha de frente da resposta da COVID-19",
+        "name": "Um Mundo Jovem",
         "city": " ",
         "country": " ",
         "readMoreLink": "Leia mais..."
       },
       "section5": {
         "date": "Julho 2020",
-        "title": "Ambassadors of the Month Julho",
-        "name": "One Young World",
+        "title": "Embaixadores do Mês de Julho",
+        "name": "Um Mundo Jovem",
         "city": " ",
         "country": " ",
         "readMoreLink": "Leia mais..."
       },
       "section6": {
         "date": "Julho 2020",
-        "title": "Thousands attend OYW's global digital events in Julho: A recap of what you've missed",
-        "name": "One Young World",
+        "title": "Milhares de pessoas assistem aos eventos digitais globais da OYW em Julho: Uma recapitulação do que você perdeu",
+        "name": "Um Mundo Jovem",
         "city": " ",
         "country": " ",
         "readMoreLink": "Leia mais..."
       },
       "section7": {
         "date": "2020",
-        "title": "One Young World Tokyo 2020 Caucus",
-        "name": "One Young World",
+        "title": "Um Mundo Jovem Tokyo 2020 Caucus",
+        "name": "Um Mundo Jovem",
         "city": " ",
         "country": " ",
         "readMoreLink": "Leia mais..."
       },
       "section8": {
         "date": "2020",
-        "title": "Virufy Presentation to One Young World Tokyo 2020 Cacus",
-        "name": "One Young World",
+        "title": "Apresentação da Virufy a Um Mundo Jovem Yokyo 2020 Cacus",
+        "name": "Um Mundo Jovem",
         "city": "Tokyo, ",
         "country": "Japão",
         "readMoreLink": "Assistir mais..."
       },
       "section9": {
         "date": "2020",
-        "title": "Sounds of COVID-19 Workshop",
-        "name": "One Young World",
+        "title": "Sons do COVID-19 seminário",
+        "name": "Um Mundo Jovem",
         "city": " ",
         "country": " ",
         "readMoreLink": "Leia mais..."
@@ -481,8 +481,8 @@
         },
         "alfonso": {
           "name": "Alfonso Assaf",
-          "description": "Ex-consultor sénior\nB.A. Economics, Universidad del CEMA",
-          "title": "Argentina Community Outreach Manager"
+          "description": "B.A. Economics, Universidad del CEMA",
+          "title": "Ex-consultor sénior, Deloitte"
         }
       },
       "advisors": {
