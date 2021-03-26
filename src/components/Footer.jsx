@@ -45,7 +45,7 @@ const socialLinks = [
 const footerLinks = [
   {
     intlId: "footer.cookiePolicy",
-    address: "/cookie-policy",
+    address: "/cookie_policy",
   },
   {
     intlId: "footer.cookieSettings",
@@ -53,7 +53,7 @@ const footerLinks = [
   },
   {
     intlId: "footer.privacyPolicy",
-    address: "/privacy-policy",
+    address: "/privacy_policy",
   },
   {
     intlId: "footer.dontSellPersonalInfo",
