@@ -12,6 +12,16 @@ module.exports = {
         trackingIds: ["G-7PW8HS67TW", "G-8NL5MSXJPZ"],
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `GatsbyJS`,
+        short_name: `GatsbyJS`,
+        start_url: `/`,
+        display: `standalone`,
+        icon: "/src/images/icons/favicon.png",
+      },
+    },
     "gatsby-plugin-postcss",
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
