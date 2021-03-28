@@ -115,8 +115,8 @@ export default function GetInvolved({ data }) {
 
       {/* Donate */}
       <BackgroundImage
-        className="bg-white py-0 lg:py-16"
-        fluid={findImage("background-artwork")}
+        className="absolute w-screen left-0"
+        fluid={findImage("background-wave")}
         style={{
           backgroundSize: "cover",
           backgroundPosition: breakpoints.md
