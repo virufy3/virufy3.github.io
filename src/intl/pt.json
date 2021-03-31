@@ -7,7 +7,7 @@
   },
   "dashboard": {
     "header": "Dashboard de Nuestros Datos Recolectados",
-    "sub-header": "Tu tos nos ayuda a mejorar nuestro modelo predictivo,siendo <b>crucial</b> en la lucha contra <b>COVID-19</b>. ¡Mirá el progreso que hemos logrado y doná tu tos!",
+    "sub-header": "Tu tos nos ayuda a mejorar nuestro modelo predictivo,siendo <b>crucial</b> en la lucha contra <b>Covid-19</b>. ¡Mirá el progreso que hemos logrado y doná tu tos!",
     "button": "Contribua com sua tosse"
   },
   "footer": {
@@ -479,8 +479,8 @@
         },
         "alfonso": {
           "name": "Alfonso Assaf",
-          "description": "B.A. Economics, Universidad del CEMA",
-          "title": "Ex-consultor sénior, Deloitte"
+          "description": "Ex-consultor sénior, Deloitte\nB.A. Economics, Universidad del CEMA",
+          "title": "Gestor de Divulgação da Comunidade Argentina"
         }
       },
       "advisors": {
@@ -529,6 +529,11 @@
           "description": "Consultor Executivo de Marketing\nAntiga OCM - Adobe",
           "title": "Membro da Direcção - CommonSpirit Health"
         },
+        "hugo": {
+          "name": "Hugo Estrada",
+          "description": "CEO & Managing Parther na iwé Consultores\nChairman of Nueva EPS (Seguro Saúde)",
+          "title": "Assessor Executivo de divulgação on Colômbia"
+        },
         "pedro": {
           "name": "Pedro Siena",
           "description": "Fundador e Chefe Executivo - Siena Company\nMentor - Stanford Lean Launchpad\nSão Carlos, Brazil",
@@ -546,7 +551,7 @@
         },
         "victor": {
           "name": "Victor Wang",
-          "description": "Founder and Chairman at China Silicon Valley\nCEO at SinoSV LLC",
+          "description": "Fundador e Presidente em China Silicon Valley\nCEO at SinoSV LLC",
           "title": " "
         }
       }

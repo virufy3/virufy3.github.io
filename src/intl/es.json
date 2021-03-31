@@ -7,7 +7,7 @@
   },
   "dashboard": {
     "header": "Dashboard de Nuestros Datos Recolectados",
-    "sub-header": "Tu tos nos ayuda a mejorar nuestro modelo predictivo, siendo <b>crucial</b> en la lucha contra <b>COVID-19</b>. ¡Mirá el progreso que hemos logrado y doná tu tos!",
+    "sub-header": "Tu tos nos ayuda a mejorar nuestro modelo predictivo, siendo <b>crucial</b> en la lucha contra <b>Covid-19</b>. ¡Mirá el progreso que hemos logrado y doná tu tos!",
     "button": "Dona tu tos"
   },
   "footer": {
@@ -415,7 +415,7 @@
         "amil": {
           "name": "Amil Khanzada",
           "description": "Embajador de paz One Young World\nEx-alumno, UC Berkeley Computer Science",
-          "title": "Founder & CTO"
+          "title": "Fundador y CTO"
         },
         "maisie": {
           "name": "Maisie Mora",
@@ -449,7 +449,7 @@
         },
         "marcos": {
           "name": "Marcos Deza",
-          "description": "One Young World Embajador de Argentina\nM.A. Public Relations, Ott Educación Superior",
+          "description": "Embajador de Argentina en One Young World\nM.A. Public Relations, Ott Educación Superior",
           "title": "Líder del Equipo de Comunicaciones Digitales de Lation América"
         },
         "gunvant": {
@@ -464,7 +464,7 @@
         },
         "sebastian": {
           "name": "Sebastian Pedraza",
-          "description": "One Young World Colombia Ambassador\nYPARD Steering Committee Member\nPolitical Science, International University of La Rioja",
+          "description": "Embajador de Colombia en One Young World\nYPARD Steering Committee Member\nPolitical Science, International University of La Rioja",
           "title": "Líder de Alcance Comunitario Colombia"
         },
         "kitan": {
@@ -474,8 +474,8 @@
         },
         "alfonso": {
           "name": "Alfonso Assaf",
-          "description": "Ex Consultor Senior, Deloitte\nB.A. Economics, Universidad del CEMA",
-          "title": "Argentina Community Outreach Manager"
+          "description": "Antiguo consultor senior, Deloitte\nB.A. Economics, Universidad del CEMA",
+          "title": "Gerente de Alcance Comunitario de Argentina"
         }
       },
       "advisors": {
@@ -491,7 +491,7 @@
         },
         "matt": {
           "name": "Matt Prusak",
-          "description": "Director de Business, Curative Alumnus\nStanford Graduate School of Business",
+          "description": "Director de Negocios, Curative Alumnus\nStanford Graduate School of Business",
           "title": "Asesor Ejecutivo"
         },
         "rok": {
@@ -506,7 +506,7 @@
         },
         "richard": {
           "name": "Richard Nall",
-          "description": "The Brand Garden - CEO",
+          "description": "CEO - The Brand Garden",
           "title": "Director de Marketing"
         },
         "madhav": {
@@ -516,13 +516,18 @@
         },
         "nathan": {
           "name": "Nathan Thomas",
-          "description": "One Young World Ambassador\nFounder and CEO - All We Are",
+          "description": "Embajador de One Young World\nFundador y CEO - All We Are",
           "title": "Asesor Ejecutivo"
         },
         "melissa": {
           "name": "Melissa Dyrdahl",
           "description": "Asesor ejecutivo de marketing\nEx CMO - Adobe",
           "title": "Miembro del Consejo de Administración - CommonSpirit"
+        },
+        "hugo": {
+          "name": "Hugo Estrada",
+          "description": "CEO y Gerente Parther en iwé Consultores\nJefe de Nueva EPS (Empresa promotora de Salud)",
+          "title": "Asesor Ejecutivo de Divulgación de Colombia"
         },
         "pedro": {
           "name": "Pedro Siena",
@@ -536,12 +541,12 @@
         },
         "taisuke": {
           "name": "Taisuke Fukuno",
-          "description": "Fundador - Open Data Japan\nChairman - jig.jp\nFukui, Japan",
+          "description": "Fundador - Open Data Japan\nPresidente - jig.jp\nFukui, Japan",
           "title": "Asesor Ejecutivo Tecnológico"
         },
         "victor": {
           "name": "Victor Wang",
-          "description": "Founder and Chairman at China Silicon Valley\nCEO at SinoSV LLC",
+          "description": "Fundador y presidente en China Silicon Valley\nCEO en SinoSV LLC",
           "title": " "
         }
       }
