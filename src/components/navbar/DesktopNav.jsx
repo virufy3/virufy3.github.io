@@ -5,6 +5,9 @@ import LangSelect from "./LangSelect";
 import { useLocation } from "@reach/router";
 import { IntlContextConsumer, useIntl } from "gatsby-plugin-intl";
 
+// Helpers
+import { isActivePath } from "./helpers/navHelper";
+
 export default ({ bgColor, textColor, virufyLogo }) => {
   const intl = useIntl();
   const location = useLocation();
@@ -13,8 +16,7 @@ export default ({ bgColor, textColor, virufyLogo }) => {
   const [mouseOverLinkIdx, setMouseOverLinkIdx] = useState(-1);
 
   const getLinkClasses = (link) => {
-    const isActiveLink = location.pathname.includes(link.path);
-
+    const isActiveLink = isActivePath(location, link);
     return link.btnStyle
       ? `ml-4 mr-0 no-underline text-white py-2 px-6 ${
           isActiveLink ? "bg-black" : "bg-primary"

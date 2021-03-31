@@ -70,7 +70,7 @@ export default () => {
   });
 
   return (
-    <div class="md:grid md:grid-cols-2 md:gap-4 text-white px-6 md:mx-8">
+    <div className="md:grid md:grid-cols-2 md:gap-4 text-white px-6 md:mx-8">
       <div>
         <a
           className="md:flex flex-initial md:flex-row block underline mb-6 text-white"
