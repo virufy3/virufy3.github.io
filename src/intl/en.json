@@ -10,7 +10,7 @@
     "lastUpdated": "Last Updated: November 25, 2020",
     "section1": {
       "header": "General",
-      "pg1": "The Covid Detection Foundation (“Virufy”, “we”, “us” or “our”), a California nonprofit corporation with Tax Identification Number C4609035 located at 4546, El Camino Real, B10 #614, Los Altos, código postal 94022, United States of America respects your privacy and is committed to processing your personal information in accordance with the law. This Cookie Policy (“Policy”) explains how Virufy uses cookies and similar technologies to process your personal information that you provide to us when you visit our website or participate in our research survey for the compilation of a dataset needed for the development of artificial intelligence (AI) algorithms for device-based COVID-19 detection.",
+      "pg1": "The COVID Detection Foundation (“Virufy”, “we”, “us” or “our”), a California nonprofit corporation with Tax Identification Number C4609035 located at 4546, El Camino Real, B10 #614, Los Altos, código postal 94022, United States of America respects your privacy and is committed to processing your personal information in accordance with the law. This Cookie Policy (“Policy”) explains how Virufy uses cookies and similar technologies to process your personal information that you provide to us when you visit our website or participate in our research survey for the compilation of a dataset needed for the development of artificial intelligence (AI) algorithms for device-based COVID-19 detection.",
       "countrySpecificsHtml": "<div> class=\"font-bold\">For users located in Europe or Peru:</div><div>This cookie policy will be treated under Article 22 of Law 34/2002, of July 11, on information society services and electronic commerce (LSSICE), and / or the European General Data Protection Regulation 2016/679 (the “GDPR”).</div><div class=\"font-bold\">For users located in Argentina:</div><div>This cookie policy will be treated under Argentinian Law 25,326 on Protection of Personal Data.</div><div class=\"font-bold\">For users located in Colombia:</div><div>- This cookie policy will be treated under Colombian law 1581 of 2012.</div>",
       "pg2": "Virufy is the “data controller” of, and responsible for, your personal information collected in accordance with this Cookie Policy. For further information about how we use, store, disclose and process personal data that we obtain through or in connection with the use of our Website, please visit our Privacy Policy.",
       "pg3": "When you first access our Website from certain jurisdictions (e.g. Europe or Brazilian national territory), you will receive a message advising you that cookies and similar technologies are in use. By clicking “Use necessary cookies only” or “Allow all cookies”, you signify that you understand and agree to the use of these technologies, as described in this Cookie Policy. If you have any inquiries or complaints regarding our Cookie Policy, please contact us by email at study@virufy.org."
@@ -46,7 +46,7 @@
     "cookieSettings": "Cookie Settings",
     "privacyPolicy": "Privacy Policy",
     "dontSellPersonalInfo": "Do Not Sell My Personal Information",
-    "copyrightInformation": "©2021 Virufy  |  VIRUFY is a trademark of The Covid Detection Foundation   |  All rights reserved",
+    "copyrightInformation": "©2021 Virufy  |  VIRUFY is a trademark of The COVID Detection Foundation   |  All rights reserved",
     "nonprofit": "Virufy is a California nonprofit corporation operating through a fiscal sponsorship with Players Philanthropy Fund, a Maryland charitable trust recognized by IRS as a tax-exempt public charity under Section 501(c)(3) of the Internal Revenue Code (Federal Tax ID: 27-6601178). Contributions to Virufy are tax-deductible to the fullest extent of the law.",
     "email": "info@virufy.org",
     "address": "4546 El Camino Real B10 #614, Los Altos, California 94022, USA"
@@ -554,6 +554,11 @@
           "name": "Melissa Dyrdahl",
           "description": "Former CMO - Adobe\nStanford DCI Fellow\nBoard Member - CommonSpirit Health",
           "title": "Executive Marketing Advisor"
+        },
+        "hugo": {
+          "name": "Hugo Estrada",
+          "description": "CEO & Managing Parther at iwé Consultores\nChairman of Nueva EPS (Health Insurance)",
+          "title": "Colombia Executive Outreach Advisor"
         },
         "pedro": {
           "name": "Pedro Siena",
