@@ -8,5 +8,6 @@ script: npm install
 deploy:
   provider: pages
   skip_cleanup: true
+  github-token: $GITHUB_TOKEN
   on:
     branch: development
