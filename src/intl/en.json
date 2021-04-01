@@ -522,7 +522,7 @@
         },
         "matt": {
           "name": "Matt Prusak",
-          "description": "Chief Business Officer, Curative Alumnus\nStanford Graduate School of Business",
+          "description": "Chief Business Officer, Curative\nStanford Graduate School of Business Alumnus",
           "title": "Executive Advisor"
         },
         "rok": {
@@ -552,8 +552,8 @@
         },
         "melissa": {
           "name": "Melissa Dyrdahl",
-          "description": "Executive Marketing Advisor\nFormer CMO - Adobe",
-          "title": "Board Member - CommonSpirit Health"
+          "description": "Former CMO - Adobe\nStanford DCI Fellow\nBoard Member - CommonSpirit Health",
+          "title": "Executive Marketing Advisor"
         },
         "hugo": {
           "name": "Hugo Estrada",
@@ -573,17 +573,17 @@
         "tsutomu": {
           "name": "Tsutomu Ito",
           "description": "Founder - Tannan FM Radio\nLead Architect, Bullet Train\nFukui, Japan",
-          "title": "Visionary Advisor"
+          "title": "Executive Visionary Advisor"
         },
         "victor": {
           "name": "Victor Wang",
-          "description": "Founder and Chairman at China Silicon Valley\nCEO at SinoSV LLC",
-          "title": " "
+          "description": "Founder and Chairman at China Silicon Valley\nStanford Graduate School of Business Alumnus\nCEO at SinoSV LLC",
+          "title": "Executive Advisor"
         },
         "alfonso": {
           "name": "Alfonso Assaf",
-          "description": "Former Senior Consultant, Deloitte\nB.A. Economics, Universidad del CEMA",
-          "title": "Argentina Community Outreach Manager"
+          "description": "B.A. Economics, Universidad del CEMA",
+          "title": "Former Senior Consultant, Deloitte"
         }
       }
     },
