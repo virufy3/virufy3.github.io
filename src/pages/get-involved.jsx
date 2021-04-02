@@ -131,6 +131,9 @@ export default function GetInvolved({ data }) {
                 id: "getInvolved.donate.title",
               })}
             </h1>
+            <div className="w-2/3 lg:flex items-end hidden">
+              <Img className="w-full" fluid={findImage("sharing")} />
+            </div>
           </div>
           <div className="flex flex-col items-start justify-center ">
             <p className="whitespace-pre-line md:text-xl">
