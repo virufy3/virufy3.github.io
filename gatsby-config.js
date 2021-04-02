@@ -24,6 +24,14 @@ module.exports = {
         icon: "src/images/icons/favicon.png",
       },
     },
+    {
+      resolve: `gatsby-plugin-hotjar`,
+      options: {
+        includeInDevelopment: true, // optional parameter to include script in development
+        id: 1878866,
+        sv: 6,
+      },
+    },
     "gatsby-plugin-postcss",
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
