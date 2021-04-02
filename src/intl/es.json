@@ -7,7 +7,7 @@
   },
   "dashboard": {
     "header": "Dashboard de Nuestros Datos Recolectados",
-    "sub-header": "Tu tos nos ayuda a mejorar nuestro modelo predictivo, siendo <b>crucial</b> en la lucha contra <b>COVID-19</b>. ¡Mirá el progreso que hemos logrado y doná tu tos!",
+    "sub-header": "Tu tos nos ayuda a mejorar nuestro modelo predictivo, siendo <b>crucial</b> en la lucha contra <b>Covid-19</b>. ¡Mirá el progreso que hemos logrado y doná tu tos!",
     "button": "Dona tu tos"
   },
   "footer": {
@@ -526,7 +526,7 @@
         },
         "hugo": {
           "name": "Hugo Estrada",
-          "description": "CEO y Gerente Parther en iwé Consultores\nJefe de Nueva EPS (Entidad promotora de salud)",
+          "description": "CEO y Gerente Parther en iwé Consultores\nJefe de Nueva EPS (Empresa promotora de Salud)",
           "title": "Asesor Ejecutivo de Divulgación de Colombia"
         },
         "pedro": {

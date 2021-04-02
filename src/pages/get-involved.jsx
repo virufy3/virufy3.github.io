@@ -115,13 +115,12 @@ export default function GetInvolved({ data }) {
 
       {/* Donate */}
       <BackgroundImage
-        className="absolute w-screen left-0"
-        fluid={findImage("background-wave")}
+        fluid={findImage("background-sharing")}
         style={{
-          backgroundSize: "cover",
+          backgroundSize: breakpoints.md ? "100% 100%" : "100% 50%",
           backgroundPosition: breakpoints.md
             ? "top 2.8rem right"
-            : "bottom -10rem left",
+            : "bottom 3rem left",
         }}
       >
         <div className="container lg:flex">

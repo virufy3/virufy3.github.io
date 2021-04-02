@@ -7,7 +7,7 @@
   },
   "dashboard": {
     "header": "Dashboard de Nuestros Datos Recolectados",
-    "sub-header": "Tu tos nos ayuda a mejorar nuestro modelo predictivo,siendo <b>crucial</b> en la lucha contra <b>COVID-19</b>. ¡Mirá el progreso que hemos logrado y doná tu tos!",
+    "sub-header": "Tu tos nos ayuda a mejorar nuestro modelo predictivo,siendo <b>crucial</b> en la lucha contra <b>Covid-19</b>. ¡Mirá el progreso que hemos logrado y doná tu tos!",
     "button": "Contribua com sua tosse"
   },
   "footer": {
@@ -249,12 +249,12 @@
     "faq": {
       "title": "Perguntas Frequentemente Feitas (FAQ)",
       "virufyApp": "Virufy App",
-      "virufyApp.whenAndHowQ": "When and how will the app give COVID-19 prediction results?",
-      "virufyApp.whenAndHowA": "Our app is currently for data collection only.\n\nWe cannot release a COVID-19 prediction app without public health department approvals in each country and clinical studies to validate the AI technology in local conditions. This process can take some weeks or months depending on the speed of the government partner. Virufy welcomes partnerships from health officials and hospitals to bring the technology for free use to the people and to optimize usage of costly PCR tests only when necessary.",
-      "virufyApp.whereDownloadQ": "Where can I download the app? Will it be available for iOS and Android?",
-      "virufyApp.whereDownloadA": "The app will be available for download at <a target='_blank' href='https://virufy.org/app'>https://virufy.org/app</a>, as we need government or medical approval in some countries to put our app into the official app stores.\n\nThe app can be connected to and from a smartphone. Thus, it is compatible with any operating system including iOS or Android.",
-      "virufyApp.willTheApplicationQ": "Will the application be available for free and worldwide?",
-      "virufyApp.willTheApplicationA": "As a 501(c)(3) non-profit organization, our intention is to make the app free for the benefit of low-income countries. However, we may need to charge a nominal fee to support our operations in case we are not able to raise enough funds.",
+      "virufyApp.whenAndHowQ": "Quando e como o aplicativo fornecerá resultados de previsão da COVID-19?",
+      "virufyApp.whenAndHowA": "Atualmente, nosso aplicativo é apenas para coleta de dados.\n\nNão podemos lançar um aplicativo de previsão da COVID-19 sem as aprovações do departamento de saúde pública em cada país e estudos clínicos para validar a tecnologia de IA nas condições locais. Este processo pode levar algumas semanas ou meses, dependendo da velocidade do parceiro governamental. Virufy dá as boas-vindas a parcerias de funcionários de saúde e hospitais para levar a tecnologia de uso gratuito às pessoas e otimizar o uso dos testes caros de PCR para apenas quando necessário.",
+      "virufyApp.whereDownloadQ": "Onde posso baixar o aplicativo? Estará disponível para iOS e Android?",
+      "virufyApp.whereDownloadA": "O aplicativo estará disponível para download em <a target='_blank' href='https://virufy.org/app'>https://virufy.org/app</a>, pois ainda precisamos de aprovação governamental ou médica em alguns países para colocá-lo nas lojas de aplicativos oficiais.\n\nO aplicativo pode ser conectado por meio de um smartphone. Portanto, é compatível com qualquer sistema operacional, incluindo iOS ou Android.",
+      "virufyApp.willTheApplicationQ": "O aplicativo estará disponível gratuitamente e em todo o mundo?",
+      "virufyApp.willTheApplicationA": "Como uma organização sem fins lucrativos 501(c)(3), nossa intenção é tornar o aplicativo gratuito para todos, especialmente em países de baixa renda. No entanto, podemos precisar cobrar uma taxa nominal para dar suporte às nossas operações, caso não possamos levantar fundos suficientes.",
       "virufyApp.doYouPlanQ": "Do you plan to extend this app in a startup?",
       "virufyApp.doYouPlanA": "Virufy is a non-profit. We may partner with companies if needed to accelerate deployment of the app for the benefit of people.",
       "virufyApp.whenWillTheAppQ": "When will the app be available for my country?",
