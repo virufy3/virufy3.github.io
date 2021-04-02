@@ -102,6 +102,14 @@ export default function GetInvolved({ data }) {
               id: "getInvolved.topFold.details",
             })}
           </p>
+          <div className="w-4/5 m-auto mt-16 flex-shrink-0 lg:hidden">
+            <Img
+              className="mx-auto"
+              fluid={findImage("join-the-fight")}
+              imgStyle={{ objectFit: "contain" }}
+              aria-hidden
+            />
+          </div>
         </div>
         <div className="w-1/3 flex-shrink-0 hidden lg:block ml-16">
           <Img
@@ -131,7 +139,7 @@ export default function GetInvolved({ data }) {
                 id: "getInvolved.donate.title",
               })}
             </h1>
-            <div className="w-2/3 lg:flex items-end hidden">
+            <div className="w-2/3 hidden lg:flex items-end">
               <Img className="w-full" fluid={findImage("sharing")} />
             </div>
           </div>
@@ -141,6 +149,9 @@ export default function GetInvolved({ data }) {
                 id: "getInvolved.donate.details",
               })}
             </p>
+            <div className="w-6/12 flex items-end mt-16 lg:hidden">
+              <Img className="w-full" fluid={findImage("sharing")} />
+            </div>
             <Link
               className="no-underline bg-green text-white px-4 py-2 mt-24"
               target="_blank"
