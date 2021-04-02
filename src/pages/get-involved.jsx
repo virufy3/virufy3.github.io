@@ -102,6 +102,14 @@ export default function GetInvolved({ data }) {
               id: "getInvolved.topFold.details",
             })}
           </p>
+          <div className="w-4/5 m-auto mt-16 flex-shrink-0 lg:hidden">
+            <Img
+              className="mx-auto"
+              fluid={findImage("join-the-fight")}
+              imgStyle={{ objectFit: "contain" }}
+              aria-hidden
+            />
+          </div>
         </div>
         <div className="w-1/3 flex-shrink-0 hidden lg:block ml-16">
           <Img
@@ -115,13 +123,19 @@ export default function GetInvolved({ data }) {
 
       {/* Donate */}
       <BackgroundImage
-        className="absolute w-screen left-0"
-        fluid={findImage("background-wave")}
+        className="mt-0"
+        fluid={findImage("background-sharing")}
         style={{
-          backgroundSize: "cover",
-          backgroundPosition: breakpoints.md
-            ? "top 2.8rem right"
-            : "bottom -10rem left",
+          backgroundSize: breakpoints.sm
+            ? "160% 30%"
+            : breakpoints.md
+            ? "100% 30%"
+            : "100% 70%",
+          backgroundPosition: breakpoints.sm
+            ? "top 22rem left"
+            : breakpoints.md
+            ? "top 20rem left"
+            : "bottom 4rem left",
         }}
       >
         <div className="container lg:flex">
@@ -132,14 +146,14 @@ export default function GetInvolved({ data }) {
               })}
             </h1>
           </div>
-          <div className="flex flex-col items-start justify-center ">
-            <p className="whitespace-pre-line md:text-xl">
+          <div className="flex flex-col items-start justify-center">
+            <p className="whitespace-pre-line md:text-xl h-80">
               {intl.formatMessage({
                 id: "getInvolved.donate.details",
               })}
             </p>
             <Link
-              className="no-underline bg-green text-white px-4 py-2 mt-24"
+              className="no-underline bg-green text-white px-4 py-2 mt-24 mt-32"
               target="_blank"
               to={links.donateLink}
             >
