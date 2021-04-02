@@ -26,7 +26,7 @@ export default [
     path: "/news",
   },
   {
-    intlId: "nav.faq",
+    intlId: "nav.faqs",
     defMsg: "FAQs",
     path: "/our-approach#faq",
   },
