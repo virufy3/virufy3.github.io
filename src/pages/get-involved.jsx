@@ -123,13 +123,19 @@ export default function GetInvolved({ data }) {
 
       {/* Donate */}
       <BackgroundImage
-        className="absolute w-screen left-0"
-        fluid={findImage("background-wave")}
+        className="mt-0"
+        fluid={findImage("background-sharing")}
         style={{
-          backgroundSize: "cover",
-          backgroundPosition: breakpoints.md
-            ? "top 2.8rem right"
-            : "bottom -10rem left",
+          backgroundSize: breakpoints.sm
+            ? "160% 30%"
+            : breakpoints.md
+            ? "100% 30%"
+            : "100% 70%",
+          backgroundPosition: breakpoints.sm
+            ? "top 22rem left"
+            : breakpoints.md
+            ? "top 20rem left"
+            : "bottom 4rem left",
         }}
       >
         <div className="container lg:flex">
@@ -139,21 +145,15 @@ export default function GetInvolved({ data }) {
                 id: "getInvolved.donate.title",
               })}
             </h1>
-            <div className="w-2/3 hidden lg:flex items-end">
-              <Img className="w-full" fluid={findImage("sharing")} />
-            </div>
           </div>
-          <div className="flex flex-col items-start justify-center ">
-            <p className="whitespace-pre-line md:text-xl">
+          <div className="flex flex-col items-start justify-center">
+            <p className="whitespace-pre-line md:text-xl h-80">
               {intl.formatMessage({
                 id: "getInvolved.donate.details",
               })}
             </p>
-            <div className="w-6/12 flex items-end mt-16 lg:hidden">
-              <Img className="w-full" fluid={findImage("sharing")} />
-            </div>
             <Link
-              className="no-underline bg-green text-white px-4 py-2 mt-24"
+              className="no-underline bg-green text-white px-4 py-2 mt-24 mt-32"
               target="_blank"
               to={links.donateLink}
             >
