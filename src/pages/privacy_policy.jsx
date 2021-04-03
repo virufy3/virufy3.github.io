@@ -71,7 +71,7 @@ export default function PrivacyPolicy({ data }) {
             <a
               className="text-black underline"
               target="_blank"
-              href="/policies/br/privacy_policy.pdf"
+              href="/policies/co/privacy_policy.pdf"
             >
               {intl.formatMessage({
                 id: "privacy_policy.countries.col_policy",
