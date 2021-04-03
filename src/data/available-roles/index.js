@@ -75,23 +75,6 @@ export const roles = [
   },
   {
     description:
-      "Seeking an individual to contribute on a part-time volunteer basis and collaborate closely with the management and development team to help manage the overall data privacy concerns internally, potentially under mentorship from senior licensed lawyers.",
-    location: "Remote",
-    title: "Data Privacy Manager",
-    url:
-      "https://docs.google.com/document/d/1v86sEXJYMiWLoFIqC12QCnqbJu2KIOKWlbs35aC7Acc",
-  },
-
-  {
-    description:
-      "Seeking an individual to contribute on a part-time volunteer basis and collaborate closely with Virufy management and globally-dispersed legal teams to help manage data privacy concerns for their local jurisdictions.",
-    location: "Remote",
-    title: "Data Privacy Lawyer(Argentina, Mexico, Indonesia)",
-    url:
-      "https://docs.google.com/document/d/1onEOkzwo7rEl2IWcDWIBGzl8_RrJYdiWbiGiUApcnrc",
-  },
-  {
-    description:
       "Seeking a part-time, volunteer HR Partner to work as part of the management team.",
     location: "Remote",
     title: "Human Resources Partner",
@@ -122,6 +105,22 @@ export const roles = [
     title: "AI Engineer",
     url:
       "https://docs.google.com/document/d/10N9XSZXJkPelV4Ie-KHsCgOPf5LLNk00e9vit4Z-2IY",
+  },
+  {
+    description:
+      "Our team of part-time volunteers works with machine learning and signal analysis for audio analysis in a medical setting. We welcome individuals with professional experience in these domains to apply. The candidate will be immersed in a collaborative environment alongside AI engineers and mentors.",
+    location: "Remote",
+    title: "Backend Engineer(Python)",
+    url:
+      "https://docs.google.com/document/d/1S6ywprk2DycFLA8jyv9_2DxXiT4t7eDptymh1VaP7eY/edit",
+  },
+  {
+    description:
+      "Seeking a part-time volunteer to work with machine learning, deep learning, and signal processing for audio analysis in a medical setting. We welcome students and professionals with experience in these domains. The candidate will be immersed in a highly collaborative environment alongside senior AI engineers and mentors.",
+    location: "Remote",
+    title: "Full Stack Engineer",
+    url:
+      "https://docs.google.com/document/d/1au9s2wrUXlXx_tdK7q7EbB9xL0ZZ2NRdlDUgTwtjlW0/edit",
   },
   {
     description:
