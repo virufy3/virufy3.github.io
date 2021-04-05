@@ -15,7 +15,7 @@
     "cookieSettings": "Cookie Settings",
     "privacyPolicy": "Privacy Policy",
     "dontSellPersonalInfo": "Do Not Sell My Personal Information",
-    "copyrightInformation": "©2021 Virufy  |  VIRUFY is a trademark of The Covid Detection Foundation   |  All rights reserved",
+    "copyrightInformation": "©2021 Virufy  |  VIRUFY is a trademark of The COVID Detection Foundation   |  All rights reserved",
     "nonprofit": "Virufy is a California nonprofit corporation operating through a fiscal sponsorship with Players Philanthropy Fund, a Maryland charitable trust recognized by IRS as a tax-exempt public charity under Section 501(c)(3) of the Internal Revenue Code (Federal Tax ID: 27-6601178). Contributions to Virufy are tax-deductible to the fullest extent of the law.",
     "email": "info@virufy.org",
     "address": "4546 El Camino Real B10 #614, Los Altos, California 94022, USA"
@@ -497,8 +497,8 @@
         },
         "melissa": {
           "name": "Melissa Dyrdahl",
-          "description": "Executive Marketing Advisor\nFormer CMO - Adobe",
-          "title": "Board Member - CommonSpirit Health"
+          "description": "Former CMO - Adobe\nStanford DCI Fellow\nBoard Member - CommonSpirit Health",
+          "title": "Executive Marketing Advisor"
         },
         "hugo": {
           "name": "Hugo Estrada",
