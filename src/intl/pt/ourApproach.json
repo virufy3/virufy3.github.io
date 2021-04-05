@@ -39,30 +39,6 @@
       "source": "Department of Electrical and Electronic Engineering, Imperial College London"
     }
   },
-  "collaboration": {
-    "title": "Construindo a solução através de dados abertos",
-    "description": "Acreditamos que a colaboração é a chave para superar o COVID-19 e estamos comprometidos em usar dados abertos para estimular a inovação.",
-    "sharedData": {
-      "we": "Compartilhamos ",
-      "activelyShareLink": "ativamente nossos dados de tosse COVID-19 ",
-      "withTheAim": "com o objetivo de criar uma ",
-      "communityOfResearchersLink": "comunidade de pesquisadores e criadores de soluções."
-    },
-    "accuracy": {
-      "title": "Precisão",
-      "description": "Os dados são coletados em hospitais sob supervisão de médicos de acordo com os Procedimentos Operacionais Padrão (SOP)."
-    },
-    "privacy": {
-      "title": "Privacidade",
-      "description": "Todos os dados foram coletados com consentimento informado do paciente sob o protocolo IRB."
-    },
-    "collaboration": {
-      "title": "Colaboração",
-      "segmentedSamples": "Disponibilizamos 121 amostras de tosse clínica segmentada no ",
-      "githubLink": "GitHub",
-      "labelled": ". Cada um está identificado com o status do teste de PCR COVID-19 e a idade, sexo e histórico médico do paciente."
-    }
-  },
   "faq": {
     "title": "Perguntas Frequentemente Feitas (FAQ)",
     "virufyApp": "Virufy App",

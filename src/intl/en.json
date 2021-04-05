@@ -254,30 +254,6 @@
         "source": "Department of Electrical and Electronic Engineering, Imperial College London"
       }
     },
-    "collaboration": {
-      "title": "Building the solution through open data",
-      "description": "We believe collaboration is key to overcoming COVID-19 and are committed to using open data to spur innovation.",
-      "sharedData": {
-        "we": "We ",
-        "activelyShareLink": "actively share our COVID-19 cough data",
-        "withTheAim": " with the aim of creating a ",
-        "communityOfResearchersLink": "community of researchers and solution builders."
-      },
-      "accuracy": {
-        "title": "Accuracy",
-        "description": "Data is collected at hospitals under supervision of physicians following Standard Operating Procedures (SOP)."
-      },
-      "privacy": {
-        "title": "Privacy",
-        "description": "All data was collected with informed patient consent under IRB protocol."
-      },
-      "collaboration": {
-        "title": "Collaboration",
-        "segmentedSamples": "We’ve made 121 segmented clinical cough samples available on ",
-        "githubLink": "GitHub",
-        "labelled": ". Each are labeled with COVID-19 PCR test status and patient age, gender and medical history."
-      }
-    },
     "faq": {
       "title": "Frequently Asked Questions (FAQs)",
       "virufyApp": "Virufy App",
