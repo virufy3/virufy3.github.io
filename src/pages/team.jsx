@@ -5,6 +5,7 @@ import Layout from "../components/Layout";
 import ValuesSection from "../components/team/ValuesSection";
 import TeamSection from "../components/team/TeamSection";
 import Supporters from "../components/team/Supporters";
+import cookie from "./cookie";
 
 export default function Team({ data }) {
   const images = {};
@@ -15,6 +16,7 @@ export default function Team({ data }) {
   return (
     <Layout>
       <SEO title="Team | Virufy" />
+      <cookie />
       <ValuesSection images={images} />
       <TeamSection images={images} />
       <Supporters />
