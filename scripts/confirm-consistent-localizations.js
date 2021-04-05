@@ -77,6 +77,7 @@ function keysAreEqual(obj1, obj2, location) {
 
 const consistentLocalization = fs
   .readdirSync(intlFolderPath)
+  .filter((fileName) => fileName != ".DS_Store")
   .map((fileName) => {
     const filePath = path.join(intlFolderPath, fileName);
 

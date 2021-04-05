@@ -5,7 +5,6 @@
   },
   "teamSection": {
     "header": "Nuestra Organización",
-    "pg1": "Conoce a las docenas de personas que se ofrecen como voluntarias en los cinco continentes para llevar Virufy al mundo.",
     "teamLeadText": "Líderes del equipo de Virufighters",
     "advisorText": "Asesoría",
     "leadership": {
@@ -145,6 +144,11 @@
         "name": "Victor Wang",
         "description": "Fundador y presidente en China Silicon Valley\nCEO en SinoSV LLC",
         "title": " "
+      },
+      "alfonso": {
+        "name": "Alfonso Assaf",
+        "description": "Antiguo consultor senior, Deloitte\nB.A. Economics, Universidad del CEMA",
+        "title": "Gerente de Alcance Comunitario de Argentina"
       }
     }
   },
