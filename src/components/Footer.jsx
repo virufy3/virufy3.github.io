@@ -49,7 +49,7 @@ const footerLinks = [
   },
   {
     intlId: "footer.cookieSettings",
-    address: "/cookie",
+    address: "/index#cookie",
   },
   {
     intlId: "footer.privacyPolicy",

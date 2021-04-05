@@ -7,7 +7,7 @@ import bgWave from "../images/logos/background-wave.png";
 import Accordion from "../components/Accordion";
 import { container } from "../styles/cookie_policy.module.css";
 
-export default ({ data }) => {
+const cookiePolicy = ({ data }) => {
   return (
     <Layout>
       <SEO title="Virufy | Cookie Policy" />
@@ -84,6 +84,8 @@ export default ({ data }) => {
     </Layout>
   );
 };
+
+export default cookiePolicy;
 
 //prettier-ignore
 //prettier-ignore

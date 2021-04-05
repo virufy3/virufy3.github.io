@@ -5,7 +5,7 @@ import Layout from "../components/Layout";
 import SEO from "../components/SEO";
 import bgWave from "../images/logos/background-wave.png";
 
-export default ({ data }) => {
+const ccpa = ({ data }) => {
   return (
     <Layout>
       <SEO title={"CCPA | Virufy"} />
@@ -33,6 +33,8 @@ export default ({ data }) => {
     </Layout>
   );
 };
+
+export default ccpa;
 
 //prettier-ignore
 export const query = graphql`
