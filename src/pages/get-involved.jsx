@@ -123,7 +123,7 @@ export default function GetInvolved({ data }) {
 
       {/* Donate */}
       <BackgroundImage
-        className="mt-0"
+        className="bg-white mt-0"
         fluid={findImage("background-sharing")}
         style={{
           backgroundSize: breakpoints.sm
@@ -135,7 +135,7 @@ export default function GetInvolved({ data }) {
             ? "top 22rem left"
             : breakpoints.md
             ? "top 20rem left"
-            : "bottom 4rem left",
+            : "bottom -1rem left",
         }}
       >
         <div className="container lg:flex">
@@ -147,7 +147,7 @@ export default function GetInvolved({ data }) {
             </h1>
           </div>
           <div className="flex flex-col items-start justify-center">
-            <p className="whitespace-pre-line md:text-xl h-80">
+            <p className="whitespace-pre-line md:text-xl h-80 lg:h-24">
               {intl.formatMessage({
                 id: "getInvolved.donate.details",
               })}
