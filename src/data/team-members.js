@@ -95,12 +95,6 @@ export const advisors = [
     imageName: "jure",
   },
   {
-    mediaLink: "https://www.linkedin.com/in/matthewprusak/",
-    id: "matt",
-    defaultName: "Matt Prusak",
-    imageName: "matt",
-  },
-  {
     mediaLink: "https://dci.stanford.edu/melissa-dyrdahl/",
     id: "melissa",
     defaultName: "Melissa Dyrdahl",
@@ -111,6 +105,12 @@ export const advisors = [
     id: "hugo",
     defaultName: "Hugo Estrada",
     imageName: "hugo",
+  },
+  {
+    mediaLink: "https://www.linkedin.com/in/matthewprusak/",
+    id: "matt",
+    defaultName: "Matt Prusak",
+    imageName: "matt",
   },
   {
     mediaLink: "https://www.linkedin.com/in/pedrosiena/",
@@ -156,15 +156,15 @@ export const advisors = [
     imageName: "rafi",
   },
   {
-    mediaLink: "http://tannan.fm/contents/about-us.html",
-    id: "tsutomu",
-    defaultName: "Tsutomu Ito",
-    imageName: "ito",
-  },
-  {
     mediaLink: "https://www.linkedin.com/in/taisuke-fukuno-a3b3415",
     id: "taisuke",
     defaultName: "Taisuke Fukuno",
     imageName: "taisuke",
+  },
+  {
+    mediaLink: "http://tannan.fm/contents/about-us.html",
+    id: "tsutomu",
+    defaultName: "Tsutomu Ito",
+    imageName: "ito",
   },
 ];
