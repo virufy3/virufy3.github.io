@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-const paperURL = "/available-roles";
+const paperURL = "/apply";
 
 export default function Paper() {
   useEffect(() => {
