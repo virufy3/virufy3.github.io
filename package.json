@@ -6,7 +6,7 @@
     "start": "gatsby serve",
     "build": "gatsby build",
     "hompage": "virufy.org",
-    "test": "",
+    "test": "echo \"Error: no test specified\" && exit 0",
     "build-intl": "gatsby clean && node ./scripts/build-intl-resources.js",
     "format": "prettier --write .",
     "lint": "eslint --ext .js,.jsx ."
