@@ -69,6 +69,12 @@ export default () => {
     defaultMessage: "info@virufy.org",
   });
 
+  const getHrefFromId = (footerLink) => {
+    return footerLink.intlId === "footer.cookieSettings"
+      ? "javascript: Cookiebot.renew()"
+      : footerLink.address;
+  };
+
   return (
     <div className="md:grid md:grid-cols-2 md:gap-4 text-white px-6 md:mx-8">
       <div>
@@ -103,7 +109,7 @@ export default () => {
           <>
             <a
               className="underline text-sm text-white"
-              href={footerLink.address}
+              href={getHrefFromId(footerLink)}
               key={footerLink.intlId}
             >
               {intl.formatMessage({ id: footerLink.intlId })}
