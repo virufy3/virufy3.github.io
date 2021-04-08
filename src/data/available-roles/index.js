@@ -49,18 +49,26 @@ export const roles = [
   },
   {
     description:
-      "Seeking an individual to volunteer on a part-time basis to help us develop a full-scale marketing campaign to manage our social media platforms and to engage influencers and the press.",
+      "Seeking an individual to volunteer on a part-time basis to help execute full-scale marketing campaigns to manage our social media platforms and to engage influencers and the press. The candidate will drive engagement through Instagram, Facebook, and TikTok, and digital advertisements. They will reach out to various networks to engage youth, medical influencers, and social influencers.",
     location: "Remote",
     title: "Global Marketing Manager",
     url:
-      "https://docs.google.com/document/d/1UTIg6rukg6B8pvLGfrB2t5COUFb5kug6x8YUsf-8WxY/",
+      "https://docs.google.com/document/u/4/d/1CeqhlcFkeNHQh8NZ1UQGxvjQT-5U-j0MO6tZHLzHyr0/edit",
   },
   {
     description:
       "Seeking an individual to volunteer on a part-time basis to help execute full-scale marketing campaigns to manage our social media platforms and to engage influencers and the press.",
     location: "Remote",
-    title: "Virufy Outreach Ambassador",
+    title: "Product Marketeer",
     url: "https://virufy.org/apply",
+  },
+  {
+    description:
+      "Seeking a volunteer website developer to collaborate with internal teams to redesign our website applications in a fast-paced environment. Our team of volunteers develop and maintain high quality web applications, which could be seen by hundreds of millions of people.",
+    location: "Remote",
+    title: "React Website Developer",
+    url:
+      "https://docs.google.com/document/u/4/d/12wKjLcrlQTLAVymKiZcuIHEHVXvcZsD5OxXX4jiV6_0/edit",
   },
   {
     description:
