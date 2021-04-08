@@ -85,7 +85,7 @@
       },
       "join": {
         "title": "Join the Virufighter team",
-        "details": "We’re a fast-paced, mission-driven team combining our unique skills to curb the spread of the pandemic globally. Our volunteers span more than 25 countries, and our work has potential to impact millions of lives.",
+        "details": "We’re a fast-paced, mission-driven team combining our unique skills to curb the spread of the pandemic globally. Our volunteers span more than 25 countries, and our work has the potential to impact millions of lives.",
         "question": "Excited to help out?",
         "linkText": "View our available roles",
         "learnmore": "",
@@ -118,13 +118,13 @@
     "section4": {
       "header": "Our story",
       "pg1": "In March 2020, we pioneered an AI-powered mobile app to detect COVID-19.",
-      "pg2": "Now, Virufighters across five continents are commited to making disease detection instant and free of charge through technological innovation.",
+      "pg2": "Now, Virufighters across five continents are committed to making disease detection instant and free of charge through technological innovation.",
       "knowUsLink": "GET TO KNOW US",
       "header2": "We're supported by"
     },
     "faq": {
       "distinguishableQ": "Why are COVID-19 coughs be distinguishable?",
-      "distinguishableA": "Similar to other respiratory diseases, COVID-19 damages the throat and lungs, creating detecable differences in cough patterns. Consequently, cough sounds can be analyzed to detect COVID-19​.​ Globally, this idea is being actively researched by several prestigious institutions, including Carnegie Mellon (CMU), MIT, and Cambridge. For example,research done by University of Cambridge showed that a simple binary machine learning classifier is able to classify COVID-19 positive patients through breathing and coughing sounds with high acurracy. Similarly, researchers at CMU identified 18 voice features that distinguish positive COVID-19 patients and trained an academic model to detect COVID-19 with high accuracy.",
+      "distinguishableA": "Similar to other respiratory diseases, COVID-19 damages the throat and lungs, creating detectable differences in cough patterns. Consequently, cough sounds can be analyzed to detect COVID-19​.​ Globally, this idea is being actively researched by several prestigious institutions, including Carnegie Mellon (CMU), MIT, and Cambridge. For example, research done by University of Cambridge showed that a simple binary machine learning classifier is able to classify COVID-19 positive patients through breathing and coughing sounds with high accuracy. Similarly, researchers at CMU identified 18 voice features that distinguish positive COVID-19 patients and trained an academic model to detect COVID-19 with high accuracy.",
       "aiQ": "How will Virufy’s AI algorithm detect COVID-19?",
       "aiA": "Based on past research, Virufy is developing an AI algorithm that can be used to accurately predict a COVID-19 infection within minutes based on recordings of cough sounds. However, as opposed to previous COVID-19 cough research that targeted the US population, Virufy aims to collect data from multiple sites across the globe. As a student-run initiative with volunteers spanning several countries, Virufy is developing a COVID-19 diagnostic model with greater racial and spatial inclusivity through data that includes a range of ethnicities and community-specific phonological differences."
     }
@@ -230,7 +230,7 @@
       },
       "carnegieMellonUniversity": {
         "title": "COVID Voice Detector",
-        "description": "A study by Carnegie Mellon University aimed to collect a large number of voice samples to train AI for diagnosis of COVID. The rationale behing the study is that, \"the sound of our voice (regardless of language), and the sounds we make when we breathe or cough change when our respiratory system is affected. The changes range from coarse, clearly audible changes, to minute changes -- what we call \"micro\" signatures, that are not audible to the untrained listener, but are nevertheless present.\"",
+        "description": "A study by Carnegie Mellon University aimed to collect a large number of voice samples to train AI for diagnosis of COVID. The rationale behind the study is that, \"the sound of our voice (regardless of language), and the sounds we make when we breathe or cough change when our respiratory system is affected. The changes range from coarse, clearly audible changes, to minute changes -- what we call \"micro\" signatures, that are not audible to the untrained listener, but are nevertheless present.\"",
         "source": "Carnegie Mellon University"
       },
       "MIT": {
@@ -268,7 +268,7 @@
       "virufyApp.whenWillTheAppQ": "When will the app be available for my country?",
       "virufyApp.whenWillTheAppA": "Virufy strives to comply with data privacy laws which vary by country. We are very happy to extend to your country if we are able to connect with a pro bono data privacy lawyer to review our privacy policy and consent form.",
       "virufyApp.whatisTheVisionQ": "What is the vision for the Virufy app?",
-      "virufyApp.whatisTheVisionA": "Virufy was initially intended as a supplement to tests. We also envision a future where people can easily know their health condition so they do not spread any sicknesses.",
+      "virufyApp.whatisTheVisionA": "Virufy was initially intended as a supplement to tests. We also envision a future where people can easily know their health condition, so they do not spread any sicknesses.",
       "virufyApp.whoCanAccessQ": "Who can access the test results? How does the organization try to regulate the range of accessibility? Where are the test results stored?",
       "virufyApp.whoCanAccessA": "Our intention for the predictive apps is for only the user to see their test results since there is a lot of fear around positive results. The data from the test results and data collection will be stored in secure servers.",
       "aboutVirufy": "About Virufy",
@@ -279,7 +279,7 @@
       "aboutVirufy.howIsVirufyQ": "How is Virufy different from other groups working on similar projects?",
       "aboutVirufy.howIsVirufyA": "Because Virufy is a 501(c)(3) non-profit organization, we are able to recruit highly talented professionals as volunteers. Our team is global, spanning five continents, and our organization thus has global empathy built in. We are not concerned with making profit, so are able to work in developing countries. Our dense networks in Stanford and One Young World grant us access to top echelon contacts in every country of the world. Our model of young professionals empowered by sage advice from senior industry experts leads to rapid, creative activity focused in the right direction.",
       "aboutVirufy.whatPhaseQ": "What phase of the investigation are you at? Is there a deadline to participate?",
-      "aboutVirufy.whatPhaseA": "We have put considerable effort to form partnerships, build our mobile app, register our California non-profit entity, and build our policies for compliance with data privacy laws across 7 countries.\n\nOur data collection app is at the breakthrough stage, as have addressed the majority of healthcare data privacy and technical concerns to allow for launch. We have already gotten data privacy, information security, and UI/UX in place for our data collection mobile app, along with a scalable backend AWS infrastructure.\n\nWe anticipate large volumes of data collection in 2021 and intend to drive collaborative AI development efforts to build the solution. There is no deadline, and we always welcome more cough data as it improves the AI algorithm.",
+      "aboutVirufy.whatPhaseA": "We have put considerable effort to form partnerships, build our mobile app, register our California non-profit entity, and build our policies for compliance with data privacy laws across 7 countries.\n\nOur data collection app is at the breakthrough stage and has addressed the majority of healthcare data privacy and technical concerns to allow for launch. We have already gotten data privacy, information security, and UI/UX in place for our data collection mobile app, along with a scalable backend AWS infrastructure.\n\nWe anticipate large volumes of data collection in 2021 and intend to drive collaborative AI development efforts to build the solution. There is no deadline, and we always welcome more cough data as it improves the AI algorithm.",
       "aboutVirufy.whatIsUniqueQ": "What is unique about Virufy from other projects?",
       "aboutVirufy.whatIsUniqueA": "We are youth run, with a diverse and global team from across 15 countries and 25 universities. We are guided by expert advisors from universities, non-profits, and businesses around the world. Our multidisciplinary team has expertise in data privacy, machine learning, medicine, information security, and mobile app development. Our One Young World network allows us to connect with trusted partners in every country.\n\nWe welcome all, and being a 501(c)(3) non-profit allows for volunteers to join. As a volunteer run non-profit, we are independent and have less red tape. We also have pro bono access to legal and data privacy advice for proper deployment.",
       "aboutVirufy.howMuchInvestmentQ": "How much investment was made to make the Virufy project possible?",
@@ -290,11 +290,11 @@
       "aboutVirufy.whatAreUniversitiesA": "Virufy is not officially affiliated with any university.\n\nHowever, we are a Stanford University <a target='_blank' href='https://responselab.stanford.edu/projects.html'>COVID-19 Response Innovation Lab project</a>, have participated in <a target='_blank' href='https://h4r.stanford.edu/'>Stanford’s Hacking</a>   for Recovery startup accelerator, and have also been featured across various <a target='_blank' href='https://www.oneyoungworld.com/'>One Young World platforms</a>.\n\n\nOur team includes students and alumni from more than 25 universities including UC Berkeley, Harvard, and Princeton.",
       "aboutAI": "About Artificial Intelligence Algorithm",
       "aboutAI.whyQ": "Why are COVID-19 coughs distinguishable?",
-      "aboutAI.whyA": "Similar to other respiratory diseases, COVID-19 damages the throat and lungs, creating detecable differences in cough patterns. Consequently, cough sounds can be analyzed to detect COVID-19​.​ Globally, this idea is being actively researched by several prestigious institutions, including Carnegie Mellon (CMU), MIT, and Cambridge. For example,research done by University of Cambridge showed that a simple binary machine learning classifier is able to classify COVID-19 positive patients through breathing and coughing sounds with high acurracy. Similarly, researchers at CMU identified 18 voice features that distinguish positive COVID-19 patients and trained an academic model to detect COVID-19 with high accuracy.",
+      "aboutAI.whyA": "Similar to other respiratory diseases, COVID-19 damages the throat and lungs, creating detecable differences in cough patterns. Consequently, cough sounds can be analyzed to detect COVID-19​.​ Globally, this idea is being actively researched by several prestigious institutions, including Carnegie Mellon (CMU), MIT, and Cambridge. For example, research done by University of Cambridge showed that a simple binary machine learning classifier is able to classify COVID-19 positive patients through breathing and coughing sounds with high accuracy. Similarly, researchers at CMU identified 18 voice features that distinguish positive COVID-19 patients and trained an academic model to detect COVID-19 with high accuracy.",
       "aboutAI.howWillQ": "How will Virufy’s AI algorithm detect COVID-19?",
       "aboutAI.howWillA": "Based on past research, Virufy is developing an AI algorithm that can be used to accurately predict a COVID-19 infection within minutes based on recordings of cough sounds. However, as opposed to previous COVID-19 cough research that targeted the US population, Virufy aims to collect data from multiple sites across the globe. As a student-run initiative with volunteers spanning several countries, Virufy is developing a COVID-19 diagnostic model with greater racial and spatial inclusivity through data that includes a range of ethnicities and community-specific phonological differences.",
       "aboutAI.howDoesQ": "How can the app help prevent coronavirus infections?",
-      "aboutAI.howDoesA": "By empowering everyone to know their risk status for COVID and other diseases, the potential for the spread of unknown viruses will decrease considerably. Early detection will allow for people to self-isolate and take measures to heal from the virus faster.\n\nMeanwhile, nurses in developing countries can use the app to check if a patient has COVID, thus reducing the need to use expensive PCR test kits. People can also check themselves anytime they feel they have a COVID symptoms to confirm whether they need to go to the doctor for a check up or test for COVID.",
+      "aboutAI.howDoesA": "By empowering everyone to know their risk status for COVID and other diseases, the potential for the spread of unknown viruses will decrease considerably. Early detection will allow for people to self-isolate and take measures to heal from the virus faster. Meanwhile, nurses in developing countries can use the app to check if a patient has COVID, thus reducing the need to use expensive PCR test kits. People can also check themselves anytime they feel they have a COVID symptoms to confirm whether they need to go to the doctor for a check-up or test for COVID.",
       "aboutAI.howDoYouQ": "How do you measure our percentage of effectiveness, and is this measured in clinical studies?",
       "aboutAI.howDoYouA": "Please see <a target='_blank' href='https://virufy.org/paper'>https://virufy.org/paper</a> and <a target='_blank' href='https://virufy.org/research.html'>https://virufy.org/research.html</a>  for details about our research.",
       "aboutAI.areSmartPhoneQ": "Are smartphone microphones reliable enough to be used for detection?",
@@ -334,7 +334,7 @@
       "privacyDetails.doesVirufyHaveQ": "Does Virufy have a privacy policy and cookie policy?",
       "privacyDetails.doesVirufyHaveA": "Virufy takes the privacy and protection of your personal information seriously. Our legal team has prepared a detailed Privacy Policy and Cookie Policy to protect the personal information you share with us through use of our website, participation in our cough donation study, contacting us, and volunteer applications.",
       "privacyDetails.willMyDataQ": "Will my data be shared with third parties?",
-      "privacyDetails.willMyDataA": "If you opt-in to share your contact information (e.g., email and phone number) with us, we will not distribute any of this personal identifiable information to any third party. However, we may share your anonymized information, such as your cough sounds, with third parties in order to accelerate global research efforts to stop the COVID-19 pandemic and other future spreads of disease. More details can be found in our <a target='_blank' href='https://www.jotform.com/privacy/'>Privacy Policy</a> and the data collection study <a target='_blank' href='https://virufy.org/us/study_consent.pdf'>Consent Form</a>.",
+      "privacyDetails.willMyDataA": "If you opt in to share your contact information (e.g., email and phone number) with us, we will not distribute any of this personal identifiable information to any third party. However, we may share your anonymized information, such as your cough sounds, with third parties in order to accelerate global research efforts to stop the COVID-19 pandemic and other future spreads of disease. More details can be found in our <a target='_blank' href='https://www.jotform.com/privacy/'>Privacy Policy</a> and the data collection study <a target='_blank' href='https://virufy.org/us/study_consent.pdf'>Consent Form</a>.",
       "otherDetails": "Other details",
       "otherDetails.howCanQ": "How can I support Virufy more?",
       "otherDetails.howCanA": "You can join our team today and look at the <a target='_blank' href='https://virufy.org/join.html'>join page</a> for more information. You can also support us at <a target='_blank' href='https://gofundme.com/virufy'>GoFundMe</a>. You can also contact us for partnership.",
@@ -349,7 +349,7 @@
       "otherDetails.doesYourQ": "Does your product need regulatory approval (e.g., FDA)? If so, what is the approval process? What is your plan to get approved, and how much time and money will it take?",
       "otherDetails.doesYourA": "We are compliant with data privacy regulations in several countries across 3 continents. The Health Insurance Portability and Accountability Act (HIPAA) does not apply to us.\n\nAs we are not providing predictions to individuals in the US, FDA approval is not needed.",
       "otherDetails.WhatIfiQ": "What if I have more questions?",
-      "otherDetails.WhatIfiA": "More details can be found in our full <a target='_blank' href='https://www.jotform.com/privacy/'>Privacy Policy</a>, <a target='_blank' href='https://virufy.org/cookie_policy.html'>Cookie Policy</a>, and consent form which is embedded in the <a target='_blank' href='https://virufy.org/app'>data collection app</a>.\n\nFor questions related to the data collection study, please email us at <a href='mailto:study@virufy.org'>study@virufy.org</a>.\nFor data related queries, we can be contacted at <a href='mailto:open-data@virufy.org'>open-data@virufy.org</a>.\nFor all other inquiries, you may reach us at <a href='mailto:info@virufy.org'>info@virufy.orgg</a>.",
+      "otherDetails.WhatIfiA": "More details can be found in our full <a target='_blank' href='https://www.jotform.com/privacy/'>Privacy Policy</a>, <a target='_blank' href='https://virufy.org/cookie_policy.html'>Cookie Policy</a>, and consent form which is embedded in the <a target='_blank' href='https://virufy.org/app'>data collection app</a>.\n\nFor questions related to the data collection study, please email us at <a href='mailto:study@virufy.org'>study@virufy.org</a>.\nFor data related queries, we can be contacted at <a href='mailto:open-data@virufy.org'>open-data@virufy.org</a>.\nFor all other inquiries, you may reach us at <a href='mailto:info@virufy.org'>info@virufy.org</a>.",
       "missionCategory": "Mission",
       "nonprofitQ": "Is Virufy a nonprofit?",
       "nonprofitA": "Virufy is a registered California nonprofit public benefit corporation. However, our official 501(c)(3) status approval could take until mid 2021 as the IRS is backlogged due to COVID-19.",
@@ -528,7 +528,7 @@
         },
         "melissa": {
           "name": "Melissa Dyrdahl",
-          "description": "Former CMO - Adobe\nStanford DCI Fellow\nBoard Member - CommonSpirit Health",
+          "description": "Former CMO - Adobe\nStanford DCI Fellow\nBoard Member - Common Spirit Health",
           "title": "Executive Marketing Advisor"
         },
         "hugo": {
@@ -570,7 +570,7 @@
         "header": "Virufy's vision",
         "pg1": "We aspire to be the leading nonprofit organization for technology-enabled disease identification.",
         "pg2": "Our innovations aim to offer superior detection for patients, clinicians and governments in low-income countries.",
-        "pg3": "We will be force for transforming global healthcare and inspiring support and investment in this mission."
+        "pg3": "We will be a force for transforming global healthcare and inspiring support and investment in this mission."
       },
       "values": {
         "transform": {
