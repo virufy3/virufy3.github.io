@@ -7,11 +7,10 @@
   },
   "dashboard": {
     "header": "Dashboard de Nuestros Datos Recolectados",
-    "sub-header": "Tu tos nos ayuda a mejorar nuestro modelo predictivo,siendo <b>crucial</b> en la lucha contra <b>COVID-19</b>. ¡Mirá el progreso que hemos logrado y doná tu tos!",
+    "sub-header": "Tu tos nos ayuda a mejorar nuestro modelo predictivo, siendo <b>crucial</b> en la lucha contra <b>COVID-19</b>. ¡Mirá el progreso que hemos logrado y doná tu tos!",
     "button": "Contribua com sua tosse"
   },
   "footer": {
-    "getInTouch": "Entre em contato!",
     "cookiePolicy": "Política de Cookies",
     "cookieSettings": "Definições de cookies",
     "privacyPolicy": "Política de Privacidade",
@@ -384,7 +383,6 @@
     },
     "teamSection": {
       "header": "A nossa equipa",
-      "pg1": "Conheça as dezenas de pessoas que se oferecem voluntariamente nos cinco continentes para trazer a Virufy ao mundo.",
       "teamLeadText": "A equipa Virufighter lidera",
       "advisorText": "Consultivo",
       "leadership": {
@@ -432,11 +430,6 @@
           "name": "Jason Pareja Jauregui",
           "description": "Embaixador Coordenador do One Young World América Latina\nGraduate, MIT Sloan School of Management",
           "title": "Líder de divulgação comunitária do Peru"
-        },
-        "maria": {
-          "name": "Maria Eleni Pasia",
-          "description": "Advogado qualificado, Ordem dos Advogados de Atenas\nLL.M Lei de Mídia e Tecnologia, UCLA",
-          "title": "Líder da equipe de privacidade de dados"
         },
         "sebastian": {
           "name": "Sebastian Pedraza",
@@ -502,12 +495,12 @@
         },
         "melissa": {
           "name": "Melissa Dyrdahl",
-          "description": "Consultor Executivo de Marketing\nAntiga OCM - Adobe",
-          "title": "Membro da Direcção - CommonSpirit Health"
+          "description": "Antiga OCM - Adobe\nStanford DCI Fellow\nMembro da Direcção - CommonSpirit Health",
+          "title": "Consultor Executivo de Marketing"
         },
         "hugo": {
           "name": "Hugo Estrada",
-          "description": "CEO & Managing Parther na iwé Consultores\nChairman of Nueva EPS (Seguro Saúde)",
+          "description": "CEO & Managing Partner na iwé Consultores\nChairman of Nueva EPS (Seguro Saúde)",
           "title": "Assessor Executivo de divulgação on Colômbia"
         },
         "pedro": {
@@ -528,7 +521,12 @@
         "victor": {
           "name": "Victor Wang",
           "description": "Fundador e Presidente em China Silicon Valley\nCEO at SinoSV LLC",
-          "title": " "
+          "title": "Consultor Executivo"
+        },
+        "alfonso": {
+          "name": "Alfonso Assaf",
+          "description": "Ex-consultor sénior, Deloitte\nB.A. Economics, Universidad del CEMA",
+          "title": "Gestor de Divulgação da Comunidade Argentina"
         }
       }
     },

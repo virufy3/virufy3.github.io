@@ -2,6 +2,7 @@ import React from "react";
 import SEO from "./SEO";
 import Navbar from "./navbar/Navbar";
 import Footer from "./Footer";
+import Cookiebot from "./Cookiebot";
 
 export default ({ children, className }) => {
   return (
@@ -12,6 +13,7 @@ export default ({ children, className }) => {
       </header>
       <main className={className}>{children}</main>
       <footer className="bg-secondary-100 py-16">
+        <Cookiebot />
         <Footer />
       </footer>
     </>
