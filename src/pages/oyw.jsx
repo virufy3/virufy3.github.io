@@ -5,6 +5,8 @@ import { graphql } from "gatsby";
 import SEO from "../components/SEO";
 import GatsbyImage from "gatsby-image";
 import Ambassador from "../components/OYW/Ambassador";
+import Testimonials from "../components/OYW/Testimonials";
+import VideoOYW from "../components/OYW/VideoOYW";
 
 export const query = graphql`
   {
@@ -67,10 +69,10 @@ export default function OYW({ data }) {
 
         <section className="flex flex-wrap mb-20 wrapper md:justify-between">
           {/* global impact */}
-          <div className="flex flex-wrap justify-center my-5 md:w-1/2 md:my-10 md:flex-no-wrap md:justify-start font-black">
+          <div className="flex flex-wrap justify-center my-5 md:w-1/2 md:my-10 md:flex-no-wrap md:justify-start">
             <div className="w-full">
               <GatsbyImage
-                className="my-6 md:my-0 md:pr-2 md:w-2/12 mb-4 lg:flex hidden"
+                className="my-6 md:my-0 md:w-2/12 mb-4 lg:flex hidden"
                 fluid={images["globe"].childImageSharp.fluid}
               />
             </div>
@@ -102,7 +104,7 @@ export default function OYW({ data }) {
           <div className="flex flex-wrap justify-center my-5 md:w-1/2 md:my-10 md:flex-no-wrap md:justify-start">
             <div className="w-full">
               <GatsbyImage
-                className="my-6 md:my-0 md:pr-2 md:w-3/12 mb-4 lg:flex hidden"
+                className="my-6 md:my-0 md:w-3/12 mb-4 lg:flex hidden"
                 fluid={images["ambassador"].childImageSharp.fluid}
               />
             </div>
@@ -133,6 +135,8 @@ export default function OYW({ data }) {
 
       {/* Ambassador section */}
       <Ambassador images={images} />
+      <Testimonials images={images} />
+      <VideoOYW />
     </Layout>
   );
 }

@@ -13,7 +13,7 @@
     "youth": "Youth led",
     "youth-des": "Our growing team is led by youth from over a dozen countries and are advised by global leaders.",
     "ambassador": "Ambassador driven",
-    "ambassador-des": "Our organization structure matches One Young World with youth ambassadors leading operations in each country, with regional coordinating amabssadors.",
+    "ambassador-des": "Our organization structure matches One Young World with youth ambassadors leading operations in each country, with regional coordinating ambassadors.",
     "diverse": "Diverse representation",
     "diverse-des": "Our team has representation from over 25 universities and 15 countries and includes more than 10 One Young World ambassadors."
   },
@@ -61,5 +61,13 @@
         "description": "OYW Ambassador India"
       }
     }
+  },
+  "testimonials": {
+    "title": "Testimonials",
+    "intro": "Our team is led by students dedicated to social good from reputable institutions like Stanford, Princeton, and One Young World. We have strong trust in members of the One Young World community and warmly welcome any ambassadors interested to pitch in.",
+    "annelisse": "Having suffered through COVID myself along with all of my family in a underprivileged country, I knew instantly that I could make a difference and prevent others from facing my same fate by joining Virufy.",
+    "sebastian": "Virufy unites the power of youth and technology to transform the world. We hope that this solution will reach the whole world and that it will become a support for doctors, especially in low-income countries.",
+    "gonzalo": "Virufy will impact globally, no matter the users' background or social status. This is what changing the status quo feels like.",
+    "marcos": "I think that Virufy will develop a very accurate solution and this will be useful for the entire world in every industry. So I encourage everyone to take some minutes and contribute with us."
   }
 }

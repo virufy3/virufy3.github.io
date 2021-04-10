@@ -1,65 +1,73 @@
 {
   "headers": {
     "header": "Virufy & One Young World",
-    "sub-header": "Virufy is honored to extend a special invitation to all One Young World ambassadors around the world to join our team and contribute to stop COVID-19 quickly. <br/><b>Please visit our <a target='_blank' href='/available-roles'>Join Page</a> to apply!</b>"
+    "sub-header": "Virufy tiene el honor de extender una invitación especial a todos los embajadores de One Young World de todo el mundo para que se unan a nuestro equipo y contribuyan a detener la COVID-19 rápidamente. <br/><b>Por favor, visita nuestra página de <a target='_blank' href='/available-roles'>Forma parte de nosotros</a> para aplicar!</b>."
   },
   "section1": {
-    "header": "Virufy is inspired by One Young World!",
-    "sub-header": "Virufy has been featured on various OYW platforms, including in the Americas and Japan, <a target='_blank' href='https://oywj.org/ambassadors-in-action/2020/05/oywj-ambassador-targets-covid-19-using-ai/' class='text-primary'> ambassadors in action </a>, and <a target='_blank' href='https://www.oneyoungworld.com/north-american-ambassadors-frontlines-covid-19-response' class='text-primary' ambassadors on the frontline for COVID-19 response </a>. We are also collaborating with OYW coordinating ambassadors across various regions for outreach efforts. Please stay tuned as we update this page!"
+    "header": "¡Virufy se inspira en One Young World!",
+    "sub-header": "Virufy ha aparecido en varias plataformas de OYW, incluyendo en las Américas y Japón, <a target='_blank' href='https://oywj.org/ambassadors-in-action/2020/05/oywj-ambassador-targets-covid-19-using-ai/' class='text-primary'> embajadores en acción </a>, y <a target='_blank' href='https://www.oneyoungworld.com/north-american-ambassadors-frontlines-covid-19-response' class='text-primary' embajadores en primera línea para la respuesta a COVID-19 </a>. También estamos colaborando con la OYW en la coordinación de embajadores en varias regiones para los esfuerzos de divulgación. Por favor, permanezca atento a la actualización de esta página."
   },
   "section2": {
-    "header": "Focused on global impact",
-    "sub-header": " Collect data and provide equitable solutions for people in developing countries across the world.",
-    "youth": "Youth led",
-    "youth-des": "Our growing team is led by youth from over a dozen countries and are advised by global leaders.",
-    "ambassador": "Ambassador driven",
-    "ambassador-des": "Our organization structure matches One Young World with youth ambassadors leading operations in each country, with regional coordinating amabssadors.",
-    "diverse": "Diverse representation",
-    "diverse-des": "Our team has representation from over 25 universities and 15 countries and includes more than 10 One Young World ambassadors."
+    "header": "Centrados en el impacto global",
+    "sub-header": "Recopilar datos y ofrecer soluciones equitativas a los habitantes de los países en desarrollo de todo el mundo.",
+    "youth": "Dirigido por los jóvenes",
+    "youth-des": "Nuestro creciente equipo está dirigido por jóvenes de más de una docena de países y cuenta con el asesoramiento de líderes mundiales.",
+    "ambassador": "Impulsado por los embajadores",
+    "ambassador-des": "Nuestra estructura organizativa hace que One Young World cuente con embajadores juveniles que dirigen las operaciones en cada país, con embajadores coordinadores regionales.",
+    "diverse": "Representación diversa",
+    "diverse-des": "Nuestro equipo cuenta con representación de más de 25 universidades y 15 países e incluye más de 10 embajadores de One Young World."
   },
   "ambassador": {
-    "header": "OYW Ambassadors",
+    "header": "Embajadores de la OYW",
     "ambassador-list": {
       "amil": {
         "name": "Amil Khanzada",
-        "description": "OYW Ambassador Japan"
+        "description": "Embajador OYW Japón"
       },
       "annelisse": {
         "name": "Annelisse Torrez Daza",
-        "description": "OYW Ambassador Bolivia"
+        "description": "Embajador OYW Bolivia"
       },
       "gonzalo": {
         "name": "Gonzalo Roiffe",
-        "description": "OYW Ambassador Argentina"
+        "description": "Embajador OYW Argentina"
       },
       "jason": {
         "name": "Jason Pareja Jauregui",
-        "description": "OYW Ambassador Peru"
+        "description": "Embajador OYW Peru"
       },
       "katherine": {
         "name": "Katherine Thalia Ortiz León",
-        "description": "OYW Ambassador Peru"
+        "description": "Embajador OYW Peru"
       },
       "marcos": {
         "name": "Marcos Deza",
-        "description": "OYW Ambassador Argentina"
+        "description": "Embajador OYW Argentina"
       },
       "nathan": {
         "name": "Nathan Thomas",
-        "description": "OYW Ambassador USA"
+        "description": "Embajador OYW USA"
       },
       "sebastian": {
         "name": "Sebastian Pedraza",
-        "description": "OYW Ambassador Colombia"
+        "description": "Embajador OYW Colombia"
       },
       "veronica": {
         "name": "Verónica Guzmán Quilaqueo",
-        "description": "OYW Ambassador Chile"
+        "description": "Embajador OYW Chile"
       },
       "madhav": {
         "name": "Madhav Datt",
-        "description": "OYW Ambassador India"
+        "description": "Embajador OYW India"
       }
     }
+  },
+  "testimonials": {
+    "title": "Testimonios",
+    "intro": "Nuestro equipo está dirigido por estudiantes dedicados al bien social procedentes de instituciones reputadas como Stanford, Princeton y One Young World. Confiamos plenamente en los miembros de la comunidad de One Young World y damos la bienvenida a cualquier embajador interesado en colaborar.",
+    "annelisse": "Tras haber sufrido yo misma el COVID junto con toda mi familia en un país desfavorecido, supe al instante que podía marcar la diferencia y evitar que otros corrieran mi misma suerte uniéndome a Virufy",
+    "sebastian": "Virufy une el poder de la juventud y la tecnología para transformar el mundo. Esperamos que esta solución llegue a todo el mundo y que se convierta en un apoyo para los médicos, especialmente en los países de bajos ingresos.",
+    "gonzalo": "Virufy tendrá un impacto global, sin importar la procedencia o el estatus social de los usuarios. Esto es lo que se siente al cambiar el statu quo",
+    "marcos": "Creo que Virufy desarrollará una solución muy precisa y que será útil para todo el mundo en todas las industrias. Así que animo a todo el mundo a que se tome unos minutos y contribuya con nosotros"
   }
 }

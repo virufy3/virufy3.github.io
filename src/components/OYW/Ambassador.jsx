@@ -46,7 +46,7 @@ export default ({ images }) => {
       </div>
 
       <div className="mt-4 sm:grid sm:grid-cols-2 sm:gap-x-4 sm:gap-y-16 lg:grid-cols-3 lg:gap-x-6 xl:grid-cols-4">
-        {oyw.map((amb, idx) => (
+        {oyw.ambassadors.map((amb, idx) => (
           <Ambassador
             key={`ambs${idx}`}
             image={images[amb.imageName].childImageSharp.fluid}
