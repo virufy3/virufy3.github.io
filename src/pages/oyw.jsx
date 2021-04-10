@@ -66,7 +66,8 @@ export default function OYW({ data }) {
         ></p>
 
         <section className="flex flex-wrap mb-20 wrapper md:justify-between">
-          <div className="flex flex-wrap justify-center my-5 md:w-1/2 md:my-10 md:flex-no-wrap md:justify-start">
+          {/* global impact */}
+          <div className="flex flex-wrap justify-center my-5 md:w-1/2 md:my-10 md:flex-no-wrap md:justify-start font-black">
             <div className="w-full">
               <GatsbyImage
                 className="my-6 md:my-0 md:pr-2 md:w-2/12 mb-4 lg:flex hidden"
@@ -81,6 +82,8 @@ export default function OYW({ data }) {
               <p>{intl.formatMessage({ id: "OYW.section2.sub-header" })}</p>
             </div>
           </div>
+
+          {/* youth */}
           <div className="flex flex-wrap justify-center my-5 md:w-1/2 md:my-10 md:flex-no-wrap md:justify-start">
             <div className="w-full">
               <GatsbyImage
@@ -95,6 +98,7 @@ export default function OYW({ data }) {
               <p>{intl.formatMessage({ id: "OYW.section2.youth-des" })}</p>
             </div>
           </div>
+          {/* ambassador impact */}
           <div className="flex flex-wrap justify-center my-5 md:w-1/2 md:my-10 md:flex-no-wrap md:justify-start">
             <div className="w-full">
               <GatsbyImage
@@ -109,7 +113,7 @@ export default function OYW({ data }) {
               <p>{intl.formatMessage({ id: "OYW.section2.ambassador-des" })}</p>
             </div>
           </div>
-
+          {/* diverse */}
           <div className="flex flex-wrap justify-center my-5 md:w-1/2 md:my-10 md:flex-no-wrap md:justify-start">
             <div className="w-full">
               <GatsbyImage
