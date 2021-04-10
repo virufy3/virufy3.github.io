@@ -352,6 +352,71 @@
       "moreQuestionsA": "Mais detalhes podem ser encontrados em nossas Política de Privacidade, Política de Cookies, e Formulário de Consentimento que estão incutidos no nosso App de coleta de dados. Para questões relacionadas ao estudo de coleta de dados, por favor nos contate por meio do email <a href='mailto:study@virufy.org'>study@virufy.org</a>. Para consultas relacionadas a dados, nós podemos ser contatados através do email open-data@virufy.org . Para quaisquer outras dúvidas, você pode entrar em contato por meio do email <a href='mailto:info@virufy.org'>info@virufy.org</a>"
     }
   },
+  "OYW": {
+    "headers": {
+      "header": "Virufy & One Young World",
+      "sub-header": "Virufy is honored to extend a special invitation to all One Young World ambassadors around the world to join our team and contribute to stop COVID-19 quickly. <br/><b>Please visit our <a target='_blank' href='/available-roles'>Join Page</a> to apply!</b>"
+    },
+    "section1": {
+      "header": "Virufy is inspired by One Young World!",
+      "sub-header": "Virufy has been featured on various OYW platforms, including in the Americas and Japan, <a target='_blank' href='https://oywj.org/ambassadors-in-action/2020/05/oywj-ambassador-targets-covid-19-using-ai/' class='text-primary'> ambassadors in action </a>, and <a target='_blank' href='https://www.oneyoungworld.com/north-american-ambassadors-frontlines-covid-19-response' class='text-primary'> ambassadors on the frontline for COVID-19 response </a>. We are also collaborating with OYW coordinating ambassadors across various regions for outreach efforts. Please stay tuned as we update this page!"
+    },
+    "section2": {
+      "header": "Focused on global impact",
+      "sub-header": " Collect data and provide equitable solutions for people in developing countries across the world.",
+      "youth": "Youth led",
+      "youth-des": "Our growing team is led by youth from over a dozen countries and are advised by global leaders.",
+      "ambassador": "Ambassador driven",
+      "ambassador-des": "Our organization structure matches One Young World with youth ambassadors leading operations in each country, with regional coordinating amabssadors.",
+      "diverse": "Diverse representation",
+      "diverse-des": "Our team has representation from over 25 universities and 15 countries and includes more than 10 One Young World ambassadors."
+    },
+    "ambassador": {
+      "header": "OYW Ambassadors",
+      "ambassador-list": {
+        "amil": {
+          "name": "Amil Khanzada",
+          "description": "OYW Ambassador Japan"
+        },
+        "annelisse": {
+          "name": "Annelisse Torrez Daza",
+          "description": "OYW Ambassador Bolivia"
+        },
+        "gonzalo": {
+          "name": "Gonzalo Roiffe",
+          "description": "OYW Ambassador Argentina"
+        },
+        "jason": {
+          "name": "Jason Pareja Jauregui",
+          "description": "OYW Ambassador Peru"
+        },
+        "katherine": {
+          "name": "Katherine Thalia Ortiz León",
+          "description": "OYW Ambassador Peru"
+        },
+        "marcos": {
+          "name": "Marcos Deza",
+          "description": "OYW Ambassador Argentina"
+        },
+        "nathan": {
+          "name": "Nathan Thomas",
+          "description": "OYW Ambassador USA"
+        },
+        "sebastian": {
+          "name": "Sebastian Pedraza",
+          "description": "OYW Ambassador Colombia"
+        },
+        "veronica": {
+          "name": "Verónica Guzmán Quilaqueo",
+          "description": "OYW Ambassador Chile"
+        },
+        "madhav": {
+          "name": "Madhav Datt",
+          "description": "OYW Ambassador India"
+        }
+      }
+    }
+  },
   "privacy_policy": {
     "headers": {
       "header": "Política de privacidade",
