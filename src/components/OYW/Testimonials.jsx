@@ -12,7 +12,7 @@ const Slide = ({ images, testimonial, active }) => {
     <div style={{ display: `${active ? "block" : "none"}` }} className={`fade`}>
       <div className="rectangle-testimonial">
         <GatsbyImage
-          className="absolute top-10 left-0 w-10 h-10 pt-9 ml-9"
+          className="absolute md:flex hidden top-4 md:top-10 left-0 w-4 md:w-10 h-4 md:h-10 pt-9 ml-9"
           imgStyle={{ objectFit: "fill" }}
           fluid={images["semicolon"].childImageSharp.fluid}
         />{" "}
@@ -23,17 +23,17 @@ const Slide = ({ images, testimonial, active }) => {
           })}
         </h5>
         <div className="oyw-testimonial-name-small">
-          <div className="row">
-            <div className="column">
+          <div className="flex flex-col md:flex-row mt-10 md:mt-0">
+            <div className="column md:flex hidden">
               <GatsbyImage
-                className="w-32 mx-auto my-2 rounded-full team-icons"
+                className="w-24 md:w-32 mx-auto my-2 rounded-full team-icons"
                 imgStyle={{ objectFit: "fill" }}
                 fluid={images[testimonial.id].childImageSharp.fluid}
                 alt="Annelisse Torrez Daza"
               />
             </div>
             <div className="column">
-              <h5 className="mt-4 text-base font-semibold text-gray-200 text-center">
+              <h5 className="mt-48 md:mt-4 text-sm md:rext-base font-semibold text-gray-200 text-center">
                 {testimonial.defaultName}
               </h5>
               <h6 className="text-sm text-center text-gray-200">
