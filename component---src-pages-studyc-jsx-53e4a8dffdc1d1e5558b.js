@@ -1,0 +1,2 @@
+(self.webpackChunk=self.webpackChunk||[]).push([[29],{7770:function(e,t,n){"use strict";n.r(t),n.d(t,{default:function(){return c}});var u=n(7294);function c(){return(0,u.useEffect)((function(){window.location.replace("https://virufy.org/study?utm_campaign=curative")})),u.createElement("p",null,"Redirecting...")}}}]);
+//# sourceMappingURL=component---src-pages-studyc-jsx-53e4a8dffdc1d1e5558b.js.map
