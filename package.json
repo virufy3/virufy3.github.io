@@ -1,7 +1,7 @@
 {
   "private": "true",
   "scripts": {
-    "deploy": "gatsby build && gh-pages -d public -b master",
+    "deploy": "gatsby build && gh-pages -d public -b gh-pages",
     "dev": "gatsby develop",
     "start": "gatsby serve",
     "build": "gatsby build",
