@@ -70,14 +70,14 @@
       },
       "alfonso": {
         "name": "Alfonso Assaf",
-        "description": "Antiguo consultor senior, Deloitte\nB.A. Economics, Universidad del CEMA",
+        "description": "Antiguo consultor senior, Deloitte\nB.A. Economía, Universidad del CEMA",
         "title": "Gerente de Alcance Comunitario de Argentina"
       }
     },
     "advisors": {
       "kara": {
         "name": "Kara Meister, M.D.",
-        "description": "Profesor asistente clínico, Otolaryngology\nStanford School of Medicine",
+        "description": "Profesor asistente clínico, Otorrinolaringología\nStanford School of Medicine",
         "title": "Asesora Medica"
       },
       "jure": {
@@ -122,7 +122,7 @@
       },
       "hugo": {
         "name": "Hugo Estrada",
-        "description": "CEO y Gerente Partner en iwé Consultores\nJefe de Nueva EPS (Entidad promotora de Salud)",
+        "description": "CEO y Gerente Partner en iwé Consultores\nPresidente Junta Directiva de Nueva EPS.",
         "title": "Asesor Ejecutivo de Divulgación de Colombia"
       },
       "pedro": {
@@ -132,7 +132,7 @@
       },
       "tsutomu": {
         "name": "Tsutomu Ito",
-        "description": "Fundador - Tannan FM Radio\nLead Architect, Bullet Train\nFukui, Japan",
+        "description": "Fundador - Tannan FM Radio\nLíder de architectura de Bullet Train\nFukui, Japan",
         "title": "Executive Asesor Visionario"
       },
       "taisuke": {
@@ -147,7 +147,7 @@
       },
       "alfonso": {
         "name": "Alfonso Assaf",
-        "description": "Antiguo consultor senior, Deloitte\nB.A. Economics, Universidad del CEMA",
+        "description": "Antiguo consultor senior, Deloitte\nB.A. Economía, Universidad del CEMA",
         "title": "Gerente de Alcance Comunitario de Argentina"
       }
     }
