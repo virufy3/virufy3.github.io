@@ -67,29 +67,31 @@ export default ({ images }) => {
         </h2>
       </div>
       <button
-        onClick={() => setSelectedTab(tabs.advisors)}
+        onClick={() => setSelectedTab(tabs.teamLeads)}
         className={`${
-          selectedTab === tabs.advisors
+          selectedTab === tabs.teamLeads
             ? selectedTabClasses
             : unselectedTabClasses
         } mr-4`}
       >
         {intl.formatMessage({
-          id: "team.teamSection.advisorText",
+          id: "team.teamSection.teamLeadText",
         })}
       </button>
       <button
-        onClick={() => setSelectedTab(tabs.teamLeads)}
+        id="advisors"
+        onClick={() => setSelectedTab(tabs.advisors)}
         className={
-          selectedTab === tabs.teamLeads
+          selectedTab === tabs.advisors
             ? selectedTabClasses
             : unselectedTabClasses
         }
       >
         {intl.formatMessage({
-          id: "team.teamSection.teamLeadText",
+          id: "team.teamSection.advisorText",
         })}
       </button>
+
       <div className="mt-4 sm:grid sm:grid-cols-2 sm:gap-x-4 sm:gap-y-16 lg:grid-cols-3 lg:gap-x-6 xl:grid-cols-4">
         {selectedTab === tabs.teamLeads &&
           leadership.map((leader, idx) => (
