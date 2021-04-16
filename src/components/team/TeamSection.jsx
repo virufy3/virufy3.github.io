@@ -50,7 +50,7 @@ const TeamMember = (props) => {
 
 export default ({ images }) => {
   const intl = useIntl();
-  const [selectedTab, setSelectedTab] = useState("advisors");
+  const [selectedTab, setSelectedTab] = useState("team leads");
   const tabs = {
     teamLeads: "team leads",
     advisors: "advisors",
@@ -79,7 +79,6 @@ export default ({ images }) => {
         })}
       </button>
       <button
-        id="advisors"
         onClick={() => setSelectedTab(tabs.advisors)}
         className={
           selectedTab === tabs.advisors
