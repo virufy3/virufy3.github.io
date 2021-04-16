@@ -72,6 +72,11 @@
         "name": "Alfonso Assaf",
         "description": "Antiguo consultor senior, Deloitte\nB.A. Economía, Universidad del CEMA",
         "title": "Gerente de Alcance Comunitario de Argentina"
+      },
+      "zach": {
+        "name": "Zach Lawless",
+        "description": "Científico de datos sénior\nUniversidad de Washington",
+        "title": "Líder del equipo MLOps"
       }
     },
     "advisors": {
