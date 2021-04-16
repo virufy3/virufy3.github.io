@@ -72,6 +72,11 @@
         "name": "Alfonso Assaf",
         "description": "Ex-consultor sénior, Deloitte\nB.A. Economics, Universidad del CEMA",
         "title": "Gestor de Divulgação da Comunidade Argentina"
+      },
+      "zach": {
+        "name": "Zach Lawless",
+        "description": "Cientista de Dados Sênior\nUniversidade de Washington",
+        "title": "Lider de Time MLOps"
       }
     },
     "advisors": {
