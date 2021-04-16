@@ -1,0 +1,2 @@
+(self.webpackChunk=self.webpackChunk||[]).push([[228],{9834:function(e,n,t){"use strict";t.r(n),t.d(n,{default:function(){return c}});var u=t(7294);function c(){return(0,u.useEffect)((function(){window.location.replace("/team#advisors")})),u.createElement("p",null,"Redirecting...")}}}]);
+//# sourceMappingURL=component---src-pages-advisors-jsx-0dca3e177c745fe3ce43.js.map
