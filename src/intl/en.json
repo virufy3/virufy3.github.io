@@ -523,6 +523,11 @@
           "name": "Alfonso Assaf",
           "description": "Former Senior Consultant, Deloitte\nB.A. Economics, Universidad del CEMA",
           "title": "Argentina Community Outreach Manager"
+        }, 
+        "zach": {
+          "name": "Zach Lawless",
+          "description": "Senior Data Scientist, The University of Washington",
+          "title": "MLOps Team Lead"
         }
       },
       "advisors": {

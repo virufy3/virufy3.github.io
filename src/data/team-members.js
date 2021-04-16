@@ -79,6 +79,12 @@ export const leadership = [
     defaultName: "Alfonso Assaf",
     imageName: "alfonso",
   },
+  {
+    mediaLink: "https://www.linkedin.com/in/zach-lawless-772a7713a/",
+    id: "zach",
+    defaultName: "Zach Lawless",
+    imageName: "zach",
+  },
 ];
 
 export const advisors = [
