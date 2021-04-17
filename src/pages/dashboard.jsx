@@ -1,15 +1,9 @@
 import React from "react";
-var Highcharts = require("highcharts/highstock");
-require("highcharts/modules/map")(Highcharts);
-
-import HighchartsMore from "highcharts/highcharts-more";
 
 import Layout from "../components/Layout";
 import { useIntl } from "gatsby-plugin-intl";
 import SEO from "../components/SEO";
 import MapAmerica from "./MapAmerica";
-
-HighchartsMore(Highcharts);
 
 export default function Dashboard({ data }) {
   const intl = useIntl();
