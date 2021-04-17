@@ -63,16 +63,20 @@ export default ({ bgColor, textColor, virufyLogo }) => {
                   // have to include locale in url or intl plugin will redirect without the id...
 
                   <div className="absolute ml-4 bg-gray-100">
-                    {link.dropDownLinks.map(({ intlId, sectionId }, idx) => (
-                      <Link
-                        className="p-4 block text-black hover:bg-gray-200 no-underline"
-                        // to={path}
-                        to={`/${currentLocale}${link.path}#${sectionId}`}
-                        key={idx}
-                      >
-                        {intl.formatMessage({ id: intlId })}
-                      </Link>
-                    ))}
+                    {link.dropDownLinks.map(
+                      ({ intlId, sectionId, path }, idx) => (
+                        <Link
+                          className="p-4 block text-black hover:bg-gray-200 no-underline"
+                          // to={path}
+                          to={`/${currentLocale}${
+                            path || link.path
+                          }#${sectionId}`}
+                          key={idx}
+                        >
+                          {intl.formatMessage({ id: intlId })}
+                        </Link>
+                      )
+                    )}
                   </div>
                 )}
               </span>

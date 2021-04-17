@@ -19,6 +19,9 @@ const getLastPath = (location) => {
 };
 
 export const isActivePath = (location, link) => {
+  if (location.pathname.includes("dashboard") && link.path.includes("team")) {
+    return true;
+  }
   return (
     matchLastPath(getLastPath(location), link) &&
     matchHash({ hash: location.hash, path: link.path })
