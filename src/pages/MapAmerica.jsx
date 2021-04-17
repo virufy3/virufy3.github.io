@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { findDOMNode } from "react-dom";
 import HighMaps from "highcharts/highmaps";
+import { useIntl } from "gatsby-plugin-intl";
 
 import americalMap from "../script/maps/america-map";
 import { countryCode } from "../script/maps/countriies";
@@ -8,10 +9,11 @@ import { countryCode } from "../script/maps/countriies";
 // Service
 import { getData } from "../services/CoughService";
 
+// const intl = useIntl();
+
 class MapAmerica extends Component {
   constructor(props) {
     super(props);
-    this.index = 2;
     this.state = {
       options: {
         title: {
@@ -60,19 +62,11 @@ class MapAmerica extends Component {
         },
         tooltip: {
           formatter: function (tooltip) {
-            // if (this.point.isNull) {
-            //     return 'Null';
-            // }
-
-            // return tooltip.defaultFormatter.call(this, tooltip);
             return `<b>${this.key}:</b> <br>
               Donated coughs <b>${this.point.value}</b> <br>`;
           },
         },
         legend: {
-          // layout: "vertical",
-          // align: "left",
-          // verticalAlign: "middle"
           align: "center",
           verticalAlign: "bottom",
           layout: "horizontal",

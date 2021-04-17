@@ -1,8 +1,5 @@
 import React from "react";
-// import Highcharts from 'highcharts/highmaps
 var Highcharts = require("highcharts/highstock");
-// Load Highcharts Maps as a module
-import HighchartsReact from "highcharts-react-official";
 require("highcharts/modules/map")(Highcharts);
 
 import HighchartsMore from "highcharts/highcharts-more";
