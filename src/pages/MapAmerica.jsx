@@ -22,18 +22,22 @@ class MapAmerica extends Component {
         chart: {
           spacingTop: 0,
           marginTop: 0,
-          height: (9 / 16) * 100 + "%",
+          marginRight: (14 / 16) * 100 + "%",
+          height: (10 / 16) * 100 + "%",
           spacingRight: 5,
           spacingBottom: 20,
-          spacingLeft: 5,
-          marginRight: 40,
+          spacingLeft: 10,
+          marginRight: 100,
           spacingLeft: 40,
         },
         responsives: {
           rules: [
             {
               condition: {
-                minWidth: 600,
+                minHeight: 600,
+              },
+              chart: {
+                height: (14 / 16) * 100 + "%",
               },
               chartOptions: {
                 legend: {
@@ -62,8 +66,11 @@ class MapAmerica extends Component {
         },
         tooltip: {
           formatter: function (tooltip) {
+            // Donated coughs
             return `<b>${this.key}:</b> <br>
-              Donated coughs <b>${this.point.value}</b> <br>`;
+              ${props.intl.formatMessage({
+                id: "dashboard.donatedCoughs",
+              })}: <b>${this.point.value}</b> <br>`;
           },
         },
         legend: {

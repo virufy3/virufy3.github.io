@@ -37,7 +37,9 @@ export default function Dashboard({ data }) {
           </div>
         </div>
       </div>
-      <MapAmerica></MapAmerica>
+      <div>
+        <MapAmerica intl={intl}></MapAmerica>
+      </div>
 
       {/* COUNTER */}
 
