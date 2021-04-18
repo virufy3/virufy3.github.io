@@ -37,7 +37,7 @@ export default function Dashboard({ data }) {
           </div>
         </div>
       </div>
-      <div>
+      <div className="w-full h-96 md:w-auto md:mx-72 md:h-full">
         <MapAmerica intl={intl}></MapAmerica>
       </div>
 
