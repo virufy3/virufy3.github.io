@@ -50,7 +50,7 @@ export default function Dashboard({ data }) {
               width="300"
               height="185"
               scrolling="no"
-              src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS0ZDjc9QHcMtCMoknKwX8WCzAJQ8Mk-yJ1CGwbCf-JqKKuemlIGL9EPPAe-7Ars2EI6z_ZAQsWEXgX/pubchart?oid=1483123778&amp;format=interactive"
+              src="https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vS0ZDjc9QHcMtCMoknKwX8WCzAJQ8Mk-yJ1CGwbCf-JqKKuemlIGL9EPPAe-7Ars2EI6z_ZAQsWEXgX/pubchart?oid=310037411&format=interactive"
             ></iframe>
           </div>
         </div>
