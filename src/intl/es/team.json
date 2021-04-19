@@ -30,7 +30,7 @@
       },
       "ravel": {
         "name": "Ravel Charles",
-        "description": "Ingeniero de solucciones en la nube, Google\nM.P.S. Seguridad de datos, Northeastern University",
+        "description": "Ingeniero de Soluciones en la Nube, Google\nM.P.S. Seguridad de Datos, Northeastern University",
         "title": "Líder del Equipo Infosec"
       },
       "amelie": {
@@ -46,16 +46,16 @@
       "marcos": {
         "name": "Marcos Deza",
         "description": "Embajador de Argentina en One Young World\nM.A. Public Relations, Ott Educación Superior",
-        "title": "Líder del Equipo de Comunicaciones Digitales de Lation América"
+        "title": "Líder del Equipo de Comunicaciones Digitales de Latinoamérica"
       },
       "gunvant": {
         "name": "Gunvant Chaudhari",
-        "description": "Investigador de big data en radiología\nEstudiante de doctorado, UC San Francisco",
-        "title": "Líder del equipo de la IA"
+        "description": "Investigador de Big Data en Radiología\nEstudiante de Doctorado, UC San Francisco",
+        "title": "Líder del Equipo de IA"
       },
       "jason": {
         "name": "Jason Pareja Jauregui",
-        "description": "Coordinador de embajadores One Young World Latinoamerica\nGraduate, MIT Sloan School of Management",
+        "description": "Coordinador de Embajadores One Young World Latinoamérica\nGraduate, MIT Sloan School of Management",
         "title": "Líder de Alcance Comunitario Peru"
       },
       "sebastian": {
@@ -66,24 +66,24 @@
       "kitan": {
         "name": "Kitan Fasuyi",
         "description": "Director de Producto / Proyecto\nEpic",
-        "title": "Director de proyectos globales"
+        "title": "Director de Proyectos Globales"
       },
       "alfonso": {
         "name": "Alfonso Assaf",
-        "description": "Antiguo consultor senior, Deloitte\nB.A. Economía, Universidad del CEMA",
-        "title": "Gerente de Alcance Comunitario de Argentina"
+        "description": "Ex-Consultor Sr., Deloitte\nB.A. Economía, Universidad del CEMA",
+        "title": "Manager de Alcance Comunitario de Argentina"
       },
       "zach": {
         "name": "Zach Lawless",
-        "description": "Científico de datos sénior\nUniversidad de Washington",
-        "title": "Líder del equipo MLOps"
+        "description": "Científico de Datos Sr.\nUniversidad de Washington",
+        "title": "Líder del Equipo MLOps"
       }
     },
     "advisors": {
       "kara": {
         "name": "Kara Meister, M.D.",
-        "description": "Profesor asistente clínico, Otorrinolaringología\nStanford School of Medicine",
-        "title": "Asesora Medica"
+        "description": "Profesora Asistente Clínica, Otorrinolaringología\nStanford School of Medicine",
+        "title": "Asesora Médica"
       },
       "jure": {
         "name": "Jure Leskovec",
@@ -103,7 +103,7 @@
       "rafi": {
         "name": "Rafi Azim-Khan",
         "description": "Socio - Pillsbury Law\nSilicon Valley & Europe",
-        "title": "Asesor Jurídico Ejecutivo"
+        "title": "Asesor Ejecutivo Jurídico"
       },
       "richard": {
         "name": "Richard Nall",
@@ -122,8 +122,8 @@
       },
       "melissa": {
         "name": "Melissa Dyrdahl",
-        "description": "Es CMO - Adobe\nBecaria del ICD de Stanford\nMiembro del Consejo de Administración - CommonSpirit Health",
-        "title": "Asesor Ejecutivo de Marketing"
+        "description": "CMO - Adobe\nICD de Stanford\nMiembro del Consejo de Administración - CommonSpirit Health",
+        "title": "Asesora Ejecutiva de Marketing"
       },
       "hugo": {
         "name": "Hugo Estrada",
@@ -137,7 +137,7 @@
       },
       "tsutomu": {
         "name": "Tsutomu Ito",
-        "description": "Fundador - Tannan FM Radio\nLíder de architectura de Bullet Train\nFukui, Japan",
+        "description": "Fundador - Tannan FM Radio\nLíder de Architectura de Bullet Train\nFukui, Japan",
         "title": "Asesor Ejecutivo de Tecnología"
       },
       "taisuke": {
@@ -147,7 +147,7 @@
       },
       "victor": {
         "name": "Victor Wang",
-        "description": "Fundador y presidente en China Silicon Valley\nCEO en SinoSV LLC",
+        "description": "Fundador y Presidente en China Silicon Valley\nCEO en SinoSV LLC",
         "title": "Asesor Ejecutivo"
       },
       "alfonso": {
