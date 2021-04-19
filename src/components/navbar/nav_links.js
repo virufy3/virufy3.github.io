@@ -14,6 +14,7 @@ export default [
     defMsg: "Our Org",
     path: "/team",
     dropDownLinks: [
+      { intlId: "nav.ourData", sectionId: "", path: "/dashboard" },
       { intlId: "nav.ourVision", sectionId: "our-vision" },
       { intlId: "nav.ourTeam", sectionId: "our-team" },
       { intlId: "nav.ourSupporters", sectionId: "our-supporters" },

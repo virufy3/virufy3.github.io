@@ -8,7 +8,8 @@
   "dashboard": {
     "header": "Collected Data Dashboard",
     "sub-header": "Your cough helps us improve our predictive model, thus being <b>crucial</b> in the fight against <b>COVID-19</b>. See the progress that we have made and donate your cough!",
-    "button": "Contribute Your Cough"
+    "button": "Contribute Your Cough",
+    "donatedCoughs": "Donated Coughs"
   },
   "footer": {
     "cookiePolicy": "Cookie Policy",
@@ -98,6 +99,8 @@
   },
   "nav": {
     "ourApproach": "Our Approach",
+    "dashboard": "Dashboard",
+    "ourData": "Our data",
     "ourOrg": "Our Org",
     "inTheNews": "In the News",
     "getInvolved": "GET INVOLVED",

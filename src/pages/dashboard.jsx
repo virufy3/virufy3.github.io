@@ -1,13 +1,17 @@
 import React from "react";
+
 import Layout from "../components/Layout";
 import { useIntl } from "gatsby-plugin-intl";
 import SEO from "../components/SEO";
+import MapAmerica from "./MapAmerica";
 
 export default function Dashboard({ data }) {
   const intl = useIntl();
+
   return (
     <Layout>
       <SEO title="Dashboard | Virufy" />
+
       <div className="px-4 lg:px-0 lg:w-4/5 lg:mx-auto">
         <div className="grid mb-14 xl:px-0 justify-items-center grid-col-1 gap-16 overflow-hidden">
           <div className="mb-14 justify-self-start xl:mb-0 2l:mr-9">
@@ -31,21 +35,22 @@ export default function Dashboard({ data }) {
               {intl.formatMessage({ id: "dashboard.button" })}
             </a>
           </div>
-          {/* COUNTER */}
-          <div className="mt-2 ml-14 md:ml-24 xl:ml-6">
+        </div>
+      </div>
+      <div className="w-full  md:w-auto lg:mx-72 md:h-full">
+        <MapAmerica intl={intl}></MapAmerica>
+      </div>
+
+      {/* COUNTER */}
+
+      <div className="px-1 lg:px-0 lg:w-screen lg:mx-auto">
+        <div className="grid mb-1 xl:px-0 justify-items-center grid-col-1 overflow-hidden">
+          <div className="grid mt-1">
             <iframe
               width="300"
               height="185"
               scrolling="no"
-              src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS0ZDjc9QHcMtCMoknKwX8WCzAJQ8Mk-yJ1CGwbCf-JqKKuemlIGL9EPPAe-7Ars2EI6z_ZAQsWEXgX/pubchart?oid=1483123778&amp;format=interactive"
-            ></iframe>
-          </div>
-          {/* INTERACTIVE MAP */}
-          <div class="relative w-full h-full pb-2/3 pt-96 md:pt-1/3 lg:ml-24 lg:pb-64">
-            <iframe
-              className="absolute top-0 bottom-0 right-0 left-0 w-full h-full"
-              scrolling="yes"
-              src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS0ZDjc9QHcMtCMoknKwX8WCzAJQ8Mk-yJ1CGwbCf-JqKKuemlIGL9EPPAe-7Ars2EI6z_ZAQsWEXgX/pubchart?oid=795469561&amp;format=interactive"
+              src="https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vS0ZDjc9QHcMtCMoknKwX8WCzAJQ8Mk-yJ1CGwbCf-JqKKuemlIGL9EPPAe-7Ars2EI6z_ZAQsWEXgX/pubchart?oid=310037411&format=interactive"
             ></iframe>
           </div>
         </div>
