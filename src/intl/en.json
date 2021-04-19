@@ -5,79 +5,6 @@
     "code": "Error code: 404",
     "back": "Back to Homepage"
   },
-  "OYW": {
-    "headers": {
-      "header": "Virufy & One Young World",
-      "sub-header": "Virufy is honored to extend a special invitation to all One Young World ambassadors around the world to join our team and contribute to stop COVID-19 quickly. <br/><b>Please visit our <a target='_blank' href='/available-roles'>Join Page</a> to apply!</b>"
-    },
-    "section1": {
-      "header": "Virufy is inspired by One Young World!",
-      "sub-header": "Virufy has been featured on various OYW platforms, including in the Americas and Japan, <a target='_blank' href='https://oywj.org/ambassadors-in-action/2020/05/oywj-ambassador-targets-covid-19-using-ai/' class='text-primary'> ambassadors in action </a>, and <a target='_blank' href='https://www.oneyoungworld.com/north-american-ambassadors-frontlines-covid-19-response' class='text-primary'> ambassadors on the frontline for COVID-19 response </a>. We are also collaborating with OYW coordinating ambassadors across various regions for outreach efforts. Please stay tuned as we update this page!"
-    },
-    "section2": {
-      "header": "Focused on global impact",
-      "sub-header": " Collect data and provide equitable solutions for people in developing countries across the world.",
-      "youth": "Youth led",
-      "youth-des": "Our growing team is led by youth from over a dozen countries and are advised by global leaders.",
-      "ambassador": "Ambassador driven",
-      "ambassador-des": "Our organization structure matches One Young World with youth ambassadors leading operations in each country, with regional coordinating ambassadors.",
-      "diverse": "Diverse representation",
-      "diverse-des": "Our team has representation from over 25 universities and 15 countries and includes more than 10 One Young World ambassadors."
-    },
-    "ambassador": {
-      "header": "OYW Ambassadors",
-      "ambassador-list": {
-        "amil": {
-          "name": "Amil Khanzada",
-          "description": "OYW Ambassador Japan"
-        },
-        "annelisse": {
-          "name": "Annelisse Torrez Daza",
-          "description": "OYW Ambassador Bolivia"
-        },
-        "gonzalo": {
-          "name": "Gonzalo Roiffe",
-          "description": "OYW Ambassador Argentina"
-        },
-        "jason": {
-          "name": "Jason Pareja Jauregui",
-          "description": "OYW Ambassador Peru"
-        },
-        "katherine": {
-          "name": "Katherine Thalia Ortiz León",
-          "description": "OYW Ambassador Peru"
-        },
-        "marcos": {
-          "name": "Marcos Deza",
-          "description": "OYW Ambassador Argentina"
-        },
-        "nathan": {
-          "name": "Nathan Thomas",
-          "description": "OYW Ambassador USA"
-        },
-        "sebastian": {
-          "name": "Sebastian Pedraza",
-          "description": "OYW Ambassador Colombia"
-        },
-        "veronica": {
-          "name": "Verónica Guzmán Quilaqueo",
-          "description": "OYW Ambassador Chile"
-        },
-        "madhav": {
-          "name": "Madhav Datt",
-          "description": "OYW Ambassador India"
-        }
-      }
-    },
-    "testimonials": {
-      "title": "Testimonials",
-      "intro": "Our team is led by students dedicated to social good from reputable institutions like Stanford, Princeton, and One Young World. We have strong trust in members of the One Young World community and warmly welcome any ambassadors interested to pitch in.",
-      "annelisse": "Having suffered through COVID myself along with all of my family in a underprivileged country, I knew instantly that I could make a difference and prevent others from facing my same fate by joining Virufy.",
-      "sebastian": "Virufy unites the power of youth and technology to transform the world. We hope that this solution will reach the whole world and that it will become a support for doctors, especially in low-income countries.",
-      "gonzalo": "Virufy will impact globally, no matter the users' background or social status. This is what changing the status quo feels like.",
-      "marcos": "I think that Virufy will develop a very accurate solution and this will be useful for the entire world in every industry. So I encourage everyone to take some minutes and contribute with us."
-    }
-  },
   "dashboard": {
     "header": "Collected Data Dashboard",
     "sub-header": "Your cough helps us improve our predictive model, thus being <b>crucial</b> in the fight against <b>COVID-19</b>. See the progress that we have made and donate your cough!",
@@ -428,6 +355,79 @@
       "moreQuestionsA": "More details can be found in our full privacy policy, cookie policy and consent form which is embedded in the data collection app. For questions related to the data collection study, please email us at <a href='mailto:study@virufy.org'>study@virufy.org</a>. For data related queries, we can be contacted at <a href='mailto:open-data@virufy.org'>open-data@virufy.org</a>. For all other inquiries, you may reach us at info@virufy.org."
     }
   },
+  "OYW": {
+    "headers": {
+      "header": "Virufy & One Young World",
+      "sub-header": "Virufy is honored to extend a special invitation to all One Young World ambassadors around the world to join our team and contribute to stop COVID-19 quickly. <br/><b>Please visit our <a target='_blank' href='/available-roles'>Join Page</a> to apply!</b>"
+    },
+    "section1": {
+      "header": "Virufy is inspired by One Young World!",
+      "sub-header": "Virufy has been featured on various OYW platforms, including in the Americas and Japan, <a target='_blank' href='https://oywj.org/ambassadors-in-action/2020/05/oywj-ambassador-targets-covid-19-using-ai/' class='text-primary'> ambassadors in action </a>, and <a target='_blank' href='https://www.oneyoungworld.com/north-american-ambassadors-frontlines-covid-19-response' class='text-primary'> ambassadors on the frontline for COVID-19 response </a>. We are also collaborating with OYW coordinating ambassadors across various regions for outreach efforts. Please stay tuned as we update this page!"
+    },
+    "section2": {
+      "header": "Focused on global impact",
+      "sub-header": " Collect data and provide equitable solutions for people in developing countries across the world.",
+      "youth": "Youth led",
+      "youth-des": "Our growing team is led by youth from over a dozen countries and are advised by global leaders.",
+      "ambassador": "Ambassador driven",
+      "ambassador-des": "Our organization structure matches One Young World with youth ambassadors leading operations in each country, with regional coordinating ambassadors.",
+      "diverse": "Diverse representation",
+      "diverse-des": "Our team has representation from over 25 universities and 15 countries and includes more than 10 One Young World ambassadors."
+    },
+    "ambassador": {
+      "header": "OYW Ambassadors",
+      "ambassador-list": {
+        "amil": {
+          "name": "Amil Khanzada",
+          "description": "OYW Ambassador Japan"
+        },
+        "annelisse": {
+          "name": "Annelisse Torrez Daza",
+          "description": "OYW Ambassador Bolivia"
+        },
+        "gonzalo": {
+          "name": "Gonzalo Roiffe",
+          "description": "OYW Ambassador Argentina"
+        },
+        "jason": {
+          "name": "Jason Pareja Jauregui",
+          "description": "OYW Ambassador Peru"
+        },
+        "katherine": {
+          "name": "Katherine Thalia Ortiz León",
+          "description": "OYW Ambassador Peru"
+        },
+        "marcos": {
+          "name": "Marcos Deza",
+          "description": "OYW Ambassador Argentina"
+        },
+        "nathan": {
+          "name": "Nathan Thomas",
+          "description": "OYW Ambassador USA"
+        },
+        "sebastian": {
+          "name": "Sebastian Pedraza",
+          "description": "OYW Ambassador Colombia"
+        },
+        "veronica": {
+          "name": "Verónica Guzmán Quilaqueo",
+          "description": "OYW Ambassador Chile"
+        },
+        "madhav": {
+          "name": "Madhav Datt",
+          "description": "OYW Ambassador India"
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Testimonials",
+      "intro": "Our team is led by students dedicated to social good from reputable institutions like Stanford, Princeton, and One Young World. We have strong trust in members of the One Young World community and warmly welcome any ambassadors interested to pitch in.",
+      "annelisse": "Having suffered through COVID myself along with all of my family in a underprivileged country, I knew instantly that I could make a difference and prevent others from facing my same fate by joining Virufy.",
+      "sebastian": "Virufy unites the power of youth and technology to transform the world. We hope that this solution will reach the whole world and that it will become a support for doctors, especially in low-income countries.",
+      "gonzalo": "Virufy will impact globally, no matter the users' background or social status. This is what changing the status quo feels like.",
+      "marcos": "I think that Virufy will develop a very accurate solution and this will be useful for the entire world in every industry. So I encourage everyone to take some minutes and contribute with us."
+    }
+  },
   "privacy_policy": {
     "headers": {
       "header": "Privacy Policy",
@@ -531,6 +531,11 @@
           "name": "Zach Lawless",
           "description": "Senior Data Scientist\nThe University of Washington",
           "title": "MLOps Team Lead"
+        },
+        "colleen": {
+          "name": "Colleen Wang",
+          "description": "Author of Roses Watered by a Robot’s Tears",
+          "title": "Fundraising Team Lead"
         }
       },
       "advisors": {
@@ -608,6 +613,11 @@
           "name": "Alfonso Assaf",
           "description": "Former Senior Consultant, Deloitte\nB.A. Economics, Universidad del CEMA",
           "title": "Argentina Community Outreach Manager"
+        },
+        "richardswart": {
+          "name": "Richard Swartzbaugh",
+          "description": "Curaesoft, Managing Director & Chief Risk Officer\nJuris Doctorate, University of Iowa",
+          "title": "Healthcare / Software Executive"
         }
       }
     },

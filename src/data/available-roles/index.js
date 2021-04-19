@@ -1,6 +1,14 @@
 export const roles = [
   {
     description:
+      "Seeking an individual to contribute on a part-time, volunteer basis to evaluate and screen potential candidates to fill vacant volunteering opportunities at Virufy. A key element of this position is the ability to attract highly-competitive and best-fit candidates for the job. Success in this role will be determined by providing an increased number of qualified and passionate candidates and retention rates.",
+    location: "Remote",
+    title: "Technical Recruiter (AI)",
+    url:
+      "https://docs.google.com/document/d/1umbOcHv3ZAMHIRx9XwWyAcFrdMlpdiimwJmwzKh_Jr0/edit#heading=h.sacgk1on2in4",
+  },
+  {
+    description:
       "Seeking an individual to contribute on a part-time volunteer basis to raise funds for our global marketing and data crowdsourcing campaigns to continue operating.",
     location: "Remote",
     title: "Fundraising Team Volunteer",

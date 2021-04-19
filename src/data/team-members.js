@@ -66,7 +66,6 @@ export const leadership = [
     defaultName: "Sebastian Pedraza",
     imageName: "sebastian",
   },
-
   {
     mediaLink: "https://www.linkedin.com/in/kitanf/",
     id: "kitan",
@@ -84,6 +83,12 @@ export const leadership = [
     id: "zach",
     defaultName: "Zach Lawless",
     imageName: "zach",
+  },
+  {
+    mediaLink: "https://www.linkedin.com/in/colleen-wang-59a091205/",
+    id: "colleen",
+    defaultName: "Colleen Wang",
+    imageName: "colleen",
   },
 ];
 
@@ -172,5 +177,11 @@ export const advisors = [
     id: "tsutomu",
     defaultName: "Tsutomu Ito",
     imageName: "ito",
+  },
+  {
+    mediaLink: "https://www.linkedin.com/in/rswartzbaugh/",
+    id: "richardswart",
+    defaultName: "Richard Swartzbaugh",
+    imageName: "richardswart",
   },
 ];

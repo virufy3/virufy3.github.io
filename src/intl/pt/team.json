@@ -77,6 +77,11 @@
         "name": "Zach Lawless",
         "description": "Cientista de Dados Sênior\nUniversidade de Washington",
         "title": "Lider de Time MLOps"
+      },
+      "colleen": {
+        "name": "Colleen Wang",
+        "description": "Author of Roses Watered by a Robot’s Tears",
+        "title": "Fundraising Team Lead"
       }
     },
     "advisors": {
@@ -154,6 +159,11 @@
         "name": "Alfonso Assaf",
         "description": "Ex-consultor sénior, Deloitte\nB.A. Economics, Universidad del CEMA",
         "title": "Gestor de Divulgação da Comunidade Argentina"
+      },
+      "richardswart": {
+        "name": "Richard Swartzbaugh",
+        "description": "Curaesoft, Managing Director & Chief Risk Officer\nJuris Doctorate, University of Iowa",
+        "title": "Healthcare / Software Executive"
       }
     }
   },
