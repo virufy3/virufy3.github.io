@@ -37,15 +37,15 @@ export default function Dashboard({ data }) {
           </div>
         </div>
       </div>
-      <div className="w-full h-96 md:w-auto md:mx-72 md:h-full">
+      <div className="w-full  md:w-auto lg:mx-72 md:h-full">
         <MapAmerica intl={intl}></MapAmerica>
       </div>
 
       {/* COUNTER */}
 
-      <div className="px-4 lg:px-0 lg:w-4/5 lg:mx-auto">
-        <div className="grid mb-14 xl:px-0 justify-items-center grid-col-1 gap-16 overflow-hidden">
-          <div className="mt-2 ml-14 md:ml-24 xl:ml-6">
+      <div className="px-1 lg:px-0 lg:w-screen lg:mx-auto">
+        <div className="grid mb-1 xl:px-0 justify-items-center grid-col-1 overflow-hidden">
+          <div className="grid mt-1">
             <iframe
               width="300"
               height="185"

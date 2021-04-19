@@ -22,13 +22,7 @@ class MapAmerica extends Component {
         chart: {
           spacingTop: 0,
           marginTop: 0,
-          marginRight: 20,
-          height: (16 / 16) * 100 + "%",
-          spacingRight: 5,
-          spacingBottom: 20,
-          spacingLeft: 10,
-          marginRight: 60,
-          spacingLeft: 40,
+          height: 100 + "%",
         },
         responsives: {
           rules: [
