@@ -118,6 +118,22 @@
     },
     "news": {
       "section2": {
+        "date": "February 2021",
+        "title": "Esta app busca diagnosticar Covid-19 con sólo toser frente al teléfono",
+        "name": "Forbes",
+        "city": " ",
+        "country": " ",
+        "readMoreLink": "Leer más..."
+      },
+      "section3": {
+        "date": "January 2021",
+        "title": "COVID-19: Aplicativo Virufy puede diagnosticar el virus mediante el análisis de la tos",
+        "name": "MSN",
+        "city": " ",
+        "country": " ",
+        "readMoreLink": "Leer más..."
+      },
+      "section4": {
         "date": "Octubre 2020",
         "title": "VIRUFY: plataforma que permite detectar si estamos contagiados con COVID-19",
         "name": "Expreso",
@@ -125,7 +141,7 @@
         "country": "Perú",
         "readMoreLink": "Leer más..."
       },
-      "section3": {
+      "section5": {
         "date": "Mayo 2020",
         "title": "One Young World Japan Ambassador Targets COVID-19 Using A.I.",
         "name": "One Young World",
@@ -133,7 +149,7 @@
         "country": "Japón",
         "readMoreLink": "Leer más..."
       },
-      "section4": {
+      "section6": {
         "date": "2020",
         "title": "North American Ambassadors on the Frontlines of the COVID-19 Response",
         "name": "One Young World",
@@ -141,7 +157,7 @@
         "country": " ",
         "readMoreLink": "Leer más..."
       },
-      "section5": {
+      "section7": {
         "date": "Julio 2020",
         "title": "Embajadores del mes Julio",
         "name": "One Young World",
@@ -149,7 +165,7 @@
         "country": " ",
         "readMoreLink": "Leer más..."
       },
-      "section6": {
+      "section8": {
         "date": "Julio 2020",
         "title": "Thousands attend OYW's global digital events in Julio: A recap of what you've missed",
         "name": "One Young World",
@@ -157,7 +173,7 @@
         "country": " ",
         "readMoreLink": "Leer más..."
       },
-      "section7": {
+      "section9": {
         "date": "2020",
         "title": "One Young World Tokyo 2020 Caucus",
         "name": "One Young World",
@@ -165,7 +181,7 @@
         "country": " ",
         "readMoreLink": "Leer más..."
       },
-      "section8": {
+      "section10": {
         "date": "2020",
         "title": "Virufy Presentation to One Young World Tokyo 2020 Cacus",
         "name": "One Young World",
@@ -173,7 +189,7 @@
         "country": "Japón",
         "readMoreLink": "Ver más..."
       },
-      "section9": {
+      "section11": {
         "date": "2020",
         "title": "Sounds of COVID-19 Workshop",
         "name": "One Young World",
@@ -416,6 +432,10 @@
         "madhav": {
           "name": "Madhav Datt",
           "description": "Embajador OYW India"
+        },
+        "yulie": {
+          "name": "Yulie Qiao",
+          "description": "Embajador OYW USA"
         }
       }
     },

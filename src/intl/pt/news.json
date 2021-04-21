@@ -5,6 +5,22 @@
   },
   "news": {
     "section2": {
+      "date": "February 2021",
+      "title": "Esta app busca diagnosticar Covid-19 con sólo toser frente al teléfono",
+      "name": "Forbes",
+      "city": " ",
+      "country": " ",
+      "readMoreLink": "Leia mais..."
+    },
+    "section3": {
+      "date": "January 2021",
+      "title": "COVID-19: Aplicativo Virufy puede diagnosticar el virus mediante el análisis de la tos",
+      "name": "MSN",
+      "city": " ",
+      "country": " ",
+      "readMoreLink": "Leia mais..."
+    },
+    "section4": {
       "date": "Outubro 2020",
       "title": "VIRUFY: plataforma que permite detectar si estamos contagiados con COVID-19",
       "name": "Expreso",
@@ -13,7 +29,7 @@
       "readMoreLink": "Leia mais..."
     },
 
-    "section3": {
+    "section5": {
       "date": "Maio 2020",
       "title": "Um jovem embaixador do Japão no mundo jovem tem como objetivo COVID-19 usando a A.I.",
       "name": "Um Mundo Jovem",
@@ -22,7 +38,7 @@
       "readMoreLink": "Leia mais..."
     },
 
-    "section4": {
+    "section6": {
       "date": "2020",
       "title": "Embaixadores norte-americanos na linha de frente da resposta da COVID-19",
       "name": "Um Mundo Jovem",
@@ -31,7 +47,7 @@
       "readMoreLink": "Leia mais..."
     },
 
-    "section5": {
+    "section7": {
       "date": "Julho 2020",
       "title": "Embaixadores do Mês de Julho",
       "name": "Um Mundo Jovem",
@@ -40,7 +56,7 @@
       "readMoreLink": "Leia mais..."
     },
 
-    "section6": {
+    "section8": {
       "date": "Julho 2020",
       "title": "Milhares de pessoas assistem aos eventos digitais globais da OYW em Julho: Uma recapitulação do que você perdeu",
       "name": "Um Mundo Jovem",
@@ -49,7 +65,7 @@
       "readMoreLink": "Leia mais..."
     },
 
-    "section7": {
+    "section9": {
       "date": "2020",
       "title": "Um Mundo Jovem Tokyo 2020 Caucus",
       "name": "Um Mundo Jovem",
@@ -58,7 +74,7 @@
       "readMoreLink": "Leia mais..."
     },
 
-    "section8": {
+    "section10": {
       "date": "2020",
       "title": "Apresentação da Virufy a Um Mundo Jovem Yokyo 2020 Cacus",
       "name": "Um Mundo Jovem",
@@ -67,7 +83,7 @@
       "readMoreLink": "Assistir mais..."
     },
 
-    "section9": {
+    "section11": {
       "date": "2020",
       "title": "Sons do COVID-19 seminário",
       "name": "Um Mundo Jovem",

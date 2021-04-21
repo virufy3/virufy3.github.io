@@ -64,6 +64,12 @@ export const oyw = {
       defaultName: "Madhav Datt",
       imageName: "madhav",
     },
+    {
+      mediaLink: "https://www.linkedin.com/in/yulieq/",
+      id: "yulie",
+      defaultName: "Yulie Qiao",
+      imageName: "yulie",
+    },
   ],
   testimonials: [
     {
