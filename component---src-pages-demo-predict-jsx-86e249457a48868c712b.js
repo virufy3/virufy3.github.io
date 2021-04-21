@@ -1,0 +1,2 @@
+(self.webpackChunk=self.webpackChunk||[]).push([[173],{6009:function(e,n,t){"use strict";t.r(n),t.d(n,{default:function(){return c}});var u=t(7294);function c(){return(0,u.useEffect)((function(){window.location.replace("https://virufy.org/demo")})),u.createElement("p",null,"Redirecting...")}}}]);
+//# sourceMappingURL=component---src-pages-demo-predict-jsx-86e249457a48868c712b.js.map
