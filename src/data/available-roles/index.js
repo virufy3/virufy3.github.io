@@ -118,12 +118,4 @@ export const roles = [
     url:
       "https://docs.google.com/document/d/1au9s2wrUXlXx_tdK7q7EbB9xL0ZZ2NRdlDUgTwtjlW0/edit",
   },
-  {
-    description:
-      "Seeking a part-time volunteer to work with machine learning, deep learning, and signal processing for audio analysis in a medical setting. We welcome students and professionals with experience in these domains. The candidate will be immersed in a highly collaborative environment alongside senior AI engineers and mentors.",
-    location: "Remote",
-    title: "Full Stack Engineer",
-    url:
-      "https://docs.google.com/document/d/1au9s2wrUXlXx_tdK7q7EbB9xL0ZZ2NRdlDUgTwtjlW0/edit",
-  },
 ];
