@@ -19,7 +19,7 @@ const getLastPath = (location) => {
 };
 
 export const isActivePath = (location, link) => {
-  if (location.pathname.includes("dashboard") && link.path.includes("team")) {
+  if (location.pathname.includes("dashboard") && link.path.includes("ourOrg")) {
     return true;
   }
   return (
