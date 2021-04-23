@@ -12,7 +12,7 @@ export default [
   {
     intlId: "nav.ourOrg",
     defMsg: "Our Org",
-    path: "/team",
+    path: "/ourOrg",
     dropDownLinks: [
       { intlId: "nav.ourData", sectionId: "", path: "/dashboard" },
       { intlId: "nav.ourVision", sectionId: "our-vision" },
