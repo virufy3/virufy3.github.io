@@ -54,6 +54,7 @@ export default ({ images }) => {
   const tabs = {
     teamLeads: "team leads",
     advisors: "advisors",
+    oyw: "one young world",
   };
   const selectedTabClasses =
     "font-bold bg-white border-b-2 border-solid border-green focus:outline-none active:outline-none";
@@ -80,16 +81,23 @@ export default ({ images }) => {
       </button>
       <button
         onClick={() => setSelectedTab(tabs.advisors)}
-        className={
+        className={`${
           selectedTab === tabs.advisors
             ? selectedTabClasses
             : unselectedTabClasses
-        }
+        } mr-4`}
       >
         {intl.formatMessage({
           id: "team.teamSection.advisorText",
         })}
       </button>
+      <a href="/oyw" target="_blank">
+        <button className="bg-white text-gray-500 font-semibold">
+          {intl.formatMessage({
+            id: "team.teamSection.oyw",
+          })}
+        </button>
+      </a>
 
       <div className="mt-4 sm:grid sm:grid-cols-2 sm:gap-x-4 sm:gap-y-16 lg:grid-cols-3 lg:gap-x-6 xl:grid-cols-4">
         {selectedTab === tabs.teamLeads &&
