@@ -479,7 +479,7 @@
     },
     "teamSection": {
       "header": "Our people",
-      "teamLeadText": "Virufighter Team Leads",
+      "teamLeadText": "Team Leads",
       "advisorText": "Advisors",
       "leadership": {
         "amil": {
@@ -556,6 +556,11 @@
           "name": "Colleen Wang",
           "description": "Author of Roses Watered by a Robot’s Tears",
           "title": "Fundraising Team Lead"
+        },
+        "ahmed": {
+          "name": "Ahmed Fakhry",
+          "description": "Artificial Intelligence Researcher\nAlexandria University",
+          "title": "ML Models Team Lead"
         }
       },
       "advisors": {

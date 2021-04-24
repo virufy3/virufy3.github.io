@@ -90,6 +90,12 @@ export const leadership = [
     defaultName: "Colleen Wang",
     imageName: "colleen",
   },
+  {
+    mediaLink: "https://www.linkedin.com/in/ahmed-fakhry-5b178017a/",
+    id: "ahmed",
+    defaultName: "Ahmed Fakhry",
+    imageName: "ahmed",
+  },
 ];
 
 export const advisors = [
