@@ -6,7 +6,6 @@ import SEO from "../components/SEO";
 import GatsbyImage from "gatsby-image";
 import { news } from "../data/news";
 import countryshape from "../images/news/countryshape.png";
-
 export const query = graphql`
   {
     allFile(filter: { relativeDirectory: { eq: "images/news" } }) {
@@ -125,7 +124,7 @@ export default function News({ data }) {
           <CountrySelect setCountry={setCountry} country={country} />
         </span>
       </div>
-      <section>
+      <section className="wrapper">
         <a
           target="_blank"
           rel="noreferrer"
@@ -134,25 +133,35 @@ export default function News({ data }) {
         >
           Smartphone Detection Article
         </a>
-        {news
-          .filter((item) => {
-            if (country === "") return true;
-            return item.country === country;
-          })
-          .map((item) => {
-            const NewsPic = images.find(({ node: { name } }) => {
-              return name === item.imageName;
-            }).node.childImageSharp.fluid;
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            justifyContent: "space-evenly",
+          }}
+        >
+          {news
+            .filter((item) => {
+              if (country === "") return true;
+              return item.country === country;
+            })
+            .map((item) => {
+              const NewsPic = images.find(({ node: { name } }) => {
+                return name === item.imageName;
+              }).node.childImageSharp.fluid;
 
-            return (
-              <NewsList
-                key={`${news}${item.id}`}
-                section="news"
-                image={NewsPic}
-                person={item}
-              />
-            );
-          })}
+              return (
+                <div className="lg:w-2/5">
+                  <NewsList
+                    key={`${news}${item.id}`}
+                    section="news"
+                    image={NewsPic}
+                    person={item}
+                  />
+                </div>
+              );
+            })}
+        </div>
       </section>
     </Layout>
   );
