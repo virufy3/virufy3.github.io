@@ -2,11 +2,11 @@ import React from "react";
 import { graphql } from "gatsby";
 import SEO from "../components/SEO";
 import Layout from "../components/Layout";
-import ValuesSection from "../components/team/ValuesSection";
-import TeamSection from "../components/team/TeamSection";
-import Supporters from "../components/team/Supporters";
+import ValuesSection from "../components/our-org/ValuesSection";
+import TeamSection from "../components/our-org/TeamSection";
+import Supporters from "../components/our-org/Supporters";
 
-export default function Team({ data }) {
+export default function OurOrg({ data }) {
   const images = {};
 
   // add the images to an object to use in gatsby image
@@ -14,7 +14,7 @@ export default function Team({ data }) {
 
   return (
     <Layout>
-      <SEO title="Team | Virufy" />
+      <SEO title="Our org | Virufy" />
       <ValuesSection images={images} />
       <TeamSection images={images} />
       <Supporters />
