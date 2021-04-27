@@ -69,7 +69,7 @@ export default () => {
             fluid={images["siena-company-logo"]}
           />
         </a>
-        <a href={supporter_links.sherlock} target="_blank">
+        <a href={supporter_links.cccadv} target="_blank">
           <GatsbyImage
             className="w-32 lg:w-52 mt-2 my-3 mx-1"
             fluid={images["cccaa"]}

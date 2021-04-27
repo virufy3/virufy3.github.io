@@ -74,7 +74,7 @@ export default ({ images }) => {
               fluid={images["siena-company-logo"].childImageSharp.fluid}
             />
           </a>
-          <a href={supporter_links.sherlock} target="_blank">
+          <a href={supporter_links.cccadv} target="_blank">
             <GatsbyImage
               className="w-32 lg:w-40 my-3 mx-1"
               fluid={images["cccaa"].childImageSharp.fluid}
