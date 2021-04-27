@@ -101,7 +101,7 @@
     "ourApproach": "Nuestro enfoque",
     "dashboard": "Dashboard",
     "ourData": "Nuestros Datos",
-    "ourOrg": "Nuestra organización",
+    "our-org": "Nuestra organización",
     "inTheNews": "Noticias ",
     "getInvolved": "FORMAR PARTE",
     "techBehind": "La tecnología detras de Virufy",
@@ -555,7 +555,7 @@
         },
         "colleen": {
           "name": "Colleen Wang",
-          "description": "Aurora de 'Roses Watered by a Robot’s Tears'",
+          "description": "Autora de 'Roses Watered by a Robot’s Tears'",
           "title": "Líder del Equipo de Recaudación de Fondos"
         },
         "ahmed": {
