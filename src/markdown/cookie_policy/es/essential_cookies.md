@@ -10,4 +10,4 @@ El Sitio Web puede utilizar cookies técnicas para llevar a cabo actividades est
 Cookie        | Proveedor   | Duración | Tipo | Proposito                                                                  
 ------------- | ---------- | -------- | ---- | -------------------------------------------------------------------------
 CookieConsent | <a class="no-underline" href="https://www.cookiebot.com/goto/privacy-policy/">Cookiebot</a>  | 1 año   | HTTP | Almacena el estado de consentimiento de cookies del usuario para el dominio actual.           
-__cfduid      | <a class="no-underline" href="https://www.cloudflare.com/">CloudFlare</a> | 1 año  | HTTP | Utilizado por la red de contenido, Cloudflare, para identificar el tráfico web confiable.
+__cfduid      | <a class="no-underline" href="https://www.cloudflare.com/">CloudFlare</a> | 1 mes  | HTTP | Utilizado por la red de contenido, Cloudflare, para identificar el tráfico web confiable.
