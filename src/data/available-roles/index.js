@@ -57,6 +57,14 @@ export const roles = [
   },
   {
     description:
+      "Seeking an individual to serve as the first point of contact within Virufy for all HR-related inquiries.",
+    location: "Remote",
+    title: "Human Resources Administrator",
+    url:
+      "https://docs.google.com/document/d/191xws4_-ocyyMS9zTP0MEjsd2oXjGJqfNeVjyTaqepk/edit",
+  },
+  {
+    description:
       "Seeking an individual to volunteer on a part-time basis to help execute full-scale marketing campaigns to manage our social media platforms and to engage influencers and the press. The candidate will drive engagement through Instagram, Facebook, and TikTok, and digital advertisements. They will reach out to various networks to engage youth, medical influencers, and social influencers.",
     location: "Remote",
     title: "Global Marketing Manager",
