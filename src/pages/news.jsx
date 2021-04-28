@@ -4,9 +4,8 @@ import { useIntl } from "gatsby-plugin-intl";
 import { graphql } from "gatsby";
 import SEO from "../components/SEO";
 import GatsbyImage from "gatsby-image";
-import { news } from "../data/news";
+import { news, videos } from "../data/news";
 import countryshape from "../images/news/countryshape.png";
-
 export const query = graphql`
   {
     allFile(filter: { relativeDirectory: { eq: "images/news" } }) {
@@ -24,6 +23,24 @@ export const query = graphql`
     }
   }
 `;
+
+const VideoList = (props) => {
+  const { id, source } = props;
+  return (
+    <div className=" wrapper md:flex">
+      <iframe
+        key={id}
+        width="560"
+        height="315"
+        src={source}
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+        allowfullscreen="allowfullscreen"
+      ></iframe>
+    </div>
+  );
+};
 
 const NewsList = (props) => {
   const {
@@ -125,7 +142,7 @@ export default function News({ data }) {
           <CountrySelect setCountry={setCountry} country={country} />
         </span>
       </div>
-      <section>
+      <section className="wrapper">
         <a
           target="_blank"
           rel="noreferrer"
@@ -134,25 +151,47 @@ export default function News({ data }) {
         >
           Smartphone Detection Article
         </a>
-        {news
-          .filter((item) => {
-            if (country === "") return true;
-            return item.country === country;
-          })
-          .map((item) => {
-            const NewsPic = images.find(({ node: { name } }) => {
-              return name === item.imageName;
-            }).node.childImageSharp.fluid;
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            justifyContent: "space-evenly",
+          }}
+        >
+          {news
+            .filter((item) => {
+              if (country === "") return true;
+              return item.country === country;
+            })
+            .map((item) => {
+              const NewsPic = images.find(({ node: { name } }) => {
+                return name === item.imageName;
+              }).node.childImageSharp.fluid;
 
-            return (
-              <NewsList
-                key={`${news}${item.id}`}
-                section="news"
-                image={NewsPic}
-                person={item}
-              />
-            );
+              return (
+                <div className="lg:w-2/5">
+                  <NewsList
+                    key={`${news}${item.id}`}
+                    section="news"
+                    image={NewsPic}
+                    person={item}
+                  />
+                </div>
+              );
+            })}
+        </div>
+        <h1>Videos</h1>
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            justifyContent: "space-evenly",
+          }}
+        >
+          {videos.map((item) => {
+            return <VideoList id={item.id} source={item.source} />;
           })}
+        </div>
       </section>
     </Layout>
   );
