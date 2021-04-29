@@ -57,6 +57,14 @@ export const roles = [
   },
   {
     description:
+      "Seeking an individual to serve as the first point of contact within Virufy for all HR-related inquiries.",
+    location: "Remote",
+    title: "Human Resources Administrator",
+    url:
+      "https://docs.google.com/document/d/191xws4_-ocyyMS9zTP0MEjsd2oXjGJqfNeVjyTaqepk/edit",
+  },
+  {
+    description:
       "Seeking an individual to volunteer on a part-time basis to help execute full-scale marketing campaigns to manage our social media platforms and to engage influencers and the press. The candidate will drive engagement through Instagram, Facebook, and TikTok, and digital advertisements. They will reach out to various networks to engage youth, medical influencers, and social influencers.",
     location: "Remote",
     title: "Global Marketing Manager",
@@ -77,14 +85,6 @@ export const roles = [
     title: "React Website Developer",
     url:
       "https://docs.google.com/document/u/4/d/12wKjLcrlQTLAVymKiZcuIHEHVXvcZsD5OxXX4jiV6_0/edit",
-  },
-  {
-    description:
-      "In order to advance Virufy’s technology, we need as much clinical data as possible from patients of multiple backgrounds and cultural identities in Latin America.",
-    location: "Remote",
-    title: "Clinical Outreach Member (Latin America)",
-    url:
-      "https://docs.google.com/document/d/1EZUFq9Y9xLFIaAB9NMHrICgyHkOyMcoUo9KzB99Qe4E/edit",
   },
   {
     description:
