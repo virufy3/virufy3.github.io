@@ -4,7 +4,7 @@ import { useIntl } from "gatsby-plugin-intl";
 import { graphql } from "gatsby";
 import SEO from "../components/SEO";
 import GatsbyImage from "gatsby-image";
-import { news } from "../data/news";
+import { news, videos } from "../data/news";
 import countryshape from "../images/news/countryshape.png";
 export const query = graphql`
   {
@@ -23,6 +23,24 @@ export const query = graphql`
     }
   }
 `;
+
+const VideoList = (props) => {
+  const { id, source } = props;
+  return (
+    <div className=" wrapper md:flex">
+      <iframe
+        key={id}
+        width="560"
+        height="315"
+        src={source}
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+        allowfullscreen="allowfullscreen"
+      ></iframe>
+    </div>
+  );
+};
 
 const NewsList = (props) => {
   const {
@@ -161,6 +179,19 @@ export default function News({ data }) {
                 </div>
               );
             })}
+        </div>
+
+        <h1>Videos</h1>
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            justifyContent: "space-evenly",
+          }}
+        >
+          {videos.map((item) => {
+            return <VideoList id={item.id} source={item.source} />;
+          })}
         </div>
       </section>
     </Layout>
