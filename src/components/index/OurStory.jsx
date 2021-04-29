@@ -46,32 +46,38 @@ export default ({ images }) => {
           <a href={supporter_links.oneYoungWorld} target="_blank">
             <GatsbyImage
               imgStyle={{ objectFit: "fill" }}
-              className="w-20 lg:w-24 my-3 md:mx-1"
+              className="w-20 lg:w-24 my-3 mx-1"
               fluid={images["OYW_blue_rgb"].childImageSharp.fluid}
             />
           </a>
           <a href={supporter_links.xoor} target="_blank">
             <GatsbyImage
-              className="w-16 lg:w-20 my-3 md:mx-1 mx-auto"
+              className="w-16 lg:w-20 my-3 mx-1"
               fluid={images["xoor"].childImageSharp.fluid}
             />
           </a>
           <a href={supporter_links.sherlock} target="_blank">
             <GatsbyImage
-              className="w-20 lg:w-24 my-3 md:mx-1 mx-auto"
+              className="w-20 lg:w-24 my-3 mx-1"
               fluid={images["sherlock"].childImageSharp.fluid}
             />
           </a>
           <a href={supporter_links.stanford} target="_blank">
             <GatsbyImage
-              className="w-16 lg:w-20 my-3 md:mx-1 mx-auto"
+              className="w-16 lg:w-20 my-3 mx-1"
               fluid={images["stanford-h4r-logo"].childImageSharp.fluid}
             />
           </a>
           <a href={supporter_links.siena} target="_blank">
             <GatsbyImage
-              className="w-16 lg:w-20 my-3 mx-auto"
+              className="w-16 lg:w-20 my-3 mx-1"
               fluid={images["siena-company-logo"].childImageSharp.fluid}
+            />
+          </a>
+          <a href={supporter_links.cccadv} target="_blank">
+            <GatsbyImage
+              className="w-32 lg:w-40 my-3 mx-1"
+              fluid={images["cccaa"].childImageSharp.fluid}
             />
           </a>
         </div>

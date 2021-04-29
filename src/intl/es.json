@@ -100,8 +100,8 @@
   "nav": {
     "ourApproach": "Nuestro enfoque",
     "dashboard": "Dashboard",
-    "ourData": "Nuestros datos",
-    "ourOrg": "Nuestra organización",
+    "ourData": "Nuestros Datos",
+    "our-org": "Nuestra organización",
     "inTheNews": "Noticias ",
     "getInvolved": "FORMAR PARTE",
     "techBehind": "La tecnología detras de Virufy",
@@ -479,8 +479,9 @@
     },
     "teamSection": {
       "header": "Nuestra Organización",
-      "teamLeadText": "Líderes del equipo de Virufighters",
+      "teamLeadText": "Líderes del equipo",
       "advisorText": "Asesoría",
+      "oyw": "One Young World",
       "leadership": {
         "amil": {
           "name": "Amil Khanzada",
@@ -554,8 +555,13 @@
         },
         "colleen": {
           "name": "Colleen Wang",
-          "description": "Author of Roses Watered by a Robot’s Tears",
-          "title": "Fundraising Team Lead"
+          "description": "Autora de 'Roses Watered by a Robot’s Tears'",
+          "title": "Líder del Equipo de Recaudación de Fondos"
+        },
+        "ahmed": {
+          "name": "Ahmed Fakhry",
+          "description": "Artificial Intelligence Researcher\nAlexandria University",
+          "title": "ML Models Team Lead"
         }
       },
       "advisors": {

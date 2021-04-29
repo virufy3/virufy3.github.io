@@ -12,10 +12,10 @@ export const leadership = [
     imageName: "maisie",
   },
   {
-    mediaLink: "https://www.linkedin.com/in/matheus-galiza-20539b106/",
-    id: "matheus",
-    defaultName: "Matheus Galiza",
-    imageName: "matheus",
+    mediaLink: "https://www.linkedin.com/in/jonatan-jaskilioff-77075340/",
+    id: "jonatan",
+    defaultName: "Jonatan Jaskilioff",
+    imageName: "jonatan",
   },
   {
     mediaLink: "https://www.linkedin.com/in/yhwang95/",
@@ -24,10 +24,36 @@ export const leadership = [
     imageName: "yoonju",
   },
   {
+    mediaLink: "https://www.linkedin.com/in/matheus-galiza-20539b106/",
+    id: "matheus",
+    defaultName: "Matheus Galiza",
+    imageName: "matheus",
+  },
+
+  {
+    mediaLink: "https://www.linkedin.com/in/marcos-deza/",
+    id: "marcos",
+    defaultName: "Marcos Deza",
+    imageName: "marcos",
+  },
+  {
+    mediaLink: "https://www.linkedin.com/in/colleen-wang-59a091205/",
+    id: "colleen",
+    defaultName: "Colleen Wang",
+    imageName: "colleen",
+  },
+
+  {
     mediaLink: "https://www.linkedin.com/in/ravel-charles/",
     id: "ravel",
     defaultName: "Ravel Charles",
     imageName: "ravel",
+  },
+  {
+    mediaLink: "https://www.linkedin.com/in/ahmed-fakhry-5b178017a/",
+    id: "ahmed",
+    defaultName: "Ahmed Fakhry",
+    imageName: "ahmed",
   },
   {
     mediaLink: " ",
@@ -36,22 +62,16 @@ export const leadership = [
     imageName: "amelie",
   },
   {
-    mediaLink: "https://www.linkedin.com/in/jonatan-jaskilioff-77075340/",
-    id: "jonatan",
-    defaultName: "Jonatan Jaskilioff",
-    imageName: "jonatan",
+    mediaLink: "https://www.linkedin.com/in/alfonso-manuel-assaf-22048171/",
+    id: "alfonso",
+    defaultName: "Alfonso Assaf",
+    imageName: "alfonso",
   },
   {
-    mediaLink: "https://www.linkedin.com/in/marcos-deza/",
-    id: "marcos",
-    defaultName: "Marcos Deza",
-    imageName: "marcos",
-  },
-  {
-    mediaLink: "https://www.linkedin.com/in/gunvantchaudhari/",
-    id: "gunvant",
-    defaultName: "Gunvant Chaudhari",
-    imageName: "gunvant",
+    mediaLink: "https://www.linkedin.com/in/kitanf/",
+    id: "kitan",
+    defaultName: "Kitan Fasuyi",
+    imageName: "kitan",
   },
   {
     mediaLink: "https://www.linkedin.com/in/jasonpareja/",
@@ -67,28 +87,10 @@ export const leadership = [
     imageName: "sebastian",
   },
   {
-    mediaLink: "https://www.linkedin.com/in/kitanf/",
-    id: "kitan",
-    defaultName: "Kitan Fasuyi",
-    imageName: "kitan",
-  },
-  {
-    mediaLink: "https://www.linkedin.com/in/alfonso-manuel-assaf-22048171/",
-    id: "alfonso",
-    defaultName: "Alfonso Assaf",
-    imageName: "alfonso",
-  },
-  {
     mediaLink: "https://www.linkedin.com/in/zach-lawless-772a7713a/",
     id: "zach",
     defaultName: "Zach Lawless",
     imageName: "zach",
-  },
-  {
-    mediaLink: "https://www.linkedin.com/in/colleen-wang-59a091205/",
-    id: "colleen",
-    defaultName: "Colleen Wang",
-    imageName: "colleen",
   },
 ];
 

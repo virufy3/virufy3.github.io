@@ -5,7 +5,7 @@ name: marketing cookies
 title: Marketing Cookies
 ---
 
-These cookies are used to track visitors across websites. The intention is to display ads that are relevant and engaging for the individual user and thereby more valuable for publishers and third party advertisers.
+Estas cookies se utilizan para rastrear a los visitantes en los sitios web.  La intención es mostrar anuncios que sean relevantes y atractivos para el usuario individual y, por lo tanto, más valiosos para los editores y anunciantes externos.
 
 Cookie              | Proveedor | Duración | Tipo | Proposito
 ------------------- | -------- | -------- | ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

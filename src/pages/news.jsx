@@ -180,6 +180,7 @@ export default function News({ data }) {
               );
             })}
         </div>
+
         <h1>Videos</h1>
         <div
           style={{

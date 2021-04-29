@@ -101,7 +101,7 @@
     "ourApproach": "Nossa abordagem",
     "dashboard": "Dashboard",
     "ourData": "Os nossos dados",
-    "ourOrg": "Nossa Organização",
+    "our-org": "Nossa Organização",
     "inTheNews": "Nas notícias",
     "getInvolved": "SE ENVOLVA",
     "techBehind": "A tecnologia por trás",
@@ -479,8 +479,9 @@
     },
     "teamSection": {
       "header": "A nossa equipa",
-      "teamLeadText": "A equipa Virufighter lidera",
+      "teamLeadText": "A equipa lidera",
       "advisorText": "Consultivo",
+      "oyw": "One Young World",
       "leadership": {
         "amil": {
           "name": "Amil Khanzada",
@@ -556,6 +557,11 @@
           "name": "Colleen Wang",
           "description": "Author of Roses Watered by a Robot’s Tears",
           "title": "Fundraising Team Lead"
+        },
+        "ahmed": {
+          "name": "Ahmed Fakhry",
+          "description": "Artificial Intelligence Researcher\nAlexandria University",
+          "title": "ML Models Team Lead"
         }
       },
       "advisors": {
