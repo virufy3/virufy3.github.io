@@ -75,6 +75,12 @@ export default () => {
             fluid={images["cccaa"]}
           />
         </a>
+        <a href={supporter_links.curative} target="_blank">
+          <GatsbyImage
+            className="w-32 lg:w-52 my-3 mx-1"
+            fluid={images["curative"]}
+          />
+        </a>
       </div>
       <p
         dangerouslySetInnerHTML={{

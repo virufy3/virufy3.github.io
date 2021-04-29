@@ -80,6 +80,12 @@ export default ({ images }) => {
               fluid={images["cccaa"].childImageSharp.fluid}
             />
           </a>
+          <a href={supporter_links.curative} target="_blank">
+            <GatsbyImage
+              className="w-32 lg:w-40 my-3 mx-1"
+              fluid={images["curative"].childImageSharp.fluid}
+            />
+          </a>
         </div>
       </div>
       <GatsbyImage
