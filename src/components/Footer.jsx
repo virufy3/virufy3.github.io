@@ -150,7 +150,7 @@ export default () => {
         <p className="text-white mb-4">
           <a
             className="underline text-white px-0 mb-6"
-            href="https://docs.google.com/document/d/1dUob90BhKgA_kdNrbloHd4jRiJ53-eUeCvvL0inja-s/edit#heading=h.hmr369vov0sb"
+            href="https://github.com/virufy/virufy-covid/blob/main/CODE_OF_CONDUCT.md"
             rel="noopener"
             target="_blank"
           >
