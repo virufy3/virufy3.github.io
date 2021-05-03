@@ -1,3 +1,12 @@
+# Decoding hidden patterns in COVID-19 coughs with AI
+
+<p align="center"><img src="https://github.com/virufy/virufy-covid/blob/main/img/virufy-logo.png" alt="virufy logo" width="400"/></p>
+
+Virufy is a nonprofit research organization developing artificial intelligence (AI) technology to screen for COVID-19 from cough patterns, rapidly and at no cost through use of a smartphone. To learn more or get involved, visit [our website](https://virufy.org/en/). For more information, check out the [resources available here.](https://drive.google.com/drive/u/4/folders/1kONSI53BvAAd7TvgNGzNAP8dT-Oq3iW1)
+
+ 
+[Join the Virufighter team](https://virufy.org/en/available-roles/)
+
 # virufy3.github.io
 
 The third version of [Virufy's website](https://virufy.org).

@@ -140,7 +140,7 @@ export default () => {
           Help us in ending COVID-19, this is our
           <a
             className="underline text-white px-2"
-            href="https://github.com/vuejs/vuejs.org/blob/master/src/v2/guide/index.md"
+            href="https://github.com/virufy3/virufy3.github.io"
             rel="noopener"
             target="_blank"
           >
