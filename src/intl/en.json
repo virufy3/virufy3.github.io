@@ -448,6 +448,23 @@
       "marcos": "I think that Virufy will develop a very accurate solution and this will be useful for the entire world in every industry. So I encourage everyone to take some minutes and contribute with us."
     }
   },
+  "paper": {
+    "headers": {
+      "header": "Paper"
+    },
+    "papers": {
+      "section2": {
+        "date": "November 2020",
+        "title": "Virufy: Global Applicability of Crowdsourced and Clinical Datasets for AI Detection of COVID-19 from Cough",
+        "readMoreLink": "Read more..."
+      },
+      "section3": {
+        "date": "March 2021",
+        "title": "Virufy: A Multi-Branch Deep Learning Network for Automated Detection of COVID-19",
+        "readMoreLink": "Read more..."
+      }
+    }
+  },
   "privacy_policy": {
     "headers": {
       "header": "Privacy Policy",
