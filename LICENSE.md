@@ -1,0 +1,3 @@
+©2021 Virufy | VIRUFY is a trademark of The COVID Detection Foundation | All rights reserved
+
+Virufy is a California nonprofit corporation operating through a fiscal sponsorship with Players Philanthropy Fund, a Maryland charitable trust recognized by IRS as a tax-exempt public charity under Section 501(c)(3) of the Internal Revenue Code (Federal Tax ID: 27-6601178). Contributions to Virufy are tax-deductible to the fullest extent of the law.
