@@ -44,11 +44,6 @@
         "description": "Desenvolvedor de site e app móvel\nB.Tech., CUNY NYC College of Technology",
         "title": "Líder de Equipe de desenvolvimento web"
       },
-      "gunvant": {
-        "name": "Gunvant Chaudhari",
-        "description": "Pesquisador de Big Data em Radiologia\nM.D. Student, UC San Francisco",
-        "title": "Líder de equipe de IA"
-      },
       "jason": {
         "name": "Jason Pareja Jauregui",
         "description": "Embaixador Coordenador do One Young World América Latina\nGraduate, MIT Sloan School of Management",
@@ -105,6 +100,11 @@
         "name": "Matt Prusak",
         "description": "Chief Business Officer, Curative Alumnus\nStanford Graduate School of Business",
         "title": "Conselheiro Executivo"
+      },
+      "anais": {
+        "name": "Anaïs Rameau",
+        "description": "Assistant Professor of Otolaryngology, Curative\nWeill Cornell Medical College",
+        "title": "Medical Advisor"
       },
       "rok": {
         "name": "Rok Sosic",

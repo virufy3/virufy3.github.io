@@ -126,6 +126,12 @@ export const advisors = [
     imageName: "matt",
   },
   {
+    mediaLink: "https://weillcornell.org/anais-rameau-md",
+    id: "anais",
+    defaultName: "Anaïs Rameau",
+    imageName: "anais",
+  },
+  {
     mediaLink: "https://www.linkedin.com/in/pedrosiena/",
     id: "pedro",
     defaultName: "Pedro Siena",
