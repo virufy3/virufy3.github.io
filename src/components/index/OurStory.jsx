@@ -86,6 +86,12 @@ export default ({ images }) => {
               fluid={images["curative"].childImageSharp.fluid}
             />
           </a>
+          <a href={supporter_links.fenwick} target="_blank">
+            <GatsbyImage
+              className="w-32 lg:w-40 my-3 mx-1"
+              fluid={images["fenwick"].childImageSharp.fluid}
+            />
+          </a>
         </div>
       </div>
       <GatsbyImage

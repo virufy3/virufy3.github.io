@@ -7,4 +7,5 @@ export default {
   siena: "https://sienacompany.com/",
   cccadv: "http://cccadv.com.br/site/theoffice/?lang=en",
   curative: "https://curative.com/",
+  fenwick: "https://www.fenwick.com/",
 };
