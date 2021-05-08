@@ -37,7 +37,7 @@ export default ({ images }) => {
           {intl.formatMessage({ id: "index.section4.header2" })}
         </h2>
         <div className="flex items-center flex-row flex-wrap md:justify-between pt-8 pb-12">
-          <a href={supporter_links.fenwick} target="_blank">
+          <a href={supporter_links.nuvu} target="_blank">
             <GatsbyImage
               className="w-16 lg:w-20 my-3 mx-1"
               fluid={images["nuvu"].childImageSharp.fluid}

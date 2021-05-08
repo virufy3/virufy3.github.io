@@ -35,7 +35,7 @@ export default () => {
         {intl.formatMessage({ id: "team.supportersSection.header" })}
       </h1>
       <div className="flex items-center flex-row flex-wrap md:justify-between pt-8 pb-12">
-        <a href={supporter_links.responseLab} target="_blank">
+        <a href={supporter_links.nuvu} target="_blank">
           <GatsbyImage className="w-16 lg:w-16" fluid={images["nuvu"]} />
         </a>
         <a href={supporter_links.responseLab} target="_blank">
