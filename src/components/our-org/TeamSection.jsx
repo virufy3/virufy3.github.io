@@ -52,8 +52,8 @@ export default ({ images }) => {
   const intl = useIntl();
   const [selectedTab, setSelectedTab] = useState("advisors");
   const tabs = {
-    teamLeads: "team leads",
     advisors: "advisors",
+    teamLeads: "team leads",
     oyw: "one young world",
   };
   const selectedTabClasses =
@@ -68,18 +68,6 @@ export default ({ images }) => {
         </h2>
       </div>
       <button
-        onClick={() => setSelectedTab(tabs.teamLeads)}
-        className={`${
-          selectedTab === tabs.teamLeads
-            ? selectedTabClasses
-            : unselectedTabClasses
-        } mr-4`}
-      >
-        {intl.formatMessage({
-          id: "team.teamSection.teamLeadText",
-        })}
-      </button>
-      <button
         onClick={() => setSelectedTab(tabs.advisors)}
         className={`${
           selectedTab === tabs.advisors
@@ -89,6 +77,18 @@ export default ({ images }) => {
       >
         {intl.formatMessage({
           id: "team.teamSection.advisorText",
+        })}
+      </button>
+      <button
+        onClick={() => setSelectedTab(tabs.teamLeads)}
+        className={`${
+          selectedTab === tabs.teamLeads
+            ? selectedTabClasses
+            : unselectedTabClasses
+        } mr-4`}
+      >
+        {intl.formatMessage({
+          id: "team.teamSection.teamLeadText",
         })}
       </button>
       <a href="/oyw" target="_blank">
