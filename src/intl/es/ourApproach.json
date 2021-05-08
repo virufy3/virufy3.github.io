@@ -35,7 +35,7 @@
     },
     "imperialCollegeLondon": {
       "title": "Un algoritmo basado en la tos para el diagnóstico automático de la tos ferina",
-      "description": "Los investigadores del Imperial College de Londres recolectaron sonidos de tos y jadeos relacionados con la tosferina, Laringotraqueobronquitis y otras enfermedades como la bronquiolitis y el asma para entrenar a la IA a fin de detectar la tosferina. Su algoritmo pudo diagnosticar con éxito toda la tosferina a partir de grabaciones de audio, detectando automáticamente los sonidos de tos individuales con una precisión del 92% y un PPV del 97%. Su resultado respalda el uso de la IA como un candidato potencial para diferenciar y diagnosticar los sonidos respiratorios.",
+      "description": "Este estudio utiliza los jadeos y sonidos característicos contenidos en la tos ferina, el crup y otras enfermedades como la bronquiolitis y el asma para entrenar a la IA, a fin de detectar la tos ferina. El algoritmo es capaz de diagnosticar con éxito la tos ferina a partir de grabaciones de audio, detectando automáticamente los sonidos de tos individuales, con una precisión del 92% y un PPV del 97%. Su resultado respalda el uso de la IA como un candidato potencial para diferenciar y diagnosticar a partir de los sonidos respiratorios.",
       "source": "Department of Electrical and Electronic Engineering, Imperial College London"
     }
   },
