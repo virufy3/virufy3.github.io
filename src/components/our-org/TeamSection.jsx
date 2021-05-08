@@ -50,7 +50,7 @@ const TeamMember = (props) => {
 
 export default ({ images }) => {
   const intl = useIntl();
-  const [selectedTab, setSelectedTab] = useState("team leads");
+  const [selectedTab, setSelectedTab] = useState("advisors");
   const tabs = {
     teamLeads: "team leads",
     advisors: "advisors",
