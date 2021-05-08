@@ -8,4 +8,5 @@ export default {
   cccadv: "http://cccadv.com.br/site/theoffice/?lang=en",
   curative: "https://curative.com/",
   fenwick: "https://www.fenwick.com/",
+  nuvu: "https://www.nuvu.cc/",
 };
