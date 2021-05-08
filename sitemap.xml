@@ -103,6 +103,7 @@
 <url> <loc>https://virufy.org/en/smartphone-detection/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://virufy.org/es/smartphone-detection/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://virufy.org/pt/smartphone-detection/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://virufy.org/study/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://virufy.org/studyc/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://virufy.org/en/studyc/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://virufy.org/es/studyc/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -115,4 +116,29 @@
 <url> <loc>https://virufy.org/en/team/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://virufy.org/es/team/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://virufy.org/pt/team/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://virufy.org/en/study/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://virufy.org/en/en/study/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://virufy.org/es/en/study/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://virufy.org/pt/en/study/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://virufy.org/es/study/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://virufy.org/en/es/study/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://virufy.org/es/es/study/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://virufy.org/pt/es/study/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://virufy.org/pt/study/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://virufy.org/en/pt/study/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://virufy.org/es/pt/study/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://virufy.org/pt/pt/study/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://virufy.org/study/welcome/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://virufy.org/en/study/welcome/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://virufy.org/en/en/study/welcome/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://virufy.org/es/en/study/welcome/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://virufy.org/pt/en/study/welcome/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://virufy.org/es/study/welcome/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://virufy.org/en/es/study/welcome/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://virufy.org/es/es/study/welcome/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://virufy.org/pt/es/study/welcome/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://virufy.org/pt/study/welcome/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://virufy.org/en/pt/study/welcome/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://virufy.org/es/pt/study/welcome/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://virufy.org/pt/pt/study/welcome/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
