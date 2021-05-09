@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useIntl } from "gatsby-plugin-intl";
-const paperURL = "https://virufy.org/study/welcome";
+const paperURL = "https://virufy.org/study";
 
 export default function Paper() {
   const intl = useIntl();
