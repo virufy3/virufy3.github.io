@@ -103,6 +103,10 @@
 <url> <loc>https://virufy.org/en/smartphone-detection/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://virufy.org/es/smartphone-detection/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://virufy.org/pt/smartphone-detection/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://virufy.org/study/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://virufy.org/en/study/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://virufy.org/es/study/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://virufy.org/pt/study/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://virufy.org/studyc/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://virufy.org/en/studyc/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://virufy.org/es/studyc/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
