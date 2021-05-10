@@ -39,7 +39,7 @@ export default ({ images }) => {
         <div className="flex items-center flex-row flex-wrap md:justify-between pt-8 pb-12">
           <a href={supporter_links.nuvu} target="_blank">
             <GatsbyImage
-              className="w-16 lg:w-20 my-3 mx-1"
+              className="w-32 lg:w-40 my-3 mx-1"
               fluid={images["nuvu"].childImageSharp.fluid}
             />
           </a>
