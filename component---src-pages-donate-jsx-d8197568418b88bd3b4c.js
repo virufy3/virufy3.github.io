@@ -1,2 +1,0 @@
-(self.webpackChunk=self.webpackChunk||[]).push([[219],{4050:function(e,n,t){"use strict";t.r(n),t.d(n,{default:function(){return u}});var c=t(7294);function u(){return(0,c.useEffect)((function(){window.location.replace("https://charity.gofundme.com/o/en/campaign/virufy")})),c.createElement("p",null,"Redirecting...")}}}]);
-//# sourceMappingURL=component---src-pages-donate-jsx-d8197568418b88bd3b4c.js.map

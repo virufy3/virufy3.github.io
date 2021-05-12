@@ -1,2 +1,0 @@
-(self.webpackChunk=self.webpackChunk||[]).push([[188],{5959:function(e,n,t){"use strict";t.r(n),t.d(n,{default:function(){return c}});var u=t(7294);function c(){return(0,u.useEffect)((function(){window.location.replace("https://virufy.org/study/welcome/")})),u.createElement("p",null,"Redirecting...")}}}]);
-//# sourceMappingURL=component---src-pages-study-jsx-a7d59b0b3c53df5ec6bf.js.map
