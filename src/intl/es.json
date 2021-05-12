@@ -540,11 +540,6 @@
           "description": "Embajador de Argentina en One Young World\nM.A. Public Relations, Ott Educación Superior",
           "title": "Líder del Equipo de Comunicaciones Digitales de Latinoamérica"
         },
-        "gunvant": {
-          "name": "Gunvant Chaudhari",
-          "description": "Investigador de Big Data en Radiología\nEstudiante de Doctorado, UC San Francisco",
-          "title": "Líder del Equipo de IA"
-        },
         "jason": {
           "name": "Jason Pareja Jauregui",
           "description": "Coordinador de Embajadores One Young World Latinoamérica\nGraduate, MIT Sloan School of Management",
@@ -600,7 +595,7 @@
         "anais": {
           "name": "Anaïs Rameau",
           "description": "Profesora Adjunta de Otorrinolaringología, Curativo\nWeill Cornell Medical College",
-          "title": "Asesora médica"
+          "title": "Asesora médico"
         },
         "rok": {
           "name": "Rok Sosic",
@@ -666,6 +661,11 @@
           "name": "Richard Swartzbaugh",
           "description": "Curaesoft, Managing Director & Chief Risk Officer\nJuris Doctorate, University of Iowa",
           "title": "Healthcare / Software Executive"
+        },
+        "ronan": {
+          "name": "Ronan Dunlop",
+          "description": "Co-founder - The Product Stack\nFormer VP Marketing, VMware",
+          "title": "Executive Marketing Advisor"
         }
       }
     },

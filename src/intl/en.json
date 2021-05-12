@@ -540,11 +540,6 @@
           "description": "One Young World Argentina Ambassador\nM.A. Public Relations, Ott Educación Superior",
           "title": "Latin America Digital Communications Lead"
         },
-        "gunvant": {
-          "name": "Gunvant Chaudhari",
-          "description": "Big Data In Radiology Researcher\nM.D. Student, UC San Francisco",
-          "title": "AI Team Lead"
-        },
         "jason": {
           "name": "Jason Pareja Jauregui",
           "description": "One Young World Latin America Coordinating Ambassador\nGraduate, MIT Sloan School of Management",
@@ -666,6 +661,11 @@
           "name": "Richard Swartzbaugh",
           "description": "Curaesoft, Managing Director & Chief Risk Officer\nJuris Doctorate, University of Iowa",
           "title": "Healthcare / Software Executive"
+        },
+        "ronan": {
+          "name": "Ronan Dunlop",
+          "description": "Co-founder - The Product Stack\nFormer VP Marketing, VMware",
+          "title": "Executive Marketing Advisor"
         }
       }
     },
