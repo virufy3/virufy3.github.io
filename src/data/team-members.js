@@ -92,6 +92,12 @@ export const leadership = [
     defaultName: "Zach Lawless",
     imageName: "zach",
   },
+  {
+    mediaLink: "https://www.linkedin.com/in/rdunlop/",
+    id: "ronan",
+    defaultName: "Ronan Dunlop",
+    imageName: "ronan",
+  },
 ];
 
 export const advisors = [
@@ -124,6 +130,12 @@ export const advisors = [
     id: "matt",
     defaultName: "Matt Prusak",
     imageName: "matt",
+  },
+  {
+    mediaLink: "https://weillcornell.org/anais-rameau-md",
+    id: "anais",
+    defaultName: "Anaïs Rameau",
+    imageName: "anais",
   },
   {
     mediaLink: "https://www.linkedin.com/in/pedrosiena/",

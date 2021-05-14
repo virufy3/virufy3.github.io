@@ -49,11 +49,6 @@
         "description": "Embajador de Argentina en One Young World\nM.A. Public Relations, Ott Educación Superior",
         "title": "Líder del Equipo de Comunicaciones Digitales de Latinoamérica"
       },
-      "gunvant": {
-        "name": "Gunvant Chaudhari",
-        "description": "Investigador de Big Data en Radiología\nEstudiante de Doctorado, UC San Francisco",
-        "title": "Líder del Equipo de IA"
-      },
       "jason": {
         "name": "Jason Pareja Jauregui",
         "description": "Coordinador de Embajadores One Young World Latinoamérica\nGraduate, MIT Sloan School of Management",
@@ -88,6 +83,11 @@
         "name": "Ahmed Fakhry",
         "description": "Artificial Intelligence Researcher\nAlexandria University",
         "title": "ML Models Team Lead"
+      },
+      "ronan": {
+        "name": "Ronan Dunlop",
+        "description": "Co-founder - The Product Stack\nFormer VP Marketing, VMware",
+        "title": "Executive Marketing Advisor"
       }
     },
     "advisors": {
@@ -105,6 +105,11 @@
         "name": "Matt Prusak",
         "description": "Director de Negocios, Curative Alumnus\nStanford Graduate School of Business",
         "title": "Asesor Ejecutivo"
+      },
+      "anais": {
+        "name": "Anaïs Rameau",
+        "description": "Profesora Adjunta de Otorrinolaringología, Curativo\nWeill Cornell Medical College",
+        "title": "Asesora médico"
       },
       "rok": {
         "name": "Rok Sosic",

@@ -88,14 +88,6 @@ export const roles = [
   },
   {
     description:
-      "In order to advance Virufy’s technology, we need as much clinical data as possible from patients of multiple backgrounds and cultural identities in Latin America.",
-    location: "Remote",
-    title: "Clinical Outreach Member (Latin America)",
-    url:
-      "https://docs.google.com/document/d/1EZUFq9Y9xLFIaAB9NMHrICgyHkOyMcoUo9KzB99Qe4E/edit",
-  },
-  {
-    description:
       "Seeking a part-time, volunteer HR Partner to work as part of the management team.",
     location: "Remote",
     title: "Human Resources Partner",

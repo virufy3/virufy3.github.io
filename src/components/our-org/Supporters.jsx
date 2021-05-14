@@ -35,44 +35,62 @@ export default () => {
         {intl.formatMessage({ id: "team.supportersSection.header" })}
       </h1>
       <div className="flex items-center flex-row flex-wrap md:justify-between pt-8 pb-12">
+        <a href={supporter_links.nuvu} target="_blank">
+          <GatsbyImage
+            className="w-32 lg:w-40 my-3 mx-1"
+            fluid={images["nuvu"]}
+          />
+        </a>
         <a href={supporter_links.responseLab} target="_blank">
           <GatsbyImage
-            className="w-16 lg:w-24"
+            className="w-16 lg:w-16  mx-1"
             fluid={images["covid-19-RIL-logo"]}
           />
         </a>
         <a href={supporter_links.oneYoungWorld} target="_blank">
           <GatsbyImage
             imgStyle={{ objectFit: "fill" }}
-            className="w-20 lg:w-40 mt-4 my-3 mx-1"
+            className="w-20 lg:w-32 mt-4 my-3 mx-1"
             fluid={images["OYW_blue_rgb"]}
           />
         </a>
         <a href={supporter_links.xoor} target="_blank">
-          <GatsbyImage className="w-16 lg:w-24" fluid={images["xoor"]} />
+          <GatsbyImage className="w-16 lg:w-20" fluid={images["xoor"]} />
         </a>
         <a href={supporter_links.sherlock} target="_blank">
           <GatsbyImage
-            className="w-20 lg:w-40 mt-2 my-3 mx-1"
+            className="w-20 lg:w-36 mt-2 my-3 mx-1"
             fluid={images["sherlock"]}
           />
         </a>
         <a href={supporter_links.stanford} target="_blank">
           <GatsbyImage
-            className="w-16 lg:w-24 my-3 mx-1"
+            className="w-16 lg:w-16 my-3 mx-1"
             fluid={images["stanford-h4r-logo transparent"]}
           />
         </a>
         <a href={supporter_links.siena} target="_blank">
           <GatsbyImage
-            className="w-16 lg:w-24 my-3 mx-1"
+            className="w-16 lg:w-16 my-3 mx-1"
             fluid={images["siena-company-logo"]}
           />
         </a>
         <a href={supporter_links.cccadv} target="_blank">
           <GatsbyImage
-            className="w-32 lg:w-52 mt-2 my-3 mx-1"
+            className="w-32 lg:w-44 mt-2 my-3 mx-1"
             fluid={images["cccaa"]}
+          />
+        </a>
+        <a href={supporter_links.curative} target="_blank">
+          <GatsbyImage
+            className="w-32 lg:w-40 my-3 mx-1"
+            fluid={images["curative"]}
+          />
+        </a>
+        <a href={supporter_links.fenwick} target="_blank">
+          <GatsbyImage
+            className="w-32 lg:w-40 my-3 mx-1"
+            fluid={images["fenwick"]}
           />
         </a>
       </div>

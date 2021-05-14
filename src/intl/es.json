@@ -236,7 +236,7 @@
       },
       "imperialCollegeLondon": {
         "title": "Un algoritmo basado en la tos para el diagnóstico automático de la tos ferina",
-        "description": "Los investigadores del Imperial College de Londres recolectaron sonidos de tos y jadeos relacionados con la tosferina, Laringotraqueobronquitis y otras enfermedades como la bronquiolitis y el asma para entrenar a la IA a fin de detectar la tosferina. Su algoritmo pudo diagnosticar con éxito toda la tosferina a partir de grabaciones de audio, detectando automáticamente los sonidos de tos individuales con una precisión del 92% y un PPV del 97%. Su resultado respalda el uso de la IA como un candidato potencial para diferenciar y diagnosticar los sonidos respiratorios.",
+        "description": "Este estudio utiliza los jadeos y sonidos característicos contenidos en la tos ferina, el crup y otras enfermedades como la bronquiolitis y el asma para entrenar a la IA, a fin de detectar la tos ferina. El algoritmo es capaz de diagnosticar con éxito la tos ferina a partir de grabaciones de audio, detectando automáticamente los sonidos de tos individuales, con una precisión del 92% y un PPV del 97%. Su resultado respalda el uso de la IA como un candidato potencial para diferenciar y diagnosticar a partir de los sonidos respiratorios.",
         "source": "Department of Electrical and Electronic Engineering, Imperial College London"
       }
     },
@@ -247,7 +247,7 @@
       "virufyApp.whenAndHowA": "Actualmente, nuestra aplicación solo sirve para recopilar datos.\n\nNo podemos lanzar una aplicación de predicción de COVID-19 sin las aprobaciones del departamento de salud pública en cada país y los estudios clínicos para validar la tecnología de IA en las condiciones locales. Este proceso puede llevar algunas semanas o meses dependiendo de la velocidad del socio gubernamental. Virufy da la bienvenida a las asociaciones de funcionarios de salud y hospitales para llevar la tecnología de uso gratuito a las personas y optimizar el uso de costosas pruebas de PCR solo cuando sea necesario",
       "virufyApp.whereDownloadQ": "¿Dónde puedo descargar la aplicación? ¿Estará disponible para iOS y Android?",
       "virufyApp.whereDownloadA": "La aplicación estará disponible para su descarga en <a target='_blank' href='https://virufy.org/app'>https://virufy.org/app</a>, ya que en algunos países necesitamos aprobación gubernamental o médica para poner nuestra aplicación en las tiendas de aplicaciones oficiales.\n\nLa aplicación se puede conectar desde y hacia un teléfono inteligente. Por lo tanto, es compatible con cualquier sistema operativo incluido iOS o Android.",
-      "virufyApp.willTheApplicationQ": "¿Cuándo estará disponible la aplicación para mi país?",
+      "virufyApp.willTheApplicationQ": "¿La aplicación estará disponible de forma gratuita y en todo el mundo?",
       "virufyApp.willTheApplicationA": "Virufy se esfuerza por cumplir con las leyes de privacidad de datos que varían según el país. Estamos muy contentos de extendernos a su país si podemos conectarnos con un abogado de privacidad de datos pro bono para revisar nuestra política de privacidad y formulario de consentimiento.",
       "virufyApp.doYouPlanQ": "¿Planeas extender esta aplicación en una startup?",
       "virufyApp.doYouPlanA": "Virufy es una organización sin ánimo de lucro. Podemos asociarnos con empresas si es necesario para acelerar la implementación de la aplicación en beneficio de las personas.",
@@ -448,6 +448,23 @@
       "marcos": "Creo que Virufy desarrollará una solución muy precisa y que será útil para todo el mundo en todas las industrias. Así que animo a todo el mundo a que se tome unos minutos y contribuya con nosotros"
     }
   },
+  "paper": {
+    "headers": {
+      "header": "Paper"
+    },
+    "papers": {
+      "section2": {
+        "date": "Noviembre 2020",
+        "title": "Virufy: Global Applicability of Crowdsourced and Clinical Datasets for AI Detection of COVID-19 from Cough",
+        "readMoreLink": "Leer más..."
+      },
+      "section3": {
+        "date": "Mayo 2021",
+        "title": "Virufy: A Multi-Branch Deep Learning Network for Automated Detection of COVID-19",
+        "readMoreLink": "Leer más..."
+      }
+    }
+  },
   "privacy_policy": {
     "headers": {
       "header": "Política de privacidad",
@@ -523,11 +540,6 @@
           "description": "Embajador de Argentina en One Young World\nM.A. Public Relations, Ott Educación Superior",
           "title": "Líder del Equipo de Comunicaciones Digitales de Latinoamérica"
         },
-        "gunvant": {
-          "name": "Gunvant Chaudhari",
-          "description": "Investigador de Big Data en Radiología\nEstudiante de Doctorado, UC San Francisco",
-          "title": "Líder del Equipo de IA"
-        },
         "jason": {
           "name": "Jason Pareja Jauregui",
           "description": "Coordinador de Embajadores One Young World Latinoamérica\nGraduate, MIT Sloan School of Management",
@@ -562,6 +574,11 @@
           "name": "Ahmed Fakhry",
           "description": "Artificial Intelligence Researcher\nAlexandria University",
           "title": "ML Models Team Lead"
+        },
+        "ronan": {
+          "name": "Ronan Dunlop",
+          "description": "Co-founder - The Product Stack\nFormer VP Marketing, VMware",
+          "title": "Executive Marketing Advisor"
         }
       },
       "advisors": {
@@ -579,6 +596,11 @@
           "name": "Matt Prusak",
           "description": "Director de Negocios, Curative Alumnus\nStanford Graduate School of Business",
           "title": "Asesor Ejecutivo"
+        },
+        "anais": {
+          "name": "Anaïs Rameau",
+          "description": "Profesora Adjunta de Otorrinolaringología, Curativo\nWeill Cornell Medical College",
+          "title": "Asesora médico"
         },
         "rok": {
           "name": "Rok Sosic",

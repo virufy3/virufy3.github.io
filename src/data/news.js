@@ -1,4 +1,4 @@
-export const news = [
+const news = [
   {
     mediaLink:
       "https://www.forbes.com.mx/emprendedores-app-diagnostico-covid-19-toser-telefono/",
@@ -67,3 +67,12 @@ export const news = [
     country: " ",
   },
 ];
+
+const videos = [
+  {
+    id: "video1",
+    source: "https://www.youtube.com/embed/UZU3rPTEPfU",
+  },
+];
+
+export { news, videos };
