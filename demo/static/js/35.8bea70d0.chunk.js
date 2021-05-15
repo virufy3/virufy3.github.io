@@ -1,0 +1,2 @@
+(this["webpackJsonppwa-demo"]=this["webpackJsonppwa-demo"]||[]).push([[35],{332:function(e,t,a){"use strict";a.r(t);var n=a(37),c=(a(5),a(432)),r=a(243);test("renders learn react link",(function(){var e=(0,Object(c.a)(Object(n.jsx)(r.default,{})).getByText)(/learn react/i);expect(e).toBeInTheDocument()}))}}]);
+//# sourceMappingURL=35.8bea70d0.chunk.js.map
