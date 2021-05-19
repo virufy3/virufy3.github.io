@@ -4,6 +4,10 @@ module.exports = {
   },
   purge: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    minWidth: {
+      110: "110px",
+      "1/10": "10vw",
+    },
     extend: {
       colors: {
         primary: "#00A588", // Buttons
@@ -104,6 +108,19 @@ module.exports = {
       },
       zIndex: {
         "-10": "-10",
+      },
+      keyframes: {
+        bannermove: {
+          "0%": {
+            transform: "translateX(14%)",
+          },
+          "100%": {
+            transform: "translateX(calc(-1 * (100% - (100vw - 30vw))))",
+          },
+        },
+      },
+      animation: {
+        bannermove: "bannermove 35s linear infinite",
       },
     },
   },
