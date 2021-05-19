@@ -6,10 +6,6 @@ import supporter_links from "../../data/supporters_links";
 import "../../styles/hideScrollbar.css";
 
 export default ({ images }) => {
-  useEffect(() => {
-    console.log(images);
-  }, []);
-
   const intl = useIntl();
   return (
     <>
