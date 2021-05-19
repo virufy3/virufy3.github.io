@@ -18,7 +18,7 @@ const Role = ({ description, location, title, url, intl }) => (
         {title}
       </p>
 
-      <p className="font-heading md:whitespace-nowrap overflow-hidden overflow-ellipsis text-sm md:text-lg">
+      <p className="font-heading overflow-hidden overflow-ellipsis text-sm md:text-lg">
         {description}
       </p>
     </div>
