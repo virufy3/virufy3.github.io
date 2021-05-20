@@ -4,7 +4,6 @@ import SEO from "../components/SEO";
 import Layout from "../components/Layout";
 import ValuesSection from "../components/our-org/ValuesSection";
 import TeamSection from "../components/our-org/TeamSection";
-import Supporters from "../components/our-org/Supporters";
 
 export default function OurOrg({ data }) {
   const images = {};
@@ -17,7 +16,6 @@ export default function OurOrg({ data }) {
       <SEO title="Our org | Virufy" />
       <ValuesSection images={images} />
       <TeamSection images={images} />
-      <Supporters />
     </Layout>
   );
 }
