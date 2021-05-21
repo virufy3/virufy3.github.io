@@ -1,0 +1,80 @@
+.mobileNavHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 0 2rem 1.5rem;
+  position: relative;
+}
+
+.positionLogo {
+  position: absolute;
+  left: 40%;
+}
+
+.mobileNavLinks {
+  display: flex;
+  position: relative;
+  width: 100%;
+  margin: 20px;
+}
+
+.getInvolvedBtn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40%;
+  text-decoration: none;
+  text-align: center;
+}
+
+/*ARROW*/
+.arrow {
+  display: flex;
+  position: fixed;
+  right: 10%;
+  width: 25px;
+  height: 20px;
+  padding-top: 2rem;
+}
+
+.nav-arrow {
+  position: relative;
+  height: 0.1rem;
+  width: 15px;
+  background: black;
+  transform: rotate(25deg);
+}
+
+.nav-arrow::after {
+  content: "";
+  position: absolute;
+  height: 0.1rem;
+  width: 15px;
+  background: black;
+  transform: translateY(8px) rotate(-50deg) translateX(3px);
+}
+
+.arrow.open {
+  transition: all 0.5s ease-in-out;
+  margin-top: 5px;
+}
+
+.arrow.open .nav-arrow {
+  transition: all 0.2s ease-in-out;
+  transform: rotate(112deg);
+}
+
+.sublink {
+  list-style-type: none;
+  text-decoration: none;
+  padding-left: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.sublink-link {
+  text-decoration: none;
+}
+
+.sublink-link:hover {
+  font-weight: 700;
+  transition: all 0.3s ease-in-out;
+}

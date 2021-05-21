@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import navLinks from "./nav_links";
+import { navLinks } from "./nav_links";
 import { Link } from "gatsby";
 import LangSelect from "./LangSelect";
 import { useLocation } from "@reach/router";

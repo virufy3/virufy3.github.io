@@ -2,24 +2,24 @@ import React, { useState } from "react";
 import MobileNavToggle from "./MobileNavToggle";
 import LangSelect from "./LangSelect";
 import Overlay from "../Overlay";
-import navLinks from "./nav_links";
+import { navLinks, buttonInvolved } from "./nav_links";
 import { IntlContextConsumer, useIntl } from "gatsby-plugin-intl";
 import { Link } from "gatsby";
 import useEscape from "../../hooks/useEscape";
 import { useLocation } from "@reach/router";
-
-// Helpers
-import { isActivePath } from "./helpers/navHelper";
-
+import "./mobile.css";
+import { info } from "autoprefixer";
 export default ({ textColor, bgColor, virufyLogo }) => {
   const [navOpen, setNavOpen] = useState(false);
+  const [toggle, setToggle] = useState(false);
+  const [expanded, setExpanded] = useState([]);
   const intl = useIntl();
   const location = useLocation();
 
   useEscape(true, () => setNavOpen(false));
 
   const getLinkClasses = (link) => {
-    const isActiveLink = isActivePath(location, link);
+    const isActiveLink = location.pathname.includes(link.path);
 
     return link.btnStyle
       ? `no-underline text-white py-2 px-6 ${
@@ -28,16 +28,20 @@ export default ({ textColor, bgColor, virufyLogo }) => {
       : `no-underline ${isActiveLink ? "font-bold" : ""}`;
   };
 
+  const expandNavbar = (link) => {
+    setToggle(!toggle);
+    setExpanded(...link.id);
+    if (expanded.includes(link.id) === false) {
+      setToggle(true);
+      setExpanded([...link.id]);
+    }
+  };
+
   return (
     <IntlContextConsumer>
       {({ language: currentLocale }) => (
         <>
           <div className="flex items-end justify-between lg:hidden p-4">
-            <MobileNavToggle
-              mobileNavOpen={navOpen}
-              setMobileNavOpen={setNavOpen}
-              textColor={textColor}
-            />
             <span className="flex items-end">
               <Link to="/">
                 <img
@@ -48,25 +52,121 @@ export default ({ textColor, bgColor, virufyLogo }) => {
               </Link>
               <LangSelect bgColor={bgColor} textColor={textColor} />
             </span>
+            <MobileNavToggle
+              mobileNavOpen={navOpen}
+              setMobileNavOpen={setNavOpen}
+              textColor={textColor}
+            />
           </div>
           {
             <Overlay active={navOpen} onClick={() => setNavOpen(false)}>
               <div
-                className="inline-flex flex-col p-4 bg-white"
-                style={{ transform: "translate(1.5rem, 50%)" }}
+                className="inline-flex flex-col bg-white"
+                style={{
+                  transform: "translate(1.5rem, 50%)",
+                  width: "75%",
+                  height: "100%",
+                  margin: "0",
+                }}
                 onClick={(e) => e.stopPropagation()}
               >
-                {navLinks.map((link) => (
-                  <Link
-                    className={getLinkClasses(link)}
-                    to={`/${currentLocale}${link.path}`}
-                  >
-                    {intl.formatMessage({
-                      id: link.intlId,
-                      defaultMessage: link.defMsg,
-                    })}
+                <div className="mobileNavHeader">
+                  <MobileNavToggle
+                    mobileNavOpen={navOpen}
+                    setMobileNavOpen={setNavOpen}
+                    textColor={textColor}
+                  />
+                  <Link className="positionLogo" to="/">
+                    <img
+                      src={virufyLogo}
+                      alt="virufy"
+                      className="mr-8 inline-block w-20"
+                    />
                   </Link>
-                ))}
+                </div>
+                <div>
+                  <LangSelect bgColor={bgColor} textColor={textColor} />
+                  <hr />
+                  {navLinks.map((link, idx) => (
+                    <>
+                      <div
+                        key={link.intlId}
+                        onClick={() => expandNavbar(link)}
+                        style={{ display: "flex", height: "auto" }}
+                      >
+                        <Link
+                          to={`/${currentLocale}${link.path}`}
+                          className={getLinkClasses(link)}
+                        >
+                          <div className="mobileNavLinks">
+                            {intl.formatMessage({
+                              id: link.intlId,
+                              defaultMessage: link.defMsg,
+                            })}{" "}
+                          </div>
+                        </Link>
+                        <div
+                          className={`arrow ${
+                            toggle && expanded.includes(...link.id)
+                              ? "open"
+                              : null
+                          }`} //need to add drop down links
+                        >
+                          <div
+                            className={`${
+                              link.defMsg === "In the News" ||
+                              link.defMsg === "FAQs"
+                                ? null
+                                : "nav-arrow"
+                            }`}
+                          ></div>
+                        </div>
+                      </div>
+                      {toggle && expanded.includes(...link.id) ? (
+                        <div>
+                          {link.dropDownLinks && (
+                            // have to include locale in url or intl plugin will redirect without the id...
+
+                            <div>
+                              {link.dropDownLinks.map(
+                                ({ intlId, sectionId, path }, idx) => (
+                                  <li className="sublink">
+                                    <Link
+                                      className="sublink-link"
+                                      // to={path}
+                                      to={`/${currentLocale}${
+                                        path || link.path
+                                      }#${sectionId}`}
+                                      key={idx}
+                                    >
+                                      {intl.formatMessage({ id: intlId })}
+                                    </Link>
+                                  </li>
+                                )
+                              )}
+                            </div>
+                          )}
+                        </div>
+                      ) : null}
+
+                      <hr />
+                    </>
+                  ))}
+                  <hr />
+                </div>
+                <div style={{ marginTop: "3rem" }}>
+                  {buttonInvolved.map((button) => (
+                    <Link
+                      to={`/${currentLocale}${button.path}`}
+                      className="getInvolvedBtn text-white bg-primary py-2 px-6"
+                    >
+                      {intl.formatMessage({
+                        id: button.intlId,
+                        defaultMessage: button.defMsg,
+                      })}
+                    </Link>
+                  ))}
+                </div>
               </div>
             </Overlay>
           }
