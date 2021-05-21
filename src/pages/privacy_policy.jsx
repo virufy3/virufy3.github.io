@@ -26,7 +26,7 @@ export default function PrivacyPolicy({ data }) {
             <a
               className="text-black underline"
               target="_blank"
-              href="/policies/ar/privacy_policy.pdf"
+              href="/ar/privacy_policy.pdf"
             >
               {intl.formatMessage({
                 id: "privacy_policy.countries.arg_policy",
@@ -41,7 +41,7 @@ export default function PrivacyPolicy({ data }) {
             <a
               className="text-black underline"
               target="_blank"
-              href="/policies/bo/privacy_policy.pdf"
+              href="/bo/privacy_policy.pdf"
             >
               {intl.formatMessage({
                 id: "privacy_policy.countries.bol_policy",
@@ -56,7 +56,7 @@ export default function PrivacyPolicy({ data }) {
             <a
               className="text-black underline"
               target="_blank"
-              href="/policies/br/privacy_policy.pdf"
+              href="/br/privacy_policy.pdf"
             >
               {intl.formatMessage({
                 id: "privacy_policy.countries.brazil_policy",
@@ -71,7 +71,7 @@ export default function PrivacyPolicy({ data }) {
             <a
               className="text-black underline"
               target="_blank"
-              href="/policies/co/privacy_policy.pdf"
+              href="/co/privacy_policy.pdf"
             >
               {intl.formatMessage({
                 id: "privacy_policy.countries.col_policy",
@@ -86,7 +86,7 @@ export default function PrivacyPolicy({ data }) {
             <a
               className="text-black underline"
               target="_blank"
-              href="/policies/mx/privacy_policy.pdf"
+              href="/mx/privacy_policy.pdf"
             >
               {intl.formatMessage({
                 id: "privacy_policy.countries.mex_policy",
@@ -116,7 +116,7 @@ export default function PrivacyPolicy({ data }) {
             <a
               className="text-black underline"
               target="_blank"
-              href="/policies/us/privacy_policy.pdf"
+              href="/us/privacy_policy.pdf"
             >
               {intl.formatMessage({
                 id: "privacy_policy.countries.us_policy",
@@ -131,7 +131,7 @@ export default function PrivacyPolicy({ data }) {
             <a
               className="text-black underline"
               target="_blank"
-              href="/policies/eu/privacy_policy.pdf"
+              href="/eu/privacy_policy.pdf"
             >
               {intl.formatMessage({
                 id: "privacy_policy.countries.eu_policy",
