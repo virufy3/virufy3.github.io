@@ -1,13 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { graphql } from "gatsby";
 import { IntlContextConsumer } from "gatsby-plugin-intl";
 import Layout from "../components/Layout";
 import SEO from "../components/SEO";
 import bgWave from "../images/logos/background-wave.png";
-import Accordion from "../components/Accordion";
+import ContentTabs from "../components/ContentTabs";
 import { container } from "../styles/cookie_policy.module.css";
 
-const cookiePolicy = ({ data }) => {
+const CookiePolicy = ({ data }) => {
   return (
     <Layout>
       <SEO title="Virufy | Cookie Policy" />
@@ -32,14 +32,14 @@ const cookiePolicy = ({ data }) => {
                 alt="waves"
               />
               <div dangerouslySetInnerHTML={{ __html: markdown["top"].html }} />
-              <Accordion
+              <ContentTabs
                 items={[
                   {
-                    title: markdown["essential cookies"].title,
+                    title: markdown["necessary"].title,
                     contents: (
                       <div
                         dangerouslySetInnerHTML={{
-                          __html: markdown["essential cookies"].html,
+                          __html: markdown["necessary"].html,
                         }}
                       />
                     ),
@@ -85,7 +85,7 @@ const cookiePolicy = ({ data }) => {
   );
 };
 
-export default cookiePolicy;
+export default CookiePolicy;
 
 //prettier-ignore
 //prettier-ignore

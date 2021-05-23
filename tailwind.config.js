@@ -20,6 +20,16 @@ module.exports = {
           100: "#D7E9E6", //cyan color for pg background
           200: "#F0F9F6", // light green for pg background
         },
+        gray_light: {
+          DEFAULT: "#F6F6F9",
+          100: "#D7E9E6", //cyan color for pg background
+          200: "#F0F9F6", // light green for pg background
+        },
+        white: {
+          DEFAULT: "#FFFFFF",
+          100: "#FFFFFF", //cyan color for pg background
+          200: "#FFFFFF", // light green for pg background
+        },
         black: "#393939",
         filler: "rgba(172, 224, 215, 0.05)",
         divider: {
