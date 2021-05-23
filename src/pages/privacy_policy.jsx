@@ -26,7 +26,7 @@ export default function PrivacyPolicy({ data }) {
             <a
               className="text-black underline"
               target="_blank"
-              href="/ar/privacy_policy.pdf"
+              href="https://drive.google.com/file/d/1hOSwM8qZQrumQsRKzD_Ryfm9qi6YQaeM/view?usp=sharing"
             >
               {intl.formatMessage({
                 id: "privacy_policy.countries.arg_policy",
@@ -41,7 +41,7 @@ export default function PrivacyPolicy({ data }) {
             <a
               className="text-black underline"
               target="_blank"
-              href="/bo/privacy_policy.pdf"
+              href="https://drive.google.com/file/d/1iKUFSbjk8nC51Gqk0R3TfD7Uf2QXNvfk/view?usp=sharing"
             >
               {intl.formatMessage({
                 id: "privacy_policy.countries.bol_policy",
@@ -56,7 +56,7 @@ export default function PrivacyPolicy({ data }) {
             <a
               className="text-black underline"
               target="_blank"
-              href="/br/privacy_policy.pdf"
+              href="https://drive.google.com/file/d/1QZ3n1MWGxfagTK0pjx40OAV7eP0mJ1xs/view?usp=sharing"
             >
               {intl.formatMessage({
                 id: "privacy_policy.countries.brazil_policy",
@@ -71,7 +71,7 @@ export default function PrivacyPolicy({ data }) {
             <a
               className="text-black underline"
               target="_blank"
-              href="/co/privacy_policy.pdf"
+              href="https://drive.google.com/file/d/1OykphPny0sqQjaDUuFyLqH-mRf1_fUOp/view?usp=sharing"
             >
               {intl.formatMessage({
                 id: "privacy_policy.countries.col_policy",
@@ -86,7 +86,7 @@ export default function PrivacyPolicy({ data }) {
             <a
               className="text-black underline"
               target="_blank"
-              href="/mx/privacy_policy.pdf"
+              href="https://drive.google.com/file/d/1fH07cehkyLuFP0NwipIvkowAdjjeMUm2/view?usp=sharing"
             >
               {intl.formatMessage({
                 id: "privacy_policy.countries.mex_policy",
@@ -101,7 +101,7 @@ export default function PrivacyPolicy({ data }) {
             <a
               className="text-black underline"
               target="_blank"
-              href="/policies/pe/privacy_policy.pdf"
+              href="https://drive.google.com/file/d/1pPs-Xc8U2nvVkTQ_hK3vgkJeb5fuJLn0/view?usp=sharing"
             >
               {intl.formatMessage({
                 id: "privacy_policy.countries.peru_policy",
@@ -116,7 +116,7 @@ export default function PrivacyPolicy({ data }) {
             <a
               className="text-black underline"
               target="_blank"
-              href="/us/privacy_policy.pdf"
+              href="https://drive.google.com/file/d/1XRmcseV7u2MUggE7kIYH9voyiEkQRpZl/view?usp=sharing"
             >
               {intl.formatMessage({
                 id: "privacy_policy.countries.us_policy",
@@ -131,7 +131,7 @@ export default function PrivacyPolicy({ data }) {
             <a
               className="text-black underline"
               target="_blank"
-              href="/eu/privacy_policy.pdf"
+              href="https://drive.google.com/file/d/1XRmcseV7u2MUggE7kIYH9voyiEkQRpZl/view?usp=sharing"
             >
               {intl.formatMessage({
                 id: "privacy_policy.countries.eu_policy",
