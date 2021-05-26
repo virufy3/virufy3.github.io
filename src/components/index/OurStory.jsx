@@ -98,7 +98,7 @@ export default ({ images }) => {
           </div>
         </div>
 
-        <div className="overflow-x-scroll">
+        <div className="overflow-x-scroll mt-2">
           <div className="sponsor_container inline-flex flex-row animate-bannermove lg:w-full lg:justify-between lg:animate-none">
             <div className="flex items-center min-w-110 h-auto object-contain lg:min-w-1/10 lg:mx-3 mx-10 my-3 ml-0 lg:ml-0">
               <a href={supporter_links.nuvu} target="_blank">

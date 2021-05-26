@@ -6,6 +6,7 @@ module.exports = {
   theme: {
     minWidth: {
       110: "110px",
+      250: "250px",
       "1/10": "10vw",
     },
     extend: {
@@ -112,7 +113,7 @@ module.exports = {
       keyframes: {
         bannermove: {
           "0%": {
-            transform: "translateX(14%)",
+            transform: "translateX(7%)",
           },
           "100%": {
             transform: "translateX(calc(-1 * (100% - (100vw - 30vw))))",
@@ -120,7 +121,7 @@ module.exports = {
         },
       },
       animation: {
-        bannermove: "bannermove 35s linear infinite",
+        bannermove: "bannermove 42s linear infinite",
       },
     },
   },
