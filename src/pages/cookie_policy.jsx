@@ -55,6 +55,16 @@ const CookiePolicy = ({ data }) => {
                     ),
                   },
                   {
+                    title: markdown["statistic cookies"].title,
+                    contents: (
+                      <div
+                        dangerouslySetInnerHTML={{
+                          __html: markdown["statistic cookies"].html,
+                        }}
+                      />
+                    ),
+                  },
+                  {
                     title: markdown["performance cookies"].title,
                     contents: (
                       <div
@@ -70,6 +80,16 @@ const CookiePolicy = ({ data }) => {
                       <div
                         dangerouslySetInnerHTML={{
                           __html: markdown["marketing cookies"].html,
+                        }}
+                      />
+                    ),
+                  },
+                  {
+                    title: markdown["unclassified cookies"].title,
+                    contents: (
+                      <div
+                        dangerouslySetInnerHTML={{
+                          __html: markdown["unclassified cookies"].html,
                         }}
                       />
                     ),

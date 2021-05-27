@@ -9,5 +9,6 @@ The Website may use technical cookies to carry out activities that are strictly 
 
 Cookie        | Provider   | Duration | Type | Purpose                                                                  
 ------------- | ---------- | -------- | ---- | -------------------------------------------------------------------------
+CONSENT     | <a class="no-underline" href="youtube.com">Youtrube.com</a> | 1 year  | HTTP | Used to detect if the visitor has accepted the marketing category in the cookie banner. This cookie is necessary for GDPR-compliance of the website.
 CookieConsent | <a class="no-underline" href="https://www.cookiebot.com/goto/privacy-policy/">Cookiebot</a>  | 1 year   | HTTP | Stores the user's cookie consent state for the current domain            
 __cfduid      | <a class="no-underline" href="https://www.cloudflare.com/">CloudFlare</a> | 1 year  | HTTP | Used by the content network, Cloudflare, to identify trusted web traffic.
