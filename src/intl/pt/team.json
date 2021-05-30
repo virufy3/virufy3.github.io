@@ -15,6 +15,11 @@
         "description": "Um Jovem Embaixador da Paz Mundial\nEx-alunos, UC Berkeley Ciência da Computação",
         "title": "Fundador e CEO"
       },
+      "yulie": {
+        "name": "Yulie Qiao",
+        "description": "University of Wisconsin-Madison\nBachelor of Business Administration",
+        "title": "VP of Operations"
+      },
       "ravel": {
         "name": "Ravel Charles",
         "description": "Engenheiro de soluções de nuvem, Google\nMestrado em Estudos Profissionais em Segurança de Dados,Universidade Northeastern",
@@ -39,6 +44,11 @@
         "name": "Marcos Deza",
         "description": "One Young World do Mundo Argentina\nM.A. Public Relations, Ott Educación Superior",
         "title": "Líder em Comunicações Digitais na América Latina"
+      },
+      "kelly": {
+        "name": "Kelly Wenzel",
+        "description": "SPHR\nMBA International Business, Texas Christian University",
+        "title": "HR Team Lead"
       },
       "yoonju": {
         "name": "Yoonju Hwang",

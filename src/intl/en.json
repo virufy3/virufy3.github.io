@@ -506,6 +506,11 @@
           "description": "One Young World Japan Ambassador\nAlumni, UC Berkeley Computer Science",
           "title": "Founder & CTO"
         },
+        "yulie": {
+          "name": "Yulie Qiao",
+          "description": "University of Wisconsin-Madison\nBachelor of Business Administration",
+          "title": "VP of Operations"
+        },
         "maisie": {
           "name": "Maisie Mora",
           "description": "San Diego State University",
@@ -540,6 +545,11 @@
           "name": "Marcos Deza",
           "description": "One Young World Argentina Ambassador\nM.A. Public Relations, Ott Educación Superior",
           "title": "Latin America Digital Communications Lead"
+        },
+        "kelly": {
+          "name": "Kelly Wenzel",
+          "description": "SPHR\nMBA International Business, Texas Christian University",
+          "title": "HR Team Lead"
         },
         "jason": {
           "name": "Jason Pareja Jauregui",
