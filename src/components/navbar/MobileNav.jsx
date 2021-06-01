@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import MobileNavToggle from "./MobileNavToggle";
 import LangSelect from "./LangSelect";
-import LangSelectMobile from "./LangSelectMobile";
 import Overlay from "../Overlay";
 import { navLinks, buttonInvolved } from "./nav_links";
 import { IntlContextConsumer, useIntl } from "gatsby-plugin-intl";
@@ -139,7 +138,7 @@ export default ({ textColor, bgColor, virufyLogo }) => {
                                       key={idx}
                                     >
                                       {intlId === "language-selection" ? (
-                                        <LangSelectMobile />
+                                        <LangSelect />
                                       ) : (
                                         intl.formatMessage({ id: intlId })
                                       )}
