@@ -1,6 +1,13 @@
 const navLinks = [
   {
     id: "1",
+    intlId: "Language",
+    defMsg: "",
+    path: "",
+    dropDownLinks: [{ intlId: "language-selection" }],
+  },
+  {
+    id: "2",
     intlId: "nav.ourApproach",
     defMsg: "Our Approach",
     path: "/our-approach",
@@ -10,7 +17,7 @@ const navLinks = [
     ],
   },
   {
-    id: "2",
+    id: "3",
     intlId: "nav.ourOrg",
     defMsg: "Our Organization",
     path: "/team",
@@ -22,14 +29,14 @@ const navLinks = [
     ],
   },
   {
-    id: "3",
+    id: "4",
     intlId: "nav.inTheNews",
     defMsg: "In the News",
     path: "/news",
     classes: "text-white",
   },
   {
-    id: "4",
+    id: "5",
     intlId: "nav.faqs",
     defMsg: "FAQs",
     path: "/our-approach#faq",

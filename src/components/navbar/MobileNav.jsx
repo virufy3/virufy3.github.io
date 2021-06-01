@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import MobileNavToggle from "./MobileNavToggle";
 import LangSelect from "./LangSelect";
+import LangSelectMobile from "./LangSelectMobile";
 import Overlay from "../Overlay";
 import { navLinks, buttonInvolved } from "./nav_links";
 import { IntlContextConsumer, useIntl } from "gatsby-plugin-intl";
@@ -9,6 +10,8 @@ import useEscape from "../../hooks/useEscape";
 import { useLocation } from "@reach/router";
 import "./mobile.css";
 import { info } from "autoprefixer";
+import { IoIosArrowForward } from "react-icons/io";
+
 export default ({ textColor, bgColor, virufyLogo }) => {
   const [navOpen, setNavOpen] = useState(false);
   const [toggle, setToggle] = useState(false);
@@ -50,8 +53,8 @@ export default ({ textColor, bgColor, virufyLogo }) => {
                   className="mr-8 inline-block w-20"
                 />
               </Link>
-              <LangSelect bgColor={bgColor} textColor={textColor} />
             </span>
+            <LangSelect />
             <MobileNavToggle
               mobileNavOpen={navOpen}
               setMobileNavOpen={setNavOpen}
@@ -63,10 +66,9 @@ export default ({ textColor, bgColor, virufyLogo }) => {
               <div
                 className="inline-flex flex-col bg-white"
                 style={{
-                  transform: "translate(1.5rem, 50%)",
+                  transform: "translate(3.5rem, 40%)",
                   width: "75%",
                   height: "100%",
-                  margin: "0",
                 }}
                 onClick={(e) => e.stopPropagation()}
               >
@@ -85,7 +87,6 @@ export default ({ textColor, bgColor, virufyLogo }) => {
                   </Link>
                 </div>
                 <div>
-                  <LangSelect bgColor={bgColor} textColor={textColor} />
                   <hr />
                   {navLinks.map((link, idx) => (
                     <>
@@ -112,14 +113,12 @@ export default ({ textColor, bgColor, virufyLogo }) => {
                               : null
                           }`} //need to add drop down links
                         >
-                          <div
-                            className={`${
-                              link.defMsg === "In the News" ||
-                              link.defMsg === "FAQs"
-                                ? null
-                                : "nav-arrow"
-                            }`}
-                          ></div>
+                          <div>
+                            {link.defMsg === "In the News" ||
+                            link.defMsg === "FAQs" ? null : (
+                              <IoIosArrowForward color="#8C8CA1" />
+                            )}
+                          </div>
                         </div>
                       </div>
                       {toggle && expanded.includes(...link.id) ? (
@@ -139,7 +138,11 @@ export default ({ textColor, bgColor, virufyLogo }) => {
                                       }#${sectionId}`}
                                       key={idx}
                                     >
-                                      {intl.formatMessage({ id: intlId })}
+                                      {intlId === "language-selection" ? (
+                                        <LangSelectMobile />
+                                      ) : (
+                                        intl.formatMessage({ id: intlId })
+                                      )}
                                     </Link>
                                   </li>
                                 )
@@ -154,17 +157,19 @@ export default ({ textColor, bgColor, virufyLogo }) => {
                   ))}
                   <hr />
                 </div>
-                <div style={{ marginTop: "3rem" }}>
+                <div>
                   {buttonInvolved.map((button) => (
-                    <Link
-                      to={`/${currentLocale}${button.path}`}
-                      className="getInvolvedBtn text-white bg-primary py-2 px-6"
-                    >
-                      {intl.formatMessage({
-                        id: button.intlId,
-                        defaultMessage: button.defMsg,
-                      })}
-                    </Link>
+                    <div style={{ marginTop: "8rem" }}>
+                      <Link
+                        to={`/${currentLocale}${button.path}`}
+                        className="getInvolvedBtn text-white bg-primary py-2 px-6"
+                      >
+                        {intl.formatMessage({
+                          id: button.intlId,
+                          defaultMessage: button.defMsg,
+                        })}
+                      </Link>
+                    </div>
                   ))}
                 </div>
               </div>

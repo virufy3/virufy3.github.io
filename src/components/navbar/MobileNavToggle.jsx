@@ -23,7 +23,8 @@ const HamburgerClose = ({ textColor }) => (
     fill="none"
     viewBox="0 0 24 24"
     stroke="currentColor"
-    className={`w-6 ${textColor}`}
+    style={{ color: "#00A588" }}
+    className={`w-6`}
   >
     <path
       strokeLinecap="round"

@@ -13,8 +13,9 @@
 .mobileNavLinks {
   display: flex;
   position: relative;
-  width: 100%;
+  width: 80%;
   margin: 20px;
+  color: #39393a;
 }
 
 .getInvolvedBtn {
@@ -24,6 +25,7 @@
   width: 40%;
   text-decoration: none;
   text-align: center;
+  font: Source Sans Pro;
 }
 
 /*ARROW*/
@@ -31,36 +33,14 @@
   display: flex;
   position: fixed;
   right: 10%;
-  width: 25px;
-  height: 20px;
   padding-top: 2rem;
-}
-
-.nav-arrow {
-  position: relative;
-  height: 0.1rem;
-  width: 15px;
-  background: black;
-  transform: rotate(25deg);
-}
-
-.nav-arrow::after {
-  content: "";
-  position: absolute;
-  height: 0.1rem;
-  width: 15px;
-  background: black;
-  transform: translateY(8px) rotate(-50deg) translateX(3px);
+  transform-origin: -30% 60%;
 }
 
 .arrow.open {
-  transition: all 0.5s ease-in-out;
-  margin-top: 5px;
-}
-
-.arrow.open .nav-arrow {
   transition: all 0.2s ease-in-out;
-  transform: rotate(112deg);
+  margin-top: 5px;
+  transform: rotate(90deg) translateY(-17px);
 }
 
 .sublink {
@@ -72,6 +52,7 @@
 
 .sublink-link {
   text-decoration: none;
+  color: #39393a;
 }
 
 .sublink-link:hover {
