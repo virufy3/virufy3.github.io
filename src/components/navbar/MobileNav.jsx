@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import MobileNavToggle from "./MobileNavToggle";
-import LangSelect from "./LangSelect";
+import MobileNavLangSelect from "./MobileNavLangSelect";
 import Overlay from "../Overlay";
 import { navLinks, buttonInvolved } from "./nav_links";
 import { IntlContextConsumer, useIntl } from "gatsby-plugin-intl";
@@ -10,6 +10,7 @@ import { useLocation } from "@reach/router";
 import "./mobile.css";
 import { info } from "autoprefixer";
 import { IoIosArrowForward } from "react-icons/io";
+import LangSelect from "./LangSelect";
 
 export default ({ textColor, bgColor, virufyLogo }) => {
   const [navOpen, setNavOpen] = useState(false);
@@ -138,7 +139,7 @@ export default ({ textColor, bgColor, virufyLogo }) => {
                                       key={idx}
                                     >
                                       {intlId === "language-selection" ? (
-                                        <LangSelect />
+                                        <MobileNavLangSelect />
                                       ) : (
                                         intl.formatMessage({ id: intlId })
                                       )}
