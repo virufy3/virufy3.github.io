@@ -66,9 +66,8 @@ export default ({ textColor, bgColor, virufyLogo }) => {
               <div
                 className="inline-flex flex-col bg-white"
                 style={{
-                  transform: "translate(3.5rem, 40%)",
-                  width: "75%",
-                  height: "100%",
+                  width: "100%",
+                  height: "100vh",
                 }}
                 onClick={(e) => e.stopPropagation()}
               >
