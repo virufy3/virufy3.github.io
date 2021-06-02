@@ -18,6 +18,7 @@ export default ({ bgColor, textColor }) => {
           <>
             {languages.map((lang) => (
               <Link
+                style={{ textDecoration: "none" }}
                 onClick={() => changeLocale(lang)}
                 to={`/${currentLocale}/`}
               >
