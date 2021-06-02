@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import MobileNavToggle from "./MobileNavToggle";
 import MobileNavLangSelect from "./MobileNavLangSelect";
 import Overlay from "../Overlay";
-import { navLinks, buttonInvolved } from "./nav_links";
+import { mobileNavLinks, buttonInvolved } from "./nav_links";
 import { IntlContextConsumer, useIntl } from "gatsby-plugin-intl";
 import { Link } from "gatsby";
 import useEscape from "../../hooks/useEscape";
@@ -87,7 +87,7 @@ export default ({ textColor, bgColor, virufyLogo }) => {
                 </div>
                 <div>
                   <hr />
-                  {navLinks.map((link, idx) => (
+                  {mobileNavLinks.map((link, idx) => (
                     <>
                       <div
                         key={link.intlId}
