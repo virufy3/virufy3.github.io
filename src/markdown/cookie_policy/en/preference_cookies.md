@@ -9,4 +9,6 @@ These cookies enable a website to remember information that changes the way the 
 
 Cookie        | Provider      | Duration   | Type | Purpose                                                   
 ------------- | ------------- | ---------- | ---- | ----------------------------------------------------------
-CookieConsentBulkSetting-# | <a class="no-underline" href="https://www.cookiebot.com/goto/privacy-policy/">Cookiebot</a> | Persistent | HTML | Cookiebot Enables cookie consent across multiple websites.
+@@scroll# | <a class="no-underline" href="virufy.org">Virufy</a> | Session | HTML | Unclassified
+i18nextLng | <a class="no-underline" href="virufy.org">Virufy</a> | Persistent | HTML | Determines the preferred language of the visitor. Allows the website to set the preferred language upon the visitor's re-entry.
+
