@@ -6,6 +6,12 @@ export const leadership = [
     imageName: "amil",
   },
   {
+    mediaLink: "https://www.linkedin.com/in/yulieq/",
+    id: "yulie",
+    defaultName: "Yulie Qiao",
+    imageName: "yulie",
+  },
+  {
     mediaLink: "https://www.linkedin.com/in/maisiemora/",
     id: "maisie",
     defaultName: "Maisie Mora",
@@ -35,6 +41,12 @@ export const leadership = [
     id: "marcos",
     defaultName: "Marcos Deza",
     imageName: "marcos",
+  },
+  {
+    mediaLink: "https://www.linkedin.com/in/kellyrenewenzel/",
+    id: "kelly",
+    defaultName: "Kelly Wenzel",
+    imageName: "kelly",
   },
   {
     mediaLink: "https://www.linkedin.com/in/colleen-wang-59a091205/",
@@ -67,13 +79,6 @@ export const leadership = [
     defaultName: "Alfonso Assaf",
     imageName: "alfonso",
   },
-  {
-    mediaLink: "https://www.linkedin.com/in/kellyrenewenzel/",
-    id: "kelly",
-    defaultName: "Kelly Wenzel",
-    imageName: "kelly",
-  },
-
   {
     mediaLink: "https://www.linkedin.com/in/kitanf/",
     id: "kitan",
