@@ -50,12 +50,6 @@ export const leadership = [
     imageName: "ravel",
   },
   {
-    mediaLink: "https://www.linkedin.com/in/ahmed-fakhry-5b178017a/",
-    id: "ahmed",
-    defaultName: "Ahmed Fakhry",
-    imageName: "ahmed",
-  },
-  {
     mediaLink: " ",
     id: "amelie",
     defaultName: "Amelie Azim-Khan",
