@@ -492,6 +492,7 @@
   "team": {
     "supportersSection": {
       "header": "Our supporters",
+      "description": "The experience and determination of the organizations that contribute to Virufy represent the union of some of the most influential leaders in business, academia, and society.",
       "supporterText": "Virufy is a <a target=\"_blank\" rel=\"noreferrer\" href=\"\" class=\"underline\"/>Stanford COVID-19 Response Innovation Lab</a> project and is also featured in <a target=\"_blank\" rel=\"noreferrer\" href=\"\" class=\"underline\"/>One Young World</a>"
     },
     "teamSection": {
@@ -504,6 +505,11 @@
           "name": "Amil Khanzada",
           "description": "One Young World Japan Ambassador\nAlumni, UC Berkeley Computer Science",
           "title": "Founder & CTO"
+        },
+        "yulie": {
+          "name": "Yulie Qiao",
+          "description": "University of Wisconsin-Madison\nBachelor of Business Administration",
+          "title": "VP of Operations"
         },
         "maisie": {
           "name": "Maisie Mora",
@@ -540,6 +546,11 @@
           "description": "One Young World Argentina Ambassador\nM.A. Public Relations, Ott Educación Superior",
           "title": "Latin America Digital Communications Lead"
         },
+        "kelly": {
+          "name": "Kelly Wenzel",
+          "description": "SPHR\nMBA International Business, Texas Christian University",
+          "title": "HR Team Lead"
+        },
         "jason": {
           "name": "Jason Pareja Jauregui",
           "description": "One Young World Latin America Coordinating Ambassador\nGraduate, MIT Sloan School of Management",
@@ -569,11 +580,6 @@
           "name": "Colleen Wang",
           "description": "Author of Roses Watered by a Robot’s Tears",
           "title": "Fundraising Team Lead"
-        },
-        "ahmed": {
-          "name": "Ahmed Fakhry",
-          "description": "Artificial Intelligence Researcher\nAlexandria University",
-          "title": "ML Models Team Lead"
         },
         "ronan": {
           "name": "Ronan Dunlop",

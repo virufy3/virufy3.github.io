@@ -492,7 +492,8 @@
   "team": {
     "supportersSection": {
       "header": "Os nossos apoiantes",
-      "supporterText": "Virufy is a <a target=\"_blank\" rel=\"noreferrer\" href=\"\" class=\"underline\"/>Stanford COVID-19 Response Innovation Lab</a> project and is also featured in <a target=\"_blank\" rel=\"noreferrer\" href=\"\" class=\"underline\"/>One Young World</a>"
+      "description": "A experiência e determinação das organizações que contribuem ao Virufy representam a união de alguns dos mais influentes líderes nos negócios, academia e sociedade.",
+      "supporterText": "Virufy é um projeto do <a target=\"_blank\" rel=\"noreferrer\" href=\"\" class=\"underline\"/>Stanford COVID-19 Response Innovation Lab</a> e também é destaque no <a target=\"_blank\" rel=\"noreferrer\" href=\"\" class=\"underline\"/>One Young World</a>"
     },
     "teamSection": {
       "header": "A nossa equipa",
@@ -504,6 +505,11 @@
           "name": "Amil Khanzada",
           "description": "Um Jovem Embaixador da Paz Mundial\nEx-alunos, UC Berkeley Ciência da Computação",
           "title": "Fundador e CEO"
+        },
+        "yulie": {
+          "name": "Yulie Qiao",
+          "description": "University of Wisconsin-Madison\nBachelor of Business Administration",
+          "title": "VP of Operations"
         },
         "ravel": {
           "name": "Ravel Charles",
@@ -529,6 +535,11 @@
           "name": "Marcos Deza",
           "description": "One Young World do Mundo Argentina\nM.A. Public Relations, Ott Educación Superior",
           "title": "Líder em Comunicações Digitais na América Latina"
+        },
+        "kelly": {
+          "name": "Kelly Wenzel",
+          "description": "SPHR\nMBA International Business, Texas Christian University",
+          "title": "HR Team Lead"
         },
         "yoonju": {
           "name": "Yoonju Hwang",
@@ -569,11 +580,6 @@
           "name": "Colleen Wang",
           "description": "Author of Roses Watered by a Robot’s Tears",
           "title": "Fundraising Team Lead"
-        },
-        "ahmed": {
-          "name": "Ahmed Fakhry",
-          "description": "Artificial Intelligence Researcher\nAlexandria University",
-          "title": "ML Models Team Lead"
         },
         "ronan": {
           "name": "Ronan Dunlop",

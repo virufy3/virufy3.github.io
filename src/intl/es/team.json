@@ -1,6 +1,7 @@
 {
   "supportersSection": {
     "header": "Nuestros Patrocinadores",
+    "description": "La experiencia y determinación de las organizaciones que contribuyen a Virufy representan la unión de algunos de los líderes más influyentes del mundo empresarial, académico y social.",
     "supporterText": "Virufy es un proyecto del <a target=\"_blank\" rel=\"noreferrer\" href='https://responselab.stanford.edu/projects.html' class=\"underline\"/>Laboratorio de Innovación de Respuesta COVID-19 de Stanford</a> y también aparece en <a target=\"_blank\" rel=\"noreferrer\" href='https://www.oneyoungworld.com/' class=\"underline\"/>One Young World</a>"
   },
   "teamSection": {
@@ -13,6 +14,11 @@
         "name": "Amil Khanzada",
         "description": "Embajador de One Young World Japón\nEx-alumno, UC Berkeley Computer Science",
         "title": "Fundador y CTO"
+      },
+      "yulie": {
+        "name": "Yulie Qiao",
+        "description": "University of Wisconsin-Madison\nBachelor of Business Administration",
+        "title": "VP of Operations"
       },
       "maisie": {
         "name": "Maisie Mora",
@@ -49,6 +55,11 @@
         "description": "Embajador de Argentina en One Young World\nM.A. Public Relations, Ott Educación Superior",
         "title": "Líder del Equipo de Comunicaciones Digitales de Latinoamérica"
       },
+      "kelly": {
+        "name": "Kelly Wenzel",
+        "description": "SPHR\nMBA International Business, Texas Christian University",
+        "title": "HR Team Lead"
+      },
       "jason": {
         "name": "Jason Pareja Jauregui",
         "description": "Coordinador de Embajadores One Young World Latinoamérica\nGraduate, MIT Sloan School of Management",
@@ -78,11 +89,6 @@
         "name": "Colleen Wang",
         "description": "Autora de 'Roses Watered by a Robot’s Tears'",
         "title": "Líder del Equipo de Recaudación de Fondos"
-      },
-      "ahmed": {
-        "name": "Ahmed Fakhry",
-        "description": "Artificial Intelligence Researcher\nAlexandria University",
-        "title": "ML Models Team Lead"
       },
       "ronan": {
         "name": "Ronan Dunlop",
