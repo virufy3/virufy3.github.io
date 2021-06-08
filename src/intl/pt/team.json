@@ -12,48 +12,48 @@
     "leadership": {
       "amil": {
         "name": "Amil Khanzada",
-        "description": "Um Jovem Embaixador da Paz Mundial\nEx-alunos, UC Berkeley Ciência da Computação",
-        "title": "Fundador e CEO"
+        "description": "Embaixador One Young World Japão\nAlumni, UC Berkeley Ciência da Computação",
+        "title": "Fundador & CTO"
       },
       "yulie": {
         "name": "Yulie Qiao",
-        "description": "University of Wisconsin-Madison\nBachelor of Business Administration",
-        "title": "VP of Operations"
+        "description": "Universidade de Wisconsin-Madison\nBacharel em Administração de Empresas",
+        "title": "VP de Operações"
       },
       "ravel": {
         "name": "Ravel Charles",
-        "description": "Engenheiro de soluções de nuvem, Google\nMestrado em Estudos Profissionais em Segurança de Dados,Universidade Northeastern",
-        "title": "Líder de Equipe Infosec"
+        "description": "Engenheiro de soluções em nuvem, Google\nM.P.S. Data Security, Northeastern University",
+        "title": "Líder da Equipe Infosec"
       },
       "matheus": {
         "name": "Matheus Galiza",
-        "description": "Comité de Políticas Públicas\nJovenes Iberoamericanos\nM.A. Relações Internacionais, Universidade Federal da Paraíba",
-        "title": "Gestor de Divulgação Comunitária do Brasil"
+        "description": "Comitê de Políticas Públicas\nJovenes Iberoamericanos\nM.A. Relações Internacionais, Universidade Federal da Paraíba",
+        "title": "Gerente de alcance comunitário do Brasil"
       },
       "maisie": {
         "name": "Maisie Mora",
-        "description": "Universidade Estadual de San Diego",
-        "title": "UX team lead"
+        "description": "San Diego State University",
+        "title": "Líder de equipe UX"
       },
       "jonatan": {
         "name": "Jonatan Jaskilioff",
         "description": "CTO - XOOR",
-        "title": "Chefe de Equipa de Aplicações Móveis"
+        "title": "Líder de equipe de App Móvel"
       },
       "marcos": {
         "name": "Marcos Deza",
-        "description": "One Young World do Mundo Argentina\nM.A. Public Relations, Ott Educación Superior",
+        "description": "Embaixador One Young World da Argentina\nM.A. Relações Públicas, Ott Educación Superior",
         "title": "Líder em Comunicações Digitais na América Latina"
       },
       "kelly": {
         "name": "Kelly Wenzel",
         "description": "SPHR\nMBA International Business, Texas Christian University",
-        "title": "HR Team Lead"
+        "title": "Líder de equipe de RH"
       },
       "yoonju": {
         "name": "Yoonju Hwang",
-        "description": "Desenvolvedor de site e app móvel\nB.Tech., CUNY NYC College of Technology",
-        "title": "Líder de Equipe de desenvolvimento web"
+        "description": "Desenvolvedora do Website and Aplicativo Móvel\nB.Tech., CUNY NYC College of Technology",
+        "title": "Líder de equipe Web Dev"
       },
       "jason": {
         "name": "Jason Pareja Jauregui",
@@ -62,105 +62,100 @@
       },
       "sebastian": {
         "name": "Sebastian Pedraza",
-        "description": "Embaixador do One Young World Colômbia\nMembro do Comitê Diretivo YPARD\nCiência Política e Gestão Pública, International University of La Rioja",
-        "title": "Líder de divulgação comunitária da Colômbia"
+        "description": "Embaixador One Young World Colômbia\nMembro do Comitê de Direção YPARD\nCiência Política, Universidade Internacional de La Rioja",
+        "title": "Gerente de alcance comunitário da Colômbia"
       },
       "amelie": {
         "name": "Amelie Azim-Khan",
-        "description": "Embaixador da Juventude, Europa e Reino Unido",
-        "title": "Wycombe Abbey"
+        "description": "Wycombe Abbey",
+        "title": "Embaixador da Juventude, Europa e Reino Unido"
       },
       "kitan": {
         "name": "Kitan Fasuyi",
-        "description": "Gestor de productos/proyectos\nEpic",
-        "title": "Director de Proyectos Globales"
+        "description": "Gerente de Produto / Projeto\nÉpico",
+        "title": "Gerente Global de Projetos"
       },
       "alfonso": {
         "name": "Alfonso Assaf",
-        "description": "Ex-consultor sénior, Deloitte\nB.A. Economics, Universidad del CEMA",
-        "title": "Gestor de Divulgação da Comunidade Argentina"
+        "description": "Ex-consultor sênior, Deloitte\nB.A. Economia, Universidad del CEMA",
+        "title": "Gerente de alcance comunitário da Argentina"
       },
       "zach": {
         "name": "Zach Lawless",
-        "description": "Cientista de Dados Sênior\nUniversidade de Washington",
-        "title": "Lider de Time MLOps"
+        "description": "Cientista Sênior de Dados\nUniversidade de Washington",
+        "title": "Líder da Equipe MLOps"
       },
       "colleen": {
         "name": "Colleen Wang",
-        "description": "Author of Roses Watered by a Robot’s Tears",
-        "title": "Fundraising Team Lead"
+        "description": "Autor de 'Roses Watered by a Robot's Tears'",
+        "title": "Líder da Equipe de Captação de Recursos"
       },
       "ahmed": {
         "name": "Ahmed Fakhry",
-        "description": "Artificial Intelligence Researcher\nAlexandria University",
+        "description": "Pesquisador de Inteligência Artificial da\nAlexandria University",
         "title": "ML Models Team Lead"
-      },
-      "ronan": {
-        "name": "Ronan Dunlop",
-        "description": "Co-fundador - The Products Stack\nEx-Vice-Presidente de Marketing, VMware",
-        "title": "Assessor Executivo de Marketing"
       }
     },
     "advisors": {
       "kara": {
         "name": "Kara Meister, M.D.",
-        "description": "Professor Assistente Clínico, Otorrinolaringologia\nEscola de Medicina de Stanford",
-        "title": "Conselheiro médico"
+        "description": "Professora Assistente Clínico, Otorrinolaringologia\nEscola de Medicina de Stanford",
+        "title": "Consultora médica"
       },
       "jure": {
         "name": "Jure Leskovec",
-        "description": "Cientista-Chefe - Pinterest\nProfessor Associado de IA, AI\nEscola de Engenharia de Stanford",
-        "title": "Conselheiro de Inteligencia Artificial"
+        "description": "Cientista Chefe - Pinterest\nProfessor associado, AI\nEscola de Engenharia de Stanford",
+        "title": "Conselheiro de Inteligência Artificial"
       },
       "matt": {
         "name": "Matt Prusak",
-        "description": "Chief Business Officer, Curative Alumnus\nStanford Graduate School of Business",
-        "title": "Conselheiro Executivo"
+        "description": "Chefe de Negócios, Curativo\nEx-aluno da Stanford Graduate School of Business",
+        "title": "Assessor Executivo"
       },
       "anais": {
         "name": "Anaïs Rameau",
-        "description": "Professor assistente de Otorrinolaringologia, Curativo\nWeill Cornell Medical College",
-        "title": "Assessor Médico"
+        "description": "Professora assistente de Otorrinolaringologia\nWeill Cornell Medical College",
+        "title": "Consultora médica"
       },
       "rok": {
         "name": "Rok Sosic",
-        "description": "Engenheiro de Investigação Sénior\nEscola de Engenharia de Stanford",
-        "title": "Consultor de Inteligência Artificial"
+        "description": "Engenheiro Sênior de Pesquisa\nEscola de Engenharia de Stanford",
+        "title": "Conselheiro de Inteligência Artificial"
       },
       "rafi": {
         "name": "Rafi Azim-Khan",
-        "description": "Sócio - Lei de Pillsbury\nVale do Silício & Europa",
-        "title": "Conselheiro Jurídico Executivo"
+        "description": "Sócio - Pillsbury Law\nVale do Silício e Europa",
+        "title": "Consultor Jurídico Executivo"
       },
       "richard": {
         "name": "Richard Nall",
-        "description": "O Jardim da Marca - CEO",
+        "description": "The Brand Garden - CEO",
         "title": "Director de Marketing"
       },
       "madhav": {
         "name": "Madhav Datt",
-        "description": "Fundado - Green the Gene\nEx-Representante Global para Jovens - UN EP",
-        "title": "Conselheiro Executivo"
+        "description": "Fundador - Green the Gene\nEx-Representante Global para a Juventude - UN EP",
+        "title": "Consultor executivo sem fins lucrativos"
       },
       "nathan": {
         "name": "Nathan Thomas",
-        "description": "Embaixador do One Young World\nFounder e CEO - All We Are",
-        "title": "Conselheiro Executivo"
+        "description": "Embaixador One Young World\nFundador e CEO - All We Are",
+        "title": "Consultor executivo sem fins lucrativos"
       },
       "melissa": {
         "name": "Melissa Dyrdahl",
-        "description": "Antiga OCM - Adobe\nStanford DCI Fellow\nMembro da Direcção - CommonSpirit Health",
-        "title": "Consultor Executivo de Marketing"
+        "description": "Ex-OGM - Adobe\nStanford DCI Fellow\nMembro do Conselho - CommonSpirit Health",
+        "title": "Assessora Executiva de Marketing"
       },
       "hugo": {
         "name": "Hugo Estrada",
-        "description": "CEO & Managing Partner na iwé Consultores\nChairman of Nueva EPS (Seguro Saúde)",
-        "title": "Assessor Executivo de divulgação on Colômbia"
+        "description": "CEO & Managing Partner da iwé Consultores\nPresidente da Nueva EPS (Seguro Saúde)",
+        "title": "Consultor Executivo de Divulgação da Colômbia"
       },
       "pedro": {
         "name": "Pedro Siena",
-        "description": "Fundador e Chefe Executivo - Siena Company\nMentor - Stanford Lean Launchpad\nSão Carlos, Brazil",
-        "title": "Conselheiro de divulgação no Brasil"
+        "description": "Fundador e CEO - Siena Company\nMentor - Stanford Lean Launchpad\nSão Carlos, Brasil",
+        "title": "Assessor de Divulgação no Brasil"
       },
       "tsutomu": {
         "name": "Tsutomu Ito",
@@ -170,12 +165,12 @@
       "taisuke": {
         "name": "Taisuke Fukuno",
         "description": "Fundador - Open Data Japan\nPresidente - jig.jp\nFukui, Japan",
-        "title": "Conselheiro Executivo de Tecnologia"
+        "title": "Consultor Executivo Visionário"
       },
       "victor": {
         "name": "Victor Wang",
-        "description": "Fundador e Presidente em China Silicon Valley\nCEO at SinoSV LLC",
-        "title": "Consultor Executivo"
+        "description": "Fundador e Presidente na China Silicon Valley\nEx-aluno da Stanford Graduate School of Business\nCEO da SinoSV LLC",
+        "title": "Assessor Executivo"
       },
       "alfonso": {
         "name": "Alfonso Assaf",
@@ -184,8 +179,13 @@
       },
       "richardswart": {
         "name": "Richard Swartzbaugh",
-        "description": "Curaesoft, Managing Director & Chief Risk Officer\nJuris Doctorate, University of Iowa",
+        "description": "Managing Director & Chief Risk \nOfficer Juris Doctorate, University of Iowa",
         "title": "Healthcare / Software Executive"
+      },
+      "ronan": {
+        "name": "Ronan Dunlop",
+        "description": "Co-founder - The Product Stack\nHead of Marketing at Pivotal Tracker/VMWare",
+        "title": "Executive Marketing Advisor"
       }
     }
   },

@@ -585,11 +585,6 @@
           "name": "Ahmed Fakhry",
           "description": "Artificial Intelligence Researcher\nAlexandria University",
           "title": "ML Models Team Lead"
-        },
-        "ronan": {
-          "name": "Ronan Dunlop",
-          "description": "Co-fundador - The Product Stack\nEx Vicepresidente de marketing, VMware",
-          "title": "Asesor Ejecutivo de Marketing"
         }
       },
       "advisors": {
@@ -677,6 +672,11 @@
           "name": "Richard Swartzbaugh",
           "description": "Curaesoft, Managing Director & Chief Risk Officer\nJuris Doctorate, University of Iowa",
           "title": "Healthcare / Software Executive"
+        },
+        "ronan": {
+          "name": "Ronan Dunlop",
+          "description": "Co-fundador - The Product Stack\nEx Vicepresidente de marketing, VMware",
+          "title": "Asesor Ejecutivo de Marketing"
         }
       }
     },
