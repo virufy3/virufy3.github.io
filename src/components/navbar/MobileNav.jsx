@@ -129,10 +129,10 @@ export default ({ textColor, bgColor, virufyLogo }) => {
                               {link.dropDownLinks.map(
                                 ({ intlId, sectionId, path }, idx) => (
                                   <li className="sublink">
-                                    <Link
+                                    <a
                                       className="sublink-link"
                                       // to={path}
-                                      to={`/${currentLocale}${
+                                      href={`/${currentLocale}${
                                         path || link.path
                                       }#${sectionId}`}
                                       key={idx}
@@ -142,7 +142,7 @@ export default ({ textColor, bgColor, virufyLogo }) => {
                                       ) : (
                                         intl.formatMessage({ id: intlId })
                                       )}
-                                    </Link>
+                                    </a>
                                   </li>
                                 )
                               )}

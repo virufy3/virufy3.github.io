@@ -11,6 +11,12 @@ export default ({ bgColor, textColor }) => {
     ja: "日本語 - JA",
   };
 
+  const locale = {
+    en: "en",
+    es: "es",
+    pt: "pt",
+  };
+
   return (
     <IntlContextConsumer>
       {({ languages, language: currentLocale }) => {
@@ -20,7 +26,7 @@ export default ({ bgColor, textColor }) => {
               <Link
                 style={{ textDecoration: "none" }}
                 onClick={() => changeLocale(lang)}
-                to={`/${currentLocale}/`}
+                to={`/${locale[lang]}/`}
               >
                 <div className="mobileNavLinks">{langText[lang]}</div>
               </Link>
