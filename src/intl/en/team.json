@@ -35,6 +35,11 @@
         "description": "Website and Mobile App Developer\nB.Tech., CUNY NYC College of Technology",
         "title": "Web Dev Team Lead"
       },
+      "daniel": {
+        "name": "Daniel Tan",
+        "description": "Artificial Intelligence Researcher\nStanford University",
+        "title": "ML Data Engineering Team Lead"
+      },
       "ravel": {
         "name": "Ravel Charles",
         "description": "Cloud Solutions Engineer, Google\nM.P.S. Data Security, Northeastern University",
@@ -85,15 +90,15 @@
         "description": "Senior Data Scientist\nThe University of Washington",
         "title": "MLOps Team Lead"
       },
+      "richardswart": {
+        "name": "Richard Swartzbaugh",
+        "description": "Curaesoft, Managing Director & Chief Risk Officer\nJuris Doctorate, University of Iowa",
+        "title": "Healthcare / Software Executive"
+      },
       "colleen": {
         "name": "Colleen Wang",
         "description": "Author of Roses Watered by a Robot’s Tears",
         "title": "Fundraising Team Lead"
-      },
-      "ronan": {
-        "name": "Ronan Dunlop",
-        "description": "Co-founder - The Product Stack\nFormer VP Marketing, VMware",
-        "title": "Executive Marketing Advisor"
       }
     },
     "advisors": {
@@ -177,10 +182,10 @@
         "description": "Former Senior Consultant, Deloitte\nB.A. Economics, Universidad del CEMA",
         "title": "Argentina Community Outreach Manager"
       },
-      "richardswart": {
-        "name": "Richard Swartzbaugh",
-        "description": "Curaesoft, Managing Director & Chief Risk Officer\nJuris Doctorate, University of Iowa",
-        "title": "Healthcare / Software Executive"
+      "ronan": {
+        "name": "Ronan Dunlop",
+        "description": "VP of Marketing at Cohuman\nHead of Marketing at Pivotal Tracker/VMWare",
+        "title": "Executive Marketing Advisor"
       }
     }
   },

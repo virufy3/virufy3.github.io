@@ -374,11 +374,11 @@
   "OYW": {
     "headers": {
       "header": "Virufy & One Young World",
-      "sub-header": "Virufy tem a honra de estender um convite especial a todos os embaixadores da One Young World em todo o mundo para juntar-se à nossa equipe e contribuir para deter rapidamente a COVID-19.<br/><b>Por favor, visite nossa  <a target='_blank' href='/available-roles'>página de adesão</a> para se inscrever!</b>"
+      "sub-header": "Virufy tem a honra de estender um convite especial a todos os embaixadores da One Young World em todo o mundo para juntar-se à nossa equipe e contribuir para deter rapidamente a COVID-19.<br/><b>Por favor, visite nossa <a target='_blank' href='/available-roles'>página de adesão</a> para se inscrever!</b>"
     },
     "section1": {
       "header": "Virufy é inspirada pelo One Young World!",
-      "sub-header":"A Virufy tem sido apresentada em várias plataformas OYW, inclusive na América e no Japão, <a target='_blank' href='https://oywj.org/ambassadors-in-action/2020/05/oywj-ambassador-targets-covid-19-using-ai/' class='text-primary'> ambassadors in action </a>, and <a target='_blank' href='https://www.oneyoungworld.com/north-american-ambassadors-frontlines-covid-19-response' class='text-primary'> embaixadores em ação e embaixadores na linha de frente da resposta à COVID-19. Também estamos colaborando com os embaixadores coordenadores da OYW em várias regiões para os esforços de divulgação. Por favor, fiquem atentos enquanto atualizamos esta página!"
+      "sub-header": "A Virufy tem sido apresentada em várias plataformas OYW, inclusive na América e no Japão, <a target='_blank' href='https://oywj.org/ambassadors-in-action/2020/05/oywj-ambassador-targets-covid-19-using-ai/' class='text-primary'> ambassadors in action </a>, and <a target='_blank' href='https://www.oneyoungworld.com/north-american-ambassadors-frontlines-covid-19-response' class='text-primary'> embaixadores em ação e embaixadores na linha de frente da resposta à COVID-19. Também estamos colaborando com os embaixadores coordenadores da OYW em várias regiões para os esforços de divulgação. Por favor, fiquem atentos enquanto atualizamos esta página!"
     },
     "section2": {
       "header": "Focado no impacto global",
@@ -447,7 +447,7 @@
       "gonzalo": "Virufy terá impacto global, não importando o histórico ou o status social dos usuários. Isto é o que parece mudar o status quo.",
       "marcos": " Eu acho que a Virufy desenvolverá uma solução muito precisa e isto será útil para o mundo inteiro em todos os setores. Por isso, encorajo a todos a dedicar alguns minutos e contribuir conosco."
     }
-   },
+  },
   "paper": {
     "headers": {
       "header": "Paper"
@@ -546,6 +546,11 @@
           "description": "Desenvolvedor de site e app móvel\nB.Tech., CUNY NYC College of Technology",
           "title": "Líder de Equipe de desenvolvimento web"
         },
+        "daniel": {
+          "name": "Daniel Tan",
+          "description": "Artificial Intelligence Researcher\nStanford University",
+          "title": "ML Data Engineering Team Lead"
+        },
         "jason": {
           "name": "Jason Pareja Jauregui",
           "description": "Embaixador Coordenador do One Young World América Latina\nGraduate, MIT Sloan School of Management",
@@ -576,15 +581,15 @@
           "description": "Cientista de Dados Sênior\nUniversidade de Washington",
           "title": "Lider de Time MLOps"
         },
+        "richardswart": {
+          "name": "Richard Swartzbaugh",
+          "description": "Curaesoft, Managing Director & Chief Risk Officer\nJuris Doctorate, University of Iowa",
+          "title": "Healthcare / Software Executive"
+        },
         "colleen": {
           "name": "Colleen Wang",
           "description": "Author of Roses Watered by a Robot’s Tears",
           "title": "Fundraising Team Lead"
-        },
-        "ronan": {
-          "name": "Ronan Dunlop",
-          "description": "Co-fundador - The Products Stack\nEx-Vice-Presidente de Marketing, VMware",
-          "title": "Assessor Executivo de Marketing"
         }
       },
       "advisors": {
@@ -668,10 +673,10 @@
           "description": "Ex-consultor sénior, Deloitte\nB.A. Economics, Universidad del CEMA",
           "title": "Gestor de Divulgação da Comunidade Argentina"
         },
-        "richardswart": {
-          "name": "Richard Swartzbaugh",
-          "description": "Curaesoft, Managing Director & Chief Risk Officer\nJuris Doctorate, University of Iowa",
-          "title": "Healthcare / Software Executive"
+        "ronan": {
+          "name": "Ronan Dunlop",
+          "description": "VP of Marketing at Cohuman\nHead of Marketing at Pivotal Tracker/VMWare",
+          "title": "Executive Marketing Advisor"
         }
       }
     },

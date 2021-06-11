@@ -55,6 +55,11 @@
         "description": "Desenvolvedor de site e app móvel\nB.Tech., CUNY NYC College of Technology",
         "title": "Líder de Equipe de desenvolvimento web"
       },
+      "daniel": {
+        "name": "Daniel Tan",
+        "description": "Artificial Intelligence Researcher\nStanford University",
+        "title": "ML Data Engineering Team Lead"
+      },
       "jason": {
         "name": "Jason Pareja Jauregui",
         "description": "Embaixador Coordenador do One Young World América Latina\nGraduate, MIT Sloan School of Management",
@@ -85,15 +90,15 @@
         "description": "Cientista de Dados Sênior\nUniversidade de Washington",
         "title": "Lider de Time MLOps"
       },
+      "richardswart": {
+        "name": "Richard Swartzbaugh",
+        "description": "Curaesoft, Managing Director & Chief Risk Officer\nJuris Doctorate, University of Iowa",
+        "title": "Healthcare / Software Executive"
+      },
       "colleen": {
         "name": "Colleen Wang",
         "description": "Author of Roses Watered by a Robot’s Tears",
         "title": "Fundraising Team Lead"
-      },
-      "ronan": {
-        "name": "Ronan Dunlop",
-        "description": "Co-fundador - The Products Stack\nEx-Vice-Presidente de Marketing, VMware",
-        "title": "Assessor Executivo de Marketing"
       }
     },
     "advisors": {
@@ -177,10 +182,10 @@
         "description": "Ex-consultor sénior, Deloitte\nB.A. Economics, Universidad del CEMA",
         "title": "Gestor de Divulgação da Comunidade Argentina"
       },
-      "richardswart": {
-        "name": "Richard Swartzbaugh",
-        "description": "Curaesoft, Managing Director & Chief Risk Officer\nJuris Doctorate, University of Iowa",
-        "title": "Healthcare / Software Executive"
+      "ronan": {
+        "name": "Ronan Dunlop",
+        "description": "VP of Marketing at Cohuman\nHead of Marketing at Pivotal Tracker/VMWare",
+        "title": "Executive Marketing Advisor"
       }
     }
   },

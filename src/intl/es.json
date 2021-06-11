@@ -526,6 +526,11 @@
           "description": "Desarrolladora de la APP y Sitio Web\nB.Tech., CUNY NYC College of Technology",
           "title": "Líder del Equipo de Desarrollo Web"
         },
+        "daniel": {
+          "name": "Daniel Tan",
+          "description": "Artificial Intelligence Researcher\nStanford University",
+          "title": "ML Data Engineering Team Lead"
+        },
         "ravel": {
           "name": "Ravel Charles",
           "description": "Ingeniero de Soluciones en la Nube, Google\nM.P.S. Seguridad de Datos, Northeastern University",
@@ -576,15 +581,15 @@
           "description": "Científico de Datos Sr.\nUniversidad de Washington",
           "title": "Líder del Equipo MLOps"
         },
+        "richardswart": {
+          "name": "Richard Swartzbaugh",
+          "description": "Curaesoft, Managing Director & Chief Risk Officer\nJuris Doctorate, University of Iowa",
+          "title": "Healthcare / Software Executive"
+        },
         "colleen": {
           "name": "Colleen Wang",
           "description": "Autora de 'Roses Watered by a Robot’s Tears'",
           "title": "Líder del Equipo de Recaudación de Fondos"
-        },
-        "ronan": {
-          "name": "Ronan Dunlop",
-          "description": "Co-fundador - The Product Stack\nEx Vicepresidente de marketing, VMware",
-          "title": "Asesor Ejecutivo de Marketing"
         }
       },
       "advisors": {
@@ -668,10 +673,10 @@
           "description": "Antiguo consultor senior, Deloitte\nB.A. Economía, Universidad del CEMA",
           "title": "Gerente de Alcance Comunitario de Argentina"
         },
-        "richardswart": {
-          "name": "Richard Swartzbaugh",
-          "description": "Curaesoft, Managing Director & Chief Risk Officer\nJuris Doctorate, University of Iowa",
-          "title": "Healthcare / Software Executive"
+        "ronan": {
+          "name": "Ronan Dunlop",
+          "description": "VP of Marketing at Cohuman\nHead of Marketing at Pivotal Tracker/VMWare",
+          "title": "Executive Marketing Advisor"
         }
       }
     },

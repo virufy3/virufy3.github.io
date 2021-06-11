@@ -30,12 +30,17 @@ export const leadership = [
     imageName: "yoonju",
   },
   {
+    mediaLink: "https://www.linkedin.com/in/daniel-tan-a0672b163/",
+    id: "daniel",
+    defaultName: "Daniel Tan",
+    imageName: "daniel",
+  },
+  {
     mediaLink: "https://www.linkedin.com/in/matheus-galiza-20539b106/",
     id: "matheus",
     defaultName: "Matheus Galiza",
     imageName: "matheus",
   },
-
   {
     mediaLink: "https://www.linkedin.com/in/marcos-deza/",
     id: "marcos",
@@ -99,10 +104,10 @@ export const leadership = [
     imageName: "zach",
   },
   {
-    mediaLink: "https://www.linkedin.com/in/rdunlop/",
-    id: "ronan",
-    defaultName: "Ronan Dunlop",
-    imageName: "ronan",
+    mediaLink: "https://www.linkedin.com/in/rswartzbaugh/",
+    id: "richardswart",
+    defaultName: "Richard Swartzbaugh",
+    imageName: "richardswart",
   },
 ];
 
@@ -199,9 +204,9 @@ export const advisors = [
     imageName: "ito",
   },
   {
-    mediaLink: "https://www.linkedin.com/in/rswartzbaugh/",
-    id: "richardswart",
-    defaultName: "Richard Swartzbaugh",
-    imageName: "richardswart",
+    mediaLink: "https://www.linkedin.com/in/rdunlop/",
+    id: "ronan",
+    defaultName: "Ronan Dunlop",
+    imageName: "ronan",
   },
 ];
