@@ -90,11 +90,6 @@
         "description": "Cientista de Dados Sênior\nUniversidade de Washington",
         "title": "Lider de Time MLOps"
       },
-      "richardswart": {
-        "name": "Richard Swartzbaugh",
-        "description": "Curaesoft, Managing Director & Chief Risk Officer\nJuris Doctorate, University of Iowa",
-        "title": "Healthcare / Software Executive"
-      },
       "colleen": {
         "name": "Colleen Wang",
         "description": "Author of Roses Watered by a Robot’s Tears",
@@ -186,6 +181,11 @@
         "name": "Ronan Dunlop",
         "description": "VP of Marketing at Cohuman\nHead of Marketing at Pivotal Tracker/VMWare",
         "title": "Executive Marketing Advisor"
+      },
+      "richardswart": {
+        "name": "Richard Swartzbaugh",
+        "description": "Curaesoft, Managing Director & Chief Risk Officer\nJuris Doctorate, University of Iowa",
+        "title": "Healthcare / Software Executive"
       }
     }
   },

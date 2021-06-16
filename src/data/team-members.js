@@ -103,12 +103,6 @@ export const leadership = [
     defaultName: "Zach Lawless",
     imageName: "zach",
   },
-  {
-    mediaLink: "https://www.linkedin.com/in/rswartzbaugh/",
-    id: "richardswart",
-    defaultName: "Richard Swartzbaugh",
-    imageName: "richardswart",
-  },
 ];
 
 export const advisors = [
@@ -208,5 +202,11 @@ export const advisors = [
     id: "ronan",
     defaultName: "Ronan Dunlop",
     imageName: "ronan",
+  },
+  {
+    mediaLink: "https://www.linkedin.com/in/rswartzbaugh/",
+    id: "richardswart",
+    defaultName: "Richard Swartzbaugh",
+    imageName: "richardswart",
   },
 ];
