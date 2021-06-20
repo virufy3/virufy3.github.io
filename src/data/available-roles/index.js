@@ -15,14 +15,14 @@ export const roles = [
     url:
       "https://docs.google.com/document/d/10N9XSZXJkPelV4Ie-KHsCgOPf5LLNk00e9vit4Z-2IY",
   },
-  // {
-  //   description:
-  //     "",
-  //   location: "Remote",
-  //   title: "Business Manager",
-  //   url:
-  //     "/",
-  // },
+  {
+    description:
+      "Seeking an individual to contribute on a part-time volunteer basis and collaborate closely with the Virufy management and development team to help manage the overall business, product, and finances.",
+    location: "Remote",
+    title: "Business Manager",
+    url:
+      "https://docs.google.com/document/d/1DXWgFU5Jwm28RYRm_vHDkn-Pl32oOpFVvTNEedvPqzI/edit",
+  },
   {
     description:
       "Our team of part-time volunteers works with machine learning, deep learning, and signal analysis for audio analysis in a medical setting. We welcome individuals with professional experience in these domains to apply. The candidate will be immersed in a collaborative environment alongside AI engineers and mentors.",
