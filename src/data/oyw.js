@@ -70,6 +70,12 @@ export const oyw = {
       defaultName: "Yulie Qiao",
       imageName: "yulie",
     },
+    {
+      mediaLink: "https://www.linkedin.com/in/kenmaru-suedomi-b871555b/",
+      id: "kenmaru",
+      defaultName: "Kenmaru Suedomi",
+      imageName: "kenmaru",
+    },
   ],
   testimonials: [
     {

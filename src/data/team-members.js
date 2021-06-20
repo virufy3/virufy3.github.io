@@ -12,22 +12,16 @@ export const leadership = [
     imageName: "yulie",
   },
   {
-    mediaLink: "https://www.linkedin.com/in/maisiemora/",
-    id: "maisie",
-    defaultName: "Maisie Mora",
-    imageName: "maisie",
-  },
-  {
     mediaLink: "https://www.linkedin.com/in/jonatan-jaskilioff-77075340/",
     id: "jonatan",
     defaultName: "Jonatan Jaskilioff",
     imageName: "jonatan",
   },
   {
-    mediaLink: "https://www.linkedin.com/in/yhwang95/",
-    id: "yoonju",
-    defaultName: "Yoonju Hwang",
-    imageName: "yoonju",
+    mediaLink: "https://www.linkedin.com/in/maisiemora/",
+    id: "maisie",
+    defaultName: "Maisie Mora",
+    imageName: "maisie",
   },
   {
     mediaLink: "https://www.linkedin.com/in/daniel-tan-a0672b163/",
@@ -36,10 +30,16 @@ export const leadership = [
     imageName: "daniel",
   },
   {
-    mediaLink: "https://www.linkedin.com/in/matheus-galiza-20539b106/",
-    id: "matheus",
-    defaultName: "Matheus Galiza",
-    imageName: "matheus",
+    mediaLink: "https://www.linkedin.com/in/yhwang95/",
+    id: "yoonju",
+    defaultName: "Yoonju Hwang",
+    imageName: "yoonju",
+  },
+  {
+    mediaLink: "https://www.linkedin.com/in/zach-lawless-772a7713a/",
+    id: "zach",
+    defaultName: "Zach Lawless",
+    imageName: "zach",
   },
   {
     mediaLink: "https://www.linkedin.com/in/marcos-deza/",
@@ -54,12 +54,42 @@ export const leadership = [
     imageName: "kelly",
   },
   {
+    mediaLink: "https://www.linkedin.com/in/kitanf/",
+    id: "kitan",
+    defaultName: "Kitan Fasuyi",
+    imageName: "kitan",
+  },
+  {
+    mediaLink: "https://www.linkedin.com/in/jadesolasurakatmba/",
+    id: "jadesola",
+    defaultName: "Jadesola Surakat",
+    imageName: "jadesola",
+  },
+  {
+    mediaLink: "https://www.linkedin.com/in/jasonpareja/",
+    id: "jason",
+    defaultName: "Jason Pareja Jauregui",
+    imageName: "jason",
+  },
+  {
+    mediaLink:
+      "https://co.linkedin.com/in/jean-sebastian-pedraza-paez-02b8aa11a",
+    id: "sebastian",
+    defaultName: "Sebastian Pedraza",
+    imageName: "sebastian",
+  },
+  {
+    mediaLink: "https://www.linkedin.com/in/matheus-galiza-20539b106/",
+    id: "matheus",
+    defaultName: "Matheus Galiza",
+    imageName: "matheus",
+  },
+  {
     mediaLink: "https://www.linkedin.com/in/colleen-wang-59a091205/",
     id: "colleen",
     defaultName: "Colleen Wang",
     imageName: "colleen",
   },
-
   {
     mediaLink: "https://www.linkedin.com/in/ravel-charles/",
     id: "ravel",
@@ -79,29 +109,22 @@ export const leadership = [
     imageName: "alfonso",
   },
   {
-    mediaLink: "https://www.linkedin.com/in/kitanf/",
-    id: "kitan",
-    defaultName: "Kitan Fasuyi",
-    imageName: "kitan",
+    mediaLink: "https://www.linkedin.com/in/heitor-morais-742b58190/",
+    id: "heitor",
+    defaultName: "Heitor Morais",
+    imageName: "heitor",
   },
   {
-    mediaLink: "https://www.linkedin.com/in/jasonpareja/",
-    id: "jason",
-    defaultName: "Jason Pareja Jauregui",
-    imageName: "jason",
+    mediaLink: "https://www.linkedin.com/in/soraya-cavalcanti-29b432134/",
+    id: "soraya",
+    defaultName: "Soraya Cavalcanti",
+    imageName: "soraya",
   },
   {
-    mediaLink:
-      "https://co.linkedin.com/in/jean-sebastian-pedraza-paez-02b8aa11a",
-    id: "sebastian",
-    defaultName: "Sebastian Pedraza",
-    imageName: "sebastian",
-  },
-  {
-    mediaLink: "https://www.linkedin.com/in/zach-lawless-772a7713a/",
-    id: "zach",
-    defaultName: "Zach Lawless",
-    imageName: "zach",
+    mediaLink: "https://www.linkedin.com/in/diego-de-carvalho-5a51431a0/",
+    id: "diego",
+    defaultName: "Dr. Diego Carvahalo",
+    imageName: "diego",
   },
 ];
 

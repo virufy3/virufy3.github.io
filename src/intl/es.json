@@ -437,6 +437,10 @@
         "yulie": {
           "name": "Yulie Qiao",
           "description": "Embajador OYW USA"
+        },
+        "kenmaru": {
+          "name": "Kenmaru Suedomi",
+          "description": "Embajador OYW Japón"
         }
       }
     },
@@ -586,6 +590,26 @@
           "name": "Colleen Wang",
           "description": "Autora de 'Roses Watered by a Robot’s Tears'",
           "title": "Líder del Equipo de Recaudación de Fondos"
+        },
+        "heitor": {
+          "name": "Heitor Morais",
+          "description": "France Alumni Brazil Ambassador\nUniversidade Federal da Paraiba, Master’s Student in Political Science and International Relations",
+          "title": "Brazil HR Lead"
+        },
+        "soraya": {
+          "name": "Soraya Cavalcanti",
+          "description": "Numesec UFPB\nUniversidade Federal da Paraiba, Law",
+          "title": "Brazil Team Lead"
+        },
+        "diego": {
+          "name": "Dr. Diego Carvahalo",
+          "description": "Professor\nUniversidade de Sao Paolo",
+          "title": "Clinical Research Lead"
+        },
+        "jadesola": {
+          "name": "Jadesola Surakat",
+          "description": "Senior Product Manager\nMBA, Yale School of Management",
+          "title": "Project Manager Lead"
         }
       },
       "advisors": {
