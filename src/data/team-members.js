@@ -154,28 +154,10 @@ export const advisors = [
     imageName: "hugo",
   },
   {
-    mediaLink: "https://www.linkedin.com/in/matthewprusak/",
-    id: "matt",
-    defaultName: "Matt Prusak",
-    imageName: "matt",
-  },
-  {
     mediaLink: "https://weillcornell.org/anais-rameau-md",
     id: "anais",
     defaultName: "Anaïs Rameau",
     imageName: "anais",
-  },
-  {
-    mediaLink: "https://www.linkedin.com/in/pedrosiena/",
-    id: "pedro",
-    defaultName: "Pedro Siena",
-    imageName: "pedro",
-  },
-  {
-    mediaLink: "https://www.linkedin.com/in/richardnall/?originalSubdomain=uk",
-    id: "richard",
-    defaultName: "Richard Nall",
-    imageName: "richard",
   },
   {
     mediaLink: "https://www.linkedin.com/in/madhavdatt/",
@@ -184,10 +166,40 @@ export const advisors = [
     imageName: "madhav",
   },
   {
-    mediaLink: "https://www.linkedin.com/in/namathom/",
-    id: "nathan",
-    defaultName: "Nathan Thomas",
-    imageName: "nathan",
+    mediaLink: "https://www.pillsburylaw.com/en/lawyers/rafi-azim-khan.html",
+    id: "rafi",
+    defaultName: "Rafi Azim-Khan",
+    imageName: "rafi",
+  },
+  {
+    mediaLink: "https://www.linkedin.com/in/rswartzbaugh/",
+    id: "richardswart",
+    defaultName: "Richard Swartzbaugh",
+    imageName: "richardswart",
+  },
+  {
+    mediaLink: "https://www.linkedin.com/in/rdunlop/",
+    id: "ronan",
+    defaultName: "Ronan Dunlop",
+    imageName: "ronan",
+  },
+  {
+    mediaLink: "https://www.linkedin.com/in/richardnall/?originalSubdomain=uk",
+    id: "richard",
+    defaultName: "Richard Nall",
+    imageName: "richard",
+  },
+  {
+    mediaLink: "https://www.linkedin.com/in/matthewprusak/",
+    id: "matt",
+    defaultName: "Matt Prusak",
+    imageName: "matt",
+  },
+  {
+    mediaLink: "https://www.linkedin.com/in/pedrosiena/",
+    id: "pedro",
+    defaultName: "Pedro Siena",
+    imageName: "pedro",
   },
   {
     mediaLink: "https://www.linkedin.com/in/executivestanfordvictorwang/",
@@ -203,10 +215,10 @@ export const advisors = [
     imageName: "rok",
   },
   {
-    mediaLink: "https://www.pillsburylaw.com/en/lawyers/rafi-azim-khan.html",
-    id: "rafi",
-    defaultName: "Rafi Azim-Khan",
-    imageName: "rafi",
+    mediaLink: "https://www.linkedin.com/in/namathom/",
+    id: "nathan",
+    defaultName: "Nathan Thomas",
+    imageName: "nathan",
   },
   {
     mediaLink: "https://www.linkedin.com/in/taisuke-fukuno-a3b3415",
@@ -219,17 +231,5 @@ export const advisors = [
     id: "tsutomu",
     defaultName: "Tsutomu Ito",
     imageName: "ito",
-  },
-  {
-    mediaLink: "https://www.linkedin.com/in/rdunlop/",
-    id: "ronan",
-    defaultName: "Ronan Dunlop",
-    imageName: "ronan",
-  },
-  {
-    mediaLink: "https://www.linkedin.com/in/rswartzbaugh/",
-    id: "richardswart",
-    defaultName: "Richard Swartzbaugh",
-    imageName: "richardswart",
   },
 ];

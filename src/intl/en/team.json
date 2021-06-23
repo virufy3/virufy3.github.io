@@ -12,200 +12,200 @@
     "leadership": {
       "amil": {
         "name": "Amil Khanzada",
-        "description": "One Young World Japan Ambassador\nAlumni, UC Berkeley Computer Science",
-        "title": "Founder & CTO"
+        "description": "Alumni, UC Berkeley Computer Science",
+        "title": "Founder & Leader"
       },
       "yulie": {
         "name": "Yulie Qiao",
         "description": "Retail Assets Pricing\nBBA Marketing & Supply Chain Management, UW-Madison",
-        "title": "VP of Operations"
+        "title": "Operations Team Lead"
+      },
+      "jonatan": {
+        "name": "Jonatan Jaskilioff",
+        "description": "CTO - XOOR\nUniversidad Nacional del Centro de la Provincia de Buenos Aires",
+        "title": "Mobile App Team Lead"
       },
       "maisie": {
         "name": "Maisie Mora",
-        "description": "San Diego State University",
+        "description": "Product Designer\nB.A. San Diego State University",
         "title": "UX team lead"
-      },
-      "matheus": {
-        "name": "Matheus Galiza",
-        "description": "Public Policy Committee\nJovenes Iberoamericanos\nM.A. International Relations, Federal University of Paraíba",
-        "title": "Brazil Community Outreach Manager"
-      },
-      "yoonju": {
-        "name": "Yoonju Hwang",
-        "description": "Website and Mobile App Developer\nB.Tech., CUNY NYC College of Technology",
-        "title": "Web Dev Team Lead"
       },
       "daniel": {
         "name": "Daniel Tan",
         "description": "Artificial Intelligence Researcher\nStanford University",
         "title": "ML Data Engineering Team Lead"
       },
-      "ravel": {
-        "name": "Ravel Charles",
-        "description": "Cloud Solutions Engineer, Google\nM.P.S. Data Security, Northeastern University",
-        "title": "Infosec Team Lead"
+      "yoonju": {
+        "name": "Yoonju Hwang",
+        "description": "Website and Mobile App Developer\nB.Tech., CUNY NYC College of Technology",
+        "title": "Web Dev Team Lead"
       },
-      "amelie": {
-        "name": "Amelie Azim-Khan",
-        "description": "Wycombe Abbey",
-        "title": "Youth Ambassador, Europe & UK"
-      },
-      "jonatan": {
-        "name": "Jonatan Jaskilioff",
-        "description": "CTO - XOOR",
-        "title": "Mobile App Team Lead"
+      "zach": {
+        "name": "Zach Lawless",
+        "description": "Software Engineert\nM.A. University of Illinois Urbana-Champaign",
+        "title": "MLOps Team Lead"
       },
       "marcos": {
         "name": "Marcos Deza",
-        "description": "One Young World Argentina Ambassador\nM.A. Public Relations, Ott Educación Superior",
+        "description": "Advertising Representative\nM.A. Public Relations, Ott Educación Superior",
         "title": "Latin America Digital Communications Lead"
       },
       "kelly": {
         "name": "Kelly Wenzel",
         "description": "SPHR\nMBA International Business, Texas Christian University",
-        "title": "HR Team Lead"
+        "title": "Marketing and Strategic HR Lead"
+      },
+      "kitan": {
+        "name": "Kitan Fasuyi",
+        "description": "Senior Product Manager\nMaster’s Health Informatics, Stony Brook University",
+        "title": "Product Manager Lead"
+      },
+      "jadesola": {
+        "name": "Jadesola Surakat",
+        "description": "Senior Product Manager\nMBA, Yale School of Management",
+        "title": "Project Manager Lead"
       },
       "jason": {
         "name": "Jason Pareja Jauregui",
-        "description": "One Young World Latin America Coordinating Ambassador\nGraduate, MIT Sloan School of Management",
+        "description": "Product Development\nMIT Sloan School of Management",
         "title": "Peru Community Outreach Manager"
       },
       "sebastian": {
         "name": "Sebastian Pedraza",
-        "description": "One Young World Colombia Ambassador\nYPARD Steering Committee Member\nPolitical Science, International University of La Rioja",
+        "description": "Steering Committee Member\nPolitical Science, International University of La Rioja",
         "title": "Colombia Community Outreach Manager"
       },
-      "kitan": {
-        "name": "Kitan Fasuyi",
-        "description": "Product / Project Manager\nEpic",
-        "title": "Global Project Manager"
-      },
-      "alfonso": {
-        "name": "Alfonso Assaf",
-        "description": "Former Senior Consultant, Deloitte\nB.A. Economics, Universidad del CEMA",
-        "title": "Argentina Community Outreach Manager"
-      },
-      "zach": {
-        "name": "Zach Lawless",
-        "description": "Senior Data Scientist\nThe University of Washington",
-        "title": "MLOps Team Lead"
+      "matheus": {
+        "name": "Matheus Galiza",
+        "description": "Youth Development Public Policy\nM.A. International Relations, Universidade Federal da Paraiba",
+        "title": "Brazil Community Outreach Manager"
       },
       "colleen": {
         "name": "Colleen Wang",
-        "description": "Author of Roses Watered by a Robot’s Tears",
+        "description": "High School Student, Palo Alto High\nAuthor of Roses Watered by a Robot’s Tears",
         "title": "Fundraising Team Lead"
+      },
+      "ravel": {
+        "name": "Ravel Charles",
+        "description": "Cloud Solutions Engineer\nM.P.S. Data Security, Northeastern University",
+        "title": "Infosec Team Lead"
+      },
+      "amelie": {
+        "name": "Amelie Azim-Khan",
+        "description": "High School Student, Wycombe Abbey\nBrighton and Sussex Virtual Work Experience",
+        "title": "Youth Ambassador, Europe & UK"
+      },
+      "alfonso": {
+        "name": "Alfonso Assaf",
+        "description": "Former Senior Consultant\nB.A. Economics, Universidad del CEMA",
+        "title": "Argentina Community Outreach Manager"
       },
       "heitor": {
         "name": "Heitor Morais",
-        "description": "France Alumni Brazil Ambassador\nUniversidade Federal da Paraiba, Master’s Student in Political Science and International Relations",
+        "description": "France Alumni Brazil Ambassador\nMaster’s Student in Political Science and International Relations, Universidade Federal da Paraiba",
         "title": "Brazil HR Lead"
       },
       "soraya": {
         "name": "Soraya Cavalcanti",
-        "description": "Numesec UFPB\nUniversidade Federal da Paraiba, Law",
+        "description": "Numesec UFPB\nLaw Student, Universidade Federal da Paraiba",
         "title": "Brazil Team Lead"
       },
       "diego": {
         "name": "Dr. Diego Carvahalo",
         "description": "Professor\nUniversidade de Sao Paolo",
         "title": "Clinical Research Lead"
-      },
-      "jadesola": {
-        "name": "Jadesola Surakat",
-        "description": "Senior Product Manager\nMBA, Yale School of Management",
-        "title": "Project Manager Lead"
       }
     },
     "advisors": {
       "kara": {
         "name": "Kara Meister, M.D.",
-        "description": "Clinical Assistant Professor, Otolaryngology\nStanford School of Medicine",
+        "description": "Clinical Assistant Professor of ENT\nStanford School of Medicine",
         "title": "Clinical Advisor"
       },
       "jure": {
         "name": "Dr. Jure Leskovec",
-        "description": "Chief Scientist - Pinterest\nAssociate Professor, AI\nStanford School of Engineering",
+        "description": "Chief Scientist - Pinterest\nAssociate Professor of AI - Stanford",
         "title": "Artificial Intelligence Advisor"
       },
-      "matt": {
-        "name": "Matt Prusak",
-        "description": "Chief Business Officer, Curative\nStanford Graduate School of Business Alumnus",
-        "title": "Executive Advisor"
+      "melissa": {
+        "name": "Melissa Dyrdahl",
+        "description": "Former CMO - Adobe\nBoard Member - CommonSpirit Health",
+        "title": "Executive Marketing Advisor"
+      },
+      "hugo": {
+        "name": "Hugo Estrada",
+        "description": "CEO & Managing Partner - iwé Consultores\nChairman - Nueva EPS (Health Insurance)",
+        "title": "Colombia Executive Outreach Advisor"
       },
       "anais": {
-        "name": "Anaïs Rameau",
-        "description": "Assistant Professor of Otolaryngology, Curative\nWeill Cornell Medical College",
-        "title": "Medical Advisor"
-      },
-      "rok": {
-        "name": "Rok Sosic",
-        "description": "Senior Research Engineer\nStanford School of Engineering",
-        "title": "Artificial Intelligence Advisor"
-      },
-      "rafi": {
-        "name": "Rafi Azim-Khan",
-        "description": "Partner - Pillsbury Law\nSilicon Valley & Europe",
-        "title": "Executive Legal Advisor"
-      },
-      "richard": {
-        "name": "Richard Nall",
-        "description": "The Brand Garden - CEO\nMaster's Organisational Leadership - Henley",
-        "title": "Marketing Advisor"
+        "name": "Anaïs Rameau, M.D.",
+        "description": "Assistant Professor of ENT - Cornell University\nDoctor of Medicine - McGill University",
+        "title": "Clinical Advisor"
       },
       "madhav": {
         "name": "Madhav Datt",
         "description": "Founder - Green the Gene\nFormer Global Representative for Youth - UN EP",
         "title": "Executive Nonprofit Advisor"
       },
-      "nathan": {
-        "name": "Nathan Thomas",
-        "description": "One Young World Ambassador\nFounder and CEO - All We Are",
-        "title": "Executive Nonprofit Advisor"
+      "rafi": {
+        "name": "Rafi Azim-Khan",
+        "description": "Partner, IP/IT & Head Data Privacy Europe\nPillsbury Winthrop Shaw Pittman LLP",
+        "title": "Executive Legal Advisor"
       },
-      "melissa": {
-        "name": "Melissa Dyrdahl",
-        "description": "Former CMO - Adobe\nStanford DCI Fellow\nBoard Member - Common Spirit Health",
+      "richardswart": {
+        "name": "Richard Swartzbaugh",
+        "description": "Risk Management - Curaesoft\nJ.D. - University of Iowa",
+        "title": "Executive Advisor"
+      },
+      "ronan": {
+        "name": "Ronan Dunlop",
+        "description": "Form Head of Marketing - Pivotal/VMWare\nVP of Marketing - Cohuman",
         "title": "Executive Marketing Advisor"
       },
-      "hugo": {
-        "name": "Hugo Estrada",
-        "description": "CEO & Managing Partner at iwé Consultores\nChairman of the Board of Nueva EPS",
-        "title": "Colombia Executive Outreach Advisor"
+      "richard": {
+        "name": "Richard Nall",
+        "description": "CEO - The Brand Garden\nMaster's Organisational Leadership - Henley",
+        "title": "Marketing Advisor"
+      },
+      "matt": {
+        "name": "Matt Prusak",
+        "description": "Chief Business Officer - Curative\nMBA - Stanford Graduate School of Business",
+        "title": "Executive Advisor"
       },
       "pedro": {
         "name": "Pedro Siena",
-        "description": "Founder and CEO - Siena Company\nMentor - Stanford Lean Launchpad\nSão Carlos, Brazil",
-        "title": "Brazil Outreach Advisor"
-      },
-      "taisuke": {
-        "name": "Taisuke Fukuno",
-        "description": "Founder - Open Data Japan\nChairman - jig.jp\nFukui, Japan",
-        "title": "Executive Technology Advisor"
-      },
-      "tsutomu": {
-        "name": "Tsutomu Ito",
-        "description": "Founder - Tannan FM Radio\nLead Architect, Bullet Train\nFukui, Japan",
-        "title": "Executive Visionary Advisor"
+        "description": "Founder and CEO - Siena Company\nMentor - Stanford Lean Launchpad",
+        "title": "Brazil Executive Adviso"
       },
       "victor": {
         "name": "Victor Wang",
-        "description": "Founder and Chairman at China Silicon Valley\nStanford Graduate School of Business Alumnus\nCEO at SinoSV LLC",
+        "description": "Founder and Chairman- China Silicon Valley\nCEO - SinoSV LLC",
         "title": "Executive Advisor"
+      },
+      "rok": {
+        "name": "Rok Sosic",
+        "description": "Senior Research Engineer\nStanford School of Engineering",
+        "title": "Artificial Intelligence Advisor"
+      },
+      "nathan": {
+        "name": "Nathan Thomas",
+        "description": "One Young World Ambassador\nFounder and CEO - All We Are",
+        "title": "Executive Nonprofit Adviso"
+      },
+      "taisuke": {
+        "name": "Taisuke Fukuno",
+        "description": "Founder - Open Data Japan\nChairman - jig.jp",
+        "title": "Executive IT Advisor"
+      },
+      "tsutomu": {
+        "name": "Tsutomu Ito",
+        "description": "Founder - Tannan FM Radio\nLead Architect, Bullet Train",
+        "title": "Executive Visionary Advisor"
       },
       "alfonso": {
         "name": "Alfonso Assaf",
         "description": "Former Senior Consultant, Deloitte\nB.A. Economics, Universidad del CEMA",
         "title": "Argentina Community Outreach Manager"
-      },
-      "ronan": {
-        "name": "Ronan Dunlop",
-        "description": "VP of Marketing at Cohuman\nHead of Marketing at Pivotal Tracker/VMWare",
-        "title": "Executive Marketing Advisor"
-      },
-      "richardswart": {
-        "name": "Richard Swartzbaugh",
-        "description": "Curaesoft, Managing Director & Chief Risk Officer\nJuris Doctorate, University of Iowa",
-        "title": "Healthcare / Software Executive"
       }
     }
   },
