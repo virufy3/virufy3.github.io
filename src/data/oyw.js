@@ -1,12 +1,6 @@
 export const oyw = {
   ambassadors: [
     {
-      mediaLink: "https://www.linkedin.com/in/amilkhanzada",
-      id: "amil",
-      defaultName: "Amil Khanzada",
-      imageName: "amil",
-    },
-    {
       mediaLink:
         "https://www.linkedin.com/in/matd-bolivia/?originalSubdomain=bo",
       id: "annelisse",
