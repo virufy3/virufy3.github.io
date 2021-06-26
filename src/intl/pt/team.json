@@ -55,6 +55,11 @@
         "description": "Desenvolvedor de site e app móvel\nB.Tech., CUNY NYC College of Technology",
         "title": "Líder de Equipe de desenvolvimento web"
       },
+      "daniel": {
+        "name": "Daniel Tan",
+        "description": "Artificial Intelligence Researcher\nStanford University",
+        "title": "ML Data Engineering Team Lead"
+      },
       "jason": {
         "name": "Jason Pareja Jauregui",
         "description": "Embaixador Coordenador do One Young World América Latina\nGraduate, MIT Sloan School of Management",
@@ -90,10 +95,25 @@
         "description": "Author of Roses Watered by a Robot’s Tears",
         "title": "Fundraising Team Lead"
       },
-      "ronan": {
-        "name": "Ronan Dunlop",
-        "description": "Co-fundador - The Products Stack\nEx-Vice-Presidente de Marketing, VMware",
-        "title": "Assessor Executivo de Marketing"
+      "heitor": {
+        "name": "Heitor Morais",
+        "description": "France Alumni Brazil Ambassador\nUniversidade Federal da Paraiba, Master’s Student in Political Science and International Relations",
+        "title": "Brazil HR Lead"
+      },
+      "soraya": {
+        "name": "Soraya Cavalcanti",
+        "description": "Numesec UFPB\nUniversidade Federal da Paraiba, Law",
+        "title": "Brazil Team Lead"
+      },
+      "diego": {
+        "name": "Dr. Diego Carvahalo",
+        "description": "Professor\nUniversidade de Sao Paolo",
+        "title": "Clinical Research Lead"
+      },
+      "jadesola": {
+        "name": "Jadesola Surakat",
+        "description": "Senior Product Manager\nMBA, Yale School of Management",
+        "title": "Project Manager Lead"
       }
     },
     "advisors": {
@@ -176,6 +196,11 @@
         "name": "Alfonso Assaf",
         "description": "Ex-consultor sénior, Deloitte\nB.A. Economics, Universidad del CEMA",
         "title": "Gestor de Divulgação da Comunidade Argentina"
+      },
+      "ronan": {
+        "name": "Ronan Dunlop",
+        "description": "VP of Marketing at Cohuman\nHead of Marketing at Pivotal Tracker/VMWare",
+        "title": "Executive Marketing Advisor"
       },
       "richardswart": {
         "name": "Richard Swartzbaugh",

@@ -4,9 +4,8 @@ import { useIntl } from "gatsby-plugin-intl";
 import Img from "gatsby-image";
 import BackgroundImage from "gatsby-background-image";
 import { useBreakpoint } from "gatsby-plugin-breakpoints";
-import Layout from "../components/Layout";
-
 import { ButtonLink } from "../components/Button";
+import Layout from "../components/Layout";
 import links from "../data/get-involved/links";
 
 export const query = graphql`
@@ -97,11 +96,17 @@ export default function GetInvolved({ data }) {
               id: "getInvolved.topFold.joinTitle",
             })}
           </h1>
-          <p className="whitespace-pre-line md:text-xl">
+          <p className="whitespace-pre-line md:text-xl mb-12">
             {intl.formatMessage({
               id: "getInvolved.topFold.details",
             })}
           </p>
+          <ButtonLink to="/available-roles">
+            {intl.formatMessage({
+              id: `getInvolved.topFold.joinButton`,
+            })}
+          </ButtonLink>
+
           <div className="w-4/5 m-auto mt-16 flex-shrink-0 lg:hidden">
             <Img
               className="mx-auto"
