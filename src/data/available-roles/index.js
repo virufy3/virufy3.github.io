@@ -1,6 +1,22 @@
 export const roles = [
   {
     description:
+      "Seeking an individual to contribute on a part-time volunteer basis as a Jack/Jill-of-all-trades!",
+    location: "Remote",
+    title: "Swiss Army Knife",
+    url:
+      "https://docs.google.com/document/d/1PaQroE6uIBFroMP05UKTLXc4ABlS1mqwWm_aXlwdxQw/edit",
+  },
+  {
+    description:
+      "Seeking an individual to contribute on a part-time volunteer basis and collaborate closely with the Virufy development team, define the product roadmap, manage development progress and align with stakeholders.",
+    location: "Remote",
+    title: "Project / Product Manager",
+    url:
+      "https://docs.google.com/document/d/1x8NPeOzn6-IgCIrqxrK0zvcDY5858VJ_FRLGiewfWfY/edit",
+  },
+  {
+    description:
       "Seeking an individual to contribute on a part-time volunteer basis and lead the North America ambassador team on the fundraising end to raise money for our global marketing and data crowdsourcing campaigns.",
     location: "Remote",
     title: "Fundraising Coordinator",
@@ -41,14 +57,6 @@ export const roles = [
   },
   {
     description:
-      "Seeking an individual to contribute on a part-time volunteer basis as a Jack/Jill-of-all-trades!",
-    location: "Remote",
-    title: "Swiss Army Knife",
-    url:
-      "https://docs.google.com/document/d/1PaQroE6uIBFroMP05UKTLXc4ABlS1mqwWm_aXlwdxQw/edit",
-  },
-  {
-    description:
       "Seeking an individual to contribute on a part-time volunteer basis and be responsible for organizing clinical research trials.",
     location: "Remote",
     title: "Global Clinical Research Coordinator",
@@ -63,14 +71,7 @@ export const roles = [
     url:
       "https://docs.google.com/document/d/1umbOcHv3ZAMHIRx9XwWyAcFrdMlpdiimwJmwzKh_Jr0/edit#heading=h.sacgk1on2in4",
   },
-  {
-    description:
-      "Seeking an individual to contribute on a part-time volunteer basis and collaborate closely with the Virufy development team, define the product roadmap, manage development progress and align with stakeholders.",
-    location: "Remote",
-    title: "Project / Product Manager",
-    url:
-      "https://docs.google.com/document/d/1x8NPeOzn6-IgCIrqxrK0zvcDY5858VJ_FRLGiewfWfY/edit",
-  },
+
   {
     description:
       "Our team of part-time volunteers works with machine learning, deep learning, and signal analysis for audio analysis in a medical setting.",
