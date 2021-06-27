@@ -38,7 +38,7 @@ const socialLinks = [
   {
     name: "Youtube",
     logo: youtubeLogo,
-    address: "https://www.youtube.com/channel/UC6m20FEpd6J-HAoyitJKfkg",
+    address: "https://www.youtube.com/channel/UC-son5uPvzhCHoBr3-Std-A",
   },
 ];
 
