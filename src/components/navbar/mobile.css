@@ -1,0 +1,56 @@
+.mobileNavHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 0 2rem 1.5rem;
+  position: relative;
+}
+
+.positionLogo {
+  position: absolute;
+  left: 40%;
+}
+
+.mobileNavLinks {
+  display: flex;
+  position: relative;
+  width: 80%;
+  margin: 20px;
+  color: #39393a;
+}
+
+.getInvolvedBtn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40%;
+  text-decoration: none;
+  text-align: center;
+  font: Source Sans Pro;
+}
+
+/*ARROW*/
+.arrow {
+  display: flex;
+  position: fixed;
+  right: 10%;
+  padding-top: 2rem;
+  transform-origin: -30% 60%;
+}
+
+.arrow.open {
+  transition: all 0.2s ease-in-out;
+  margin-top: 5px;
+  transform: rotate(90deg) translateY(-17px);
+}
+
+.sublink {
+  list-style-type: none;
+  text-decoration: none;
+  padding-left: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.sublink-link {
+  text-decoration: none;
+  color: #39393a;
+}
