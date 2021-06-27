@@ -1,0 +1,2 @@
+(self.webpackChunk=self.webpackChunk||[]).push([[52],{74168:function(e,n,t){"use strict";t.r(n),t.d(n,{default:function(){return c}});var u=t(67294);function c(){return(0,u.useEffect)((function(){window.location.replace("https://forms.gle/FaW1LqGBvjEYn6ti6")})),u.createElement("p",null,"Redirecting...")}}}]);
+//# sourceMappingURL=component---src-pages-apply-jsx-01f5872b0f29689cd9aa.js.map

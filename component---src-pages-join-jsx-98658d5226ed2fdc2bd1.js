@@ -1,0 +1,2 @@
+(self.webpackChunk=self.webpackChunk||[]).push([[672],{33824:function(e,n,t){"use strict";t.r(n),t.d(n,{default:function(){return c}});var u=t(67294);function c(){return(0,u.useEffect)((function(){window.location.replace("/available-roles")})),u.createElement("p",null,"Redirecting...")}}}]);
+//# sourceMappingURL=component---src-pages-join-jsx-98658d5226ed2fdc2bd1.js.map

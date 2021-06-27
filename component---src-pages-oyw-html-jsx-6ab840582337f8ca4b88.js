@@ -1,0 +1,2 @@
+(self.webpackChunk=self.webpackChunk||[]).push([[513],{2095:function(e,n,t){"use strict";t.r(n),t.d(n,{default:function(){return c}});var u=t(67294);function c(){return(0,u.useEffect)((function(){window.location.replace("/oyw")})),u.createElement("p",null,"Redirecting...")}}}]);
+//# sourceMappingURL=component---src-pages-oyw-html-jsx-6ab840582337f8ca4b88.js.map

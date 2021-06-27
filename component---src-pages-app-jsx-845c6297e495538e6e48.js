@@ -1,0 +1,2 @@
+(self.webpackChunk=self.webpackChunk||[]).push([[221],{76737:function(e,n,t){"use strict";t.r(n),t.d(n,{default:function(){return c}});var u=t(67294);function c(){return(0,u.useEffect)((function(){window.location.replace("/study")})),u.createElement("p",null,"Redirecting...")}}}]);
+//# sourceMappingURL=component---src-pages-app-jsx-845c6297e495538e6e48.js.map

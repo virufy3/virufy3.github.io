@@ -1,0 +1,2 @@
+(self.webpackChunk=self.webpackChunk||[]).push([[735],{90050:function(e,n,t){"use strict";t.r(n),t.d(n,{default:function(){return c}});var u=t(67294);function c(){return(0,u.useEffect)((function(){window.location.replace("/paper")})),u.createElement("p",null,"Redirecting...")}}}]);
+//# sourceMappingURL=component---src-pages-research-jsx-886c247ea7dd597b6b67.js.map

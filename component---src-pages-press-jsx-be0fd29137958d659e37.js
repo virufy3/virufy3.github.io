@@ -1,0 +1,2 @@
+(self.webpackChunk=self.webpackChunk||[]).push([[48],{44292:function(e,n,t){"use strict";t.r(n),t.d(n,{default:function(){return c}});var u=t(67294);function c(){return(0,u.useEffect)((function(){window.location.replace("/news")})),u.createElement("p",null,"Redirecting...")}}}]);
+//# sourceMappingURL=component---src-pages-press-jsx-be0fd29137958d659e37.js.map
