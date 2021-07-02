@@ -19,10 +19,10 @@ export default ({ bgColor, textColor, virufyLogo }) => {
     const isActiveLink = isActivePath(location, link);
     return link.btnStyle
       ? `ml-4 mr-0 no-underline text-white py-2 px-6 ${
-          isActiveLink ? "bg-black" : "bg-primary"
+          isActiveLink ? "bg-black" : "bg-blue"
         }`
       : `ml-4 mr-0 no-underline ${textColor} ${
-          isActiveLink ? "font-bold border-b-4 border-green" : ""
+          isActiveLink ? "font-bold border-b-4 border-blue" : ""
         }`;
   };
 

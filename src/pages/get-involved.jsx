@@ -87,7 +87,7 @@ export default function GetInvolved({ data }) {
   );
 
   return (
-    <Layout className="bg-green-200">
+    <Layout className="bg-blue-100">
       {/* Top fold */}
       <div className="container md:flex py-12">
         <div className="flex-1">
@@ -158,7 +158,7 @@ export default function GetInvolved({ data }) {
               })}
             </p>
             <Link
-              className="no-underline bg-green text-white px-4 py-2 mt-24 mt-32"
+              className="no-underline bg-blue text-white px-4 py-2 mt-24 mt-32"
               target="_blank"
               to={links.donateLink}
             >
@@ -171,7 +171,7 @@ export default function GetInvolved({ data }) {
       </BackgroundImage>
 
       {/* Share Cough */}
-      <div className="bg-green-100">
+      <div className="bg-blue-100">
         <div className="container-short py-12 md:py-20 text-center">
           <h1>
             {intl.formatMessage({

@@ -26,7 +26,7 @@ export default ({ textColor, bgColor, virufyLogo }) => {
 
     return link.btnStyle
       ? `no-underline text-white py-2 px-6 ${
-          isActiveLink ? "bg-black" : "bg-primary"
+          isActiveLink ? "bg-black" : "bg-blue"
         }`
       : `no-underline ${isActiveLink ? "font-bold" : ""}`;
   };
@@ -161,7 +161,7 @@ export default ({ textColor, bgColor, virufyLogo }) => {
                     <div style={{ marginTop: "8rem" }}>
                       <Link
                         to={`/${currentLocale}${button.path}`}
-                        className="getInvolvedBtn text-white bg-primary py-2 px-6"
+                        className="getInvolvedBtn text-white bg-blue py-2 px-6"
                       >
                         {intl.formatMessage({
                           id: button.intlId,

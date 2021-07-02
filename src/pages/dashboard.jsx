@@ -28,7 +28,7 @@ export default function Dashboard({ data }) {
               }}
             />
             <a
-              className="no-underline bg-green text-white px-4 py-2 mb-2 xs:text-xs"
+              className="no-underline bg-blue text-white px-4 py-2 mb-2 xs:text-xs"
               target="_blank"
               href={"/app"}
             >

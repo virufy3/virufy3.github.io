@@ -9,7 +9,7 @@ export default ({ images }) => {
   const intl = useIntl();
   return (
     <>
-      <section className="bg-green-100 pt-20 pb-9">
+      <section className="bg-blue-100 pt-20 pb-9">
         <div className="md:flex justify-between w-4/5 mx-auto">
           <div className="md:w-1/2">
             <h2 className="mb-2 font-bold text-3xl">

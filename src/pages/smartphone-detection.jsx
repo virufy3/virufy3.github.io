@@ -5,7 +5,7 @@ import SEO from "../components/SEO";
 export default function Smartphone() {
   return (
     <div>
-      <Layout className="bg-green-100">
+      <Layout className="bg-blue-100">
         <SEO title="Smartphone Detection | Virufy" />
         <div style={{ padding: "0" }} className="container">
           <iframe
