@@ -11,15 +11,19 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: "#00A588", // Buttons
+        primary: "#3074DC", // Buttons
         secondary: {
-          100: "#66B495", // Footer Background
+          100: "#3074DC", // Footer Background
           200: "#4F9186", // links
         },
         green: {
           DEFAULT: "#00A588",
           100: "#D7E9E6", //cyan color for pg background
           200: "#F0F9F6", // light green for pg background
+        },
+        blue: {
+          DEFAULT: "#3074DC",
+          100: "#F0F6FF", //cyan color for pg background
         },
         black: "#393939",
         filler: "rgba(172, 224, 215, 0.05)",

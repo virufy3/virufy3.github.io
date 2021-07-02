@@ -49,7 +49,7 @@ const Role = ({ description, location, title, url, intl }) => (
 export default function AvailableRoles() {
   const intl = useIntl();
   return (
-    <Layout className="bg-green-200 pb-1">
+    <Layout className="bg-blue-100 pb-1">
       <SEO title="Available Roles | Virufy" />
 
       <div className="relative mb-11 md:mb-28">
@@ -73,7 +73,7 @@ export default function AvailableRoles() {
           </p>
         </div>
 
-        <HeaderImage className="absolute top-0 -right-12 hidden xl:block" />
+        <HeaderImage className="absolute top-0 w-2/5 right-0 hidden xl:block" />
       </div>
 
       <div className="px-8 xl:px-40">
