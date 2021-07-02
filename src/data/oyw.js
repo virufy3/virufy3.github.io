@@ -70,6 +70,12 @@ export const oyw = {
       defaultName: "Kenmaru Suedomi",
       imageName: "kenmaru",
     },
+    {
+      mediaLink: "https://www.linkedin.com/in/ayomide-owoyemi/",
+      id: "ayomide",
+      defaultName: "Ayomide Owoyemi",
+      imageName: "ayomide",
+    },
   ],
   testimonials: [
     {
