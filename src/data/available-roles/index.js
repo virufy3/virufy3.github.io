@@ -11,7 +11,7 @@ export const roles = [
       "Seeking an individual to contribute on a part-time volunteer basis and collaborate closely with the Virufy development team, define the product roadmap, manage development progress and align with stakeholders.",
     location: "Remote",
     title: "Product Manager",
-    url: "https://docs.google.com/document/d/1C15roabJWw5SXRdVS2u1PlzSt-n7r7Xdoe1PD0eCPrc/edit#",
+    url: "https://docs.google.com/document/d/17ISJC3yIhp7FAzLRYDDueC5Kr8sqCIUKndgvcmqBkow",
   },
   {
     description:
