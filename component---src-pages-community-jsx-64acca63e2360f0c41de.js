@@ -1,2 +1,0 @@
-(self.webpackChunk=self.webpackChunk||[]).push([[577],{4140:function(e,n,t){"use strict";t.r(n),t.d(n,{default:function(){return c}});var u=t(7294);function c(){return(0,u.useEffect)((function(){window.location.replace("../our-approach#open-data")})),u.createElement("p",null,"Redirecting...")}}}]);
-//# sourceMappingURL=component---src-pages-community-jsx-64acca63e2360f0c41de.js.map
