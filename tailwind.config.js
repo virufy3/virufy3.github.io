@@ -14,7 +14,8 @@ module.exports = {
         primary: "#3074DC", // Buttons
         secondary: {
           100: "#3074DC", // Footer Background
-          200: "#4F9186", // links
+          // 200: "#4F9186", // links
+          200: "#393939", // links, subtitle quentios in FAQ
         },
         green: {
           DEFAULT: "#00A588",
