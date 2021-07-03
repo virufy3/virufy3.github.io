@@ -37,7 +37,7 @@ const Role = ({ description, location, title, url, intl }) => (
       href={url}
       target="_blank"
       rel="noopener noreferrer"
-      className="block w-full text-center font-heading text-sm no-underline bg-primary text-white uppercase font-bold px-8 py-4 inline-block rounded-full text-sm md:text-md mt-2 md:mt-0"
+      className="block w-full text-center font-heading text-sm no-underline bg-blue text-white uppercase font-bold px-8 py-4 inline-block rounded-full text-sm md:text-md mt-2 md:mt-0"
     >
       {intl.formatMessage({
         id: `getInvolved.availableRoles.applyNow`,

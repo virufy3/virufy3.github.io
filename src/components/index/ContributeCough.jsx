@@ -24,7 +24,7 @@ export default ({ images }) => {
           <ul className="list-none my-4">
             <li className="md:inline">
               <a
-                className="no-underline bg-green text-white px-4 py-2 mb-2 xs:text-xs font-bold"
+                className="no-underline bg-blue text-white px-4 py-2 mb-2 xs:text-xs font-bold"
                 target="_blank"
                 href={"/app"}
               >

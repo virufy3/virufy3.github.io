@@ -5,7 +5,7 @@ const tailwindClasses =
   "inline-block text-xs font-bold py-3 px-7 uppercase no-underline";
 
 const styles = {
-  primary: "text-white bg-primary",
+  primary: "text-white bg-blue",
   secondary: "text-black bg-white",
 };
 
