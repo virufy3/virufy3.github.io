@@ -129,40 +129,35 @@ export default () => {
             defaultMessage: "©2021 Virufy  |  All rights reserved",
           })}
         </p>
-        <p className="mt-4 text-sm">
-          {intl.formatMessage({
-            id: "footer.nonprofit",
-          })}
-        </p>
-      </div>
-      <div className="flex flex-col">
-        <p className="text-white mb-4">
-          Help us in ending COVID-19, this is our
-          <a
-            className="underline text-white px-2"
-            href="https://github.com/virufy3/virufy3.github.io"
-            rel="noopener"
-            target="_blank"
-          >
-            Github
+        <div className="flex flex-col">
+          <p className="text-white mb-4 mt-4 text-sm">
+            Help us in ending COVID-19, this is our
+            <a
+              className="underline text-white px-2"
+              href="https://github.com/virufy3/virufy3.github.io"
+              rel="noopener"
+              target="_blank"
+            >
+              Github
+            </a>
+          </p>
+          <p className="text-white mb-4 text-sm">
+            <a
+              className="underline text-white px-0 mb-6"
+              href="https://github.com/virufy/virufy-covid/blob/main/CODE_OF_CONDUCT.md"
+              rel="noopener"
+              target="_blank"
+            >
+              Code of Conduct
+            </a>
+          </p>
+          <a href="https://www.netlify.com">
+            <img
+              src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg"
+              alt="Deploys by Netlify"
+            />
           </a>
-        </p>
-        <p className="text-white mb-4">
-          <a
-            className="underline text-white px-0 mb-6"
-            href="https://github.com/virufy/virufy-covid/blob/main/CODE_OF_CONDUCT.md"
-            rel="noopener"
-            target="_blank"
-          >
-            Code of Conduct
-          </a>
-        </p>
-        <a href="https://www.netlify.com">
-          <img
-            src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg"
-            alt="Deploys by Netlify"
-          />
-        </a>
+        </div>
       </div>
     </div>
   );
