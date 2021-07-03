@@ -44,7 +44,7 @@ export default function OurApproach({ data }) {
   );
 
   return (
-    <Layout className="bg-green-100">
+    <Layout className="bg-blue-100">
       <SEO title="Our Approach | Virufy" />
       {/* Top fold */}
       <div className="container md:flex">
@@ -107,7 +107,7 @@ export default function OurApproach({ data }) {
       </div>
 
       {/* FAQ */}
-      <div id="faq" className="bg-green-200">
+      <div id="faq" className="bg-blue-200">
         <div className="container flex items-center">
           <div className="flex-grow">
             <h1 className="mb-9">

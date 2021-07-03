@@ -87,7 +87,7 @@ const buttonInvolved = [
     defMsg: "GET INVOLVED",
     path: "/get-involved",
     btnStyle: true,
-    classes: "text-white bg-primary py-2 px-6",
+    classes: "text-white bg-blue py-2 px-6",
   },
 ];
 export { navLinks, buttonInvolved, mobileNavLinks };

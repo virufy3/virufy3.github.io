@@ -35,7 +35,7 @@ export default function NotFound() {
           </div>
           <div className="mb-10">
             <a
-              className="no-underline bg-green text-white px-4 py-2 mb-2 rounded-full"
+              className="no-underline bg-blue text-white px-4 py-2 mb-2 rounded-full"
               href={"/"}
             >
               {intl.formatMessage({ id: "404.back" })}

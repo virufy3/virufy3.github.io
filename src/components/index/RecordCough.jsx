@@ -52,7 +52,7 @@ export default ({ images }) => {
             />
           </div>
           <a
-            className="no-underline bg-green text-white px-4 py-2 mb-6"
+            className="no-underline bg-blue text-white px-4 py-2 mb-6"
             target="_blank"
             href={"/app"}
           >
