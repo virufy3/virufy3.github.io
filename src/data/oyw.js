@@ -76,6 +76,12 @@ export const oyw = {
       defaultName: "Ayomide Owoyemi",
       imageName: "ayomide",
     },
+    {
+      mediaLink: "https://www.linkedin.com/in/drshreyasreeram-537935182/",
+      id: "shreya",
+      defaultName: "Shreya Sreeram",
+      imageName: "shreya",
+    },
   ],
   testimonials: [
     {
