@@ -10,7 +10,7 @@ const Slide = ({ images, testimonial, active }) => {
   const intl = useIntl();
   return (
     <div style={{ display: `${active ? "block" : "none"}` }} className={`fade`}>
-      <div className="rectangle-testimonial">
+      <div className="rectangle-testimonial bg-blue-100">
         <GatsbyImage
           className="absolute md:flex hidden top-4 md:top-10 left-0 w-4 md:w-10 h-4 md:h-10 pt-9 ml-9"
           imgStyle={{ objectFit: "fill" }}
@@ -83,10 +83,10 @@ export default ({ images }) => {
             active={currentSlide === idx + 1}
           />
         ))}
-        <a className="prev" onClick={() => updateCurrentSlide(-1)}>
+        <a className="prev text-blue" onClick={() => updateCurrentSlide(-1)}>
           &#10094;
         </a>
-        <a className="next" onClick={() => updateCurrentSlide(1)}>
+        <a className="next text-blue" onClick={() => updateCurrentSlide(1)}>
           &#10095;
         </a>
       </div>
