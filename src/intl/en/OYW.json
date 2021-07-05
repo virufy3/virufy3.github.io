@@ -34,7 +34,11 @@
       },
       "jason": {
         "name": "Jason Pareja Jauregui",
-        "description": "OYW Ambassador Peru"
+        "description": "OYW Coordinating Ambassador Latin America / Peru"
+      },
+      "shreya": {
+        "name": "Shreya Sreeram, MD",
+        "description": "OYW Delegate India"
       },
       "katherine": {
         "name": "Katherine Thalia Ortiz León",
@@ -46,7 +50,7 @@
       },
       "nathan": {
         "name": "Nathan Thomas",
-        "description": "OYW Ambassador USA"
+        "description": "OYW Coordinating Ambassador USA"
       },
       "sebastian": {
         "name": "Sebastian Pedraza",
@@ -58,11 +62,15 @@
       },
       "madhav": {
         "name": "Madhav Datt",
-        "description": "OYW Ambassador India"
+        "description": "OYW Delegate Speaker India"
       },
       "yulie": {
         "name": "Yulie Qiao",
-        "description": "OYW Ambassador USA"
+        "description": "OYW Delegate Speaker USA"
+      },
+      "lauravelasquezh": {
+        "name": "Laura Velasquez",
+        "description": "OYW Delegate Speaker Colombia"
       },
       "kenmaru": {
         "name": "Kenmaru Suedomi",
@@ -70,7 +78,7 @@
       },
       "ayomide": {
         "name": "Ayomide Owoyemi",
-        "description": "OYW Nigeria"
+        "description": "OYW Delegate Nigeria"
       }
     }
   },

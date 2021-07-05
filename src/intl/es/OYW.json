@@ -26,7 +26,7 @@
       },
       "annelisse": {
         "name": "Annelisse Torrez Daza",
-        "description": "Embajador OYW Bolivia"
+        "description": "Embajadora OYW Bolivia"
       },
       "gonzalo": {
         "name": "Gonzalo Roiffe",
@@ -34,11 +34,15 @@
       },
       "jason": {
         "name": "Jason Pareja Jauregui",
-        "description": "Embajador OYW Peru"
+        "description": "Embajador Coordinador OYW América Latina / Peru"
+      },
+      "shreya": {
+        "name": "Shreya Sreeram, MD",
+        "description": "Delegada OYW India"
       },
       "katherine": {
         "name": "Katherine Thalia Ortiz León",
-        "description": "Embajador OYW Peru"
+        "description": "Embajadora OYW Peru"
       },
       "marcos": {
         "name": "Marcos Deza",
@@ -46,7 +50,7 @@
       },
       "nathan": {
         "name": "Nathan Thomas",
-        "description": "Embajador OYW USA"
+        "description": "Embajador Coordinador OYW USA"
       },
       "sebastian": {
         "name": "Sebastian Pedraza",
@@ -54,15 +58,19 @@
       },
       "veronica": {
         "name": "Verónica Guzmán Quilaqueo",
-        "description": "Embajador OYW Chile"
+        "description": "Embajadora OYW Chile"
       },
       "madhav": {
         "name": "Madhav Datt",
-        "description": "Embajador OYW India"
+        "description": "Orador Delegado OYW India"
       },
       "yulie": {
         "name": "Yulie Qiao",
-        "description": "Embajador OYW USA"
+        "description": "Oradora Delegada OYW USA"
+      },
+      "lauravelasquezh": {
+        "name": "Laura Velasquez",
+        "description": "Oradora Delegada OYW Colombia"
       },
       "kenmaru": {
         "name": "Kenmaru Suedomi",
@@ -70,7 +78,7 @@
       },
       "ayomide": {
         "name": "Ayomide Owoyemi",
-        "description": "OYW Nigeria"
+        "description": "Embajador OYW Nigeria"
       }
     }
   },
