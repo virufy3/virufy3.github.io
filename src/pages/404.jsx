@@ -31,7 +31,7 @@ export default function NotFound() {
           l.hash
       );
     } else {
-      l.replace(l.protocol + "//" + l.hostname + (l.port ? ":" + l.port : ""));
+      // l.replace(l.protocol + "//" + l.hostname + (l.port ? ":" + l.port : ""));
     }
   }, []);
 
