@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useIntl } from "gatsby-plugin-intl";
 import SEO from "../components/SEO";
 import question from "../images/404/rafiki.png";
@@ -6,6 +6,35 @@ import virufyLogo from "../images/logos/virufy-logo.png";
 
 export default function NotFound() {
   const intl = useIntl();
+
+  useEffect(() => {
+    let l = window.location;
+    if (/^\/(app|demo|study|demo-predict|demo-edge)\//.test(l.pathname)) {
+      var pathSegmentsToKeep = 1; // Keep /app
+      l.replace(
+        l.protocol +
+          "//" +
+          l.hostname +
+          (l.port ? ":" + l.port : "") +
+          l.pathname
+            .split("/")
+            .slice(0, 1 + pathSegmentsToKeep)
+            .join("/") +
+          "/?/" +
+          l.pathname
+            .slice(1)
+            .split("/")
+            .slice(pathSegmentsToKeep)
+            .join("/")
+            .replace(/&/g, "~and~") +
+          (l.search ? "&" + l.search.slice(1).replace(/&/g, "~and~") : "") +
+          l.hash
+      );
+    } else {
+      l.replace(l.protocol + "//" + l.hostname + (l.port ? ":" + l.port : ""));
+    }
+  }, []);
+
   return (
     <>
       <SEO title="404: Not found | Virufy" />
