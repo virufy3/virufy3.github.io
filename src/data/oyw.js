@@ -8,10 +8,34 @@ export const oyw = {
       imageName: "annelisse",
     },
     {
+      mediaLink: "https://www.linkedin.com/in/ayomide-owoyemi/",
+      id: "ayomide",
+      defaultName: "Ayomide Owoyemi",
+      imageName: "ayomide",
+    },
+    {
+      mediaLink: "https://www.linkedin.com/in/yulieq/",
+      id: "yulie",
+      defaultName: "Yulie Qiao",
+      imageName: "yulie",
+    },
+    {
+      mediaLink: "https://www.linkedin.com/in/lauravelasquezh/",
+      id: "lauravelasquezh",
+      defaultName: "Laura Velasquez",
+      imageName: "lauravelasquezh",
+    },
+    {
       mediaLink: "https://www.linkedin.com/in/gonzalo-roiffe-62421592/",
       id: "gonzalo",
       defaultName: "Gonzalo Roiffe",
       imageName: "gonzalo",
+    },
+    {
+      mediaLink: "https://www.linkedin.com/in/drshreyasreeram-537935182/",
+      id: "shreya",
+      defaultName: "Shreya Sreeram",
+      imageName: "shreya",
     },
     {
       mediaLink: "https://www.linkedin.com/in/jasonpareja/",
@@ -59,22 +83,16 @@ export const oyw = {
       imageName: "madhav",
     },
     {
-      mediaLink: "https://www.linkedin.com/in/yulieq/",
-      id: "yulie",
-      defaultName: "Yulie Qiao",
-      imageName: "yulie",
-    },
-    {
       mediaLink: "https://www.linkedin.com/in/kenmaru-suedomi-b871555b/",
       id: "kenmaru",
       defaultName: "Kenmaru Suedomi",
       imageName: "kenmaru",
     },
     {
-      mediaLink: "https://www.linkedin.com/in/ayomide-owoyemi/",
-      id: "ayomide",
-      defaultName: "Ayomide Owoyemi",
-      imageName: "ayomide",
+      mediaLink: "https://www.linkedin.com/in/amilkhanzada/",
+      id: "amil",
+      defaultName: "OYW Ambassador Japan",
+      imageName: "amil",
     },
   ],
   testimonials: [

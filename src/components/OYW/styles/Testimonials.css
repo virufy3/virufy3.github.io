@@ -28,7 +28,6 @@
   height: 450px;
   margin-left: auto;
   margin-right: auto;
-  background: #f0f9f6;
   border-radius: 5px;
   padding-top: 0.6rem;
 }
@@ -103,7 +102,6 @@
   margin-left: -5%;
   margin-right: -5%;
   padding: 16px;
-  color: #00a58a;
   font-weight: bold;
   font-size: 30px;
   transition: 0.6s ease;
