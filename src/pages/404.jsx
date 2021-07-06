@@ -4,40 +4,50 @@ import SEO from "../components/SEO";
 import question from "../images/404/rafiki.png";
 import virufyLogo from "../images/logos/virufy-logo.png";
 
+const getPath = (l, path) =>
+  l.protocol + "//" + l.hostname + (l.port ? ":" + l.port : "") + path;
+
 export default function NotFound() {
   const intl = useIntl();
 
   useEffect(() => {
-    let l = window.location;
-    if (/^\/(app|demo|study|demo-predict|demo-edge)\//.test(l.pathname)) {
-      var pathSegmentsToKeep = 1; // Keep /app
-      l.replace(
-        l.protocol +
-          "//" +
-          l.hostname +
-          (l.port ? ":" + l.port : "") +
-          l.pathname
-            .split("/")
-            .slice(0, 1 + pathSegmentsToKeep)
-            .join("/") +
-          "/?/" +
-          l.pathname
-            .slice(1)
-            .split("/")
-            .slice(pathSegmentsToKeep)
-            .join("/")
-            .replace(/&/g, "~and~") +
-          (l.search ? "&" + l.search.slice(1).replace(/&/g, "~and~") : "") +
-          l.hash
-      );
-    } else {
-      // l.replace(l.protocol + "//" + l.hostname + (l.port ? ":" + l.port : ""));
+    console.log("page 404");
+    try {
+      var l = window.location;
+      if (/^\/(app|demo|study|demo-predict|demo-edge)\//.test(l.pathname)) {
+        var pathSegmentsToKeep = 1; // Keep /app
+        l.replace(
+          l.protocol +
+            "//" +
+            l.hostname +
+            (l.port ? ":" + l.port : "") +
+            l.pathname
+              .split("/")
+              .slice(0, 1 + pathSegmentsToKeep)
+              .join("/") +
+            "/?/" +
+            l.pathname
+              .slice(1)
+              .split("/")
+              .slice(pathSegmentsToKeep)
+              .join("/")
+              .replace(/&/g, "~and~") +
+            (l.search ? "&" + l.search.slice(1).replace(/&/g, "~and~") : "") +
+            l.hash
+        );
+      } else {
+        l.replace(
+          l.protocol + "//" + l.hostname + (l.port ? ":" + l.port : "")
+        );
+      }
+    } catch (err) {
+      console.error(err);
     }
   }, []);
 
   return (
     <>
-      <SEO title="404: Not found | Virufy" />
+      <SEO title="404:. Not found | Virufy" />
       <a
         className="my-8 mx-8 flex items-center justify-between py-3 px-6"
         href="/"
