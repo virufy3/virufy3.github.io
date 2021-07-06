@@ -26,7 +26,7 @@ export default ({ images }) => {
               <a
                 className="no-underline bg-blue text-white px-4 py-2 mb-2 xs:text-xs font-bold"
                 target="_blank"
-                href={"/app"}
+                href={"/study"}
               >
                 {intl.formatMessage({ id: "index.section1.coughLink" })}
               </a>
