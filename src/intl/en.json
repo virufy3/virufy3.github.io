@@ -593,6 +593,11 @@
           "description": "High School Student, Palo Alto High\nAuthor of Roses Watered by a Robot’s Tears",
           "title": "Fundraising Team Lead"
         },
+        "christiancanham": {
+          "name": "Christian Canham",
+          "description": "Avionics Engineer, Boeing\nM.S. EE, Rensselaer Polytechnic Institute",
+          "title": "Audio Engineering Team Lead"
+        },
         "ravel": {
           "name": "Ravel Charles",
           "description": "Cloud Solutions Engineer\nM.P.S. Data Security, Northeastern University",
@@ -674,6 +679,11 @@
           "name": "Richard Nall",
           "description": "CEO - The Brand Garden\nMaster's Organisational Leadership - Henley",
           "title": "Marketing Advisor"
+        },
+        "mark.haseltine": {
+          "name": "Mark Haseltine",
+          "description": "Former CTO/CPO - edX\nComputer Science alumnus - MIT",
+          "title": "Executive Advisor"
         },
         "matt": {
           "name": "Matt Prusak",
