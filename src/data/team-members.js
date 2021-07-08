@@ -91,6 +91,12 @@ export const leadership = [
     imageName: "colleen",
   },
   {
+    mediaLink: "https://www.linkedin.com/in/christian-canham-304a3a104/",
+    id: "christian.canham",
+    defaultName: "Christian Canham",
+    imageName: "christian.canham",
+  },
+  {
     mediaLink: "https://www.linkedin.com/in/ravel-charles/",
     id: "ravel",
     defaultName: "Ravel Charles",
@@ -188,6 +194,12 @@ export const advisors = [
     id: "richard",
     defaultName: "Richard Nall",
     imageName: "richard",
+  },
+  {
+    mediaLink: "https://www.linkedin.com/in/mhaseltine/",
+    id: "mark.haseltine",
+    defaultName: "Mark Haseltine",
+    imageName: "mark.haseltine",
   },
   {
     mediaLink: "https://www.linkedin.com/in/matthewprusak/",

@@ -95,6 +95,11 @@
         "description": "Autora de 'Roses Watered by a Robot’s Tears'",
         "title": "Líder del Equipo de Recaudación de Fondos"
       },
+      "christian.canham": {
+        "name": "Christian Canham",
+        "description": "Avionics Engineer, Boeing\nM.S. EE, Rensselaer Polytechnic Institute",
+        "title": "Audio Engineering Team Lead"
+      },
       "heitor": {
         "name": "Heitor Morais",
         "description": "France Alumni Brazil Ambassador\nUniversidade Federal da Paraiba, Master’s Student in Political Science and International Relations",
@@ -151,6 +156,11 @@
         "name": "Richard Nall",
         "description": "CEO - The Brand Garden",
         "title": "Director de Marketing"
+      },
+      "mark.haseltine": {
+        "name": "Mark Haseltine",
+        "description": "Former CTO/CPO - edX\nComputer Science alumnus - MIT",
+        "title": "Executive Advisor"
       },
       "madhav": {
         "name": "Madhav Datt",
