@@ -92,9 +92,9 @@ export const leadership = [
   },
   {
     mediaLink: "https://www.linkedin.com/in/christian-canham-304a3a104/",
-    id: "christian.canham",
+    id: "christiancanham",
     defaultName: "Christian Canham",
-    imageName: "christian.canham",
+    imageName: "christiancanham",
   },
   {
     mediaLink: "https://www.linkedin.com/in/ravel-charles/",
