@@ -3,6 +3,7 @@ lang: "en"
 page: "cookie-policy"
 name: "top"
 ---
+
 #  Cookie Policy
 <p class="mt-4 mb-8">Last Updated: July 5th, 2021</p>
 

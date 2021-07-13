@@ -17,7 +17,7 @@ name: bot
 
 
 <p class="mb-4">
-Please follow the links below to helpful information for the most popular browsers:
+Please follow the links below to helpful information for the most popular browsers:</p>
 <ul>
 <li><a class="" href="https://support.apple.com/en-us/HT201265">Apple Safari</a></li>
 <li><a class="" href="https://support.google.com/chrome/answer/95647?co=GENIE.Platform%3DDesktop&hl">Google Chrome</a></li>
@@ -27,7 +27,7 @@ e-cookies">Microsoft Internet Explorer</a></li>
 <li><a class="" href="https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences">Mozilla Firefox</a></li>
 <li><a class="" href="https://blogs.opera.com/news/2015/08/how-to-manage-cookies-in-opera/">Opera</a></li>
 </ul>
-</p>
+
 
 ## 5. Amendments to this Cookie Policy
 
