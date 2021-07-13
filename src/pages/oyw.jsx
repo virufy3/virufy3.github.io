@@ -40,7 +40,12 @@ export default function OYW({ data }) {
       <div className="wrapper md:flex items-center justify-between md:py-4">
         <div className="pb-10 md:pb-0 pr-6">
           <h1 classNmae="font-bold text-5xl w-full">
-            {intl.formatMessage({ id: "OYW.headers.header" })}
+            <div className="flex-initial">
+              <GatsbyImage
+                className="my-6 md:my-0 w-9/12 md:flex"
+                fluid={images["virufy&oyw"].childImageSharp.fluid}
+              />
+            </div>
           </h1>
           <p
             className="text-xl mt-8"
@@ -60,12 +65,56 @@ export default function OYW({ data }) {
         <h2 className="mb-4 text-2xl font-bold text-gray-200">
           {intl.formatMessage({ id: "OYW.section1.header" })}
         </h2>
-        <p
-          className="text-lg mt-8"
+        <ul class="list-disc mx-8">
+          <li
+            className="text-lg mt-8"
+            dangerouslySetInnerHTML={{
+              __html: intl.formatMessage({ id: "OYW.section1.sub-header" }),
+            }}
+          ></li>
+          <li
+            className="text-lg mt-8"
+            dangerouslySetInnerHTML={{
+              __html: intl.formatMessage({ id: "OYW.section1.sub-header2" }),
+            }}
+          ></li>
+        </ul>
+
+        <h2 className="mt-8 text-2xl font-bold text-gray-200">
+          {intl.formatMessage({ id: "OYW.sectionHi.header" })}
+        </h2>
+        <ul class="list-disc mx-8">
+          <li
+            className="text-lg mt-4"
+            dangerouslySetInnerHTML={{
+              __html: intl.formatMessage({ id: "OYW.sectionHi.amil" }),
+            }}
+          ></li>
+          <li
+            className="text-lg mt-8"
+            dangerouslySetInnerHTML={{
+              __html: intl.formatMessage({ id: "OYW.sectionHi.yulie" }),
+            }}
+          ></li>
+          <li
+            className="text-lg mt-8"
+            dangerouslySetInnerHTML={{
+              __html: intl.formatMessage({ id: "OYW.sectionHi.ayomide" }),
+            }}
+          ></li>
+          <li
+            className="text-lg mt-8"
+            dangerouslySetInnerHTML={{
+              __html: intl.formatMessage({ id: "OYW.sectionHi.shreya" }),
+            }}
+          ></li>
+        </ul>
+        <div
+          className="text-xl mt-8"
           dangerouslySetInnerHTML={{
-            __html: intl.formatMessage({ id: "OYW.section1.sub-header" }),
+            __html: intl.formatMessage({ id: "OYW.sectionHi.join" }),
           }}
-        ></p>
+        ></div>
 
         <section className="flex flex-wrap mb-20 wrapper md:justify-between">
           {/* global impact */}
