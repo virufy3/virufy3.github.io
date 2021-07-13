@@ -39,6 +39,6 @@ e-cookies">Microsoft Internet Explorer</a></li>
 
 <h2 class="mb-4" id="control-cookies">6. ¿Cómo puede contactarnos si tiene preguntas?</h2>
 
-<p class="mb-8">Si tiene alguna pregunta relacionada con nuestro uso de cookies u otras tecnologías, comuníquese con nosotros en <a href="mailto:study@virufy.org" class="no-underline">study@virufy.org.</a></p>
+<p class="mb-8">Si tiene alguna pregunta relacionada con nuestro uso de cookies u otras tecnologías, comuníquese con nosotros en <a href="mailto:study@virufy.org" class="">study@virufy.org.</a></p>
 
-<p class="italic font-bold text-center">¡Gracias por donar su tos para ayudar a detener el COVID!</p>
+### <p class="italic font-bold text-center">¡Gracias por donar su tos para ayudar a detener el COVID!</p>

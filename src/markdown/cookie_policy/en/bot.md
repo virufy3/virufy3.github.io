@@ -29,14 +29,14 @@ e-cookies">Microsoft Internet Explorer</a></li>
 </ul>
 
 
-## 5. Amendments to this Cookie Policy
+<h2 class="mb-4 mt-8">5. Amendments to this Cookie Policy</h2>
 
 <p class="mb-4">We may update this Cookie Policy from time to time in order to reflect, for example, changes to the cookies we use or for other operational, legal or regulatory reasons. Since we do not collect personal data such as your IP address, email or any other form of contact, thus having no means to reach you for your safety, please therefore re-visit this Cookie Policy regularly to stay informed about our use of cookies and related technologies.</p>
 
 <p class="mb-4">The date at the top of this Cookie Policy indicates when it was last updated.</p>
 
 
-## 6. How can you contact us with questions?
+<h2 class="mb-4 mt-8">6. How can you contact us with questions?</h2>
 
 <p class="mb-4">If you have any concerns relating to our use of cookies or other technologies, please contact us at 
 <a class="block" href="study@virufy.org">study@virufy.org</a></p> 
