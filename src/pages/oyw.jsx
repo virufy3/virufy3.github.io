@@ -26,7 +26,29 @@ export const query = graphql`
     }
   }
 `;
-
+const VideoList = (props) => {
+  const { id, source } = props;
+  return (
+    <div className=" wrapper md:flex">
+      <iframe
+        key={id}
+        width="560"
+        height="315"
+        src={source}
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+        allowfullscreen="allowfullscreen"
+      ></iframe>
+    </div>
+  );
+};
+const videos = [
+  {
+    id: "video1",
+    source: "https://www.youtube.com/embed/hvJgwPNYnZo",
+  },
+];
 export default function OYW({ data }) {
   const intl = useIntl();
   const images = {};
@@ -37,15 +59,63 @@ export default function OYW({ data }) {
   return (
     <Layout>
       <SEO title="OYW | Virufy" />
-      <div className="wrapper md:flex items-center justify-between md:py-4">
+      <div className="wrapper items-center justify-between md:py-4">
         <div className="pb-10 md:pb-0 pr-6">
           <h1 classNmae="font-bold text-5xl w-full">
             <div className="flex-initial">
               <GatsbyImage
-                className="my-6 md:my-0 w-9/12 md:flex"
+                className="my-6 md:my-0 w-6/12 md:flex "
                 fluid={images["virufy&oyw"].childImageSharp.fluid}
               />
             </div>
+          </h1>
+          <div className="bg-blue-100 mx-0">
+            <p
+              className="text-xl mt-8"
+              dangerouslySetInnerHTML={{
+                __html: intl.formatMessage({ id: "OYW.headers.topbanner" }),
+              }}
+            ></p>
+          </div>
+        </div>
+      </div>
+      {/* youtube */}
+      <div className="wrapper md:flex items-center justify-between md:py-4">
+        <div className="pb-10 md:pb-0 pr-6">
+          <h1 classNmae="font-bold text-5xl w-full">
+            <div
+              style={{
+                display: "flex",
+                flexWrap: "wrap",
+                justifyContent: "space-evenly",
+              }}
+            >
+              {videos.map((item) => {
+                return <VideoList id={item.id} source={item.source} />;
+              })}
+            </div>
+          </h1>
+        </div>
+        <div className="w-full">
+          <p
+            className="text-xl mt-8"
+            dangerouslySetInnerHTML={{
+              __html: intl.formatMessage({ id: "OYW.headers.help" }),
+            }}
+          ></p>
+        </div>
+      </div>
+
+      {/* Virufy & OYW */}
+      <div className="wrapper md:flex items-center justify-between md:py-4">
+        <div className="pb-10 md:pb-0 pr-6">
+          <h1 classNmae="font-bold text-5xl w-full">
+            <p
+              className="text-xl mt-8"
+              dangerouslySetInnerHTML={{
+                __html: intl.formatMessage({ id: "OYW.headers.header" }),
+              }}
+            ></p>
           </h1>
           <p
             className="text-xl mt-8"

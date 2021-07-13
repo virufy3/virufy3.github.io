@@ -375,7 +375,9 @@
   "OYW": {
     "headers": {
       "header": "Virufy & One Young World",
-      "sub-header": "Virufy was inspired by OYW and is supported by delegates and ambassadors from around the world. Read about Virufy on <a target='_blank' href='https://oywj.org/ambassadors-in-action/2020/05/oywj-ambassador-targets-covid-19-using-ai/'><b>ambassadors in action</b></a> and <a target='_blank' href='https://www.oneyoungworld.com/north-american-ambassadors-frontlines-covid-19-response'><b>ambassadors on the frontline for COVID-19 response</b></a>."
+      "topbanner": " A <b>free</b> COVID screening tool in the palm of your hand. Immediate. Accessible. Anonymous. <br>All you will need is a smartphone and your cough - no matter where you are in the world.",
+      "sub-header": "Virufy was inspired by OYW and is supported by delegates and ambassadors from around the world. Read about Virufy on <a target='_blank' href='https://oywj.org/ambassadors-in-action/2020/05/oywj-ambassador-targets-covid-19-using-ai/'><b>ambassadors in action</b></a> and <a target='_blank' href='https://www.oneyoungworld.com/north-american-ambassadors-frontlines-covid-19-response'><b>ambassadors on the frontline for COVID-19 response</b></a>.",
+      "help": "Help us bring Virufy to hospitals and communities near you! Together, we will transform healthcare and stop the spread of COVID. And this is just the beginning - join us in the fight against future pandemics, too!"
     },
     "section1": {
       "header": "Check us out at the OYW 2021 Summit on 25 June 2021:",
@@ -388,7 +390,7 @@
       "yulie": "<b>Yulie Qiao</b> - OYW Japan Ambassador & Virufy’s Founder and CEO",
       "ayomide": "<b>Ayomide Owoyemi, MD</b> - Novartis delegate, Nigeria & Virufy ML Clinical Stats ",
       "shreya": "<b>Shreya Shreeram, MD</b> - Virufy delegate, India & Virufy Clinical Research",
-      "join": "<b>You can be part of the solution</nb>! Visit our <a target='_blank' href='https://virufy.org/en/available-roles/'>Join Page</a> for open volunteering opportunities."
+      "join": "<b>You can be part of the solution</b>! Visit our <a target='_blank' href='https://virufy.org/en/available-roles/'>Join Page</a> for open volunteering opportunities."
     },
     "section2": {
       "header": "Focused on global impact",
