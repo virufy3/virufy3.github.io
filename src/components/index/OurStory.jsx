@@ -138,6 +138,16 @@ export default ({ images }) => {
                 />
               </a>
             </div>
+            <div className="flex items-center min-w-110 h-auto object-contain lg:min-w-1/10 lg:mx-3 mx-10 my-3">
+              {" "}
+              <a href={supporter_links.parrolabs} target="_blank">
+                <GatsbyImage
+                  imgStyle={{ objectFit: "contain" }}
+                  className="flex items-center min-w-110 h-auto object-contain lg:min-w-1/10"
+                  fluid={images["parrolabs-logo-gray"].childImageSharp.fluid}
+                />
+              </a>
+            </div>
           </div>
         </div>
       </section>

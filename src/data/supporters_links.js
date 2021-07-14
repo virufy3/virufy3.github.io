@@ -9,4 +9,5 @@ export default {
   curative: "https://curative.com/",
   fenwick: "https://www.fenwick.com/",
   nuvu: "https://www.nuvu.cc/",
+  parrolabs: "https://www.parrolabs.com/",
 };
