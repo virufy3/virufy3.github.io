@@ -66,7 +66,7 @@ export default function OYW({ data }) {
           <h1 classNmae="font-bold text-5xl w-full">
             <div className="flex-initial">
               <GatsbyImage
-                className="my-6 md:w-32 md:my-0 sm:w-6/12 md:flex "
+                className="my-6 md:w-32 md:my-0 md:w-6/12 md:flex "
                 fluid={images["virufy&oyw"].childImageSharp.fluid}
               />
             </div>
