@@ -75,7 +75,7 @@ export default function OYW({ data }) {
       </div>
       <div className="bg-blue-100 mx-0">
         <p
-          className="text-xl mt-8 mx-8 justify-items-center"
+          className="text-xl text-center mt-8 mx-8 justify-items-center"
           dangerouslySetInnerHTML={{
             __html: intl.formatMessage({ id: "OYW.headers.topbanner" }),
           }}
