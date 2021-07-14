@@ -1,11 +1,22 @@
 {
   "headers": {
     "header": "Virufy & One Young World",
-    "sub-header": "Virufy tem a honra de estender um convite especial a todos os embaixadores da One Young World em todo o mundo para juntar-se à nossa equipe e contribuir para deter rapidamente a COVID-19.<br/><b>Por favor, visite nossa <a target='_blank' href='/available-roles'>página de adesão</a> para se inscrever!</b>"
+    "topbanner": "A <b>ferramenta</b> de triagem COVID gratuita na palma da sua mão. Imediata. Acessível. Anônimo.Tudo o que você precisará é de um smartphone e sua tosse - não importa onde você esteja no mundo.",
+    "sub-header": "Virufy was inspired by OYW and is supported by delegates and ambassadors from around the world. Read about Virufy on <a target='_blank' href='https://oywj.org/ambassadors-in-action/2020/05/oywj-ambassador-targets-covid-19-using-ai/'><b>ambassadors in action</b></a> and <a target='_blank' href='https://www.oneyoungworld.com/north-american-ambassadors-frontlines-covid-19-response'><b>ambassadors on the frontline for COVID-19 response</b></a>.",
+    "help": "Ajude-nos a levar o Virufy aos hospitais e comunidades próximas a você! Juntos, vamos transformar a saúde e deter a propagação da COVID. E isto é apenas o começo - junte-se a nós na luta contra futuras pandemias também!"
   },
   "section1": {
-    "header": "Virufy é inspirada pelo One Young World!",
-    "sub-header": "A Virufy tem sido apresentada em várias plataformas OYW, inclusive na América e no Japão, <a target='_blank' href='https://oywj.org/ambassadors-in-action/2020/05/oywj-ambassador-targets-covid-19-using-ai/' class='text-primary'> ambassadors in action </a> e <a target='_blank' href='https://www.oneyoungworld.com/north-american-ambassadors-frontlines-covid-19-response' class='text-primary'> embaixadores em ação e embaixadores na linha de frente da resposta à COVID-19. Também estamos colaborando com os embaixadores coordenadores da OYW em várias regiões para os esforços de divulgação. Por favor, fiquem atentos enquanto atualizamos esta página!"
+    "header": "Check us out at the OYW 2021 Summit on 25 June 2021:",
+    "sub-header": "Yulie Qiao, Virufy’s Operations Lead, will be speaking during the COVID-19 Plenary Session.",
+    "sub-header2": "Learn more about Virufy at the Digital Exhibition."
+  },
+  "sectionHi": {
+    "header": "Come Say Hi!",
+    "amil": "<b>Amil Khanzada</b> - OYW Japan Ambassador & Virufy’s Founder and CEO",
+    "yulie": "<b>Yulie Qiao</b> - OYW Japan Ambassador & Virufy’s Founder and CEO",
+    "ayomide": "<b>Ayomide Owoyemi, MD</b> - Novartis delegate, Nigeria & Virufy ML Clinical Stats ",
+    "shreya": "<b>Shreya Shreeram, MD</b> - Virufy delegate, India & Virufy Clinical Research",
+    "join": "<b>You can be part of the solution</b>! Visit our <a target='_blank' href='https://virufy.org/en/available-roles/'>Join Page</a> for open volunteering opportunities."
   },
   "section2": {
     "header": "Focado no impacto global",
@@ -18,7 +29,7 @@
     "diverse-des": "Nossa equipe tem representação de mais de 25 universidades e 15 países e inclui mais de 10 embaixadores do One Young World."
   },
   "ambassador": {
-    "header": "Embaixadores da OYW",
+    "header": "Our OYW x Virufy Community",
     "ambassador-list": {
       "amil": {
         "name": "Amil Khanzada",

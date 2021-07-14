@@ -1,11 +1,22 @@
 {
   "headers": {
     "header": "Virufy & One Young World",
-    "sub-header": "Virufy is honored to extend a special invitation to all One Young World ambassadors around the world to join our team and contribute to stop COVID-19 quickly. <br/><b>Please visit our <a target='_blank' href='/available-roles'>Join Page</a> to apply!</b>"
+    "topbanner": " A <b>free</b> COVID screening tool in the palm of your hand. Immediate. Accessible. Anonymous. <br>All you will need is a smartphone and your cough - no matter where you are in the world.",
+    "sub-header": "Virufy was inspired by OYW and is supported by delegates and ambassadors from around the world. Read about Virufy on <a target='_blank' href='https://oywj.org/ambassadors-in-action/2020/05/oywj-ambassador-targets-covid-19-using-ai/'><b>ambassadors in action</b></a> and <a target='_blank' href='https://www.oneyoungworld.com/north-american-ambassadors-frontlines-covid-19-response'><b>ambassadors on the frontline for COVID-19 response</b></a>.",
+    "help": "Help us bring Virufy to hospitals and communities near you! Together, we will transform healthcare and stop the spread of COVID. And this is just the beginning - join us in the fight against future pandemics, too!"
   },
   "section1": {
-    "header": "Virufy is inspired by One Young World!",
-    "sub-header": "Virufy has been featured on various OYW platforms, including in the Americas and Japan, <a target='_blank' href='https://oywj.org/ambassadors-in-action/2020/05/oywj-ambassador-targets-covid-19-using-ai/' class='text-primary'> ambassadors in action </a>, and <a target='_blank' href='https://www.oneyoungworld.com/north-american-ambassadors-frontlines-covid-19-response' class='text-primary'> ambassadors on the frontline for COVID-19 response </a>. We are also collaborating with OYW coordinating ambassadors across various regions for outreach efforts. Please stay tuned as we update this page!"
+    "header": "Check us out at the OYW 2021 Summit on 25 June 2021:",
+    "sub-header": "Yulie Qiao, Virufy’s Operations Lead, will be speaking during the COVID-19 Plenary Session.",
+    "sub-header2": "Learn more about Virufy at the Digital Exhibition."
+  },
+  "sectionHi": {
+    "header": "Come Say Hi!",
+    "amil": "<b>Amil Khanzada</b> - OYW Japan Ambassador & Virufy’s Founder and CEO",
+    "yulie": "<b>Yulie Qiao</b> - OYW Japan Ambassador & Virufy’s Founder and CEO",
+    "ayomide": "<b>Ayomide Owoyemi, MD</b> - Novartis delegate, Nigeria & Virufy ML Clinical Stats ",
+    "shreya": "<b>Shreya Shreeram, MD</b> - Virufy delegate, India & Virufy Clinical Research",
+    "join": "<b>You can be part of the solution</b>! Visit our <a target='_blank' href='https://virufy.org/en/available-roles/'>Join Page</a> for open volunteering opportunities."
   },
   "section2": {
     "header": "Focused on global impact",
@@ -18,7 +29,7 @@
     "diverse-des": "Our team has representation from over 25 universities and 15 countries and includes more than 10 One Young World ambassadors."
   },
   "ambassador": {
-    "header": "OYW Ambassadors",
+    "header": "Our OYW x Virufy Community",
     "ambassador-list": {
       "amil": {
         "name": "Amil Khanzada",
