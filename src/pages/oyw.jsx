@@ -34,11 +34,13 @@ const VideoList = (props) => {
         key={id}
         width="560"
         height="315"
-        src={source}
         title="YouTube video player"
+        class="video"
+        src={source}
+        data-cookieconsent="marketing"
         frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-        allowfullscreen="allowfullscreen"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
       ></iframe>
     </div>
   );
@@ -64,37 +66,27 @@ export default function OYW({ data }) {
           <h1 classNmae="font-bold text-5xl w-full">
             <div className="flex-initial">
               <GatsbyImage
-                className="my-6 md:my-0 w-6/12 md:flex "
+                className="my-6 md:w-32 md:my-0 sm:w-6/12 md:flex "
                 fluid={images["virufy&oyw"].childImageSharp.fluid}
               />
             </div>
           </h1>
-          <div className="bg-blue-100 mx-0">
-            <p
-              className="text-xl mt-8"
-              dangerouslySetInnerHTML={{
-                __html: intl.formatMessage({ id: "OYW.headers.topbanner" }),
-              }}
-            ></p>
-          </div>
         </div>
+      </div>
+      <div className="bg-blue-100 mx-0">
+        <p
+          className="text-xl mt-8 mx-8 justify-items-center"
+          dangerouslySetInnerHTML={{
+            __html: intl.formatMessage({ id: "OYW.headers.topbanner" }),
+          }}
+        ></p>
       </div>
       {/* youtube */}
       <div className="wrapper md:flex items-center justify-between md:py-4">
-        <div className="pb-10 md:pb-0 pr-6">
-          <h1 classNmae="font-bold text-5xl w-full">
-            <div
-              style={{
-                display: "flex",
-                flexWrap: "wrap",
-                justifyContent: "space-evenly",
-              }}
-            >
-              {videos.map((item) => {
-                return <VideoList id={item.id} source={item.source} />;
-              })}
-            </div>
-          </h1>
+        <div className="w-full">
+          {videos.map((item) => {
+            return <VideoList id={item.id} source={item.source} />;
+          })}
         </div>
         <div className="w-full">
           <p
