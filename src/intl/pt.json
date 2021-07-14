@@ -5,99 +5,6 @@
     "code": "Código de erro: 404",
     "back": "Voltar à página inicial"
   },
-  "OYW": {
-    "headers": {
-      "header": "Virufy & One Young World",
-      "sub-header": "Virufy tem a honra de estender um convite especial a todos os embaixadores da One Young World em todo o mundo para juntar-se à nossa equipe e contribuir para deter rapidamente a COVID-19.<br/><b>Por favor, visite nossa <a target='_blank' href='/available-roles'>página de adesão</a> para se inscrever!</b>"
-    },
-    "section1": {
-      "header": "Virufy é inspirada pelo One Young World!",
-      "sub-header": "A Virufy tem sido apresentada em várias plataformas OYW, inclusive na América e no Japão, <a target='_blank' href='https://oywj.org/ambassadors-in-action/2020/05/oywj-ambassador-targets-covid-19-using-ai/' class='text-primary'> ambassadors in action </a> e <a target='_blank' href='https://www.oneyoungworld.com/north-american-ambassadors-frontlines-covid-19-response' class='text-primary'> embaixadores em ação e embaixadores na linha de frente da resposta à COVID-19. Também estamos colaborando com os embaixadores coordenadores da OYW em várias regiões para os esforços de divulgação. Por favor, fiquem atentos enquanto atualizamos esta página!"
-    },
-    "section2": {
-      "header": "Focado no impacto global",
-      "sub-header": "Coletar dados e fornecer soluções eqüitativas para as pessoas nos países em desenvolvimento em todo o mundo.",
-      "youth": "Liderado por jovens",
-      "youth-des": "Nossa crescente equipe é liderada por jovens de mais de uma dúzia de países e é assessorada por líderes globais.",
-      "ambassador": "Conduzido por embaixadores",
-      "ambassador-des": "Nossa estrutura organizacional combina One Young World com embaixadores da juventude que lideram operações em cada país, com embaixadores coordenadores regionais.",
-      "diverse": "Representação diversificada",
-      "diverse-des": "Nossa equipe tem representação de mais de 25 universidades e 15 países e inclui mais de 10 embaixadores do One Young World."
-    },
-    "ambassador": {
-      "header": "Embaixadores da OYW",
-      "ambassador-list": {
-        "amil": {
-          "name": "Amil Khanzada",
-          "description": "Embaixador OYW Japão"
-        },
-        "annelisse": {
-          "name": "Annelisse Torrez Daza",
-          "description": "Embaixadora OYW Bolívia"
-        },
-        "gonzalo": {
-          "name": "Gonzalo Roiffe",
-          "description": "Embaixador OYW Argentina"
-        },
-        "jason": {
-          "name": "Jason Pareja Jauregui",
-          "description": "Embaixador Coordenador OYW América Latina / Peru"
-        },
-        "shreya": {
-          "name": "Shreya Sreeram, MD",
-          "description": "Embaixadora OYW India"
-        },
-        "katherine": {
-          "name": "Katherine Thalia Ortiz León",
-          "description": "Embaixadora OYW Peru"
-        },
-        "marcos": {
-          "name": "Marcos Deza",
-          "description": "Embaixador OYW Argentina"
-        },
-        "nathan": {
-          "name": "Nathan Thomas",
-          "description": "Embaixador Coordenador OYW EUA"
-        },
-        "sebastian": {
-          "name": "Sebastian Pedraza",
-          "description": "Embaixador OYW Colombia"
-        },
-        "veronica": {
-          "name": "Verónica Guzmán Quilaqueo",
-          "description": "Embaixadora OYW Chile"
-        },
-        "madhav": {
-          "name": "Madhav Datt",
-          "description": "Orador Delegado OYW India"
-        },
-        "yulie": {
-          "name": "Yulie Qiao",
-          "description": "Delegada OYW EUA"
-        },
-        "lauravelasquezh": {
-          "name": "Laura Velasquez",
-          "description": "Embaixadora Orador OYW Colombia"
-        },
-        "kenmaru": {
-          "name": "Kenmaru Suedomi",
-          "description": "Embaixador OYW Japão"
-        },
-        "ayomide": {
-          "name": "Ayomide Owoyemi",
-          "description": "Embaixador OYW Nigéria"
-        }
-      }
-    },
-    "testimonials": {
-      "title": "Depoimentos",
-      "intro": "Nossa equipe é liderada por estudantes dedicados ao bem social de instituições de renome como Stanford, Princeton e One Young World. Temos forte confiança nos membros da comunidade One Young World e acolhemos calorosamente quaisquer embaixadores interessados em participar.",
-      "annelisse": "Tendo sofrido através da COVID, eu mesmo e toda minha família em um país carente, soube imediatamente que poderia fazer a diferença e impedir que outros enfrentassem meu mesmo destino ao me unir à Virufy.",
-      "sebastian": "Virufy une o poder da juventude e da tecnologia para transformar o mundo. Esperamos que esta solução chegue ao mundo inteiro e que se torne um apoio para os médicos, especialmente nos países de baixa renda.",
-      "gonzalo": "Virufy terá impacto global, não importando o histórico ou o status social dos usuários. Isto é o que parece mudar o status quo.",
-      "marcos": " Eu acho que a Virufy desenvolverá uma solução muito precisa e isto será útil para o mundo inteiro em todos os setores. Por isso, encorajo a todos a dedicar alguns minutos e contribuir conosco."
-    }
-  },
   "dashboard": {
     "header": "Dashboard de Nuestros Datos Recolectados",
     "sub-header": "Tu tos nos ayuda a mejorar nuestro modelo predictivo, siendo <b>crucial</b> en la lucha contra <b>COVID-19</b>. ¡Mirá el progreso que hemos logrado y doná tu tos!",
@@ -463,6 +370,99 @@
       "generalCategory": "Geral",
       "moreQuestionsQ": "E se eu tiver mais perguntas?",
       "moreQuestionsA": "Mais detalhes podem ser encontrados em nossas Política de Privacidade, Política de Cookies, e Formulário de Consentimento que estão incutidos no nosso App de coleta de dados. Para questões relacionadas ao estudo de coleta de dados, por favor nos contate por meio do email <a href='mailto:study@virufy.org'>study@virufy.org</a>. Para consultas relacionadas a dados, nós podemos ser contatados através do email open-data@virufy.org . Para quaisquer outras dúvidas, você pode entrar em contato por meio do email <a href='mailto:info@virufy.org'>info@virufy.org</a>"
+    }
+  },
+  "OYW": {
+    "headers": {
+      "header": "Virufy & One Young World",
+      "sub-header": "Virufy tem a honra de estender um convite especial a todos os embaixadores da One Young World em todo o mundo para juntar-se à nossa equipe e contribuir para deter rapidamente a COVID-19.<br/><b>Por favor, visite nossa <a target='_blank' href='/available-roles'>página de adesão</a> para se inscrever!</b>"
+    },
+    "section1": {
+      "header": "Virufy é inspirada pelo One Young World!",
+      "sub-header": "A Virufy tem sido apresentada em várias plataformas OYW, inclusive na América e no Japão, <a target='_blank' href='https://oywj.org/ambassadors-in-action/2020/05/oywj-ambassador-targets-covid-19-using-ai/' class='text-primary'> ambassadors in action </a> e <a target='_blank' href='https://www.oneyoungworld.com/north-american-ambassadors-frontlines-covid-19-response' class='text-primary'> embaixadores em ação e embaixadores na linha de frente da resposta à COVID-19. Também estamos colaborando com os embaixadores coordenadores da OYW em várias regiões para os esforços de divulgação. Por favor, fiquem atentos enquanto atualizamos esta página!"
+    },
+    "section2": {
+      "header": "Focado no impacto global",
+      "sub-header": "Coletar dados e fornecer soluções eqüitativas para as pessoas nos países em desenvolvimento em todo o mundo.",
+      "youth": "Liderado por jovens",
+      "youth-des": "Nossa crescente equipe é liderada por jovens de mais de uma dúzia de países e é assessorada por líderes globais.",
+      "ambassador": "Conduzido por embaixadores",
+      "ambassador-des": "Nossa estrutura organizacional combina One Young World com embaixadores da juventude que lideram operações em cada país, com embaixadores coordenadores regionais.",
+      "diverse": "Representação diversificada",
+      "diverse-des": "Nossa equipe tem representação de mais de 25 universidades e 15 países e inclui mais de 10 embaixadores do One Young World."
+    },
+    "ambassador": {
+      "header": "Embaixadores da OYW",
+      "ambassador-list": {
+        "amil": {
+          "name": "Amil Khanzada",
+          "description": "Embaixador OYW Japão"
+        },
+        "annelisse": {
+          "name": "Annelisse Torrez Daza",
+          "description": "Embaixadora OYW Bolívia"
+        },
+        "gonzalo": {
+          "name": "Gonzalo Roiffe",
+          "description": "Embaixador OYW Argentina"
+        },
+        "jason": {
+          "name": "Jason Pareja Jauregui",
+          "description": "Embaixador Coordenador OYW América Latina / Peru"
+        },
+        "shreya": {
+          "name": "Shreya Sreeram, MD",
+          "description": "Embaixadora OYW India"
+        },
+        "katherine": {
+          "name": "Katherine Thalia Ortiz León",
+          "description": "Embaixadora OYW Peru"
+        },
+        "marcos": {
+          "name": "Marcos Deza",
+          "description": "Embaixador OYW Argentina"
+        },
+        "nathan": {
+          "name": "Nathan Thomas",
+          "description": "Embaixador Coordenador OYW EUA"
+        },
+        "sebastian": {
+          "name": "Sebastian Pedraza",
+          "description": "Embaixador OYW Colombia"
+        },
+        "veronica": {
+          "name": "Verónica Guzmán Quilaqueo",
+          "description": "Embaixadora OYW Chile"
+        },
+        "madhav": {
+          "name": "Madhav Datt",
+          "description": "Orador Delegado OYW India"
+        },
+        "yulie": {
+          "name": "Yulie Qiao",
+          "description": "Delegada OYW EUA"
+        },
+        "lauravelasquezh": {
+          "name": "Laura Velasquez",
+          "description": "Embaixadora Orador OYW Colombia"
+        },
+        "kenmaru": {
+          "name": "Kenmaru Suedomi",
+          "description": "Embaixador OYW Japão"
+        },
+        "ayomide": {
+          "name": "Ayomide Owoyemi",
+          "description": "Embaixador OYW Nigéria"
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Depoimentos",
+      "intro": "Nossa equipe é liderada por estudantes dedicados ao bem social de instituições de renome como Stanford, Princeton e One Young World. Temos forte confiança nos membros da comunidade One Young World e acolhemos calorosamente quaisquer embaixadores interessados em participar.",
+      "annelisse": "Tendo sofrido através da COVID, eu mesmo e toda minha família em um país carente, soube imediatamente que poderia fazer a diferença e impedir que outros enfrentassem meu mesmo destino ao me unir à Virufy.",
+      "sebastian": "Virufy une o poder da juventude e da tecnologia para transformar o mundo. Esperamos que esta solução chegue ao mundo inteiro e que se torne um apoio para os médicos, especialmente nos países de baixa renda.",
+      "gonzalo": "Virufy terá impacto global, não importando o histórico ou o status social dos usuários. Isto é o que parece mudar o status quo.",
+      "marcos": " Eu acho que a Virufy desenvolverá uma solução muito precisa e isto será útil para o mundo inteiro em todos os setores. Por isso, encorajo a todos a dedicar alguns minutos e contribuir conosco."
     }
   },
   "paper": {

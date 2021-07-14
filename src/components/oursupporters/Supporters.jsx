@@ -123,6 +123,15 @@ export default () => {
             />
           </a>
         </div>
+        <div className="flex-grow min-w-250 w-1/5 px-16 py-8">
+          <a href={supporter_links.parrolabs} target="_blank">
+            <GatsbyImage
+              imgStyle={{ objectFit: "contain" }}
+              className="h-full max-h-24"
+              fluid={images["parrolabs-logo-color"]}
+            />
+          </a>
+        </div>
       </div>
       <p
         className="text-center mt-4"
