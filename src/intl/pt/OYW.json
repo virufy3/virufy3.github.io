@@ -29,67 +29,82 @@
     "diverse-des": "Nossa equipe tem representação de mais de 25 universidades e 15 países e inclui mais de 10 embaixadores do One Young World."
   },
   "ambassador": {
-    "header": "Our OYW x Virufy Community",
+    "header": "Nossa comunidade OYW x Virufy",
     "ambassador-list": {
       "amil": {
         "name": "Amil Khanzada",
-        "description": "Embaixador OYW Japão"
-      },
-      "annelisse": {
-        "name": "Annelisse Torrez Daza",
-        "description": "Embaixadora OYW Bolívia"
-      },
-      "gonzalo": {
-        "name": "Gonzalo Roiffe",
-        "description": "Embaixador OYW Argentina"
-      },
-      "jason": {
-        "name": "Jason Pareja Jauregui",
-        "description": "Embaixador Coordenador OYW América Latina / Peru"
-      },
-      "shreya": {
-        "name": "Shreya Sreeram, MD",
-        "description": "Embaixadora OYW India"
-      },
-      "katherine": {
-        "name": "Katherine Thalia Ortiz León",
-        "description": "Embaixadora OYW Peru"
-      },
-      "marcos": {
-        "name": "Marcos Deza",
-        "description": "Embaixador OYW Argentina"
-      },
-      "nathan": {
-        "name": "Nathan Thomas",
-        "description": "Embaixador Coordenador OYW EUA"
-      },
-      "sebastian": {
-        "name": "Sebastian Pedraza",
-        "description": "Embaixador OYW Colombia"
-      },
-      "veronica": {
-        "name": "Verónica Guzmán Quilaqueo",
-        "description": "Embaixadora OYW Chile"
+        "descriptionOYW": "Embaixador OYW, Japão",
+        "descriptionVirufy": "Fundador e líder da Virufy"
       },
       "madhav": {
         "name": "Madhav Datt",
-        "description": "Orador Delegado OYW India"
+        "descriptionOYW": "Embaixador OYW, India",
+        "descriptionVirufy": "Conselheiro Virufy"
+      },
+      "marcos": {
+        "name": "Marcos Deza",
+        "descriptionOYW": "Embaixador OYW, Argentina",
+        "descriptionVirufy": "Comunicaciones digitales Virufy"
       },
       "yulie": {
         "name": "Yulie Qiao",
-        "description": "Delegada OYW EUA"
+        "descriptionOYW": "Delegada bp OYW 2021, EUA",
+        "descriptionVirufy": "Comunicações digitais Virufy"
+      },
+      "ayomide": {
+        "name": "Ayomide Owoyemi, MD",
+        "descriptionOYW": "Delegado OYW Novartis 2021, Nigéria",
+        "descriptionVirufy": "Estatísticas clínicas de aprendizado de máquina Virufy"
+      },
+      "shreya": {
+        "name": "Shreya Sreeram, MD",
+        "descriptionOYW": "Delegada Virufy 2021, India",
+        "descriptionVirufy": "Investigação clinica Virufy"
       },
       "lauravelasquezh": {
         "name": "Laura Velasquez",
-        "description": "Embaixadora Orador OYW Colombia"
+        "descriptionOYW": "Delegada OYW Johnson & Johnson 2021, Colômbia",
+        "descriptionVirufy": "Presidenta e co-fundadora da Arkangel AI e parceira Virufy"
+      },
+      "nathan": {
+        "name": "Nathan Thomas",
+        "descriptionOYW": "Embaixador Coordenador OYW, EUA",
+        "descriptionVirufy": " "
+      },
+      "jason": {
+        "name": "Jason Pareja Jauregui",
+        "descriptionOYW": "Embaixador Coordenador OYW LATAM, Peru",
+        "descriptionVirufy": " "
+      },
+      "katherine": {
+        "name": "Katherine Thalia Ortiz León",
+        "descriptionOYW": "Embaixadora OYW, Peru",
+        "descriptionVirufy": " "
+      },
+      "gonzalo": {
+        "name": "Gonzalo Roiffe",
+        "descriptionOYW": "Embaixador OYW, Argentina",
+        "descriptionVirufy": " "
+      },
+      "annelisse": {
+        "name": "Annelisse Torrez Daza",
+        "descriptionOYW": "Embaixadora OYW, Bolívia",
+        "descriptionVirufy": " "
+      },
+      "veronica": {
+        "name": "Verónica Guzmán Quilaqueo",
+        "descriptionOYW": "Embaixadora OYW, Chile",
+        "descriptionVirufy": " "
+      },
+      "sebastian": {
+        "name": "Sebastian Pedraza",
+        "descriptionOYW": "Embaixador OYW, Colômbia",
+        "descriptionVirufy": " "
       },
       "kenmaru": {
         "name": "Kenmaru Suedomi",
-        "description": "Embaixador OYW Japão"
-      },
-      "ayomide": {
-        "name": "Ayomide Owoyemi",
-        "description": "Embaixador OYW Nigéria"
+        "descriptionOYW": "Embaixador OYW, Japão",
+        "descriptionVirufy": " "
       }
     }
   },
