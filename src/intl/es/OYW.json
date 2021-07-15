@@ -12,8 +12,8 @@
   },
   "sectionHi": {
     "header": "Come Say Hi!",
-    "amil": "<b>Amil Khanzada</b> - OYW Japan Ambassador & Virufy’s Founder and CEO",
-    "yulie": "<b>Yulie Qiao</b> - OYW Japan Ambassador & Virufy’s Founder and CEO",
+    "amil": "<b>Amil Khanzada</b> - OYW Japón Ambassador & Virufy’s Founder and CEO",
+    "yulie": "<b>Yulie Qiao</b> - OYW Japón Ambassador & Virufy’s Founder and CEO",
     "ayomide": "<b>Ayomide Owoyemi, MD</b> - Novartis delegate, Nigeria & Virufy ML Clinical Stats ",
     "shreya": "<b>Shreya Shreeram, MD</b> - Virufy delegate, India & Virufy Clinical Research",
     "join": "<b>You can be part of the solution</b>! Visit our <a target='_blank' href='https://virufy.org/en/available-roles/'>Join Page</a> for open volunteering opportunities."
@@ -29,67 +29,82 @@
     "diverse-des": "Nuestro equipo cuenta con representación de más de 25 universidades y 15 países e incluye más de 10 embajadores de One Young World."
   },
   "ambassador": {
-    "header": "Our OYW x Virufy Community",
+    "header": "Nuestra comunidad OYW x Virufy",
     "ambassador-list": {
       "amil": {
         "name": "Amil Khanzada",
-        "description": "Embajador OYW Japón"
-      },
-      "annelisse": {
-        "name": "Annelisse Torrez Daza",
-        "description": "Embajadora OYW Bolivia"
-      },
-      "gonzalo": {
-        "name": "Gonzalo Roiffe",
-        "description": "Embajador OYW Argentina"
-      },
-      "jason": {
-        "name": "Jason Pareja Jauregui",
-        "description": "Embajador Coordinador OYW América Latina / Peru"
-      },
-      "shreya": {
-        "name": "Shreya Sreeram, MD",
-        "description": "Delegada OYW India"
-      },
-      "katherine": {
-        "name": "Katherine Thalia Ortiz León",
-        "description": "Embajadora OYW Peru"
-      },
-      "marcos": {
-        "name": "Marcos Deza",
-        "description": "Embajador OYW Argentina"
-      },
-      "nathan": {
-        "name": "Nathan Thomas",
-        "description": "Embajador Coordinador OYW USA"
-      },
-      "sebastian": {
-        "name": "Sebastian Pedraza",
-        "description": "Embajador OYW Colombia"
-      },
-      "veronica": {
-        "name": "Verónica Guzmán Quilaqueo",
-        "description": "Embajadora OYW Chile"
+        "descriptionOYW": "Embajador OYW, Japón",
+        "descriptionVirufy": "Fundador y lider de Virufy"
       },
       "madhav": {
         "name": "Madhav Datt",
-        "description": "Orador Delegado OYW India"
+        "descriptionOYW": "Embajador OYW, India",
+        "descriptionVirufy": "Consejero Virufy"
+      },
+      "marcos": {
+        "name": "Marcos Deza",
+        "descriptionOYW": "Embajador OYW, Argentina",
+        "descriptionVirufy": "Comunicaciones digitales Virufy"
       },
       "yulie": {
         "name": "Yulie Qiao",
-        "description": "Oradora Delegada OYW USA"
+        "descriptionOYW": "Delegada bp OYW 2021, EE.UU",
+        "descriptionVirufy": "Operaciones Virufy"
+      },
+      "ayomide": {
+        "name": "Ayomide Owoyemi, MD",
+        "descriptionOYW": "Delegado OYW Novartis 2021, Nigeria",
+        "descriptionVirufy": "Estadísticas clínicas por aprendizaje automático Virufy"
+      },
+      "shreya": {
+        "name": "Shreya Sreeram, MD",
+        "descriptionOYW": "Delegada Virufy 2021, India",
+        "descriptionVirufy": "Investigación Clínica Virufy"
       },
       "lauravelasquezh": {
         "name": "Laura Velasquez",
-        "description": "Oradora Delegada OYW Colombia"
+        "descriptionOYW": "Delegada OYW Johnson & Johnson 2021, Colombia",
+        "descriptionVirufy": "Presidenta y cofundadora de Arkangel AI y socia Virufy"
+      },
+      "nathan": {
+        "name": "Nathan Thomas",
+        "descriptionOYW": "Embajador Coordinador OYW, EE.UU",
+        "descriptionVirufy": " "
+      },
+      "jason": {
+        "name": "Jason Pareja Jauregui",
+        "descriptionOYW": "Embajador Coordinador OYW LATAM, Perú",
+        "descriptionVirufy": " "
+      },
+      "katherine": {
+        "name": "Katherine Thalia Ortiz León",
+        "descriptionOYW": "Embajadora OYW, Perú",
+        "descriptionVirufy": " "
+      },
+      "gonzalo": {
+        "name": "Gonzalo Roiffe",
+        "descriptionOYW": "Embajador OYW, Argentina",
+        "descriptionVirufy": " "
+      },
+      "annelisse": {
+        "name": "Annelisse Torrez Daza",
+        "descriptionOYW": "Embajadora OYW, Bolivia",
+        "descriptionVirufy": " "
+      },
+      "veronica": {
+        "name": "Verónica Guzmán Quilaqueo",
+        "descriptionOYW": "Embajadora OYW, Chile",
+        "descriptionVirufy": " "
+      },
+      "sebastian": {
+        "name": "Sebastian Pedraza",
+        "descriptionOYW": "Embajador OYW, Colombia",
+        "descriptionVirufy": " "
       },
       "kenmaru": {
         "name": "Kenmaru Suedomi",
-        "description": "Embajador OYW Japón"
-      },
-      "ayomide": {
-        "name": "Ayomide Owoyemi",
-        "description": "Embajador OYW Nigeria"
+        "descriptionOYW": "Embajador OYW, Japón",
+        "descriptionVirufy": " "
       }
     }
   },
