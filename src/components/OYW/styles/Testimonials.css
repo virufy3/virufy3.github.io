@@ -25,7 +25,7 @@
 
 .rectangle-testimonial {
   width: 100%;
-  height: 450px;
+  height: 360px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
@@ -245,11 +245,6 @@ table.center {
   }
   .next-ambassadors {
     margin-right: -8%;
-  }
-
-  .rectangle-testimonial {
-    width: 70%;
-    height: 530px;
   }
 
   .prev,
