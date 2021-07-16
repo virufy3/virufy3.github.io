@@ -7,6 +7,7 @@ import GatsbyImage from "gatsby-image";
 import Ambassador from "../components/OYW/Ambassador";
 import Testimonials from "../components/OYW/Testimonials";
 import VideoOYW from "../components/OYW/VideoOYW";
+import SupportersCarousel from "../components/oursupporters/SupportersCarousel";
 
 export const query = graphql`
   {
@@ -123,7 +124,7 @@ export default function OYW({ data }) {
           />
         </div>
       </div>
-      <div className="my-10 wrapper">
+      <div className="mt-10 wrapper">
         <h2 className="mb-4 text-2xl font-bold text-gray-200">
           {intl.formatMessage({ id: "OYW.section1.header" })}
         </h2>
@@ -178,7 +179,7 @@ export default function OYW({ data }) {
           }}
         ></div>
 
-        <section className="flex flex-wrap mb-20 wrapper md:justify-between">
+        <section className="flex flex-wrap mb-10 wrapper md:justify-between">
           {/* global impact */}
           <div className="flex flex-wrap justify-center my-5 md:w-1/2 md:my-10 md:flex-no-wrap md:justify-start">
             <div className="w-full">
@@ -244,9 +245,17 @@ export default function OYW({ data }) {
         </section>
       </div>
 
+      <div className="flow-root">
+        <div className="md:w-1/2 lg:w-1/2 md:float-left lg:float-left">
+          <Testimonials images={images} />
+        </div>
+        <div className="md:w-1/2 lg:w-1/2 md:float-right lg:float-left">
+          <SupportersCarousel />
+        </div>
+      </div>
+
       {/* Ambassador section */}
       <Ambassador images={images} />
-      <Testimonials images={images} />
       <VideoOYW />
     </Layout>
   );

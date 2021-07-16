@@ -15,8 +15,7 @@ const Slide = ({ images, testimonial, active }) => {
           className="absolute md:flex hidden top-4 md:top-10 left-0 w-4 md:w-10 h-4 md:h-10 pt-9 ml-9"
           imgStyle={{ objectFit: "fill" }}
           fluid={images["semicolon"].childImageSharp.fluid}
-        />{" "}
-        {active}
+        />
         <h5 className="absolute text-sm top-0 text-gray-200 testimonial-margin">
           {intl.formatMessage({
             id: `OYW.testimonials.${testimonial.id}`,
@@ -24,7 +23,7 @@ const Slide = ({ images, testimonial, active }) => {
         </h5>
         <div className="oyw-testimonial-name-small">
           <div className="flex flex-col md:flex-row mt-10 md:mt-0">
-            <div className="column md:flex hidden">
+            <div className="column sm:flex hidden">
               <GatsbyImage
                 className="w-24 md:w-32 mx-auto my-2 rounded-full team-icons"
                 imgStyle={{ objectFit: "fill" }}
@@ -71,7 +70,7 @@ export default ({ images }) => {
       <h2 className="mb-4 text-4xl font-bold text-gray-200 text-center">
         {intl.formatMessage({ id: `OYW.testimonials.title` })}
       </h2>
-      <div className="mb-4 text-gray-200 text-center mx-10">
+      <div className="mb-4 text-gray-200 text-sm lg:text-base text-center mx-10">
         <p>{intl.formatMessage({ id: `OYW.testimonials.intro` })} </p>
       </div>
       <div className="slideshow-container">
