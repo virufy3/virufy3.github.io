@@ -67,7 +67,7 @@ export default ({ images }) => {
   );
   return (
     <section className="my-10 wrapper">
-      <h2 className="mb-4 text-4xl font-bold text-gray-200 text-center">
+      <h2 className="mb-4 text-xl font-bold text-gray-200 text-center">
         {intl.formatMessage({ id: `OYW.testimonials.title` })}
       </h2>
       <div className="mb-4 text-gray-200 text-sm lg:text-base text-center mx-10">

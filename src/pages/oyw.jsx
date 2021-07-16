@@ -64,14 +64,7 @@ export default function OYW({ data }) {
       <SEO title="OYW | Virufy" />
       <div className="wrapper items-center justify-between md:py-4">
         <div className="pb-10 md:pb-0 pr-6">
-          <h1 classNmae="font-bold text-5xl w-full">
-            <div className="flex-initial">
-              <GatsbyImage
-                className="my-6 md:w-32 md:my-0 md:w-6/12 md:flex "
-                fluid={images["virufy&oyw"].childImageSharp.fluid}
-              />
-            </div>
-          </h1>
+          <h1 classNmae="font-bold text-5xl w-full"></h1>
         </div>
       </div>
       <div className="bg-blue-100 mx-0">
@@ -130,50 +123,50 @@ export default function OYW({ data }) {
         </h2>
         <ul class="list-disc mx-8">
           <li
-            className="text-lg mt-8"
+            className="text-lg"
             dangerouslySetInnerHTML={{
               __html: intl.formatMessage({ id: "OYW.section1.sub-header" }),
             }}
           ></li>
           <li
-            className="text-lg mt-8"
+            className="text-lg"
             dangerouslySetInnerHTML={{
               __html: intl.formatMessage({ id: "OYW.section1.sub-header2" }),
             }}
           ></li>
         </ul>
 
-        <h2 className="mt-8 text-2xl font-bold text-gray-200">
+        <h2 className="text-2xl font-bold text-gray-200 my-4">
           {intl.formatMessage({ id: "OYW.sectionHi.header" })}
         </h2>
         <ul class="list-disc mx-8">
           <li
-            className="text-lg mt-4"
+            className="text-lg"
             dangerouslySetInnerHTML={{
               __html: intl.formatMessage({ id: "OYW.sectionHi.amil" }),
             }}
           ></li>
           <li
-            className="text-lg mt-8"
+            className="text-lg"
             dangerouslySetInnerHTML={{
               __html: intl.formatMessage({ id: "OYW.sectionHi.yulie" }),
             }}
           ></li>
           <li
-            className="text-lg mt-8"
+            className="text-lg"
             dangerouslySetInnerHTML={{
               __html: intl.formatMessage({ id: "OYW.sectionHi.ayomide" }),
             }}
           ></li>
           <li
-            className="text-lg mt-8"
+            className="text-lg"
             dangerouslySetInnerHTML={{
               __html: intl.formatMessage({ id: "OYW.sectionHi.shreya" }),
             }}
           ></li>
         </ul>
         <div
-          className="text-xl mt-8"
+          className="text-xl"
           dangerouslySetInnerHTML={{
             __html: intl.formatMessage({ id: "OYW.sectionHi.join" }),
           }}
@@ -256,7 +249,6 @@ export default function OYW({ data }) {
 
       {/* Ambassador section */}
       <Ambassador images={images} />
-      <VideoOYW />
     </Layout>
   );
 }
