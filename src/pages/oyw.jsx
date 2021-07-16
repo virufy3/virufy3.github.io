@@ -7,6 +7,7 @@ import GatsbyImage from "gatsby-image";
 import Ambassador from "../components/OYW/Ambassador";
 import Testimonials from "../components/OYW/Testimonials";
 import VideoOYW from "../components/OYW/VideoOYW";
+import Supporters from "../components/oursupporters/Supporters";
 
 export const query = graphql`
   {
@@ -244,9 +245,17 @@ export default function OYW({ data }) {
         </section>
       </div>
 
+      <div className="flow-root">
+        <div className="md:w-1/2 lg:w-1/2 md:float-left lg:float-left">
+          <Testimonials images={images} />
+        </div>
+        <div className="md:w-1/2 lg:w-1/2 md:float-right lg:float-left">
+          <Supporters />
+        </div>
+      </div>
+
       {/* Ambassador section */}
       <Ambassador images={images} />
-      <Testimonials images={images} />
       <VideoOYW />
     </Layout>
   );

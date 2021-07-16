@@ -20,7 +20,7 @@
     "sectionHi": {
       "header": "Come Say Hi!",
       "amil": "<b>Amil Khanzada</b> - OYW Japan Ambassador & Virufy’s Founder and CEO",
-      "yulie": "<b>Yulie Qiao</b> - bp delegate, USA & Virufy Operations",
+      "yulie": "<b>Yulie Qiao</b> - OYW Japan Ambassador & Virufy’s Founder and CEO",
       "ayomide": "<b>Ayomide Owoyemi, MD</b> - Novartis delegate, Nigeria & Virufy ML Clinical Stats ",
       "shreya": "<b>Shreya Shreeram, MD</b> - Virufy delegate, India & Virufy Clinical Research",
       "join": "<b>You can be part of the solution</b>! Visit our <a target='_blank' href='https://virufy.org/en/available-roles/'>Join Page</a> for open volunteering opportunities."
@@ -40,83 +40,68 @@
       "ambassador-list": {
         "amil": {
           "name": "Amil Khanzada",
-          "descriptionOYW": "OYW Ambassador, Japan",
-          "descriptionVirufy": "Virufy Founder & Leader"
-        },
-        "madhav": {
-          "name": "Madhav Datt",
-          "descriptionOYW": "OYW Ambassador, India",
-          "descriptionVirufy": "Virufy Advisor"
-        },
-        "marcos": {
-          "name": "Marcos Deza",
-          "descriptionOYW": "OYW Ambassador, Argentina",
-          "descriptionVirufy": "Virufy Digital Communications"
-        },
-        "yulie": {
-          "name": "Yulie Qiao",
-          "descriptionOYW": "2021 OYW bp Delegate, USA",
-          "descriptionVirufy": "Virufy Operations"
-        },
-        "ayomide": {
-          "name": "Ayomide Owoyemi, MD",
-          "descriptionOYW": "2021 OYW Novartis Delegate, Nigeria",
-          "descriptionVirufy": "Virufy Machine Learning Clinical Statistics"
-        },
-        "shreya": {
-          "name": "Shreya Sreeram, MD",
-          "descriptionOYW": "2021 Virufy Delegate, India",
-          "descriptionVirufy": "Virufy Clinical Research"
-        },
-        "lauravelasquezh": {
-          "name": "Laura Velasquez",
-          "descriptionOYW": "2021 OYW Johnson & Johnson Delegate, Colombia",
-          "descriptionVirufy": "Arkangel AI Co-founder and President & Virufy Partner"
-        },
-        "nathan": {
-          "name": "Nathan Thomas",
-          "descriptionOYW": "OYW Coordinating Ambassador, USA",
-          "descriptionVirufy": " "
-        },
-        "jason": {
-          "name": "Jason Pareja Jauregui",
-          "descriptionOYW": "OYW Coordinating Ambassador LATAM, Peru",
-          "descriptionVirufy": " "
-        },
-        "katherine": {
-          "name": "Katherine Thalia Ortiz León",
-          "descriptionOYW": "OYW Ambassador, Peru",
-          "descriptionVirufy": " "
-        },
-        "gonzalo": {
-          "name": "Gonzalo Roiffe",
-          "descriptionOYW": "OYW Ambassador, Argentina",
-          "descriptionVirufy": " "
+          "description": "OYW Ambassador Japan"
         },
         "annelisse": {
           "name": "Annelisse Torrez Daza",
-          "descriptionOYW": "OYW Ambassador, Bolivia",
-          "descriptionVirufy": " "
+          "description": "OYW Ambassador Bolivia"
         },
-        "veronica": {
-          "name": "Verónica Guzmán Quilaqueo",
-          "descriptionOYW": "OYW Ambassador, Chile",
-          "descriptionVirufy": " "
+        "gonzalo": {
+          "name": "Gonzalo Roiffe",
+          "description": "OYW Ambassador Argentina"
+        },
+        "jason": {
+          "name": "Jason Pareja Jauregui",
+          "description": "OYW Coordinating Ambassador Latin America / Peru"
+        },
+        "shreya": {
+          "name": "Shreya Sreeram, MD",
+          "description": "OYW Delegate India"
+        },
+        "katherine": {
+          "name": "Katherine Thalia Ortiz León",
+          "description": "OYW Ambassador Peru"
+        },
+        "marcos": {
+          "name": "Marcos Deza",
+          "description": "OYW Ambassador Argentina"
+        },
+        "nathan": {
+          "name": "Nathan Thomas",
+          "description": "OYW Coordinating Ambassador USA"
         },
         "sebastian": {
           "name": "Sebastian Pedraza",
-          "descriptionOYW": "OYW Ambassador, Colombia",
-          "descriptionVirufy": " "
+          "description": "OYW Ambassador Colombia"
+        },
+        "veronica": {
+          "name": "Verónica Guzmán Quilaqueo",
+          "description": "OYW Ambassador Chile"
+        },
+        "madhav": {
+          "name": "Madhav Datt",
+          "description": "OYW Delegate Speaker India"
+        },
+        "yulie": {
+          "name": "Yulie Qiao",
+          "description": "OYW Delegate Speaker USA"
+        },
+        "lauravelasquezh": {
+          "name": "Laura Velasquez",
+          "description": "OYW Delegate Speaker Colombia"
         },
         "kenmaru": {
           "name": "Kenmaru Suedomi",
-          "descriptionOYW": "OYW Ambassador, Japan",
-          "descriptionVirufy": " "
+          "description": "OYW Ambassador Japan"
+        },
+        "ayomide": {
+          "name": "Ayomide Owoyemi",
+          "description": "OYW Delegate Nigeria"
         }
       }
     },
     "testimonials": {
-      "title": "Testimonials",
+      "title": "Volunteer Stories",
       "intro": "Our team is led by students dedicated to social good from reputable institutions like Stanford, Princeton, and One Young World. We have strong trust in members of the One Young World community and warmly welcome any ambassadors interested to pitch in.",
       "annelisse": "Having suffered through COVID myself along with all of my family in a underprivileged country, I knew instantly that I could make a difference and prevent others from facing my same fate by joining Virufy.",
       "sebastian": "Virufy unites the power of youth and technology to transform the world. We hope that this solution will reach the whole world and that it will become a support for doctors, especially in low-income countries.",
@@ -135,7 +120,7 @@
     "cookieSettings": "Cookie Settings",
     "privacyPolicy": "Privacy Policy",
     "dontSellPersonalInfo": "Do Not Sell My Personal Information",
-    "copyrightInformation": "©2021 Virufy  |  VIRUFY is a trademark of The COVID Detection Foundation, a California nonprofit corporation   |  All rights reserved",
+    "copyrightInformation": "©2021 Virufy  |  VIRUFY is a trademark of The COVID Detection Foundation   |  All rights reserved",
     "nonprofit": "Virufy is a California nonprofit corporation operating through a fiscal sponsorship with Players Philanthropy Fund, a Maryland charitable trust recognized by IRS as a tax-exempt public charity under Section 501(c)(3) of the Internal Revenue Code (Federal Tax ID: 27-6601178). Contributions to Virufy are tax-deductible to the fullest extent of the law.",
     "email": "info@virufy.org",
     "address": "4546 El Camino Real B10 #614, Los Altos, California 94022, USA"
@@ -324,7 +309,7 @@
       "diagnoseDisease": "AI to freely and quickly identify diseases",
       "acrossNations": "All people across all nations should have fast, affordable access to healthcare.",
       "usingTechnology": "So we’re using technology to do this. ",
-      "algorithmInfo": "With the help of cutting edge research from the world's most prestigious institutions - such as Cornell and Stanford - we're developing an AI algorithm that pre-screens for COVID-19 simply by analyzing the sounds of a person's cough.",
+      "algorithmInfo": "With the help of cutting edge research from the world’s most prestigious institutions — Stanford, Princeton, Cambridge — we’re developing an AI algorithm that pre-screens for COVID-19 simply by analyzing the sounds of a person’s cough.",
       "readWhitePaper": "Read our paper",
       "wantToLearnMore": "Want to learn more?"
     },
