@@ -38,16 +38,14 @@ export default function Dashboard({ data }) {
         </div>
       </div>
       {/* COUNTER */}
-      <div className="grid mt-1 xl:px-0 justify-items-center grid-col-1 overflow-hidden">
-        <iframe
-          width="300"
-          height="185"
-          scrolling="no"
-          src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS0ZDjc9QHcMtCMoknKwX8WCzAJQ8Mk-yJ1CGwbCf-JqKKuemlIGL9EPPAe-7Ars2EI6z_ZAQsWEXgX/pubchart?oid=1483123778&format=interactive"
-        ></iframe>
-      </div>
       <div className="w-full  md:w-auto lg:mx-72 md:h-full">
-        <MapAmerica intl={intl}></MapAmerica>
+        <iframe
+          width="800"
+          height="600"
+          scrolling="no"
+          src="https://datastudio.google.com/embed/reporting/a8be8870-2823-40d9-9159-a1f5bde05502/page/FSMVC"
+          allowfullscreen
+        ></iframe>
       </div>
     </Layout>
   );
