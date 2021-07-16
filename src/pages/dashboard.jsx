@@ -16,13 +16,13 @@ export default function Dashboard({ data }) {
         <div className="grid mb-14 xl:px-0 justify-items-center grid-col-1 gap-16 overflow-hidden">
           <div className="mb-14 justify-self-start xl:mb-0 2l:mr-9">
             <h1
-              className="text-3xl font-bold mb-16 mt-6"
+              className="text-3xl font-bold mb-4 mt-6"
               dangerouslySetInnerHTML={{
                 __html: intl.formatMessage({ id: "dashboard.header" }),
               }}
             />
             <p
-              className="mb-12 xl:pr-14 max-w-screen-lg"
+              className="mb-4 xl:pr-14 max-w-screen-lg"
               dangerouslySetInnerHTML={{
                 __html: intl.formatMessage({ id: "dashboard.sub-header" }),
               }}
@@ -37,17 +37,15 @@ export default function Dashboard({ data }) {
           </div>
         </div>
       </div>
-      {/* COUNTER */}
-      <div className="grid mt-1 xl:px-0 justify-items-center grid-col-1 overflow-hidden">
+      <div className="w-full h-auto sm:h-screen grid justify-items-center px-8">
         <iframe
-          width="300"
-          height="185"
-          scrolling="no"
-          src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS0ZDjc9QHcMtCMoknKwX8WCzAJQ8Mk-yJ1CGwbCf-JqKKuemlIGL9EPPAe-7Ars2EI6z_ZAQsWEXgX/pubchart?oid=1483123778&format=interactive"
+          width="100%"
+          height="100%"
+          src="https://datastudio.google.com/embed/reporting/a8be8870-2823-40d9-9159-a1f5bde05502/page/FSMVC"
+          frameborder="0"
+          style={{ border: 0 }}
+          allowfullscreen
         ></iframe>
-      </div>
-      <div className="w-full  md:w-auto lg:mx-72 md:h-full">
-        <MapAmerica intl={intl}></MapAmerica>
       </div>
     </Layout>
   );
