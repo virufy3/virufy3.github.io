@@ -31,14 +31,18 @@ export default () => {
   );
 
   return (
-    <section id="our-supporters" className="overflow-x-scroll">
-      <h1 className="font-bold text-2xl text-black text-center mb-12 mt-2">
+    <section
+      style={{ maxWidth: "calc(100vw - 4rem)" }}
+      id="our-supporters"
+      className="overflow-x-scroll"
+    >
+      <h1 className="font-bold text-3xl text-center mb-6 mt-2">
         {intl.formatMessage({ id: "team.supportersSection.header" })}
       </h1>
-      <p className="w-10/12 text-sm text-black text-center m-auto">
+      <p className="w-10/12 text-center m-auto">
         {intl.formatMessage({ id: "team.supportersSection.description" })}
       </p>
-      <div className="grid grid-rows-2 grid-flow-col gap-4 justify-center animate-bannermove pt-8">
+      <div className="grid overflow-x grid-rows-2 grid-flow-col gap-4 justify-center animate-bannermove pt-8">
         <div className="flex-grow min-w-250 w-1/2 px-10 py-8">
           <a href={supporter_links.oneYoungWorld} target="_blank">
             <GatsbyImage

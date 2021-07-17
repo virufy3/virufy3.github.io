@@ -10,35 +10,29 @@ const Slide = ({ images, testimonial, active }) => {
   const intl = useIntl();
   return (
     <div style={{ display: `${active ? "block" : "none"}` }} className={`fade`}>
-      <div className="rectangle-testimonial bg-blue-100">
-        <GatsbyImage
-          className="absolute md:flex hidden top-4 md:top-10 left-0 w-4 md:w-10 h-4 md:h-10 pt-9 ml-9"
-          imgStyle={{ objectFit: "fill" }}
-          fluid={images["semicolon"].childImageSharp.fluid}
-        />
-        <h5 className="absolute text-sm top-0 text-gray-200 testimonial-margin">
-          {intl.formatMessage({
-            id: `OYW.testimonials.${testimonial.id}`,
-          })}
-        </h5>
-        <div className="oyw-testimonial-name-small">
-          <div className="flex flex-col md:flex-row mt-10 md:mt-0">
-            <div className="column sm:flex hidden">
-              <GatsbyImage
-                className="w-24 md:w-32 mx-auto my-2 rounded-full team-icons"
-                imgStyle={{ objectFit: "fill" }}
-                fluid={images[testimonial.id].childImageSharp.fluid}
-                alt="Annelisse Torrez Daza"
-              />
-            </div>
-            <div className="column">
-              <h5 className="mt-48 md:mt-4 text-sm md:rext-base font-semibold text-gray-200 text-center">
-                {testimonial.defaultName}
-              </h5>
-              <h6 className="text-sm text-center text-gray-200">
-                {testimonial.country}
-              </h6>
-            </div>
+      <div className="flex flex-col w-full h-auto rounded-2xl bg-blue-100 py-10  px-12 text-center sm:px-20">
+        <div className="w-full flex justify-center items-center">
+          <GatsbyImage
+            className="hidden sm:block mr-10 w-28 dis"
+            imgStyle={{ objectFit: "fill" }}
+            fluid={images["semicolon"].childImageSharp.fluid}
+          />
+          <p className="text-sm">
+            {intl.formatMessage({
+              id: `OYW.testimonials.${testimonial.id}`,
+            })}
+          </p>
+        </div>
+        <div className="w-auto flex justify-center items-center mt-6">
+          <GatsbyImage
+            className="w-24 md:w-32 rounded-full"
+            imgStyle={{ objectFit: "fill" }}
+            fluid={images[testimonial.id].childImageSharp.fluid}
+            alt="Annelisse Torrez Daza"
+          />
+          <div className="flex flex-col ml-6">
+            <p className="font-bold text-base">{testimonial.defaultName}</p>
+            <p className="text-left text-sm">{testimonial.country}</p>
           </div>
         </div>
       </div>
@@ -66,11 +60,11 @@ export default ({ images }) => {
     [currentSlide, setCurrentSlide]
   );
   return (
-    <section className="my-10 wrapper">
-      <h2 className="mb-4 text-xl font-bold text-gray-200 text-center">
+    <section style={{ maxWidth: "calc(100vw - 4rem)" }} className="w-full">
+      <h2 className="mb-6 mt-2 text-3xl font-bold text-center">
         {intl.formatMessage({ id: `OYW.testimonials.title` })}
       </h2>
-      <div className="mb-4 text-gray-200 text-sm lg:text-base text-center mx-10">
+      <div className="mb-8 text-center mx-6">
         <p>{intl.formatMessage({ id: `OYW.testimonials.intro` })} </p>
       </div>
       <div className="slideshow-container">
@@ -89,7 +83,7 @@ export default ({ images }) => {
           &#10095;
         </a>
       </div>
-      <div style={{ textAlign: "center" }}>
+      <div style={{ marginTop: "24px", textAlign: "center" }}>
         {oyw.testimonials.map((_, idx) => (
           <span
             className={`${currentSlide === idx + 1 ? " active " : ""} dot`}

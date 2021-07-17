@@ -30,11 +30,10 @@ export const query = graphql`
 const VideoList = (props) => {
   const { id, source } = props;
   return (
-    <div className=" wrapper md:flex">
+    <div className="w-full h-full">
       <iframe
+        style={{ width: "100%", height: "100%" }}
         key={id}
-        width="560"
-        height="315"
         title="YouTube video player"
         class="video"
         src={source}
@@ -62,29 +61,38 @@ export default function OYW({ data }) {
   return (
     <Layout>
       <SEO title="OYW | Virufy" />
-      <div className="wrapper items-center justify-between md:py-4">
-        <div className="pb-10 md:pb-0 pr-6">
+      <div className="items-center justify-between">
+        <div className="pr-6">
           <h1 classNmae="font-bold text-5xl w-full"></h1>
         </div>
       </div>
-      <div className="bg-blue-100 mx-0">
+      <div className="bg-blue-100">
         <p
-          className="text-xl text-center mt-8 mx-8 justify-items-center"
+          className="text-center mx-8 justify-items-center text-2xl py-4"
           dangerouslySetInnerHTML={{
             __html: intl.formatMessage({ id: "OYW.headers.topbanner" }),
           }}
         ></p>
       </div>
       {/* youtube */}
-      <div className="wrapper md:flex items-center justify-between md:py-4">
-        <div className="w-full">
+      <div className="px-8 h-auto grid gap-x-4 lg:grid-cols-2 mt-14">
+        <div className="w-full h-96 lg:h-full">
           {videos.map((item) => {
             return <VideoList id={item.id} source={item.source} />;
           })}
         </div>
-        <div className="w-full">
+        <div className="flex flex-col justify-center w-full pl-8">
+          <p className="font-bold text-3xl mt-8">
+            {intl.formatMessage({ id: "OYW.headers.header" })}
+          </p>
           <p
-            className="text-xl mt-8"
+            className="mt-6"
+            dangerouslySetInnerHTML={{
+              __html: intl.formatMessage({ id: "OYW.headers.sub-header" }),
+            }}
+          ></p>
+          <p
+            className="font-bold mt-20 mb-4"
             dangerouslySetInnerHTML={{
               __html: intl.formatMessage({ id: "OYW.headers.help" }),
             }}
@@ -92,157 +100,139 @@ export default function OYW({ data }) {
         </div>
       </div>
 
-      {/* Virufy & OYW */}
-      <div className="wrapper md:flex items-center justify-between md:py-4">
-        <div className="pb-10 md:pb-0 pr-6">
-          <h1 classNmae="font-bold text-5xl w-full">
-            <p
-              className="text-xl mt-8"
+      <div className="flex items-start justify-start flex-col xl:flex-row xl:items-end xl:justify-between mt-14 sm:pt-4 px-8 py-14">
+        <div>
+          <h2 className="mb-8 font-bold text-3xl">
+            {intl.formatMessage({ id: "OYW.section1.header" })}
+          </h2>
+          <ul class="list-disc mx-8">
+            <li
               dangerouslySetInnerHTML={{
-                __html: intl.formatMessage({ id: "OYW.headers.header" }),
+                __html: intl.formatMessage({ id: "OYW.section1.sub-header" }),
               }}
-            ></p>
-          </h1>
-          <p
-            className="text-xl mt-8"
+            ></li>
+            <li
+              dangerouslySetInnerHTML={{
+                __html: intl.formatMessage({ id: "OYW.section1.sub-header2" }),
+              }}
+            ></li>
+          </ul>
+
+          <h2 className="font-bold text-2xl mb-4 mt-6">
+            {intl.formatMessage({ id: "OYW.sectionHi.header" })}
+          </h2>
+          <ul class="list-disc mx-8 mb-6">
+            <li
+              className="text-lg"
+              dangerouslySetInnerHTML={{
+                __html: intl.formatMessage({ id: "OYW.sectionHi.amil" }),
+              }}
+            ></li>
+            <li
+              className="text-lg"
+              dangerouslySetInnerHTML={{
+                __html: intl.formatMessage({ id: "OYW.sectionHi.yulie" }),
+              }}
+            ></li>
+            <li
+              className="text-lg"
+              dangerouslySetInnerHTML={{
+                __html: intl.formatMessage({ id: "OYW.sectionHi.ayomide" }),
+              }}
+            ></li>
+            <li
+              className="text-lg"
+              dangerouslySetInnerHTML={{
+                __html: intl.formatMessage({ id: "OYW.sectionHi.shreya" }),
+              }}
+            ></li>
+          </ul>
+          <div
+            className="text-lg mt-8"
             dangerouslySetInnerHTML={{
-              __html: intl.formatMessage({ id: "OYW.headers.sub-header" }),
+              __html: intl.formatMessage({ id: "OYW.sectionHi.join" }),
             }}
-          ></p>
+          ></div>
         </div>
-        <div className="w-full">
+        <GatsbyImage
+          className="w-96 mt-10 xl:mt-0"
+          imgStyle={{ objectFit: "contain" }}
+          fluid={images["oyw"].childImageSharp.fluid}
+        />
+      </div>
+      <section className="bg-black px-8 py-16 mb-20 h-auto grid gap-10 md:grid-cols-2 xl:grid-cols-4">
+        {/* global impact */}
+        <div className="bg-white flex flex-col items-center py-10 px-10 md:px-2 rounded-2xl">
           <GatsbyImage
-            className="my-6 md:my-0 items-end w-7-12 lg:flex hidden"
-            fluid={images["oyw"].childImageSharp.fluid}
+            className="mx-auto my-6 w-16 h-28"
+            imgStyle={{ objectFit: "contain" }}
+            fluid={images["globe"].childImageSharp.fluid}
           />
+          <div className="w-full md:w-10/12">
+            <h2 className="mt-2 mb-4 text-center text-xl font-bold text-gray-200">
+              {intl.formatMessage({ id: "OYW.section2.header" })}
+            </h2>
+            <p className="text-center text-sm">
+              {intl.formatMessage({ id: "OYW.section2.sub-header" })}
+            </p>
+          </div>
         </div>
-      </div>
-      <div className="mt-10 wrapper">
-        <h2 className="mb-4 text-2xl font-bold text-gray-200">
-          {intl.formatMessage({ id: "OYW.section1.header" })}
-        </h2>
-        <ul class="list-disc mx-8">
-          <li
-            className="text-lg"
-            dangerouslySetInnerHTML={{
-              __html: intl.formatMessage({ id: "OYW.section1.sub-header" }),
-            }}
-          ></li>
-          <li
-            className="text-lg"
-            dangerouslySetInnerHTML={{
-              __html: intl.formatMessage({ id: "OYW.section1.sub-header2" }),
-            }}
-          ></li>
-        </ul>
 
-        <h2 className="text-2xl font-bold text-gray-200 my-4">
-          {intl.formatMessage({ id: "OYW.sectionHi.header" })}
-        </h2>
-        <ul class="list-disc mx-8">
-          <li
-            className="text-lg"
-            dangerouslySetInnerHTML={{
-              __html: intl.formatMessage({ id: "OYW.sectionHi.amil" }),
-            }}
-          ></li>
-          <li
-            className="text-lg"
-            dangerouslySetInnerHTML={{
-              __html: intl.formatMessage({ id: "OYW.sectionHi.yulie" }),
-            }}
-          ></li>
-          <li
-            className="text-lg"
-            dangerouslySetInnerHTML={{
-              __html: intl.formatMessage({ id: "OYW.sectionHi.ayomide" }),
-            }}
-          ></li>
-          <li
-            className="text-lg"
-            dangerouslySetInnerHTML={{
-              __html: intl.formatMessage({ id: "OYW.sectionHi.shreya" }),
-            }}
-          ></li>
-        </ul>
-        <div
-          className="text-xl"
-          dangerouslySetInnerHTML={{
-            __html: intl.formatMessage({ id: "OYW.sectionHi.join" }),
-          }}
-        ></div>
-
-        <section className="flex flex-wrap mb-10 wrapper md:justify-between">
-          {/* global impact */}
-          <div className="flex flex-wrap justify-center my-5 md:w-1/2 md:my-10 md:flex-no-wrap md:justify-start">
-            <div className="w-full">
-              <GatsbyImage
-                className="my-6 md:my-0 md:w-2/12 mb-4 lg:flex hidden"
-                fluid={images["globe"].childImageSharp.fluid}
-              />
-            </div>
-
-            <div className="w-full md:w-10/12">
-              <h2 className="mb-2 text-2xl font-bold text-gray-200">
-                {intl.formatMessage({ id: "OYW.section2.header" })}
-              </h2>
-              <p>{intl.formatMessage({ id: "OYW.section2.sub-header" })}</p>
-            </div>
+        {/* youth */}
+        <div className="bg-white flex flex-col items-center py-10 px-10 md:px-2 rounded-2xl">
+          <GatsbyImage
+            className="mx-auto w-24 h-40"
+            imgStyle={{ objectFit: "contain" }}
+            fluid={images["youth"].childImageSharp.fluid}
+          />
+          <div className="w-full md:w-10/12">
+            <h2 className="mt-2 mb-4 text-center text-xl font-bold text-gray-200">
+              {intl.formatMessage({ id: "OYW.section2.youth" })}
+            </h2>
+            <p className="text-center text-sm">
+              {intl.formatMessage({ id: "OYW.section2.youth-des" })}
+            </p>
           </div>
+        </div>
+        {/* ambassador impact */}
+        <div className="bg-white flex flex-col items-center py-10 px-10 md:px-2 rounded-2xl">
+          <GatsbyImage
+            className="mx-auto w-24 h-40"
+            imgStyle={{ objectFit: "contain" }}
+            fluid={images["ambassador"].childImageSharp.fluid}
+          />
+          <div className="w-full md:w-10/12">
+            <h2 className="mt-2 mb-4 text-center text-xl font-bold text-gray-200">
+              {intl.formatMessage({ id: "OYW.section2.ambassador" })}
+            </h2>
+            <p className="text-center text-sm">
+              {intl.formatMessage({ id: "OYW.section2.ambassador-des" })}
+            </p>
+          </div>
+        </div>
+        {/* diverse */}
+        <div className="bg-white flex flex-col items-center py-10 px-10 md:px-2 rounded-2xl">
+          <GatsbyImage
+            className="mx-auto w-24 h-40"
+            imgStyle={{ objectFit: "contain" }}
+            fluid={images["diverse"].childImageSharp.fluid}
+          />
+          <div className="w-full md:w-10/12">
+            <h2 className="mt-2 mb-4 text-center text-xl font-bold text-gray-200">
+              {intl.formatMessage({ id: "OYW.section2.diverse" })}
+            </h2>
+            <p className="text-center text-sm">
+              {intl.formatMessage({ id: "OYW.section2.diverse-des" })}
+            </p>
+          </div>
+        </div>
+      </section>
 
-          {/* youth */}
-          <div className="flex flex-wrap justify-center my-5 md:w-1/2 md:my-10 md:flex-no-wrap md:justify-start">
-            <div className="w-full">
-              <GatsbyImage
-                className="my-6 md:my-0 md:pr-2 md:w-3/12 mb-4 lg:flex hidden"
-                fluid={images["youth"].childImageSharp.fluid}
-              />
-            </div>
-            <div className="w-full md:w-10/12">
-              <h2 className="mb-2 text-2xl font-bold text-gray-200">
-                {intl.formatMessage({ id: "OYW.section2.youth" })}
-              </h2>
-              <p>{intl.formatMessage({ id: "OYW.section2.youth-des" })}</p>
-            </div>
-          </div>
-          {/* ambassador impact */}
-          <div className="flex flex-wrap justify-center my-5 md:w-1/2 md:my-10 md:flex-no-wrap md:justify-start">
-            <div className="w-full">
-              <GatsbyImage
-                className="my-6 md:my-0 md:w-3/12 mb-4 lg:flex hidden"
-                fluid={images["ambassador"].childImageSharp.fluid}
-              />
-            </div>
-            <div className="w-full md:w-10/12">
-              <h2 className="mb-2 text-2xl font-bold text-gray-200">
-                {intl.formatMessage({ id: "OYW.section2.ambassador" })}
-              </h2>
-              <p>{intl.formatMessage({ id: "OYW.section2.ambassador-des" })}</p>
-            </div>
-          </div>
-          {/* diverse */}
-          <div className="flex flex-wrap justify-center my-5 md:w-1/2 md:my-10 md:flex-no-wrap md:justify-start">
-            <div className="w-full">
-              <GatsbyImage
-                className="my-6 md:my-0 md:pr-2 md:w-3/12 mb-4 lg:flex hidden"
-                fluid={images["diverse"].childImageSharp.fluid}
-              />
-            </div>
-            <div className="w-full md:w-10/12">
-              <h2 className="mb-2 text-2xl font-bold text-gray-200">
-                {intl.formatMessage({ id: "OYW.section2.diverse" })}
-              </h2>
-              <p>{intl.formatMessage({ id: "OYW.section2.diverse-des" })}</p>
-            </div>
-          </div>
-        </section>
-      </div>
-
-      <div className="flow-root">
-        <div className="md:w-1/2 lg:w-1/2 md:float-left lg:float-left">
+      <div className="px-8 grid gap-0 xl:grid-cols-2 mb-12">
+        <div className="border-b pb-12 xl:border-r xl:pt-4 xl:border-b-0 xl:pr-12 border-gray-400 border-solid">
           <Testimonials images={images} />
         </div>
-        <div className="md:w-1/2 lg:w-1/2 md:float-right lg:float-left">
+        <div className="pt-10 pl-0 xl:pl-12 xl:pt-4">
           <SupportersCarousel />
         </div>
       </div>

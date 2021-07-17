@@ -45,9 +45,9 @@ const Ambassador = (props) => {
 export default ({ images }) => {
   const intl = useIntl();
   return (
-    <section className="px-8 pb-24">
-      <div className="pb-12">
-        <h2 class="mb-4 text-4xl font-bold text-gray-200">
+    <section className="px-8 py-12 bg-blue-200">
+      <div className="pb-6">
+        <h2 class="text-3xl font-bold text-gray-200">
           {intl.formatMessage({ id: "OYW.ambassador.header" })}
         </h2>
       </div>

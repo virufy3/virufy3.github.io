@@ -41,8 +41,9 @@ h3 {
 /******
  Generics
  ******/
+
 .wrapper {
-  @apply px-6 mx-auto mt-8 max-w-screen-3xl md:pb-4 md:px-8 3xl:px-6 4xl:px-0;
+  @apply px-6 mx-auto mt-8 max-w-screen-3xl md:px-8 3xl:px-6 4xl:px-0;
 }
 
 .container {

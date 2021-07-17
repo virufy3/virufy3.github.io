@@ -5,125 +5,6 @@
     "code": "Código de erro: 404",
     "back": "Voltar à página inicial"
   },
-  "OYW": {
-    "headers": {
-      "header": "Virufy & One Young World",
-      "topbanner": "A <b>ferramenta</b> de triagem COVID gratuita na palma da sua mão. Imediata. Acessível. Anônimo.Tudo o que você precisará é de um smartphone e sua tosse - não importa onde você esteja no mundo.",
-      "sub-header": "Virufy foi inspirado pela OYW e é apoiado por delegados e embaixadores de todo o mundo. Leia sobre Virufy em <a target='_blank' href='https://oywj.org/ambassadors-in-action/2020/05/oywj-ambassador-targets-covid-19-using-ai/'><b>ambassadors in action</b></a> and <a target='_blank' href='https://www.oneyoungworld.com/north-american-ambassadors-frontlines-covid-19-response'><b>ambassadors on the frontline for COVID-19 response</b></a>.",
-      "help": "Ajude-nos a levar o Virufy aos hospitais e comunidades próximas a você! Juntos, vamos transformar a saúde e deter a propagação da COVID. E isto é apenas o começo - junte-se a nós na luta contra futuras pandemias também!"
-    },
-    "section1": {
-      "header": "Confira-nos na Cúpula da OYW 2021 em 25 de junho de 2021:",
-      "sub-header": "Yulie Qiao, Chefe de Operações da Virufy, falará durante a Sessão Plenária da COVID-19.",
-      "sub-header2": "Saiba mais sobre a Virufy na Exposição Digital."
-    },
-    "sectionHi": {
-      "header": "Venha dizer oi!",
-      "amil": "<b>Amil Khanzada</b> - OYW Embaixador do Japão & Fundador e CEO da Virufy",
-      "yulie": "<b>Yulie Qiao</b> - Delegada do bp, EUA & Virufy Operations",
-      "ayomide": "<b>Ayomide Owoyemi, MD</b> - Delegado da Novartis, Nigéria & Virufy ML Clinical Stats",
-      "shreya": "<b>Shreya Shreeram, MD</b> - Delegada Virufy, Índia & Virufy Clinical Research",
-      "join": "<b>Você pode ser parte da solução!</b> Visite nossa página <a target='_blank' href='https://virufy.org/en/available-roles/'>Join Page</a> para oportunidades de voluntariado abertas."
-    },
-    "section2": {
-      "header": "Focado no impacto global",
-      "sub-header": "Coletar dados e fornecer soluções eqüitativas para as pessoas nos países em desenvolvimento em todo o mundo.",
-      "youth": "Liderado por jovens",
-      "youth-des": "Nossa crescente equipe é liderada por jovens de mais de uma dúzia de países e é assessorada por líderes globais.",
-      "ambassador": "Conduzido por embaixadores",
-      "ambassador-des": "Nossa estrutura organizacional combina One Young World com embaixadores da juventude que lideram operações em cada país, com embaixadores coordenadores regionais.",
-      "diverse": "Representação diversificada",
-      "diverse-des": "Nossa equipe tem representação de mais de 25 universidades e 15 países e inclui mais de 10 embaixadores do One Young World."
-    },
-    "ambassador": {
-      "header": "Nossa comunidade OYW x Virufy",
-      "ambassador-list": {
-        "amil": {
-          "name": "Amil Khanzada",
-          "descriptionOYW": "Embaixador OYW, Japão",
-          "descriptionVirufy": "Fundador e líder da Virufy"
-        },
-        "madhav": {
-          "name": "Madhav Datt",
-          "descriptionOYW": "Embaixador OYW, India",
-          "descriptionVirufy": "Conselheiro Virufy"
-        },
-        "marcos": {
-          "name": "Marcos Deza",
-          "descriptionOYW": "Embaixador OYW, Argentina",
-          "descriptionVirufy": "Comunicaciones digitales Virufy"
-        },
-        "yulie": {
-          "name": "Yulie Qiao",
-          "descriptionOYW": "Delegada bp OYW 2021, EUA",
-          "descriptionVirufy": "Comunicações digitais Virufy"
-        },
-        "ayomide": {
-          "name": "Ayomide Owoyemi, MD",
-          "descriptionOYW": "Delegado OYW Novartis 2021, Nigéria",
-          "descriptionVirufy": "Estatísticas clínicas de aprendizado de máquina Virufy"
-        },
-        "shreya": {
-          "name": "Shreya Sreeram, MD",
-          "descriptionOYW": "Delegada Virufy 2021, India",
-          "descriptionVirufy": "Investigação clinica Virufy"
-        },
-        "lauravelasquezh": {
-          "name": "Laura Velasquez",
-          "descriptionOYW": "Delegada OYW Johnson & Johnson 2021, Colômbia",
-          "descriptionVirufy": "Presidenta e co-fundadora da Arkangel AI e parceira Virufy"
-        },
-        "nathan": {
-          "name": "Nathan Thomas",
-          "descriptionOYW": "Embaixador Coordenador OYW, EUA",
-          "descriptionVirufy": " "
-        },
-        "jason": {
-          "name": "Jason Pareja Jauregui",
-          "descriptionOYW": "Embaixador Coordenador OYW LATAM, Peru",
-          "descriptionVirufy": " "
-        },
-        "katherine": {
-          "name": "Katherine Thalia Ortiz León",
-          "descriptionOYW": "Embaixadora OYW, Peru",
-          "descriptionVirufy": " "
-        },
-        "gonzalo": {
-          "name": "Gonzalo Roiffe",
-          "descriptionOYW": "Embaixador OYW, Argentina",
-          "descriptionVirufy": " "
-        },
-        "annelisse": {
-          "name": "Annelisse Torrez Daza",
-          "descriptionOYW": "Embaixadora OYW, Bolívia",
-          "descriptionVirufy": " "
-        },
-        "veronica": {
-          "name": "Verónica Guzmán Quilaqueo",
-          "descriptionOYW": "Embaixadora OYW, Chile",
-          "descriptionVirufy": " "
-        },
-        "sebastian": {
-          "name": "Sebastian Pedraza",
-          "descriptionOYW": "Embaixador OYW, Colômbia",
-          "descriptionVirufy": " "
-        },
-        "kenmaru": {
-          "name": "Kenmaru Suedomi",
-          "descriptionOYW": "Embaixador OYW, Japão",
-          "descriptionVirufy": " "
-        }
-      }
-    },
-    "testimonials": {
-      "title": "Histórias de Voluntários",
-      "intro": "Nossa equipe é liderada por estudantes dedicados ao bem social de instituições de renome como Stanford, Princeton e One Young World. Temos forte confiança nos membros da comunidade One Young World e acolhemos calorosamente quaisquer embaixadores interessados em participar.",
-      "annelisse": "Tendo sofrido através da COVID, eu mesmo e toda minha família em um país carente, soube imediatamente que poderia fazer a diferença e impedir que outros enfrentassem meu mesmo destino ao me unir à Virufy.",
-      "sebastian": "Virufy une o poder da juventude e da tecnologia para transformar o mundo. Esperamos que esta solução chegue ao mundo inteiro e que se torne um apoio para os médicos, especialmente nos países de baixa renda.",
-      "gonzalo": "Virufy terá impacto global, não importando o histórico ou o status social dos usuários. Isto é o que parece mudar o status quo.",
-      "marcos": " Eu acho que a Virufy desenvolverá uma solução muito precisa e isto será útil para o mundo inteiro em todos os setores. Por isso, encorajo a todos a dedicar alguns minutos e contribuir conosco."
-    }
-  },
   "dashboard": {
     "header": "Dashboard de Nuestros Datos Recolectados",
     "sub-header": "Tu tos nos ayuda a mejorar nuestro modelo predictivo, siendo <b>crucial</b> en la lucha contra <b>COVID-19</b>. ¡Mirá el progreso que hemos logrado y doná tu tos!",
@@ -489,6 +370,125 @@
       "generalCategory": "Geral",
       "moreQuestionsQ": "E se eu tiver mais perguntas?",
       "moreQuestionsA": "Mais detalhes podem ser encontrados em nossas Política de Privacidade, Política de Cookies, e Formulário de Consentimento que estão incutidos no nosso App de coleta de dados. Para questões relacionadas ao estudo de coleta de dados, por favor nos contate por meio do email <a href='mailto:study@virufy.org'>study@virufy.org</a>. Para consultas relacionadas a dados, nós podemos ser contatados através do email open-data@virufy.org . Para quaisquer outras dúvidas, você pode entrar em contato por meio do email <a href='mailto:info@virufy.org'>info@virufy.org</a>"
+    }
+  },
+  "OYW": {
+    "headers": {
+      "header": "Virufy & One Young World",
+      "topbanner": "A <b>ferramenta</b> de triagem COVID gratuita na palma da sua mão. Imediata. Acessível. Anônimo.Tudo o que você precisará é de um smartphone e sua tosse - não importa onde você esteja no mundo.",
+      "sub-header": "Virufy foi inspirado pela OYW e é apoiado por delegados e embaixadores de todo o mundo. Leia sobre Virufy em <a target='_blank' href='https://oywj.org/ambassadors-in-action/2020/05/oywj-ambassador-targets-covid-19-using-ai/'><b>ambassadors in action</b></a> and <a target='_blank' href='https://www.oneyoungworld.com/north-american-ambassadors-frontlines-covid-19-response'><b>ambassadors on the frontline for COVID-19 response</b></a>.",
+      "help": "Ajude-nos a levar o Virufy aos hospitais e comunidades próximas a você! Juntos, vamos transformar a saúde e deter a propagação da COVID. E isto é apenas o começo - junte-se a nós na luta contra futuras pandemias também!"
+    },
+    "section1": {
+      "header": "Confira-nos na Cúpula da OYW 2021 em 25 de junho de 2021:",
+      "sub-header": "Yulie Qiao, Chefe de Operações da Virufy, falará durante a Sessão Plenária da COVID-19.",
+      "sub-header2": "Saiba mais sobre a Virufy na Exposição Digital."
+    },
+    "sectionHi": {
+      "header": "Venha dizer oi!",
+      "amil": "<b>Amil Khanzada</b> - OYW Embaixador do Japão & Fundador e CEO da Virufy",
+      "yulie": "<b>Yulie Qiao</b> - Delegada do bp, EUA & Virufy Operations",
+      "ayomide": "<b>Ayomide Owoyemi, MD</b> - Delegado da Novartis, Nigéria & Virufy ML Clinical Stats",
+      "shreya": "<b>Shreya Shreeram, MD</b> - Delegada Virufy, Índia & Virufy Clinical Research",
+      "join": "<b>Você pode ser parte da solução!</b> Visite nossa página <a target='_blank' href='https://virufy.org/en/available-roles/'>Join Page</a> para oportunidades de voluntariado abertas."
+    },
+    "section2": {
+      "header": "Focado no impacto global",
+      "sub-header": "Coletar dados e fornecer soluções eqüitativas para as pessoas nos países em desenvolvimento em todo o mundo.",
+      "youth": "Liderado por jovens",
+      "youth-des": "Nossa crescente equipe é liderada por jovens de mais de uma dúzia de países e é assessorada por líderes globais.",
+      "ambassador": "Conduzido por embaixadores",
+      "ambassador-des": "Nossa estrutura organizacional combina One Young World com embaixadores da juventude que lideram operações em cada país, com embaixadores coordenadores regionais.",
+      "diverse": "Representação diversificada",
+      "diverse-des": "Nossa equipe tem representação de mais de 25 universidades e 15 países e inclui mais de 10 embaixadores do One Young World."
+    },
+    "ambassador": {
+      "header": "Nossa comunidade OYW x Virufy",
+      "ambassador-list": {
+        "amil": {
+          "name": "Amil Khanzada",
+          "descriptionOYW": "Embaixador OYW, Japão",
+          "descriptionVirufy": "Fundador e líder da Virufy"
+        },
+        "madhav": {
+          "name": "Madhav Datt",
+          "descriptionOYW": "Embaixador OYW, India",
+          "descriptionVirufy": "Conselheiro Virufy"
+        },
+        "marcos": {
+          "name": "Marcos Deza",
+          "descriptionOYW": "Embaixador OYW, Argentina",
+          "descriptionVirufy": "Comunicaciones digitales Virufy"
+        },
+        "yulie": {
+          "name": "Yulie Qiao",
+          "descriptionOYW": "Delegada bp OYW 2021, EUA",
+          "descriptionVirufy": "Comunicações digitais Virufy"
+        },
+        "ayomide": {
+          "name": "Ayomide Owoyemi, MD",
+          "descriptionOYW": "Delegado OYW Novartis 2021, Nigéria",
+          "descriptionVirufy": "Estatísticas clínicas de aprendizado de máquina Virufy"
+        },
+        "shreya": {
+          "name": "Shreya Sreeram, MD",
+          "descriptionOYW": "Delegada Virufy 2021, India",
+          "descriptionVirufy": "Investigação clinica Virufy"
+        },
+        "lauravelasquezh": {
+          "name": "Laura Velasquez",
+          "descriptionOYW": "Delegada OYW Johnson & Johnson 2021, Colômbia",
+          "descriptionVirufy": "Presidenta e co-fundadora da Arkangel AI e parceira Virufy"
+        },
+        "nathan": {
+          "name": "Nathan Thomas",
+          "descriptionOYW": "Embaixador Coordenador OYW, EUA",
+          "descriptionVirufy": " "
+        },
+        "jason": {
+          "name": "Jason Pareja Jauregui",
+          "descriptionOYW": "Embaixador Coordenador OYW LATAM, Peru",
+          "descriptionVirufy": " "
+        },
+        "katherine": {
+          "name": "Katherine Thalia Ortiz León",
+          "descriptionOYW": "Embaixadora OYW, Peru",
+          "descriptionVirufy": " "
+        },
+        "gonzalo": {
+          "name": "Gonzalo Roiffe",
+          "descriptionOYW": "Embaixador OYW, Argentina",
+          "descriptionVirufy": " "
+        },
+        "annelisse": {
+          "name": "Annelisse Torrez Daza",
+          "descriptionOYW": "Embaixadora OYW, Bolívia",
+          "descriptionVirufy": " "
+        },
+        "veronica": {
+          "name": "Verónica Guzmán Quilaqueo",
+          "descriptionOYW": "Embaixadora OYW, Chile",
+          "descriptionVirufy": " "
+        },
+        "sebastian": {
+          "name": "Sebastian Pedraza",
+          "descriptionOYW": "Embaixador OYW, Colômbia",
+          "descriptionVirufy": " "
+        },
+        "kenmaru": {
+          "name": "Kenmaru Suedomi",
+          "descriptionOYW": "Embaixador OYW, Japão",
+          "descriptionVirufy": " "
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Histórias de Voluntários",
+      "intro": "Nossa equipe é liderada por estudantes dedicados ao bem social de instituições de renome como Stanford, Princeton e One Young World. Temos forte confiança nos membros da comunidade One Young World e acolhemos calorosamente quaisquer embaixadores interessados em participar.",
+      "annelisse": "Tendo sofrido através da COVID, eu mesmo e toda minha família em um país carente, soube imediatamente que poderia fazer a diferença e impedir que outros enfrentassem meu mesmo destino ao me unir à Virufy.",
+      "sebastian": "Virufy une o poder da juventude e da tecnologia para transformar o mundo. Esperamos que esta solução chegue ao mundo inteiro e que se torne um apoio para os médicos, especialmente nos países de baixa renda.",
+      "gonzalo": "Virufy terá impacto global, não importando o histórico ou o status social dos usuários. Isto é o que parece mudar o status quo.",
+      "marcos": " Eu acho que a Virufy desenvolverá uma solução muito precisa e isto será útil para o mundo inteiro em todos os setores. Por isso, encorajo a todos a dedicar alguns minutos e contribuir conosco."
     }
   },
   "paper": {
