@@ -38,13 +38,17 @@ export default function Dashboard({ data }) {
         </div>
       </div>
       {/* COUNTER */}
-      <div className="w-full h-auto sm:h-screen grid justify-items-center px-8">
+      <div
+        className="w-full h-auto sm:h-screen grid justify-items-center"
+        syle={{ marginBottom: "50vh" }}
+      >
         <iframe
           className="inset-0"
           frameborder="0"
           width="75%"
           height="100%"
           scrolling="no"
+          syle={{ marginBottom: "50vh" }}
           src="https://datastudio.google.com/embed/reporting/a8be8870-2823-40d9-9159-a1f5bde05502/page/FSMVC"
           allowfullscreen
           style={{ border: 0 }}
