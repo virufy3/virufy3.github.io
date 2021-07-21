@@ -42,7 +42,7 @@ export default () => {
         {intl.formatMessage({ id: "team.supportersSection.description" })}
       </p>
       <div className="w-full flex items-center justify-center flex-row flex-wrap pt-8">
-        <div className="flex-grow min-w-250 w-1/5 px-16 py-8">
+        <div style={{ flex: "0 1 20%" }} className="min-w-250 p-10 max-w-full">
           <a href={supporter_links.oneYoungWorld} target="_blank">
             <GatsbyImage
               imgStyle={{ objectFit: "contain" }}
@@ -51,7 +51,7 @@ export default () => {
             />
           </a>
         </div>
-        <div className="flex-grow min-w-250 w-1/5 px-16 py-8">
+        <div style={{ flex: "0 1 20%" }} className="min-w-250 p-10 max-w-full">
           <a href={supporter_links.stanford} target="_blank">
             <GatsbyImage
               imgStyle={{ objectFit: "contain" }}
@@ -60,7 +60,7 @@ export default () => {
             />
           </a>
         </div>
-        <div className="flex-grow min-w-250 w-1/5 px-16 py-8">
+        <div style={{ flex: "0 1 20%" }} className="min-w-250 p-10 max-w-full">
           <a href={supporter_links.xoor} target="_blank">
             <GatsbyImage
               imgStyle={{ objectFit: "contain" }}
@@ -69,7 +69,7 @@ export default () => {
             />
           </a>
         </div>
-        <div className="flex-grow min-w-250 w-1/5 px-16 py-8">
+        <div style={{ flex: "0 1 20%" }} className="min-w-250 p-10 max-w-full">
           <a href={supporter_links.responseLab} target="_blank">
             <GatsbyImage
               imgStyle={{ objectFit: "contain" }}
@@ -78,7 +78,7 @@ export default () => {
             />
           </a>
         </div>
-        <div className="flex-grow min-w-250 w-1/5 px-16 py-8">
+        <div style={{ flex: "0 1 20%" }} className="min-w-250 p-10 max-w-full">
           <a href={supporter_links.sherlock} target="_blank">
             <GatsbyImage
               imgStyle={{ objectFit: "contain" }}
@@ -87,7 +87,7 @@ export default () => {
             />
           </a>
         </div>
-        <div className="flex-grow min-w-250 w-1/5 px-16 py-8">
+        <div style={{ flex: "0 1 20%" }} className="min-w-250 p-10 max-w-full">
           <a href={supporter_links.nuvu} target="_blank">
             <GatsbyImage
               imgStyle={{ objectFit: "contain" }}
@@ -96,7 +96,7 @@ export default () => {
             />
           </a>
         </div>
-        <div className="flex-grow min-w-250 w-1/5 px-16 py-8">
+        <div style={{ flex: "0 1 20%" }} className="min-w-250 p-10 max-w-full">
           <a href={supporter_links.fenwick} target="_blank">
             <GatsbyImage
               imgStyle={{ objectFit: "contain" }}
@@ -105,7 +105,7 @@ export default () => {
             />
           </a>
         </div>
-        <div className="flex-grow min-w-250 w-1/5 px-16 py-8">
+        <div style={{ flex: "0 1 20%" }} className="min-w-250 p-10 max-w-full">
           <a href={supporter_links.curative} target="_blank">
             <GatsbyImage
               imgStyle={{ objectFit: "contain" }}
@@ -114,7 +114,7 @@ export default () => {
             />
           </a>
         </div>
-        <div className="flex-grow min-w-250 w-1/5 px-16 py-8">
+        <div style={{ flex: "0 1 20%" }} className="min-w-250 p-10 max-w-full">
           <a href={supporter_links.cccadv} target="_blank">
             <GatsbyImage
               imgStyle={{ objectFit: "contain" }}
@@ -123,12 +123,21 @@ export default () => {
             />
           </a>
         </div>
-        <div className="flex-grow min-w-250 w-1/5 px-16 py-8">
+        <div style={{ flex: "0 1 20%" }} className="min-w-250 p-10 max-w-full">
           <a href={supporter_links.parrolabs} target="_blank">
             <GatsbyImage
               imgStyle={{ objectFit: "contain" }}
               className="h-full max-h-24"
               fluid={images["parrolabs-logo-color"]}
+            />
+          </a>
+        </div>
+        <div style={{ flex: "0 1 20%" }} className="min-w-250 p-10 max-w-full">
+          <a href={supporter_links.pillsbury} target="_blank">
+            <GatsbyImage
+              imgStyle={{ objectFit: "contain" }}
+              className="h-full max-h-24"
+              fluid={images["pillsbury-logo-color"]}
             />
           </a>
         </div>
