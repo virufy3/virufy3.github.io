@@ -10,4 +10,5 @@ export default {
   fenwick: "https://www.fenwick.com/",
   nuvu: "https://www.nuvu.cc/",
   parrolabs: "https://www.parrolabs.com/",
+  pillsbury: "https://www.pillsburylaw.com/en/",
 };
