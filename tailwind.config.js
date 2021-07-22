@@ -124,9 +124,18 @@ module.exports = {
             transform: "translateX(calc(-1 * (100% - (100vw - 30vw))))",
           },
         },
+        bannermove_oyw: {
+          "0%": {
+            transform: "translateX(-900px)",
+          },
+          "100%": {
+            transform: "translateX(600px)",
+          },
+        },
       },
       animation: {
         bannermove: "bannermove 42s linear infinite",
+        bannermove_oyw: "bannermove_oyw 42s linear infinite",
       },
     },
   },

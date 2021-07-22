@@ -42,7 +42,7 @@ export default () => {
       <p className="w-10/12 text-center m-auto">
         {intl.formatMessage({ id: "team.supportersSection.description" })}
       </p>
-      <div className="grid overflow-x grid-rows-2 grid-flow-col gap-4 justify-center animate-bannermove pt-8">
+      <div className="grid overflow-x grid-rows-2 grid-flow-col gap-4 justify-center animate-bannermove_oyw pt-8">
         <div className="flex-grow min-w-250 w-1/2 px-10 py-8">
           <a href={supporter_links.oneYoungWorld} target="_blank">
             <GatsbyImage
@@ -130,6 +130,15 @@ export default () => {
               imgStyle={{ objectFit: "contain" }}
               className="h-full max-h-24"
               fluid={images["parrolabs-logo-color"]}
+            />
+          </a>
+        </div>
+        <div className="flex-grow min-w-250 w-1/2 px-10 py-8">
+          <a href={supporter_links.pillsbury} target="_blank">
+            <GatsbyImage
+              imgStyle={{ objectFit: "contain" }}
+              className="h-full max-h-24"
+              fluid={images["pillsbury-logo-color"]}
             />
           </a>
         </div>
